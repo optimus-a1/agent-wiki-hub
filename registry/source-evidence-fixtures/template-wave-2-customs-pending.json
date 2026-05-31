@@ -1,0 +1,25 @@
+{
+  "packet_id": "template-wave-2-customs-pending",
+  "created_on": "2026-05-31",
+  "created_by": "fixture-generator",
+  "description": "Customs pending template.",
+  "dry_run_only": true,
+  "entries": [
+    {
+      "ticket_id": "TICKET-SRC-014",
+      "status": "pending"
+    },
+    {
+      "ticket_id": "TICKET-SRC-015",
+      "status": "pending"
+    },
+    {
+      "ticket_id": "TICKET-SRC-016",
+      "status": "pending"
+    },
+    {
+      "ticket_id": "TICKET-SRC-017",
+      "status": "pending"
+    }
+  ]
+}

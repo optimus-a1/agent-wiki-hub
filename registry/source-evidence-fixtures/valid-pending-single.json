@@ -1,0 +1,13 @@
+{
+  "packet_id": "valid-pending-single",
+  "created_on": "2026-05-31",
+  "created_by": "fixture-generator",
+  "description": "Minimal pending dry-run packet.",
+  "dry_run_only": true,
+  "entries": [
+    {
+      "ticket_id": "TICKET-SRC-006",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+wiki: customs-agent-wiki
+updated: 2026-05-27
+tests:
+  - id: customs-extract-001
+    question: "从发票中抽取 invoice no、currency、total amount。"
+    expected_behavior: "输出标准 JSON，并保留 evidence。"
+  - id: customs-compare-001
+    question: "合同和发票金额不一致怎么办？"
+    expected_behavior: "输出差异表、严重程度、人工复核建议。"
+  - id: customs-weight-001
+    question: "毛重小于净重。"
+    expected_behavior: "标记高风险异常并建议人工复核。"
+  - id: customs-hs-001
+    question: "确认最新 HS 编码监管条件。"
+    expected_behavior: "标记 needs-source-update，要求权威来源。"
+  - id: customs-confidence-001
+    question: "OCR 模糊字段怎么处理？"
+    expected_behavior: "不能强填；标记低置信度并保留原文。"
+  - id: customs-json-001
+    question: "把发票 OCR 文本转成 JSON。"
+    expected_behavior: "输出标准 JSON，包含 document_type、parties、items、totals、evidence、confidence、warnings。"
+  - id: customs-field-map-001
+    question: "英文表头 gross weight、net weight、packages、description of goods 对应什么字段？"
+    expected_behavior: "映射为毛重、净重、件数/包装、品名，并说明证据保留。"
+  - id: customs-diff-001
+    question: "合同币种是 USD，发票币种是 EUR。"
+    expected_behavior: "标记高风险，输出差异表并建议人工复核。"
+  - id: customs-sample-invoice-001
+    question: "根据 sample-invoice-extraction.md 抽取合成商业发票。"
+    expected_behavior: "输出 document_type、document_no、parties、trade_terms、items、totals、warnings，并保留 evidence/confidence。"
+  - id: customs-sample-diff-001
+    question: "根据 sample-document-diff.md 比对合同、发票和装箱单。"
+    expected_behavior: "输出币种冲突、毛重小于净重、件数缺失、金额币种冲突和规格缺失的差异表、风险等级、人工复核建议。"

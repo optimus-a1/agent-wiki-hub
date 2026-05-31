@@ -1,0 +1,29 @@
+id: legal-agent-wiki
+name: Legal Information Agent Wiki
+version: 0.1.0
+language: zh-CN
+domain: legal_information
+risk_level: high
+freshness_requirement: high
+description: "合同与法律信息辅助知识库，只提供信息、清单和风险提示，不提供最终法律意见。"
+entrypoints:
+  - README.md
+  - AGENTS.md
+  - rules/core-rules.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+trigger_keywords: ["法律", "合同", "条款", "法务", "合规", "协议"]
+update_policy:
+  stable_knowledge: update when better rules or examples are found
+  current_facts: mark needs-source-update unless verified from authoritative sources
+safety:
+  require_human_confirmation_for_high_risk: true
+  no_secret_storage: true
+  no_autonomous_high_risk_execution: true

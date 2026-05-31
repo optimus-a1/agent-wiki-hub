@@ -1,0 +1,615 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "wave": "wave-3",
+  "planning_only": true,
+  "no_current_fact_write": true,
+  "work_order_dir": "registry/source-review-work-orders-wave-3",
+  "work_order_count": 10,
+  "high_risk_count": 0,
+  "human_gate_count": 0,
+  "work_order_paths": [
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-026.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-027.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-028.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-029.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-030.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-031.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-032.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-033.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-034.md",
+    "registry/source-review-work-orders-wave-3/TICKET-SRC-035.md"
+  ],
+  "work_orders": [
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-026",
+      "ticket_id": "TICKET-SRC-026",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-026",
+        "ticket_id": "TICKET-SRC-026",
+        "task_id": "SRC-026",
+        "wiki": "agent-engineering-wiki",
+        "priority": "P0",
+        "wave": "wave-3",
+        "risk_level": "medium",
+        "freshness": "medium",
+        "category": "technical_docs",
+        "topic": "current Codex Skill format, plugin behavior and tool capabilities",
+        "reviewer_role": "agent-engineering-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "official documentation",
+          "product changelog",
+          "local plugin manifest"
+        ],
+        "required_reading": [
+          "wikis/agent-engineering-wiki/AGENTS.md",
+          "wikis/agent-engineering-wiki/manifest.yaml",
+          "wikis/agent-engineering-wiki/README.md",
+          "wikis/agent-engineering-wiki/rules/",
+          "wikis/agent-engineering-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/agent-engineering-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-026 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-026 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-026",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-026.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-027",
+      "ticket_id": "TICKET-SRC-027",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-027",
+        "ticket_id": "TICKET-SRC-027",
+        "task_id": "SRC-027",
+        "wiki": "agent-engineering-wiki",
+        "priority": "P0",
+        "wave": "wave-3",
+        "risk_level": "medium",
+        "freshness": "medium",
+        "category": "technical_docs",
+        "topic": "current RAG frameworks, embedding models, vector databases and rerankers",
+        "reviewer_role": "agent-engineering-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "official documentation",
+          "release notes",
+          "benchmark report with date"
+        ],
+        "required_reading": [
+          "wikis/agent-engineering-wiki/AGENTS.md",
+          "wikis/agent-engineering-wiki/manifest.yaml",
+          "wikis/agent-engineering-wiki/README.md",
+          "wikis/agent-engineering-wiki/rules/",
+          "wikis/agent-engineering-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/agent-engineering-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-027 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-027 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-027",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-027.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-028",
+      "ticket_id": "TICKET-SRC-028",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-028",
+        "ticket_id": "TICKET-SRC-028",
+        "task_id": "SRC-028",
+        "wiki": "agent-engineering-wiki",
+        "priority": "P0",
+        "wave": "wave-3",
+        "risk_level": "medium",
+        "freshness": "medium",
+        "category": "technical_docs",
+        "topic": "current eval harnesses, model APIs and MCP/tool schemas",
+        "reviewer_role": "agent-engineering-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "official API documentation",
+          "tool schema",
+          "repository release notes"
+        ],
+        "required_reading": [
+          "wikis/agent-engineering-wiki/AGENTS.md",
+          "wikis/agent-engineering-wiki/manifest.yaml",
+          "wikis/agent-engineering-wiki/README.md",
+          "wikis/agent-engineering-wiki/rules/",
+          "wikis/agent-engineering-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/agent-engineering-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-028 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-028 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-028",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-028.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-029",
+      "ticket_id": "TICKET-SRC-029",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-029",
+        "ticket_id": "TICKET-SRC-029",
+        "task_id": "SRC-029",
+        "wiki": "coding-agent-wiki",
+        "priority": "P0",
+        "wave": "wave-3",
+        "risk_level": "medium",
+        "freshness": "medium",
+        "category": "general_current_fact",
+        "topic": "current OpenAI, Codex, GitHub or Vercel product behavior",
+        "reviewer_role": "software-maintainer-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "official product documentation",
+          "changelog",
+          "repository or API docs"
+        ],
+        "required_reading": [
+          "wikis/coding-agent-wiki/AGENTS.md",
+          "wikis/coding-agent-wiki/manifest.yaml",
+          "wikis/coding-agent-wiki/README.md",
+          "wikis/coding-agent-wiki/rules/",
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/coding-agent-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-029 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-029 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-029",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-029.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-030",
+      "ticket_id": "TICKET-SRC-030",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-030",
+        "ticket_id": "TICKET-SRC-030",
+        "task_id": "SRC-030",
+        "wiki": "coding-agent-wiki",
+        "priority": "P0",
+        "wave": "wave-3",
+        "risk_level": "medium",
+        "freshness": "medium",
+        "category": "general_current_fact",
+        "topic": "current cloud platform build, deploy, runtime and pricing behavior",
+        "reviewer_role": "software-maintainer-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "official platform documentation",
+          "status page",
+          "project deployment logs"
+        ],
+        "required_reading": [
+          "wikis/coding-agent-wiki/AGENTS.md",
+          "wikis/coding-agent-wiki/manifest.yaml",
+          "wikis/coding-agent-wiki/README.md",
+          "wikis/coding-agent-wiki/rules/",
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/coding-agent-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-030 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-030 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-030",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-030.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-031",
+      "ticket_id": "TICKET-SRC-031",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-031",
+        "ticket_id": "TICKET-SRC-031",
+        "task_id": "SRC-031",
+        "wiki": "coding-agent-wiki",
+        "priority": "P0",
+        "wave": "wave-3",
+        "risk_level": "medium",
+        "freshness": "medium",
+        "category": "security_advisory",
+        "topic": "current dependency vulnerabilities and security advisories",
+        "reviewer_role": "software-maintainer-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "official security advisory",
+          "package registry advisory",
+          "vendor bulletin"
+        ],
+        "required_reading": [
+          "wikis/coding-agent-wiki/AGENTS.md",
+          "wikis/coding-agent-wiki/manifest.yaml",
+          "wikis/coding-agent-wiki/README.md",
+          "wikis/coding-agent-wiki/rules/",
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/coding-agent-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-031 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-031 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-031",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-031.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-032",
+      "ticket_id": "TICKET-SRC-032",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-032",
+        "ticket_id": "TICKET-SRC-032",
+        "task_id": "SRC-032",
+        "wiki": "coding-agent-wiki",
+        "priority": "P0",
+        "wave": "wave-3",
+        "risk_level": "medium",
+        "freshness": "medium",
+        "category": "technical_docs",
+        "topic": "current framework, library, CLI and API parameters",
+        "reviewer_role": "software-maintainer-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "official documentation",
+          "release notes",
+          "source repository"
+        ],
+        "required_reading": [
+          "wikis/coding-agent-wiki/AGENTS.md",
+          "wikis/coding-agent-wiki/manifest.yaml",
+          "wikis/coding-agent-wiki/README.md",
+          "wikis/coding-agent-wiki/rules/",
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/coding-agent-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-032 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-032 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-032",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-032.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-033",
+      "ticket_id": "TICKET-SRC-033",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-033",
+        "ticket_id": "TICKET-SRC-033",
+        "task_id": "SRC-033",
+        "wiki": "content-agent-wiki",
+        "priority": "P1",
+        "wave": "wave-3",
+        "risk_level": "low",
+        "freshness": "medium",
+        "category": "general_current_fact",
+        "topic": "current image, chart, dataset and quote licensing",
+        "reviewer_role": "content-fact-check-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "license document",
+          "rights holder page",
+          "source terms of use"
+        ],
+        "required_reading": [
+          "wikis/content-agent-wiki/AGENTS.md",
+          "wikis/content-agent-wiki/manifest.yaml",
+          "wikis/content-agent-wiki/README.md",
+          "wikis/content-agent-wiki/rules/",
+          "wikis/content-agent-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/content-agent-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/content-agent-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-033 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-033 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-033",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-033.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-034",
+      "ticket_id": "TICKET-SRC-034",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-034",
+        "ticket_id": "TICKET-SRC-034",
+        "task_id": "SRC-034",
+        "wiki": "content-agent-wiki",
+        "priority": "P1",
+        "wave": "wave-3",
+        "risk_level": "low",
+        "freshness": "medium",
+        "category": "general_current_fact",
+        "topic": "current news, statistics, public quotes and social media claims",
+        "reviewer_role": "content-fact-check-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "primary source",
+          "official data release",
+          "dated reputable reporting"
+        ],
+        "required_reading": [
+          "wikis/content-agent-wiki/AGENTS.md",
+          "wikis/content-agent-wiki/manifest.yaml",
+          "wikis/content-agent-wiki/README.md",
+          "wikis/content-agent-wiki/rules/",
+          "wikis/content-agent-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/content-agent-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/content-agent-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-034 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-034 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-034",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-034.md"
+    },
+    {
+      "work_order_id": "WAVE3-WORKORDER-TICKET-SRC-035",
+      "ticket_id": "TICKET-SRC-035",
+      "human_confirmation_required": false,
+      "review": {
+        "review_id": "REVIEW-SRC-035",
+        "ticket_id": "TICKET-SRC-035",
+        "task_id": "SRC-035",
+        "wiki": "content-agent-wiki",
+        "priority": "P1",
+        "wave": "wave-3",
+        "risk_level": "low",
+        "freshness": "medium",
+        "category": "policy_or_regulation",
+        "topic": "current publishing platform rules, format limits and content policies",
+        "reviewer_role": "content-fact-check-reviewer",
+        "human_review_gate": false,
+        "suggested_sources": [
+          "platform policy center",
+          "creator documentation",
+          "account dashboard notices"
+        ],
+        "required_reading": [
+          "wikis/content-agent-wiki/AGENTS.md",
+          "wikis/content-agent-wiki/manifest.yaml",
+          "wikis/content-agent-wiki/README.md",
+          "wikis/content-agent-wiki/rules/",
+          "wikis/content-agent-wiki/sources/source-notes.md"
+        ],
+        "evidence_log": "wikis/content-agent-wiki/sources/source-refresh-log.md",
+        "source_notes": "wikis/content-agent-wiki/sources/source-notes.md",
+        "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-035 --status pending --dry-run",
+        "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-035 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+        "reason_for_wave_placement": "Placed in wave-3 because wave-1 active packet handling and wave-2 pending planning take precedence; this topic still needs authoritative evidence before any current-fact use.",
+        "dependencies": [
+          "current_fact_ready must remain false until evidence quality, completion, acceptance, and human gates pass.",
+          "Planning-only packet artifacts must not be imported as verified evidence.",
+          "Wave-1 active packet state must remain acceptance-compatible.",
+          "Wave-2 planning and pending packet artifacts must remain non-blocking until real evidence is collected."
+        ]
+      },
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-035",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-05-31",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+      },
+      "work_order_path": "registry/source-review-work-orders-wave-3/TICKET-SRC-035.md"
+    }
+  ]
+}

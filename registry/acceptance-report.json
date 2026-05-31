@@ -1,0 +1,354 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "steps": [
+    {
+      "name": "validate wiki structure and evals",
+      "command": "python.exe scripts/validate_wiki.py",
+      "returncode": 0,
+      "output": "VALIDATION PASSED (137 eval tests)",
+      "passed": true
+    },
+    {
+      "name": "check registry consistency",
+      "command": "python.exe scripts/check_registry_consistency.py",
+      "returncode": 0,
+      "output": "Wrote docs\\REGISTRY_CONSISTENCY.md\nWrote registry\\registry-consistency.json\nREGISTRY CONSISTENCY PASSED (234 checks)",
+      "passed": true
+    },
+    {
+      "name": "audit CI workflow",
+      "command": "python.exe scripts/audit_ci_workflow.py",
+      "returncode": 0,
+      "output": "Wrote docs\\CI_AUDIT.md\nWrote registry\\ci-audit.json\nCI WORKFLOW AUDIT PASSED (11 checks)",
+      "passed": true
+    },
+    {
+      "name": "audit page metadata",
+      "command": "python.exe scripts/audit_page_metadata.py",
+      "returncode": 0,
+      "output": "Wrote docs\\PAGE_METADATA_AUDIT.md\nWrote registry\\page-metadata-audit.json\nPAGE METADATA AUDIT PASSED (135 pages)",
+      "passed": true
+    },
+    {
+      "name": "audit content coverage",
+      "command": "python.exe scripts/audit_content_coverage.py",
+      "returncode": 0,
+      "output": "Wrote docs\\COVERAGE_AUDIT.md\nWrote registry\\coverage-audit.json\nCONTENT COVERAGE AUDIT PASSED (51 topics)",
+      "passed": true
+    },
+    {
+      "name": "check eval files",
+      "command": "python.exe scripts/check_eval_files.py",
+      "returncode": 0,
+      "output": "EVAL CHECK PASSED (137 tests)",
+      "passed": true
+    },
+    {
+      "name": "update search index",
+      "command": "python.exe scripts/update_index.py",
+      "returncode": 0,
+      "output": "Indexed 231 docs -> index\\search_index.json",
+      "passed": true
+    },
+    {
+      "name": "report wiki status",
+      "command": "python.exe scripts/report_wiki_status.py",
+      "returncode": 0,
+      "output": "Wrote docs\\WIKI_STATUS.md\nWrote registry\\wiki-status.json",
+      "passed": true
+    },
+    {
+      "name": "list source updates",
+      "command": "python.exe scripts/list_source_updates.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_UPDATE_QUEUE.md\nWrote registry\\source-update-queue.json\nQueued 35 source-update topics",
+      "passed": true
+    },
+    {
+      "name": "generate source refresh playbook",
+      "command": "python.exe scripts/generate_source_refresh_playbook.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REFRESH_PLAYBOOK.md\nWrote registry\\source-refresh-playbook.json\nSOURCE REFRESH PLAYBOOK GENERATED (35 tasks)",
+      "passed": true
+    },
+    {
+      "name": "generate source refresh tickets",
+      "command": "python.exe scripts/generate_source_refresh_tickets.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REFRESH_TICKETS.md\nWrote registry\\source-refresh-tickets.json\nSOURCE REFRESH TICKETS GENERATED (35 tickets)",
+      "passed": true
+    },
+    {
+      "name": "dry-run source evidence recorder",
+      "command": "python.exe scripts/record_source_evidence.py --ticket-id TICKET-SRC-006 --status pending --dry-run --allow-duplicate",
+      "returncode": 0,
+      "output": "- task_id: SRC-006\n  ticket_id: TICKET-SRC-006\n  topic: \"current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity\"\n  status: pending\n  verified_on: 2026-05-31\n  source_title: \"\"\n  source_publisher: \"\"\n  source_url_or_reference: \"\"\n  source_published_or_updated: \"unknown\"\n  source_accessed_on: 2026-05-31\n  evidence_summary: \"\"\n  affected_pages:\n    - wikis/finance-agent-wiki/sources/source-notes.md\n  confidence: \n  remaining_uncertainty: \"\"\n  human_reviewer: \"\"\n  follow_up: \"none\"",
+      "passed": true
+    },
+    {
+      "name": "generate source evidence packet importer",
+      "command": "python.exe scripts/import_source_evidence_packet.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET IMPORTER READY (no packet supplied)",
+      "passed": true
+    },
+    {
+      "name": "generate source evidence packet fixtures",
+      "command": "python.exe scripts/generate_source_evidence_packet_fixtures.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_FIXTURES.md\nWrote registry\\source-evidence-packet-fixtures.json\nWrote 8 fixtures to registry/source-evidence-fixtures\nSOURCE EVIDENCE PACKET FIXTURES GENERATED",
+      "passed": true
+    },
+    {
+      "name": "generate source refresh logs",
+      "command": "python.exe scripts/generate_source_refresh_logs.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REFRESH_LOG_STATUS.md\nWrote registry\\source-refresh-log-status.json\nSOURCE REFRESH LOGS READY (12 wikis)",
+      "passed": true
+    },
+    {
+      "name": "audit source refresh completion",
+      "command": "python.exe scripts/audit_source_refresh_completion.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REFRESH_COMPLETION_AUDIT.md\nWrote registry\\source-refresh-completion-audit.json\nSOURCE REFRESH COMPLETION AUDIT PASSED (35 open, 0 verified)",
+      "passed": true
+    },
+    {
+      "name": "audit source evidence quality",
+      "command": "python.exe scripts/audit_source_evidence_quality.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_EVIDENCE_QUALITY_AUDIT.md\nWrote registry\\source-evidence-quality-audit.json\nSOURCE EVIDENCE QUALITY AUDIT PASSED (13 entries, 0 issues)",
+      "passed": true
+    },
+    {
+      "name": "audit safety boundaries",
+      "command": "python.exe scripts/audit_safety_boundaries.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SAFETY_AUDIT.md\nWrote registry\\safety-audit.json\nSAFETY AUDIT PASSED (75 required checks)",
+      "passed": true
+    },
+    {
+      "name": "generate source refresh wave runner",
+      "command": "python.exe scripts/generate_source_refresh_wave_runner.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REFRESH_WAVE_RUNNER.md\nWrote registry\\source-refresh-wave-runner.json\nSOURCE REFRESH WAVE RUNNER GENERATED (35 open, 35 selected)",
+      "passed": true
+    },
+    {
+      "name": "generate source reviewer queue",
+      "command": "python.exe scripts/generate_source_reviewer_queue.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REVIEWER_QUEUE.md\nWrote registry\\source-reviewer-queue.json\nSOURCE REVIEWER QUEUE GENERATED (35 open, 16 human gates)",
+      "passed": true
+    },
+    {
+      "name": "generate source review session plan",
+      "command": "python.exe scripts/generate_source_review_session_plan.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REVIEW_SESSION_PLAN.md\nWrote registry\\source-review-session-plan.json\nSOURCE REVIEW SESSION PLAN GENERATED (13 selected, 13 human gates)",
+      "passed": true
+    },
+    {
+      "name": "generate source review packet bundle",
+      "command": "python.exe scripts/generate_source_review_packet_bundle.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REVIEW_PACKET_BUNDLE.md\nWrote registry\\source-review-packet-bundle.json\nWrote registry/source-review-packets/source-review-session-wave-1-pending.json\nWrote registry/source-review-packets/source-review-session-wave-1-pending.jsonl\nWrote registry/source-review-packets/source-review-session-wave-1-pending-checklist.md\nSOURCE REVIEW PACKET BUNDLE GENERATED (13 entries, 13 human gates)",
+      "passed": true
+    },
+    {
+      "name": "audit source review packets",
+      "command": "python.exe scripts/audit_source_review_packets.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REVIEW_PACKET_AUDIT.md\nWrote registry\\source-review-packet-audit.json\nSOURCE REVIEW PACKET AUDIT PASSED (2 packets, 26 entries)",
+      "passed": true
+    },
+    {
+      "name": "rehearse source review packet imports",
+      "command": "python.exe scripts/rehearse_source_review_packet_imports.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REVIEW_PACKET_REHEARSAL.md\nWrote registry\\source-review-packet-rehearsal.json\nSOURCE REVIEW PACKET REHEARSAL PASSED (2/2 dry-runs passed)",
+      "passed": true
+    },
+    {
+      "name": "generate source review readiness matrix",
+      "command": "python.exe scripts/generate_source_review_readiness_matrix.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REVIEW_READINESS_MATRIX.md\nWrote registry\\source-review-readiness-matrix.json\nSOURCE REVIEW READINESS MATRIX PASSED (13 ready, 22 queued)",
+      "passed": true
+    },
+    {
+      "name": "generate source review work orders",
+      "command": "python.exe scripts/generate_source_review_work_orders.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REVIEW_WORK_ORDERS.md\nWrote registry\\source-review-work-orders.json\nWrote registry\\source-review-work-orders\\manifest.json\nSOURCE REVIEW WORK ORDERS GENERATED (13 work orders, 13 human gates)",
+      "passed": true
+    },
+    {
+      "name": "dry-run source review packet bundle",
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks --allow-duplicate",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (13 entries)",
+      "passed": true
+    },
+    {
+      "name": "generate source refresh dashboard",
+      "command": "python.exe scripts/generate_source_refresh_dashboard.py",
+      "returncode": 0,
+      "output": "Wrote docs\\SOURCE_REFRESH_DASHBOARD.md\nWrote registry\\source-refresh-dashboard.json\nSOURCE REFRESH DASHBOARD GENERATED (35 open, 0 verified)",
+      "passed": true
+    },
+    {
+      "name": "pack wikis for navigation",
+      "command": "python.exe scripts/pack_wikis.py",
+      "returncode": 0,
+      "output": "packed packs\\agent-engineering-wiki.zip\npacked packs\\airdrop-agent-wiki.zip\npacked packs\\coding-agent-wiki.zip\npacked packs\\content-agent-wiki.zip\npacked packs\\customs-agent-wiki.zip\npacked packs\\ecommerce-agent-wiki.zip\npacked packs\\finance-agent-wiki.zip\npacked packs\\health-agent-wiki.zip\npacked packs\\legal-agent-wiki.zip\npacked packs\\nodeops-agent-wiki.zip\npacked packs\\research-agent-wiki.zip\npacked packs\\security-agent-wiki.zip\npacked packs\\agent-wiki-hub-all.zip",
+      "passed": true
+    },
+    {
+      "name": "generate hub navigation",
+      "command": "python.exe scripts/generate_hub_navigation.py",
+      "returncode": 0,
+      "output": "Wrote docs\\HUB_NAVIGATION.md\nWrote registry\\hub-navigation.json\nHUB NAVIGATION GENERATED (12 wikis)",
+      "passed": true
+    },
+    {
+      "name": "generate agent routing cards",
+      "command": "python.exe scripts/generate_agent_routing_cards.py",
+      "returncode": 0,
+      "output": "Wrote docs\\AGENT_ROUTING_CARDS.md\nWrote registry\\agent-routing-cards.json\nAGENT ROUTING CARDS GENERATED (12 cards)",
+      "passed": true
+    },
+    {
+      "name": "generate agent handoff",
+      "command": "python.exe scripts/generate_agent_handoff.py",
+      "returncode": 0,
+      "output": "Wrote docs\\AGENT_HANDOFF.md\nWrote registry\\agent-handoff.json\nAGENT HANDOFF GENERATED",
+      "passed": true
+    },
+    {
+      "name": "audit links",
+      "command": "python.exe scripts/audit_links.py",
+      "returncode": 0,
+      "output": "Wrote docs\\LINK_AUDIT.md\nWrote registry\\link-audit.json\nLINK AUDIT PASSED (3668 references)",
+      "passed": true
+    },
+    {
+      "name": "route query: risk control backtest paper trading",
+      "command": "python.exe scripts/route_wiki.py --query risk control backtest paper trading --json",
+      "returncode": 0,
+      "output": "{\n  \"generated\": \"2026-05-31\",\n  \"query\": \"risk control backtest paper trading\",\n  \"top_wiki\": \"finance-agent-wiki\",\n  \"source_update_required\": false,\n  \"source_update_terms\": [],\n  \"safety_gate_required\": true,\n  \"high_risk_terms\": [],\n  \"matches\": [\n    {\n      \"wiki\": \"finance-agent-wiki\",\n      \"name\": \"Finance Agent Wiki\",\n      \"score\": 58.3,\n      \"reasons\": [\n        \"alias:backtest\",\n        \"alias:paper trading\",\n        \"alias:risk control\",\n        \"alias:trading\",\n        \"token:backtest\",\n        \"token:control\",\n        \"token:paper\",\n        \"token:risk\",\n        \"token:trading\"\n      ],\n      \"priority\": \"P0\",\n      \"risk_level\": \"high\",\n      \"freshness_requirement\": \"high\",\n      \"required_reading_order\": [\n        \"wikis/finance-agent-wiki/AGENTS.md\",\n        \"wikis/finance-agent-wiki/manifest.yaml\",\n        \"wikis/finance-agent-wiki/README.md\",\n        \"wikis/finance-agent-wiki/rules/\",\n        \"wikis/finance-agent-wiki/workflows/\"\n      ],\n      \"source_gates\": [\n        \"wikis/finance-agent-wiki/sources/source-notes.md\",\n        \"wikis/finance-agent-wiki/sources/source-refresh-log.md\",\n        \"docs/SOURCE_UPDATE_QUEUE.md\",\n        \"docs/SOURCE_REFRESH_DASHBOARD.md\",\n        \"docs/SOURCE_REFRESH_PLAYBOOK.md\",\n        \"docs/SOURCE_REFRESH_TICKETS.md\",\n        \"docs/SOURCE_REFRESH_WAVE_RUNNER.md\",\n        \"docs/SOURCE_REVIEWER_QUEUE.md\",\n        \"docs/SOURCE_REVIEW_SESSION_PLAN.md\",\n        \"docs/SOURCE_REVIEW_READINESS_MATRIX.md\",\n        \"docs/SOURCE_REVIEW_WORK_ORDERS.md\",\n        \"docs/SOURCE_REVIEW_PACKET_BUNDLE.md\",\n        \"docs/SOURCE_REVIEW_PACKET_AUDIT.md\",\n        \"docs/SOURCE_REVIEW_PACKET_REHEARSAL.md\",\n        \"docs/SOURCE_EVIDENCE_RECORDER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md\",\n        \"docs/SOURCE_REFRESH_COMPLETION_AUDIT.md\",\n        \"docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md\"\n      ],\n      \"safety_rules\": [\n        \"Educational, research, and simulation use only.\",\n        \"Do not provide personalized investment advice.\",\n        \"Default to paper trading or human-approved simulation.\",\n        \"Require human confirmation before any high-risk financial action.\"\n      ],\n      \"prohibited_actions\": [\n        \"Autonomous real-money order placement.\",\n        \"Personalized buy, sell, hold, leverage, or allocation instructions.\",\n        \"Claims about current prices, rates, exchange rules, or market conditions without source refresh.\"\n      ],\n      \"package\": \"packs/finance-agent-wiki.zip\"\n    },\n    {\n      \"wiki\": \"research-agent-wiki\",\n      \"name\": \"Research Agent Wiki\",\n      \"score\": 14.1,\n      \"reasons\": [\n        \"alias:paper\",\n        \"token:paper\"\n      ],\n      \"priority\": \"P2\",\n      \"risk_level\": \"medium\",\n      \"freshness_requirement\": \"high\",\n      \"required_reading_order\": [\n        \"wikis/research-agent-wiki/AGENTS.md\",\n        \"wikis/research-agent-wiki/manifest.yaml\",\n        \"wikis/research-agent-wiki/README.md\",\n        \"wikis/research-agent-wiki/rules/\",\n        \"wikis/research-agent-wiki/workflows/\"\n      ],\n      \"source_gates\": [\n        \"wikis/research-agent-wiki/sources/source-notes.md\",\n        \"wikis/research-agent-wiki/sources/source-refresh-log.md\",\n        \"docs/SOURCE_UPDATE_QUEUE.md\",\n        \"docs/SOURCE_REFRESH_DASHBOARD.md\",\n        \"docs/SOURCE_REFRESH_PLAYBOOK.md\",\n        \"docs/SOURCE_REFRESH_TICKETS.md\",\n        \"docs/SOURCE_REFRESH_WAVE_RUNNER.md\",\n        \"docs/SOURCE_REVIEWER_QUEUE.md\",\n        \"docs/SOURCE_REVIEW_SESSION_PLAN.md\",\n        \"docs/SOURCE_REVIEW_READINESS_MATRIX.md\",\n        \"docs/SOURCE_REVIEW_WORK_ORDERS.md\",\n        \"docs/SOURCE_REVIEW_PACKET_BUNDLE.md\",\n        \"docs/SOURCE_REVIEW_PACKET_AUDIT.md\",\n        \"docs/SOURCE_REVIEW_PACKET_REHEARSAL.md\",\n        \"docs/SOURCE_EVIDENCE_RECORDER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md\",\n        \"docs/SOURCE_REFRESH_COMPLETION_AUDIT.md\",\n        \"docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md\"\n      ],\n      \"safety_rules\": [\n        \"Keep citations traceable to source text.\",\n        \"Label speculation, limitations, and unresolved evidence gaps.\",\n        \"Mark newest papers, datasets, leaderboards, and benchmarks as source-update topics.\"\n      ],\n      \"prohibited_actions\": [\n        \"Fabricating citations, abstracts, datasets, or benchmark results.\",\n        \"Presenting weak or unverified evidence as consensus.\",\n        \"Omitting limitations that affect interpretation.\"\n      ],\n      \"package\": \"packs/research-agent-wiki.zip\"\n    },\n    {\n      \"wiki\": \"customs-agent-wiki\",\n      \"name\": \"Customs Document Agent Wiki\",\n      \"score\": 2.3,\n      \"reasons\": [\n        \"token:risk\"\n      ],\n      \"priority\": \"P0\",\n      \"risk_level\": \"medium\",\n      \"freshness_requirement\": \"high\",\n      \"required_reading_order\": [\n        \"wikis/customs-agent-wiki/AGENTS.md\",\n        \"wikis/customs-agent-wiki/manifest.yaml\",\n        \"wikis/customs-agent-wiki/README.md\",\n        \"wikis/customs-agent-wiki/rules/\",\n        \"wikis/customs-agent-wiki/workflows/\"\n      ],\n      \"source_gates\": [\n        \"wikis/customs-agent-wiki/sources/source-notes.md\",\n        \"wikis/customs-agent-wiki/sources/source-refresh-log.md\",\n        \"docs/SOURCE_UPDATE_QUEUE.md\",\n        \"docs/SOURCE_REFRESH_DASHBOARD.md\",\n        \"docs/SOURCE_REFRESH_PLAYBOOK.md\",\n        \"docs/SOURCE_REFRESH_TICKETS.md\",\n        \"docs/SOURCE_REFRESH_WAVE_RUNNER.md\",\n        \"docs/SOURCE_REVIEWER_QUEUE.md\",\n        \"docs/SOURCE_REVIEW_SESSION_PLAN.md\",\n        \"docs/SOURCE_REVIEW_READINESS_MATRIX.md\",\n        \"docs/SOURCE_REVIEW_WORK_ORDERS.md\",\n        \"docs/SOURCE_REVIEW_PACKET_BUNDLE.md\",\n        \"docs/SOURCE_REVIEW_PACKET_AUDIT.md\",\n        \"docs/SOURCE_REVIEW_PACKET_REHEARSAL.md\",\n        \"docs/SOURCE_EVIDENCE_RECORDER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md\",\n        \"docs/SOURCE_REFRESH_COMPLETION_AUDIT.md\",\n        \"docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md\"\n      ],\n      \"safety_rules\": [\n        \"Treat outputs as structured review support, not final customs advice.\",\n        \"Preserve source snippets, confidence, and unresolved fields.\",\n        \"Flag policy, tariff, HS code, and regulatory questions as source-update topics.\",\n        \"Require manual review for medium and high risk discrepancies.\"\n      ],\n      \"prohibited_actions\": [\n        \"Inventing missing document values.\",\n        \"Presenting current customs policy or legal classification as verified without authoritative sources.\",\n        \"Hiding OCR uncertainty or document conflicts.\"\n      ],\n      \"package\": \"packs/customs-agent-wiki.zip\"\n    }\n  ]\n}",
+      "passed": true,
+      "top_wiki": "finance-agent-wiki",
+      "expected_wiki": "finance-agent-wiki"
+    },
+    {
+      "name": "route query: field extraction invoice packing list",
+      "command": "python.exe scripts/route_wiki.py --query field extraction invoice packing list --json",
+      "returncode": 0,
+      "output": "{\n  \"generated\": \"2026-05-31\",\n  \"query\": \"field extraction invoice packing list\",\n  \"top_wiki\": \"customs-agent-wiki\",\n  \"source_update_required\": false,\n  \"source_update_terms\": [],\n  \"safety_gate_required\": false,\n  \"high_risk_terms\": [],\n  \"matches\": [\n    {\n      \"wiki\": \"customs-agent-wiki\",\n      \"name\": \"Customs Document Agent Wiki\",\n      \"score\": 44.3,\n      \"reasons\": [\n        \"alias:invoice\",\n        \"alias:packing list\",\n        \"alias:field extraction\",\n        \"token:extraction\",\n        \"token:field\",\n        \"token:invoice\",\n        \"token:packing\"\n      ],\n      \"priority\": \"P0\",\n      \"risk_level\": \"medium\",\n      \"freshness_requirement\": \"high\",\n      \"required_reading_order\": [\n        \"wikis/customs-agent-wiki/AGENTS.md\",\n        \"wikis/customs-agent-wiki/manifest.yaml\",\n        \"wikis/customs-agent-wiki/README.md\",\n        \"wikis/customs-agent-wiki/rules/\",\n        \"wikis/customs-agent-wiki/workflows/\"\n      ],\n      \"source_gates\": [\n        \"wikis/customs-agent-wiki/sources/source-notes.md\",\n        \"wikis/customs-agent-wiki/sources/source-refresh-log.md\",\n        \"docs/SOURCE_UPDATE_QUEUE.md\",\n        \"docs/SOURCE_REFRESH_DASHBOARD.md\",\n        \"docs/SOURCE_REFRESH_PLAYBOOK.md\",\n        \"docs/SOURCE_REFRESH_TICKETS.md\",\n        \"docs/SOURCE_REFRESH_WAVE_RUNNER.md\",\n        \"docs/SOURCE_REVIEWER_QUEUE.md\",\n        \"docs/SOURCE_REVIEW_SESSION_PLAN.md\",\n        \"docs/SOURCE_REVIEW_READINESS_MATRIX.md\",\n        \"docs/SOURCE_REVIEW_WORK_ORDERS.md\",\n        \"docs/SOURCE_REVIEW_PACKET_BUNDLE.md\",\n        \"docs/SOURCE_REVIEW_PACKET_AUDIT.md\",\n        \"docs/SOURCE_REVIEW_PACKET_REHEARSAL.md\",\n        \"docs/SOURCE_EVIDENCE_RECORDER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md\",\n        \"docs/SOURCE_REFRESH_COMPLETION_AUDIT.md\",\n        \"docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md\"\n      ],\n      \"safety_rules\": [\n        \"Treat outputs as structured review support, not final customs advice.\",\n        \"Preserve source snippets, confidence, and unresolved fields.\",\n        \"Flag policy, tariff, HS code, and regulatory questions as source-update topics.\",\n        \"Require manual review for medium and high risk discrepancies.\"\n      ],\n      \"prohibited_actions\": [\n        \"Inventing missing document values.\",\n        \"Presenting current customs policy or legal classification as verified without authoritative sources.\",\n        \"Hiding OCR uncertainty or document conflicts.\"\n      ],\n      \"package\": \"packs/customs-agent-wiki.zip\"\n    },\n    {\n      \"wiki\": \"ecommerce-agent-wiki\",\n      \"name\": \"Ecommerce Agent Wiki\",\n      \"score\": 2.2,\n      \"reasons\": [\n        \"token:invoice\"\n      ],\n      \"priority\": \"P1\",\n      \"risk_level\": \"medium\",\n      \"freshness_requirement\": \"high\",\n      \"required_reading_order\": [\n        \"wikis/ecommerce-agent-wiki/AGENTS.md\",\n        \"wikis/ecommerce-agent-wiki/manifest.yaml\",\n        \"wikis/ecommerce-agent-wiki/README.md\",\n        \"wikis/ecommerce-agent-wiki/rules/\",\n        \"wikis/ecommerce-agent-wiki/workflows/\"\n      ],\n      \"source_gates\": [\n        \"wikis/ecommerce-agent-wiki/sources/source-notes.md\",\n        \"wikis/ecommerce-agent-wiki/sources/source-refresh-log.md\",\n        \"docs/SOURCE_UPDATE_QUEUE.md\",\n        \"docs/SOURCE_REFRESH_DASHBOARD.md\",\n        \"docs/SOURCE_REFRESH_PLAYBOOK.md\",\n        \"docs/SOURCE_REFRESH_TICKETS.md\",\n        \"docs/SOURCE_REFRESH_WAVE_RUNNER.md\",\n        \"docs/SOURCE_REVIEWER_QUEUE.md\",\n        \"docs/SOURCE_REVIEW_SESSION_PLAN.md\",\n        \"docs/SOURCE_REVIEW_READINESS_MATRIX.md\",\n        \"docs/SOURCE_REVIEW_WORK_ORDERS.md\",\n        \"docs/SOURCE_REVIEW_PACKET_BUNDLE.md\",\n        \"docs/SOURCE_REVIEW_PACKET_AUDIT.md\",\n        \"docs/SOURCE_REVIEW_PACKET_REHEARSAL.md\",\n        \"docs/SOURCE_EVIDENCE_RECORDER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md\",\n        \"docs/SOURCE_REFRESH_COMPLETION_AUDIT.md\",\n        \"docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md\"\n      ],\n      \"safety_rules\": [\n        \"Respect privacy, consent, consumer protection, and platform rules.\",\n        \"Mark fees, return policies, ads policy, and platform rules as source-update topics.\",\n        \"Avoid deceptive claims, fake scarcity, or unsupported product promises.\"\n      ],\n      \"prohibited_actions\": [\n        \"Inventing product availability, current pricing, or platform policy.\",\n        \"Using private customer data without a clear need and consent basis.\",\n        \"Generating manipulative or misleading sales tactics.\"\n      ],\n      \"package\": \"packs/ecommerce-agent-wiki.zip\"\n    }\n  ]\n}",
+      "passed": true,
+      "top_wiki": "customs-agent-wiki",
+      "expected_wiki": "customs-agent-wiki"
+    },
+    {
+      "name": "route query: defensive security hardening",
+      "command": "python.exe scripts/route_wiki.py --query defensive security hardening --json",
+      "returncode": 0,
+      "output": "{\n  \"generated\": \"2026-05-31\",\n  \"query\": \"defensive security hardening\",\n  \"top_wiki\": \"security-agent-wiki\",\n  \"source_update_required\": false,\n  \"source_update_terms\": [],\n  \"safety_gate_required\": true,\n  \"high_risk_terms\": [],\n  \"matches\": [\n    {\n      \"wiki\": \"security-agent-wiki\",\n      \"name\": \"Defensive Security Agent Wiki\",\n      \"score\": 47.1,\n      \"reasons\": [\n        \"alias:security\",\n        \"alias:defensive security\",\n        \"alias:hardening\",\n        \"phrase\",\n        \"token:defensive\",\n        \"token:hardening\",\n        \"token:security\"\n      ],\n      \"priority\": \"P2\",\n      \"risk_level\": \"high\",\n      \"freshness_requirement\": \"high\",\n      \"required_reading_order\": [\n        \"wikis/security-agent-wiki/AGENTS.md\",\n        \"wikis/security-agent-wiki/manifest.yaml\",\n        \"wikis/security-agent-wiki/README.md\",\n        \"wikis/security-agent-wiki/rules/\",\n        \"wikis/security-agent-wiki/workflows/\"\n      ],\n      \"source_gates\": [\n        \"wikis/security-agent-wiki/sources/source-notes.md\",\n        \"wikis/security-agent-wiki/sources/source-refresh-log.md\",\n        \"docs/SOURCE_UPDATE_QUEUE.md\",\n        \"docs/SOURCE_REFRESH_DASHBOARD.md\",\n        \"docs/SOURCE_REFRESH_PLAYBOOK.md\",\n        \"docs/SOURCE_REFRESH_TICKETS.md\",\n        \"docs/SOURCE_REFRESH_WAVE_RUNNER.md\",\n        \"docs/SOURCE_REVIEWER_QUEUE.md\",\n        \"docs/SOURCE_REVIEW_SESSION_PLAN.md\",\n        \"docs/SOURCE_REVIEW_READINESS_MATRIX.md\",\n        \"docs/SOURCE_REVIEW_WORK_ORDERS.md\",\n        \"docs/SOURCE_REVIEW_PACKET_BUNDLE.md\",\n        \"docs/SOURCE_REVIEW_PACKET_AUDIT.md\",\n        \"docs/SOURCE_REVIEW_PACKET_REHEARSAL.md\",\n        \"docs/SOURCE_EVIDENCE_RECORDER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\",\n        \"docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md\",\n        \"docs/SOURCE_REFRESH_COMPLETION_AUDIT.md\",\n        \"docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md\"\n      ],\n      \"safety_rules\": [\n        \"Defensive review only.\",\n        \"Focus on risk explanation, detection, mitigation, and verification.\",\n        \"Mark current CVEs, exploit status, dependency versions, and advisories as source-update topics.\",\n        \"Require human approval for production security changes.\"\n      ],\n      \"prohibited_actions\": [\n        \"Exploitation, persistence, evasion, credential theft, or bypass steps.\",\n        \"Payloads or procedures that enable unauthorized access.\",\n        \"Claims about current vulnerabilities or advisories without source refresh.\"\n      ],\n      \"package\": \"packs/security-agent-wiki.zip\"\n    }\n  ]\n}",
+      "passed": true,
+      "top_wiki": "security-agent-wiki",
+      "expected_wiki": "security-agent-wiki"
+    },
+    {
+      "name": "search finance-agent-wiki: risk control",
+      "command": "python.exe scripts/search_wiki.py --query risk control --wiki finance-agent-wiki",
+      "returncode": 0,
+      "output": "[5] wikis/finance-agent-wiki/rules/risk-control.md :: Finance Risk Control Rules\n    --- title: Finance Risk Control Rules status: stable last_updated: 2026-05-27 risk_level: high --- # Finance Risk Control Rules ## Purpose 任何金融 Agent 都必须先做风险控制，再做收益分析。 ## Non-negotiable rules 1. 默认只做教育、研究、模拟盘和风险检查。 2. 不输...\n[3] wikis/finance-agent-wiki/update-log.md :: Update Log — Finance Agent Wiki\n    # Update Log — Finance Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample backtest risk review case and eval coverage for fixture-style validation. - Expand...\n[2] wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md :: Sample Backtest Risk Review\n    --- title: Sample Backtest Risk Review status: stable last_updated: 2026-05-27 risk_level: high --- # Sample Backtest Risk Review ## Purpose 提供一个可复用的回测审查样例，帮助 Agent 判断回测报告是否满足数据、成本、风控和上线边界要求。 ## When to use 用于审查用户提供的策略回测...\n[1] wikis/finance-agent-wiki/AGENTS.md :: AGENTS.md — Finance Agent Wiki\n    # AGENTS.md — Finance Agent Wiki ## Trigger Use this wiki when the task involves: 金融, 投资, 财报, 估值, 市场数据, 回测, 风控, 交易系统, 资金费率, 套利. ## Reading order 1. `manifest.yaml` 2. `README.md` 3. `rules/` 4. `workflows/` 5. `cases/` 6...\n[1] wikis/finance-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log\n    # Source Refresh Log Wiki: finance-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into t...\n[1] wikis/finance-agent-wiki/workflows/paper-trading-system.md :: Paper Trading System Workflow\n    --- title: Paper Trading System Workflow status: stable last_updated: 2026-05-26 risk_level: high --- # Paper Trading System Workflow ## Purpose 设计模拟盘系统，验证数据、风控、执行流程和日志，而不是直接投入真实资金。 ## Components - market data adapter - ...",
+      "passed": true,
+      "has_result": true
+    },
+    {
+      "name": "search customs-agent-wiki: field extraction",
+      "command": "python.exe scripts/search_wiki.py --query field extraction --wiki customs-agent-wiki",
+      "returncode": 0,
+      "output": "[4] wikis/customs-agent-wiki/rules/field-extraction-rules.md :: Customs Field Extraction Rules\n    --- title: Customs Field Extraction Rules status: stable last_updated: 2026-05-27 risk_level: medium --- # Customs Field Extraction Rules ## Core fields - shipper / seller / exporter -> 发货人/卖方/出口商 - consignee / buyer / i...\n[3] wikis/customs-agent-wiki/update-log.md :: Update Log — Customs Document Agent Wiki\n    # Update Log — Customs Document Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample invoice extraction and document difference cases with expected JSON/table...\n[2] wikis/customs-agent-wiki/cases/sample-invoice-extraction.md :: Sample Invoice Extraction\n    --- title: Sample Invoice Extraction status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Invoice Extraction ## Purpose 提供一个合成商业发票字段抽取样例，展示英文表头到标准 JSON 的映射方式。 ## When to use 用于训练或测试 OCR/文本解析到结构化 JSON 的...\n[1] wikis/customs-agent-wiki/cases/sample-document-diff.md :: Sample Document Difference Table\n    --- title: Sample Document Difference Table status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Document Difference Table ## Purpose 提供合同、发票和装箱单差异比对样例，展示风险等级和人工复核建议。 ## When to use 用于测试单证差异表输出、金额币种校验、...\n[1] wikis/customs-agent-wiki/concepts/document-types.md :: Trade Document Types\n    --- title: Trade Document Types status: stable last_updated: 2026-05-27 risk_level: medium --- # Trade Document Types ## Common documents - Contract / Sales Contract: 买卖双方、合同号、签署日期、货物、数量、价格、贸易术语、付款方式、交货条件。 - Commercial I...\n[1] wikis/customs-agent-wiki/sources/source-notes.md :: Source Notes — Customs Document Agent Wiki\n    # Source Notes — Customs Document Agent Wiki ## Policy 本文件记录需要外部来源、实时核验或权威确认的主题。 ## Needs source update - topic: latest HS codes, customs supervision conditions and declaration elements status: needs-source-update sugges...\n[1] wikis/customs-agent-wiki/workflows/difference-comparison.md :: Document Difference Comparison Workflow\n    --- title: Document Difference Comparison Workflow status: stable last_updated: 2026-05-27 risk_level: medium --- # Document Difference Comparison Workflow ## Purpose 比较多份单证之间的关键字段一致性，输出差异表、风险等级和人工复核建议。 ## When to use 用于...\n[1] wikis/customs-agent-wiki/workflows/document-checking.md :: Customs Document Checking Workflow\n    --- title: Customs Document Checking Workflow status: stable last_updated: 2026-05-26 risk_level: medium --- # Customs Document Checking Workflow ## Workflow 1. Identify document types. 2. Extract fields into normalized ...",
+      "passed": true,
+      "has_result": true
+    },
+    {
+      "name": "search finance-agent-wiki: paper trading real money",
+      "command": "python.exe scripts/search_wiki.py --query paper trading real money --wiki finance-agent-wiki",
+      "returncode": 0,
+      "output": "[4] wikis/finance-agent-wiki/workflows/paper-trading-system.md :: Paper Trading System Workflow\n    --- title: Paper Trading System Workflow status: stable last_updated: 2026-05-26 risk_level: high --- # Paper Trading System Workflow ## Purpose 设计模拟盘系统，验证数据、风控、执行流程和日志，而不是直接投入真实资金。 ## Components - market data adapter - ...\n[3] wikis/finance-agent-wiki/update-log.md :: Update Log — Finance Agent Wiki\n    # Update Log — Finance Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample backtest risk review case and eval coverage for fixture-style validation. - Expand...\n[2] wikis/finance-agent-wiki/rules/trading-system-boundaries.md :: Trading System Boundaries\n    --- title: Trading System Boundaries status: stable last_updated: 2026-05-27 risk_level: high --- # Trading System Boundaries ## Purpose 约束金融 Agent 在交易系统设计中的权限、输出和安全边界。 ## When to use 用于模拟盘、回测平台、风险引擎、交易日志、告警、权限控制和人工审批流程设...\n[2] wikis/finance-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log\n    # Source Refresh Log Wiki: finance-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into t...\n[1] wikis/finance-agent-wiki/sources/source-notes.md :: Source Notes — Finance Agent Wiki\n    # Source Notes — Finance Agent Wiki ## Policy 本文件记录需要外部来源、实时核验或权威确认的主题。 ## Needs source update - topic: current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity status: needs-source-update s...",
+      "passed": true,
+      "has_result": true
+    },
+    {
+      "name": "search customs-agent-wiki: INV-EXAMPLE-001 evidence confidence",
+      "command": "python.exe scripts/search_wiki.py --query INV-EXAMPLE-001 evidence confidence --wiki customs-agent-wiki",
+      "returncode": 0,
+      "output": "[15] wikis/customs-agent-wiki/cases/sample-invoice-extraction.md :: Sample Invoice Extraction\n    --- title: Sample Invoice Extraction status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Invoice Extraction ## Purpose 提供一个合成商业发票字段抽取样例，展示英文表头到标准 JSON 的映射方式。 ## When to use 用于训练或测试 OCR/文本解析到结构化 JSON 的...\n[7] wikis/customs-agent-wiki/rules/field-extraction-rules.md :: Customs Field Extraction Rules\n    --- title: Customs Field Extraction Rules status: stable last_updated: 2026-05-27 risk_level: medium --- # Customs Field Extraction Rules ## Core fields - shipper / seller / exporter -> 发货人/卖方/出口商 - consignee / buyer / i...\n[5] wikis/customs-agent-wiki/evals/customs-agent-evals.yaml :: customs-agent-evals\n    wiki: customs-agent-wiki updated: 2026-05-27 tests: - id: customs-extract-001 question: \"从发票中抽取 invoice no、currency、total amount。\" expected_behavior: \"输出标准 JSON，并保留 evidence。\" - id: customs-compare-001 question: \"合同和发票金额...\n[5] wikis/customs-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log\n    # Source Refresh Log Wiki: customs-agent-wiki Risk level: medium Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into...\n[3] wikis/customs-agent-wiki/workflows/ocr-to-json.md :: OCR to Structured JSON Workflow\n    --- title: OCR to Structured JSON Workflow status: stable last_updated: 2026-05-27 risk_level: medium --- # OCR to Structured JSON Workflow ## Purpose 把扫描件、图片或 PDF 文本解析为可比对的结构化 JSON，同时保留证据和置信度。 ## When to use 用于合同、商业发票、装...\n[2] wikis/customs-agent-wiki/cases/sample-document-diff.md :: Sample Document Difference Table\n    --- title: Sample Document Difference Table status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Document Difference Table ## Purpose 提供合同、发票和装箱单差异比对样例，展示风险等级和人工复核建议。 ## When to use 用于测试单证差异表输出、金额币种校验、...\n[2] wikis/customs-agent-wiki/update-log.md :: Update Log — Customs Document Agent Wiki\n    # Update Log — Customs Document Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample invoice extraction and document difference cases with expected JSON/table...\n[2] wikis/customs-agent-wiki/workflows/document-checking.md :: Customs Document Checking Workflow\n    --- title: Customs Document Checking Workflow status: stable last_updated: 2026-05-26 risk_level: medium --- # Customs Document Checking Workflow ## Workflow 1. Identify document types. 2. Extract fields into normalized ...",
+      "passed": true,
+      "has_result": true
+    },
+    {
+      "name": "search agent-engineering-wiki: needs-source-update topics",
+      "command": "python.exe scripts/search_wiki.py --query needs-source-update topics --wiki agent-engineering-wiki",
+      "returncode": 0,
+      "output": "[6] wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md :: Sample RAG Source Grounding Case\n    --- title: Sample RAG Source Grounding Case status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample RAG Source Grounding Case ## Purpose 提供一个合成 RAG 评测样例，验证 Agent 是否会引用来源、识别冲突和标记需要来源更新的信息。 ## When to use 用...\n[3] wikis/agent-engineering-wiki/evals/agent-engineering-evals.yaml :: agent-engineering-evals\n    wiki: agent-engineering-wiki updated: 2026-05-27 tests: - id: agent-arch-001 question: \"Agent 由什么组成？\" expected_behavior: \"说明模型、工具、知识、工作流、记忆、评测和安全边界。\" - id: rag-quality-001 question: \"如何评测 RAG？\" expected_behavior: \"覆盖召回、准...\n[3] wikis/agent-engineering-wiki/sources/source-notes.md :: Source Notes — Agent Engineering Wiki\n    # Source Notes — Agent Engineering Wiki ## Policy 本文件记录需要外部来源、实时核验或权威确认的主题。 ## Needs source update - topic: current Codex Skill format, plugin behavior and tool capabilities status: needs-source-update suggested_sources:...\n[1] wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md :: RAG and Knowledge Pack Foundations\n    --- title: RAG and Knowledge Pack Foundations status: stable last_updated: 2026-05-27 risk_level: medium --- # RAG and Knowledge Pack Foundations ## Purpose 定义可被 Agent、RAG 系统和人类共同使用的知识包标准。 ## When to use 用于设计知识库、RAG 管线、检...\n[1] wikis/agent-engineering-wiki/evals/smoke-tests.yaml :: smoke-tests\n    wiki: agent-engineering-wiki updated: 2026-05-26 tests: - id: structure-001 question: \"这个知识库的使用边界是什么？\" expected_behavior: \"读取 README.md 和 rules/core-rules.md，说明用途、风险等级和限制。\" - id: freshness-001 question: \"请给我最新政策/价格/API 规...\n[1] wikis/agent-engineering-wiki/manifest.yaml :: manifest\n    id: agent-engineering-wiki name: Agent Engineering Wiki version: 0.1.0 language: zh-CN domain: ai_agent_engineering risk_level: medium freshness_requirement: medium description: \"Agent 架构、RAG、知识包、Codex Skills、评测与安全边界知识库。...\n[1] wikis/agent-engineering-wiki/prompts/default-agent.md :: Default Agent Prompt\n    --- title: Default Agent Prompt status: stable last_updated: 2026-05-26 risk_level: medium --- # Default Agent Prompt 你是 `Agent Engineering Wiki`。处理任务时必须： 1. 先读取本知识库的 `manifest.yaml`、`AGENTS.md`、`rules/`。 2. 使用稳定知识回答稳定问题...\n[1] wikis/agent-engineering-wiki/README.md :: Agent Engineering Wiki\n    # Agent Engineering Wiki Agent 架构、RAG、知识包、Codex Skills、评测与安全边界知识库。 ## When to use 触发词：Agent, RAG, 知识库, Codex Skill, AGENTS.md, 评测, MCP, 工作流 ## Structure ```text concepts/ 稳定概念 rules/ 规则、边界、安全约束 workflows/ 操作流程 cases/ 案例和...",
+      "passed": true,
+      "has_result": true
+    },
+    {
+      "name": "search security-agent-wiki: bypass login Authorization header",
+      "command": "python.exe scripts/search_wiki.py --query bypass login Authorization header --wiki security-agent-wiki",
+      "returncode": 0,
+      "output": "[9] wikis/security-agent-wiki/cases/sample-login-review.md :: Sample Defensive Login Review\n    --- title: Sample Defensive Login Review status: stable last_updated: 2026-05-27 risk_level: high --- # Sample Defensive Login Review ## Purpose 提供一个合成登录接口防御性审查样例，验证 Agent 是否输出修复建议而非攻击步骤。 ## When to use 用于代码安全审查、上线前检查、权限...\n[2] wikis/security-agent-wiki/update-log.md :: Update Log — Defensive Security Agent Wiki\n    # Update Log — Defensive Security Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added safety audit reporting for defensive-only boundaries, no exploit steps, secret...\n[1] wikis/security-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log\n    # Source Refresh Log Wiki: security-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into ...\n[1] wikis/security-agent-wiki/workflows/security-review-checklist.md :: Defensive Security Review Checklist\n    --- title: Defensive Security Review Checklist status: stable last_updated: 2026-05-26 risk_level: high --- # Defensive Security Review Checklist ## Checklist - Secrets are not committed. - Environment variables are docu...",
+      "passed": true,
+      "has_result": true
+    },
+    {
+      "name": "pack wikis",
+      "command": "python.exe scripts/pack_wikis.py",
+      "returncode": 0,
+      "output": "packed packs\\agent-engineering-wiki.zip\npacked packs\\airdrop-agent-wiki.zip\npacked packs\\coding-agent-wiki.zip\npacked packs\\content-agent-wiki.zip\npacked packs\\customs-agent-wiki.zip\npacked packs\\ecommerce-agent-wiki.zip\npacked packs\\finance-agent-wiki.zip\npacked packs\\health-agent-wiki.zip\npacked packs\\legal-agent-wiki.zip\npacked packs\\nodeops-agent-wiki.zip\npacked packs\\research-agent-wiki.zip\npacked packs\\security-agent-wiki.zip\npacked packs\\agent-wiki-hub-all.zip",
+      "passed": true
+    },
+    {
+      "name": "audit pack integrity",
+      "command": "python.exe scripts/audit_pack_integrity.py",
+      "returncode": 0,
+      "output": "Wrote docs\\PACK_AUDIT.md\nWrote registry\\pack-audit.json\nPACK INTEGRITY PASSED (553 checks)",
+      "passed": true
+    },
+    {
+      "name": "generate release notes",
+      "command": "python.exe scripts/generate_release_notes.py",
+      "returncode": 0,
+      "output": "Wrote docs\\RELEASE_NOTES.md\nWrote registry\\release-manifest.json\nRELEASE NOTES GENERATED (12 wikis, 13 packages)",
+      "passed": true
+    },
+    {
+      "name": "generate change summary",
+      "command": "python.exe scripts/generate_change_summary.py",
+      "returncode": 0,
+      "output": "Wrote docs\\CHANGE_SUMMARY.md\nWrote registry\\change-summary.json\nCHANGE SUMMARY GENERATED (12 wikis)",
+      "passed": true
+    },
+    {
+      "name": "pack wikis with acceptance report",
+      "command": "python.exe scripts/pack_wikis.py",
+      "returncode": 0,
+      "output": "packed packs\\agent-engineering-wiki.zip\npacked packs\\airdrop-agent-wiki.zip\npacked packs\\coding-agent-wiki.zip\npacked packs\\content-agent-wiki.zip\npacked packs\\customs-agent-wiki.zip\npacked packs\\ecommerce-agent-wiki.zip\npacked packs\\finance-agent-wiki.zip\npacked packs\\health-agent-wiki.zip\npacked packs\\legal-agent-wiki.zip\npacked packs\\nodeops-agent-wiki.zip\npacked packs\\research-agent-wiki.zip\npacked packs\\security-agent-wiki.zip\npacked packs\\agent-wiki-hub-all.zip",
+      "passed": true
+    },
+    {
+      "name": "audit final package integrity",
+      "command": "python.exe scripts/audit_pack_integrity.py",
+      "returncode": 0,
+      "output": "Wrote docs\\PACK_AUDIT.md\nWrote registry\\pack-audit.json\nPACK INTEGRITY PASSED (553 checks)",
+      "passed": true
+    }
+  ]
+}

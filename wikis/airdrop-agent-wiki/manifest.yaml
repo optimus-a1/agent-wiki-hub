@@ -1,0 +1,29 @@
+id: airdrop-agent-wiki
+name: Airdrop Research Agent Wiki
+version: 0.1.0
+language: zh-CN
+domain: web3_research
+risk_level: high
+freshness_requirement: high
+description: "Web3 项目研究、公开任务记录、钱包安全、风险识别知识库。禁止刷量、规避平台规则或承诺收益。"
+entrypoints:
+  - README.md
+  - AGENTS.md
+  - rules/core-rules.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+trigger_keywords: ["空投", "Web3", "项目研究", "TGE", "钱包安全", "签名", "代币"]
+update_policy:
+  stable_knowledge: update when better rules or examples are found
+  current_facts: mark needs-source-update unless verified from authoritative sources
+safety:
+  require_human_confirmation_for_high_risk: true
+  no_secret_storage: true
+  no_autonomous_high_risk_execution: true

@@ -1,0 +1,1410 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "checks": [
+    {
+      "check_id": "registry_exists",
+      "description": "Registry file exists.",
+      "passed": true,
+      "evidence": "registry\\wiki-registry.yaml"
+    },
+    {
+      "check_id": "registry_version",
+      "description": "Registry has a version.",
+      "passed": true,
+      "evidence": "0.1.0"
+    },
+    {
+      "check_id": "registry_updated",
+      "description": "Registry has an updated date.",
+      "passed": true,
+      "evidence": "2026-05-27"
+    },
+    {
+      "check_id": "registry_records",
+      "description": "Registry contains wiki records.",
+      "passed": true,
+      "evidence": "12 records"
+    },
+    {
+      "check_id": "registry_unique_ids",
+      "description": "Registry wiki ids are unique.",
+      "passed": true,
+      "evidence": "12 unique ids / 12 records"
+    },
+    {
+      "check_id": "registry_matches_wiki_dirs",
+      "description": "Registry ids match directories under wikis/.",
+      "passed": true,
+      "evidence": "registry=12, directories=12"
+    },
+    {
+      "check_id": "finance-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki"
+    },
+    {
+      "check_id": "finance-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "finance-agent-wiki vs finance-agent-wiki"
+    },
+    {
+      "check_id": "finance-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "finance-agent-wiki vs finance-agent-wiki"
+    },
+    {
+      "check_id": "finance-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "finance vs finance"
+    },
+    {
+      "check_id": "finance-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "finance-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "finance-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "finance-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "finance-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "finance-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "finance-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "finance-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "customs-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki"
+    },
+    {
+      "check_id": "customs-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "customs-agent-wiki vs customs-agent-wiki"
+    },
+    {
+      "check_id": "customs-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "customs-agent-wiki vs customs-agent-wiki"
+    },
+    {
+      "check_id": "customs-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "customs_trade_documents vs customs_trade_documents"
+    },
+    {
+      "check_id": "customs-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "customs-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "customs-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "customs-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "customs-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "customs-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "customs-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "customs-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "coding-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki"
+    },
+    {
+      "check_id": "coding-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "coding-agent-wiki vs coding-agent-wiki"
+    },
+    {
+      "check_id": "coding-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "coding-agent-wiki vs coding-agent-wiki"
+    },
+    {
+      "check_id": "coding-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "software_engineering vs software_engineering"
+    },
+    {
+      "check_id": "coding-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "coding-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "coding-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "coding-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "coding-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "coding-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "coding-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "coding-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "agent-engineering-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki"
+    },
+    {
+      "check_id": "agent-engineering-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "agent-engineering-wiki vs agent-engineering-wiki"
+    },
+    {
+      "check_id": "agent-engineering-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "agent-engineering-wiki vs agent-engineering-wiki"
+    },
+    {
+      "check_id": "agent-engineering-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "ai_agent_engineering vs ai_agent_engineering"
+    },
+    {
+      "check_id": "agent-engineering-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "agent-engineering-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "agent-engineering-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "agent-engineering-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "agent-engineering-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "agent-engineering-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "agent-engineering-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "agent-engineering-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki vs ecommerce-agent-wiki"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki vs ecommerce-agent-wiki"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "ecommerce vs ecommerce"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki vs nodeops-agent-wiki"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki vs nodeops-agent-wiki"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "operations vs operations"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki vs airdrop-agent-wiki"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki vs airdrop-agent-wiki"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "web3_research vs web3_research"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "content-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki"
+    },
+    {
+      "check_id": "content-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "content-agent-wiki vs content-agent-wiki"
+    },
+    {
+      "check_id": "content-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "content-agent-wiki vs content-agent-wiki"
+    },
+    {
+      "check_id": "content-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "content_operations vs content_operations"
+    },
+    {
+      "check_id": "content-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "low vs low"
+    },
+    {
+      "check_id": "content-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "content-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "content-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "content-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "content-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "content-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "content-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "legal-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki"
+    },
+    {
+      "check_id": "legal-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "legal-agent-wiki vs legal-agent-wiki"
+    },
+    {
+      "check_id": "legal-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "legal-agent-wiki vs legal-agent-wiki"
+    },
+    {
+      "check_id": "legal-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "legal_information vs legal_information"
+    },
+    {
+      "check_id": "legal-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "legal-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "legal-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "legal-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "legal-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "legal-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "legal-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "legal-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "health-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki"
+    },
+    {
+      "check_id": "health-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "health-agent-wiki vs health-agent-wiki"
+    },
+    {
+      "check_id": "health-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "health-agent-wiki vs health-agent-wiki"
+    },
+    {
+      "check_id": "health-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "health_education vs health_education"
+    },
+    {
+      "check_id": "health-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "health-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "health-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "health-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "health-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "health-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "health-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "health-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "research-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki"
+    },
+    {
+      "check_id": "research-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "research-agent-wiki vs research-agent-wiki"
+    },
+    {
+      "check_id": "research-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "research-agent-wiki vs research-agent-wiki"
+    },
+    {
+      "check_id": "research-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "research vs research"
+    },
+    {
+      "check_id": "research-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "medium vs medium"
+    },
+    {
+      "check_id": "research-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "research-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "research-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "research-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "research-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "research-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "research-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    },
+    {
+      "check_id": "security-agent-wiki:path_exists",
+      "description": "Registry path points to a wiki directory.",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki"
+    },
+    {
+      "check_id": "security-agent-wiki:path_basename_matches_id",
+      "description": "Registry path basename matches wiki id.",
+      "passed": true,
+      "evidence": "security-agent-wiki vs security-agent-wiki"
+    },
+    {
+      "check_id": "security-agent-wiki:manifest_id",
+      "description": "Manifest id matches registry id.",
+      "passed": true,
+      "evidence": "security-agent-wiki vs security-agent-wiki"
+    },
+    {
+      "check_id": "security-agent-wiki:domain",
+      "description": "Manifest domain matches registry domain.",
+      "passed": true,
+      "evidence": "defensive_security vs defensive_security"
+    },
+    {
+      "check_id": "security-agent-wiki:risk_level",
+      "description": "Manifest risk_level matches registry risk_level.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "security-agent-wiki:freshness",
+      "description": "Manifest freshness_requirement matches registry freshness.",
+      "passed": true,
+      "evidence": "high vs high"
+    },
+    {
+      "check_id": "security-agent-wiki:entrypoint:README.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "security-agent-wiki:entrypoint:AGENTS.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "security-agent-wiki:entrypoint:rules/core-rules.md",
+      "description": "Manifest declares a required entrypoint and the file exists.",
+      "passed": true,
+      "evidence": "rules/core-rules.md"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:concepts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "concepts"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:rules",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "rules"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:workflows",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "workflows"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:cases",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "cases"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:tools",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "tools"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:prompts",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "prompts"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:evals",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "evals"
+    },
+    {
+      "check_id": "security-agent-wiki:required_directory:sources",
+      "description": "Manifest declares a required directory and the directory exists.",
+      "passed": true,
+      "evidence": "sources"
+    },
+    {
+      "check_id": "security-agent-wiki:trigger_keywords",
+      "description": "Manifest declares trigger keywords.",
+      "passed": true,
+      "evidence": "trigger_keywords"
+    },
+    {
+      "check_id": "security-agent-wiki:safety_flags",
+      "description": "Manifest declares all required safety flags.",
+      "passed": true,
+      "evidence": "3/3 flags"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+id: security-agent-wiki
+name: Defensive Security Agent Wiki
+version: 0.1.0
+language: zh-CN
+domain: defensive_security
+risk_level: high
+freshness_requirement: high
+description: "防御性安全审查、配置检查、代码安全与上线前清单知识库。禁止攻击、绕过、盗取或利用步骤。"
+entrypoints:
+  - README.md
+  - AGENTS.md
+  - rules/core-rules.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+trigger_keywords: ["安全", "审计", "漏洞", "权限", "密钥", "上线检查", "防御"]
+update_policy:
+  stable_knowledge: update when better rules or examples are found
+  current_facts: mark needs-source-update unless verified from authoritative sources
+safety:
+  require_human_confirmation_for_high_risk: true
+  no_secret_storage: true
+  no_autonomous_high_risk_execution: true

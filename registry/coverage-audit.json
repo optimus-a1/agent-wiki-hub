@@ -1,0 +1,1776 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "topics": [
+    {
+      "wiki": "finance-agent-wiki",
+      "priority": "P0",
+      "topic_id": "market_data_foundations",
+      "description": "OHLCV, order book, spread, volume, and liquidity.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "OHLCV",
+          "path": "wikis/finance-agent-wiki/concepts/market-data.md"
+        },
+        {
+          "passed": true,
+          "term": "order book",
+          "path": "wikis/finance-agent-wiki/concepts/market-data.md"
+        },
+        {
+          "passed": true,
+          "term": "spread",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "volume",
+          "path": "wikis/finance-agent-wiki/concepts/market-data.md"
+        },
+        {
+          "passed": true,
+          "term": "流动性",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "priority": "P0",
+      "topic_id": "financial_analysis_foundations",
+      "description": "Income statement, balance sheet, cash flow, and valuation analysis.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "利润表",
+          "path": "wikis/finance-agent-wiki/concepts/financial-analysis.md"
+        },
+        {
+          "passed": true,
+          "term": "资产负债表",
+          "path": "wikis/finance-agent-wiki/concepts/financial-analysis.md"
+        },
+        {
+          "passed": true,
+          "term": "现金流",
+          "path": "wikis/finance-agent-wiki/concepts/financial-analysis.md"
+        },
+        {
+          "passed": true,
+          "term": "估值",
+          "path": "wikis/finance-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "priority": "P0",
+      "topic_id": "risk_control_framework",
+      "description": "Position, drawdown, leverage, liquidity, and operational risk.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "仓位",
+          "path": "wikis/finance-agent-wiki/concepts/financial-analysis.md"
+        },
+        {
+          "passed": true,
+          "term": "回撤",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "杠杆",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "流动性",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "操作风险",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "priority": "P0",
+      "topic_id": "backtesting_workflow",
+      "description": "Data quality, fees, slippage, out-of-sample tests, and overfitting checks.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "数据质量",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "手续费",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "滑点",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "样本外",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "过拟合",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "priority": "P0",
+      "topic_id": "trading_system_boundaries",
+      "description": "Paper trading defaults, human confirmation, logs, circuit breakers, and permissions.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "模拟盘",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "human confirmation",
+          "path": "wikis/finance-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "日志",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "熔断",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "权限",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "priority": "P0",
+      "topic_id": "finance_output_boundaries",
+      "description": "No personalized investment advice and no autonomous real-money execution.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "个人化投资建议",
+          "path": "wikis/finance-agent-wiki/evals/finance-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "真实资金",
+          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+        },
+        {
+          "passed": true,
+          "term": "autonomous",
+          "path": "wikis/finance-agent-wiki/manifest.yaml"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "topic_id": "trade_document_types",
+      "description": "Contracts, invoices, packing lists, factory inspection sheets, and conformity/quality guarantees.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "合同",
+          "path": "wikis/customs-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "发票",
+          "path": "wikis/customs-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "装箱单",
+          "path": "wikis/customs-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "厂检",
+          "path": "wikis/customs-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "Certificate of Conformity",
+          "path": "wikis/customs-agent-wiki/concepts/document-types.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "topic_id": "field_mapping_rules",
+      "description": "English headers map to normalized Chinese/customs fields.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "seller",
+          "path": "wikis/customs-agent-wiki/cases/sample-invoice-extraction.md"
+        },
+        {
+          "passed": true,
+          "term": "buyer",
+          "path": "wikis/customs-agent-wiki/cases/sample-invoice-extraction.md"
+        },
+        {
+          "passed": true,
+          "term": "invoice no",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "currency",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "gross weight",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "topic_id": "ocr_to_json",
+      "description": "OCR/text parsing into structured JSON with evidence and confidence.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "OCR",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "JSON",
+          "path": "wikis/customs-agent-wiki/cases/sample-invoice-extraction.md"
+        },
+        {
+          "passed": true,
+          "term": "evidence",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "置信度",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "topic_id": "document_difference_comparison",
+      "description": "Cross-document comparison outputs differences, risk levels, and manual review suggestions.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "difference",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "risk_level",
+          "path": "wikis/customs-agent-wiki/cases/common-failures.md"
+        },
+        {
+          "passed": true,
+          "term": "review_suggestion",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "topic_id": "customs_validation_rules",
+      "description": "Amount, currency, packages, gross/net weight, goods name, and specifications.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "amount",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "currency",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "packages",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "gross_weight",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "net_weight",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "品名",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        },
+        {
+          "passed": true,
+          "term": "specification",
+          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "priority": "P0",
+      "topic_id": "implementation_lifecycle",
+      "description": "Requirement clarification, minimal implementation, and testing-first workflow.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "需求澄清",
+          "path": "wikis/coding-agent-wiki/workflows/implementation-lifecycle.md"
+        },
+        {
+          "passed": true,
+          "term": "最小实现",
+          "path": "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "测试先行",
+          "path": "wikis/coding-agent-wiki/workflows/implementation-lifecycle.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "priority": "P0",
+      "topic_id": "debug_flow",
+      "description": "Reproduce, observe, locate, minimally fix, test, and prevent regression.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "复现",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        },
+        {
+          "passed": true,
+          "term": "定位",
+          "path": "wikis/coding-agent-wiki/cases/common-failures.md"
+        },
+        {
+          "passed": true,
+          "term": "最小修复",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        },
+        {
+          "passed": true,
+          "term": "回归",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "priority": "P0",
+      "topic_id": "deployment_flow",
+      "description": "Deployment preflight, environment variables, health checks, monitoring, and rollback.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "部署",
+          "path": "wikis/coding-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "环境变量",
+          "path": "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "健康检查",
+          "path": "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "监控",
+          "path": "wikis/coding-agent-wiki/workflows/deployment-workflow.md"
+        },
+        {
+          "passed": true,
+          "term": "回滚",
+          "path": "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "priority": "P0",
+      "topic_id": "secure_development",
+      "description": "Secrets, permissions, input validation, logging, and dependency risk.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "密钥",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        },
+        {
+          "passed": true,
+          "term": "权限",
+          "path": "wikis/coding-agent-wiki/rules/security-development.md"
+        },
+        {
+          "passed": true,
+          "term": "输入校验",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        },
+        {
+          "passed": true,
+          "term": "日志",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        },
+        {
+          "passed": true,
+          "term": "依赖",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "priority": "P0",
+      "topic_id": "codex_usage_rules",
+      "description": "Codex reads AGENTS.md, preserves user changes, scopes edits, and verifies.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "Codex",
+          "path": "wikis/coding-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "AGENTS.md",
+          "path": "wikis/coding-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "用户",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        },
+        {
+          "passed": true,
+          "term": "最小改动",
+          "path": "wikis/coding-agent-wiki/rules/codex-usage.md"
+        },
+        {
+          "passed": true,
+          "term": "验证",
+          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "priority": "P0",
+      "topic_id": "agent_architecture",
+      "description": "Agent is model, tools, knowledge, workflow, memory, evals, and safety boundaries.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "Model",
+          "path": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md"
+        },
+        {
+          "passed": true,
+          "term": "Tools",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "Knowledge",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "Workflow",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "Memory",
+          "path": "wikis/agent-engineering-wiki/concepts/agent-architecture.md"
+        },
+        {
+          "passed": true,
+          "term": "Evals",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "Safety",
+          "path": "wikis/agent-engineering-wiki/concepts/agent-architecture.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "priority": "P0",
+      "topic_id": "rag_pipeline",
+      "description": "RAG chunking, indexing, recall, reranking, citations, and evals.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "切块",
+          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+        },
+        {
+          "passed": true,
+          "term": "索引",
+          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+        },
+        {
+          "passed": true,
+          "term": "召回",
+          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+        },
+        {
+          "passed": true,
+          "term": "重排",
+          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+        },
+        {
+          "passed": true,
+          "term": "引用",
+          "path": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md"
+        },
+        {
+          "passed": true,
+          "term": "eval",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "priority": "P0",
+      "topic_id": "knowledge_pack_standard",
+      "description": "Knowledge Pack includes manifest, rules, workflows, evals, sources, and update logs.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "manifest",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "rules",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "workflows",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "evals",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "sources",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "update-log",
+          "path": "wikis/agent-engineering-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "priority": "P0",
+      "topic_id": "codex_skills",
+      "description": "Codex Skills cover SKILL.md, scripts, references, and assets.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "SKILL.md",
+          "path": "wikis/agent-engineering-wiki/concepts/codex-skills.md"
+        },
+        {
+          "passed": true,
+          "term": "scripts",
+          "path": "wikis/agent-engineering-wiki/concepts/codex-skills.md"
+        },
+        {
+          "passed": true,
+          "term": "references",
+          "path": "wikis/agent-engineering-wiki/concepts/codex-skills.md"
+        },
+        {
+          "passed": true,
+          "term": "assets",
+          "path": "wikis/agent-engineering-wiki/concepts/codex-skills.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "priority": "P0",
+      "topic_id": "eval_design",
+      "description": "Evals include golden questions, behavior tests, and source-grounding tests.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "golden questions",
+          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+        },
+        {
+          "passed": true,
+          "term": "behavior tests",
+          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+        },
+        {
+          "passed": true,
+          "term": "source-grounding",
+          "path": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "topic_id": "product_catalog",
+      "description": "Product catalog, SKU, SPU, attributes, inventory, and price.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "SKU",
+          "path": "wikis/ecommerce-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "SPU",
+          "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog.md"
+        },
+        {
+          "passed": true,
+          "term": "attribute",
+          "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog.md"
+        },
+        {
+          "passed": true,
+          "term": "inventory",
+          "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog.md"
+        },
+        {
+          "passed": true,
+          "term": "价格",
+          "path": "wikis/ecommerce-agent-wiki/cases/common-failures.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "topic_id": "customer_service_returns",
+      "description": "Customer service, returns, refunds, logistics, and invoices.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "客服",
+          "path": "wikis/ecommerce-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "退货",
+          "path": "wikis/ecommerce-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "退款",
+          "path": "wikis/ecommerce-agent-wiki/workflows/customer-service-returns.md"
+        },
+        {
+          "passed": true,
+          "term": "物流",
+          "path": "wikis/ecommerce-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "发票",
+          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "topic_id": "recommendation_rules",
+      "description": "Need clarification, constraint matching, comparison, and risk reminders.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "推荐",
+          "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog.md"
+        },
+        {
+          "passed": true,
+          "term": "need",
+          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+        },
+        {
+          "passed": true,
+          "term": "约束",
+          "path": "wikis/ecommerce-agent-wiki/README.md"
+        },
+        {
+          "passed": true,
+          "term": "compare",
+          "path": "wikis/ecommerce-agent-wiki/workflows/product-recommendation.md"
+        },
+        {
+          "passed": true,
+          "term": "risk",
+          "path": "wikis/ecommerce-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "topic_id": "policy_privacy_freshness",
+      "description": "Platform policy, privacy, consumer protection, and current fact source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "平台政策",
+          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+        },
+        {
+          "passed": true,
+          "term": "隐私",
+          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+        },
+        {
+          "passed": true,
+          "term": "消费者",
+          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+        },
+        {
+          "passed": true,
+          "term": "needs-source-update",
+          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "topic_id": "ops_domains",
+      "description": "Linux, Docker, systemd, logs, backup, monitoring, and alerts.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "Linux",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "Docker",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "systemd",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "日志",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "备份",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        },
+        {
+          "passed": true,
+          "term": "监控",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "告警",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "topic_id": "production_change_safety",
+      "description": "Production changes require backup, human confirmation, rollback, and monitoring.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "production",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        },
+        {
+          "passed": true,
+          "term": "备份",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        },
+        {
+          "passed": true,
+          "term": "human confirmation",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "回滚",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        },
+        {
+          "passed": true,
+          "term": "监控",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "topic_id": "incident_response",
+      "description": "Incident response uses symptoms, logs, resources, network, dependencies, and rollback.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "故障",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "symptom",
+          "path": "wikis/nodeops-agent-wiki/workflows/incident-response.md"
+        },
+        {
+          "passed": true,
+          "term": "日志",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "资源",
+          "path": "wikis/nodeops-agent-wiki/workflows/change-management.md"
+        },
+        {
+          "passed": true,
+          "term": "网络",
+          "path": "wikis/nodeops-agent-wiki/rules/operational-risk-control.md"
+        },
+        {
+          "passed": true,
+          "term": "依赖",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        },
+        {
+          "passed": true,
+          "term": "回滚",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "topic_id": "destructive_command_boundary",
+      "description": "Destructive operations are blocked until paths, backups, and confirmation are clear.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "破坏性",
+          "path": "wikis/nodeops-agent-wiki/evals/nodeops-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "删除",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        },
+        {
+          "passed": true,
+          "term": "备份",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+        },
+        {
+          "passed": true,
+          "term": "confirmation",
+          "path": "wikis/nodeops-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "priority": "P1",
+      "topic_id": "project_research",
+      "description": "Project research covers official links, docs, team, funding, ecosystem, and risk.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "官方",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "文档",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "团队",
+          "path": "wikis/airdrop-agent-wiki/concepts/project-risk-model.md"
+        },
+        {
+          "passed": true,
+          "term": "融资",
+          "path": "wikis/airdrop-agent-wiki/concepts/project-risk-model.md"
+        },
+        {
+          "passed": true,
+          "term": "生态",
+          "path": "wikis/airdrop-agent-wiki/concepts/project-risk-model.md"
+        },
+        {
+          "passed": true,
+          "term": "risk",
+          "path": "wikis/airdrop-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "priority": "P1",
+      "topic_id": "wallet_safety",
+      "description": "Wallet safety includes signatures, authorization, phishing, permissions, and secret protection.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "钱包",
+          "path": "wikis/airdrop-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "签名",
+          "path": "wikis/airdrop-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "授权",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "钓鱼",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "权限",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "私钥",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "priority": "P1",
+      "topic_id": "compliance_boundaries",
+      "description": "Refuses Sybil evasion, spam, fake identities, and platform-rule bypass.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "Sybil",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "刷量",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "假身份",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "绕平台规则",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "priority": "P1",
+      "topic_id": "airdrop_freshness",
+      "description": "TGE, snapshot, eligibility, task rules, and project status require source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "TGE",
+          "path": "wikis/airdrop-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "快照",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "eligibility",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "任务规则",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        },
+        {
+          "passed": true,
+          "term": "needs-source-update",
+          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "priority": "P1",
+      "topic_id": "content_formats",
+      "description": "Research briefs, reports, articles, long posts, short posts, titles, and summaries.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "brief",
+          "path": "wikis/content-agent-wiki/cases/sample-source-grounded-brief.md"
+        },
+        {
+          "passed": true,
+          "term": "日报",
+          "path": "wikis/content-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "文章",
+          "path": "wikis/content-agent-wiki/evals/content-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "长帖",
+          "path": "wikis/content-agent-wiki/manifest.yaml"
+        },
+        {
+          "passed": true,
+          "term": "短帖",
+          "path": "wikis/content-agent-wiki/manifest.yaml"
+        },
+        {
+          "passed": true,
+          "term": "标题",
+          "path": "wikis/content-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "摘要",
+          "path": "wikis/content-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "priority": "P1",
+      "topic_id": "fact_checking",
+      "description": "Fact checking, citations, no plagiarism, and current claims source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "fact",
+          "path": "wikis/content-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "引用",
+          "path": "wikis/content-agent-wiki/cases/sample-source-grounded-brief.md"
+        },
+        {
+          "passed": true,
+          "term": "plagiarism",
+          "path": "wikis/content-agent-wiki/rules/editorial-quality.md"
+        },
+        {
+          "passed": true,
+          "term": "needs-source-update",
+          "path": "wikis/content-agent-wiki/cases/sample-source-grounded-brief.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "priority": "P1",
+      "topic_id": "publishing_checklist",
+      "description": "Style templates and publishing checklist with title, summary, tags, images, and citations.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "风格",
+          "path": "wikis/content-agent-wiki/workflows/content-production.md"
+        },
+        {
+          "passed": true,
+          "term": "发布",
+          "path": "wikis/content-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "标题",
+          "path": "wikis/content-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "tags",
+          "path": "wikis/content-agent-wiki/workflows/research-brief-to-post.md"
+        },
+        {
+          "passed": true,
+          "term": "images",
+          "path": "wikis/content-agent-wiki/workflows/research-brief-to-post.md"
+        },
+        {
+          "passed": true,
+          "term": "citations",
+          "path": "wikis/content-agent-wiki/workflows/research-brief-to-post.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "priority": "P2",
+      "topic_id": "contract_review",
+      "description": "Contract review covers parties, commercial terms, risk clauses, operations, and missing information.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "合同",
+          "path": "wikis/legal-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "主体",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "商业",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "risk",
+          "path": "wikis/legal-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "missing",
+          "path": "wikis/legal-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "priority": "P2",
+      "topic_id": "legal_boundaries",
+      "description": "No final legal opinion; lawyer or legal review is required.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "最终法律意见",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "律师",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "法务",
+          "path": "wikis/legal-agent-wiki/AGENTS.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "priority": "P2",
+      "topic_id": "current_law_freshness",
+      "description": "Jurisdiction, statutes, regulations, cases, and guidance require source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "司法辖区",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "法律条文",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "监管",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "cases",
+          "path": "wikis/legal-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "needs-source-update",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "priority": "P2",
+      "topic_id": "privacy_data_terms",
+      "description": "Privacy, data processing, platform agreements, and consumer protection are covered.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "privacy",
+          "path": "wikis/legal-agent-wiki/evals/legal-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "数据",
+          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+        },
+        {
+          "passed": true,
+          "term": "平台",
+          "path": "wikis/legal-agent-wiki/cases/common-failures.md"
+        },
+        {
+          "passed": true,
+          "term": "consumer",
+          "path": "wikis/legal-agent-wiki/sources/source-notes.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "priority": "P2",
+      "topic_id": "health_education_boundary",
+      "description": "Health education only; no diagnosis, no prescription, no doctor replacement.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "health education",
+          "path": "wikis/health-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "诊断",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "处方",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "医生",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "priority": "P2",
+      "topic_id": "triage_red_flags",
+      "description": "Triage screens red flags, emergency risks, context, uncertainty, and care-seeking guidance.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "triage",
+          "path": "wikis/health-agent-wiki/workflows/health-education-triage.md"
+        },
+        {
+          "passed": true,
+          "term": "红旗",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "emergency",
+          "path": "wikis/health-agent-wiki/evals/health-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "不确定",
+          "path": "wikis/health-agent-wiki/cases/common-failures.md"
+        },
+        {
+          "passed": true,
+          "term": "医生",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "priority": "P2",
+      "topic_id": "report_explanation",
+      "description": "Lab/report explanation includes indicators, factors, recheck, and clinician confirmation.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "lab",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "指标",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "因素",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "复查",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "医生",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "priority": "P2",
+      "topic_id": "medical_freshness",
+      "description": "Guidelines, drug labels, dosage, contraindications, and public health advice require source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "指南",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "药品",
+          "path": "wikis/health-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "剂量",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        },
+        {
+          "passed": true,
+          "term": "contraindication",
+          "path": "wikis/health-agent-wiki/sources/source-notes.md"
+        },
+        {
+          "passed": true,
+          "term": "needs-source-update",
+          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "topic_id": "source_grounding",
+      "description": "Research claims need citations, traceability, datasets, experiments, and source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "引用",
+          "path": "wikis/research-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "traceability",
+          "path": "wikis/research-agent-wiki/rules/core-rules.md"
+        },
+        {
+          "passed": true,
+          "term": "数据集",
+          "path": "wikis/research-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "实验",
+          "path": "wikis/research-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "needs-source-update",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "topic_id": "paper_summary",
+      "description": "Paper summaries cover claims, methods, evidence, limitations, and reproducibility.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "论文",
+          "path": "wikis/research-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "claim",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        },
+        {
+          "passed": true,
+          "term": "方法",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        },
+        {
+          "passed": true,
+          "term": "limitation",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        },
+        {
+          "passed": true,
+          "term": "复现",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "topic_id": "benchmark_freshness",
+      "description": "Latest papers, citations, leaderboards, benchmark status, repositories, and licenses require source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "最新",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        },
+        {
+          "passed": true,
+          "term": "引用",
+          "path": "wikis/research-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "榜单",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        },
+        {
+          "passed": true,
+          "term": "benchmark",
+          "path": "wikis/research-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "仓库",
+          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+        },
+        {
+          "passed": true,
+          "term": "license",
+          "path": "wikis/research-agent-wiki/sources/source-notes.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "priority": "P2",
+      "topic_id": "defensive_boundary",
+      "description": "Security wiki is defensive and authorization-scoped.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "defensive",
+          "path": "wikis/security-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "authorization",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "review",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "priority": "P2",
+      "topic_id": "no_attack_steps",
+      "description": "Refuses exploit, payload, bypass, credential theft, persistence, and evasion steps.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "exploit",
+          "path": "wikis/security-agent-wiki/evals/security-agent-evals.yaml"
+        },
+        {
+          "passed": true,
+          "term": "payload",
+          "path": "wikis/security-agent-wiki/rules/defensive-boundary.md"
+        },
+        {
+          "passed": true,
+          "term": "绕过",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "凭据",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "持久化",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "规避",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "priority": "P2",
+      "topic_id": "threat_model_review",
+      "description": "Threat models cover assets, boundaries, data flows, risks, controls, and verification.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "资产",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "边界",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "数据流",
+          "path": "wikis/security-agent-wiki/workflows/threat-model-review.md"
+        },
+        {
+          "passed": true,
+          "term": "risk",
+          "path": "wikis/security-agent-wiki/AGENTS.md"
+        },
+        {
+          "passed": true,
+          "term": "控制",
+          "path": "wikis/security-agent-wiki/workflows/threat-model-review.md"
+        },
+        {
+          "passed": true,
+          "term": "验证",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        }
+      ],
+      "missing_groups": []
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "priority": "P2",
+      "topic_id": "security_freshness",
+      "description": "CVEs, advisories, patches, detection rules, dependency versions, and cloud defaults require source updates.",
+      "passed": true,
+      "groups": [
+        {
+          "passed": true,
+          "term": "CVE",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "公告",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "补丁",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "检测",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "依赖",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        },
+        {
+          "passed": true,
+          "term": "needs-source-update",
+          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+        }
+      ],
+      "missing_groups": []
+    }
+  ]
+}

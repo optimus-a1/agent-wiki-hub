@@ -1,0 +1,116 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "purpose": "Document which source-review packets are active import targets versus advisory, planning-only, or historical artifacts.",
+  "packet_dir": "registry/source-review-packets",
+  "packet_count": 8,
+  "classification_counts": {
+    "active-import-packet": 2,
+    "advisory-prefill-artifact": 2,
+    "planning-only-pending-packet": 4
+  },
+  "records": [
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "classification": "advisory-prefill-artifact",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 66,
+      "packet_id": "",
+      "planning_only": false,
+      "rationale": "Historical AI-prefill/source-assistance artifact; retained for traceability, not an active import target."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "classification": "advisory-prefill-artifact",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 66,
+      "packet_id": "",
+      "planning_only": false,
+      "rationale": "Historical AI-prefill/source-assistance artifact; retained for traceability, not an active import target."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-1-pending.json",
+      "classification": "active-import-packet",
+      "acceptance_role": "blocking",
+      "strict_audit": true,
+      "entry_count": 13,
+      "packet_id": "source-review-session-wave-1-pending",
+      "planning_only": false,
+      "rationale": "Current active packet; participates in strict packet audit and rehearsal."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
+      "classification": "active-import-packet",
+      "acceptance_role": "blocking",
+      "strict_audit": true,
+      "entry_count": 13,
+      "packet_id": "source-review-session-wave-1-pending",
+      "planning_only": false,
+      "rationale": "Current active packet; participates in strict packet audit and rehearsal."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-2-pending.json",
+      "classification": "planning-only-pending-packet",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 12,
+      "packet_id": "source-review-session-wave-2-pending",
+      "planning_only": true,
+      "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
+      "classification": "planning-only-pending-packet",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 12,
+      "packet_id": "source-review-session-wave-2-pending",
+      "planning_only": true,
+      "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-3-pending.json",
+      "classification": "planning-only-pending-packet",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 10,
+      "packet_id": "source-review-session-wave-3-pending",
+      "planning_only": true,
+      "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
+      "classification": "planning-only-pending-packet",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 10,
+      "packet_id": "source-review-session-wave-3-pending",
+      "planning_only": true,
+      "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+    }
+  ],
+  "checks": [
+    {
+      "check": "packet directory exists",
+      "passed": true,
+      "detail": "registry/source-review-packets"
+    },
+    {
+      "check": "packet files classified",
+      "passed": true,
+      "detail": "8 packet files"
+    },
+    {
+      "check": "active packet exists",
+      "passed": true,
+      "detail": "2 active packet files"
+    },
+    {
+      "check": "planning packets are non-blocking",
+      "passed": true,
+      "detail": "4 planning-only packet files"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+id: finance-agent-wiki
+name: Finance Agent Wiki
+version: 0.1.0
+language: zh-CN
+domain: finance
+risk_level: high
+freshness_requirement: high
+description: "金融研究、财务分析、市场数据、回测、风控与模拟交易系统知识库。默认用于教育、研究和模拟，不输出个人化投资建议。"
+entrypoints:
+  - README.md
+  - AGENTS.md
+  - rules/core-rules.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+trigger_keywords: ["金融", "投资", "财报", "估值", "市场数据", "回测", "风控", "交易系统", "资金费率", "套利"]
+update_policy:
+  stable_knowledge: update when better rules or examples are found
+  current_facts: mark needs-source-update unless verified from authoritative sources
+safety:
+  require_human_confirmation_for_high_risk: true
+  no_secret_storage: true
+  no_autonomous_high_risk_execution: true

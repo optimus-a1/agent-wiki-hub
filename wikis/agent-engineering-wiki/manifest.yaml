@@ -1,0 +1,29 @@
+id: agent-engineering-wiki
+name: Agent Engineering Wiki
+version: 0.1.0
+language: zh-CN
+domain: ai_agent_engineering
+risk_level: medium
+freshness_requirement: medium
+description: "Agent 架构、RAG、知识包、Codex Skills、评测与安全边界知识库。"
+entrypoints:
+  - README.md
+  - AGENTS.md
+  - rules/core-rules.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+trigger_keywords: ["Agent", "RAG", "知识库", "Codex Skill", "AGENTS.md", "评测", "MCP", "工作流"]
+update_policy:
+  stable_knowledge: update when better rules or examples are found
+  current_facts: mark needs-source-update unless verified from authoritative sources
+safety:
+  require_human_confirmation_for_high_risk: true
+  no_secret_storage: true
+  no_autonomous_high_risk_execution: true

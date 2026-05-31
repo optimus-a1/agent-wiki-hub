@@ -1,0 +1,21 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "work_order_count": 13,
+  "human_review_gate_count": 13,
+  "work_order_paths": [
+    "registry/source-review-work-orders/TICKET-SRC-004.md",
+    "registry/source-review-work-orders/TICKET-SRC-005.md",
+    "registry/source-review-work-orders/TICKET-SRC-006.md",
+    "registry/source-review-work-orders/TICKET-SRC-007.md",
+    "registry/source-review-work-orders/TICKET-SRC-001.md",
+    "registry/source-review-work-orders/TICKET-SRC-002.md",
+    "registry/source-review-work-orders/TICKET-SRC-003.md",
+    "registry/source-review-work-orders/TICKET-SRC-008.md",
+    "registry/source-review-work-orders/TICKET-SRC-009.md",
+    "registry/source-review-work-orders/TICKET-SRC-010.md",
+    "registry/source-review-work-orders/TICKET-SRC-011.md",
+    "registry/source-review-work-orders/TICKET-SRC-012.md",
+    "registry/source-review-work-orders/TICKET-SRC-013.md"
+  ]
+}

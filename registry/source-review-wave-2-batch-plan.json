@@ -1,0 +1,1186 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "purpose": "Prepare wave-2 evidence collection batches without source verification or current-fact writes.",
+  "planning_only": true,
+  "no_current_fact_write": true,
+  "source_review_wave_plan": "registry/source-review-wave-2-plan.json",
+  "batch_dir": "registry/source-review-wave-2-batches",
+  "ticket_count": 12,
+  "batch_count": 4,
+  "high_risk_count": 3,
+  "human_gate_count": 3,
+  "batches": [
+    {
+      "batch_id": "batch-1-nodeops",
+      "title": "Batch 1 - NodeOps High-Risk Review",
+      "reviewer_role": "operations-change-reviewer",
+      "file": "batch-1-nodeops.md",
+      "risk_note": "High-risk operations topics require named human confirmation before any final status.",
+      "path": "registry/source-review-wave-2-batches/batch-1-nodeops.md",
+      "ticket_ids": [
+        "TICKET-SRC-021",
+        "TICKET-SRC-022",
+        "TICKET-SRC-023"
+      ],
+      "wiki_counts": {
+        "nodeops-agent-wiki": 3
+      },
+      "risk_counts": {
+        "high": 3
+      },
+      "human_gate_count": 3,
+      "work_orders": [
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-021",
+          "rank": 1,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": true,
+          "review": {
+            "review_id": "REVIEW-SRC-021",
+            "ticket_id": "TICKET-SRC-021",
+            "task_id": "SRC-021",
+            "wiki": "nodeops-agent-wiki",
+            "priority": "P1",
+            "wave": "wave-2",
+            "risk_level": "high",
+            "freshness": "medium",
+            "category": "general_current_fact",
+            "topic": "current OS package, Docker, systemd and kernel behavior",
+            "reviewer_role": "operations-change-reviewer",
+            "human_review_gate": true,
+            "suggested_sources": [
+              "official documentation",
+              "local version output",
+              "release notes"
+            ],
+            "required_reading": [
+              "wikis/nodeops-agent-wiki/AGENTS.md",
+              "wikis/nodeops-agent-wiki/manifest.yaml",
+              "wikis/nodeops-agent-wiki/README.md",
+              "wikis/nodeops-agent-wiki/rules/",
+              "wikis/nodeops-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: official documentation, local version output, release notes.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date.",
+            "Require human review before moving this ticket to verified."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+            "Start with suggested source types: official documentation, local version output, release notes.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-021",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "<reviewer>",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-022",
+          "rank": 2,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": true,
+          "review": {
+            "review_id": "REVIEW-SRC-022",
+            "ticket_id": "TICKET-SRC-022",
+            "task_id": "SRC-022",
+            "wiki": "nodeops-agent-wiki",
+            "priority": "P1",
+            "wave": "wave-2",
+            "risk_level": "high",
+            "freshness": "medium",
+            "category": "technical_docs",
+            "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+            "reviewer_role": "operations-change-reviewer",
+            "human_review_gate": true,
+            "suggested_sources": [
+              "official client release notes",
+              "chain foundation announcement",
+              "node logs and version output"
+            ],
+            "required_reading": [
+              "wikis/nodeops-agent-wiki/AGENTS.md",
+              "wikis/nodeops-agent-wiki/manifest.yaml",
+              "wikis/nodeops-agent-wiki/README.md",
+              "wikis/nodeops-agent-wiki/rules/",
+              "wikis/nodeops-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: official client release notes, chain foundation announcement, node logs and version output.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date.",
+            "Require human review before moving this ticket to verified."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+            "Start with suggested source types: official client release notes, chain foundation announcement, node logs and version output.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-022",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "<reviewer>",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-023",
+          "rank": 3,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": true,
+          "review": {
+            "review_id": "REVIEW-SRC-023",
+            "ticket_id": "TICKET-SRC-023",
+            "task_id": "SRC-023",
+            "wiki": "nodeops-agent-wiki",
+            "priority": "P1",
+            "wave": "wave-2",
+            "risk_level": "high",
+            "freshness": "medium",
+            "category": "general_current_fact",
+            "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+            "reviewer_role": "operations-change-reviewer",
+            "human_review_gate": true,
+            "suggested_sources": [
+              "cloud provider documentation",
+              "status page",
+              "account console"
+            ],
+            "required_reading": [
+              "wikis/nodeops-agent-wiki/AGENTS.md",
+              "wikis/nodeops-agent-wiki/manifest.yaml",
+              "wikis/nodeops-agent-wiki/README.md",
+              "wikis/nodeops-agent-wiki/rules/",
+              "wikis/nodeops-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: cloud provider documentation, status page, account console.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date.",
+            "Require human review before moving this ticket to verified."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+            "Start with suggested source types: cloud provider documentation, status page, account console.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-023",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "<reviewer>",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        }
+      ],
+      "evidence_fields_to_fill": [
+        "ticket_id",
+        "status",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "verified_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "disallowed_sources": [
+        "unsourced summaries",
+        "marketing copy without dates or scope",
+        "scraped snippets without an authoritative source page",
+        "private account data, cookies, API keys, private keys, seed phrases, or credentials",
+        "outdated, conflicting, or jurisdiction-mismatched sources used as final authority"
+      ],
+      "acceptance_commands": [
+        "python scripts\\audit_source_review_packets.py",
+        "python scripts\\rehearse_source_review_packet_imports.py",
+        "python scripts\\audit_source_evidence_quality.py",
+        "python scripts\\audit_source_refresh_completion.py",
+        "python scripts\\audit_links.py",
+        "python scripts\\run_acceptance.py"
+      ],
+      "rollback_notes": [
+        "Planning artifacts can be regenerated from registry/source-review-wave-2-plan.json.",
+        "Do not delete evidence logs or unrelated files as rollback.",
+        "If a source is invalid, keep status pending or still-needs-source-update."
+      ],
+      "human_gate_notes": [
+        "Named human reviewer required before final status on high-risk tickets.",
+        "No production operations or current-fact wiki writes are authorized by this preparation batch."
+      ]
+    },
+    {
+      "batch_id": "batch-2-customs",
+      "title": "Batch 2 - Customs P0 Review",
+      "reviewer_role": "customs-document-reviewer",
+      "file": "batch-2-customs.md",
+      "risk_note": "Customs topics require official, jurisdiction-specific sources before current facts can be used.",
+      "path": "registry/source-review-wave-2-batches/batch-2-customs.md",
+      "ticket_ids": [
+        "TICKET-SRC-014",
+        "TICKET-SRC-015",
+        "TICKET-SRC-016",
+        "TICKET-SRC-017"
+      ],
+      "wiki_counts": {
+        "customs-agent-wiki": 4
+      },
+      "risk_counts": {
+        "medium": 4
+      },
+      "human_gate_count": 0,
+      "work_orders": [
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-014",
+          "rank": 4,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-014",
+            "ticket_id": "TICKET-SRC-014",
+            "task_id": "SRC-014",
+            "wiki": "customs-agent-wiki",
+            "priority": "P0",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "market_or_platform_data",
+            "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+            "reviewer_role": "customs-document-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "central bank or official exchange source",
+              "customs tariff system",
+              "destination country authority"
+            ],
+            "required_reading": [
+              "wikis/customs-agent-wiki/AGENTS.md",
+              "wikis/customs-agent-wiki/manifest.yaml",
+              "wikis/customs-agent-wiki/README.md",
+              "wikis/customs-agent-wiki/rules/",
+              "wikis/customs-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: central bank or official exchange source, customs tariff system, destination country authority.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: central bank or official exchange source, customs tariff system, destination country authority.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-014",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-015",
+          "rank": 5,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-015",
+            "ticket_id": "TICKET-SRC-015",
+            "task_id": "SRC-015",
+            "wiki": "customs-agent-wiki",
+            "priority": "P0",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "general_current_fact",
+            "topic": "latest HS codes, customs supervision conditions and declaration elements",
+            "reviewer_role": "customs-document-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "customs authority website",
+              "official tariff database",
+              "licensed customs broker review"
+            ],
+            "required_reading": [
+              "wikis/customs-agent-wiki/AGENTS.md",
+              "wikis/customs-agent-wiki/manifest.yaml",
+              "wikis/customs-agent-wiki/README.md",
+              "wikis/customs-agent-wiki/rules/",
+              "wikis/customs-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: customs authority website, official tariff database, licensed customs broker review.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: customs authority website, official tariff database, licensed customs broker review.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-015",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-016",
+          "rank": 6,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-016",
+            "ticket_id": "TICKET-SRC-016",
+            "task_id": "SRC-016",
+            "wiki": "customs-agent-wiki",
+            "priority": "P0",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "policy_or_regulation",
+            "topic": "latest import/export policy, inspection and quarantine requirements",
+            "reviewer_role": "customs-document-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "customs and inspection authority announcement",
+              "destination country regulator",
+              "official trade compliance bulletin"
+            ],
+            "required_reading": [
+              "wikis/customs-agent-wiki/AGENTS.md",
+              "wikis/customs-agent-wiki/manifest.yaml",
+              "wikis/customs-agent-wiki/README.md",
+              "wikis/customs-agent-wiki/rules/",
+              "wikis/customs-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: customs and inspection authority announcement, destination country regulator, official trade compliance bulletin.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: customs and inspection authority announcement, destination country regulator, official trade compliance bulletin.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-016",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-017",
+          "rank": 7,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-017",
+            "ticket_id": "TICKET-SRC-017",
+            "task_id": "SRC-017",
+            "wiki": "customs-agent-wiki",
+            "priority": "P0",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "technical_docs",
+            "topic": "latest platform OCR model parameters and document template behavior",
+            "reviewer_role": "customs-document-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "OCR vendor documentation",
+              "internal extraction benchmark",
+              "manually reviewed sample set"
+            ],
+            "required_reading": [
+              "wikis/customs-agent-wiki/AGENTS.md",
+              "wikis/customs-agent-wiki/manifest.yaml",
+              "wikis/customs-agent-wiki/README.md",
+              "wikis/customs-agent-wiki/rules/",
+              "wikis/customs-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: OCR vendor documentation, internal extraction benchmark, manually reviewed sample set.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: OCR vendor documentation, internal extraction benchmark, manually reviewed sample set.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-017",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        }
+      ],
+      "evidence_fields_to_fill": [
+        "ticket_id",
+        "status",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "verified_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "disallowed_sources": [
+        "unsourced summaries",
+        "marketing copy without dates or scope",
+        "scraped snippets without an authoritative source page",
+        "private account data, cookies, API keys, private keys, seed phrases, or credentials",
+        "outdated, conflicting, or jurisdiction-mismatched sources used as final authority"
+      ],
+      "acceptance_commands": [
+        "python scripts\\audit_source_review_packets.py",
+        "python scripts\\rehearse_source_review_packet_imports.py",
+        "python scripts\\audit_source_evidence_quality.py",
+        "python scripts\\audit_source_refresh_completion.py",
+        "python scripts\\audit_links.py",
+        "python scripts\\run_acceptance.py"
+      ],
+      "rollback_notes": [
+        "Planning artifacts can be regenerated from registry/source-review-wave-2-plan.json.",
+        "Do not delete evidence logs or unrelated files as rollback.",
+        "If a source is invalid, keep status pending or still-needs-source-update."
+      ],
+      "human_gate_notes": [
+        "Named human reviewer required before final status on high-risk tickets.",
+        "No production operations or current-fact wiki writes are authorized by this preparation batch."
+      ]
+    },
+    {
+      "batch_id": "batch-3-ecommerce",
+      "title": "Batch 3 - Ecommerce P1 Review",
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "file": "batch-3-ecommerce.md",
+      "risk_note": "Platform and product facts remain time-sensitive and must stay pending until source-scoped.",
+      "path": "registry/source-review-wave-2-batches/batch-3-ecommerce.md",
+      "ticket_ids": [
+        "TICKET-SRC-018",
+        "TICKET-SRC-019",
+        "TICKET-SRC-020"
+      ],
+      "wiki_counts": {
+        "ecommerce-agent-wiki": 3
+      },
+      "risk_counts": {
+        "medium": 3
+      },
+      "human_gate_count": 0,
+      "work_orders": [
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-018",
+          "rank": 8,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-018",
+            "ticket_id": "TICKET-SRC-018",
+            "task_id": "SRC-018",
+            "wiki": "ecommerce-agent-wiki",
+            "priority": "P1",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "policy_or_regulation",
+            "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+            "reviewer_role": "ecommerce-policy-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "official marketplace policy center",
+              "consumer protection authority",
+              "merchant service agreement"
+            ],
+            "required_reading": [
+              "wikis/ecommerce-agent-wiki/AGENTS.md",
+              "wikis/ecommerce-agent-wiki/manifest.yaml",
+              "wikis/ecommerce-agent-wiki/README.md",
+              "wikis/ecommerce-agent-wiki/rules/",
+              "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: official marketplace policy center, consumer protection authority, merchant service agreement.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: official marketplace policy center, consumer protection authority, merchant service agreement.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-018",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-019",
+          "rank": 9,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-019",
+            "ticket_id": "TICKET-SRC-019",
+            "task_id": "SRC-019",
+            "wiki": "ecommerce-agent-wiki",
+            "priority": "P1",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "general_current_fact",
+            "topic": "current product certification, recall, safety notice and warranty terms",
+            "reviewer_role": "ecommerce-policy-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "brand official website",
+              "regulator recall database",
+              "warranty document"
+            ],
+            "required_reading": [
+              "wikis/ecommerce-agent-wiki/AGENTS.md",
+              "wikis/ecommerce-agent-wiki/manifest.yaml",
+              "wikis/ecommerce-agent-wiki/README.md",
+              "wikis/ecommerce-agent-wiki/rules/",
+              "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: brand official website, regulator recall database, warranty document.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: brand official website, regulator recall database, warranty document.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-019",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-020",
+          "rank": 10,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-020",
+            "ticket_id": "TICKET-SRC-020",
+            "task_id": "SRC-020",
+            "wiki": "ecommerce-agent-wiki",
+            "priority": "P1",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "market_or_platform_data",
+            "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+            "reviewer_role": "ecommerce-policy-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "platform product page",
+              "merchant backend",
+              "carrier tracking system"
+            ],
+            "required_reading": [
+              "wikis/ecommerce-agent-wiki/AGENTS.md",
+              "wikis/ecommerce-agent-wiki/manifest.yaml",
+              "wikis/ecommerce-agent-wiki/README.md",
+              "wikis/ecommerce-agent-wiki/rules/",
+              "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: platform product page, merchant backend, carrier tracking system.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: platform product page, merchant backend, carrier tracking system.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-020",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        }
+      ],
+      "evidence_fields_to_fill": [
+        "ticket_id",
+        "status",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "verified_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "disallowed_sources": [
+        "unsourced summaries",
+        "marketing copy without dates or scope",
+        "scraped snippets without an authoritative source page",
+        "private account data, cookies, API keys, private keys, seed phrases, or credentials",
+        "outdated, conflicting, or jurisdiction-mismatched sources used as final authority"
+      ],
+      "acceptance_commands": [
+        "python scripts\\audit_source_review_packets.py",
+        "python scripts\\rehearse_source_review_packet_imports.py",
+        "python scripts\\audit_source_evidence_quality.py",
+        "python scripts\\audit_source_refresh_completion.py",
+        "python scripts\\audit_links.py",
+        "python scripts\\run_acceptance.py"
+      ],
+      "rollback_notes": [
+        "Planning artifacts can be regenerated from registry/source-review-wave-2-plan.json.",
+        "Do not delete evidence logs or unrelated files as rollback.",
+        "If a source is invalid, keep status pending or still-needs-source-update."
+      ],
+      "human_gate_notes": [
+        "Named human reviewer required before final status on high-risk tickets.",
+        "No production operations or current-fact wiki writes are authorized by this preparation batch."
+      ]
+    },
+    {
+      "batch_id": "batch-4-research",
+      "title": "Batch 4 - Research P2 Review",
+      "reviewer_role": "research-methods-reviewer",
+      "file": "batch-4-research.md",
+      "risk_note": "Research artifacts require primary pages, repository/model-card evidence, and license checks.",
+      "path": "registry/source-review-wave-2-batches/batch-4-research.md",
+      "ticket_ids": [
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
+      ],
+      "wiki_counts": {
+        "research-agent-wiki": 2
+      },
+      "risk_counts": {
+        "medium": 2
+      },
+      "human_gate_count": 0,
+      "work_orders": [
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-024",
+          "rank": 11,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-024",
+            "ticket_id": "TICKET-SRC-024",
+            "task_id": "SRC-024",
+            "wiki": "research-agent-wiki",
+            "priority": "P2",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "technical_docs",
+            "topic": "current dataset availability, license, model weights and code repository status",
+            "reviewer_role": "research-methods-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "official dataset page",
+              "repository release notes",
+              "model card"
+            ],
+            "required_reading": [
+              "wikis/research-agent-wiki/AGENTS.md",
+              "wikis/research-agent-wiki/manifest.yaml",
+              "wikis/research-agent-wiki/README.md",
+              "wikis/research-agent-wiki/rules/",
+              "wikis/research-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: official dataset page, repository release notes, model card.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: official dataset page, repository release notes, model card.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-024",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        },
+        {
+          "work_order_id": "WAVE2-WORKORDER-TICKET-SRC-025",
+          "rank": 12,
+          "plan_status": "planned-not-started",
+          "no_current_fact_write": true,
+          "source_collection_required": true,
+          "human_confirmation_required": false,
+          "review": {
+            "review_id": "REVIEW-SRC-025",
+            "ticket_id": "TICKET-SRC-025",
+            "task_id": "SRC-025",
+            "wiki": "research-agent-wiki",
+            "priority": "P2",
+            "wave": "wave-2",
+            "risk_level": "medium",
+            "freshness": "high",
+            "category": "general_current_fact",
+            "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+            "reviewer_role": "research-methods-reviewer",
+            "human_review_gate": false,
+            "suggested_sources": [
+              "publisher page",
+              "arXiv or conference page",
+              "official benchmark leaderboard"
+            ],
+            "required_reading": [
+              "wikis/research-agent-wiki/AGENTS.md",
+              "wikis/research-agent-wiki/manifest.yaml",
+              "wikis/research-agent-wiki/README.md",
+              "wikis/research-agent-wiki/rules/",
+              "wikis/research-agent-wiki/sources/source-notes.md"
+            ],
+            "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+            "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+            "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
+            "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+          },
+          "source_policy": [
+            "Prefer official, primary, dated sources.",
+            "Start from suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
+            "Do not use unsourced summaries as the only authority.",
+            "Record publication/update date and access date."
+          ],
+          "verification_steps": [
+            "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+            "Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
+            "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+            "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+            "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+            "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+            "Run validation, source queue generation, search index update, and acceptance checks after edits."
+          ],
+          "acceptance_criteria": [
+            "No current fact is written without a dated source note.",
+            "No API key, private key, cookie, credential, or private account data is recorded.",
+            "Any remaining uncertainty is explicitly marked needs-source-update.",
+            "The relevant update-log.md records the change."
+          ],
+          "packet_entry_template": {
+            "ticket_id": "TICKET-SRC-025",
+            "status": "pending",
+            "source_title": "<source title>",
+            "source_publisher": "<official publisher or authority>",
+            "source_url_or_reference": "<URL or local reference>",
+            "source_published_or_updated": "YYYY-MM-DD | unknown",
+            "source_accessed_on": "2026-05-31",
+            "verified_on": "",
+            "evidence_summary": "<what the source supports and does not support>",
+            "affected_pages": [],
+            "confidence": "low",
+            "remaining_uncertainty": "<remaining uncertainty>",
+            "human_reviewer": "",
+            "follow_up": "Keep needs-source-update unless authoritative, dated, scoped evidence is recorded and reviewed."
+          }
+        }
+      ],
+      "evidence_fields_to_fill": [
+        "ticket_id",
+        "status",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "verified_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "disallowed_sources": [
+        "unsourced summaries",
+        "marketing copy without dates or scope",
+        "scraped snippets without an authoritative source page",
+        "private account data, cookies, API keys, private keys, seed phrases, or credentials",
+        "outdated, conflicting, or jurisdiction-mismatched sources used as final authority"
+      ],
+      "acceptance_commands": [
+        "python scripts\\audit_source_review_packets.py",
+        "python scripts\\rehearse_source_review_packet_imports.py",
+        "python scripts\\audit_source_evidence_quality.py",
+        "python scripts\\audit_source_refresh_completion.py",
+        "python scripts\\audit_links.py",
+        "python scripts\\run_acceptance.py"
+      ],
+      "rollback_notes": [
+        "Planning artifacts can be regenerated from registry/source-review-wave-2-plan.json.",
+        "Do not delete evidence logs or unrelated files as rollback.",
+        "If a source is invalid, keep status pending or still-needs-source-update."
+      ],
+      "human_gate_notes": [
+        "Named human reviewer required before final status on high-risk tickets.",
+        "No production operations or current-fact wiki writes are authorized by this preparation batch."
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "check": "wave-2 plan exists and passed",
+      "passed": true,
+      "detail": "registry/source-review-wave-2-plan.json"
+    },
+    {
+      "check": "all wave-2 tickets assigned to batches",
+      "passed": true,
+      "detail": "12/12 tickets"
+    },
+    {
+      "check": "no current facts written",
+      "passed": true,
+      "detail": "planning-only batch preparation"
+    }
+  ]
+}

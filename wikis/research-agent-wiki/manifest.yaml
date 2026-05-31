@@ -1,0 +1,29 @@
+id: research-agent-wiki
+name: Research Agent Wiki
+version: 0.1.0
+language: zh-CN
+domain: research
+risk_level: medium
+freshness_requirement: high
+description: "论文阅读、综述、实验复现、引用管理和研究评测知识库。"
+entrypoints:
+  - README.md
+  - AGENTS.md
+  - rules/core-rules.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+trigger_keywords: ["论文", "研究", "综述", "实验", "数据集", "引用", "benchmark"]
+update_policy:
+  stable_knowledge: update when better rules or examples are found
+  current_facts: mark needs-source-update unless verified from authoritative sources
+safety:
+  require_human_confirmation_for_high_risk: true
+  no_secret_storage: true
+  no_autonomous_high_risk_execution: true

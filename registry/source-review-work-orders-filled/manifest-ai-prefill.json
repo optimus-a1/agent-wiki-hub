@@ -1,0 +1,28 @@
+{
+  "generated": "2026-05-28",
+  "source": "AI prefill from web search and stable domain knowledge",
+  "passed_local_placeholder_check": true,
+  "work_order_count": 13,
+  "entry_count": 66,
+  "current_fact_ready": false,
+  "human_review_gate_required": true,
+  "status_policy": "All entries remain still-needs-source-update until a human reviewer confirms authority, recency, scope, conflict checks, and acceptance.",
+  "work_order_paths": [
+    "registry/source-review-work-orders-filled/TICKET-SRC-001.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-002.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-003.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-004.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-005.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-006.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-007.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-008.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-009.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-010.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-011.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-012.md",
+    "registry/source-review-work-orders-filled/TICKET-SRC-013.md"
+  ],
+  "packet_json": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+  "packet_jsonl": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+  "packet_entries_json": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.entries.json"
+}

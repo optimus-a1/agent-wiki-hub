@@ -1,0 +1,2771 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "checks": [
+    {
+      "check_id": "packs:directory_exists",
+      "passed": true,
+      "evidence": "packs"
+    },
+    {
+      "check_id": "agent-engineering-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/agent-engineering-wiki.zip"
+    },
+    {
+      "check_id": "agent-engineering-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/agent-engineering-wiki.zip"
+    },
+    {
+      "check_id": "agent-engineering-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "22 entries"
+    },
+    {
+      "check_id": "agent-engineering-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "agent-engineering-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "agent-engineering-wiki:file:README.md",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/README.md"
+    },
+    {
+      "check_id": "agent-engineering-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "agent-engineering-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/update-log.md"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/concepts/"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:rules",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/rules/"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/workflows/"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:cases",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/cases/"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:tools",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/tools/"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/prompts/"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:evals",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/evals/"
+    },
+    {
+      "check_id": "agent-engineering-wiki:directory:sources",
+      "passed": true,
+      "evidence": "agent-engineering-wiki/sources/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/airdrop-agent-wiki.zip"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/airdrop-agent-wiki.zip"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "19 entries"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/README.md"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/rules/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/cases/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/tools/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/evals/"
+    },
+    {
+      "check_id": "airdrop-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "airdrop-agent-wiki/sources/"
+    },
+    {
+      "check_id": "coding-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/coding-agent-wiki.zip"
+    },
+    {
+      "check_id": "coding-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/coding-agent-wiki.zip"
+    },
+    {
+      "check_id": "coding-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "21 entries"
+    },
+    {
+      "check_id": "coding-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "coding-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "coding-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "coding-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "coding-agent-wiki/README.md"
+    },
+    {
+      "check_id": "coding-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "coding-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "coding-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "coding-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "coding-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "coding-agent-wiki/rules/"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "coding-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "coding-agent-wiki/cases/"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "coding-agent-wiki/tools/"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "coding-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "coding-agent-wiki/evals/"
+    },
+    {
+      "check_id": "coding-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "coding-agent-wiki/sources/"
+    },
+    {
+      "check_id": "content-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/content-agent-wiki.zip"
+    },
+    {
+      "check_id": "content-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/content-agent-wiki.zip"
+    },
+    {
+      "check_id": "content-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "18 entries"
+    },
+    {
+      "check_id": "content-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "content-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "content-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "content-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "content-agent-wiki/README.md"
+    },
+    {
+      "check_id": "content-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "content-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "content-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "content-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "content-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "content-agent-wiki/rules/"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "content-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "content-agent-wiki/cases/"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "content-agent-wiki/tools/"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "content-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "content-agent-wiki/evals/"
+    },
+    {
+      "check_id": "content-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "content-agent-wiki/sources/"
+    },
+    {
+      "check_id": "customs-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/customs-agent-wiki.zip"
+    },
+    {
+      "check_id": "customs-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/customs-agent-wiki.zip"
+    },
+    {
+      "check_id": "customs-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "21 entries"
+    },
+    {
+      "check_id": "customs-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "customs-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "customs-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "customs-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "customs-agent-wiki/README.md"
+    },
+    {
+      "check_id": "customs-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "customs-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "customs-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "customs-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "customs-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "customs-agent-wiki/rules/"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "customs-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "customs-agent-wiki/cases/"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "customs-agent-wiki/tools/"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "customs-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "customs-agent-wiki/evals/"
+    },
+    {
+      "check_id": "customs-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "customs-agent-wiki/sources/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/ecommerce-agent-wiki.zip"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/ecommerce-agent-wiki.zip"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "19 entries"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/README.md"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/rules/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/cases/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/tools/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/evals/"
+    },
+    {
+      "check_id": "ecommerce-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "ecommerce-agent-wiki/sources/"
+    },
+    {
+      "check_id": "finance-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/finance-agent-wiki.zip"
+    },
+    {
+      "check_id": "finance-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/finance-agent-wiki.zip"
+    },
+    {
+      "check_id": "finance-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "22 entries"
+    },
+    {
+      "check_id": "finance-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "finance-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "finance-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "finance-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "finance-agent-wiki/README.md"
+    },
+    {
+      "check_id": "finance-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "finance-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "finance-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "finance-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "finance-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "finance-agent-wiki/rules/"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "finance-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "finance-agent-wiki/cases/"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "finance-agent-wiki/tools/"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "finance-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "finance-agent-wiki/evals/"
+    },
+    {
+      "check_id": "finance-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "finance-agent-wiki/sources/"
+    },
+    {
+      "check_id": "health-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/health-agent-wiki.zip"
+    },
+    {
+      "check_id": "health-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/health-agent-wiki.zip"
+    },
+    {
+      "check_id": "health-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "17 entries"
+    },
+    {
+      "check_id": "health-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "health-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "health-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "health-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "health-agent-wiki/README.md"
+    },
+    {
+      "check_id": "health-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "health-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "health-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "health-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "health-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "health-agent-wiki/rules/"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "health-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "health-agent-wiki/cases/"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "health-agent-wiki/tools/"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "health-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "health-agent-wiki/evals/"
+    },
+    {
+      "check_id": "health-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "health-agent-wiki/sources/"
+    },
+    {
+      "check_id": "legal-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/legal-agent-wiki.zip"
+    },
+    {
+      "check_id": "legal-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/legal-agent-wiki.zip"
+    },
+    {
+      "check_id": "legal-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "17 entries"
+    },
+    {
+      "check_id": "legal-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "legal-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "legal-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "legal-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "legal-agent-wiki/README.md"
+    },
+    {
+      "check_id": "legal-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "legal-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "legal-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "legal-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "legal-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "legal-agent-wiki/rules/"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "legal-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "legal-agent-wiki/cases/"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "legal-agent-wiki/tools/"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "legal-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "legal-agent-wiki/evals/"
+    },
+    {
+      "check_id": "legal-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "legal-agent-wiki/sources/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/nodeops-agent-wiki.zip"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/nodeops-agent-wiki.zip"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "19 entries"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/README.md"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/rules/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/cases/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/tools/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/evals/"
+    },
+    {
+      "check_id": "nodeops-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "nodeops-agent-wiki/sources/"
+    },
+    {
+      "check_id": "research-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/research-agent-wiki.zip"
+    },
+    {
+      "check_id": "research-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/research-agent-wiki.zip"
+    },
+    {
+      "check_id": "research-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "17 entries"
+    },
+    {
+      "check_id": "research-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "research-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "research-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "research-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "research-agent-wiki/README.md"
+    },
+    {
+      "check_id": "research-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "research-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "research-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "research-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "research-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "research-agent-wiki/rules/"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "research-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "research-agent-wiki/cases/"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "research-agent-wiki/tools/"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "research-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "research-agent-wiki/evals/"
+    },
+    {
+      "check_id": "research-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "research-agent-wiki/sources/"
+    },
+    {
+      "check_id": "security-agent-wiki:zip_exists",
+      "passed": true,
+      "evidence": "packs/security-agent-wiki.zip"
+    },
+    {
+      "check_id": "security-agent-wiki:zip_valid",
+      "passed": true,
+      "evidence": "packs/security-agent-wiki.zip"
+    },
+    {
+      "check_id": "security-agent-wiki:zip_not_empty",
+      "passed": true,
+      "evidence": "19 entries"
+    },
+    {
+      "check_id": "security-agent-wiki:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "security-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "security-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "security-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "security-agent-wiki/README.md"
+    },
+    {
+      "check_id": "security-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "security-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "security-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "security-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "security-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "security-agent-wiki/rules/"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "security-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "security-agent-wiki/cases/"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "security-agent-wiki/tools/"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "security-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "security-agent-wiki/evals/"
+    },
+    {
+      "check_id": "security-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "security-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:zip_exists",
+      "passed": true,
+      "evidence": "packs/agent-wiki-hub-all.zip"
+    },
+    {
+      "check_id": "all:zip_valid",
+      "passed": true,
+      "evidence": "packs/agent-wiki-hub-all.zip"
+    },
+    {
+      "check_id": "all:zip_not_empty",
+      "passed": true,
+      "evidence": "445 entries"
+    },
+    {
+      "check_id": "all:safe_member_names",
+      "passed": true,
+      "evidence": "safe"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/README.md"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/concepts/"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/rules/"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/workflows/"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/cases/"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/tools/"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/prompts/"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/evals/"
+    },
+    {
+      "check_id": "all:agent-engineering-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/sources/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:airdrop-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:coding-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:content-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:content-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:content-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:content-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:customs-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:ecommerce-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:finance-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:health-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:health-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:health-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:health-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:legal-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:nodeops-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:research-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:research-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:research-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:research-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:file:manifest.yaml",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/manifest.yaml"
+    },
+    {
+      "check_id": "all:security-agent-wiki:file:README.md",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/README.md"
+    },
+    {
+      "check_id": "all:security-agent-wiki:file:AGENTS.md",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/AGENTS.md"
+    },
+    {
+      "check_id": "all:security-agent-wiki:file:update-log.md",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/update-log.md"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:concepts",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/concepts/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:rules",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/rules/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:workflows",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/workflows/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:cases",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/cases/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:tools",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/tools/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:prompts",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/prompts/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:evals",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/evals/"
+    },
+    {
+      "check_id": "all:security-agent-wiki:directory:sources",
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/sources/"
+    },
+    {
+      "check_id": "all:includes:AGENTS.md",
+      "passed": true,
+      "evidence": "AGENTS.md"
+    },
+    {
+      "check_id": "all:includes:README.md",
+      "passed": true,
+      "evidence": "README.md"
+    },
+    {
+      "check_id": "all:includes:CODEX_BUILD_PROMPT.md",
+      "passed": true,
+      "evidence": "CODEX_BUILD_PROMPT.md"
+    },
+    {
+      "check_id": "all:includes:registry/acceptance-report.json",
+      "passed": true,
+      "evidence": "registry/acceptance-report.json"
+    },
+    {
+      "check_id": "all:includes:registry/agent-handoff.json",
+      "passed": true,
+      "evidence": "registry/agent-handoff.json"
+    },
+    {
+      "check_id": "all:includes:registry/agent-routing-cards.json",
+      "passed": true,
+      "evidence": "registry/agent-routing-cards.json"
+    },
+    {
+      "check_id": "all:includes:registry/change-summary.json",
+      "passed": true,
+      "evidence": "registry/change-summary.json"
+    },
+    {
+      "check_id": "all:includes:registry/ci-audit.json",
+      "passed": true,
+      "evidence": "registry/ci-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/coverage-audit.json",
+      "passed": true,
+      "evidence": "registry/coverage-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/hub-navigation.json",
+      "passed": true,
+      "evidence": "registry/hub-navigation.json"
+    },
+    {
+      "check_id": "all:includes:registry/link-audit.json",
+      "passed": true,
+      "evidence": "registry/link-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/page-metadata-audit.json",
+      "passed": true,
+      "evidence": "registry/page-metadata-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/registry-consistency.json",
+      "passed": true,
+      "evidence": "registry/registry-consistency.json"
+    },
+    {
+      "check_id": "all:includes:registry/release-manifest.json",
+      "passed": true,
+      "evidence": "registry/release-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/safety-audit.json",
+      "passed": true,
+      "evidence": "registry/safety-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/invalid-duplicate-ticket.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/invalid-duplicate-ticket.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/invalid-missing-human-reviewer.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/invalid-missing-human-reviewer.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/invalid-placeholder-source.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/invalid-placeholder-source.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/invalid-secret-marker.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/invalid-secret-marker.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/template-wave-1-p0-pending.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/template-wave-1-p0-pending.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/valid-pending-single.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/valid-pending-single.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-fixtures/valid-still-needs-source-update-dry-run-only.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-fixtures/valid-still-needs-source-update-dry-run-only.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-packet-fixtures.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-packet-fixtures.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-packet-importer.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-packet-importer.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-evidence-quality-audit.json",
+      "passed": true,
+      "evidence": "registry/source-evidence-quality-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-refresh-completion-audit.json",
+      "passed": true,
+      "evidence": "registry/source-refresh-completion-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-refresh-dashboard.json",
+      "passed": true,
+      "evidence": "registry/source-refresh-dashboard.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-refresh-log-status.json",
+      "passed": true,
+      "evidence": "registry/source-refresh-log-status.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-refresh-playbook.json",
+      "passed": true,
+      "evidence": "registry/source-refresh-playbook.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-refresh-tickets.json",
+      "passed": true,
+      "evidence": "registry/source-refresh-tickets.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-refresh-wave-runner.json",
+      "passed": true,
+      "evidence": "registry/source-refresh-wave-runner.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-final-status.json",
+      "passed": true,
+      "evidence": "registry/source-review-final-status.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packet-audit.json",
+      "passed": true,
+      "evidence": "registry/source-review-packet-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packet-bundle.json",
+      "passed": true,
+      "evidence": "registry/source-review-packet-bundle.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packet-classification.json",
+      "passed": true,
+      "evidence": "registry/source-review-packet-classification.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packet-rehearsal.json",
+      "passed": true,
+      "evidence": "registry/source-review-packet-rehearsal.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-1-pending-checklist.md",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-1-pending-checklist.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-1-pending-manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-1-pending-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-1-pending.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-1-pending.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-2-pending-checklist.md",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-2-pending-checklist.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-2-pending-manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-2-pending-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-2-pending.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-2-pending.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-3-pending-checklist.md",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-3-pending-checklist.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-3-pending-manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-3-pending-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-3-pending.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-3-pending.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-readiness-matrix.json",
+      "passed": true,
+      "evidence": "registry/source-review-readiness-matrix.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-session-plan.json",
+      "passed": true,
+      "evidence": "registry/source-review-session-plan.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-wave-2-batch-plan.json",
+      "passed": true,
+      "evidence": "registry/source-review-wave-2-batch-plan.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-wave-2-batches/batch-1-nodeops.md",
+      "passed": true,
+      "evidence": "registry/source-review-wave-2-batches/batch-1-nodeops.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-wave-2-batches/batch-2-customs.md",
+      "passed": true,
+      "evidence": "registry/source-review-wave-2-batches/batch-2-customs.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-wave-2-batches/batch-3-ecommerce.md",
+      "passed": true,
+      "evidence": "registry/source-review-wave-2-batches/batch-3-ecommerce.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-wave-2-batches/batch-4-research.md",
+      "passed": true,
+      "evidence": "registry/source-review-wave-2-batches/batch-4-research.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-wave-2-plan.json",
+      "passed": true,
+      "evidence": "registry/source-review-wave-2-plan.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-wave-3-plan.json",
+      "passed": true,
+      "evidence": "registry/source-review-wave-3-plan.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-001.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-001.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-002.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-002.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-003.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-003.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-004.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-004.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-005.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-005.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-006.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-006.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-007.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-007.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-008.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-008.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-009.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-009.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-010.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-010.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-011.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-011.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-012.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-012.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-013.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-013.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/manifest-ai-prefill.json",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/manifest-ai-prefill.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-001.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-001.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-002.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-002.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-003.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-003.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-004.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-004.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-005.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-005.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-006.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-006.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-007.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-007.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-008.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-008.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-009.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-009.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-010.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-010.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-011.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-011.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-012.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-012.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-013.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-013.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-014.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-014.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-015.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-015.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-016.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-016.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-017.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-017.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-018.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-018.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-019.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-019.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-020.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-020.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-021.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-021.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-022.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-022.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-023.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-023.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-024.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-024.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-025.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-025.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-026.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-026.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-027.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-027.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-028.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-028.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-029.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-029.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-030.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-030.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-031.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-031.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-032.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-032.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-033.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-033.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-034.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-034.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-035.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-035.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders.json",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-reviewer-queue.json",
+      "passed": true,
+      "evidence": "registry/source-reviewer-queue.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-update-queue.json",
+      "passed": true,
+      "evidence": "registry/source-update-queue.json"
+    },
+    {
+      "check_id": "all:includes:registry/wiki-registry.yaml",
+      "passed": true,
+      "evidence": "registry/wiki-registry.yaml"
+    },
+    {
+      "check_id": "all:includes:registry/wiki-status.json",
+      "passed": true,
+      "evidence": "registry/wiki-status.json"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_ci_workflow.py",
+      "passed": true,
+      "evidence": "scripts/audit_ci_workflow.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_content_coverage.py",
+      "passed": true,
+      "evidence": "scripts/audit_content_coverage.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_links.py",
+      "passed": true,
+      "evidence": "scripts/audit_links.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_pack_integrity.py",
+      "passed": true,
+      "evidence": "scripts/audit_pack_integrity.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_page_metadata.py",
+      "passed": true,
+      "evidence": "scripts/audit_page_metadata.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_safety_boundaries.py",
+      "passed": true,
+      "evidence": "scripts/audit_safety_boundaries.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_source_evidence_quality.py",
+      "passed": true,
+      "evidence": "scripts/audit_source_evidence_quality.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_source_refresh_completion.py",
+      "passed": true,
+      "evidence": "scripts/audit_source_refresh_completion.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_source_review_packets.py",
+      "passed": true,
+      "evidence": "scripts/audit_source_review_packets.py"
+    },
+    {
+      "check_id": "all:includes:scripts/check_eval_files.py",
+      "passed": true,
+      "evidence": "scripts/check_eval_files.py"
+    },
+    {
+      "check_id": "all:includes:scripts/check_registry_consistency.py",
+      "passed": true,
+      "evidence": "scripts/check_registry_consistency.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_agent_handoff.py",
+      "passed": true,
+      "evidence": "scripts/generate_agent_handoff.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_agent_routing_cards.py",
+      "passed": true,
+      "evidence": "scripts/generate_agent_routing_cards.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_change_summary.py",
+      "passed": true,
+      "evidence": "scripts/generate_change_summary.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_hub_navigation.py",
+      "passed": true,
+      "evidence": "scripts/generate_hub_navigation.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_release_notes.py",
+      "passed": true,
+      "evidence": "scripts/generate_release_notes.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_evidence_packet_fixtures.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_evidence_packet_fixtures.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_refresh_dashboard.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_refresh_dashboard.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_refresh_logs.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_refresh_logs.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_refresh_playbook.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_refresh_playbook.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_refresh_tickets.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_refresh_tickets.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_refresh_wave_runner.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_refresh_wave_runner.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_final_status.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_final_status.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_packet_bundle.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_packet_bundle.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_packet_classification.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_packet_classification.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_readiness_matrix.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_readiness_matrix.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_session_plan.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_session_plan.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_wave_2_batch_plan.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_wave_2_batch_plan.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_wave_3_plan.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_wave_3_plan.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_wave_packet_bundle.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_wave_packet_bundle.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_wave_plan.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_wave_plan.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_work_orders.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_work_orders.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_reviewer_queue.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_reviewer_queue.py"
+    },
+    {
+      "check_id": "all:includes:scripts/import_source_evidence_packet.py",
+      "passed": true,
+      "evidence": "scripts/import_source_evidence_packet.py"
+    },
+    {
+      "check_id": "all:includes:scripts/list_source_updates.py",
+      "passed": true,
+      "evidence": "scripts/list_source_updates.py"
+    },
+    {
+      "check_id": "all:includes:scripts/pack_wikis.py",
+      "passed": true,
+      "evidence": "scripts/pack_wikis.py"
+    },
+    {
+      "check_id": "all:includes:scripts/record_source_evidence.py",
+      "passed": true,
+      "evidence": "scripts/record_source_evidence.py"
+    },
+    {
+      "check_id": "all:includes:scripts/rehearse_source_review_packet_imports.py",
+      "passed": true,
+      "evidence": "scripts/rehearse_source_review_packet_imports.py"
+    },
+    {
+      "check_id": "all:includes:scripts/report_wiki_status.py",
+      "passed": true,
+      "evidence": "scripts/report_wiki_status.py"
+    },
+    {
+      "check_id": "all:includes:scripts/route_wiki.py",
+      "passed": true,
+      "evidence": "scripts/route_wiki.py"
+    },
+    {
+      "check_id": "all:includes:scripts/run_acceptance.py",
+      "passed": true,
+      "evidence": "scripts/run_acceptance.py"
+    },
+    {
+      "check_id": "all:includes:scripts/search_wiki.py",
+      "passed": true,
+      "evidence": "scripts/search_wiki.py"
+    },
+    {
+      "check_id": "all:includes:scripts/update_index.py",
+      "passed": true,
+      "evidence": "scripts/update_index.py"
+    },
+    {
+      "check_id": "all:includes:scripts/validate_ai_verified_packet.py",
+      "passed": true,
+      "evidence": "scripts/validate_ai_verified_packet.py"
+    },
+    {
+      "check_id": "all:includes:scripts/validate_wiki.py",
+      "passed": true,
+      "evidence": "scripts/validate_wiki.py"
+    },
+    {
+      "check_id": "all:includes:docs/ACCEPTANCE_REPORT.md",
+      "passed": true,
+      "evidence": "docs/ACCEPTANCE_REPORT.md"
+    },
+    {
+      "check_id": "all:includes:docs/AGENT_HANDOFF.md",
+      "passed": true,
+      "evidence": "docs/AGENT_HANDOFF.md"
+    },
+    {
+      "check_id": "all:includes:docs/AGENT_ROUTING_CARDS.md",
+      "passed": true,
+      "evidence": "docs/AGENT_ROUTING_CARDS.md"
+    },
+    {
+      "check_id": "all:includes:docs/CHANGE_SUMMARY.md",
+      "passed": true,
+      "evidence": "docs/CHANGE_SUMMARY.md"
+    },
+    {
+      "check_id": "all:includes:docs/CI_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/CI_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/CI_USAGE.md",
+      "passed": true,
+      "evidence": "docs/CI_USAGE.md"
+    },
+    {
+      "check_id": "all:includes:docs/CODEX_USAGE.md",
+      "passed": true,
+      "evidence": "docs/CODEX_USAGE.md"
+    },
+    {
+      "check_id": "all:includes:docs/COVERAGE_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/COVERAGE_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/HUB_NAVIGATION.md",
+      "passed": true,
+      "evidence": "docs/HUB_NAVIGATION.md"
+    },
+    {
+      "check_id": "all:includes:docs/LINK_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/LINK_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/PAGE_METADATA_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/PAGE_METADATA_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/REGISTRY_CONSISTENCY.md",
+      "passed": true,
+      "evidence": "docs/REGISTRY_CONSISTENCY.md"
+    },
+    {
+      "check_id": "all:includes:docs/RELEASE_NOTES.md",
+      "passed": true,
+      "evidence": "docs/RELEASE_NOTES.md"
+    },
+    {
+      "check_id": "all:includes:docs/ROUTING_CLI.md",
+      "passed": true,
+      "evidence": "docs/ROUTING_CLI.md"
+    },
+    {
+      "check_id": "all:includes:docs/SAFETY_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/SAFETY_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_EVIDENCE_RECORDER.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_EVIDENCE_RECORDER.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REFRESH_DASHBOARD.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REFRESH_DASHBOARD.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REFRESH_LOG_STATUS.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REFRESH_LOG_STATUS.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REFRESH_PLAYBOOK.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REFRESH_PLAYBOOK.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REFRESH_TICKETS.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REFRESH_TICKETS.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REFRESH_WAVE_RUNNER.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_FINAL_STATUS.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_FINAL_STATUS.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_PACKET_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_PACKET_BUNDLE.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_READINESS_MATRIX.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_SESSION_PLAN.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_SESSION_PLAN.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_2_BATCH_PLAN.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_2_BATCH_PLAN.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_2_PACKET_BUNDLE.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_2_PACKET_BUNDLE.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_2_PLAN.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_2_PLAN.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_2_SESSION_PLAN.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_2_SESSION_PLAN.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_2_WORK_ORDERS.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_2_WORK_ORDERS.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_3_PACKET_BUNDLE.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_3_PACKET_BUNDLE.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_3_PLAN.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_3_PLAN.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_3_SESSION_PLAN.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_3_SESSION_PLAN.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WAVE_3_WORK_ORDERS.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WAVE_3_WORK_ORDERS.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WORK_ORDERS.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WORK_ORDERS.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WORK_ORDERS_AI_PREFILL.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WORK_ORDERS_AI_PREFILL.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEW_WORK_ORDERS_AI_VERIFIED.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEW_WORK_ORDERS_AI_VERIFIED.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_REVIEWER_QUEUE.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEWER_QUEUE.md"
+    },
+    {
+      "check_id": "all:includes:docs/SOURCE_UPDATE_QUEUE.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_UPDATE_QUEUE.md"
+    },
+    {
+      "check_id": "all:includes:docs/VALIDATION_RESULT.txt",
+      "passed": true,
+      "evidence": "docs/VALIDATION_RESULT.txt"
+    },
+    {
+      "check_id": "all:includes:docs/WIKI_STATUS.md",
+      "passed": true,
+      "evidence": "docs/WIKI_STATUS.md"
+    },
+    {
+      "check_id": "all:includes:codex-skills/agent-wiki-builder/SKILL.md",
+      "passed": true,
+      "evidence": "codex-skills/agent-wiki-builder/SKILL.md"
+    },
+    {
+      "check_id": "all:includes:.github/workflows/wiki-acceptance.yml",
+      "passed": true,
+      "evidence": ".github/workflows/wiki-acceptance.yml"
+    }
+  ]
+}

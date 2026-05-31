@@ -1,0 +1,26 @@
+{
+  "packet_id": "invalid-missing-human-reviewer",
+  "created_on": "2026-05-31",
+  "created_by": "fixture-generator",
+  "description": "Expected missing-human-reviewer failure.",
+  "dry_run_only": true,
+  "entries": [
+    {
+      "ticket_id": "TICKET-SRC-006",
+      "status": "still-needs-source-update",
+      "source_title": "Fixture source note for TICKET-SRC-006",
+      "source_publisher": "Fixture Pack",
+      "source_url_or_reference": "fixture-reference:TICKET-SRC-006",
+      "source_published_or_updated": "unknown",
+      "source_accessed_on": "2026-05-31",
+      "verified_on": "2026-05-31",
+      "evidence_summary": "Fixture dry-run entry only; it does not certify any external current fact.",
+      "affected_pages": [
+        "wikis/finance-agent-wiki/sources/source-notes.md"
+      ],
+      "confidence": "low",
+      "remaining_uncertainty": "Fixture only; authoritative source verification is still needed.",
+      "follow_up": "Replace fixture fields with real source evidence before import."
+    }
+  ]
+}

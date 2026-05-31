@@ -1,0 +1,717 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "checks": [
+    {
+      "wiki": "agent-engineering-wiki",
+      "risk_level": "medium",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "risk_level": "medium",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/agent-engineering-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "risk_level": "medium",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "risk_level": "medium",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "risk_level": "medium",
+      "check_id": "agent_pack_quality_controls",
+      "description": "Covers knowledge pack structure, sources, evals, and citations.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "risk_level": "medium",
+      "check_id": "agent_high_risk_boundaries",
+      "description": "Requires human confirmation and refusal boundaries for high-risk packs.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/airdrop-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "high_risk_rules_before_workflows",
+      "description": "High-risk AGENTS.md reads rules/ before workflows/.",
+      "required": true,
+      "passed": true,
+      "evidence": "rules index=185, workflows index=197"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "airdrop_no_sybil_or_spam",
+      "description": "Refuses Sybil evasion, spam, fake identity, and platform-rule bypass.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "airdrop_wallet_secret_protection",
+      "description": "Protects wallet secrets and requires user confirmation before signatures.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "risk_level": "high",
+      "check_id": "airdrop_current_rule_freshness",
+      "description": "Marks TGE, snapshot, task, and eligibility facts as source-update topics.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/coding-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "coding_secret_and_permission_boundary",
+      "description": "Covers secrets, environment variables, and least privilege.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 3/3 required term groups"
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "coding_deploy_safety",
+      "description": "Requires tests, deployment checks, rollback, and human confirmation.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "risk_level": "low",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": false,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "risk_level": "low",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": false,
+      "passed": true,
+      "evidence": "wikis/content-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "risk_level": "low",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": false,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "risk_level": "low",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": false,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/customs-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "customs_document_diff_controls",
+      "description": "Covers document extraction, differences, risk levels, and manual review.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "customs_regulatory_freshness",
+      "description": "Marks trade policy, HS code, and regulatory facts for source updates.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/ecommerce-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "ecommerce_policy_and_privacy",
+      "description": "Covers platform policy freshness, privacy, consumer protection, and review.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/finance-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "high_risk_rules_before_workflows",
+      "description": "High-risk AGENTS.md reads rules/ before workflows/.",
+      "required": true,
+      "passed": true,
+      "evidence": "rules index=187, workflows index=199"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "finance_no_personalized_advice",
+      "description": "Refuses personalized investment advice.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "finance_no_real_money_autonomy",
+      "description": "Blocks autonomous real-money trading.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "finance_paper_trading_default",
+      "description": "Uses paper trading or simulation as the default.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "risk_level": "high",
+      "check_id": "finance_risk_controls",
+      "description": "Covers position, drawdown, leverage, liquidity, and circuit breakers.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 5/5 required term groups"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "risk_level": "high",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "risk_level": "high",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/health-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "risk_level": "high",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "risk_level": "high",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "risk_level": "high",
+      "check_id": "high_risk_rules_before_workflows",
+      "description": "High-risk AGENTS.md reads rules/ before workflows/.",
+      "required": true,
+      "passed": true,
+      "evidence": "rules index=174, workflows index=186"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "risk_level": "high",
+      "check_id": "health_no_diagnosis_or_prescription",
+      "description": "Avoids diagnosis and prescribing; requires clinician confirmation.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 3/3 required term groups"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "risk_level": "high",
+      "check_id": "health_red_flags_and_care",
+      "description": "Covers red flags and care-seeking guidance.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "risk_level": "high",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "risk_level": "high",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/legal-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "risk_level": "high",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "risk_level": "high",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "risk_level": "high",
+      "check_id": "high_risk_rules_before_workflows",
+      "description": "High-risk AGENTS.md reads rules/ before workflows/.",
+      "required": true,
+      "passed": true,
+      "evidence": "rules index=175, workflows index=187"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "risk_level": "high",
+      "check_id": "legal_no_final_opinion",
+      "description": "Avoids final legal opinions and requires lawyer or legal review.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "risk_level": "high",
+      "check_id": "legal_current_law_freshness",
+      "description": "Marks jurisdiction, statutes, cases, and regulations for source updates.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 3/3 required term groups"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "risk_level": "high",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "risk_level": "high",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/nodeops-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "risk_level": "high",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "risk_level": "high",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "risk_level": "high",
+      "check_id": "high_risk_rules_before_workflows",
+      "description": "High-risk AGENTS.md reads rules/ before workflows/.",
+      "required": true,
+      "passed": true,
+      "evidence": "rules index=191, workflows index=203"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "risk_level": "high",
+      "check_id": "nodeops_change_safety",
+      "description": "Requires backup, rollback, monitoring, and human confirmation for production changes.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "risk_level": "high",
+      "check_id": "nodeops_destructive_boundary",
+      "description": "Blocks unconfirmed destructive operations.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/research-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "risk_level": "medium",
+      "check_id": "research_source_grounding",
+      "description": "Requires citation, traceability, and source updates for current research claims.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 4/4 required term groups"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "manifest_safety_flags",
+      "description": "Manifest declares human confirmation, no secret storage, and no autonomous high-risk execution.",
+      "required": true,
+      "passed": true,
+      "evidence": "3/3 safety flags found"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "source_notes_queue",
+      "description": "Source notes record current facts as needs-source-update.",
+      "required": true,
+      "passed": true,
+      "evidence": "wikis/security-agent-wiki/sources/source-notes.md checked"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "human_confirmation_points",
+      "description": "Wiki text includes human confirmation or manual review points.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "secret_storage_boundary",
+      "description": "Wiki text includes a boundary for secrets, credentials, tokens, or private keys.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 1/1 required term groups"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "high_risk_rules_before_workflows",
+      "description": "High-risk AGENTS.md reads rules/ before workflows/.",
+      "required": true,
+      "passed": true,
+      "evidence": "rules index=182, workflows index=194"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "security_defensive_only",
+      "description": "Keeps the pack defensive and authorization-scoped.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "security_no_attack_steps",
+      "description": "Refuses exploit, bypass, theft, persistence, and evasion steps.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 6/6 required term groups"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "security_secret_and_log_boundary",
+      "description": "Protects secrets and logs from credential leakage.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 2/2 required term groups"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "risk_level": "high",
+      "check_id": "security_vulnerability_freshness",
+      "description": "Marks vulnerability, CVE, patch, and detection facts for source updates.",
+      "required": true,
+      "passed": true,
+      "evidence": "matched 3/3 required term groups"
+    }
+  ]
+}

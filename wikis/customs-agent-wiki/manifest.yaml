@@ -1,0 +1,29 @@
+id: customs-agent-wiki
+name: Customs Document Agent Wiki
+version: 0.1.0
+language: zh-CN
+domain: customs_trade_documents
+risk_level: medium
+freshness_requirement: high
+description: "外贸单证、报关报检字段抽取、差异比对、人工复核知识库。政策与监管条件必须实时更新。"
+entrypoints:
+  - README.md
+  - AGENTS.md
+  - rules/core-rules.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+trigger_keywords: ["报关", "报检", "单证", "发票", "装箱单", "合同", "厂检", "HS编码", "字段校对"]
+update_policy:
+  stable_knowledge: update when better rules or examples are found
+  current_facts: mark needs-source-update unless verified from authoritative sources
+safety:
+  require_human_confirmation_for_high_risk: true
+  no_secret_storage: true
+  no_autonomous_high_risk_execution: true

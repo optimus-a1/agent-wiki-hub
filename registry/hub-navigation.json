@@ -1,0 +1,507 @@
+{
+  "generated": "2026-05-31",
+  "wiki_count": 12,
+  "reports": {
+    "acceptance": "docs/ACCEPTANCE_REPORT.md",
+    "agent_handoff": "docs/AGENT_HANDOFF.md",
+    "release_notes": "docs/RELEASE_NOTES.md",
+    "change_summary": "docs/CHANGE_SUMMARY.md",
+    "routing_cards": "docs/AGENT_ROUTING_CARDS.md",
+    "routing_cli": "docs/ROUTING_CLI.md",
+    "source_queue": "docs/SOURCE_UPDATE_QUEUE.md",
+    "source_dashboard": "docs/SOURCE_REFRESH_DASHBOARD.md",
+    "source_playbook": "docs/SOURCE_REFRESH_PLAYBOOK.md",
+    "source_tickets": "docs/SOURCE_REFRESH_TICKETS.md",
+    "source_wave_runner": "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+    "source_reviewer_queue": "docs/SOURCE_REVIEWER_QUEUE.md",
+    "source_review_session_plan": "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+    "source_review_readiness_matrix": "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+    "source_review_work_orders": "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+    "source_review_packet_bundle": "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+    "source_review_packet_audit": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+    "source_review_packet_rehearsal": "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+    "source_evidence_recorder": "docs/SOURCE_EVIDENCE_RECORDER.md",
+    "source_evidence_packet_importer": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+    "source_evidence_packet_fixtures": "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+    "source_completion_audit": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+    "source_evidence_quality": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
+    "source_log_status": "docs/SOURCE_REFRESH_LOG_STATUS.md",
+    "safety_audit": "docs/SAFETY_AUDIT.md",
+    "pack_audit": "docs/PACK_AUDIT.md"
+  },
+  "wikis": [
+    {
+      "id": "agent-engineering-wiki",
+      "name": "Agent Engineering Wiki",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "trigger_keywords": [
+        "Agent",
+        "RAG",
+        "知识库",
+        "Codex Skill",
+        "AGENTS.md",
+        "评测",
+        "MCP",
+        "工作流"
+      ],
+      "entrypoints": [
+        "wikis/agent-engineering-wiki/manifest.yaml",
+        "wikis/agent-engineering-wiki/README.md",
+        "wikis/agent-engineering-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/agent-engineering-wiki/rules/core-rules.md",
+        "wikis/agent-engineering-wiki/rules/knowledge-pack-quality.md",
+        "wikis/agent-engineering-wiki/rules/rag-quality.md"
+      ],
+      "workflows": [
+        "wikis/agent-engineering-wiki/workflows/build-new-wiki.md",
+        "wikis/agent-engineering-wiki/workflows/eval-design.md",
+        "wikis/agent-engineering-wiki/workflows/main-workflow.md"
+      ],
+      "evals": [
+        "wikis/agent-engineering-wiki/evals/agent-engineering-evals.yaml",
+        "wikis/agent-engineering-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/agent-engineering-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 3,
+      "pack": "packs/agent-engineering-wiki.zip"
+    },
+    {
+      "id": "airdrop-agent-wiki",
+      "name": "Airdrop Research Agent Wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "空投",
+        "Web3",
+        "项目研究",
+        "TGE",
+        "钱包安全",
+        "签名",
+        "代币"
+      ],
+      "entrypoints": [
+        "wikis/airdrop-agent-wiki/manifest.yaml",
+        "wikis/airdrop-agent-wiki/README.md",
+        "wikis/airdrop-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/airdrop-agent-wiki/rules/core-rules.md",
+        "wikis/airdrop-agent-wiki/rules/safety-and-compliance.md"
+      ],
+      "workflows": [
+        "wikis/airdrop-agent-wiki/workflows/main-workflow.md",
+        "wikis/airdrop-agent-wiki/workflows/project-research.md",
+        "wikis/airdrop-agent-wiki/workflows/wallet-safety-screening.md"
+      ],
+      "evals": [
+        "wikis/airdrop-agent-wiki/evals/airdrop-agent-evals.yaml",
+        "wikis/airdrop-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/airdrop-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/airdrop-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 3,
+      "pack": "packs/airdrop-agent-wiki.zip"
+    },
+    {
+      "id": "coding-agent-wiki",
+      "name": "Coding Agent Wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "trigger_keywords": [
+        "代码",
+        "编程",
+        "debug",
+        "测试",
+        "部署",
+        "API",
+        "数据库",
+        "Codex",
+        "GitHub"
+      ],
+      "entrypoints": [
+        "wikis/coding-agent-wiki/manifest.yaml",
+        "wikis/coding-agent-wiki/README.md",
+        "wikis/coding-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/coding-agent-wiki/rules/codex-usage.md",
+        "wikis/coding-agent-wiki/rules/core-rules.md",
+        "wikis/coding-agent-wiki/rules/security-development.md",
+        "wikis/coding-agent-wiki/rules/software-engineering.md"
+      ],
+      "workflows": [
+        "wikis/coding-agent-wiki/workflows/bug-fix-loop.md",
+        "wikis/coding-agent-wiki/workflows/deployment-workflow.md",
+        "wikis/coding-agent-wiki/workflows/implementation-lifecycle.md",
+        "wikis/coding-agent-wiki/workflows/main-workflow.md"
+      ],
+      "evals": [
+        "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml",
+        "wikis/coding-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/coding-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 4,
+      "pack": "packs/coding-agent-wiki.zip"
+    },
+    {
+      "id": "content-agent-wiki",
+      "name": "Content Agent Wiki",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "trigger_keywords": [
+        "内容",
+        "写作",
+        "日报",
+        "公众号",
+        "帖子",
+        "标题",
+        "摘要",
+        "发布"
+      ],
+      "entrypoints": [
+        "wikis/content-agent-wiki/manifest.yaml",
+        "wikis/content-agent-wiki/README.md",
+        "wikis/content-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/content-agent-wiki/rules/core-rules.md",
+        "wikis/content-agent-wiki/rules/editorial-quality.md"
+      ],
+      "workflows": [
+        "wikis/content-agent-wiki/workflows/content-production.md",
+        "wikis/content-agent-wiki/workflows/main-workflow.md",
+        "wikis/content-agent-wiki/workflows/research-brief-to-post.md"
+      ],
+      "evals": [
+        "wikis/content-agent-wiki/evals/content-agent-evals.yaml",
+        "wikis/content-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/content-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/content-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 3,
+      "pack": "packs/content-agent-wiki.zip"
+    },
+    {
+      "id": "customs-agent-wiki",
+      "name": "Customs Document Agent Wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "报关",
+        "报检",
+        "单证",
+        "发票",
+        "装箱单",
+        "合同",
+        "厂检",
+        "HS编码",
+        "字段校对"
+      ],
+      "entrypoints": [
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/customs-agent-wiki/rules/core-rules.md",
+        "wikis/customs-agent-wiki/rules/field-extraction-rules.md"
+      ],
+      "workflows": [
+        "wikis/customs-agent-wiki/workflows/difference-comparison.md",
+        "wikis/customs-agent-wiki/workflows/document-checking.md",
+        "wikis/customs-agent-wiki/workflows/main-workflow.md",
+        "wikis/customs-agent-wiki/workflows/ocr-to-json.md"
+      ],
+      "evals": [
+        "wikis/customs-agent-wiki/evals/customs-agent-evals.yaml",
+        "wikis/customs-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 4,
+      "pack": "packs/customs-agent-wiki.zip"
+    },
+    {
+      "id": "ecommerce-agent-wiki",
+      "name": "Ecommerce Agent Wiki",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "电商",
+        "商品",
+        "购物",
+        "客服",
+        "退货",
+        "物流",
+        "SKU",
+        "选品",
+        "比价"
+      ],
+      "entrypoints": [
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/ecommerce-agent-wiki/rules/core-rules.md",
+        "wikis/ecommerce-agent-wiki/rules/order-customer-safety.md"
+      ],
+      "workflows": [
+        "wikis/ecommerce-agent-wiki/workflows/customer-service-returns.md",
+        "wikis/ecommerce-agent-wiki/workflows/main-workflow.md",
+        "wikis/ecommerce-agent-wiki/workflows/product-recommendation.md"
+      ],
+      "evals": [
+        "wikis/ecommerce-agent-wiki/evals/ecommerce-agent-evals.yaml",
+        "wikis/ecommerce-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 3,
+      "pack": "packs/ecommerce-agent-wiki.zip"
+    },
+    {
+      "id": "finance-agent-wiki",
+      "name": "Finance Agent Wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "金融",
+        "投资",
+        "财报",
+        "估值",
+        "市场数据",
+        "回测",
+        "风控",
+        "交易系统",
+        "资金费率",
+        "套利"
+      ],
+      "entrypoints": [
+        "wikis/finance-agent-wiki/manifest.yaml",
+        "wikis/finance-agent-wiki/README.md",
+        "wikis/finance-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/finance-agent-wiki/rules/core-rules.md",
+        "wikis/finance-agent-wiki/rules/risk-control.md",
+        "wikis/finance-agent-wiki/rules/trading-system-boundaries.md"
+      ],
+      "workflows": [
+        "wikis/finance-agent-wiki/workflows/backtesting-workflow.md",
+        "wikis/finance-agent-wiki/workflows/main-workflow.md",
+        "wikis/finance-agent-wiki/workflows/paper-trading-system.md",
+        "wikis/finance-agent-wiki/workflows/research-to-decision.md"
+      ],
+      "evals": [
+        "wikis/finance-agent-wiki/evals/finance-agent-evals.yaml",
+        "wikis/finance-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/finance-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/finance-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 4,
+      "pack": "packs/finance-agent-wiki.zip"
+    },
+    {
+      "id": "health-agent-wiki",
+      "name": "Health Education Agent Wiki",
+      "domain": "health_education",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "健康",
+        "体检",
+        "营养",
+        "运动",
+        "症状",
+        "药品"
+      ],
+      "entrypoints": [
+        "wikis/health-agent-wiki/manifest.yaml",
+        "wikis/health-agent-wiki/README.md",
+        "wikis/health-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/health-agent-wiki/rules/core-rules.md",
+        "wikis/health-agent-wiki/rules/no-diagnosis.md"
+      ],
+      "workflows": [
+        "wikis/health-agent-wiki/workflows/health-education-triage.md",
+        "wikis/health-agent-wiki/workflows/main-workflow.md"
+      ],
+      "evals": [
+        "wikis/health-agent-wiki/evals/health-agent-evals.yaml",
+        "wikis/health-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/health-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/health-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 2,
+      "pack": "packs/health-agent-wiki.zip"
+    },
+    {
+      "id": "legal-agent-wiki",
+      "name": "Legal Information Agent Wiki",
+      "domain": "legal_information",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "法律",
+        "合同",
+        "条款",
+        "法务",
+        "合规",
+        "协议"
+      ],
+      "entrypoints": [
+        "wikis/legal-agent-wiki/manifest.yaml",
+        "wikis/legal-agent-wiki/README.md",
+        "wikis/legal-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/legal-agent-wiki/rules/core-rules.md",
+        "wikis/legal-agent-wiki/rules/no-legal-advice.md"
+      ],
+      "workflows": [
+        "wikis/legal-agent-wiki/workflows/contract-review-checklist.md",
+        "wikis/legal-agent-wiki/workflows/main-workflow.md"
+      ],
+      "evals": [
+        "wikis/legal-agent-wiki/evals/legal-agent-evals.yaml",
+        "wikis/legal-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/legal-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/legal-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 2,
+      "pack": "packs/legal-agent-wiki.zip"
+    },
+    {
+      "id": "nodeops-agent-wiki",
+      "name": "NodeOps Agent Wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "trigger_keywords": [
+        "服务器",
+        "Linux",
+        "Docker",
+        "systemd",
+        "日志",
+        "监控",
+        "节点",
+        "RPC",
+        "故障"
+      ],
+      "entrypoints": [
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/nodeops-agent-wiki/rules/core-rules.md",
+        "wikis/nodeops-agent-wiki/rules/operational-risk-control.md",
+        "wikis/nodeops-agent-wiki/rules/production-safety.md"
+      ],
+      "workflows": [
+        "wikis/nodeops-agent-wiki/workflows/change-management.md",
+        "wikis/nodeops-agent-wiki/workflows/incident-response.md",
+        "wikis/nodeops-agent-wiki/workflows/main-workflow.md"
+      ],
+      "evals": [
+        "wikis/nodeops-agent-wiki/evals/nodeops-agent-evals.yaml",
+        "wikis/nodeops-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 3,
+      "pack": "packs/nodeops-agent-wiki.zip"
+    },
+    {
+      "id": "research-agent-wiki",
+      "name": "Research Agent Wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "论文",
+        "研究",
+        "综述",
+        "实验",
+        "数据集",
+        "引用",
+        "benchmark"
+      ],
+      "entrypoints": [
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/research-agent-wiki/rules/core-rules.md",
+        "wikis/research-agent-wiki/rules/source-grounding.md"
+      ],
+      "workflows": [
+        "wikis/research-agent-wiki/workflows/literature-review.md",
+        "wikis/research-agent-wiki/workflows/main-workflow.md"
+      ],
+      "evals": [
+        "wikis/research-agent-wiki/evals/research-agent-evals.yaml",
+        "wikis/research-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 2,
+      "pack": "packs/research-agent-wiki.zip"
+    },
+    {
+      "id": "security-agent-wiki",
+      "name": "Defensive Security Agent Wiki",
+      "domain": "defensive_security",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "trigger_keywords": [
+        "安全",
+        "审计",
+        "漏洞",
+        "权限",
+        "密钥",
+        "上线检查",
+        "防御"
+      ],
+      "entrypoints": [
+        "wikis/security-agent-wiki/manifest.yaml",
+        "wikis/security-agent-wiki/README.md",
+        "wikis/security-agent-wiki/AGENTS.md"
+      ],
+      "core_rules": [
+        "wikis/security-agent-wiki/rules/core-rules.md",
+        "wikis/security-agent-wiki/rules/defensive-boundary.md",
+        "wikis/security-agent-wiki/rules/defensive-only.md"
+      ],
+      "workflows": [
+        "wikis/security-agent-wiki/workflows/main-workflow.md",
+        "wikis/security-agent-wiki/workflows/security-review-checklist.md",
+        "wikis/security-agent-wiki/workflows/threat-model-review.md"
+      ],
+      "evals": [
+        "wikis/security-agent-wiki/evals/security-agent-evals.yaml",
+        "wikis/security-agent-wiki/evals/smoke-tests.yaml"
+      ],
+      "source_notes": "wikis/security-agent-wiki/sources/source-notes.md",
+      "source_refresh_log": "wikis/security-agent-wiki/sources/source-refresh-log.md",
+      "source_refresh_tasks": 2,
+      "pack": "packs/security-agent-wiki.zip"
+    }
+  ]
+}

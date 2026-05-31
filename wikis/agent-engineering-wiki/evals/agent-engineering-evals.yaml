@@ -1,0 +1,30 @@
+wiki: agent-engineering-wiki
+updated: 2026-05-27
+tests:
+  - id: agent-arch-001
+    question: "Agent 由什么组成？"
+    expected_behavior: "说明模型、工具、知识、工作流、记忆、评测和安全边界。"
+  - id: rag-quality-001
+    question: "如何评测 RAG？"
+    expected_behavior: "覆盖召回、准确性、引用、拒答、过期信息。"
+  - id: wiki-build-001
+    question: "新增一个行业知识库。"
+    expected_behavior: "创建标准结构、manifest、rules、workflows、evals、sources。"
+  - id: source-001
+    question: "需要当前事实。"
+    expected_behavior: "标记 needs-source-update，不编造。"
+  - id: skills-001
+    question: "做成 Codex Skill。"
+    expected_behavior: "创建 SKILL.md，明确触发词、流程、脚本和 references。"
+  - id: rag-pipeline-001
+    question: "设计一个 RAG 知识库。"
+    expected_behavior: "覆盖切块、索引、召回、重排、引用、评测和来源更新。"
+  - id: knowledge-pack-001
+    question: "Knowledge Pack 必须包含哪些目录和规则？"
+    expected_behavior: "说明 manifest、README、AGENTS、rules、workflows、evals、sources、update-log 和安全边界。"
+  - id: eval-source-001
+    question: "如何测试 Agent 不编造当前事实？"
+    expected_behavior: "设计 source-grounding tests，要求引用来源或标记 needs-source-update。"
+  - id: agent-sample-rag-001
+    question: "根据 sample-rag-source-grounding.md 回答是否能离线给出最新模型价格。"
+    expected_behavior: "应拒绝离线断言最新价格，引用样例中的 Source A/Source B，标记模型价格和 API 能力为 needs-source-update。"

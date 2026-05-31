@@ -1,0 +1,512 @@
+{
+  "generated": "2026-05-31",
+  "release_name": "Agent Wiki Hub Knowledge Pack Release",
+  "ready_for_internal_release": true,
+  "blocking_audits_passed": true,
+  "advisory_audit_count": 1,
+  "release_warning_count": 0,
+  "release_warnings": [],
+  "requires_source_update_for_current_facts": true,
+  "wiki_count": 12,
+  "risk_counts": {
+    "high": 6,
+    "low": 1,
+    "medium": 5
+  },
+  "freshness_counts": {
+    "high": 8,
+    "medium": 4
+  },
+  "total_eval_tests": 137,
+  "source_update_topic_count": 35,
+  "source_refresh_task_count": 35,
+  "source_refresh_ticket_count": 35,
+  "source_refresh_wave_runner_available": true,
+  "source_reviewer_queue_available": true,
+  "source_reviewer_queue_human_gate_count": 16,
+  "source_review_session_plan_available": true,
+  "source_review_session_selected_count": 13,
+  "source_review_session_human_gate_count": 13,
+  "source_review_readiness_matrix_available": true,
+  "source_review_readiness_ready_count": 13,
+  "source_review_readiness_queued_count": 22,
+  "source_review_work_orders_available": true,
+  "source_review_work_order_count": 13,
+  "source_review_work_order_human_gate_count": 13,
+  "source_review_post_import_completed": false,
+  "source_review_packet_bundle_available": true,
+  "source_review_packet_bundle_entry_count": 13,
+  "source_review_packet_bundle_human_gate_count": 13,
+  "source_review_packet_audit_passed": true,
+  "source_review_packet_audit_packet_count": 2,
+  "source_review_packet_audit_issue_count": 0,
+  "source_review_packet_rehearsal_passed": true,
+  "source_review_packet_rehearsal_dry_run_count": 2,
+  "source_review_packet_rehearsal_passed_count": 2,
+  "source_evidence_packet_importer_available": true,
+  "source_evidence_packet_fixture_count": 8,
+  "source_refresh_open_ticket_count": 35,
+  "source_refresh_verified_ticket_count": 0,
+  "source_refresh_completion_ready": false,
+  "source_evidence_entry_count": 13,
+  "source_evidence_quality_issue_count": 0,
+  "source_evidence_quality_passed": true,
+  "source_refresh_dashboard_available": true,
+  "source_refresh_wave_counts": {
+    "wave-1": 13,
+    "wave-2": 12,
+    "wave-3": 10
+  },
+  "source_refresh_log_count": 12,
+  "change_summary_available": true,
+  "hub_navigation_available": true,
+  "agent_routing_cards_available": true,
+  "agent_handoff_available": true,
+  "source_evidence_recorder_available": true,
+  "source_update_priority_counts": {
+    "5": 3,
+    "6": 7,
+    "7": 12,
+    "8": 13
+  },
+  "top_source_update_topics": [
+    {
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official contract registry",
+        "block explorer",
+        "wallet security warning"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current project status, official links, task rules, snapshot and eligibility",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official website",
+        "official documentation",
+        "official announcement channel"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "project announcement",
+        "exchange official announcement",
+        "primary funding disclosure"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official exchange documentation",
+        "regulator announcement",
+        "broker or custodian fee schedule"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current legal, regulatory or suitability requirements for financial products",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "regulator website",
+        "licensed professional review",
+        "official product documents"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "primary exchange or market data vendor",
+        "official issuer or exchange data portal",
+        "timestamped raw dataset"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "latest financial statements, filings, restatements and audit opinions",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "company investor relations",
+        "securities regulator filing system",
+        "audited annual or interim report"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "domain": "health_education",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official health authority",
+        "drug regulator label",
+        "professional clinical guideline"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "domain": "health_education",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "public health authority",
+        "professional medical society",
+        "licensed clinician review"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "domain": "legal_information",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current platform agreements, data processing terms and consumer protection rules",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official platform terms",
+        "regulator guidance",
+        "counsel-approved template"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    }
+  ],
+  "audits": [
+    {
+      "name": "acceptance",
+      "passed": true,
+      "total": 48,
+      "passed_count": 48,
+      "failed_count": 0
+    },
+    {
+      "name": "ci",
+      "passed": true,
+      "total": 11,
+      "passed_count": 11,
+      "failed_count": 0
+    },
+    {
+      "name": "registry",
+      "passed": true,
+      "total": 234,
+      "passed_count": 234,
+      "failed_count": 0
+    },
+    {
+      "name": "metadata",
+      "passed": true,
+      "total": 0,
+      "passed_count": 0,
+      "failed_count": 0
+    },
+    {
+      "name": "coverage",
+      "passed": true,
+      "total": 0,
+      "passed_count": 0,
+      "failed_count": 0
+    },
+    {
+      "name": "links",
+      "passed": true,
+      "total": 0,
+      "passed_count": 0,
+      "failed_count": 0
+    },
+    {
+      "name": "packs",
+      "passed": true,
+      "total": 553,
+      "passed_count": 553,
+      "failed_count": 0
+    },
+    {
+      "name": "safety",
+      "passed": true,
+      "total": 79,
+      "passed_count": 79,
+      "failed_count": 0
+    },
+    {
+      "name": "source_refresh_logs",
+      "passed": true,
+      "total": 12,
+      "passed_count": 12,
+      "failed_count": 0
+    },
+    {
+      "name": "routing_cards",
+      "passed": true,
+      "total": 0,
+      "passed_count": 0,
+      "failed_count": 0
+    },
+    {
+      "name": "source_refresh_tickets",
+      "passed": true,
+      "total": 35,
+      "passed_count": 35,
+      "failed_count": 0
+    },
+    {
+      "name": "source_refresh_wave_runner",
+      "passed": true,
+      "total": 35,
+      "passed_count": 35,
+      "failed_count": 0
+    },
+    {
+      "name": "source_reviewer_queue",
+      "passed": true,
+      "total": 4,
+      "passed_count": 4,
+      "failed_count": 0
+    },
+    {
+      "name": "source_review_session_plan",
+      "passed": true,
+      "total": 4,
+      "passed_count": 4,
+      "failed_count": 0
+    },
+    {
+      "name": "source_review_readiness_matrix",
+      "passed": true,
+      "total": 7,
+      "passed_count": 7,
+      "failed_count": 0
+    },
+    {
+      "name": "source_review_work_orders",
+      "passed": true,
+      "total": 7,
+      "passed_count": 7,
+      "failed_count": 0
+    },
+    {
+      "name": "source_review_packet_bundle",
+      "passed": true,
+      "total": 7,
+      "passed_count": 7,
+      "failed_count": 0
+    },
+    {
+      "name": "source_review_packet_audit",
+      "passed": true,
+      "total": 6,
+      "passed_count": 6,
+      "failed_count": 0
+    },
+    {
+      "name": "source_review_packet_rehearsal",
+      "passed": true,
+      "total": 4,
+      "passed_count": 4,
+      "failed_count": 0
+    },
+    {
+      "name": "source_evidence_packet_importer",
+      "passed": true,
+      "total": 2,
+      "passed_count": 2,
+      "failed_count": 0
+    },
+    {
+      "name": "source_evidence_packet_fixtures",
+      "passed": true,
+      "total": 10,
+      "passed_count": 10,
+      "failed_count": 0
+    },
+    {
+      "name": "source_refresh_completion",
+      "passed": true,
+      "total": 35,
+      "passed_count": 35,
+      "failed_count": 0
+    },
+    {
+      "name": "source_evidence_quality",
+      "passed": true,
+      "total": 13,
+      "passed_count": 13,
+      "failed_count": 0
+    },
+    {
+      "name": "source_refresh_dashboard",
+      "passed": true,
+      "total": 16,
+      "passed_count": 15,
+      "failed_count": 1
+    },
+    {
+      "name": "agent_handoff",
+      "passed": true,
+      "total": 0,
+      "passed_count": 0,
+      "failed_count": 0
+    }
+  ],
+  "packages": [
+    {
+      "name": "agent-engineering-wiki.zip",
+      "path": "packs/agent-engineering-wiki.zip",
+      "size_bytes": 19544,
+      "sha256": "b0d4f221c3132e1054dd3f247b6c6021cab9ac8e3375214fe9660e6c8e2cc3ea"
+    },
+    {
+      "name": "agent-wiki-hub-all.zip",
+      "path": "packs/agent-wiki-hub-all.zip",
+      "size_bytes": null,
+      "sha256": null,
+      "note": "Self-referential package; compute final size and checksum after packing release-manifest.json."
+    },
+    {
+      "name": "airdrop-agent-wiki.zip",
+      "path": "packs/airdrop-agent-wiki.zip",
+      "size_bytes": 15650,
+      "sha256": "8e91fd21578ef392eddedbe5f75b642336aea887f8eff11ea2b272a649507bdb"
+    },
+    {
+      "name": "coding-agent-wiki.zip",
+      "path": "packs/coding-agent-wiki.zip",
+      "size_bytes": 17988,
+      "sha256": "93f46c2db1bb2863a53b1736e784ea53c1d46500e7771163420207e5229fdcd1"
+    },
+    {
+      "name": "content-agent-wiki.zip",
+      "path": "packs/content-agent-wiki.zip",
+      "size_bytes": 14182,
+      "sha256": "c1a22c00f2fb09ed62250362c21cfce8abbc912965e0c6d61d3b71617eac52eb"
+    },
+    {
+      "name": "customs-agent-wiki.zip",
+      "path": "packs/customs-agent-wiki.zip",
+      "size_bytes": 20047,
+      "sha256": "ad92e47de711a910687848915e0ac8aef97080fc63416ec4029f929436b21165"
+    },
+    {
+      "name": "ecommerce-agent-wiki.zip",
+      "path": "packs/ecommerce-agent-wiki.zip",
+      "size_bytes": 15468,
+      "sha256": "51be20541132210b97aa664481efc3dbffc7379f4c3b66b32cd1bb8875b2e5e4"
+    },
+    {
+      "name": "finance-agent-wiki.zip",
+      "path": "packs/finance-agent-wiki.zip",
+      "size_bytes": 21590,
+      "sha256": "59aef4ece5950abeb3fa06f19b02b2e6902cc6cee0a817ffe29250ac9a81d4b0"
+    },
+    {
+      "name": "health-agent-wiki.zip",
+      "path": "packs/health-agent-wiki.zip",
+      "size_bytes": 13202,
+      "sha256": "4af05eaa34c6ef2390e45a9bcd214810b8c9e84677796063e556ae6e8b81b6e5"
+    },
+    {
+      "name": "legal-agent-wiki.zip",
+      "path": "packs/legal-agent-wiki.zip",
+      "size_bytes": 13044,
+      "sha256": "a7ca023a8ef71e673c8d089237078854af4aa58182aa87a9104b91adb5320c6a"
+    },
+    {
+      "name": "nodeops-agent-wiki.zip",
+      "path": "packs/nodeops-agent-wiki.zip",
+      "size_bytes": 15359,
+      "sha256": "42728b7d52de9c6555755280dddc02116b1f2f4e0c0e827dafcb7750c52b0e1c"
+    },
+    {
+      "name": "research-agent-wiki.zip",
+      "path": "packs/research-agent-wiki.zip",
+      "size_bytes": 12932,
+      "sha256": "3ee4dc0bdd7d7fd3caded02bc854bff99a5695fdc1192a661dafd9cc390318c1"
+    },
+    {
+      "name": "security-agent-wiki.zip",
+      "path": "packs/security-agent-wiki.zip",
+      "size_bytes": 15163,
+      "sha256": "7aa86c639ddf3425792bd1028902cff50a2ebe2dbac7719d32be742aea74ad3e"
+    }
+  ]
+}

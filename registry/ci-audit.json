@@ -1,0 +1,61 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "checks": [
+    {
+      "check_id": "workflow_exists",
+      "passed": true,
+      "evidence": ".github/workflows/wiki-acceptance.yml"
+    },
+    {
+      "check_id": "workflow_not_empty",
+      "passed": true,
+      "evidence": "505 characters"
+    },
+    {
+      "check_id": "trigger:pull_request",
+      "passed": true,
+      "evidence": "pull_request:"
+    },
+    {
+      "check_id": "trigger:workflow_dispatch",
+      "passed": true,
+      "evidence": "workflow_dispatch:"
+    },
+    {
+      "check_id": "permissions:contents_read",
+      "passed": true,
+      "evidence": "contents: read"
+    },
+    {
+      "check_id": "checkout",
+      "passed": true,
+      "evidence": "actions/checkout@"
+    },
+    {
+      "check_id": "setup_python",
+      "passed": true,
+      "evidence": "actions/setup-python@"
+    },
+    {
+      "check_id": "run_acceptance",
+      "passed": true,
+      "evidence": "python scripts/run_acceptance.py"
+    },
+    {
+      "check_id": "no_github_secrets",
+      "passed": true,
+      "evidence": "\\bsecrets\\."
+    },
+    {
+      "check_id": "no_api_key_literals",
+      "passed": true,
+      "evidence": "(?i)(api[_-]?key|private[_-]?key|access[_-]?token|cookie)\\s*[:=]"
+    },
+    {
+      "check_id": "no_write_permissions",
+      "passed": true,
+      "evidence": "contents:\\s*write"
+    }
+  ]
+}

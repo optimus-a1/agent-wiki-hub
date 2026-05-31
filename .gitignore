@@ -1,0 +1,29 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local backups and extracted bundles
+*.backup/
+*.bak
+*.tmp
+*.zip
+!packs/*.zip
+!packs/**/*.zip
+source_review_work_orders_ai_verified_2026-05-28/
+source-review-packets-extra-backup/
+source-review-packets-backup/

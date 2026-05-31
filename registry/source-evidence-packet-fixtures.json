@@ -1,0 +1,231 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "fixture_dir": "registry/source-evidence-fixtures",
+  "fixture_count": 8,
+  "valid_fixture_count": 4,
+  "invalid_fixture_count": 4,
+  "fixtures": [
+    {
+      "name": "valid-pending-single.json",
+      "path": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "kind": "valid",
+      "expected_dry_run_pass": true,
+      "description": "Minimal pending packet for one ticket; safe because it records no source facts.",
+      "ticket_ids": [
+        "TICKET-SRC-006"
+      ]
+    },
+    {
+      "name": "valid-still-needs-source-update-dry-run-only.json",
+      "path": "registry/source-evidence-fixtures/valid-still-needs-source-update-dry-run-only.json",
+      "kind": "valid",
+      "expected_dry_run_pass": true,
+      "description": "Final-status shape for dry-run testing only; replace all fixture fields before real import.",
+      "ticket_ids": [
+        "TICKET-SRC-006"
+      ]
+    },
+    {
+      "name": "template-wave-1-p0-pending.json",
+      "path": "registry/source-evidence-fixtures/template-wave-1-p0-pending.json",
+      "kind": "template",
+      "expected_dry_run_pass": true,
+      "description": "Pending packet template for wave-1 P0 finance tickets.",
+      "ticket_ids": [
+        "TICKET-SRC-004",
+        "TICKET-SRC-005",
+        "TICKET-SRC-006",
+        "TICKET-SRC-007"
+      ]
+    },
+    {
+      "name": "template-wave-2-customs-pending.json",
+      "path": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "kind": "template",
+      "expected_dry_run_pass": true,
+      "description": "Pending packet template for customs source-refresh tickets.",
+      "ticket_ids": [
+        "TICKET-SRC-014",
+        "TICKET-SRC-015",
+        "TICKET-SRC-016",
+        "TICKET-SRC-017"
+      ]
+    },
+    {
+      "name": "invalid-duplicate-ticket.json",
+      "path": "registry/source-evidence-fixtures/invalid-duplicate-ticket.json",
+      "kind": "invalid",
+      "expected_dry_run_pass": false,
+      "description": "Expected failure: duplicate ticket id in one packet.",
+      "ticket_ids": [
+        "TICKET-SRC-006",
+        "TICKET-SRC-006"
+      ]
+    },
+    {
+      "name": "invalid-missing-human-reviewer.json",
+      "path": "registry/source-evidence-fixtures/invalid-missing-human-reviewer.json",
+      "kind": "invalid",
+      "expected_dry_run_pass": false,
+      "description": "Expected failure: high-risk final status without human_reviewer.",
+      "ticket_ids": [
+        "TICKET-SRC-006"
+      ]
+    },
+    {
+      "name": "invalid-placeholder-source.json",
+      "path": "registry/source-evidence-fixtures/invalid-placeholder-source.json",
+      "kind": "invalid",
+      "expected_dry_run_pass": false,
+      "description": "Expected failure: final status still contains placeholder source fields.",
+      "ticket_ids": [
+        "TICKET-SRC-006"
+      ]
+    },
+    {
+      "name": "invalid-secret-marker.json",
+      "path": "registry/source-evidence-fixtures/invalid-secret-marker.json",
+      "kind": "invalid",
+      "expected_dry_run_pass": false,
+      "description": "Expected failure: fixture contains a redacted secret marker that must be rejected.",
+      "ticket_ids": [
+        "TICKET-SRC-006"
+      ]
+    }
+  ],
+  "validations": [
+    {
+      "fixture": "valid-pending-single.json",
+      "allow_duplicate_existing": true,
+      "expected_pass": true,
+      "actual_pass": true,
+      "passed": true,
+      "returncode": 0,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/valid-pending-single.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+    },
+    {
+      "fixture": "valid-still-needs-source-update-dry-run-only.json",
+      "allow_duplicate_existing": true,
+      "expected_pass": true,
+      "actual_pass": true,
+      "passed": true,
+      "returncode": 0,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/valid-still-needs-source-update-dry-run-only.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+    },
+    {
+      "fixture": "template-wave-1-p0-pending.json",
+      "allow_duplicate_existing": true,
+      "expected_pass": true,
+      "actual_pass": true,
+      "passed": true,
+      "returncode": 0,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/template-wave-1-p0-pending.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (4 entries)"
+    },
+    {
+      "fixture": "template-wave-2-customs-pending.json",
+      "allow_duplicate_existing": true,
+      "expected_pass": true,
+      "actual_pass": true,
+      "passed": true,
+      "returncode": 0,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/template-wave-2-customs-pending.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (4 entries)"
+    },
+    {
+      "fixture": "invalid-duplicate-ticket.json",
+      "allow_duplicate_existing": false,
+      "expected_pass": false,
+      "actual_pass": false,
+      "passed": true,
+      "returncode": 1,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-duplicate-ticket.json --dry-run --no-post-checks",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (2 entries)"
+    },
+    {
+      "fixture": "invalid-missing-human-reviewer.json",
+      "allow_duplicate_existing": true,
+      "expected_pass": false,
+      "actual_pass": false,
+      "passed": true,
+      "returncode": 1,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-missing-human-reviewer.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+    },
+    {
+      "fixture": "invalid-placeholder-source.json",
+      "allow_duplicate_existing": true,
+      "expected_pass": false,
+      "actual_pass": false,
+      "passed": true,
+      "returncode": 1,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-placeholder-source.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+    },
+    {
+      "fixture": "invalid-secret-marker.json",
+      "allow_duplicate_existing": true,
+      "expected_pass": false,
+      "actual_pass": false,
+      "passed": true,
+      "returncode": 1,
+      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-secret-marker.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+    }
+  ],
+  "checks": [
+    {
+      "name": "ticket registry available",
+      "passed": true,
+      "detail": "registry/source-refresh-tickets.json"
+    },
+    {
+      "name": "fixtures generated",
+      "passed": true,
+      "detail": "8 fixtures"
+    },
+    {
+      "name": "dry-run expectation: valid-pending-single.json",
+      "passed": true,
+      "detail": "expected=True actual=True"
+    },
+    {
+      "name": "dry-run expectation: valid-still-needs-source-update-dry-run-only.json",
+      "passed": true,
+      "detail": "expected=True actual=True"
+    },
+    {
+      "name": "dry-run expectation: template-wave-1-p0-pending.json",
+      "passed": true,
+      "detail": "expected=True actual=True"
+    },
+    {
+      "name": "dry-run expectation: template-wave-2-customs-pending.json",
+      "passed": true,
+      "detail": "expected=True actual=True"
+    },
+    {
+      "name": "dry-run expectation: invalid-duplicate-ticket.json",
+      "passed": true,
+      "detail": "expected=False actual=False"
+    },
+    {
+      "name": "dry-run expectation: invalid-missing-human-reviewer.json",
+      "passed": true,
+      "detail": "expected=False actual=False"
+    },
+    {
+      "name": "dry-run expectation: invalid-placeholder-source.json",
+      "passed": true,
+      "detail": "expected=False actual=False"
+    },
+    {
+      "name": "dry-run expectation: invalid-secret-marker.json",
+      "passed": true,
+      "detail": "expected=False actual=False"
+    }
+  ]
+}

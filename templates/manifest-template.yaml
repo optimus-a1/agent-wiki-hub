@@ -1,0 +1,22 @@
+id: example-agent-wiki
+name: Example Agent Wiki
+version: 0.1.0
+language: zh-CN
+domain: example
+risk_level: low
+freshness_requirement: medium
+entrypoints:
+  - README.md
+  - AGENTS.md
+required_directories:
+  - concepts
+  - rules
+  - workflows
+  - cases
+  - tools
+  - prompts
+  - evals
+  - sources
+update_policy:
+  stable_knowledge: update when improved
+  current_facts: requires source check

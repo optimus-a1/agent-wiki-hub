@@ -1,0 +1,3831 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "playbook": "registry/source-refresh-playbook.json",
+  "ticket_count": 35,
+  "wave_counts": {
+    "wave-1": 13,
+    "wave-2": 12,
+    "wave-3": 10
+  },
+  "wiki_counts": {
+    "agent-engineering-wiki": 3,
+    "airdrop-agent-wiki": 3,
+    "coding-agent-wiki": 4,
+    "content-agent-wiki": 3,
+    "customs-agent-wiki": 4,
+    "ecommerce-agent-wiki": 3,
+    "finance-agent-wiki": 4,
+    "health-agent-wiki": 2,
+    "legal-agent-wiki": 2,
+    "nodeops-agent-wiki": 3,
+    "research-agent-wiki": 2,
+    "security-agent-wiki": 2
+  },
+  "category_counts": {
+    "general_current_fact": 10,
+    "market_or_platform_data": 4,
+    "medical_guidance": 2,
+    "policy_or_regulation": 8,
+    "security_advisory": 2,
+    "technical_docs": 7,
+    "web3_project_status": 2
+  },
+  "missing_required": [],
+  "tickets": [
+    {
+      "ticket_id": "TICKET-SRC-001",
+      "task_id": "SRC-001",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "web3_project_status",
+      "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official contract registry, block explorer, wallet security warning.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official contract registry",
+        "block explorer",
+        "wallet security warning"
+      ],
+      "required_reading": [
+        "wikis/airdrop-agent-wiki/AGENTS.md",
+        "wikis/airdrop-agent-wiki/manifest.yaml",
+        "wikis/airdrop-agent-wiki/README.md",
+        "wikis/airdrop-agent-wiki/rules/",
+        "wikis/airdrop-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/airdrop-agent-wiki/sources/source-notes.md",
+        "wikis/airdrop-agent-wiki/sources/source-refresh-log.md",
+        "wikis/airdrop-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official contract registry, block explorer, wallet security warning.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No Sybil evasion, spam, fake identity, or platform-rule bypass guidance is introduced."
+      ],
+      "safety_checks": [
+        "Never request or store private keys, seed phrases, cookies, or session tokens.",
+        "Do not add Sybil evasion, fake identity, spam, or platform-rule bypass guidance.",
+        "Require human review before wallet signing or permission changes."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-001",
+        "ticket_id": "TICKET-SRC-001",
+        "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/airdrop-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-002",
+      "task_id": "SRC-002",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "policy_or_regulation",
+      "topic": "current project status, official links, task rules, snapshot and eligibility",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official website, official documentation, official announcement channel.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official website",
+        "official documentation",
+        "official announcement channel"
+      ],
+      "required_reading": [
+        "wikis/airdrop-agent-wiki/AGENTS.md",
+        "wikis/airdrop-agent-wiki/manifest.yaml",
+        "wikis/airdrop-agent-wiki/README.md",
+        "wikis/airdrop-agent-wiki/rules/",
+        "wikis/airdrop-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/airdrop-agent-wiki/sources/source-notes.md",
+        "wikis/airdrop-agent-wiki/sources/source-refresh-log.md",
+        "wikis/airdrop-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official website, official documentation, official announcement channel.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No Sybil evasion, spam, fake identity, or platform-rule bypass guidance is introduced."
+      ],
+      "safety_checks": [
+        "Never request or store private keys, seed phrases, cookies, or session tokens.",
+        "Do not add Sybil evasion, fake identity, spam, or platform-rule bypass guidance.",
+        "Require human review before wallet signing or permission changes."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-002",
+        "ticket_id": "TICKET-SRC-002",
+        "topic": "current project status, official links, task rules, snapshot and eligibility",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/airdrop-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-003",
+      "task_id": "SRC-003",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "web3_project_status",
+      "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: project announcement, exchange official announcement, primary funding disclosure.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "project announcement",
+        "exchange official announcement",
+        "primary funding disclosure"
+      ],
+      "required_reading": [
+        "wikis/airdrop-agent-wiki/AGENTS.md",
+        "wikis/airdrop-agent-wiki/manifest.yaml",
+        "wikis/airdrop-agent-wiki/README.md",
+        "wikis/airdrop-agent-wiki/rules/",
+        "wikis/airdrop-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/airdrop-agent-wiki/sources/source-notes.md",
+        "wikis/airdrop-agent-wiki/sources/source-refresh-log.md",
+        "wikis/airdrop-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: project announcement, exchange official announcement, primary funding disclosure.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No Sybil evasion, spam, fake identity, or platform-rule bypass guidance is introduced."
+      ],
+      "safety_checks": [
+        "Never request or store private keys, seed phrases, cookies, or session tokens.",
+        "Do not add Sybil evasion, fake identity, spam, or platform-rule bypass guidance.",
+        "Require human review before wallet signing or permission changes."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-003",
+        "ticket_id": "TICKET-SRC-003",
+        "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/airdrop-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-004",
+      "task_id": "SRC-004",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "market_or_platform_data",
+      "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official exchange documentation, regulator announcement, broker or custodian fee schedule.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official exchange documentation",
+        "regulator announcement",
+        "broker or custodian fee schedule"
+      ],
+      "required_reading": [
+        "wikis/finance-agent-wiki/AGENTS.md",
+        "wikis/finance-agent-wiki/manifest.yaml",
+        "wikis/finance-agent-wiki/README.md",
+        "wikis/finance-agent-wiki/rules/",
+        "wikis/finance-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/finance-agent-wiki/sources/source-notes.md",
+        "wikis/finance-agent-wiki/sources/source-refresh-log.md",
+        "wikis/finance-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official exchange documentation, regulator announcement, broker or custodian fee schedule.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No personalized investment advice or autonomous real-money execution is introduced."
+      ],
+      "safety_checks": [
+        "Keep the output educational, research-oriented, or simulation-oriented.",
+        "Do not introduce personalized investment advice.",
+        "Do not introduce autonomous real-money execution.",
+        "Keep human confirmation before high-risk financial use."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-004",
+        "ticket_id": "TICKET-SRC-004",
+        "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/finance-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-005",
+      "task_id": "SRC-005",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "policy_or_regulation",
+      "topic": "current legal, regulatory or suitability requirements for financial products",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: regulator website, licensed professional review, official product documents.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "regulator website",
+        "licensed professional review",
+        "official product documents"
+      ],
+      "required_reading": [
+        "wikis/finance-agent-wiki/AGENTS.md",
+        "wikis/finance-agent-wiki/manifest.yaml",
+        "wikis/finance-agent-wiki/README.md",
+        "wikis/finance-agent-wiki/rules/",
+        "wikis/finance-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/finance-agent-wiki/sources/source-notes.md",
+        "wikis/finance-agent-wiki/sources/source-refresh-log.md",
+        "wikis/finance-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: regulator website, licensed professional review, official product documents.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No personalized investment advice or autonomous real-money execution is introduced."
+      ],
+      "safety_checks": [
+        "Keep the output educational, research-oriented, or simulation-oriented.",
+        "Do not introduce personalized investment advice.",
+        "Do not introduce autonomous real-money execution.",
+        "Keep human confirmation before high-risk financial use."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-005",
+        "ticket_id": "TICKET-SRC-005",
+        "topic": "current legal, regulatory or suitability requirements for financial products",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/finance-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-006",
+      "task_id": "SRC-006",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "market_or_platform_data",
+      "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: primary exchange or market data vendor, official issuer or exchange data portal, timestamped raw dataset.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "primary exchange or market data vendor",
+        "official issuer or exchange data portal",
+        "timestamped raw dataset"
+      ],
+      "required_reading": [
+        "wikis/finance-agent-wiki/AGENTS.md",
+        "wikis/finance-agent-wiki/manifest.yaml",
+        "wikis/finance-agent-wiki/README.md",
+        "wikis/finance-agent-wiki/rules/",
+        "wikis/finance-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/finance-agent-wiki/sources/source-notes.md",
+        "wikis/finance-agent-wiki/sources/source-refresh-log.md",
+        "wikis/finance-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: primary exchange or market data vendor, official issuer or exchange data portal, timestamped raw dataset.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No personalized investment advice or autonomous real-money execution is introduced."
+      ],
+      "safety_checks": [
+        "Keep the output educational, research-oriented, or simulation-oriented.",
+        "Do not introduce personalized investment advice.",
+        "Do not introduce autonomous real-money execution.",
+        "Keep human confirmation before high-risk financial use."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-006",
+        "ticket_id": "TICKET-SRC-006",
+        "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/finance-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-007",
+      "task_id": "SRC-007",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "general_current_fact",
+      "topic": "latest financial statements, filings, restatements and audit opinions",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: company investor relations, securities regulator filing system, audited annual or interim report.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "company investor relations",
+        "securities regulator filing system",
+        "audited annual or interim report"
+      ],
+      "required_reading": [
+        "wikis/finance-agent-wiki/AGENTS.md",
+        "wikis/finance-agent-wiki/manifest.yaml",
+        "wikis/finance-agent-wiki/README.md",
+        "wikis/finance-agent-wiki/rules/",
+        "wikis/finance-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/finance-agent-wiki/sources/source-notes.md",
+        "wikis/finance-agent-wiki/sources/source-refresh-log.md",
+        "wikis/finance-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: company investor relations, securities regulator filing system, audited annual or interim report.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No personalized investment advice or autonomous real-money execution is introduced."
+      ],
+      "safety_checks": [
+        "Keep the output educational, research-oriented, or simulation-oriented.",
+        "Do not introduce personalized investment advice.",
+        "Do not introduce autonomous real-money execution.",
+        "Keep human confirmation before high-risk financial use."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-007",
+        "ticket_id": "TICKET-SRC-007",
+        "topic": "latest financial statements, filings, restatements and audit opinions",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/finance-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-008",
+      "task_id": "SRC-008",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "health-agent-wiki",
+      "domain": "health_education",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "medical_guidance",
+      "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official health authority, drug regulator label, professional clinical guideline.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official health authority",
+        "drug regulator label",
+        "professional clinical guideline"
+      ],
+      "required_reading": [
+        "wikis/health-agent-wiki/AGENTS.md",
+        "wikis/health-agent-wiki/manifest.yaml",
+        "wikis/health-agent-wiki/README.md",
+        "wikis/health-agent-wiki/rules/",
+        "wikis/health-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/health-agent-wiki/sources/source-notes.md",
+        "wikis/health-agent-wiki/sources/source-refresh-log.md",
+        "wikis/health-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official health authority, drug regulator label, professional clinical guideline.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No diagnosis or treatment instruction is introduced; clinician confirmation points remain visible."
+      ],
+      "safety_checks": [
+        "Do not introduce diagnosis, prescription, dosing, or treatment orders.",
+        "Preserve clinician review and urgent-care escalation points.",
+        "Keep guidelines, drug labels, contraindications, and safety warnings source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-008",
+        "ticket_id": "TICKET-SRC-008",
+        "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/health-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-009",
+      "task_id": "SRC-009",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "health-agent-wiki",
+      "domain": "health_education",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "medical_guidance",
+      "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: public health authority, professional medical society, licensed clinician review.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "public health authority",
+        "professional medical society",
+        "licensed clinician review"
+      ],
+      "required_reading": [
+        "wikis/health-agent-wiki/AGENTS.md",
+        "wikis/health-agent-wiki/manifest.yaml",
+        "wikis/health-agent-wiki/README.md",
+        "wikis/health-agent-wiki/rules/",
+        "wikis/health-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/health-agent-wiki/sources/source-notes.md",
+        "wikis/health-agent-wiki/sources/source-refresh-log.md",
+        "wikis/health-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: public health authority, professional medical society, licensed clinician review.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No diagnosis or treatment instruction is introduced; clinician confirmation points remain visible."
+      ],
+      "safety_checks": [
+        "Do not introduce diagnosis, prescription, dosing, or treatment orders.",
+        "Preserve clinician review and urgent-care escalation points.",
+        "Keep guidelines, drug labels, contraindications, and safety warnings source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-009",
+        "ticket_id": "TICKET-SRC-009",
+        "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/health-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-010",
+      "task_id": "SRC-010",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "legal-agent-wiki",
+      "domain": "legal_information",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "policy_or_regulation",
+      "topic": "current platform agreements, data processing terms and consumer protection rules",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official platform terms, regulator guidance, counsel-approved template.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official platform terms",
+        "regulator guidance",
+        "counsel-approved template"
+      ],
+      "required_reading": [
+        "wikis/legal-agent-wiki/AGENTS.md",
+        "wikis/legal-agent-wiki/manifest.yaml",
+        "wikis/legal-agent-wiki/README.md",
+        "wikis/legal-agent-wiki/rules/",
+        "wikis/legal-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/legal-agent-wiki/sources/source-notes.md",
+        "wikis/legal-agent-wiki/sources/source-refresh-log.md",
+        "wikis/legal-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official platform terms, regulator guidance, counsel-approved template.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No final legal opinion is introduced; jurisdiction and lawyer review points remain visible."
+      ],
+      "safety_checks": [
+        "Do not introduce final legal opinions or guaranteed outcomes.",
+        "Preserve jurisdiction, date, source, and lawyer review points.",
+        "Keep statutes, cases, regulations, and platform terms source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-010",
+        "ticket_id": "TICKET-SRC-010",
+        "topic": "current platform agreements, data processing terms and consumer protection rules",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/legal-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-011",
+      "task_id": "SRC-011",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "legal-agent-wiki",
+      "domain": "legal_information",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "policy_or_regulation",
+      "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official legal database, regulator website, licensed lawyer review.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official legal database",
+        "regulator website",
+        "licensed lawyer review"
+      ],
+      "required_reading": [
+        "wikis/legal-agent-wiki/AGENTS.md",
+        "wikis/legal-agent-wiki/manifest.yaml",
+        "wikis/legal-agent-wiki/README.md",
+        "wikis/legal-agent-wiki/rules/",
+        "wikis/legal-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/legal-agent-wiki/sources/source-notes.md",
+        "wikis/legal-agent-wiki/sources/source-refresh-log.md",
+        "wikis/legal-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official legal database, regulator website, licensed lawyer review.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No final legal opinion is introduced; jurisdiction and lawyer review points remain visible."
+      ],
+      "safety_checks": [
+        "Do not introduce final legal opinions or guaranteed outcomes.",
+        "Preserve jurisdiction, date, source, and lawyer review points.",
+        "Keep statutes, cases, regulations, and platform terms source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-011",
+        "ticket_id": "TICKET-SRC-011",
+        "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/legal-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-012",
+      "task_id": "SRC-012",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "security-agent-wiki",
+      "domain": "defensive_security",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "security_advisory",
+      "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: vendor security advisory, official CVE record, package registry advisory.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "vendor security advisory",
+        "official CVE record",
+        "package registry advisory"
+      ],
+      "required_reading": [
+        "wikis/security-agent-wiki/AGENTS.md",
+        "wikis/security-agent-wiki/manifest.yaml",
+        "wikis/security-agent-wiki/README.md",
+        "wikis/security-agent-wiki/rules/",
+        "wikis/security-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/security-agent-wiki/sources/source-notes.md",
+        "wikis/security-agent-wiki/sources/source-refresh-log.md",
+        "wikis/security-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: vendor security advisory, official CVE record, package registry advisory.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No exploit, persistence, evasion, credential theft, or offensive procedure is introduced."
+      ],
+      "safety_checks": [
+        "Defensive review only.",
+        "Do not add exploitation, persistence, evasion, credential theft, bypass steps, or payloads.",
+        "Keep CVEs, advisories, patches, dependency versions, and exploit status source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-012",
+        "ticket_id": "TICKET-SRC-012",
+        "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/security-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-013",
+      "task_id": "SRC-013",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "security-agent-wiki",
+      "domain": "defensive_security",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "policy_or_regulation",
+      "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official tool documentation, cloud provider security docs, compliance authority or auditor guidance.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official tool documentation",
+        "cloud provider security docs",
+        "compliance authority or auditor guidance"
+      ],
+      "required_reading": [
+        "wikis/security-agent-wiki/AGENTS.md",
+        "wikis/security-agent-wiki/manifest.yaml",
+        "wikis/security-agent-wiki/README.md",
+        "wikis/security-agent-wiki/rules/",
+        "wikis/security-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/security-agent-wiki/sources/source-notes.md",
+        "wikis/security-agent-wiki/sources/source-refresh-log.md",
+        "wikis/security-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official tool documentation, cloud provider security docs, compliance authority or auditor guidance.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change.",
+        "No exploit, persistence, evasion, credential theft, or offensive procedure is introduced."
+      ],
+      "safety_checks": [
+        "Defensive review only.",
+        "Do not add exploitation, persistence, evasion, credential theft, bypass steps, or payloads.",
+        "Keep CVEs, advisories, patches, dependency versions, and exploit status source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-013",
+        "ticket_id": "TICKET-SRC-013",
+        "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/security-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-014",
+      "task_id": "SRC-014",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "market_or_platform_data",
+      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: central bank or official exchange source, customs tariff system, destination country authority.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "central bank or official exchange source",
+        "customs tariff system",
+        "destination country authority"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/customs-agent-wiki/sources/source-notes.md",
+        "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+        "wikis/customs-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: central bank or official exchange source, customs tariff system, destination country authority.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not invent document values or customs classifications.",
+        "Keep OCR uncertainty, evidence snippets, confidence, and manual review points visible.",
+        "Treat policy, tariff, HS code, and regulatory claims as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-014",
+        "ticket_id": "TICKET-SRC-014",
+        "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/customs-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-015",
+      "task_id": "SRC-015",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "general_current_fact",
+      "topic": "latest HS codes, customs supervision conditions and declaration elements",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: customs authority website, official tariff database, licensed customs broker review.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "customs authority website",
+        "official tariff database",
+        "licensed customs broker review"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/customs-agent-wiki/sources/source-notes.md",
+        "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+        "wikis/customs-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: customs authority website, official tariff database, licensed customs broker review.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not invent document values or customs classifications.",
+        "Keep OCR uncertainty, evidence snippets, confidence, and manual review points visible.",
+        "Treat policy, tariff, HS code, and regulatory claims as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-015",
+        "ticket_id": "TICKET-SRC-015",
+        "topic": "latest HS codes, customs supervision conditions and declaration elements",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/customs-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-016",
+      "task_id": "SRC-016",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "policy_or_regulation",
+      "topic": "latest import/export policy, inspection and quarantine requirements",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: customs and inspection authority announcement, destination country regulator, official trade compliance bulletin.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "customs and inspection authority announcement",
+        "destination country regulator",
+        "official trade compliance bulletin"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/customs-agent-wiki/sources/source-notes.md",
+        "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+        "wikis/customs-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: customs and inspection authority announcement, destination country regulator, official trade compliance bulletin.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not invent document values or customs classifications.",
+        "Keep OCR uncertainty, evidence snippets, confidence, and manual review points visible.",
+        "Treat policy, tariff, HS code, and regulatory claims as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-016",
+        "ticket_id": "TICKET-SRC-016",
+        "topic": "latest import/export policy, inspection and quarantine requirements",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/customs-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-017",
+      "task_id": "SRC-017",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "technical_docs",
+      "topic": "latest platform OCR model parameters and document template behavior",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: OCR vendor documentation, internal extraction benchmark, manually reviewed sample set.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "OCR vendor documentation",
+        "internal extraction benchmark",
+        "manually reviewed sample set"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/customs-agent-wiki/sources/source-notes.md",
+        "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+        "wikis/customs-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: OCR vendor documentation, internal extraction benchmark, manually reviewed sample set.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not invent document values or customs classifications.",
+        "Keep OCR uncertainty, evidence snippets, confidence, and manual review points visible.",
+        "Treat policy, tariff, HS code, and regulatory claims as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-017",
+        "ticket_id": "TICKET-SRC-017",
+        "topic": "latest platform OCR model parameters and document template behavior",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/customs-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-018",
+      "task_id": "SRC-018",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "ecommerce-agent-wiki",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "policy_or_regulation",
+      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official marketplace policy center, consumer protection authority, merchant service agreement.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official marketplace policy center",
+        "consumer protection authority",
+        "merchant service agreement"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+        "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+        "wikis/ecommerce-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official marketplace policy center, consumer protection authority, merchant service agreement.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not invent price, stock, shipping, return policy, or platform policy.",
+        "Respect privacy, consent, consumer protection, and platform rules.",
+        "Keep unsupported product claims out of stable pages."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-018",
+        "ticket_id": "TICKET-SRC-018",
+        "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-019",
+      "task_id": "SRC-019",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "ecommerce-agent-wiki",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "general_current_fact",
+      "topic": "current product certification, recall, safety notice and warranty terms",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: brand official website, regulator recall database, warranty document.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "brand official website",
+        "regulator recall database",
+        "warranty document"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+        "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+        "wikis/ecommerce-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: brand official website, regulator recall database, warranty document.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not invent price, stock, shipping, return policy, or platform policy.",
+        "Respect privacy, consent, consumer protection, and platform rules.",
+        "Keep unsupported product claims out of stable pages."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-019",
+        "ticket_id": "TICKET-SRC-019",
+        "topic": "current product certification, recall, safety notice and warranty terms",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-020",
+      "task_id": "SRC-020",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "ecommerce-agent-wiki",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "market_or_platform_data",
+      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: platform product page, merchant backend, carrier tracking system.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "platform product page",
+        "merchant backend",
+        "carrier tracking system"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+        "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+        "wikis/ecommerce-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: platform product page, merchant backend, carrier tracking system.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not invent price, stock, shipping, return policy, or platform policy.",
+        "Respect privacy, consent, consumer protection, and platform rules.",
+        "Keep unsupported product claims out of stable pages."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-020",
+        "ticket_id": "TICKET-SRC-020",
+        "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "priority_score": 7,
+      "category": "general_current_fact",
+      "topic": "current OS package, Docker, systemd and kernel behavior",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official documentation, local version output, release notes.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official documentation",
+        "local version output",
+        "release notes"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/nodeops-agent-wiki/sources/source-notes.md",
+        "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+        "wikis/nodeops-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official documentation, local version output, release notes.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Require backup, rollback, and human confirmation for production changes.",
+        "Do not record infrastructure secrets, node keys, mnemonics, or account tokens.",
+        "Keep destructive operations out of automated instructions."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-021",
+        "ticket_id": "TICKET-SRC-021",
+        "topic": "current OS package, Docker, systemd and kernel behavior",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/nodeops-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "priority_score": 7,
+      "category": "technical_docs",
+      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official client release notes, chain foundation announcement, node logs and version output.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "official client release notes",
+        "chain foundation announcement",
+        "node logs and version output"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/nodeops-agent-wiki/sources/source-notes.md",
+        "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+        "wikis/nodeops-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official client release notes, chain foundation announcement, node logs and version output.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Require backup, rollback, and human confirmation for production changes.",
+        "Do not record infrastructure secrets, node keys, mnemonics, or account tokens.",
+        "Keep destructive operations out of automated instructions."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-022",
+        "ticket_id": "TICKET-SRC-022",
+        "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/nodeops-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "priority_score": 7,
+      "category": "general_current_fact",
+      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: cloud provider documentation, status page, account console.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date.",
+        "Require human review before moving this ticket to verified."
+      ],
+      "suggested_sources": [
+        "cloud provider documentation",
+        "status page",
+        "account console"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/nodeops-agent-wiki/sources/source-notes.md",
+        "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+        "wikis/nodeops-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: cloud provider documentation, status page, account console.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Require backup, rollback, and human confirmation for production changes.",
+        "Do not record infrastructure secrets, node keys, mnemonics, or account tokens.",
+        "Keep destructive operations out of automated instructions."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-023",
+        "ticket_id": "TICKET-SRC-023",
+        "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/nodeops-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": true
+    },
+    {
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "technical_docs",
+      "topic": "current dataset availability, license, model weights and code repository status",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official dataset page, repository release notes, model card.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official dataset page",
+        "repository release notes",
+        "model card"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/research-agent-wiki/sources/source-notes.md",
+        "wikis/research-agent-wiki/sources/source-refresh-log.md",
+        "wikis/research-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official dataset page, repository release notes, model card.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.",
+        "Keep source traceability, limitations, and uncertainty visible.",
+        "Mark newest papers, datasets, leaderboards, and repositories as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-024",
+        "ticket_id": "TICKET-SRC-024",
+        "topic": "current dataset availability, license, model weights and code repository status",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/research-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-2",
+      "target_window": "refresh after wave-1 before operational rollout",
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 7,
+      "category": "general_current_fact",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/research-agent-wiki/sources/source-notes.md",
+        "wikis/research-agent-wiki/sources/source-refresh-log.md",
+        "wikis/research-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.",
+        "Keep source traceability, limitations, and uncertainty visible.",
+        "Mark newest papers, datasets, leaderboards, and repositories as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-025",
+        "ticket_id": "TICKET-SRC-025",
+        "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/research-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-026",
+      "task_id": "SRC-026",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "agent-engineering-wiki",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "priority_score": 6,
+      "category": "technical_docs",
+      "topic": "current Codex Skill format, plugin behavior and tool capabilities",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official documentation, product changelog, local plugin manifest.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official documentation",
+        "product changelog",
+        "local plugin manifest"
+      ],
+      "required_reading": [
+        "wikis/agent-engineering-wiki/AGENTS.md",
+        "wikis/agent-engineering-wiki/manifest.yaml",
+        "wikis/agent-engineering-wiki/README.md",
+        "wikis/agent-engineering-wiki/rules/",
+        "wikis/agent-engineering-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/agent-engineering-wiki/sources/source-notes.md",
+        "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+        "wikis/agent-engineering-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official documentation, product changelog, local plugin manifest.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not add hidden instructions or unreviewed agent authority.",
+        "Keep model, API, MCP, tool schema, and platform behavior source-gated.",
+        "Preserve eval and source-grounding requirements."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-026",
+        "ticket_id": "TICKET-SRC-026",
+        "topic": "current Codex Skill format, plugin behavior and tool capabilities",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/agent-engineering-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-027",
+      "task_id": "SRC-027",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "agent-engineering-wiki",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "priority_score": 6,
+      "category": "technical_docs",
+      "topic": "current RAG frameworks, embedding models, vector databases and rerankers",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official documentation, release notes, benchmark report with date.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official documentation",
+        "release notes",
+        "benchmark report with date"
+      ],
+      "required_reading": [
+        "wikis/agent-engineering-wiki/AGENTS.md",
+        "wikis/agent-engineering-wiki/manifest.yaml",
+        "wikis/agent-engineering-wiki/README.md",
+        "wikis/agent-engineering-wiki/rules/",
+        "wikis/agent-engineering-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/agent-engineering-wiki/sources/source-notes.md",
+        "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+        "wikis/agent-engineering-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official documentation, release notes, benchmark report with date.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not add hidden instructions or unreviewed agent authority.",
+        "Keep model, API, MCP, tool schema, and platform behavior source-gated.",
+        "Preserve eval and source-grounding requirements."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-027",
+        "ticket_id": "TICKET-SRC-027",
+        "topic": "current RAG frameworks, embedding models, vector databases and rerankers",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/agent-engineering-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-028",
+      "task_id": "SRC-028",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "agent-engineering-wiki",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "priority_score": 6,
+      "category": "technical_docs",
+      "topic": "current eval harnesses, model APIs and MCP/tool schemas",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official API documentation, tool schema, repository release notes.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official API documentation",
+        "tool schema",
+        "repository release notes"
+      ],
+      "required_reading": [
+        "wikis/agent-engineering-wiki/AGENTS.md",
+        "wikis/agent-engineering-wiki/manifest.yaml",
+        "wikis/agent-engineering-wiki/README.md",
+        "wikis/agent-engineering-wiki/rules/",
+        "wikis/agent-engineering-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/agent-engineering-wiki/sources/source-notes.md",
+        "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+        "wikis/agent-engineering-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official API documentation, tool schema, repository release notes.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not add hidden instructions or unreviewed agent authority.",
+        "Keep model, API, MCP, tool schema, and platform behavior source-gated.",
+        "Preserve eval and source-grounding requirements."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-028",
+        "ticket_id": "TICKET-SRC-028",
+        "topic": "current eval harnesses, model APIs and MCP/tool schemas",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/agent-engineering-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-029",
+      "task_id": "SRC-029",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "priority_score": 6,
+      "category": "general_current_fact",
+      "topic": "current OpenAI, Codex, GitHub or Vercel product behavior",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official product documentation, changelog, repository or API docs.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official product documentation",
+        "changelog",
+        "repository or API docs"
+      ],
+      "required_reading": [
+        "wikis/coding-agent-wiki/AGENTS.md",
+        "wikis/coding-agent-wiki/manifest.yaml",
+        "wikis/coding-agent-wiki/README.md",
+        "wikis/coding-agent-wiki/rules/",
+        "wikis/coding-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/coding-agent-wiki/sources/source-notes.md",
+        "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "wikis/coding-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official product documentation, changelog, repository or API docs.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not record secrets, tokens, cookies, private keys, or private repository data.",
+        "Keep dependency, API, CLI, platform, and security-advisory claims source-gated.",
+        "Preserve test and deployment verification commands."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-029",
+        "ticket_id": "TICKET-SRC-029",
+        "topic": "current OpenAI, Codex, GitHub or Vercel product behavior",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-030",
+      "task_id": "SRC-030",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "priority_score": 6,
+      "category": "general_current_fact",
+      "topic": "current cloud platform build, deploy, runtime and pricing behavior",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official platform documentation, status page, project deployment logs.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official platform documentation",
+        "status page",
+        "project deployment logs"
+      ],
+      "required_reading": [
+        "wikis/coding-agent-wiki/AGENTS.md",
+        "wikis/coding-agent-wiki/manifest.yaml",
+        "wikis/coding-agent-wiki/README.md",
+        "wikis/coding-agent-wiki/rules/",
+        "wikis/coding-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/coding-agent-wiki/sources/source-notes.md",
+        "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "wikis/coding-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official platform documentation, status page, project deployment logs.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not record secrets, tokens, cookies, private keys, or private repository data.",
+        "Keep dependency, API, CLI, platform, and security-advisory claims source-gated.",
+        "Preserve test and deployment verification commands."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-030",
+        "ticket_id": "TICKET-SRC-030",
+        "topic": "current cloud platform build, deploy, runtime and pricing behavior",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-031",
+      "task_id": "SRC-031",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "priority_score": 6,
+      "category": "security_advisory",
+      "topic": "current dependency vulnerabilities and security advisories",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official security advisory, package registry advisory, vendor bulletin.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official security advisory",
+        "package registry advisory",
+        "vendor bulletin"
+      ],
+      "required_reading": [
+        "wikis/coding-agent-wiki/AGENTS.md",
+        "wikis/coding-agent-wiki/manifest.yaml",
+        "wikis/coding-agent-wiki/README.md",
+        "wikis/coding-agent-wiki/rules/",
+        "wikis/coding-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/coding-agent-wiki/sources/source-notes.md",
+        "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "wikis/coding-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official security advisory, package registry advisory, vendor bulletin.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not record secrets, tokens, cookies, private keys, or private repository data.",
+        "Keep dependency, API, CLI, platform, and security-advisory claims source-gated.",
+        "Preserve test and deployment verification commands."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-031",
+        "ticket_id": "TICKET-SRC-031",
+        "topic": "current dependency vulnerabilities and security advisories",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-032",
+      "task_id": "SRC-032",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "priority_score": 6,
+      "category": "technical_docs",
+      "topic": "current framework, library, CLI and API parameters",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official documentation, release notes, source repository.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official documentation",
+        "release notes",
+        "source repository"
+      ],
+      "required_reading": [
+        "wikis/coding-agent-wiki/AGENTS.md",
+        "wikis/coding-agent-wiki/manifest.yaml",
+        "wikis/coding-agent-wiki/README.md",
+        "wikis/coding-agent-wiki/rules/",
+        "wikis/coding-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/coding-agent-wiki/sources/source-notes.md",
+        "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "wikis/coding-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official documentation, release notes, source repository.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not record secrets, tokens, cookies, private keys, or private repository data.",
+        "Keep dependency, API, CLI, platform, and security-advisory claims source-gated.",
+        "Preserve test and deployment verification commands."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-032",
+        "ticket_id": "TICKET-SRC-032",
+        "topic": "current framework, library, CLI and API parameters",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/coding-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-033",
+      "task_id": "SRC-033",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "content-agent-wiki",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "priority_score": 5,
+      "category": "general_current_fact",
+      "topic": "current image, chart, dataset and quote licensing",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: license document, rights holder page, source terms of use.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "license document",
+        "rights holder page",
+        "source terms of use"
+      ],
+      "required_reading": [
+        "wikis/content-agent-wiki/AGENTS.md",
+        "wikis/content-agent-wiki/manifest.yaml",
+        "wikis/content-agent-wiki/README.md",
+        "wikis/content-agent-wiki/rules/",
+        "wikis/content-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/content-agent-wiki/sources/source-notes.md",
+        "wikis/content-agent-wiki/sources/source-refresh-log.md",
+        "wikis/content-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: license document, rights holder page, source terms of use.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not fabricate citations, quotes, current events, or statistics.",
+        "Keep licensing, platform rules, and factual claims source-gated.",
+        "Separate fact, inference, opinion, and draft language."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-033",
+        "ticket_id": "TICKET-SRC-033",
+        "topic": "current image, chart, dataset and quote licensing",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/content-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-034",
+      "task_id": "SRC-034",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "content-agent-wiki",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "priority_score": 5,
+      "category": "general_current_fact",
+      "topic": "current news, statistics, public quotes and social media claims",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: primary source, official data release, dated reputable reporting.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "primary source",
+        "official data release",
+        "dated reputable reporting"
+      ],
+      "required_reading": [
+        "wikis/content-agent-wiki/AGENTS.md",
+        "wikis/content-agent-wiki/manifest.yaml",
+        "wikis/content-agent-wiki/README.md",
+        "wikis/content-agent-wiki/rules/",
+        "wikis/content-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/content-agent-wiki/sources/source-notes.md",
+        "wikis/content-agent-wiki/sources/source-refresh-log.md",
+        "wikis/content-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: primary source, official data release, dated reputable reporting.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not fabricate citations, quotes, current events, or statistics.",
+        "Keep licensing, platform rules, and factual claims source-gated.",
+        "Separate fact, inference, opinion, and draft language."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-034",
+        "ticket_id": "TICKET-SRC-034",
+        "topic": "current news, statistics, public quotes and social media claims",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/content-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-035",
+      "task_id": "SRC-035",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-3",
+      "target_window": "batch refresh is acceptable before broad reuse",
+      "wiki": "content-agent-wiki",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "priority_score": 5,
+      "category": "policy_or_regulation",
+      "topic": "current publishing platform rules, format limits and content policies",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: platform policy center, creator documentation, account dashboard notices.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "platform policy center",
+        "creator documentation",
+        "account dashboard notices"
+      ],
+      "required_reading": [
+        "wikis/content-agent-wiki/AGENTS.md",
+        "wikis/content-agent-wiki/manifest.yaml",
+        "wikis/content-agent-wiki/README.md",
+        "wikis/content-agent-wiki/rules/",
+        "wikis/content-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/content-agent-wiki/sources/source-notes.md",
+        "wikis/content-agent-wiki/sources/source-refresh-log.md",
+        "wikis/content-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: platform policy center, creator documentation, account dashboard notices.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not fabricate citations, quotes, current events, or statistics.",
+        "Keep licensing, platform rules, and factual claims source-gated.",
+        "Separate fact, inference, opinion, and draft language."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-035",
+        "ticket_id": "TICKET-SRC-035",
+        "topic": "current publishing platform rules, format limits and content policies",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/content-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    }
+  ]
+}

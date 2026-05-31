@@ -1,0 +1,892 @@
+{
+  "generated": "2026-05-31",
+  "card_count": 12,
+  "reports": {
+    "agent_handoff": "docs/AGENT_HANDOFF.md",
+    "acceptance": "docs/ACCEPTANCE_REPORT.md",
+    "hub_navigation": "docs/HUB_NAVIGATION.md",
+    "routing_cli": "docs/ROUTING_CLI.md",
+    "source_queue": "docs/SOURCE_UPDATE_QUEUE.md",
+    "source_dashboard": "docs/SOURCE_REFRESH_DASHBOARD.md",
+    "source_playbook": "docs/SOURCE_REFRESH_PLAYBOOK.md",
+    "source_tickets": "docs/SOURCE_REFRESH_TICKETS.md",
+    "source_wave_runner": "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+    "source_reviewer_queue": "docs/SOURCE_REVIEWER_QUEUE.md",
+    "source_review_session_plan": "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+    "source_review_readiness_matrix": "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+    "source_review_work_orders": "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+    "source_review_packet_bundle": "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+    "source_review_packet_audit": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+    "source_review_packet_rehearsal": "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+    "source_evidence_recorder": "docs/SOURCE_EVIDENCE_RECORDER.md",
+    "source_evidence_packet_importer": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+    "source_evidence_packet_fixtures": "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+    "source_completion_audit": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+    "source_evidence_quality": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
+    "source_log_status": "docs/SOURCE_REFRESH_LOG_STATUS.md",
+    "safety_audit": "docs/SAFETY_AUDIT.md",
+    "pack_audit": "docs/PACK_AUDIT.md"
+  },
+  "cards": [
+    {
+      "id": "finance-agent-wiki",
+      "name": "Finance Agent Wiki",
+      "domain": "finance",
+      "priority": "P0",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "summary": "Finance research, accounting analysis, market data, backtesting, risk control, and simulated trading systems.",
+      "trigger_keywords": [
+        "金融",
+        "投资",
+        "财报",
+        "估值",
+        "市场数据",
+        "回测",
+        "风控",
+        "交易系统",
+        "资金费率",
+        "套利"
+      ],
+      "example_intents": [
+        "Explain OHLCV, spread, order book, volume, and liquidity for research use.",
+        "Design a paper-trading backtest with fee, slippage, and out-of-sample checks.",
+        "Review a finance answer for personalized-investment-advice or real-money execution risk."
+      ],
+      "required_reading_order": [
+        "wikis/finance-agent-wiki/AGENTS.md",
+        "wikis/finance-agent-wiki/manifest.yaml",
+        "wikis/finance-agent-wiki/README.md",
+        "wikis/finance-agent-wiki/rules/",
+        "wikis/finance-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/finance-agent-wiki/sources/source-notes.md",
+        "wikis/finance-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 4,
+      "source_refresh_task_count": 4,
+      "safety_rules": [
+        "Educational, research, and simulation use only.",
+        "Do not provide personalized investment advice.",
+        "Default to paper trading or human-approved simulation.",
+        "Require human confirmation before any high-risk financial action."
+      ],
+      "prohibited_actions": [
+        "Autonomous real-money order placement.",
+        "Personalized buy, sell, hold, leverage, or allocation instructions.",
+        "Claims about current prices, rates, exchange rules, or market conditions without source refresh."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"risk control\" --wiki finance-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/finance-agent-wiki.zip"
+    },
+    {
+      "id": "customs-agent-wiki",
+      "name": "Customs Document Agent Wiki",
+      "domain": "customs_trade_documents",
+      "priority": "P0",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "summary": "Trade document extraction, invoice and packing-list comparison, field mapping, validation, and review support.",
+      "trigger_keywords": [
+        "报关",
+        "报检",
+        "单证",
+        "发票",
+        "装箱单",
+        "合同",
+        "厂检",
+        "HS编码",
+        "字段校对"
+      ],
+      "example_intents": [
+        "Extract contract, invoice, packing list, inspection, and guarantee fields into JSON.",
+        "Map English headers to Chinese document fields with confidence and evidence.",
+        "Compare amount, currency, package count, gross weight, net weight, product name, and specification differences."
+      ],
+      "required_reading_order": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/customs-agent-wiki/sources/source-notes.md",
+        "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 4,
+      "source_refresh_task_count": 4,
+      "safety_rules": [
+        "Treat outputs as structured review support, not final customs advice.",
+        "Preserve source snippets, confidence, and unresolved fields.",
+        "Flag policy, tariff, HS code, and regulatory questions as source-update topics.",
+        "Require manual review for medium and high risk discrepancies."
+      ],
+      "prohibited_actions": [
+        "Inventing missing document values.",
+        "Presenting current customs policy or legal classification as verified without authoritative sources.",
+        "Hiding OCR uncertainty or document conflicts."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"field extraction\" --wiki customs-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/customs-agent-wiki.zip"
+    },
+    {
+      "id": "coding-agent-wiki",
+      "name": "Coding Agent Wiki",
+      "domain": "software_engineering",
+      "priority": "P0",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "summary": "Software engineering workflows for clarification, minimal implementation, tests, debugging, deployment, and secure coding.",
+      "trigger_keywords": [
+        "代码",
+        "编程",
+        "debug",
+        "测试",
+        "部署",
+        "API",
+        "数据库",
+        "Codex",
+        "GitHub"
+      ],
+      "example_intents": [
+        "Clarify requirements and implement the smallest safe code change.",
+        "Plan a test-first debugging workflow and regression check.",
+        "Review deployment steps, secret handling, and Codex usage rules."
+      ],
+      "required_reading_order": [
+        "wikis/coding-agent-wiki/AGENTS.md",
+        "wikis/coding-agent-wiki/manifest.yaml",
+        "wikis/coding-agent-wiki/README.md",
+        "wikis/coding-agent-wiki/rules/",
+        "wikis/coding-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/coding-agent-wiki/sources/source-notes.md",
+        "wikis/coding-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 4,
+      "source_refresh_task_count": 4,
+      "safety_rules": [
+        "Read repository instructions before editing.",
+        "Preserve user changes and keep edits scoped.",
+        "Protect secrets, tokens, cookies, and private keys.",
+        "Run relevant tests or explain why they could not run."
+      ],
+      "prohibited_actions": [
+        "Writing credentials into source files or logs.",
+        "Discarding unrelated user changes.",
+        "Skipping safety checks for deployment or destructive operations."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"test first debug deployment secrets\" --wiki coding-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/coding-agent-wiki.zip"
+    },
+    {
+      "id": "agent-engineering-wiki",
+      "name": "Agent Engineering Wiki",
+      "domain": "ai_agent_engineering",
+      "priority": "P0",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "summary": "Agent architecture, RAG, Knowledge Packs, Codex Skills, evals, source grounding, and safety boundaries.",
+      "trigger_keywords": [
+        "Agent",
+        "RAG",
+        "知识库",
+        "Codex Skill",
+        "AGENTS.md",
+        "评测",
+        "MCP",
+        "工作流"
+      ],
+      "example_intents": [
+        "Design an agent as model plus tools plus knowledge plus workflow plus memory plus evals plus safety boundary.",
+        "Build a RAG workflow with chunking, indexing, recall, reranking, citations, and evals.",
+        "Define a Knowledge Pack with manifest, rules, workflows, evals, sources, and update logs."
+      ],
+      "required_reading_order": [
+        "wikis/agent-engineering-wiki/AGENTS.md",
+        "wikis/agent-engineering-wiki/manifest.yaml",
+        "wikis/agent-engineering-wiki/README.md",
+        "wikis/agent-engineering-wiki/rules/",
+        "wikis/agent-engineering-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/agent-engineering-wiki/sources/source-notes.md",
+        "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 3,
+      "source_refresh_task_count": 3,
+      "safety_rules": [
+        "Make instructions explicit and auditable.",
+        "Do not add hidden instructions, secrets, or credentials.",
+        "Use source-grounding tests for current or externally sourced facts.",
+        "Keep evals tied to observable behavior and refusal boundaries."
+      ],
+      "prohibited_actions": [
+        "Embedding hidden behavior or unreviewed authority into packs.",
+        "Claiming current model, API, MCP, or platform facts without source refresh.",
+        "Skipping evals for safety-critical agent behavior."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"RAG source grounding evals\" --wiki agent-engineering-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/agent-engineering-wiki.zip"
+    },
+    {
+      "id": "ecommerce-agent-wiki",
+      "name": "Ecommerce Agent Wiki",
+      "domain": "ecommerce",
+      "priority": "P1",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "summary": "Product catalog, SKU and SPU operations, customer service, recommendation constraints, returns, privacy, and platform policy gates.",
+      "trigger_keywords": [
+        "电商",
+        "商品",
+        "购物",
+        "客服",
+        "退货",
+        "物流",
+        "SKU",
+        "选品",
+        "比价"
+      ],
+      "example_intents": [
+        "Normalize product catalog attributes and SKU data.",
+        "Draft a customer support workflow for returns, refunds, logistics, and invoices.",
+        "Review recommendation output for policy, consent, and privacy risk."
+      ],
+      "required_reading_order": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+        "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 3,
+      "source_refresh_task_count": 3,
+      "safety_rules": [
+        "Respect privacy, consent, consumer protection, and platform rules.",
+        "Mark fees, return policies, ads policy, and platform rules as source-update topics.",
+        "Avoid deceptive claims, fake scarcity, or unsupported product promises."
+      ],
+      "prohibited_actions": [
+        "Inventing product availability, current pricing, or platform policy.",
+        "Using private customer data without a clear need and consent basis.",
+        "Generating manipulative or misleading sales tactics."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"customer service returns privacy\" --wiki ecommerce-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/ecommerce-agent-wiki.zip"
+    },
+    {
+      "id": "nodeops-agent-wiki",
+      "name": "NodeOps Agent Wiki",
+      "domain": "operations",
+      "priority": "P1",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "summary": "Linux, Docker, systemd, logs, backups, monitoring, alerts, node operations, incident review, and rollback support.",
+      "trigger_keywords": [
+        "服务器",
+        "Linux",
+        "Docker",
+        "systemd",
+        "日志",
+        "监控",
+        "节点",
+        "RPC",
+        "故障"
+      ],
+      "example_intents": [
+        "Build an incident triage checklist using symptoms, logs, resources, network, and dependencies.",
+        "Plan a backup and rollback gate before a production change.",
+        "Review Docker or systemd operations for destructive-command risk."
+      ],
+      "required_reading_order": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/nodeops-agent-wiki/sources/source-notes.md",
+        "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 3,
+      "source_refresh_task_count": 3,
+      "safety_rules": [
+        "Require backup and rollback planning before production changes.",
+        "Require human confirmation for destructive or irreversible operations.",
+        "Prefer read-only diagnostics before changes.",
+        "Protect credentials, node keys, and private infrastructure details."
+      ],
+      "prohibited_actions": [
+        "Running destructive production commands without confirmation.",
+        "Exposing private keys, mnemonics, tokens, or infrastructure secrets.",
+        "Treating current install commands, versions, or chain rules as stable facts without source refresh."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"backup rollback monitoring\" --wiki nodeops-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/nodeops-agent-wiki.zip"
+    },
+    {
+      "id": "airdrop-agent-wiki",
+      "name": "Airdrop Research Agent Wiki",
+      "domain": "web3_research",
+      "priority": "P1",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "summary": "Web3 project research, public task tracking, token and airdrop safety checks, wallet hygiene, and compliance boundaries.",
+      "trigger_keywords": [
+        "空投",
+        "Web3",
+        "项目研究",
+        "TGE",
+        "钱包安全",
+        "签名",
+        "代币"
+      ],
+      "example_intents": [
+        "Research a project using official docs and public ecosystem signals.",
+        "Create a wallet-safety checklist before signing a transaction.",
+        "Review an airdrop task plan for Sybil, spam, fake identity, or platform-bypass risk."
+      ],
+      "required_reading_order": [
+        "wikis/airdrop-agent-wiki/AGENTS.md",
+        "wikis/airdrop-agent-wiki/manifest.yaml",
+        "wikis/airdrop-agent-wiki/README.md",
+        "wikis/airdrop-agent-wiki/rules/",
+        "wikis/airdrop-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/airdrop-agent-wiki/sources/source-notes.md",
+        "wikis/airdrop-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 3,
+      "source_refresh_task_count": 3,
+      "safety_rules": [
+        "Public research and safety checks only.",
+        "Never request or store private keys, seed phrases, cookies, or session tokens.",
+        "Flag project funding, TGE, tokenomics, eligibility, and rules as source-update topics.",
+        "Require human review before signing or granting wallet permissions."
+      ],
+      "prohibited_actions": [
+        "Sybil evasion, spam, fake identity, or platform-rule bypass.",
+        "Automating wallet actions that risk assets or account bans.",
+        "Promising rewards or treating current airdrop rules as verified without source refresh."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"wallet safety public tasks\" --wiki airdrop-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/airdrop-agent-wiki.zip"
+    },
+    {
+      "id": "content-agent-wiki",
+      "name": "Content Agent Wiki",
+      "domain": "content_operations",
+      "priority": "P1",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "summary": "Research briefs, newsletters, articles, posts, titles, summaries, style templates, fact checking, and publishing review.",
+      "trigger_keywords": [
+        "内容",
+        "写作",
+        "日报",
+        "公众号",
+        "帖子",
+        "标题",
+        "摘要",
+        "发布"
+      ],
+      "example_intents": [
+        "Turn source notes into a research brief with citations and uncertainty labels.",
+        "Create a publishing checklist for style, claims, and platform fit.",
+        "Review content for plagiarism, missing citations, or unsupported claims."
+      ],
+      "required_reading_order": [
+        "wikis/content-agent-wiki/AGENTS.md",
+        "wikis/content-agent-wiki/manifest.yaml",
+        "wikis/content-agent-wiki/README.md",
+        "wikis/content-agent-wiki/rules/",
+        "wikis/content-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/content-agent-wiki/sources/source-notes.md",
+        "wikis/content-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 3,
+      "source_refresh_task_count": 3,
+      "safety_rules": [
+        "Separate facts, inference, opinion, and draft language.",
+        "Cite sources for factual claims and mark current facts for source refresh.",
+        "Avoid plagiarism and undisclosed copied text."
+      ],
+      "prohibited_actions": [
+        "Fabricating citations or current events.",
+        "Publishing private, confidential, or copyrighted material without permission.",
+        "Treating platform policy or trend claims as stable without source refresh."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"fact checking citations\" --wiki content-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/content-agent-wiki.zip"
+    },
+    {
+      "id": "legal-agent-wiki",
+      "name": "Legal Information Agent Wiki",
+      "domain": "legal_information",
+      "priority": "P2",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "summary": "Legal information support, contract review checklists, risk spotting, issue lists, and lawyer handoff preparation.",
+      "trigger_keywords": [
+        "法律",
+        "合同",
+        "条款",
+        "法务",
+        "合规",
+        "协议"
+      ],
+      "example_intents": [
+        "Extract contract parties, obligations, deadlines, termination, liability, and dispute clauses.",
+        "Create a legal-risk checklist for human counsel review.",
+        "Summarize unresolved legal questions and source-update needs by jurisdiction."
+      ],
+      "required_reading_order": [
+        "wikis/legal-agent-wiki/AGENTS.md",
+        "wikis/legal-agent-wiki/manifest.yaml",
+        "wikis/legal-agent-wiki/README.md",
+        "wikis/legal-agent-wiki/rules/",
+        "wikis/legal-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/legal-agent-wiki/sources/source-notes.md",
+        "wikis/legal-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 2,
+      "source_refresh_task_count": 2,
+      "safety_rules": [
+        "Information and checklist support only.",
+        "Do not provide final legal opinions.",
+        "Require jurisdiction, date, and authoritative source checks for law or regulation.",
+        "Escalate high-risk legal decisions to qualified counsel."
+      ],
+      "prohibited_actions": [
+        "Final legal advice or guaranteed outcomes.",
+        "Inventing statutes, cases, regulatory status, or filing requirements.",
+        "Removing attorney review points from high-risk outputs."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"contract review human counsel\" --wiki legal-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/legal-agent-wiki.zip"
+    },
+    {
+      "id": "health-agent-wiki",
+      "name": "Health Education Agent Wiki",
+      "domain": "health_education",
+      "priority": "P2",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "summary": "Health education, wellness explanations, triage-style safety reminders, red flags, and clinician handoff support.",
+      "trigger_keywords": [
+        "健康",
+        "体检",
+        "营养",
+        "运动",
+        "症状",
+        "药品"
+      ],
+      "example_intents": [
+        "Explain a health topic in plain language with red-flag reminders.",
+        "Create a question list for a clinician visit.",
+        "Review an answer for diagnosis, prescription, or medical-guideline freshness risk."
+      ],
+      "required_reading_order": [
+        "wikis/health-agent-wiki/AGENTS.md",
+        "wikis/health-agent-wiki/manifest.yaml",
+        "wikis/health-agent-wiki/README.md",
+        "wikis/health-agent-wiki/rules/",
+        "wikis/health-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/health-agent-wiki/sources/source-notes.md",
+        "wikis/health-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 2,
+      "source_refresh_task_count": 2,
+      "safety_rules": [
+        "Education and triage-style safety reminders only.",
+        "Do not diagnose, prescribe, or replace clinician judgment.",
+        "Mark guidelines, drug information, and medical recommendations as source-update topics.",
+        "Escalate urgent symptoms or red flags to professional care."
+      ],
+      "prohibited_actions": [
+        "Diagnosis or treatment orders.",
+        "Medication dosing or contraindication claims without authoritative source refresh and clinician review.",
+        "Suppressing emergency or clinician escalation advice."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"red flags clinician review\" --wiki health-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/health-agent-wiki.zip"
+    },
+    {
+      "id": "research-agent-wiki",
+      "name": "Research Agent Wiki",
+      "domain": "research",
+      "priority": "P2",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "summary": "Academic research workflows, paper reading, source grounding, citation hygiene, synthesis, limitations, and reproducibility.",
+      "trigger_keywords": [
+        "论文",
+        "研究",
+        "综述",
+        "实验",
+        "数据集",
+        "引用",
+        "benchmark"
+      ],
+      "example_intents": [
+        "Summarize a paper with claims, method, evidence, limitations, and citation trail.",
+        "Build a literature review workflow with source-grounding checks.",
+        "Design evals for citation accuracy and unsupported-claim detection."
+      ],
+      "required_reading_order": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/research-agent-wiki/sources/source-notes.md",
+        "wikis/research-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 2,
+      "source_refresh_task_count": 2,
+      "safety_rules": [
+        "Keep citations traceable to source text.",
+        "Label speculation, limitations, and unresolved evidence gaps.",
+        "Mark newest papers, datasets, leaderboards, and benchmarks as source-update topics."
+      ],
+      "prohibited_actions": [
+        "Fabricating citations, abstracts, datasets, or benchmark results.",
+        "Presenting weak or unverified evidence as consensus.",
+        "Omitting limitations that affect interpretation."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"source grounding citations\" --wiki research-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/research-agent-wiki.zip"
+    },
+    {
+      "id": "security-agent-wiki",
+      "name": "Defensive Security Agent Wiki",
+      "domain": "defensive_security",
+      "priority": "P2",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "summary": "Defensive security review, hardening, secure code review, incident documentation, and risk triage.",
+      "trigger_keywords": [
+        "安全",
+        "审计",
+        "漏洞",
+        "权限",
+        "密钥",
+        "上线检查",
+        "防御"
+      ],
+      "example_intents": [
+        "Review code for defensive security weaknesses and remediation priorities.",
+        "Create a hardening checklist without exploit steps.",
+        "Triage security findings while excluding bypass, theft, persistence, or evasion instructions."
+      ],
+      "required_reading_order": [
+        "wikis/security-agent-wiki/AGENTS.md",
+        "wikis/security-agent-wiki/manifest.yaml",
+        "wikis/security-agent-wiki/README.md",
+        "wikis/security-agent-wiki/rules/",
+        "wikis/security-agent-wiki/workflows/"
+      ],
+      "source_gates": [
+        "wikis/security-agent-wiki/sources/source-notes.md",
+        "wikis/security-agent-wiki/sources/source-refresh-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "docs/SOURCE_REFRESH_DASHBOARD.md",
+        "docs/SOURCE_REFRESH_PLAYBOOK.md",
+        "docs/SOURCE_REFRESH_TICKETS.md",
+        "docs/SOURCE_REFRESH_WAVE_RUNNER.md",
+        "docs/SOURCE_REVIEWER_QUEUE.md",
+        "docs/SOURCE_REVIEW_SESSION_PLAN.md",
+        "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
+        "docs/SOURCE_REVIEW_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+        "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
+        "docs/SOURCE_EVIDENCE_RECORDER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
+        "docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
+        "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
+        "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md"
+      ],
+      "source_update_topic_count": 2,
+      "source_refresh_task_count": 2,
+      "safety_rules": [
+        "Defensive review only.",
+        "Focus on risk explanation, detection, mitigation, and verification.",
+        "Mark current CVEs, exploit status, dependency versions, and advisories as source-update topics.",
+        "Require human approval for production security changes."
+      ],
+      "prohibited_actions": [
+        "Exploitation, persistence, evasion, credential theft, or bypass steps.",
+        "Payloads or procedures that enable unauthorized access.",
+        "Claims about current vulnerabilities or advisories without source refresh."
+      ],
+      "validation_commands": [
+        "python3 scripts/validate_wiki.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/search_wiki.py --query \"defensive security hardening\" --wiki security-agent-wiki",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "package": "packs/security-agent-wiki.zip"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+version: 0.1.0
+updated: 2026-05-27
+default_language: zh-CN
+wikis:
+  - id: finance-agent-wiki
+    domain: finance
+    priority: P0
+    path: wikis/finance-agent-wiki
+    risk_level: high
+    freshness: high
+  - id: customs-agent-wiki
+    domain: customs_trade_documents
+    priority: P0
+    path: wikis/customs-agent-wiki
+    risk_level: medium
+    freshness: high
+  - id: coding-agent-wiki
+    domain: software_engineering
+    priority: P0
+    path: wikis/coding-agent-wiki
+    risk_level: medium
+    freshness: medium
+  - id: agent-engineering-wiki
+    domain: ai_agent_engineering
+    priority: P0
+    path: wikis/agent-engineering-wiki
+    risk_level: medium
+    freshness: medium
+  - id: ecommerce-agent-wiki
+    domain: ecommerce
+    priority: P1
+    path: wikis/ecommerce-agent-wiki
+    risk_level: medium
+    freshness: high
+  - id: nodeops-agent-wiki
+    domain: operations
+    priority: P1
+    path: wikis/nodeops-agent-wiki
+    risk_level: high
+    freshness: medium
+  - id: airdrop-agent-wiki
+    domain: web3_research
+    priority: P1
+    path: wikis/airdrop-agent-wiki
+    risk_level: high
+    freshness: high
+  - id: content-agent-wiki
+    domain: content_operations
+    priority: P1
+    path: wikis/content-agent-wiki
+    risk_level: low
+    freshness: medium
+  - id: legal-agent-wiki
+    domain: legal_information
+    priority: P2
+    path: wikis/legal-agent-wiki
+    risk_level: high
+    freshness: high
+  - id: health-agent-wiki
+    domain: health_education
+    priority: P2
+    path: wikis/health-agent-wiki
+    risk_level: high
+    freshness: high
+  - id: research-agent-wiki
+    domain: research
+    priority: P2
+    path: wikis/research-agent-wiki
+    risk_level: medium
+    freshness: high
+  - id: security-agent-wiki
+    domain: defensive_security
+    priority: P2
+    path: wikis/security-agent-wiki
+    risk_level: high
+    freshness: high

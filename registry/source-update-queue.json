@@ -1,0 +1,635 @@
+{
+  "generated": "2026-05-31",
+  "topics": [
+    {
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official contract registry",
+        "block explorer",
+        "wallet security warning"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current project status, official links, task rules, snapshot and eligibility",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official website",
+        "official documentation",
+        "official announcement channel"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "project announcement",
+        "exchange official announcement",
+        "primary funding disclosure"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official exchange documentation",
+        "regulator announcement",
+        "broker or custodian fee schedule"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current legal, regulatory or suitability requirements for financial products",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "regulator website",
+        "licensed professional review",
+        "official product documents"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "primary exchange or market data vendor",
+        "official issuer or exchange data portal",
+        "timestamped raw dataset"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "domain": "finance",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "latest financial statements, filings, restatements and audit opinions",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "company investor relations",
+        "securities regulator filing system",
+        "audited annual or interim report"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "domain": "health_education",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official health authority",
+        "drug regulator label",
+        "professional clinical guideline"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "domain": "health_education",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "public health authority",
+        "professional medical society",
+        "licensed clinician review"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "domain": "legal_information",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current platform agreements, data processing terms and consumer protection rules",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official platform terms",
+        "regulator guidance",
+        "counsel-approved template"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "domain": "legal_information",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official legal database",
+        "regulator website",
+        "licensed lawyer review"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "domain": "defensive_security",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "vendor security advisory",
+        "official CVE record",
+        "package registry advisory"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "domain": "defensive_security",
+      "risk_level": "high",
+      "freshness_requirement": "high",
+      "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official tool documentation",
+        "cloud provider security docs",
+        "compliance authority or auditor guidance"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 8
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "central bank or official exchange source",
+        "customs tariff system",
+        "destination country authority"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "latest HS codes, customs supervision conditions and declaration elements",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "customs authority website",
+        "official tariff database",
+        "licensed customs broker review"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "latest import/export policy, inspection and quarantine requirements",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "customs and inspection authority announcement",
+        "destination country regulator",
+        "official trade compliance bulletin"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "latest platform OCR model parameters and document template behavior",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "OCR vendor documentation",
+        "internal extraction benchmark",
+        "manually reviewed sample set"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official marketplace policy center",
+        "consumer protection authority",
+        "merchant service agreement"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "current product certification, recall, safety notice and warranty terms",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "brand official website",
+        "regulator recall database",
+        "warranty document"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "platform product page",
+        "merchant backend",
+        "carrier tracking system"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "topic": "current OS package, Docker, systemd and kernel behavior",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official documentation",
+        "local version output",
+        "release notes"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official client release notes",
+        "chain foundation announcement",
+        "node logs and version output"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "cloud provider documentation",
+        "status page",
+        "account console"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "current dataset availability, license, model weights and code repository status",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official dataset page",
+        "repository release notes",
+        "model card"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 30,
+      "is_stale": false,
+      "priority_score": 7
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "topic": "current Codex Skill format, plugin behavior and tool capabilities",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official documentation",
+        "product changelog",
+        "local plugin manifest"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 6
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "topic": "current RAG frameworks, embedding models, vector databases and rerankers",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official documentation",
+        "release notes",
+        "benchmark report with date"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 6
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "topic": "current eval harnesses, model APIs and MCP/tool schemas",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official API documentation",
+        "tool schema",
+        "repository release notes"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 6
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "topic": "current OpenAI, Codex, GitHub or Vercel product behavior",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official product documentation",
+        "changelog",
+        "repository or API docs"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 6
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "topic": "current cloud platform build, deploy, runtime and pricing behavior",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official platform documentation",
+        "status page",
+        "project deployment logs"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 6
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "topic": "current dependency vulnerabilities and security advisories",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official security advisory",
+        "package registry advisory",
+        "vendor bulletin"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 6
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "freshness_requirement": "medium",
+      "topic": "current framework, library, CLI and API parameters",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official documentation",
+        "release notes",
+        "source repository"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 6
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "topic": "current image, chart, dataset and quote licensing",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "license document",
+        "rights holder page",
+        "source terms of use"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 5
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "topic": "current news, statistics, public quotes and social media claims",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "primary source",
+        "official data release",
+        "dated reputable reporting"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 5
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "freshness_requirement": "medium",
+      "topic": "current publishing platform rules, format limits and content policies",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "platform policy center",
+        "creator documentation",
+        "account dashboard notices"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 4,
+      "review_window_days": 90,
+      "is_stale": false,
+      "priority_score": 5
+    }
+  ]
+}

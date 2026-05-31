@@ -1,0 +1,56 @@
+{
+  "generated": "2026-05-31",
+  "packet_id": "source-review-session-wave-3-pending",
+  "wave": "wave-3",
+  "passed": true,
+  "planning_only": true,
+  "no_current_fact_write": true,
+  "entry_count": 10,
+  "high_risk_count": 0,
+  "human_reviewer_placeholder_count": 10,
+  "status_counts": {
+    "pending": 10
+  },
+  "packet_json": "registry/source-review-packets/source-review-session-wave-3-pending.json",
+  "packet_jsonl": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
+  "checklist": "registry/source-review-packets/source-review-session-wave-3-pending-checklist.md",
+  "manifest": "registry/source-review-packets/source-review-session-wave-3-pending-manifest.json",
+  "work_order_dir": "registry/source-review-work-orders-wave-3",
+  "work_order_manifest": "registry/source-review-work-orders-wave-3/manifest.json",
+  "dry_run_import_commands": [
+    "python scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-3-pending.json --dry-run --no-post-checks",
+    "python scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-3-pending.jsonl --dry-run --no-post-checks"
+  ],
+  "checks": [
+    {
+      "check": "plan passed",
+      "passed": true,
+      "detail": "registry/source-review-wave-3-plan.json"
+    },
+    {
+      "check": "entry count matches selected reviews",
+      "passed": true,
+      "detail": "10 entries for 10 selected reviews"
+    },
+    {
+      "check": "entries remain pending",
+      "passed": true,
+      "detail": "all entries use status=pending"
+    },
+    {
+      "check": "entries keep required placeholder fields",
+      "passed": true,
+      "detail": "verified_on, confidence, human_reviewer, and evidence_summary placeholders checked"
+    },
+    {
+      "check": "work orders written",
+      "passed": true,
+      "detail": "10 work order files plus manifest"
+    }
+  ],
+  "docs": {
+    "packet_bundle": "docs/SOURCE_REVIEW_WAVE_3_PACKET_BUNDLE.md",
+    "work_orders": "docs/SOURCE_REVIEW_WAVE_3_WORK_ORDERS.md",
+    "session_plan": "docs/SOURCE_REVIEW_WAVE_3_SESSION_PLAN.md"
+  }
+}
