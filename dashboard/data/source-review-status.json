@@ -1,0 +1,246 @@
+{
+  "generated": "2026-05-31",
+  "passed": true,
+  "current_fact_ready": false,
+  "current_facts_written_by_this_run": false,
+  "network_verification_performed": false,
+  "wave_2_evidence_collection": "wave-2 evidence collection not performed because no connected source verification is available.",
+  "wave_3_evidence_collection": "wave-3 evidence collection not performed because no connected source verification is available.",
+  "open_topic_count": 35,
+  "verified_ticket_count": 0,
+  "finalized_ticket_count": 0,
+  "wave_counts": {
+    "wave-1": 13,
+    "wave-2": 12,
+    "wave-3": 10
+  },
+  "waves": [
+    {
+      "wave": "wave-1",
+      "ticket_count": 13,
+      "status": "active packet retained; evidence quality audits pass, but tickets remain open for current-fact readiness",
+      "packet_role": "active-import-packet",
+      "planning_only": false,
+      "human_gate_count": 13,
+      "verified_ticket_count": 0,
+      "current_fact_write": false,
+      "artifacts": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ]
+    },
+    {
+      "wave": "wave-2",
+      "ticket_count": 12,
+      "status": "planning and pending packet generated; evidence collection not performed",
+      "packet_role": "planning-only-pending-packet",
+      "planning_only": true,
+      "human_gate_count": 3,
+      "verified_ticket_count": 0,
+      "current_fact_write": false,
+      "artifacts": [
+        "docs/SOURCE_REVIEW_WAVE_2_PLAN.md",
+        "docs/SOURCE_REVIEW_WAVE_2_BATCH_PLAN.md",
+        "docs/SOURCE_REVIEW_WAVE_2_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_WAVE_2_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_WAVE_2_SESSION_PLAN.md",
+        "registry/source-review-wave-2-plan.json",
+        "registry/source-review-wave-2-batch-plan.json",
+        "registry/source-review-packets/source-review-session-wave-2-pending.json",
+        "registry/source-review-work-orders-wave-2/manifest.json"
+      ],
+      "batch_count": 4,
+      "packet_entry_count": 12
+    },
+    {
+      "wave": "wave-3",
+      "ticket_count": 10,
+      "status": "planning and pending packet generated; evidence collection not performed",
+      "packet_role": "planning-only-pending-packet",
+      "planning_only": true,
+      "human_gate_count": 0,
+      "verified_ticket_count": 0,
+      "current_fact_write": false,
+      "artifacts": [
+        "docs/SOURCE_REVIEW_WAVE_3_PLAN.md",
+        "docs/SOURCE_REVIEW_WAVE_3_PACKET_BUNDLE.md",
+        "docs/SOURCE_REVIEW_WAVE_3_WORK_ORDERS.md",
+        "docs/SOURCE_REVIEW_WAVE_3_SESSION_PLAN.md",
+        "registry/source-review-wave-3-plan.json",
+        "registry/source-review-packets/source-review-session-wave-3-pending.json",
+        "registry/source-review-work-orders-wave-3/manifest.json"
+      ],
+      "packet_entry_count": 10
+    }
+  ],
+  "packet_classification": {
+    "path": "registry/source-review-packet-classification.json",
+    "passed": true,
+    "classification_counts": {
+      "active-import-packet": 2,
+      "advisory-prefill-artifact": 2,
+      "planning-only-pending-packet": 4
+    },
+    "active_packets": [
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "classification": "active-import-packet",
+        "acceptance_role": "blocking",
+        "strict_audit": true,
+        "entry_count": 13,
+        "packet_id": "source-review-session-wave-1-pending",
+        "planning_only": false,
+        "rationale": "Current active packet; participates in strict packet audit and rehearsal."
+      },
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
+        "classification": "active-import-packet",
+        "acceptance_role": "blocking",
+        "strict_audit": true,
+        "entry_count": 13,
+        "packet_id": "source-review-session-wave-1-pending",
+        "planning_only": false,
+        "rationale": "Current active packet; participates in strict packet audit and rehearsal."
+      }
+    ],
+    "planning_only_packets": [
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-2-pending.json",
+        "classification": "planning-only-pending-packet",
+        "acceptance_role": "non-blocking",
+        "strict_audit": false,
+        "entry_count": 12,
+        "packet_id": "source-review-session-wave-2-pending",
+        "planning_only": true,
+        "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+      },
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
+        "classification": "planning-only-pending-packet",
+        "acceptance_role": "non-blocking",
+        "strict_audit": false,
+        "entry_count": 12,
+        "packet_id": "source-review-session-wave-2-pending",
+        "planning_only": true,
+        "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+      },
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-3-pending.json",
+        "classification": "planning-only-pending-packet",
+        "acceptance_role": "non-blocking",
+        "strict_audit": false,
+        "entry_count": 10,
+        "packet_id": "source-review-session-wave-3-pending",
+        "planning_only": true,
+        "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+      },
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
+        "classification": "planning-only-pending-packet",
+        "acceptance_role": "non-blocking",
+        "strict_audit": false,
+        "entry_count": 10,
+        "packet_id": "source-review-session-wave-3-pending",
+        "planning_only": true,
+        "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+      }
+    ],
+    "advisory_packets": [
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+        "classification": "advisory-prefill-artifact",
+        "acceptance_role": "non-blocking",
+        "strict_audit": false,
+        "entry_count": 66,
+        "packet_id": "",
+        "planning_only": false,
+        "rationale": "Historical AI-prefill/source-assistance artifact; retained for traceability, not an active import target."
+      },
+      {
+        "path": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+        "classification": "advisory-prefill-artifact",
+        "acceptance_role": "non-blocking",
+        "strict_audit": false,
+        "entry_count": 66,
+        "packet_id": "",
+        "planning_only": false,
+        "rationale": "Historical AI-prefill/source-assistance artifact; retained for traceability, not an active import target."
+      }
+    ]
+  },
+  "human_gates": {
+    "wave-1": 13,
+    "wave-2": 3,
+    "wave-3": 0,
+    "total_planned": 16
+  },
+  "report_checks": [
+    {
+      "path": "registry/acceptance-report.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "path": "registry/link-audit.json",
+      "exists": true,
+      "passed": true
+    },
+    {
+      "path": "registry/source-review-packet-audit.json",
+      "exists": true,
+      "passed": true,
+      "entry_count": 26
+    },
+    {
+      "path": "registry/source-review-packet-rehearsal.json",
+      "exists": true,
+      "passed": true,
+      "packet_count": 2
+    },
+    {
+      "path": "registry/source-evidence-quality-audit.json",
+      "exists": true,
+      "passed": true,
+      "entry_count": 13
+    },
+    {
+      "path": "registry/source-refresh-completion-audit.json",
+      "exists": true,
+      "passed": true,
+      "ticket_count": 35
+    },
+    {
+      "path": "registry/pack-audit.json",
+      "exists": true,
+      "passed": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "acceptance passed",
+      "passed": true,
+      "detail": "registry/acceptance-report.json"
+    },
+    {
+      "check": "current facts remain gated",
+      "passed": true,
+      "detail": "current_fact_ready=false"
+    },
+    {
+      "check": "no tickets marked verified for current facts",
+      "passed": true,
+      "detail": "0 verified tickets"
+    },
+    {
+      "check": "planning packets are non-blocking",
+      "passed": true,
+      "detail": "4 planning-only packet files"
+    }
+  ],
+  "next_steps": [
+    "Assign named human reviewers for wave-2 high-risk NodeOps tickets before any final status.",
+    "Collect authoritative, primary, dated evidence per ticket into packet entries or source-refresh logs.",
+    "Dry-run imports, run packet audit, rehearsal, evidence quality, completion audit, and acceptance before importing evidence.",
+    "Keep current facts out of stable wiki pages until evidence, quality audits, acceptance, and human gates all pass."
+  ]
+}

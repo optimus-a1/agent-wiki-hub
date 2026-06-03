@@ -1,0 +1,58 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "checks": [
+    {
+      "path": "ingestion/README.md",
+      "passed": true
+    },
+    {
+      "path": "ingestion/intake_config.yaml",
+      "passed": true
+    },
+    {
+      "path": "ingestion/import_markdown.py",
+      "passed": true
+    },
+    {
+      "path": "ingestion/import_webclip.py",
+      "passed": true
+    },
+    {
+      "path": "ingestion/import_pdf_placeholder.py",
+      "passed": true
+    },
+    {
+      "path": "ingestion/import_image_ocr_placeholder.py",
+      "passed": true
+    },
+    {
+      "path": "ingestion/import_audio_whisper_placeholder.py",
+      "passed": true
+    },
+    {
+      "path": "ingestion/import_video_placeholder.py",
+      "passed": true
+    },
+    {
+      "path": "ingestion/process_raw_to_knowledge.py",
+      "passed": true
+    },
+    {
+      "path": "ingestion/generate_ingestion_report.py",
+      "passed": true
+    },
+    {
+      "path": "obsidian-vault/00_System/Logs/Ingestion Log.md",
+      "passed": true
+    },
+    {
+      "path": "registry/ingestion-pipeline-manifest.json",
+      "passed": true
+    }
+  ],
+  "warnings": [
+    "OCR optional",
+    "Whisper optional"
+  ]
+}

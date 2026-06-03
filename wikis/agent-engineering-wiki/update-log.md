@@ -1,5 +1,11 @@
 # Update Log — Agent Engineering Wiki
 
+## 2026-06-01
+
+- Added stable high-density knowledge pages for agent memory and context, tool grounding, eval loops, and tool-overreach cases.
+- Updated README and manifest to register the stable-only expansion boundary.
+- Added Agent Wiki Hub v2 local-first architecture scaffolding for Obsidian, RAG, dashboard, ingestion, crawler, candidate classification, promotion audits, source-review queueing, and secret-safe acceptance checks.
+
 ## 2026-05-31
 
 - Added source-review packet classification reporting so active import, planning-only, advisory, and historical packet artifacts have explicit acceptance roles.

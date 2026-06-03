@@ -77,7 +77,7 @@ def classify(path: Path) -> dict:
         acceptance_role = "non-blocking"
         strict_audit = False
         rationale = "Historical AI-prefill/source-assistance artifact; retained for traceability, not an active import target."
-    elif metadata.get("planning_only") or metadata.get("no_current_fact_write"):
+    elif "auto-pending" in name or metadata.get("planning_only") or metadata.get("no_current_fact_write"):
         classification = "planning-only-pending-packet"
         acceptance_role = "non-blocking"
         strict_audit = False
@@ -99,7 +99,7 @@ def classify(path: Path) -> dict:
         "strict_audit": strict_audit,
         "entry_count": entry_count(path, metadata),
         "packet_id": metadata.get("packet_id", ""),
-        "planning_only": bool(metadata.get("planning_only") or metadata.get("no_current_fact_write")),
+        "planning_only": bool("auto-pending" in name or metadata.get("planning_only") or metadata.get("no_current_fact_write")),
         "rationale": rationale,
     }
 

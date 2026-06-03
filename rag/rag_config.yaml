@@ -1,0 +1,14 @@
+chroma_dir: rag/chroma
+embedding_mode: local_optional
+fallback_mode: keyword
+index_sources:
+  - wikis
+  - docs
+  - obsidian-vault/02_Knowledge
+  - obsidian-vault/03_Skills
+excluded_paths:
+  - .env
+  - obsidian-vault/01_Raw/Audio
+  - obsidian-vault/01_Raw/Video
+  - rag/chroma
+  - registry/*backup*

@@ -1,0 +1,6 @@
+raw_root: obsidian-vault/01_Raw
+candidate_root: obsidian-vault/02_Knowledge/Candidates
+high_risk_requires_human_review: true
+optional_dependencies:
+  ocr: optional
+  whisper: optional

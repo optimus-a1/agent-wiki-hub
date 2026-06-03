@@ -1,15 +1,35 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "passed": true,
   "purpose": "Document which source-review packets are active import targets versus advisory, planning-only, or historical artifacts.",
   "packet_dir": "registry/source-review-packets",
-  "packet_count": 8,
+  "packet_count": 10,
   "classification_counts": {
     "active-import-packet": 2,
     "advisory-prefill-artifact": 2,
-    "planning-only-pending-packet": 4
+    "planning-only-pending-packet": 6
   },
   "records": [
+    {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "classification": "planning-only-pending-packet",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 0,
+      "packet_id": "source-review-session-auto-pending",
+      "planning_only": true,
+      "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "classification": "planning-only-pending-packet",
+      "acceptance_role": "non-blocking",
+      "strict_audit": false,
+      "entry_count": 0,
+      "packet_id": "",
+      "planning_only": true,
+      "rationale": "Pending template packet for future source review; it contains placeholders and must not certify current facts."
+    },
     {
       "path": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "classification": "advisory-prefill-artifact",
@@ -100,7 +120,7 @@
     {
       "check": "packet files classified",
       "passed": true,
-      "detail": "8 packet files"
+      "detail": "10 packet files"
     },
     {
       "check": "active packet exists",
@@ -110,7 +130,7 @@
     {
       "check": "planning packets are non-blocking",
       "passed": true,
-      "detail": "4 planning-only packet files"
+      "detail": "6 planning-only packet files"
     }
   ]
 }

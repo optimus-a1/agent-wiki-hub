@@ -1,5 +1,10 @@
 # Update Log — Research Agent Wiki
 
+## 2026-06-01
+
+- Added stable high-density knowledge pages for evidence quality, citation integrity, systematic literature review, and benchmark claim review.
+- Updated README and manifest to register the stable-only expansion boundary.
+
 ## 2026-05-27
 
 - Added source refresh log template for authoritative source verification.

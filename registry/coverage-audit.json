@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "passed": true,
   "topics": [
     {
@@ -436,8 +436,8 @@
         },
         {
           "passed": true,
-          "term": "环境变量",
-          "path": "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml"
+          "term": "environment",
+          "path": "wikis/coding-agent-wiki/concepts/codebase-orientation.md"
         },
         {
           "passed": true,
@@ -516,8 +516,8 @@
         },
         {
           "passed": true,
-          "term": "最小改动",
-          "path": "wikis/coding-agent-wiki/rules/codex-usage.md"
+          "term": "scoped edits",
+          "path": "wikis/coding-agent-wiki/README.md"
         },
         {
           "passed": true,
@@ -567,7 +567,7 @@
         {
           "passed": true,
           "term": "Safety",
-          "path": "wikis/agent-engineering-wiki/concepts/agent-architecture.md"
+          "path": "wikis/agent-engineering-wiki/cases/sample-tool-overreach.md"
         }
       ],
       "missing_groups": []
@@ -591,8 +591,8 @@
         },
         {
           "passed": true,
-          "term": "召回",
-          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+          "term": "recall",
+          "path": "wikis/agent-engineering-wiki/concepts/agent-memory-and-context.md"
         },
         {
           "passed": true,
@@ -672,7 +672,7 @@
         {
           "passed": true,
           "term": "references",
-          "path": "wikis/agent-engineering-wiki/concepts/codex-skills.md"
+          "path": "wikis/agent-engineering-wiki/concepts/agent-memory-and-context.md"
         },
         {
           "passed": true,
@@ -871,8 +871,8 @@
         },
         {
           "passed": true,
-          "term": "备份",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+          "term": "backup",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
         },
         {
           "passed": true,
@@ -897,12 +897,12 @@
         {
           "passed": true,
           "term": "production",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
         },
         {
           "passed": true,
-          "term": "备份",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+          "term": "backup",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
         },
         {
           "passed": true,
@@ -937,7 +937,7 @@
         {
           "passed": true,
           "term": "symptom",
-          "path": "wikis/nodeops-agent-wiki/workflows/incident-response.md"
+          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
         },
         {
           "passed": true,
@@ -946,8 +946,8 @@
         },
         {
           "passed": true,
-          "term": "资源",
-          "path": "wikis/nodeops-agent-wiki/workflows/change-management.md"
+          "term": "resource",
+          "path": "wikis/nodeops-agent-wiki/concepts/service-reliability-signals.md"
         },
         {
           "passed": true,
@@ -976,18 +976,18 @@
       "groups": [
         {
           "passed": true,
-          "term": "破坏性",
-          "path": "wikis/nodeops-agent-wiki/evals/nodeops-agent-evals.yaml"
+          "term": "destructive",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
         },
         {
           "passed": true,
-          "term": "删除",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+          "term": "delete",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
         },
         {
           "passed": true,
-          "term": "备份",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+          "term": "backup",
+          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
         },
         {
           "passed": true,
@@ -1567,22 +1567,22 @@
         {
           "passed": true,
           "term": "claim",
-          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
         },
         {
           "passed": true,
-          "term": "方法",
-          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+          "term": "method",
+          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
         },
         {
           "passed": true,
           "term": "limitation",
-          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
         },
         {
           "passed": true,
-          "term": "复现",
-          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+          "term": "reproduc",
+          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
         }
       ],
       "missing_groups": []
@@ -1606,8 +1606,8 @@
         },
         {
           "passed": true,
-          "term": "榜单",
-          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+          "term": "leaderboard",
+          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
         },
         {
           "passed": true,
@@ -1662,7 +1662,7 @@
         {
           "passed": true,
           "term": "exploit",
-          "path": "wikis/security-agent-wiki/evals/security-agent-evals.yaml"
+          "path": "wikis/security-agent-wiki/concepts/security-control-model.md"
         },
         {
           "passed": true,
@@ -1711,8 +1711,8 @@
         },
         {
           "passed": true,
-          "term": "数据流",
-          "path": "wikis/security-agent-wiki/workflows/threat-model-review.md"
+          "term": "data flow",
+          "path": "wikis/security-agent-wiki/concepts/security-control-model.md"
         },
         {
           "passed": true,
@@ -1721,8 +1721,8 @@
         },
         {
           "passed": true,
-          "term": "控制",
-          "path": "wikis/security-agent-wiki/workflows/threat-model-review.md"
+          "term": "control",
+          "path": "wikis/security-agent-wiki/concepts/security-control-model.md"
         },
         {
           "passed": true,

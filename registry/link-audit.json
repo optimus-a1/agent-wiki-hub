@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "passed": true,
   "references": [
     {
@@ -679,7 +679,151 @@
     },
     {
       "source": "README.md",
+      "line": 10,
+      "type": "path_reference",
+      "target": "scripts/run_acceptance.py",
+      "resolved": "scripts/run_acceptance.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
       "line": 11,
+      "type": "path_reference",
+      "target": "scripts/generate_obsidian_vault.py",
+      "resolved": "scripts/generate_obsidian_vault.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 12,
+      "type": "path_reference",
+      "target": "scripts/generate_obsidian_canvas.py",
+      "resolved": "scripts/generate_obsidian_canvas.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 67,
+      "type": "path_reference",
+      "target": "scripts/generate_obsidian_vault.py",
+      "resolved": "scripts/generate_obsidian_vault.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 68,
+      "type": "path_reference",
+      "target": "scripts/generate_obsidian_canvas.py",
+      "resolved": "scripts/generate_obsidian_canvas.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 69,
+      "type": "path_reference",
+      "target": "scripts/audit_obsidian_vault.py",
+      "resolved": "scripts/audit_obsidian_vault.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 71,
+      "type": "path_reference",
+      "target": "scripts/audit_dashboard.py",
+      "resolved": "scripts/audit_dashboard.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 73,
+      "type": "path_reference",
+      "target": "scripts/audit_ingestion_pipeline.py",
+      "resolved": "scripts/audit_ingestion_pipeline.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 75,
+      "type": "path_reference",
+      "target": "scripts/classify_candidate_knowledge.py",
+      "resolved": "scripts/classify_candidate_knowledge.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 76,
+      "type": "path_reference",
+      "target": "scripts/promote_stable_knowledge.py",
+      "resolved": "scripts/promote_stable_knowledge.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 77,
+      "type": "path_reference",
+      "target": "scripts/generate_source_review_from_candidates.py",
+      "resolved": "scripts/generate_source_review_from_candidates.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 78,
+      "type": "path_reference",
+      "target": "scripts/audit_crawler_outputs.py",
+      "resolved": "scripts/audit_crawler_outputs.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 79,
+      "type": "path_reference",
+      "target": "scripts/audit_knowledge_promotion.py",
+      "resolved": "scripts/audit_knowledge_promotion.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 80,
+      "type": "path_reference",
+      "target": "scripts/audit_rag_config.py",
+      "resolved": "scripts/audit_rag_config.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 81,
+      "type": "path_reference",
+      "target": "scripts/audit_secret_leaks.py",
+      "resolved": "scripts/audit_secret_leaks.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 82,
+      "type": "path_reference",
+      "target": "scripts/run_acceptance.py",
+      "resolved": "scripts/run_acceptance.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "README.md",
+      "line": 93,
       "type": "code_reference",
       "target": "AGENTS.md",
       "resolved": "AGENTS.md",
@@ -688,7 +832,7 @@
     },
     {
       "source": "README.md",
-      "line": 19,
+      "line": 101,
       "type": "path_reference",
       "target": "scripts/validate_wiki.py",
       "resolved": "scripts/validate_wiki.py",
@@ -697,7 +841,7 @@
     },
     {
       "source": "README.md",
-      "line": 20,
+      "line": 102,
       "type": "path_reference",
       "target": "scripts/check_registry_consistency.py",
       "resolved": "scripts/check_registry_consistency.py",
@@ -706,7 +850,7 @@
     },
     {
       "source": "README.md",
-      "line": 21,
+      "line": 103,
       "type": "path_reference",
       "target": "scripts/audit_ci_workflow.py",
       "resolved": "scripts/audit_ci_workflow.py",
@@ -715,7 +859,7 @@
     },
     {
       "source": "README.md",
-      "line": 22,
+      "line": 104,
       "type": "path_reference",
       "target": "scripts/audit_page_metadata.py",
       "resolved": "scripts/audit_page_metadata.py",
@@ -724,7 +868,7 @@
     },
     {
       "source": "README.md",
-      "line": 23,
+      "line": 105,
       "type": "path_reference",
       "target": "scripts/audit_content_coverage.py",
       "resolved": "scripts/audit_content_coverage.py",
@@ -733,7 +877,7 @@
     },
     {
       "source": "README.md",
-      "line": 24,
+      "line": 106,
       "type": "path_reference",
       "target": "scripts/audit_links.py",
       "resolved": "scripts/audit_links.py",
@@ -742,7 +886,7 @@
     },
     {
       "source": "README.md",
-      "line": 25,
+      "line": 107,
       "type": "path_reference",
       "target": "scripts/audit_pack_integrity.py",
       "resolved": "scripts/audit_pack_integrity.py",
@@ -751,7 +895,7 @@
     },
     {
       "source": "README.md",
-      "line": 26,
+      "line": 108,
       "type": "path_reference",
       "target": "scripts/check_eval_files.py",
       "resolved": "scripts/check_eval_files.py",
@@ -760,7 +904,7 @@
     },
     {
       "source": "README.md",
-      "line": 27,
+      "line": 109,
       "type": "path_reference",
       "target": "scripts/update_index.py",
       "resolved": "scripts/update_index.py",
@@ -769,7 +913,7 @@
     },
     {
       "source": "README.md",
-      "line": 28,
+      "line": 110,
       "type": "path_reference",
       "target": "scripts/report_wiki_status.py",
       "resolved": "scripts/report_wiki_status.py",
@@ -778,7 +922,7 @@
     },
     {
       "source": "README.md",
-      "line": 29,
+      "line": 111,
       "type": "path_reference",
       "target": "scripts/list_source_updates.py",
       "resolved": "scripts/list_source_updates.py",
@@ -787,7 +931,7 @@
     },
     {
       "source": "README.md",
-      "line": 30,
+      "line": 112,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_playbook.py",
       "resolved": "scripts/generate_source_refresh_playbook.py",
@@ -796,7 +940,7 @@
     },
     {
       "source": "README.md",
-      "line": 31,
+      "line": 113,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_tickets.py",
       "resolved": "scripts/generate_source_refresh_tickets.py",
@@ -805,7 +949,7 @@
     },
     {
       "source": "README.md",
-      "line": 32,
+      "line": 114,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_logs.py",
       "resolved": "scripts/generate_source_refresh_logs.py",
@@ -814,7 +958,7 @@
     },
     {
       "source": "README.md",
-      "line": 33,
+      "line": 115,
       "type": "path_reference",
       "target": "scripts/record_source_evidence.py",
       "resolved": "scripts/record_source_evidence.py",
@@ -823,7 +967,7 @@
     },
     {
       "source": "README.md",
-      "line": 34,
+      "line": 116,
       "type": "path_reference",
       "target": "scripts/import_source_evidence_packet.py",
       "resolved": "scripts/import_source_evidence_packet.py",
@@ -832,7 +976,7 @@
     },
     {
       "source": "README.md",
-      "line": 35,
+      "line": 117,
       "type": "path_reference",
       "target": "scripts/generate_source_evidence_packet_fixtures.py",
       "resolved": "scripts/generate_source_evidence_packet_fixtures.py",
@@ -841,7 +985,7 @@
     },
     {
       "source": "README.md",
-      "line": 36,
+      "line": 118,
       "type": "path_reference",
       "target": "scripts/audit_source_refresh_completion.py",
       "resolved": "scripts/audit_source_refresh_completion.py",
@@ -850,7 +994,7 @@
     },
     {
       "source": "README.md",
-      "line": 37,
+      "line": 119,
       "type": "path_reference",
       "target": "scripts/audit_source_evidence_quality.py",
       "resolved": "scripts/audit_source_evidence_quality.py",
@@ -859,7 +1003,7 @@
     },
     {
       "source": "README.md",
-      "line": 38,
+      "line": 120,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_dashboard.py",
       "resolved": "scripts/generate_source_refresh_dashboard.py",
@@ -868,7 +1012,7 @@
     },
     {
       "source": "README.md",
-      "line": 39,
+      "line": 121,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_wave_runner.py",
       "resolved": "scripts/generate_source_refresh_wave_runner.py",
@@ -877,7 +1021,7 @@
     },
     {
       "source": "README.md",
-      "line": 40,
+      "line": 122,
       "type": "path_reference",
       "target": "scripts/generate_source_reviewer_queue.py",
       "resolved": "scripts/generate_source_reviewer_queue.py",
@@ -886,7 +1030,7 @@
     },
     {
       "source": "README.md",
-      "line": 41,
+      "line": 123,
       "type": "path_reference",
       "target": "scripts/generate_source_review_session_plan.py",
       "resolved": "scripts/generate_source_review_session_plan.py",
@@ -895,7 +1039,7 @@
     },
     {
       "source": "README.md",
-      "line": 42,
+      "line": 124,
       "type": "path_reference",
       "target": "scripts/generate_source_review_readiness_matrix.py",
       "resolved": "scripts/generate_source_review_readiness_matrix.py",
@@ -904,7 +1048,7 @@
     },
     {
       "source": "README.md",
-      "line": 43,
+      "line": 125,
       "type": "path_reference",
       "target": "scripts/generate_source_review_work_orders.py",
       "resolved": "scripts/generate_source_review_work_orders.py",
@@ -913,7 +1057,7 @@
     },
     {
       "source": "README.md",
-      "line": 44,
+      "line": 126,
       "type": "path_reference",
       "target": "scripts/generate_source_review_packet_bundle.py",
       "resolved": "scripts/generate_source_review_packet_bundle.py",
@@ -922,7 +1066,7 @@
     },
     {
       "source": "README.md",
-      "line": 45,
+      "line": 127,
       "type": "path_reference",
       "target": "scripts/generate_source_review_packet_classification.py",
       "resolved": "scripts/generate_source_review_packet_classification.py",
@@ -931,7 +1075,7 @@
     },
     {
       "source": "README.md",
-      "line": 46,
+      "line": 128,
       "type": "path_reference",
       "target": "scripts/generate_source_review_wave_plan.py",
       "resolved": "scripts/generate_source_review_wave_plan.py",
@@ -940,7 +1084,7 @@
     },
     {
       "source": "README.md",
-      "line": 47,
+      "line": 129,
       "type": "path_reference",
       "target": "scripts/generate_source_review_wave_2_batch_plan.py",
       "resolved": "scripts/generate_source_review_wave_2_batch_plan.py",
@@ -949,7 +1093,7 @@
     },
     {
       "source": "README.md",
-      "line": 48,
+      "line": 130,
       "type": "path_reference",
       "target": "scripts/generate_source_review_wave_3_plan.py",
       "resolved": "scripts/generate_source_review_wave_3_plan.py",
@@ -958,7 +1102,7 @@
     },
     {
       "source": "README.md",
-      "line": 49,
+      "line": 131,
       "type": "path_reference",
       "target": "registry/source-review-wave-3-plan.json",
       "resolved": "registry/source-review-wave-3-plan.json",
@@ -967,7 +1111,7 @@
     },
     {
       "source": "README.md",
-      "line": 49,
+      "line": 131,
       "type": "path_reference",
       "target": "registry/source-review-work-orders-wave-3",
       "resolved": "registry/source-review-work-orders-wave-3",
@@ -976,7 +1120,7 @@
     },
     {
       "source": "README.md",
-      "line": 49,
+      "line": 131,
       "type": "path_reference",
       "target": "scripts/generate_source_review_wave_packet_bundle.py",
       "resolved": "scripts/generate_source_review_wave_packet_bundle.py",
@@ -985,7 +1129,7 @@
     },
     {
       "source": "README.md",
-      "line": 50,
+      "line": 132,
       "type": "path_reference",
       "target": "scripts/generate_source_review_final_status.py",
       "resolved": "scripts/generate_source_review_final_status.py",
@@ -994,7 +1138,7 @@
     },
     {
       "source": "README.md",
-      "line": 51,
+      "line": 133,
       "type": "path_reference",
       "target": "scripts/audit_source_review_packets.py",
       "resolved": "scripts/audit_source_review_packets.py",
@@ -1003,7 +1147,7 @@
     },
     {
       "source": "README.md",
-      "line": 52,
+      "line": 134,
       "type": "path_reference",
       "target": "scripts/rehearse_source_review_packet_imports.py",
       "resolved": "scripts/rehearse_source_review_packet_imports.py",
@@ -1012,7 +1156,7 @@
     },
     {
       "source": "README.md",
-      "line": 53,
+      "line": 135,
       "type": "path_reference",
       "target": "scripts/audit_safety_boundaries.py",
       "resolved": "scripts/audit_safety_boundaries.py",
@@ -1021,7 +1165,7 @@
     },
     {
       "source": "README.md",
-      "line": 54,
+      "line": 136,
       "type": "path_reference",
       "target": "scripts/generate_hub_navigation.py",
       "resolved": "scripts/generate_hub_navigation.py",
@@ -1030,7 +1174,7 @@
     },
     {
       "source": "README.md",
-      "line": 55,
+      "line": 137,
       "type": "path_reference",
       "target": "scripts/generate_agent_routing_cards.py",
       "resolved": "scripts/generate_agent_routing_cards.py",
@@ -1039,7 +1183,7 @@
     },
     {
       "source": "README.md",
-      "line": 56,
+      "line": 138,
       "type": "path_reference",
       "target": "scripts/generate_agent_handoff.py",
       "resolved": "scripts/generate_agent_handoff.py",
@@ -1048,7 +1192,7 @@
     },
     {
       "source": "README.md",
-      "line": 57,
+      "line": 139,
       "type": "path_reference",
       "target": "scripts/generate_release_notes.py",
       "resolved": "scripts/generate_release_notes.py",
@@ -1057,7 +1201,7 @@
     },
     {
       "source": "README.md",
-      "line": 58,
+      "line": 140,
       "type": "path_reference",
       "target": "scripts/generate_change_summary.py",
       "resolved": "scripts/generate_change_summary.py",
@@ -1066,7 +1210,7 @@
     },
     {
       "source": "README.md",
-      "line": 59,
+      "line": 141,
       "type": "path_reference",
       "target": "scripts/route_wiki.py",
       "resolved": "scripts/route_wiki.py",
@@ -1075,7 +1219,7 @@
     },
     {
       "source": "README.md",
-      "line": 60,
+      "line": 142,
       "type": "path_reference",
       "target": "scripts/run_acceptance.py",
       "resolved": "scripts/run_acceptance.py",
@@ -1084,7 +1228,7 @@
     },
     {
       "source": "README.md",
-      "line": 61,
+      "line": 143,
       "type": "path_reference",
       "target": "scripts/search_wiki.py",
       "resolved": "scripts/search_wiki.py",
@@ -1093,7 +1237,7 @@
     },
     {
       "source": "README.md",
-      "line": 66,
+      "line": 148,
       "type": "code_reference",
       "target": "docs/CI_AUDIT.md",
       "resolved": "docs/CI_AUDIT.md",
@@ -1102,7 +1246,7 @@
     },
     {
       "source": "README.md",
-      "line": 66,
+      "line": 148,
       "type": "path_reference",
       "target": "docs/CI_AUDIT.md",
       "resolved": "docs/CI_AUDIT.md",
@@ -1111,7 +1255,7 @@
     },
     {
       "source": "README.md",
-      "line": 67,
+      "line": 149,
       "type": "code_reference",
       "target": "docs/PAGE_METADATA_AUDIT.md",
       "resolved": "docs/PAGE_METADATA_AUDIT.md",
@@ -1120,7 +1264,7 @@
     },
     {
       "source": "README.md",
-      "line": 67,
+      "line": 149,
       "type": "path_reference",
       "target": "docs/PAGE_METADATA_AUDIT.md",
       "resolved": "docs/PAGE_METADATA_AUDIT.md",
@@ -1129,7 +1273,7 @@
     },
     {
       "source": "README.md",
-      "line": 68,
+      "line": 150,
       "type": "code_reference",
       "target": "docs/COVERAGE_AUDIT.md",
       "resolved": "docs/COVERAGE_AUDIT.md",
@@ -1138,7 +1282,7 @@
     },
     {
       "source": "README.md",
-      "line": 68,
+      "line": 150,
       "type": "path_reference",
       "target": "docs/COVERAGE_AUDIT.md",
       "resolved": "docs/COVERAGE_AUDIT.md",
@@ -1147,7 +1291,7 @@
     },
     {
       "source": "README.md",
-      "line": 69,
+      "line": 151,
       "type": "code_reference",
       "target": "docs/LINK_AUDIT.md",
       "resolved": "docs/LINK_AUDIT.md",
@@ -1156,7 +1300,7 @@
     },
     {
       "source": "README.md",
-      "line": 69,
+      "line": 151,
       "type": "path_reference",
       "target": "docs/LINK_AUDIT.md",
       "resolved": "docs/LINK_AUDIT.md",
@@ -1165,7 +1309,7 @@
     },
     {
       "source": "README.md",
-      "line": 70,
+      "line": 152,
       "type": "code_reference",
       "target": "docs/PACK_AUDIT.md",
       "resolved": "docs/PACK_AUDIT.md",
@@ -1174,7 +1318,7 @@
     },
     {
       "source": "README.md",
-      "line": 70,
+      "line": 152,
       "type": "path_reference",
       "target": "docs/PACK_AUDIT.md",
       "resolved": "docs/PACK_AUDIT.md",
@@ -1183,7 +1327,7 @@
     },
     {
       "source": "README.md",
-      "line": 73,
+      "line": 155,
       "type": "code_reference",
       "target": "docs/SOURCE_REFRESH_PLAYBOOK.md",
       "resolved": "docs/SOURCE_REFRESH_PLAYBOOK.md",
@@ -1192,7 +1336,7 @@
     },
     {
       "source": "README.md",
-      "line": 73,
+      "line": 155,
       "type": "path_reference",
       "target": "docs/SOURCE_REFRESH_PLAYBOOK.md",
       "resolved": "docs/SOURCE_REFRESH_PLAYBOOK.md",
@@ -1201,7 +1345,7 @@
     },
     {
       "source": "README.md",
-      "line": 74,
+      "line": 156,
       "type": "code_reference",
       "target": "docs/SOURCE_REFRESH_TICKETS.md",
       "resolved": "docs/SOURCE_REFRESH_TICKETS.md",
@@ -1210,7 +1354,7 @@
     },
     {
       "source": "README.md",
-      "line": 74,
+      "line": 156,
       "type": "path_reference",
       "target": "docs/SOURCE_REFRESH_TICKETS.md",
       "resolved": "docs/SOURCE_REFRESH_TICKETS.md",
@@ -1219,7 +1363,7 @@
     },
     {
       "source": "README.md",
-      "line": 75,
+      "line": 157,
       "type": "code_reference",
       "target": "docs/SOURCE_REFRESH_LOG_STATUS.md",
       "resolved": "docs/SOURCE_REFRESH_LOG_STATUS.md",
@@ -1228,7 +1372,7 @@
     },
     {
       "source": "README.md",
-      "line": 75,
+      "line": 157,
       "type": "path_reference",
       "target": "docs/SOURCE_REFRESH_LOG_STATUS.md",
       "resolved": "docs/SOURCE_REFRESH_LOG_STATUS.md",
@@ -1237,7 +1381,7 @@
     },
     {
       "source": "README.md",
-      "line": 77,
+      "line": 159,
       "type": "code_reference",
       "target": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
       "resolved": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
@@ -1246,7 +1390,7 @@
     },
     {
       "source": "README.md",
-      "line": 77,
+      "line": 159,
       "type": "path_reference",
       "target": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
       "resolved": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
@@ -1255,7 +1399,7 @@
     },
     {
       "source": "README.md",
-      "line": 78,
+      "line": 160,
       "type": "code_reference",
       "target": "registry/source-evidence-fixtures/",
       "resolved": "registry/source-evidence-fixtures",
@@ -1264,7 +1408,7 @@
     },
     {
       "source": "README.md",
-      "line": 78,
+      "line": 160,
       "type": "path_reference",
       "target": "registry/source-evidence-fixtures/",
       "resolved": "registry/source-evidence-fixtures",
@@ -1273,7 +1417,7 @@
     },
     {
       "source": "README.md",
-      "line": 79,
+      "line": 161,
       "type": "code_reference",
       "target": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
       "resolved": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
@@ -1282,7 +1426,7 @@
     },
     {
       "source": "README.md",
-      "line": 79,
+      "line": 161,
       "type": "path_reference",
       "target": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
       "resolved": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
@@ -1291,7 +1435,7 @@
     },
     {
       "source": "README.md",
-      "line": 80,
+      "line": 162,
       "type": "code_reference",
       "target": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
       "resolved": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
@@ -1300,7 +1444,7 @@
     },
     {
       "source": "README.md",
-      "line": 80,
+      "line": 162,
       "type": "path_reference",
       "target": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
       "resolved": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
@@ -1309,7 +1453,7 @@
     },
     {
       "source": "README.md",
-      "line": 81,
+      "line": 163,
       "type": "code_reference",
       "target": "docs/SOURCE_REFRESH_DASHBOARD.md",
       "resolved": "docs/SOURCE_REFRESH_DASHBOARD.md",
@@ -1318,7 +1462,7 @@
     },
     {
       "source": "README.md",
-      "line": 81,
+      "line": 163,
       "type": "path_reference",
       "target": "docs/SOURCE_REFRESH_DASHBOARD.md",
       "resolved": "docs/SOURCE_REFRESH_DASHBOARD.md",
@@ -1327,7 +1471,7 @@
     },
     {
       "source": "README.md",
-      "line": 90,
+      "line": 172,
       "type": "code_reference",
       "target": "docs/AGENT_HANDOFF.md",
       "resolved": "docs/AGENT_HANDOFF.md",
@@ -1336,7 +1480,7 @@
     },
     {
       "source": "README.md",
-      "line": 90,
+      "line": 172,
       "type": "code_reference",
       "target": "registry/agent-handoff.json",
       "resolved": "registry/agent-handoff.json",
@@ -1345,7 +1489,7 @@
     },
     {
       "source": "README.md",
-      "line": 90,
+      "line": 172,
       "type": "path_reference",
       "target": "docs/AGENT_HANDOFF.md",
       "resolved": "docs/AGENT_HANDOFF.md",
@@ -1354,7 +1498,7 @@
     },
     {
       "source": "README.md",
-      "line": 90,
+      "line": 172,
       "type": "path_reference",
       "target": "registry/agent-handoff.json",
       "resolved": "registry/agent-handoff.json",
@@ -1363,7 +1507,7 @@
     },
     {
       "source": "README.md",
-      "line": 91,
+      "line": 173,
       "type": "code_reference",
       "target": "docs/SAFETY_AUDIT.md",
       "resolved": "docs/SAFETY_AUDIT.md",
@@ -1372,7 +1516,7 @@
     },
     {
       "source": "README.md",
-      "line": 91,
+      "line": 173,
       "type": "path_reference",
       "target": "docs/SAFETY_AUDIT.md",
       "resolved": "docs/SAFETY_AUDIT.md",
@@ -1381,7 +1525,7 @@
     },
     {
       "source": "README.md",
-      "line": 92,
+      "line": 174,
       "type": "code_reference",
       "target": "docs/RELEASE_NOTES.md",
       "resolved": "docs/RELEASE_NOTES.md",
@@ -1390,7 +1534,7 @@
     },
     {
       "source": "README.md",
-      "line": 92,
+      "line": 174,
       "type": "code_reference",
       "target": "registry/release-manifest.json",
       "resolved": "registry/release-manifest.json",
@@ -1399,7 +1543,7 @@
     },
     {
       "source": "README.md",
-      "line": 92,
+      "line": 174,
       "type": "path_reference",
       "target": "docs/RELEASE_NOTES.md",
       "resolved": "docs/RELEASE_NOTES.md",
@@ -1408,7 +1552,7 @@
     },
     {
       "source": "README.md",
-      "line": 92,
+      "line": 174,
       "type": "path_reference",
       "target": "registry/release-manifest.json",
       "resolved": "registry/release-manifest.json",
@@ -1417,7 +1561,7 @@
     },
     {
       "source": "README.md",
-      "line": 93,
+      "line": 175,
       "type": "code_reference",
       "target": "docs/CHANGE_SUMMARY.md",
       "resolved": "docs/CHANGE_SUMMARY.md",
@@ -1426,7 +1570,7 @@
     },
     {
       "source": "README.md",
-      "line": 93,
+      "line": 175,
       "type": "code_reference",
       "target": "registry/change-summary.json",
       "resolved": "registry/change-summary.json",
@@ -1435,7 +1579,7 @@
     },
     {
       "source": "README.md",
-      "line": 93,
+      "line": 175,
       "type": "path_reference",
       "target": "docs/CHANGE_SUMMARY.md",
       "resolved": "docs/CHANGE_SUMMARY.md",
@@ -1444,7 +1588,7 @@
     },
     {
       "source": "README.md",
-      "line": 93,
+      "line": 175,
       "type": "path_reference",
       "target": "registry/change-summary.json",
       "resolved": "registry/change-summary.json",
@@ -1453,7 +1597,7 @@
     },
     {
       "source": "README.md",
-      "line": 94,
+      "line": 176,
       "type": "code_reference",
       "target": "docs/HUB_NAVIGATION.md",
       "resolved": "docs/HUB_NAVIGATION.md",
@@ -1462,7 +1606,7 @@
     },
     {
       "source": "README.md",
-      "line": 94,
+      "line": 176,
       "type": "code_reference",
       "target": "registry/hub-navigation.json",
       "resolved": "registry/hub-navigation.json",
@@ -1471,7 +1615,7 @@
     },
     {
       "source": "README.md",
-      "line": 94,
+      "line": 176,
       "type": "path_reference",
       "target": "docs/HUB_NAVIGATION.md",
       "resolved": "docs/HUB_NAVIGATION.md",
@@ -1480,7 +1624,7 @@
     },
     {
       "source": "README.md",
-      "line": 94,
+      "line": 176,
       "type": "path_reference",
       "target": "registry/hub-navigation.json",
       "resolved": "registry/hub-navigation.json",
@@ -1489,7 +1633,7 @@
     },
     {
       "source": "README.md",
-      "line": 95,
+      "line": 177,
       "type": "code_reference",
       "target": "docs/AGENT_ROUTING_CARDS.md",
       "resolved": "docs/AGENT_ROUTING_CARDS.md",
@@ -1498,7 +1642,7 @@
     },
     {
       "source": "README.md",
-      "line": 95,
+      "line": 177,
       "type": "code_reference",
       "target": "registry/agent-routing-cards.json",
       "resolved": "registry/agent-routing-cards.json",
@@ -1507,7 +1651,7 @@
     },
     {
       "source": "README.md",
-      "line": 95,
+      "line": 177,
       "type": "path_reference",
       "target": "docs/AGENT_ROUTING_CARDS.md",
       "resolved": "docs/AGENT_ROUTING_CARDS.md",
@@ -1516,7 +1660,7 @@
     },
     {
       "source": "README.md",
-      "line": 95,
+      "line": 177,
       "type": "path_reference",
       "target": "registry/agent-routing-cards.json",
       "resolved": "registry/agent-routing-cards.json",
@@ -1525,7 +1669,7 @@
     },
     {
       "source": "README.md",
-      "line": 100,
+      "line": 182,
       "type": "code_reference",
       "target": ".github/workflows/wiki-acceptance.yml",
       "resolved": ".github/workflows/wiki-acceptance.yml",
@@ -1534,7 +1678,7 @@
     },
     {
       "source": "README.md",
-      "line": 100,
+      "line": 182,
       "type": "path_reference",
       "target": ".github/workflows/wiki-acceptance.yml",
       "resolved": ".github/workflows/wiki-acceptance.yml",
@@ -1543,7 +1687,7 @@
     },
     {
       "source": "README.md",
-      "line": 102,
+      "line": 184,
       "type": "code_reference",
       "target": "docs/CI_USAGE.md",
       "resolved": "docs/CI_USAGE.md",
@@ -1552,7 +1696,7 @@
     },
     {
       "source": "README.md",
-      "line": 102,
+      "line": 184,
       "type": "code_reference",
       "target": "scripts/run_acceptance.py",
       "resolved": "scripts/run_acceptance.py",
@@ -1561,7 +1705,7 @@
     },
     {
       "source": "README.md",
-      "line": 102,
+      "line": 184,
       "type": "path_reference",
       "target": "docs/CI_USAGE.md",
       "resolved": "docs/CI_USAGE.md",
@@ -1570,7 +1714,7 @@
     },
     {
       "source": "README.md",
-      "line": 102,
+      "line": 184,
       "type": "path_reference",
       "target": "scripts/run_acceptance.py",
       "resolved": "scripts/run_acceptance.py",
@@ -1579,7 +1723,7 @@
     },
     {
       "source": "README.md",
-      "line": 119,
+      "line": 201,
       "type": "code_reference",
       "target": "CODEX_BUILD_PROMPT.md",
       "resolved": "CODEX_BUILD_PROMPT.md",
@@ -3930,6 +4074,15 @@
       "source": "docs/ACCEPTANCE_REPORT.md",
       "line": 728,
       "type": "path_reference",
+      "target": "wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md",
+      "resolved": "wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 730,
+      "type": "path_reference",
       "target": "wikis/finance-agent-wiki/rules/risk-control.md",
       "resolved": "wikis/finance-agent-wiki/rules/risk-control.md",
       "kind": "file",
@@ -3937,7 +4090,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 730,
+      "line": 732,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/update-log.md",
       "resolved": "wikis/finance-agent-wiki/update-log.md",
@@ -3946,7 +4099,16 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 732,
+      "line": 734,
+      "type": "path_reference",
+      "target": "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
+      "resolved": "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 736,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md",
       "resolved": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md",
@@ -3955,7 +4117,16 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 734,
+      "line": 738,
+      "type": "path_reference",
+      "target": "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
+      "resolved": "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 740,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/AGENTS.md",
       "resolved": "wikis/finance-agent-wiki/AGENTS.md",
@@ -3964,7 +4135,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 735,
+      "line": 741,
       "type": "code_reference",
       "target": "README.md",
       "resolved": "README.md",
@@ -3973,25 +4144,16 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 736,
+      "line": 742,
       "type": "path_reference",
-      "target": "wikis/finance-agent-wiki/sources/source-refresh-log.md",
-      "resolved": "wikis/finance-agent-wiki/sources/source-refresh-log.md",
+      "target": "wikis/finance-agent-wiki/cases/sample-overfitting-detection.md",
+      "resolved": "wikis/finance-agent-wiki/cases/sample-overfitting-detection.md",
       "kind": "file",
       "passed": true
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 738,
-      "type": "path_reference",
-      "target": "wikis/finance-agent-wiki/workflows/paper-trading-system.md",
-      "resolved": "wikis/finance-agent-wiki/workflows/paper-trading-system.md",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 745,
+      "line": 749,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/rules/field-extraction-rules.md",
       "resolved": "wikis/customs-agent-wiki/rules/field-extraction-rules.md",
@@ -4000,7 +4162,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 747,
+      "line": 751,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/update-log.md",
       "resolved": "wikis/customs-agent-wiki/update-log.md",
@@ -4009,7 +4171,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 749,
+      "line": 753,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/cases/sample-invoice-extraction.md",
       "resolved": "wikis/customs-agent-wiki/cases/sample-invoice-extraction.md",
@@ -4018,7 +4180,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 751,
+      "line": 755,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/cases/sample-document-diff.md",
       "resolved": "wikis/customs-agent-wiki/cases/sample-document-diff.md",
@@ -4027,7 +4189,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 753,
+      "line": 757,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/concepts/document-types.md",
       "resolved": "wikis/customs-agent-wiki/concepts/document-types.md",
@@ -4036,7 +4198,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 755,
+      "line": 759,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/sources/source-notes.md",
       "resolved": "wikis/customs-agent-wiki/sources/source-notes.md",
@@ -4045,7 +4207,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 757,
+      "line": 761,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/workflows/difference-comparison.md",
       "resolved": "wikis/customs-agent-wiki/workflows/difference-comparison.md",
@@ -4054,7 +4216,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 759,
+      "line": 763,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/workflows/document-checking.md",
       "resolved": "wikis/customs-agent-wiki/workflows/document-checking.md",
@@ -4063,7 +4225,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 766,
+      "line": 770,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/workflows/paper-trading-system.md",
       "resolved": "wikis/finance-agent-wiki/workflows/paper-trading-system.md",
@@ -4072,7 +4234,16 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 768,
+      "line": 772,
+      "type": "path_reference",
+      "target": "wikis/finance-agent-wiki/cases/sample-overfitting-detection.md",
+      "resolved": "wikis/finance-agent-wiki/cases/sample-overfitting-detection.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 774,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/update-log.md",
       "resolved": "wikis/finance-agent-wiki/update-log.md",
@@ -4081,7 +4252,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 770,
+      "line": 776,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/rules/trading-system-boundaries.md",
       "resolved": "wikis/finance-agent-wiki/rules/trading-system-boundaries.md",
@@ -4090,7 +4261,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 772,
+      "line": 778,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/sources/source-refresh-log.md",
       "resolved": "wikis/finance-agent-wiki/sources/source-refresh-log.md",
@@ -4099,7 +4270,25 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 774,
+      "line": 780,
+      "type": "path_reference",
+      "target": "wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md",
+      "resolved": "wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 782,
+      "type": "path_reference",
+      "target": "wikis/finance-agent-wiki/README.md",
+      "resolved": "wikis/finance-agent-wiki/README.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 784,
       "type": "path_reference",
       "target": "wikis/finance-agent-wiki/sources/source-notes.md",
       "resolved": "wikis/finance-agent-wiki/sources/source-notes.md",
@@ -4108,7 +4297,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 781,
+      "line": 791,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/cases/sample-invoice-extraction.md",
       "resolved": "wikis/customs-agent-wiki/cases/sample-invoice-extraction.md",
@@ -4117,7 +4306,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 783,
+      "line": 793,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/rules/field-extraction-rules.md",
       "resolved": "wikis/customs-agent-wiki/rules/field-extraction-rules.md",
@@ -4126,7 +4315,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 785,
+      "line": 795,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/evals/customs-agent-evals.yaml",
       "resolved": "wikis/customs-agent-wiki/evals/customs-agent-evals.yaml",
@@ -4135,7 +4324,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 787,
+      "line": 797,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
       "resolved": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
@@ -4144,7 +4333,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 789,
+      "line": 799,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/workflows/ocr-to-json.md",
       "resolved": "wikis/customs-agent-wiki/workflows/ocr-to-json.md",
@@ -4153,7 +4342,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 791,
+      "line": 801,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/cases/sample-document-diff.md",
       "resolved": "wikis/customs-agent-wiki/cases/sample-document-diff.md",
@@ -4162,7 +4351,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 793,
+      "line": 803,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/update-log.md",
       "resolved": "wikis/customs-agent-wiki/update-log.md",
@@ -4171,7 +4360,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 795,
+      "line": 805,
       "type": "path_reference",
       "target": "wikis/customs-agent-wiki/workflows/document-checking.md",
       "resolved": "wikis/customs-agent-wiki/workflows/document-checking.md",
@@ -4180,7 +4369,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 802,
+      "line": 812,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md",
       "resolved": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md",
@@ -4189,7 +4378,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 804,
+      "line": 814,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/evals/agent-engineering-evals.yaml",
       "resolved": "wikis/agent-engineering-wiki/evals/agent-engineering-evals.yaml",
@@ -4198,7 +4387,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 806,
+      "line": 816,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/sources/source-notes.md",
       "resolved": "wikis/agent-engineering-wiki/sources/source-notes.md",
@@ -4207,7 +4396,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 808,
+      "line": 818,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md",
       "resolved": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md",
@@ -4216,7 +4405,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 810,
+      "line": 820,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/evals/smoke-tests.yaml",
       "resolved": "wikis/agent-engineering-wiki/evals/smoke-tests.yaml",
@@ -4225,7 +4414,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 812,
+      "line": 822,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/manifest.yaml",
       "resolved": "wikis/agent-engineering-wiki/manifest.yaml",
@@ -4234,7 +4423,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 814,
+      "line": 824,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/prompts/default-agent.md",
       "resolved": "wikis/agent-engineering-wiki/prompts/default-agent.md",
@@ -4243,7 +4432,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 815,
+      "line": 825,
       "type": "code_reference",
       "target": "AGENTS.md",
       "resolved": "AGENTS.md",
@@ -4252,7 +4441,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 816,
+      "line": 826,
       "type": "path_reference",
       "target": "wikis/agent-engineering-wiki/README.md",
       "resolved": "wikis/agent-engineering-wiki/README.md",
@@ -4261,7 +4450,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 823,
+      "line": 833,
       "type": "path_reference",
       "target": "wikis/security-agent-wiki/cases/sample-login-review.md",
       "resolved": "wikis/security-agent-wiki/cases/sample-login-review.md",
@@ -4270,7 +4459,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 825,
+      "line": 835,
       "type": "path_reference",
       "target": "wikis/security-agent-wiki/update-log.md",
       "resolved": "wikis/security-agent-wiki/update-log.md",
@@ -4279,7 +4468,25 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 827,
+      "line": 837,
+      "type": "path_reference",
+      "target": "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
+      "resolved": "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 839,
+      "type": "path_reference",
+      "target": "wikis/security-agent-wiki/README.md",
+      "resolved": "wikis/security-agent-wiki/README.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/ACCEPTANCE_REPORT.md",
+      "line": 841,
       "type": "path_reference",
       "target": "wikis/security-agent-wiki/sources/source-refresh-log.md",
       "resolved": "wikis/security-agent-wiki/sources/source-refresh-log.md",
@@ -4288,7 +4495,7 @@
     },
     {
       "source": "docs/ACCEPTANCE_REPORT.md",
-      "line": 829,
+      "line": 843,
       "type": "path_reference",
       "target": "wikis/security-agent-wiki/workflows/security-review-checklist.md",
       "resolved": "wikis/security-agent-wiki/workflows/security-review-checklist.md",
@@ -10131,8 +10338,8 @@
       "source": "docs/COVERAGE_AUDIT.md",
       "line": 56,
       "type": "path_reference",
-      "target": "wikis/agent-engineering-wiki/concepts/agent-architecture.md",
-      "resolved": "wikis/agent-engineering-wiki/concepts/agent-architecture.md",
+      "target": "wikis/agent-engineering-wiki/cases/sample-tool-overreach.md",
+      "resolved": "wikis/agent-engineering-wiki/cases/sample-tool-overreach.md",
       "kind": "file",
       "passed": true
     },
@@ -10392,8 +10599,8 @@
       "source": "docs/COVERAGE_AUDIT.md",
       "line": 85,
       "type": "path_reference",
-      "target": "wikis/research-agent-wiki/cases/sample-paper-summary.md",
-      "resolved": "wikis/research-agent-wiki/cases/sample-paper-summary.md",
+      "target": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md",
+      "resolved": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md",
       "kind": "file",
       "passed": true
     },
@@ -10779,6 +10986,15 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 38,
       "type": "markdown_link",
+      "target": "../wikis/agent-engineering-wiki/rules/tool-use-and-grounding.md",
+      "resolved": "wikis/agent-engineering-wiki/rules/tool-use-and-grounding.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 38,
+      "type": "markdown_link",
       "target": "../wikis/agent-engineering-wiki/sources/source-notes.md",
       "resolved": "wikis/agent-engineering-wiki/sources/source-notes.md",
       "kind": "file",
@@ -10790,6 +11006,15 @@
       "type": "markdown_link",
       "target": "../wikis/agent-engineering-wiki/sources/source-refresh-log.md",
       "resolved": "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 38,
+      "type": "markdown_link",
+      "target": "../wikis/agent-engineering-wiki/workflows/agent-eval-loop.md",
+      "resolved": "wikis/agent-engineering-wiki/workflows/agent-eval-loop.md",
       "kind": "file",
       "passed": true
     },
@@ -10995,6 +11220,15 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 40,
       "type": "markdown_link",
+      "target": "../wikis/coding-agent-wiki/rules/change-safety-and-review.md",
+      "resolved": "wikis/coding-agent-wiki/rules/change-safety-and-review.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 40,
+      "type": "markdown_link",
       "target": "../wikis/coding-agent-wiki/rules/codex-usage.md",
       "resolved": "wikis/coding-agent-wiki/rules/codex-usage.md",
       "kind": "file",
@@ -11015,15 +11249,6 @@
       "type": "markdown_link",
       "target": "../wikis/coding-agent-wiki/rules/security-development.md",
       "resolved": "wikis/coding-agent-wiki/rules/security-development.md",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "docs/HUB_NAVIGATION.md",
-      "line": 40,
-      "type": "markdown_link",
-      "target": "../wikis/coding-agent-wiki/rules/software-engineering.md",
-      "resolved": "wikis/coding-agent-wiki/rules/software-engineering.md",
       "kind": "file",
       "passed": true
     },
@@ -11058,6 +11283,15 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 40,
       "type": "markdown_link",
+      "target": "../wikis/coding-agent-wiki/workflows/debugging-and-regression-workflow.md",
+      "resolved": "wikis/coding-agent-wiki/workflows/debugging-and-regression-workflow.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 40,
+      "type": "markdown_link",
       "target": "../wikis/coding-agent-wiki/workflows/deployment-workflow.md",
       "resolved": "wikis/coding-agent-wiki/workflows/deployment-workflow.md",
       "kind": "file",
@@ -11069,15 +11303,6 @@
       "type": "markdown_link",
       "target": "../wikis/coding-agent-wiki/workflows/implementation-lifecycle.md",
       "resolved": "wikis/coding-agent-wiki/workflows/implementation-lifecycle.md",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "docs/HUB_NAVIGATION.md",
-      "line": 40,
-      "type": "markdown_link",
-      "target": "../wikis/coding-agent-wiki/workflows/main-workflow.md",
-      "resolved": "wikis/coding-agent-wiki/workflows/main-workflow.md",
       "kind": "file",
       "passed": true
     },
@@ -11508,6 +11733,15 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 44,
       "type": "markdown_link",
+      "target": "../wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
+      "resolved": "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 44,
+      "type": "markdown_link",
       "target": "../wikis/finance-agent-wiki/rules/risk-control.md",
       "resolved": "wikis/finance-agent-wiki/rules/risk-control.md",
       "kind": "file",
@@ -11571,8 +11805,8 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 44,
       "type": "markdown_link",
-      "target": "../wikis/finance-agent-wiki/workflows/research-to-decision.md",
-      "resolved": "wikis/finance-agent-wiki/workflows/research-to-decision.md",
+      "target": "../wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
+      "resolved": "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
       "kind": "file",
       "passed": true
     },
@@ -11850,6 +12084,15 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 47,
       "type": "markdown_link",
+      "target": "../wikis/nodeops-agent-wiki/rules/backup-restore-and-change-safety.md",
+      "resolved": "wikis/nodeops-agent-wiki/rules/backup-restore-and-change-safety.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 47,
+      "type": "markdown_link",
       "target": "../wikis/nodeops-agent-wiki/rules/core-rules.md",
       "resolved": "wikis/nodeops-agent-wiki/rules/core-rules.md",
       "kind": "file",
@@ -11906,6 +12149,15 @@
       "type": "markdown_link",
       "target": "../wikis/nodeops-agent-wiki/workflows/incident-response.md",
       "resolved": "wikis/nodeops-agent-wiki/workflows/incident-response.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 47,
+      "type": "markdown_link",
+      "target": "../wikis/nodeops-agent-wiki/workflows/incident-triage-runbook.md",
+      "resolved": "wikis/nodeops-agent-wiki/workflows/incident-triage-runbook.md",
       "kind": "file",
       "passed": true
     },
@@ -11985,6 +12237,15 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 48,
       "type": "markdown_link",
+      "target": "../wikis/research-agent-wiki/rules/reproducibility-and-citation-integrity.md",
+      "resolved": "wikis/research-agent-wiki/rules/reproducibility-and-citation-integrity.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 48,
+      "type": "markdown_link",
       "target": "../wikis/research-agent-wiki/rules/source-grounding.md",
       "resolved": "wikis/research-agent-wiki/rules/source-grounding.md",
       "kind": "file",
@@ -12023,6 +12284,15 @@
       "type": "markdown_link",
       "target": "../wikis/research-agent-wiki/workflows/main-workflow.md",
       "resolved": "wikis/research-agent-wiki/workflows/main-workflow.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 48,
+      "type": "markdown_link",
+      "target": "../wikis/research-agent-wiki/workflows/systematic-literature-review.md",
+      "resolved": "wikis/research-agent-wiki/workflows/systematic-literature-review.md",
       "kind": "file",
       "passed": true
     },
@@ -12111,6 +12381,15 @@
       "source": "docs/HUB_NAVIGATION.md",
       "line": 49,
       "type": "markdown_link",
+      "target": "../wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md",
+      "resolved": "wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 49,
+      "type": "markdown_link",
       "target": "../wikis/security-agent-wiki/sources/source-notes.md",
       "resolved": "wikis/security-agent-wiki/sources/source-notes.md",
       "kind": "file",
@@ -12122,6 +12401,15 @@
       "type": "markdown_link",
       "target": "../wikis/security-agent-wiki/sources/source-refresh-log.md",
       "resolved": "wikis/security-agent-wiki/sources/source-refresh-log.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/HUB_NAVIGATION.md",
+      "line": 49,
+      "type": "markdown_link",
+      "target": "../wikis/security-agent-wiki/workflows/defensive-review-triage.md",
+      "resolved": "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
       "kind": "file",
       "passed": true
     },
@@ -12185,6 +12473,177 @@
       "type": "path_reference",
       "target": "docs/SOURCE_UPDATE_QUEUE.md",
       "resolved": "docs/SOURCE_UPDATE_QUEUE.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/INGESTION_PIPELINE_AUDIT.md",
+      "line": 20,
+      "type": "path_reference",
+      "target": "registry/ingestion-pipeline-manifest.json",
+      "resolved": "registry/ingestion-pipeline-manifest.json",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 18,
+      "type": "path_reference",
+      "target": "scripts/generate_obsidian_vault.py",
+      "resolved": "scripts/generate_obsidian_vault.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 19,
+      "type": "path_reference",
+      "target": "scripts/generate_obsidian_canvas.py",
+      "resolved": "scripts/generate_obsidian_canvas.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 20,
+      "type": "path_reference",
+      "target": "scripts/audit_obsidian_vault.py",
+      "resolved": "scripts/audit_obsidian_vault.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 31,
+      "type": "path_reference",
+      "target": "scripts/audit_dashboard.py",
+      "resolved": "scripts/audit_dashboard.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 54,
+      "type": "path_reference",
+      "target": "scripts/classify_candidate_knowledge.py",
+      "resolved": "scripts/classify_candidate_knowledge.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 55,
+      "type": "path_reference",
+      "target": "scripts/promote_stable_knowledge.py",
+      "resolved": "scripts/promote_stable_knowledge.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 56,
+      "type": "path_reference",
+      "target": "scripts/generate_source_review_from_candidates.py",
+      "resolved": "scripts/generate_source_review_from_candidates.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 66,
+      "type": "path_reference",
+      "target": "scripts/generate_source_review_packet_classification.py",
+      "resolved": "scripts/generate_source_review_packet_classification.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 67,
+      "type": "path_reference",
+      "target": "scripts/audit_source_review_packets.py",
+      "resolved": "scripts/audit_source_review_packets.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 68,
+      "type": "path_reference",
+      "target": "scripts/rehearse_source_review_packet_imports.py",
+      "resolved": "scripts/rehearse_source_review_packet_imports.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 78,
+      "type": "path_reference",
+      "target": "scripts/validate_wiki.py",
+      "resolved": "scripts/validate_wiki.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 79,
+      "type": "path_reference",
+      "target": "scripts/update_index.py",
+      "resolved": "scripts/update_index.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 80,
+      "type": "path_reference",
+      "target": "scripts/audit_links.py",
+      "resolved": "scripts/audit_links.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 81,
+      "type": "path_reference",
+      "target": "scripts/run_acceptance.py",
+      "resolved": "scripts/run_acceptance.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 84,
+      "type": "code_reference",
+      "target": "docs/ACCEPTANCE_REPORT.md",
+      "resolved": "docs/ACCEPTANCE_REPORT.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 84,
+      "type": "code_reference",
+      "target": "registry/acceptance-report.json",
+      "resolved": "registry/acceptance-report.json",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 84,
+      "type": "path_reference",
+      "target": "docs/ACCEPTANCE_REPORT.md",
+      "resolved": "docs/ACCEPTANCE_REPORT.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/LOCAL_USAGE_GUIDE.md",
+      "line": 84,
+      "type": "path_reference",
+      "target": "registry/acceptance-report.json",
+      "resolved": "registry/acceptance-report.json",
       "kind": "file",
       "passed": true
     },
@@ -22398,6 +22857,24 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 30,
       "type": "markdown_link",
+      "target": "../registry/source-review-packets/source-review-session-auto-pending.json",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 31,
+      "type": "markdown_link",
+      "target": "../registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 32,
+      "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
@@ -22405,7 +22882,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 31,
+      "line": 33,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
@@ -22414,7 +22891,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 32,
+      "line": 34,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-pending.json",
@@ -22423,7 +22900,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 33,
+      "line": 35,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
@@ -22432,7 +22909,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 34,
+      "line": 36,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-2-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.json",
@@ -22441,7 +22918,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 35,
+      "line": 37,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
@@ -22450,7 +22927,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 36,
+      "line": 38,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-3-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.json",
@@ -22459,7 +22936,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 37,
+      "line": 39,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
@@ -22468,46 +22945,10 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 49,
-      "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 49,
-      "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 50,
-      "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 50,
-      "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 51,
       "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "target": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.json",
       "kind": "file",
       "passed": true
     },
@@ -22515,8 +22956,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 51,
       "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "target": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.json",
       "kind": "file",
       "passed": true
     },
@@ -22524,8 +22965,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 52,
       "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "target": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
       "kind": "file",
       "passed": true
     },
@@ -22533,8 +22974,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 52,
       "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "target": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
       "kind": "file",
       "passed": true
     },
@@ -23694,8 +24135,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 117,
       "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -23703,8 +24144,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 117,
       "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -23712,8 +24153,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 118,
       "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -23721,8 +24162,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 118,
       "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -23730,8 +24171,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 119,
       "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -23739,8 +24180,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 119,
       "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -23748,8 +24189,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 120,
       "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -23757,8 +24198,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 120,
       "type": "path_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
-      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
       "passed": true
     },
@@ -24918,8 +25359,8 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 185,
       "type": "code_reference",
-      "target": "registry/source-review-packets/source-review-session-wave-2-pending.json",
-      "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.json",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
       "kind": "file",
       "passed": true
     },
@@ -24927,6 +25368,69 @@
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
       "line": 185,
       "type": "path_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 186,
+      "type": "code_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 186,
+      "type": "path_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 187,
+      "type": "code_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 187,
+      "type": "path_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 188,
+      "type": "code_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 188,
+      "type": "path_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 189,
+      "type": "code_reference",
       "target": "registry/source-review-packets/source-review-session-wave-2-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.json",
       "kind": "file",
@@ -24934,7 +25438,16 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 186,
+      "line": 189,
+      "type": "path_reference",
+      "target": "registry/source-review-packets/source-review-session-wave-2-pending.json",
+      "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.json",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
+      "line": 190,
       "type": "code_reference",
       "target": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
@@ -24943,7 +25456,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 186,
+      "line": 190,
       "type": "path_reference",
       "target": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
@@ -24952,7 +25465,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 187,
+      "line": 191,
       "type": "code_reference",
       "target": "registry/source-review-packets/source-review-session-wave-3-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.json",
@@ -24961,7 +25474,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 187,
+      "line": 191,
       "type": "path_reference",
       "target": "registry/source-review-packets/source-review-session-wave-3-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.json",
@@ -24970,7 +25483,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 188,
+      "line": 192,
       "type": "code_reference",
       "target": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
@@ -24979,7 +25492,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 188,
+      "line": 192,
       "type": "path_reference",
       "target": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
@@ -24988,7 +25501,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 196,
+      "line": 200,
       "type": "markdown_link",
       "target": "../docs/SOURCE_REVIEW_READINESS_MATRIX.md",
       "resolved": "docs/SOURCE_REVIEW_READINESS_MATRIX.md",
@@ -24997,7 +25510,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 197,
+      "line": 201,
       "type": "markdown_link",
       "target": "../docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
       "resolved": "docs/SOURCE_REVIEW_PACKET_REHEARSAL.md",
@@ -25006,7 +25519,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 198,
+      "line": 202,
       "type": "markdown_link",
       "target": "../docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
       "resolved": "docs/SOURCE_REVIEW_PACKET_BUNDLE.md",
@@ -25015,7 +25528,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 199,
+      "line": 203,
       "type": "markdown_link",
       "target": "../docs/SOURCE_REVIEW_SESSION_PLAN.md",
       "resolved": "docs/SOURCE_REVIEW_SESSION_PLAN.md",
@@ -25024,7 +25537,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 200,
+      "line": 204,
       "type": "markdown_link",
       "target": "../docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
       "resolved": "docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md",
@@ -25033,7 +25546,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 201,
+      "line": 205,
       "type": "markdown_link",
       "target": "../docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
       "resolved": "docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md",
@@ -25042,7 +25555,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 202,
+      "line": 206,
       "type": "markdown_link",
       "target": "../docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
       "resolved": "docs/SOURCE_REFRESH_COMPLETION_AUDIT.md",
@@ -25051,7 +25564,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 208,
+      "line": 212,
       "type": "path_reference",
       "target": "registry/source-refresh-tickets.json",
       "resolved": "registry/source-refresh-tickets.json",
@@ -25060,7 +25573,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_AUDIT.md",
-      "line": 209,
+      "line": 213,
       "type": "path_reference",
       "target": "registry/source-review-packets",
       "resolved": "registry/source-review-packets",
@@ -25260,6 +25773,24 @@
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
       "line": 21,
       "type": "markdown_link",
+      "target": "../registry/source-review-packets/source-review-session-auto-pending.json",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
+      "line": 22,
+      "type": "markdown_link",
+      "target": "../registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "resolved": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
+      "line": 23,
+      "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "kind": "file",
@@ -25267,7 +25798,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 22,
+      "line": 24,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl",
@@ -25276,7 +25807,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 23,
+      "line": 25,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-pending.json",
@@ -25285,7 +25816,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 24,
+      "line": 26,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
@@ -25294,7 +25825,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 25,
+      "line": 27,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-2-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.json",
@@ -25303,7 +25834,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 26,
+      "line": 28,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-2-pending.jsonl",
@@ -25312,7 +25843,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 27,
+      "line": 29,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-3-pending.json",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.json",
@@ -25321,7 +25852,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 28,
+      "line": 30,
       "type": "markdown_link",
       "target": "../registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
       "resolved": "registry/source-review-packets/source-review-session-wave-3-pending.jsonl",
@@ -25330,7 +25861,7 @@
     },
     {
       "source": "docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md",
-      "line": 34,
+      "line": 36,
       "type": "path_reference",
       "target": "registry/source-review-packets",
       "resolved": "registry/source-review-packets",
@@ -30351,6 +30882,42 @@
       "passed": true
     },
     {
+      "source": "wikis/agent-engineering-wiki/README.md",
+      "line": 7,
+      "type": "code_reference",
+      "target": "concepts/agent-memory-and-context.md",
+      "resolved": "wikis/agent-engineering-wiki/concepts/agent-memory-and-context.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/README.md",
+      "line": 8,
+      "type": "code_reference",
+      "target": "rules/tool-use-and-grounding.md",
+      "resolved": "wikis/agent-engineering-wiki/rules/tool-use-and-grounding.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/README.md",
+      "line": 9,
+      "type": "code_reference",
+      "target": "workflows/agent-eval-loop.md",
+      "resolved": "wikis/agent-engineering-wiki/workflows/agent-eval-loop.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/README.md",
+      "line": 10,
+      "type": "code_reference",
+      "target": "cases/sample-tool-overreach.md",
+      "resolved": "wikis/agent-engineering-wiki/cases/sample-tool-overreach.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
       "source": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md",
       "line": 37,
       "type": "path_reference",
@@ -30532,7 +31099,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 14,
+      "line": 20,
       "type": "code_reference",
       "target": "scripts/generate_source_review_work_orders.py",
       "resolved": "scripts/generate_source_review_work_orders.py",
@@ -30541,7 +31108,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 14,
+      "line": 20,
       "type": "path_reference",
       "target": "scripts/generate_source_review_work_orders.py",
       "resolved": "scripts/generate_source_review_work_orders.py",
@@ -30550,7 +31117,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 15,
+      "line": 21,
       "type": "code_reference",
       "target": "scripts/generate_source_review_readiness_matrix.py",
       "resolved": "scripts/generate_source_review_readiness_matrix.py",
@@ -30559,7 +31126,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 15,
+      "line": 21,
       "type": "path_reference",
       "target": "scripts/generate_source_review_readiness_matrix.py",
       "resolved": "scripts/generate_source_review_readiness_matrix.py",
@@ -30568,7 +31135,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 16,
+      "line": 22,
       "type": "code_reference",
       "target": "scripts/rehearse_source_review_packet_imports.py",
       "resolved": "scripts/rehearse_source_review_packet_imports.py",
@@ -30577,7 +31144,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 16,
+      "line": 22,
       "type": "path_reference",
       "target": "scripts/rehearse_source_review_packet_imports.py",
       "resolved": "scripts/rehearse_source_review_packet_imports.py",
@@ -30586,7 +31153,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 17,
+      "line": 23,
       "type": "code_reference",
       "target": "scripts/audit_source_review_packets.py",
       "resolved": "scripts/audit_source_review_packets.py",
@@ -30595,7 +31162,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 17,
+      "line": 23,
       "type": "path_reference",
       "target": "scripts/audit_source_review_packets.py",
       "resolved": "scripts/audit_source_review_packets.py",
@@ -30604,7 +31171,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 18,
+      "line": 24,
       "type": "code_reference",
       "target": "scripts/generate_source_review_packet_bundle.py",
       "resolved": "scripts/generate_source_review_packet_bundle.py",
@@ -30613,7 +31180,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 18,
+      "line": 24,
       "type": "path_reference",
       "target": "scripts/generate_source_review_packet_bundle.py",
       "resolved": "scripts/generate_source_review_packet_bundle.py",
@@ -30622,7 +31189,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 19,
+      "line": 25,
       "type": "code_reference",
       "target": "scripts/generate_source_review_session_plan.py",
       "resolved": "scripts/generate_source_review_session_plan.py",
@@ -30631,7 +31198,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 19,
+      "line": 25,
       "type": "path_reference",
       "target": "scripts/generate_source_review_session_plan.py",
       "resolved": "scripts/generate_source_review_session_plan.py",
@@ -30640,7 +31207,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 20,
+      "line": 26,
       "type": "code_reference",
       "target": "scripts/generate_source_reviewer_queue.py",
       "resolved": "scripts/generate_source_reviewer_queue.py",
@@ -30649,7 +31216,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 20,
+      "line": 26,
       "type": "path_reference",
       "target": "scripts/generate_source_reviewer_queue.py",
       "resolved": "scripts/generate_source_reviewer_queue.py",
@@ -30658,7 +31225,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 21,
+      "line": 27,
       "type": "code_reference",
       "target": "scripts/generate_source_evidence_packet_fixtures.py",
       "resolved": "scripts/generate_source_evidence_packet_fixtures.py",
@@ -30667,7 +31234,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 21,
+      "line": 27,
       "type": "path_reference",
       "target": "scripts/generate_source_evidence_packet_fixtures.py",
       "resolved": "scripts/generate_source_evidence_packet_fixtures.py",
@@ -30676,7 +31243,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 22,
+      "line": 28,
       "type": "code_reference",
       "target": "scripts/import_source_evidence_packet.py",
       "resolved": "scripts/import_source_evidence_packet.py",
@@ -30685,7 +31252,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 22,
+      "line": 28,
       "type": "path_reference",
       "target": "scripts/import_source_evidence_packet.py",
       "resolved": "scripts/import_source_evidence_packet.py",
@@ -30694,7 +31261,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 23,
+      "line": 29,
       "type": "code_reference",
       "target": "scripts/generate_source_refresh_wave_runner.py",
       "resolved": "scripts/generate_source_refresh_wave_runner.py",
@@ -30703,7 +31270,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 23,
+      "line": 29,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_wave_runner.py",
       "resolved": "scripts/generate_source_refresh_wave_runner.py",
@@ -30712,7 +31279,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 24,
+      "line": 30,
       "type": "code_reference",
       "target": "scripts/generate_agent_handoff.py",
       "resolved": "scripts/generate_agent_handoff.py",
@@ -30721,7 +31288,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 24,
+      "line": 30,
       "type": "path_reference",
       "target": "scripts/generate_agent_handoff.py",
       "resolved": "scripts/generate_agent_handoff.py",
@@ -30730,7 +31297,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 25,
+      "line": 31,
       "type": "code_reference",
       "target": "scripts/generate_source_refresh_dashboard.py",
       "resolved": "scripts/generate_source_refresh_dashboard.py",
@@ -30739,7 +31306,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 25,
+      "line": 31,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_dashboard.py",
       "resolved": "scripts/generate_source_refresh_dashboard.py",
@@ -30748,7 +31315,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 26,
+      "line": 32,
       "type": "code_reference",
       "target": "scripts/audit_source_evidence_quality.py",
       "resolved": "scripts/audit_source_evidence_quality.py",
@@ -30757,7 +31324,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 26,
+      "line": 32,
       "type": "path_reference",
       "target": "scripts/audit_source_evidence_quality.py",
       "resolved": "scripts/audit_source_evidence_quality.py",
@@ -30766,7 +31333,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 27,
+      "line": 33,
       "type": "code_reference",
       "target": "scripts/record_source_evidence.py",
       "resolved": "scripts/record_source_evidence.py",
@@ -30775,7 +31342,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 27,
+      "line": 33,
       "type": "path_reference",
       "target": "scripts/record_source_evidence.py",
       "resolved": "scripts/record_source_evidence.py",
@@ -30784,7 +31351,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 28,
+      "line": 34,
       "type": "code_reference",
       "target": "scripts/audit_source_refresh_completion.py",
       "resolved": "scripts/audit_source_refresh_completion.py",
@@ -30793,7 +31360,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 28,
+      "line": 34,
       "type": "path_reference",
       "target": "scripts/audit_source_refresh_completion.py",
       "resolved": "scripts/audit_source_refresh_completion.py",
@@ -30802,7 +31369,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 35,
+      "line": 41,
       "type": "code_reference",
       "target": "scripts/generate_source_refresh_tickets.py",
       "resolved": "scripts/generate_source_refresh_tickets.py",
@@ -30811,7 +31378,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 35,
+      "line": 41,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_tickets.py",
       "resolved": "scripts/generate_source_refresh_tickets.py",
@@ -30820,7 +31387,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 36,
+      "line": 42,
       "type": "code_reference",
       "target": "scripts/route_wiki.py",
       "resolved": "scripts/route_wiki.py",
@@ -30829,7 +31396,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 36,
+      "line": 42,
       "type": "path_reference",
       "target": "scripts/route_wiki.py",
       "resolved": "scripts/route_wiki.py",
@@ -30838,7 +31405,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 37,
+      "line": 43,
       "type": "code_reference",
       "target": "scripts/generate_agent_routing_cards.py",
       "resolved": "scripts/generate_agent_routing_cards.py",
@@ -30847,7 +31414,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 37,
+      "line": 43,
       "type": "path_reference",
       "target": "scripts/generate_agent_routing_cards.py",
       "resolved": "scripts/generate_agent_routing_cards.py",
@@ -30856,7 +31423,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 38,
+      "line": 44,
       "type": "code_reference",
       "target": "scripts/generate_hub_navigation.py",
       "resolved": "scripts/generate_hub_navigation.py",
@@ -30865,7 +31432,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 38,
+      "line": 44,
       "type": "path_reference",
       "target": "scripts/generate_hub_navigation.py",
       "resolved": "scripts/generate_hub_navigation.py",
@@ -30874,7 +31441,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 39,
+      "line": 45,
       "type": "code_reference",
       "target": "scripts/generate_change_summary.py",
       "resolved": "scripts/generate_change_summary.py",
@@ -30883,7 +31450,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 39,
+      "line": 45,
       "type": "path_reference",
       "target": "scripts/generate_change_summary.py",
       "resolved": "scripts/generate_change_summary.py",
@@ -30892,7 +31459,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 42,
+      "line": 48,
       "type": "code_reference",
       "target": "scripts/generate_source_refresh_playbook.py",
       "resolved": "scripts/generate_source_refresh_playbook.py",
@@ -30901,7 +31468,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 42,
+      "line": 48,
       "type": "path_reference",
       "target": "scripts/generate_source_refresh_playbook.py",
       "resolved": "scripts/generate_source_refresh_playbook.py",
@@ -30910,7 +31477,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 43,
+      "line": 49,
       "type": "code_reference",
       "target": "scripts/generate_release_notes.py",
       "resolved": "scripts/generate_release_notes.py",
@@ -30919,7 +31486,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 43,
+      "line": 49,
       "type": "path_reference",
       "target": "scripts/generate_release_notes.py",
       "resolved": "scripts/generate_release_notes.py",
@@ -30928,7 +31495,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 44,
+      "line": 50,
       "type": "code_reference",
       "target": "scripts/audit_ci_workflow.py",
       "resolved": "scripts/audit_ci_workflow.py",
@@ -30937,7 +31504,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 44,
+      "line": 50,
       "type": "path_reference",
       "target": "scripts/audit_ci_workflow.py",
       "resolved": "scripts/audit_ci_workflow.py",
@@ -30946,7 +31513,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 47,
+      "line": 53,
       "type": "code_reference",
       "target": "scripts/audit_pack_integrity.py",
       "resolved": "scripts/audit_pack_integrity.py",
@@ -30955,7 +31522,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 47,
+      "line": 53,
       "type": "path_reference",
       "target": "scripts/audit_pack_integrity.py",
       "resolved": "scripts/audit_pack_integrity.py",
@@ -30964,7 +31531,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 48,
+      "line": 54,
       "type": "code_reference",
       "target": "scripts/audit_links.py",
       "resolved": "scripts/audit_links.py",
@@ -30973,106 +31540,106 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 48,
+      "line": 54,
       "type": "path_reference",
       "target": "scripts/audit_links.py",
       "resolved": "scripts/audit_links.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 49,
-      "type": "code_reference",
-      "target": "scripts/audit_content_coverage.py",
-      "resolved": "scripts/audit_content_coverage.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 49,
-      "type": "path_reference",
-      "target": "scripts/audit_content_coverage.py",
-      "resolved": "scripts/audit_content_coverage.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 50,
-      "type": "code_reference",
-      "target": "scripts/audit_page_metadata.py",
-      "resolved": "scripts/audit_page_metadata.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 50,
-      "type": "path_reference",
-      "target": "scripts/audit_page_metadata.py",
-      "resolved": "scripts/audit_page_metadata.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 51,
-      "type": "code_reference",
-      "target": "scripts/check_registry_consistency.py",
-      "resolved": "scripts/check_registry_consistency.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 51,
-      "type": "path_reference",
-      "target": "scripts/check_registry_consistency.py",
-      "resolved": "scripts/check_registry_consistency.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 53,
-      "type": "code_reference",
-      "target": "scripts/audit_safety_boundaries.py",
-      "resolved": "scripts/audit_safety_boundaries.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 53,
-      "type": "path_reference",
-      "target": "scripts/audit_safety_boundaries.py",
-      "resolved": "scripts/audit_safety_boundaries.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 54,
-      "type": "code_reference",
-      "target": "scripts/list_source_updates.py",
-      "resolved": "scripts/list_source_updates.py",
-      "kind": "file",
-      "passed": true
-    },
-    {
-      "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 54,
-      "type": "path_reference",
-      "target": "scripts/list_source_updates.py",
-      "resolved": "scripts/list_source_updates.py",
       "kind": "file",
       "passed": true
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
       "line": 55,
+      "type": "code_reference",
+      "target": "scripts/audit_content_coverage.py",
+      "resolved": "scripts/audit_content_coverage.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 55,
+      "type": "path_reference",
+      "target": "scripts/audit_content_coverage.py",
+      "resolved": "scripts/audit_content_coverage.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 56,
+      "type": "code_reference",
+      "target": "scripts/audit_page_metadata.py",
+      "resolved": "scripts/audit_page_metadata.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 56,
+      "type": "path_reference",
+      "target": "scripts/audit_page_metadata.py",
+      "resolved": "scripts/audit_page_metadata.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 57,
+      "type": "code_reference",
+      "target": "scripts/check_registry_consistency.py",
+      "resolved": "scripts/check_registry_consistency.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 57,
+      "type": "path_reference",
+      "target": "scripts/check_registry_consistency.py",
+      "resolved": "scripts/check_registry_consistency.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 59,
+      "type": "code_reference",
+      "target": "scripts/audit_safety_boundaries.py",
+      "resolved": "scripts/audit_safety_boundaries.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 59,
+      "type": "path_reference",
+      "target": "scripts/audit_safety_boundaries.py",
+      "resolved": "scripts/audit_safety_boundaries.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 60,
+      "type": "code_reference",
+      "target": "scripts/list_source_updates.py",
+      "resolved": "scripts/list_source_updates.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 60,
+      "type": "path_reference",
+      "target": "scripts/list_source_updates.py",
+      "resolved": "scripts/list_source_updates.py",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/agent-engineering-wiki/update-log.md",
+      "line": 61,
       "type": "code_reference",
       "target": "scripts/run_acceptance.py",
       "resolved": "scripts/run_acceptance.py",
@@ -31081,7 +31648,7 @@
     },
     {
       "source": "wikis/agent-engineering-wiki/update-log.md",
-      "line": 55,
+      "line": 61,
       "type": "path_reference",
       "target": "scripts/run_acceptance.py",
       "resolved": "scripts/run_acceptance.py",
@@ -31337,6 +31904,42 @@
       "type": "code_reference",
       "target": "sources/source-notes.md",
       "resolved": "wikis/coding-agent-wiki/sources/source-notes.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/coding-agent-wiki/README.md",
+      "line": 7,
+      "type": "code_reference",
+      "target": "concepts/codebase-orientation.md",
+      "resolved": "wikis/coding-agent-wiki/concepts/codebase-orientation.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/coding-agent-wiki/README.md",
+      "line": 8,
+      "type": "code_reference",
+      "target": "rules/change-safety-and-review.md",
+      "resolved": "wikis/coding-agent-wiki/rules/change-safety-and-review.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/coding-agent-wiki/README.md",
+      "line": 9,
+      "type": "code_reference",
+      "target": "workflows/debugging-and-regression-workflow.md",
+      "resolved": "wikis/coding-agent-wiki/workflows/debugging-and-regression-workflow.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/coding-agent-wiki/README.md",
+      "line": 10,
+      "type": "code_reference",
+      "target": "cases/sample-minimal-change.md",
+      "resolved": "wikis/coding-agent-wiki/cases/sample-minimal-change.md",
       "kind": "file",
       "passed": true
     },
@@ -31998,6 +32601,42 @@
       "passed": true
     },
     {
+      "source": "wikis/finance-agent-wiki/README.md",
+      "line": 7,
+      "type": "code_reference",
+      "target": "concepts/portfolio-and-risk-metrics.md",
+      "resolved": "wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/finance-agent-wiki/README.md",
+      "line": 8,
+      "type": "code_reference",
+      "target": "rules/model-risk-and-backtest-hygiene.md",
+      "resolved": "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/finance-agent-wiki/README.md",
+      "line": 9,
+      "type": "code_reference",
+      "target": "workflows/portfolio-review-workflow.md",
+      "resolved": "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/finance-agent-wiki/README.md",
+      "line": 10,
+      "type": "code_reference",
+      "target": "cases/sample-overfitting-detection.md",
+      "resolved": "wikis/finance-agent-wiki/cases/sample-overfitting-detection.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
       "source": "wikis/finance-agent-wiki/prompts/default-agent.md",
       "line": 12,
       "type": "code_reference",
@@ -32556,6 +33195,42 @@
       "passed": true
     },
     {
+      "source": "wikis/nodeops-agent-wiki/README.md",
+      "line": 7,
+      "type": "code_reference",
+      "target": "concepts/service-reliability-signals.md",
+      "resolved": "wikis/nodeops-agent-wiki/concepts/service-reliability-signals.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/nodeops-agent-wiki/README.md",
+      "line": 8,
+      "type": "code_reference",
+      "target": "rules/backup-restore-and-change-safety.md",
+      "resolved": "wikis/nodeops-agent-wiki/rules/backup-restore-and-change-safety.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/nodeops-agent-wiki/README.md",
+      "line": 9,
+      "type": "code_reference",
+      "target": "workflows/incident-triage-runbook.md",
+      "resolved": "wikis/nodeops-agent-wiki/workflows/incident-triage-runbook.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/nodeops-agent-wiki/README.md",
+      "line": 10,
+      "type": "code_reference",
+      "target": "cases/sample-disk-pressure-incident.md",
+      "resolved": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
       "source": "wikis/nodeops-agent-wiki/prompts/default-agent.md",
       "line": 12,
       "type": "code_reference",
@@ -32718,6 +33393,42 @@
       "passed": true
     },
     {
+      "source": "wikis/research-agent-wiki/README.md",
+      "line": 7,
+      "type": "code_reference",
+      "target": "concepts/evidence-quality-and-bias.md",
+      "resolved": "wikis/research-agent-wiki/concepts/evidence-quality-and-bias.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/research-agent-wiki/README.md",
+      "line": 8,
+      "type": "code_reference",
+      "target": "rules/reproducibility-and-citation-integrity.md",
+      "resolved": "wikis/research-agent-wiki/rules/reproducibility-and-citation-integrity.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/research-agent-wiki/README.md",
+      "line": 9,
+      "type": "code_reference",
+      "target": "workflows/systematic-literature-review.md",
+      "resolved": "wikis/research-agent-wiki/workflows/systematic-literature-review.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/research-agent-wiki/README.md",
+      "line": 10,
+      "type": "code_reference",
+      "target": "cases/sample-benchmark-claim-review.md",
+      "resolved": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
       "source": "wikis/research-agent-wiki/prompts/default-agent.md",
       "line": 12,
       "type": "code_reference",
@@ -32876,6 +33587,42 @@
       "type": "code_reference",
       "target": "sources/source-notes.md",
       "resolved": "wikis/security-agent-wiki/sources/source-notes.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/security-agent-wiki/README.md",
+      "line": 7,
+      "type": "code_reference",
+      "target": "concepts/security-control-model.md",
+      "resolved": "wikis/security-agent-wiki/concepts/security-control-model.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/security-agent-wiki/README.md",
+      "line": 8,
+      "type": "code_reference",
+      "target": "rules/secret-handling-and-log-redaction.md",
+      "resolved": "wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/security-agent-wiki/README.md",
+      "line": 9,
+      "type": "code_reference",
+      "target": "workflows/defensive-review-triage.md",
+      "resolved": "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
+      "kind": "file",
+      "passed": true
+    },
+    {
+      "source": "wikis/security-agent-wiki/README.md",
+      "line": 10,
+      "type": "code_reference",
+      "target": "cases/sample-secret-exposure-review.md",
+      "resolved": "wikis/security-agent-wiki/cases/sample-secret-exposure-review.md",
       "kind": "file",
       "passed": true
     },

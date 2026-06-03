@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-03",
+  "sources": [
+    {
+      "name": "arxiv-ai-agents",
+      "type": "rss",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "target_wiki": "research-agent-wiki",
+      "risk": "medium",
+      "schedule": "daily",
+      "review_required": "true",
+      "allowed_paths": "[]",
+      "disallowed_paths": "[]",
+      "max_items_per_run": "10",
+      "rate_limit_seconds": "5",
+      "respect_robots": "true"
+    },
+    {
+      "name": "github-agent-knowledge-base-search",
+      "type": "github_search",
+      "query": "AI agent knowledge base",
+      "target_wiki": "agent-engineering-wiki",
+      "risk": "medium",
+      "schedule": "weekly",
+      "review_required": "true",
+      "max_items_per_run": "10",
+      "rate_limit_seconds": "5",
+      "respect_robots": "true"
+    },
+    {
+      "name": "docker-docs-index",
+      "type": "docs_index",
+      "url": "https://docs.docker.com/",
+      "target_wiki": "nodeops-agent-wiki",
+      "risk": "high",
+      "schedule": "weekly",
+      "review_required": "true",
+      "max_items_per_run": "10",
+      "rate_limit_seconds": "10",
+      "respect_robots": "true"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "wiki-status",
+      "type": "file",
+      "file": "05_Dashboard/Wiki Status.md",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 120
+    },
+    {
+      "id": "wiki-0",
+      "type": "text",
+      "text": "agent-engineering-wiki",
+      "x": -720,
+      "y": 180,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-1",
+      "type": "text",
+      "text": "airdrop-agent-wiki",
+      "x": -360,
+      "y": 180,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-2",
+      "type": "text",
+      "text": "coding-agent-wiki",
+      "x": 0,
+      "y": 180,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-3",
+      "type": "text",
+      "text": "content-agent-wiki",
+      "x": 360,
+      "y": 180,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-4",
+      "type": "text",
+      "text": "customs-agent-wiki",
+      "x": -720,
+      "y": 360,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-5",
+      "type": "text",
+      "text": "ecommerce-agent-wiki",
+      "x": -360,
+      "y": 360,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-6",
+      "type": "text",
+      "text": "finance-agent-wiki",
+      "x": 0,
+      "y": 360,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-7",
+      "type": "text",
+      "text": "health-agent-wiki",
+      "x": 360,
+      "y": 360,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-8",
+      "type": "text",
+      "text": "legal-agent-wiki",
+      "x": -720,
+      "y": 540,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-9",
+      "type": "text",
+      "text": "nodeops-agent-wiki",
+      "x": -360,
+      "y": 540,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-10",
+      "type": "text",
+      "text": "research-agent-wiki",
+      "x": 0,
+      "y": 540,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wiki-11",
+      "type": "text",
+      "text": "security-agent-wiki",
+      "x": 360,
+      "y": 540,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-0",
+      "type": "text",
+      "text": "Source Review",
+      "x": 820,
+      "y": 0,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-1",
+      "type": "text",
+      "text": "Acceptance",
+      "x": 820,
+      "y": 150,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-2",
+      "type": "text",
+      "text": "RAG",
+      "x": 820,
+      "y": 300,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-3",
+      "type": "text",
+      "text": "Obsidian Vault",
+      "x": 820,
+      "y": 450,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-4",
+      "type": "text",
+      "text": "Dashboard",
+      "x": 820,
+      "y": 600,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-5",
+      "type": "text",
+      "text": "Ingestion",
+      "x": 820,
+      "y": 750,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-6",
+      "type": "text",
+      "text": "Crawler",
+      "x": 820,
+      "y": 900,
+      "width": 260,
+      "height": 110
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-0",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-0"
+    },
+    {
+      "id": "edge-1",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-1"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-2"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-3"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-4"
+    },
+    {
+      "id": "edge-5",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-5"
+    },
+    {
+      "id": "edge-6",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-6"
+    },
+    {
+      "id": "edge-7",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-7"
+    },
+    {
+      "id": "edge-8",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-8"
+    },
+    {
+      "id": "edge-9",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-9"
+    },
+    {
+      "id": "edge-10",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-10"
+    },
+    {
+      "id": "edge-11",
+      "fromNode": "wiki-status",
+      "toNode": "wiki-11"
+    },
+    {
+      "id": "system-edge-0",
+      "fromNode": "wiki-status",
+      "toNode": "system-0"
+    },
+    {
+      "id": "system-edge-1",
+      "fromNode": "wiki-status",
+      "toNode": "system-1"
+    },
+    {
+      "id": "system-edge-2",
+      "fromNode": "wiki-status",
+      "toNode": "system-2"
+    },
+    {
+      "id": "system-edge-3",
+      "fromNode": "wiki-status",
+      "toNode": "system-3"
+    },
+    {
+      "id": "system-edge-4",
+      "fromNode": "wiki-status",
+      "toNode": "system-4"
+    },
+    {
+      "id": "system-edge-5",
+      "fromNode": "wiki-status",
+      "toNode": "system-5"
+    },
+    {
+      "id": "system-edge-6",
+      "fromNode": "wiki-status",
+      "toNode": "system-6"
+    }
+  ]
+}

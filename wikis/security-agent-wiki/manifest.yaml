@@ -27,3 +27,16 @@ safety:
   require_human_confirmation_for_high_risk: true
   no_secret_storage: true
   no_autonomous_high_risk_execution: true
+knowledge_expansion:
+  stable_only: true
+  last_expanded: 2026-06-01
+  added_pages:
+    concepts:
+      - concepts/security-control-model.md
+    rules:
+      - rules/secret-handling-and-log-redaction.md
+    workflows:
+      - workflows/defensive-review-triage.md
+    cases:
+      - cases/sample-secret-exposure-review.md
+  scope_note: "Stable defensive security principles only; no exploit steps, current vulnerabilities, patches, signatures, or vendor policy."

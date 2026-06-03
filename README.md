@@ -1,5 +1,87 @@
 # Agent Wiki Hub Starter
 
+## Agent Wiki Hub v2.0
+
+Agent Wiki Hub is a reusable Agent Knowledge Pack repository. `wikis/` remains the agent execution source of truth; v2 adds a generated Obsidian vault, local dashboard, RAG scaffold, controlled crawler scaffold, multimodal ingestion scaffold, source-review queueing, and safety audits.
+
+## Quick Start
+
+```bash
+python scripts/run_acceptance.py
+python scripts/generate_obsidian_vault.py
+python scripts/generate_obsidian_canvas.py
+python dashboard/scripts/collect_dashboard_data.py
+python rag/search_knowledge.py --query "source review human gate" --top-k 5
+```
+
+## Obsidian Mode
+
+Open Obsidian, choose `Open folder as vault`, select `obsidian-vault/`, then open `05_Dashboard/Wiki Status.md` or `02_Knowledge/MOCs/`.
+
+## Dashboard Mode
+
+Run `python dashboard/scripts/collect_dashboard_data.py`, then open `dashboard/index.html`. The dashboard is static and does not require `node_modules/`.
+
+## RAG Mode
+
+The RAG layer is local-first. Chroma is optional; keyword fallback works without external dependencies.
+
+```bash
+python rag/build_chroma_index.py
+python rag/search_knowledge.py --query "risk control" --top-k 5
+```
+
+## Controlled Crawler
+
+`crawler/` contains conservative public-source crawler scaffolding. It defaults to dry-run/no-op, writes Raw notes only, respects configured source limits, and never writes directly to `wikis/`.
+
+## Autonomous Ingestion
+
+Raw material belongs in `obsidian-vault/01_Raw/`. Candidate knowledge belongs in `obsidian-vault/02_Knowledge/Candidates/`. OCR, Whisper, and Chroma are optional capabilities and are not required for acceptance.
+
+## Knowledge Promotion Policy
+
+Only low-risk `stable_knowledge` candidates with source metadata, sufficient confidence, and no secret/current-fact markers may be promoted. Promotion writes only to automation-generated wiki files and never overwrites human-authored pages.
+
+## Source Review Gates
+
+Current facts and high-risk candidates go to source-review queues. They are planning-only until authoritative, dated, scoped evidence and required human gates are completed.
+
+## Safety Boundaries
+
+- No `.env`, token, cookie, private key, bearer token, password, or credential is committed.
+- No current facts are written directly into stable wiki pages.
+- High-risk domains retain human confirmation gates.
+- Crawler output is Raw and unverified by default.
+- Optional dependency absence is a warning, not an acceptance blocker.
+
+## Current Limitations
+
+- 35 open source update topics still require human or connected source verification.
+- Verified tickets may remain 0 and `current_fact_ready` may remain false.
+- OCR, Whisper, Chroma, network crawling, and GitHub Actions PR creation require optional dependencies, network access, or repository permission settings.
+
+## v2 Commands
+
+```bash
+python scripts/generate_obsidian_vault.py
+python scripts/generate_obsidian_canvas.py
+python scripts/audit_obsidian_vault.py
+python dashboard/scripts/collect_dashboard_data.py
+python scripts/audit_dashboard.py
+python ingestion/generate_ingestion_report.py
+python scripts/audit_ingestion_pipeline.py
+python crawler/generate_crawl_report.py
+python scripts/classify_candidate_knowledge.py --dry-run
+python scripts/promote_stable_knowledge.py --dry-run
+python scripts/generate_source_review_from_candidates.py --dry-run
+python scripts/audit_crawler_outputs.py
+python scripts/audit_knowledge_promotion.py
+python scripts/audit_rag_config.py
+python scripts/audit_secret_leaks.py
+python scripts/run_acceptance.py
+```
+
 这是一个面向 Codex / AI Agent 的行业知识库仓库模板。它把每个行业知识库做成可下载、可索引、可调用、可持续更新的 **Agent Knowledge Pack**。
 
 > 生成日期：2026-05-26

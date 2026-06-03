@@ -1,0 +1,22 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "wiki_count": 12,
+  "page_count": 219,
+  "acceptance_passed": true,
+  "open_source_topics": 35,
+  "verified_tickets": 0,
+  "current_fact_ready": false,
+  "human_gates": {
+    "wave-1": 13,
+    "wave-2": 3,
+    "wave-3": 0,
+    "total_planned": 16
+  },
+  "risk_counts": {
+    "high": 6,
+    "low": 1,
+    "medium": 5
+  },
+  "pack_count": 13
+}

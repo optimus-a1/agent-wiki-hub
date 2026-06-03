@@ -1,11 +1,11 @@
 # Agent Wiki Hub Acceptance Report
 
-Generated: 2026-05-31
+Generated: 2026-06-03
 
 ## Summary
 
-- Steps: 48
-- Passed: 48
+- Steps: 64
+- Passed: 64
 - Failed: 0
 
 ## Steps
@@ -19,6 +19,21 @@ Generated: 2026-05-31
 | audit content coverage | PASS | `python.exe scripts/audit_content_coverage.py` |
 | check eval files | PASS | `python.exe scripts/check_eval_files.py` |
 | update search index | PASS | `python.exe scripts/update_index.py` |
+| generate Obsidian vault | PASS | `python.exe scripts/generate_obsidian_vault.py` |
+| generate Obsidian canvas | PASS | `python.exe scripts/generate_obsidian_canvas.py` |
+| audit Obsidian vault | PASS | `python.exe scripts/audit_obsidian_vault.py` |
+| collect dashboard data | PASS | `python.exe dashboard/scripts/collect_dashboard_data.py` |
+| audit dashboard | PASS | `python.exe scripts/audit_dashboard.py` |
+| generate ingestion report | PASS | `python.exe ingestion/generate_ingestion_report.py` |
+| audit ingestion pipeline | PASS | `python.exe scripts/audit_ingestion_pipeline.py` |
+| generate crawl report | PASS | `python.exe crawler/generate_crawl_report.py` |
+| classify candidate knowledge dry-run | PASS | `python.exe scripts/classify_candidate_knowledge.py --dry-run` |
+| promote stable knowledge dry-run | PASS | `python.exe scripts/promote_stable_knowledge.py --dry-run` |
+| generate source review from candidates dry-run | PASS | `python.exe scripts/generate_source_review_from_candidates.py --dry-run` |
+| audit crawler outputs | PASS | `python.exe scripts/audit_crawler_outputs.py` |
+| audit knowledge promotion | PASS | `python.exe scripts/audit_knowledge_promotion.py` |
+| audit RAG config | PASS | `python.exe scripts/audit_rag_config.py` |
+| audit secret leaks | PASS | `python.exe scripts/audit_secret_leaks.py` |
 | report wiki status | PASS | `python.exe scripts/report_wiki_status.py` |
 | list source updates | PASS | `python.exe scripts/list_source_updates.py` |
 | generate source refresh playbook | PASS | `python.exe scripts/generate_source_refresh_playbook.py` |
@@ -34,6 +49,7 @@ Generated: 2026-05-31
 | generate source reviewer queue | PASS | `python.exe scripts/generate_source_reviewer_queue.py` |
 | generate source review session plan | PASS | `python.exe scripts/generate_source_review_session_plan.py` |
 | generate source review packet bundle | PASS | `python.exe scripts/generate_source_review_packet_bundle.py` |
+| generate source review packet classification | PASS | `python.exe scripts/generate_source_review_packet_classification.py` |
 | audit source review packets | PASS | `python.exe scripts/audit_source_review_packets.py` |
 | rehearse source review packet imports | PASS | `python.exe scripts/rehearse_source_review_packet_imports.py` |
 | generate source review readiness matrix | PASS | `python.exe scripts/generate_source_review_readiness_matrix.py` |
@@ -90,7 +106,7 @@ CI WORKFLOW AUDIT PASSED (11 checks)
 ```text
 Wrote docs\PAGE_METADATA_AUDIT.md
 Wrote registry\page-metadata-audit.json
-PAGE METADATA AUDIT PASSED (135 pages)
+PAGE METADATA AUDIT PASSED (159 pages)
 ```
 
 ### audit content coverage - PASS
@@ -110,7 +126,97 @@ EVAL CHECK PASSED (137 tests)
 ### update search index - PASS
 
 ```text
-Indexed 231 docs -> index\search_index.json
+Indexed 255 docs -> index\search_index.json
+```
+
+### generate Obsidian vault - PASS
+
+```text
+OBSIDIAN VAULT GENERATED (12 wikis, 12 MOCs)
+```
+
+### generate Obsidian canvas - PASS
+
+```text
+OBSIDIAN CANVAS GENERATED (3 files)
+```
+
+### audit Obsidian vault - PASS
+
+```text
+OBSIDIAN VAULT AUDIT PASSED (13 checks)
+```
+
+### collect dashboard data - PASS
+
+```text
+DASHBOARD DATA GENERATED (12 wikis, 13 packs)
+```
+
+### audit dashboard - PASS
+
+```text
+DASHBOARD AUDIT PASSED (10 checks)
+```
+
+### generate ingestion report - PASS
+
+```text
+INGESTION REPORT GENERATED (warnings only)
+```
+
+### audit ingestion pipeline - PASS
+
+```text
+INGESTION PIPELINE AUDIT PASSED
+```
+
+### generate crawl report - PASS
+
+```text
+CRAWL REPORT GENERATED (3 configured sources, 0 collected)
+```
+
+### classify candidate knowledge dry-run - PASS
+
+```text
+CANDIDATE KNOWLEDGE CLASSIFICATION PASSED (0 records, dry_run=True)
+```
+
+### promote stable knowledge dry-run - PASS
+
+```text
+KNOWLEDGE PROMOTION PASSED (0 eligible, dry_run=True)
+```
+
+### generate source review from candidates dry-run - PASS
+
+```text
+AUTO SOURCE REVIEW QUEUE PASSED (0 entries, dry_run=True)
+```
+
+### audit crawler outputs - PASS
+
+```text
+CRAWLER OUTPUT AUDIT PASSED (0 raw notes)
+```
+
+### audit knowledge promotion - PASS
+
+```text
+KNOWLEDGE PROMOTION AUDIT PASSED (0 files)
+```
+
+### audit RAG config - PASS
+
+```text
+RAG CONFIG AUDIT PASSED (1 warnings)
+```
+
+### audit secret leaks - PASS
+
+```text
+SECRET LEAK AUDIT PASSED (2 findings, 0 blocking)
 ```
 
 ### report wiki status - PASS
@@ -151,12 +257,12 @@ SOURCE REFRESH TICKETS GENERATED (35 tickets)
   ticket_id: TICKET-SRC-006
   topic: "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity"
   status: pending
-  verified_on: 2026-05-31
+  verified_on: 2026-06-03
   source_title: ""
   source_publisher: ""
   source_url_or_reference: ""
   source_published_or_updated: "unknown"
-  source_accessed_on: 2026-05-31
+  source_accessed_on: 2026-06-03
   evidence_summary: ""
   affected_pages:
     - wikis/finance-agent-wiki/sources/source-notes.md
@@ -248,6 +354,14 @@ Wrote registry/source-review-packets/source-review-session-wave-1-pending.json
 Wrote registry/source-review-packets/source-review-session-wave-1-pending.jsonl
 Wrote registry/source-review-packets/source-review-session-wave-1-pending-checklist.md
 SOURCE REVIEW PACKET BUNDLE GENERATED (13 entries, 13 human gates)
+```
+
+### generate source review packet classification - PASS
+
+```text
+Wrote docs\SOURCE_REVIEW_PACKET_CLASSIFICATION.md
+Wrote registry\source-review-packet-classification.json
+SOURCE REVIEW PACKET CLASSIFICATION PASSED (10 packets)
 ```
 
 ### audit source review packets - PASS
@@ -346,14 +460,14 @@ AGENT HANDOFF GENERATED
 ```text
 Wrote docs\LINK_AUDIT.md
 Wrote registry\link-audit.json
-LINK AUDIT PASSED (3668 references)
+LINK AUDIT PASSED (3751 references)
 ```
 
 ### route query: risk control backtest paper trading - PASS
 
 ```text
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "query": "risk control backtest paper trading",
   "top_wiki": "finance-agent-wiki",
   "source_update_required": false,
@@ -530,7 +644,7 @@ LINK AUDIT PASSED (3668 references)
 
 ```text
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "query": "field extraction invoice packing list",
   "top_wiki": "customs-agent-wiki",
   "source_update_required": false,
@@ -653,7 +767,7 @@ LINK AUDIT PASSED (3668 references)
 
 ```text
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "query": "defensive security hardening",
   "top_wiki": "security-agent-wiki",
   "source_update_required": false,
@@ -725,18 +839,22 @@ LINK AUDIT PASSED (3668 references)
 ### search finance-agent-wiki: risk control - PASS
 
 ```text
+[11] wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md :: Portfolio And Risk Metrics
+    --- title: Portfolio And Risk Metrics status: stable last_updated: 2026-06-01 risk_level: high --- # Portfolio And Risk Metrics ## Purpose Define stable portfolio and risk measurement concepts for educational research, s...
 [5] wikis/finance-agent-wiki/rules/risk-control.md :: Finance Risk Control Rules
     --- title: Finance Risk Control Rules status: stable last_updated: 2026-05-27 risk_level: high --- # Finance Risk Control Rules ## Purpose 任何金融 Agent 都必须先做风险控制，再做收益分析。 ## Non-negotiable rules 1. 默认只做教育、研究、模拟盘和风险检查。 2. 不输...
-[3] wikis/finance-agent-wiki/update-log.md :: Update Log — Finance Agent Wiki
-    # Update Log — Finance Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample backtest risk review case and eval coverage for fixture-style validation. - Expand...
+[5] wikis/finance-agent-wiki/update-log.md :: Update Log — Finance Agent Wiki
+    # Update Log — Finance Agent Wiki ## 2026-06-01 - Added stable high-density knowledge pages for portfolio risk metrics, model risk and backtest hygiene, portfolio review workflow, and overfitting detection. - Updated REA...
+[3] wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md :: Portfolio Review Workflow
+    --- title: Portfolio Review Workflow status: stable last_updated: 2026-06-01 risk_level: high --- # Portfolio Review Workflow ## Purpose Offer a stable review workflow for simulated or educational portfolio analysis. ## ...
 [2] wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md :: Sample Backtest Risk Review
     --- title: Sample Backtest Risk Review status: stable last_updated: 2026-05-27 risk_level: high --- # Sample Backtest Risk Review ## Purpose 提供一个可复用的回测审查样例，帮助 Agent 判断回测报告是否满足数据、成本、风控和上线边界要求。 ## When to use 用于审查用户提供的策略回测...
+[2] wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md :: Model Risk And Backtest Hygiene
+    --- title: Model Risk And Backtest Hygiene status: stable last_updated: 2026-06-01 risk_level: high --- # Model Risk And Backtest Hygiene ## Purpose Provide stable rules for preventing misleading financial models and ove...
 [1] wikis/finance-agent-wiki/AGENTS.md :: AGENTS.md — Finance Agent Wiki
     # AGENTS.md — Finance Agent Wiki ## Trigger Use this wiki when the task involves: 金融, 投资, 财报, 估值, 市场数据, 回测, 风控, 交易系统, 资金费率, 套利. ## Reading order 1. `manifest.yaml` 2. `README.md` 3. `rules/` 4. `workflows/` 5. `cases/` 6...
-[1] wikis/finance-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log
-    # Source Refresh Log Wiki: finance-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into t...
-[1] wikis/finance-agent-wiki/workflows/paper-trading-system.md :: Paper Trading System Workflow
-    --- title: Paper Trading System Workflow status: stable last_updated: 2026-05-26 risk_level: high --- # Paper Trading System Workflow ## Purpose 设计模拟盘系统，验证数据、风控、执行流程和日志，而不是直接投入真实资金。 ## Components - market data adapter - ...
+[1] wikis/finance-agent-wiki/cases/sample-overfitting-detection.md :: Sample Overfitting Detection
+    --- title: Sample Overfitting Detection status: stable last_updated: 2026-06-01 risk_level: high --- # Sample Overfitting Detection ## Purpose Show how a finance agent should respond to a suspiciously strong backtest wit...
 ```
 
 ### search customs-agent-wiki: field extraction - PASS
@@ -765,12 +883,18 @@ LINK AUDIT PASSED (3668 references)
 ```text
 [4] wikis/finance-agent-wiki/workflows/paper-trading-system.md :: Paper Trading System Workflow
     --- title: Paper Trading System Workflow status: stable last_updated: 2026-05-26 risk_level: high --- # Paper Trading System Workflow ## Purpose 设计模拟盘系统，验证数据、风控、执行流程和日志，而不是直接投入真实资金。 ## Components - market data adapter - ...
+[3] wikis/finance-agent-wiki/cases/sample-overfitting-detection.md :: Sample Overfitting Detection
+    --- title: Sample Overfitting Detection status: stable last_updated: 2026-06-01 risk_level: high --- # Sample Overfitting Detection ## Purpose Show how a finance agent should respond to a suspiciously strong backtest wit...
 [3] wikis/finance-agent-wiki/update-log.md :: Update Log — Finance Agent Wiki
-    # Update Log — Finance Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample backtest risk review case and eval coverage for fixture-style validation. - Expand...
+    # Update Log — Finance Agent Wiki ## 2026-06-01 - Added stable high-density knowledge pages for portfolio risk metrics, model risk and backtest hygiene, portfolio review workflow, and overfitting detection. - Updated REA...
 [2] wikis/finance-agent-wiki/rules/trading-system-boundaries.md :: Trading System Boundaries
     --- title: Trading System Boundaries status: stable last_updated: 2026-05-27 risk_level: high --- # Trading System Boundaries ## Purpose 约束金融 Agent 在交易系统设计中的权限、输出和安全边界。 ## When to use 用于模拟盘、回测平台、风险引擎、交易日志、告警、权限控制和人工审批流程设...
 [2] wikis/finance-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log
     # Source Refresh Log Wiki: finance-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into t...
+[1] wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md :: Portfolio And Risk Metrics
+    --- title: Portfolio And Risk Metrics status: stable last_updated: 2026-06-01 risk_level: high --- # Portfolio And Risk Metrics ## Purpose Define stable portfolio and risk measurement concepts for educational research, s...
+[1] wikis/finance-agent-wiki/README.md :: Finance Agent Wiki
+    # Finance Agent Wiki ## Stable Knowledge Expansion (2026-06-01) Added stable, non-current finance knowledge: - `concepts/portfolio-and-risk-metrics.md`: portfolio exposure, drawdown, liquidity, correlation, and risk-adju...
 [1] wikis/finance-agent-wiki/sources/source-notes.md :: Source Notes — Finance Agent Wiki
     # Source Notes — Finance Agent Wiki ## Policy 本文件记录需要外部来源、实时核验或权威确认的主题。 ## Needs source update - topic: current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity status: needs-source-update s...
 ```
@@ -814,7 +938,7 @@ LINK AUDIT PASSED (3668 references)
 [1] wikis/agent-engineering-wiki/prompts/default-agent.md :: Default Agent Prompt
     --- title: Default Agent Prompt status: stable last_updated: 2026-05-26 risk_level: medium --- # Default Agent Prompt 你是 `Agent Engineering Wiki`。处理任务时必须： 1. 先读取本知识库的 `manifest.yaml`、`AGENTS.md`、`rules/`。 2. 使用稳定知识回答稳定问题...
 [1] wikis/agent-engineering-wiki/README.md :: Agent Engineering Wiki
-    # Agent Engineering Wiki Agent 架构、RAG、知识包、Codex Skills、评测与安全边界知识库。 ## When to use 触发词：Agent, RAG, 知识库, Codex Skill, AGENTS.md, 评测, MCP, 工作流 ## Structure ```text concepts/ 稳定概念 rules/ 规则、边界、安全约束 workflows/ 操作流程 cases/ 案例和...
+    # Agent Engineering Wiki ## Stable Knowledge Expansion (2026-06-01) Added stable, non-current agent engineering knowledge: - `concepts/agent-memory-and-context.md`: working memory, long-term memory, retrieval-backed memo...
 ```
 
 ### search security-agent-wiki: bypass login Authorization header - PASS
@@ -823,7 +947,11 @@ LINK AUDIT PASSED (3668 references)
 [9] wikis/security-agent-wiki/cases/sample-login-review.md :: Sample Defensive Login Review
     --- title: Sample Defensive Login Review status: stable last_updated: 2026-05-27 risk_level: high --- # Sample Defensive Login Review ## Purpose 提供一个合成登录接口防御性审查样例，验证 Agent 是否输出修复建议而非攻击步骤。 ## When to use 用于代码安全审查、上线前检查、权限...
 [2] wikis/security-agent-wiki/update-log.md :: Update Log — Defensive Security Agent Wiki
-    # Update Log — Defensive Security Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added safety audit reporting for defensive-only boundaries, no exploit steps, secret...
+    # Update Log — Defensive Security Agent Wiki ## 2026-06-01 - Added stable high-density knowledge pages for security controls, secret handling, defensive triage, and secret exposure review. - Updated README and manifest t...
+[2] wikis/security-agent-wiki/workflows/defensive-review-triage.md :: Defensive Review Triage
+    --- title: Defensive Review Triage status: stable last_updated: 2026-06-01 risk_level: high --- # Defensive Review Triage ## Purpose Provide a stable workflow for triaging defensive security findings without enabling mis...
+[1] wikis/security-agent-wiki/README.md :: Defensive Security Agent Wiki
+    # Defensive Security Agent Wiki ## Stable Knowledge Expansion (2026-06-01) Added stable, non-current defensive security knowledge: - `concepts/security-control-model.md`: preventive, detective, corrective controls, least...
 [1] wikis/security-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log
     # Source Refresh Log Wiki: security-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into ...
 [1] wikis/security-agent-wiki/workflows/security-review-checklist.md :: Defensive Security Review Checklist
@@ -853,7 +981,7 @@ packed packs\agent-wiki-hub-all.zip
 ```text
 Wrote docs\PACK_AUDIT.md
 Wrote registry\pack-audit.json
-PACK INTEGRITY PASSED (553 checks)
+PACK INTEGRITY PASSED (615 checks)
 ```
 
 ### generate release notes - PASS
@@ -895,5 +1023,5 @@ packed packs\agent-wiki-hub-all.zip
 ```text
 Wrote docs\PACK_AUDIT.md
 Wrote registry\pack-audit.json
-PACK INTEGRITY PASSED (553 checks)
+PACK INTEGRITY PASSED (615 checks)
 ```

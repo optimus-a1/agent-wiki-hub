@@ -1,6 +1,6 @@
 # Agent Wiki Hub Release Notes
 
-Generated: 2026-05-31
+Generated: 2026-06-03
 
 ## Summary
 
@@ -55,13 +55,13 @@ Generated: 2026-05-31
 
 | Gate | Result | Passed | Total |
 | --- | --- | ---: | ---: |
-| acceptance | PASS | 48 | 48 |
+| acceptance | PASS | 64 | 64 |
 | ci | PASS | 11 | 11 |
 | registry | PASS | 234 | 234 |
 | metadata | PASS | 0 | 0 |
 | coverage | PASS | 0 | 0 |
 | links | PASS | 0 | 0 |
-| packs | PASS | 553 | 553 |
+| packs | PASS | 615 | 615 |
 | safety | PASS | 79 | 79 |
 | source_refresh_logs | PASS | 12 | 12 |
 | routing_cards | PASS | 0 | 0 |
@@ -89,19 +89,19 @@ No release warnings.
 
 | Package | Size | SHA-256 |
 | --- | ---: | --- |
-| `packs/agent-engineering-wiki.zip` | 19.1 KB | `b0d4f221c3132e10...` |
+| `packs/agent-engineering-wiki.zip` | 24.8 KB | `30007f4d6d603e99...` |
 | `packs/agent-wiki-hub-all.zip` | external final artifact | Self-referential package; compute final size and checksum after packing release-manifest.json. |
 | `packs/airdrop-agent-wiki.zip` | 15.3 KB | `8e91fd21578ef392...` |
-| `packs/coding-agent-wiki.zip` | 17.6 KB | `93f46c2db1bb2863...` |
+| `packs/coding-agent-wiki.zip` | 23.1 KB | `462f87648ad99163...` |
 | `packs/content-agent-wiki.zip` | 13.8 KB | `c1a22c00f2fb09ed...` |
 | `packs/customs-agent-wiki.zip` | 19.6 KB | `ad92e47de711a910...` |
 | `packs/ecommerce-agent-wiki.zip` | 15.1 KB | `51be20541132210b...` |
-| `packs/finance-agent-wiki.zip` | 21.1 KB | `59aef4ece5950abe...` |
+| `packs/finance-agent-wiki.zip` | 27.4 KB | `906c83d8cc8d9bed...` |
 | `packs/health-agent-wiki.zip` | 12.9 KB | `4af05eaa34c6ef23...` |
 | `packs/legal-agent-wiki.zip` | 12.7 KB | `a7ca023a8ef71e67...` |
-| `packs/nodeops-agent-wiki.zip` | 15.0 KB | `42728b7d52de9c65...` |
-| `packs/research-agent-wiki.zip` | 12.6 KB | `3ee4dc0bdd7d7fd3...` |
-| `packs/security-agent-wiki.zip` | 14.8 KB | `7aa86c639ddf3425...` |
+| `packs/nodeops-agent-wiki.zip` | 20.9 KB | `ef4ed38a3967410d...` |
+| `packs/research-agent-wiki.zip` | 18.2 KB | `0a4094fd497d620c...` |
+| `packs/security-agent-wiki.zip` | 20.4 KB | `49f31f783274e2a0...` |
 
 ## Wiki Coverage
 

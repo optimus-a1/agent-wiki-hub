@@ -1,0 +1,22 @@
+{
+  "generated": "2026-06-03",
+  "wikis": [
+    "agent-engineering-wiki",
+    "airdrop-agent-wiki",
+    "coding-agent-wiki",
+    "content-agent-wiki",
+    "customs-agent-wiki",
+    "ecommerce-agent-wiki",
+    "finance-agent-wiki",
+    "health-agent-wiki",
+    "legal-agent-wiki",
+    "nodeops-agent-wiki",
+    "research-agent-wiki",
+    "security-agent-wiki"
+  ],
+  "risk_counts": {
+    "high": 6,
+    "low": 1,
+    "medium": 5
+  }
+}

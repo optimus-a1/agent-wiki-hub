@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "wiki_count": 12,
   "reports": {
     "acceptance": "docs/ACCEPTANCE_REPORT.md",
@@ -54,9 +54,11 @@
       "core_rules": [
         "wikis/agent-engineering-wiki/rules/core-rules.md",
         "wikis/agent-engineering-wiki/rules/knowledge-pack-quality.md",
-        "wikis/agent-engineering-wiki/rules/rag-quality.md"
+        "wikis/agent-engineering-wiki/rules/rag-quality.md",
+        "wikis/agent-engineering-wiki/rules/tool-use-and-grounding.md"
       ],
       "workflows": [
+        "wikis/agent-engineering-wiki/workflows/agent-eval-loop.md",
         "wikis/agent-engineering-wiki/workflows/build-new-wiki.md",
         "wikis/agent-engineering-wiki/workflows/eval-design.md",
         "wikis/agent-engineering-wiki/workflows/main-workflow.md"
@@ -131,6 +133,7 @@
         "wikis/coding-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/coding-agent-wiki/rules/change-safety-and-review.md",
         "wikis/coding-agent-wiki/rules/codex-usage.md",
         "wikis/coding-agent-wiki/rules/core-rules.md",
         "wikis/coding-agent-wiki/rules/security-development.md",
@@ -138,6 +141,7 @@
       ],
       "workflows": [
         "wikis/coding-agent-wiki/workflows/bug-fix-loop.md",
+        "wikis/coding-agent-wiki/workflows/debugging-and-regression-workflow.md",
         "wikis/coding-agent-wiki/workflows/deployment-workflow.md",
         "wikis/coding-agent-wiki/workflows/implementation-lifecycle.md",
         "wikis/coding-agent-wiki/workflows/main-workflow.md"
@@ -296,6 +300,7 @@
       ],
       "core_rules": [
         "wikis/finance-agent-wiki/rules/core-rules.md",
+        "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
         "wikis/finance-agent-wiki/rules/risk-control.md",
         "wikis/finance-agent-wiki/rules/trading-system-boundaries.md"
       ],
@@ -303,6 +308,7 @@
         "wikis/finance-agent-wiki/workflows/backtesting-workflow.md",
         "wikis/finance-agent-wiki/workflows/main-workflow.md",
         "wikis/finance-agent-wiki/workflows/paper-trading-system.md",
+        "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
         "wikis/finance-agent-wiki/workflows/research-to-decision.md"
       ],
       "evals": [
@@ -409,6 +415,7 @@
         "wikis/nodeops-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/nodeops-agent-wiki/rules/backup-restore-and-change-safety.md",
         "wikis/nodeops-agent-wiki/rules/core-rules.md",
         "wikis/nodeops-agent-wiki/rules/operational-risk-control.md",
         "wikis/nodeops-agent-wiki/rules/production-safety.md"
@@ -416,6 +423,7 @@
       "workflows": [
         "wikis/nodeops-agent-wiki/workflows/change-management.md",
         "wikis/nodeops-agent-wiki/workflows/incident-response.md",
+        "wikis/nodeops-agent-wiki/workflows/incident-triage-runbook.md",
         "wikis/nodeops-agent-wiki/workflows/main-workflow.md"
       ],
       "evals": [
@@ -449,11 +457,13 @@
       ],
       "core_rules": [
         "wikis/research-agent-wiki/rules/core-rules.md",
+        "wikis/research-agent-wiki/rules/reproducibility-and-citation-integrity.md",
         "wikis/research-agent-wiki/rules/source-grounding.md"
       ],
       "workflows": [
         "wikis/research-agent-wiki/workflows/literature-review.md",
-        "wikis/research-agent-wiki/workflows/main-workflow.md"
+        "wikis/research-agent-wiki/workflows/main-workflow.md",
+        "wikis/research-agent-wiki/workflows/systematic-literature-review.md"
       ],
       "evals": [
         "wikis/research-agent-wiki/evals/research-agent-evals.yaml",
@@ -487,9 +497,11 @@
       "core_rules": [
         "wikis/security-agent-wiki/rules/core-rules.md",
         "wikis/security-agent-wiki/rules/defensive-boundary.md",
-        "wikis/security-agent-wiki/rules/defensive-only.md"
+        "wikis/security-agent-wiki/rules/defensive-only.md",
+        "wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md"
       ],
       "workflows": [
+        "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
         "wikis/security-agent-wiki/workflows/main-workflow.md",
         "wikis/security-agent-wiki/workflows/security-review-checklist.md",
         "wikis/security-agent-wiki/workflows/threat-model-review.md"

@@ -1,0 +1,29 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "wiki_count": 12,
+  "moc_count": 12,
+  "dashboard_count": 6,
+  "mocs": [
+    "obsidian-vault/02_Knowledge/MOCs/Agent Engineering Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Airdrop Research Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Coding Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Content Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Customs Document Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Ecommerce Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Finance Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Health Education Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Legal Information Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/NodeOps Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Research Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Defensive Security Agent Wiki MOC.md"
+  ],
+  "dashboards": [
+    "obsidian-vault/05_Dashboard/Wiki Status.md",
+    "obsidian-vault/05_Dashboard/Source Review Status.md",
+    "obsidian-vault/05_Dashboard/Acceptance Status.md",
+    "obsidian-vault/05_Dashboard/Needs Source Update.md",
+    "obsidian-vault/05_Dashboard/Human Gates.md",
+    "obsidian-vault/05_Dashboard/Knowledge Graph Status.md"
+  ]
+}

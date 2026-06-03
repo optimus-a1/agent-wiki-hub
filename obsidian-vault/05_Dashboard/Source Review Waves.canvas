@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "source-review",
+      "type": "file",
+      "file": "05_Dashboard/Source Review Status.md",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 120
+    },
+    {
+      "id": "wave-1",
+      "type": "text",
+      "text": "Wave-1 active packet",
+      "x": -420,
+      "y": 190,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wave-2",
+      "type": "text",
+      "text": "Wave-2 planning-only",
+      "x": 0,
+      "y": 190,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "wave-3",
+      "type": "text",
+      "text": "Wave-3 planning-only",
+      "x": 420,
+      "y": 190,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "human-gates",
+      "type": "file",
+      "file": "05_Dashboard/Human Gates.md",
+      "x": 0,
+      "y": 390,
+      "width": 280,
+      "height": 120
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "source-review",
+      "toNode": "wave-1"
+    },
+    {
+      "id": "e2",
+      "fromNode": "source-review",
+      "toNode": "wave-2"
+    },
+    {
+      "id": "e3",
+      "fromNode": "source-review",
+      "toNode": "wave-3"
+    },
+    {
+      "id": "e4",
+      "fromNode": "source-review",
+      "toNode": "human-gates"
+    }
+  ]
+}
