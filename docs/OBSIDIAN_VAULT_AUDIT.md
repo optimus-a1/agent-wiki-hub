@@ -1,6 +1,6 @@
 # Obsidian Vault Audit
 
-Generated: 2026-06-03
+Generated: 2026-06-15
 
 - Passed: True
 - MOCs: 12
@@ -18,5 +18,9 @@ Generated: 2026-06-03
 | 05_Dashboard/Needs Source Update.md | PASS |
 | 05_Dashboard/Human Gates.md | PASS |
 | 05_Dashboard/Knowledge Graph Status.md | PASS |
+| 05_Dashboard/Knowledge Density.md | PASS |
+| 05_Dashboard/Current Fact Gates.md | PASS |
+| 05_Dashboard/Human Review Gates.md | PASS |
+| 05_Dashboard/High Risk Boundaries.md | PASS |
 | 99_Archive/README.md | PASS |
 | 02_Knowledge/MOCs | PASS |

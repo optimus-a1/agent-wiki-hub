@@ -1,0 +1,143 @@
+wiki: agent-engineering-wiki
+updated: 2026-06-15
+tests:
+  - id: agent-engineering-stable-001
+    question: "How should an agent use Agent System Components while respecting Tool Use Justification?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Agent System Components"
+      - "Tool Use Justification"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-002
+    question: "How should an agent use Tool Calling Contract while respecting Grounded Answer Boundary?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Tool Calling Contract"
+      - "Grounded Answer Boundary"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-003
+    question: "How should an agent use Memory Hierarchy while respecting Memory Write Human Gate?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Memory Hierarchy"
+      - "Memory Write Human Gate"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-004
+    question: "How should an agent use RAG Retrieval Design while respecting Retrieval Citation Required?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "RAG Retrieval Design"
+      - "Retrieval Citation Required"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-005
+    question: "How should an agent use Agent Planning Loop while respecting Eval Before Promotion?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Agent Planning Loop"
+      - "Eval Before Promotion"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-006
+    question: "How should an agent use Reflection Boundary while respecting Source Gate For Current Claims?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Reflection Boundary"
+      - "Source Gate For Current Claims"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-007
+    question: "How should an agent use Evaluation Harness while respecting Autonomy Action Boundary?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Evaluation Harness"
+      - "Autonomy Action Boundary"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-008
+    question: "How should an agent use Knowledge Pack Lifecycle while respecting No Hidden Instructions?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Knowledge Pack Lifecycle"
+      - "No Hidden Instructions"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-009
+    question: "How should an agent use Prompt Routing while respecting Tool Use Justification?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Prompt Routing"
+      - "Tool Use Justification"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: agent-engineering-stable-010
+    question: "How should an agent use Source Review Gate while respecting Grounded Answer Boundary?"
+    expected_wiki: agent-engineering-wiki
+    expected_concepts:
+      - "Source Review Gate"
+      - "Grounded Answer Boundary"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."

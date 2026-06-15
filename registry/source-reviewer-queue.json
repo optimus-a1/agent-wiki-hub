@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "purpose": "Assign source-refresh tickets to generic reviewer roles while preserving human confirmation and current-fact gates.",
   "passed": true,
   "current_fact_ready": false,

@@ -1,3 +1,20 @@
+## Knowledge Density Expansion v2.1
+
+Generated on 2026-06-15 from model-synthesized stable knowledge.
+
+- Scope: long-lived concepts, rules, workflows, cases, prompts, and evals.
+- Boundary: no current facts, no authoritative source claims, no evidence auto-verification.
+- High-risk/current claims still require source review and human confirmation.
+
+| Area | Added |
+| --- | ---: |
+| concepts | 6 |
+| rules | 6 |
+| workflows | 4 |
+| cases | 4 |
+| prompts | 3 |
+| eval tests | 6 |
+
 # Health Education Agent Wiki
 
 健康科普与报告解释辅助知识库，不诊断、不替代医生。

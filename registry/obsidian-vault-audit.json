@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-15",
   "passed": true,
   "checks": [
     {
@@ -44,6 +44,22 @@
     },
     {
       "path": "05_Dashboard/Knowledge Graph Status.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Knowledge Density.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Current Fact Gates.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Human Review Gates.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/High Risk Boundaries.md",
       "passed": true
     },
     {

@@ -31,3 +31,10 @@
 - Recorded source evidence for `TICKET-SRC-005` with status `pending`.
 
 - Recorded source evidence for `TICKET-SRC-004` with status `pending`.
+
+## 2026-06-15 - v2.1 knowledge density expansion
+
+- Added model-synthesized stable knowledge pages for concepts, rules, workflows, cases, and prompts.
+- Added `evals/stable-knowledge-evals.yaml` with 12 stable eval tests.
+- No current facts, live prices, live policies, current laws, current vulnerabilities, or evidence verification were added.
+- High-risk outputs remain gated by human review and source review.

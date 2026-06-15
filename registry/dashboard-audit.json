@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-15",
   "passed": true,
   "checks": [
     {
@@ -40,6 +40,22 @@
     },
     {
       "path": "dashboard/data/packs.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/knowledge-density.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/high-risk-boundaries.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/current-fact-gates.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/wiki-moc-status.json",
       "passed": true
     }
   ]

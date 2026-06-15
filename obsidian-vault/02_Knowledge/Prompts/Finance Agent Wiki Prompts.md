@@ -9,7 +9,7 @@ tags:
   - agent-wiki
   - prompts
 generated_by: scripts/generate_obsidian_vault.py
-generated_on: 2026-06-03
+generated_on: 2026-06-15
 ---
 
 
@@ -19,4 +19,8 @@ Generated index for `finance-agent-wiki/prompts`.
 
 | Page | Source path |
 | --- | --- |
+| Backtest Audit Prompt | `wikis/finance-agent-wiki/prompts/backtest-audit-prompt.md` |
 | Default Agent Prompt | `wikis/finance-agent-wiki/prompts/default-agent.md` |
+| Finance Risk Review Prompt | `wikis/finance-agent-wiki/prompts/finance-risk-review-prompt.md` |
+| Paper Trading Gate Prompt | `wikis/finance-agent-wiki/prompts/paper-trading-gate-prompt.md` |
+| Portfolio Concentration Prompt | `wikis/finance-agent-wiki/prompts/portfolio-concentration-prompt.md` |

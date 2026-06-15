@@ -1,0 +1,258 @@
+{
+  "generated": "2026-06-16",
+  "passed": true,
+  "checks": [
+    {
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 10
+      },
+      "actual": {
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 10,
+        "cases": 9,
+        "prompts": 5,
+        "eval_tests": 25
+      }
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 12,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 10
+      },
+      "actual": {
+        "concepts": 14,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 9,
+        "prompts": 5,
+        "eval_tests": 20
+      }
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 10
+      },
+      "actual": {
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 9,
+        "cases": 8,
+        "prompts": 5,
+        "eval_tests": 20
+      }
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 12
+      },
+      "actual": {
+        "concepts": 16,
+        "rules": 14,
+        "workflows": 13,
+        "cases": 9,
+        "prompts": 5,
+        "eval_tests": 26
+      }
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 5,
+        "prompts": 4,
+        "eval_tests": 10
+      },
+      "actual": {
+        "concepts": 12,
+        "rules": 13,
+        "workflows": 13,
+        "cases": 8,
+        "prompts": 5,
+        "eval_tests": 24
+      }
+    },
+    {
+      "wiki": "agent-engineering-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 12,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 5,
+        "prompts": 6,
+        "eval_tests": 10
+      },
+      "actual": {
+        "concepts": 17,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 8,
+        "prompts": 7,
+        "eval_tests": 24
+      }
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 10,
+        "rules": 10,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 10
+      },
+      "actual": {
+        "concepts": 12,
+        "rules": 14,
+        "workflows": 12,
+        "cases": 9,
+        "prompts": 5,
+        "eval_tests": 20
+      }
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 6,
+        "cases": 5,
+        "prompts": 4,
+        "eval_tests": 10
+      },
+      "actual": {
+        "concepts": 12,
+        "rules": 11,
+        "workflows": 9,
+        "cases": 8,
+        "prompts": 5,
+        "eval_tests": 20
+      }
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 8,
+        "rules": 6,
+        "workflows": 5,
+        "cases": 4,
+        "prompts": 3,
+        "eval_tests": 8
+      },
+      "actual": {
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 18
+      }
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 8,
+        "rules": 6,
+        "workflows": 5,
+        "cases": 4,
+        "prompts": 4,
+        "eval_tests": 8
+      },
+      "actual": {
+        "concepts": 9,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 5,
+        "eval_tests": 18
+      }
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 6,
+        "rules": 6,
+        "workflows": 4,
+        "cases": 4,
+        "prompts": 3,
+        "eval_tests": 6
+      },
+      "actual": {
+        "concepts": 7,
+        "rules": 8,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 16
+      }
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "passed": true,
+      "issues": [],
+      "target": {
+        "concepts": 6,
+        "rules": 6,
+        "workflows": 4,
+        "cases": 4,
+        "prompts": 3,
+        "eval_tests": 6
+      },
+      "actual": {
+        "concepts": 7,
+        "rules": 7,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4,
+        "eval_tests": 16
+      }
+    }
+  ]
+}

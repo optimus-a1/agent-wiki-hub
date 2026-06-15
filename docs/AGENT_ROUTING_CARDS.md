@@ -1,6 +1,6 @@
 # Agent Routing Cards
 
-Generated: 2026-06-03
+Generated: 2026-06-16
 
 ## Purpose
 

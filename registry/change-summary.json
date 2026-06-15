@@ -1,16 +1,16 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "current": {
-    "generated": "2026-06-03",
+    "generated": "2026-06-16",
     "metrics": {
       "wiki_count": 12,
-      "knowledge_files": 207,
-      "eval_tests": 137,
+      "knowledge_files": 608,
+      "eval_tests": 247,
       "source_update_topics": 35,
       "source_refresh_tasks": 35,
       "source_refresh_logs": 12,
       "package_count": 13,
-      "package_bytes": 1169314,
+      "package_bytes": 2676153,
       "audit_gates": 9,
       "audit_failures": 0
     },
@@ -29,219 +29,219 @@
         "domain": "ai_agent_engineering",
         "risk_level": "medium",
         "freshness_requirement": "medium",
-        "knowledge_files": 22,
-        "eval_tests": 14,
+        "knowledge_files": 62,
+        "eval_tests": 24,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 25296
+        "pack_size_bytes": 95466
       },
       {
         "id": "airdrop-agent-wiki",
         "domain": "web3_research",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 15,
-        "eval_tests": 10,
+        "knowledge_files": 50,
+        "eval_tests": 20,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 15650
+        "pack_size_bytes": 77056
       },
       {
         "id": "coding-agent-wiki",
         "domain": "software_engineering",
         "risk_level": "medium",
         "freshness_requirement": "medium",
-        "knowledge_files": 21,
-        "eval_tests": 14,
+        "knowledge_files": 57,
+        "eval_tests": 24,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 23689
+        "pack_size_bytes": 85690
       },
       {
         "id": "content-agent-wiki",
         "domain": "content_operations",
         "risk_level": "low",
         "freshness_requirement": "medium",
-        "knowledge_files": 14,
-        "eval_tests": 10,
+        "knowledge_files": 42,
+        "eval_tests": 18,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 14182
+        "pack_size_bytes": 61942
       },
       {
         "id": "customs-agent-wiki",
         "domain": "customs_trade_documents",
         "risk_level": "medium",
         "freshness_requirement": "high",
-        "knowledge_files": 17,
-        "eval_tests": 15,
+        "knowledge_files": 52,
+        "eval_tests": 25,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 20047
+        "pack_size_bytes": 82026
       },
       {
         "id": "ecommerce-agent-wiki",
         "domain": "ecommerce",
         "risk_level": "medium",
         "freshness_requirement": "high",
-        "knowledge_files": 15,
-        "eval_tests": 10,
+        "knowledge_files": 42,
+        "eval_tests": 18,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 15468
+        "pack_size_bytes": 62528
       },
       {
         "id": "finance-agent-wiki",
         "domain": "finance",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 22,
-        "eval_tests": 14,
+        "knowledge_files": 63,
+        "eval_tests": 26,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 28046
+        "pack_size_bytes": 101347
       },
       {
         "id": "health-agent-wiki",
         "domain": "health_education",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 13,
-        "eval_tests": 10,
+        "knowledge_files": 36,
+        "eval_tests": 16,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 13202
+        "pack_size_bytes": 53314
       },
       {
         "id": "legal-agent-wiki",
         "domain": "legal_information",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 13,
-        "eval_tests": 10,
+        "knowledge_files": 37,
+        "eval_tests": 16,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 13044
+        "pack_size_bytes": 55410
       },
       {
         "id": "nodeops-agent-wiki",
         "domain": "operations",
         "risk_level": "high",
         "freshness_requirement": "medium",
-        "knowledge_files": 19,
-        "eval_tests": 10,
+        "knowledge_files": 58,
+        "eval_tests": 20,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 21351
+        "pack_size_bytes": 90658
       },
       {
         "id": "research-agent-wiki",
         "domain": "research",
         "risk_level": "medium",
         "freshness_requirement": "high",
-        "knowledge_files": 17,
-        "eval_tests": 10,
+        "knowledge_files": 51,
+        "eval_tests": 20,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 18629
+        "pack_size_bytes": 77138
       },
       {
         "id": "security-agent-wiki",
         "domain": "defensive_security",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 19,
-        "eval_tests": 10,
+        "knowledge_files": 58,
+        "eval_tests": 20,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 20900
+        "pack_size_bytes": 89030
       }
     ],
     "packages": [
       {
         "name": "agent-engineering-wiki.zip",
         "path": "packs/agent-engineering-wiki.zip",
-        "size_bytes": 25389
+        "size_bytes": 95466
       },
       {
         "name": "agent-wiki-hub-all.zip",
         "path": "packs/agent-wiki-hub-all.zip",
-        "size_bytes": 939717
+        "size_bytes": 1744548
       },
       {
         "name": "airdrop-agent-wiki.zip",
         "path": "packs/airdrop-agent-wiki.zip",
-        "size_bytes": 15650
+        "size_bytes": 77056
       },
       {
         "name": "coding-agent-wiki.zip",
         "path": "packs/coding-agent-wiki.zip",
-        "size_bytes": 23689
+        "size_bytes": 85690
       },
       {
         "name": "content-agent-wiki.zip",
         "path": "packs/content-agent-wiki.zip",
-        "size_bytes": 14182
+        "size_bytes": 61942
       },
       {
         "name": "customs-agent-wiki.zip",
         "path": "packs/customs-agent-wiki.zip",
-        "size_bytes": 20047
+        "size_bytes": 82026
       },
       {
         "name": "ecommerce-agent-wiki.zip",
         "path": "packs/ecommerce-agent-wiki.zip",
-        "size_bytes": 15468
+        "size_bytes": 62528
       },
       {
         "name": "finance-agent-wiki.zip",
         "path": "packs/finance-agent-wiki.zip",
-        "size_bytes": 28046
+        "size_bytes": 101347
       },
       {
         "name": "health-agent-wiki.zip",
         "path": "packs/health-agent-wiki.zip",
-        "size_bytes": 13202
+        "size_bytes": 53314
       },
       {
         "name": "legal-agent-wiki.zip",
         "path": "packs/legal-agent-wiki.zip",
-        "size_bytes": 13044
+        "size_bytes": 55410
       },
       {
         "name": "nodeops-agent-wiki.zip",
         "path": "packs/nodeops-agent-wiki.zip",
-        "size_bytes": 21351
+        "size_bytes": 90658
       },
       {
         "name": "research-agent-wiki.zip",
         "path": "packs/research-agent-wiki.zip",
-        "size_bytes": 18629
+        "size_bytes": 77138
       },
       {
         "name": "security-agent-wiki.zip",
         "path": "packs/security-agent-wiki.zip",
-        "size_bytes": 20900
+        "size_bytes": 89030
       }
     ],
     "audits": [
       {
         "name": "acceptance",
         "passed": true,
-        "passed_count": 48,
-        "total": 48,
+        "passed_count": 71,
+        "total": 71,
         "failed_count": 0
       },
       {
@@ -282,8 +282,8 @@
       {
         "name": "packs",
         "passed": true,
-        "passed_count": 615,
-        "total": 615,
+        "passed_count": 644,
+        "total": 644,
         "failed_count": 0
       },
       {
@@ -303,16 +303,16 @@
     ]
   },
   "previous": {
-    "generated": "2026-06-01",
+    "generated": "2026-06-15",
     "metrics": {
       "wiki_count": 12,
-      "knowledge_files": 207,
-      "eval_tests": 137,
+      "knowledge_files": 608,
+      "eval_tests": 247,
       "source_update_topics": 35,
       "source_refresh_tasks": 35,
       "source_refresh_logs": 12,
       "package_count": 13,
-      "package_bytes": 1114783,
+      "package_bytes": 2676721,
       "audit_gates": 9,
       "audit_failures": 0
     },
@@ -331,219 +331,219 @@
         "domain": "ai_agent_engineering",
         "risk_level": "medium",
         "freshness_requirement": "medium",
-        "knowledge_files": 22,
-        "eval_tests": 14,
+        "knowledge_files": 62,
+        "eval_tests": 24,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 19544
+        "pack_size_bytes": 95466
       },
       {
         "id": "airdrop-agent-wiki",
         "domain": "web3_research",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 15,
-        "eval_tests": 10,
+        "knowledge_files": 50,
+        "eval_tests": 20,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 15650
+        "pack_size_bytes": 77056
       },
       {
         "id": "coding-agent-wiki",
         "domain": "software_engineering",
         "risk_level": "medium",
         "freshness_requirement": "medium",
-        "knowledge_files": 21,
-        "eval_tests": 14,
+        "knowledge_files": 57,
+        "eval_tests": 24,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 17988
+        "pack_size_bytes": 85690
       },
       {
         "id": "content-agent-wiki",
         "domain": "content_operations",
         "risk_level": "low",
         "freshness_requirement": "medium",
-        "knowledge_files": 14,
-        "eval_tests": 10,
+        "knowledge_files": 42,
+        "eval_tests": 18,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 14182
+        "pack_size_bytes": 61942
       },
       {
         "id": "customs-agent-wiki",
         "domain": "customs_trade_documents",
         "risk_level": "medium",
         "freshness_requirement": "high",
-        "knowledge_files": 17,
-        "eval_tests": 15,
+        "knowledge_files": 52,
+        "eval_tests": 25,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 20047
+        "pack_size_bytes": 82026
       },
       {
         "id": "ecommerce-agent-wiki",
         "domain": "ecommerce",
         "risk_level": "medium",
         "freshness_requirement": "high",
-        "knowledge_files": 15,
-        "eval_tests": 10,
+        "knowledge_files": 42,
+        "eval_tests": 18,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 15468
+        "pack_size_bytes": 62528
       },
       {
         "id": "finance-agent-wiki",
         "domain": "finance",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 22,
-        "eval_tests": 14,
+        "knowledge_files": 63,
+        "eval_tests": 26,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 21590
+        "pack_size_bytes": 101347
       },
       {
         "id": "health-agent-wiki",
         "domain": "health_education",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 13,
-        "eval_tests": 10,
+        "knowledge_files": 36,
+        "eval_tests": 16,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 13202
+        "pack_size_bytes": 53314
       },
       {
         "id": "legal-agent-wiki",
         "domain": "legal_information",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 13,
-        "eval_tests": 10,
+        "knowledge_files": 37,
+        "eval_tests": 16,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 13044
+        "pack_size_bytes": 55410
       },
       {
         "id": "nodeops-agent-wiki",
         "domain": "operations",
         "risk_level": "high",
         "freshness_requirement": "medium",
-        "knowledge_files": 19,
-        "eval_tests": 10,
+        "knowledge_files": 58,
+        "eval_tests": 20,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 15359
+        "pack_size_bytes": 90658
       },
       {
         "id": "research-agent-wiki",
         "domain": "research",
         "risk_level": "medium",
         "freshness_requirement": "high",
-        "knowledge_files": 17,
-        "eval_tests": 10,
+        "knowledge_files": 51,
+        "eval_tests": 20,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 12932
+        "pack_size_bytes": 77138
       },
       {
         "id": "security-agent-wiki",
         "domain": "defensive_security",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 19,
-        "eval_tests": 10,
+        "knowledge_files": 58,
+        "eval_tests": 20,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
         "source_refresh_log_ready": true,
-        "pack_size_bytes": 15163
+        "pack_size_bytes": 89030
       }
     ],
     "packages": [
       {
         "name": "agent-engineering-wiki.zip",
         "path": "packs/agent-engineering-wiki.zip",
-        "size_bytes": 25296
+        "size_bytes": 95466
       },
       {
         "name": "agent-wiki-hub-all.zip",
         "path": "packs/agent-wiki-hub-all.zip",
-        "size_bytes": 885279
+        "size_bytes": 1745116
       },
       {
         "name": "airdrop-agent-wiki.zip",
         "path": "packs/airdrop-agent-wiki.zip",
-        "size_bytes": 15650
+        "size_bytes": 77056
       },
       {
         "name": "coding-agent-wiki.zip",
         "path": "packs/coding-agent-wiki.zip",
-        "size_bytes": 23689
+        "size_bytes": 85690
       },
       {
         "name": "content-agent-wiki.zip",
         "path": "packs/content-agent-wiki.zip",
-        "size_bytes": 14182
+        "size_bytes": 61942
       },
       {
         "name": "customs-agent-wiki.zip",
         "path": "packs/customs-agent-wiki.zip",
-        "size_bytes": 20047
+        "size_bytes": 82026
       },
       {
         "name": "ecommerce-agent-wiki.zip",
         "path": "packs/ecommerce-agent-wiki.zip",
-        "size_bytes": 15468
+        "size_bytes": 62528
       },
       {
         "name": "finance-agent-wiki.zip",
         "path": "packs/finance-agent-wiki.zip",
-        "size_bytes": 28046
+        "size_bytes": 101347
       },
       {
         "name": "health-agent-wiki.zip",
         "path": "packs/health-agent-wiki.zip",
-        "size_bytes": 13202
+        "size_bytes": 53314
       },
       {
         "name": "legal-agent-wiki.zip",
         "path": "packs/legal-agent-wiki.zip",
-        "size_bytes": 13044
+        "size_bytes": 55410
       },
       {
         "name": "nodeops-agent-wiki.zip",
         "path": "packs/nodeops-agent-wiki.zip",
-        "size_bytes": 21351
+        "size_bytes": 90658
       },
       {
         "name": "research-agent-wiki.zip",
         "path": "packs/research-agent-wiki.zip",
-        "size_bytes": 18629
+        "size_bytes": 77138
       },
       {
         "name": "security-agent-wiki.zip",
         "path": "packs/security-agent-wiki.zip",
-        "size_bytes": 20900
+        "size_bytes": 89030
       }
     ],
     "audits": [
       {
         "name": "acceptance",
         "passed": true,
-        "passed_count": 48,
-        "total": 48,
+        "passed_count": 64,
+        "total": 64,
         "failed_count": 0
       },
       {
@@ -584,8 +584,8 @@
       {
         "name": "packs",
         "passed": true,
-        "passed_count": 553,
-        "total": 553,
+        "passed_count": 644,
+        "total": 644,
         "failed_count": 0
       },
       {
@@ -614,7 +614,7 @@
       "source_refresh_tasks": 0,
       "source_refresh_logs": 0,
       "package_count": 0,
-      "package_bytes": 54531,
+      "package_bytes": -568,
       "audit_gates": 0,
       "audit_failures": 0
     },
@@ -625,7 +625,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 5752
+        "pack_size_bytes": 0
       },
       {
         "id": "airdrop-agent-wiki",
@@ -641,7 +641,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 5701
+        "pack_size_bytes": 0
       },
       {
         "id": "content-agent-wiki",
@@ -673,7 +673,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 6456
+        "pack_size_bytes": 0
       },
       {
         "id": "health-agent-wiki",
@@ -697,7 +697,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 5992
+        "pack_size_bytes": 0
       },
       {
         "id": "research-agent-wiki",
@@ -705,7 +705,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 5697
+        "pack_size_bytes": 0
       },
       {
         "id": "security-agent-wiki",
@@ -713,7 +713,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 5737
+        "pack_size_bytes": 0
       }
     ]
   }

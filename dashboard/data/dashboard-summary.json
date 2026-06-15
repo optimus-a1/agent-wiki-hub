@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "passed": true,
   "wiki_count": 12,
-  "page_count": 219,
+  "page_count": 620,
   "acceptance_passed": true,
   "open_source_topics": 35,
   "verified_tickets": 0,
@@ -18,5 +18,14 @@
     "low": 1,
     "medium": 5
   },
-  "pack_count": 13
+  "pack_count": 13,
+  "knowledge_density_groups": {
+    "high-density": 7,
+    "medium-density": 5
+  },
+  "high_risk_boundary_passed": true,
+  "current_fact_gate_passed": true,
+  "wiki_moc_count": 12,
+  "automation_generated_pages": 389,
+  "obsidian_moc_count": 12
 }

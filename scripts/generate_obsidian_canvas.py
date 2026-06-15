@@ -44,7 +44,7 @@ def main() -> int:
         node_id = f"wiki-{idx}"
         hub_nodes.append(text_node(node_id, wiki, x + (idx % 4) * 360, y + (idx // 4) * 180))
         hub_edges.append(edge(f"edge-{idx}", "wiki-status", node_id))
-    for idx, label in enumerate(["Source Review", "Acceptance", "RAG", "Obsidian Vault", "Dashboard", "Ingestion", "Crawler"]):
+    for idx, label in enumerate(["Source Review", "Acceptance", "RAG", "Obsidian Vault", "Dashboard", "Ingestion", "Crawler", "Knowledge Density", "Current Fact Gates"]):
         node_id = f"system-{idx}"
         hub_nodes.append(text_node(node_id, label, 820, idx * 150))
         hub_edges.append(edge(f"system-edge-{idx}", "wiki-status", node_id))
@@ -68,10 +68,27 @@ def main() -> int:
         map_edges.append(edge(f"moc-edge-{idx}", "graph", node_id))
     write_canvas(DASH / "Wiki Knowledge Map.canvas", map_nodes, map_edges)
 
+    density_nodes = [
+        file_node("density", "05_Dashboard/Knowledge Density.md", 0, 0),
+        file_node("current-facts", "05_Dashboard/Current Fact Gates.md", -420, 190),
+        file_node("human-review", "05_Dashboard/Human Review Gates.md", 0, 190),
+        file_node("high-risk", "05_Dashboard/High Risk Boundaries.md", 420, 190),
+    ]
+    density_edges = [
+        edge("density-current", "density", "current-facts"),
+        edge("density-human", "density", "human-review"),
+        edge("density-risk", "density", "high-risk"),
+    ]
+    for idx, wiki in enumerate(wiki_ids):
+        node_id = f"density-wiki-{idx}"
+        density_nodes.append(text_node(node_id, wiki, -700 + (idx % 4) * 360, 390 + (idx // 4) * 160))
+        density_edges.append(edge(f"density-edge-{idx}", "density", node_id))
+    write_canvas(DASH / "Knowledge Density Map.canvas", density_nodes, density_edges)
+
     manifest = {
         "generated": date.today().isoformat(),
         "passed": True,
-        "canvas_files": [rel(DASH / name) for name in ["Agent Wiki Hub.canvas", "Source Review Waves.canvas", "Wiki Knowledge Map.canvas"]],
+        "canvas_files": [rel(DASH / name) for name in ["Agent Wiki Hub.canvas", "Source Review Waves.canvas", "Wiki Knowledge Map.canvas", "Knowledge Density Map.canvas"]],
         "wiki_count": len(wiki_ids),
     }
     REGISTRY.mkdir(parents=True, exist_ok=True)

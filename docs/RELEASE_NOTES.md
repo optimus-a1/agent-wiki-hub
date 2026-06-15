@@ -1,6 +1,6 @@
 # Agent Wiki Hub Release Notes
 
-Generated: 2026-06-03
+Generated: 2026-06-16
 
 ## Summary
 
@@ -9,7 +9,7 @@ Generated: 2026-06-03
 - Release warnings: 0
 - Requires source updates before current-fact use: yes
 - Wikis: 12
-- Eval tests: 137
+- Eval tests: 247
 - Source-update topics: 35
 - Source-refresh tasks: 35
 - Source-refresh tickets: 35
@@ -55,13 +55,13 @@ Generated: 2026-06-03
 
 | Gate | Result | Passed | Total |
 | --- | --- | ---: | ---: |
-| acceptance | PASS | 64 | 64 |
+| acceptance | PASS | 71 | 71 |
 | ci | PASS | 11 | 11 |
 | registry | PASS | 234 | 234 |
 | metadata | PASS | 0 | 0 |
 | coverage | PASS | 0 | 0 |
 | links | PASS | 0 | 0 |
-| packs | PASS | 615 | 615 |
+| packs | PASS | 644 | 644 |
 | safety | PASS | 79 | 79 |
 | source_refresh_logs | PASS | 12 | 12 |
 | routing_cards | PASS | 0 | 0 |
@@ -89,19 +89,19 @@ No release warnings.
 
 | Package | Size | SHA-256 |
 | --- | ---: | --- |
-| `packs/agent-engineering-wiki.zip` | 24.8 KB | `30007f4d6d603e99...` |
+| `packs/agent-engineering-wiki.zip` | 93.2 KB | `2441da31689c25d0...` |
 | `packs/agent-wiki-hub-all.zip` | external final artifact | Self-referential package; compute final size and checksum after packing release-manifest.json. |
-| `packs/airdrop-agent-wiki.zip` | 15.3 KB | `8e91fd21578ef392...` |
-| `packs/coding-agent-wiki.zip` | 23.1 KB | `462f87648ad99163...` |
-| `packs/content-agent-wiki.zip` | 13.8 KB | `c1a22c00f2fb09ed...` |
-| `packs/customs-agent-wiki.zip` | 19.6 KB | `ad92e47de711a910...` |
-| `packs/ecommerce-agent-wiki.zip` | 15.1 KB | `51be20541132210b...` |
-| `packs/finance-agent-wiki.zip` | 27.4 KB | `906c83d8cc8d9bed...` |
-| `packs/health-agent-wiki.zip` | 12.9 KB | `4af05eaa34c6ef23...` |
-| `packs/legal-agent-wiki.zip` | 12.7 KB | `a7ca023a8ef71e67...` |
-| `packs/nodeops-agent-wiki.zip` | 20.9 KB | `ef4ed38a3967410d...` |
-| `packs/research-agent-wiki.zip` | 18.2 KB | `0a4094fd497d620c...` |
-| `packs/security-agent-wiki.zip` | 20.4 KB | `49f31f783274e2a0...` |
+| `packs/airdrop-agent-wiki.zip` | 75.2 KB | `c0c03f46e84a050c...` |
+| `packs/coding-agent-wiki.zip` | 83.7 KB | `09bd000462ebf43f...` |
+| `packs/content-agent-wiki.zip` | 60.5 KB | `df2703dde7fa2552...` |
+| `packs/customs-agent-wiki.zip` | 80.1 KB | `662df3dec6112950...` |
+| `packs/ecommerce-agent-wiki.zip` | 61.1 KB | `795ad1cc2df298c8...` |
+| `packs/finance-agent-wiki.zip` | 99.0 KB | `cd9fa3594504e3f2...` |
+| `packs/health-agent-wiki.zip` | 52.1 KB | `e00049873bec093b...` |
+| `packs/legal-agent-wiki.zip` | 54.1 KB | `503e07a2317fe83a...` |
+| `packs/nodeops-agent-wiki.zip` | 88.5 KB | `ef518377042aca7a...` |
+| `packs/research-agent-wiki.zip` | 75.3 KB | `30201a568815c33d...` |
+| `packs/security-agent-wiki.zip` | 86.9 KB | `3362762a67820f2f...` |
 
 ## Wiki Coverage
 

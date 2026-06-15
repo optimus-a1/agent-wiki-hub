@@ -122,7 +122,14 @@ def main() -> int:
         run_step("audit content coverage", ["scripts/audit_content_coverage.py"]),
         run_step("check eval files", ["scripts/check_eval_files.py"]),
         run_step("update search index", ["scripts/update_index.py"]),
+        run_step("generate knowledge density report", ["scripts/generate_knowledge_density_report.py"]),
+        run_step("audit knowledge density", ["scripts/audit_knowledge_density.py"]),
+        run_step("audit current fact leakage", ["scripts/audit_current_fact_leakage.py"]),
+        run_step("audit high risk boundaries", ["scripts/audit_high_risk_boundaries.py"]),
+        run_step("generate knowledge expansion summary", ["scripts/generate_knowledge_expansion_summary.py"]),
+        run_step("generate wiki MOC pages", ["scripts/generate_wiki_moc_pages.py"]),
         run_step("generate Obsidian vault", ["scripts/generate_obsidian_vault.py"]),
+        run_step("generate Obsidian backlinks", ["scripts/generate_obsidian_backlinks.py"]),
         run_step("generate Obsidian canvas", ["scripts/generate_obsidian_canvas.py"]),
         run_step("audit Obsidian vault", ["scripts/audit_obsidian_vault.py"]),
         run_step("collect dashboard data", ["dashboard/scripts/collect_dashboard_data.py"]),
@@ -212,6 +219,14 @@ def main() -> int:
     subprocess.run([sys.executable, "scripts/generate_source_review_readiness_matrix.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
     subprocess.run([sys.executable, "scripts/generate_source_review_work_orders.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
     subprocess.run([sys.executable, "scripts/generate_source_refresh_dashboard.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "scripts/generate_knowledge_density_report.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "scripts/audit_knowledge_density.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "scripts/audit_current_fact_leakage.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "scripts/audit_high_risk_boundaries.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "scripts/generate_knowledge_expansion_summary.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "scripts/generate_wiki_moc_pages.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "scripts/generate_obsidian_backlinks.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    subprocess.run([sys.executable, "dashboard/scripts/collect_dashboard_data.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
     subprocess.run([sys.executable, "scripts/generate_agent_handoff.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
     subprocess.run([sys.executable, "scripts/generate_release_notes.py"], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
     # One silent final refresh captures the final report that includes the package-refresh step.

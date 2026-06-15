@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "density",
+      "type": "file",
+      "file": "05_Dashboard/Knowledge Density.md",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 120
+    },
+    {
+      "id": "current-facts",
+      "type": "file",
+      "file": "05_Dashboard/Current Fact Gates.md",
+      "x": -420,
+      "y": 190,
+      "width": 280,
+      "height": 120
+    },
+    {
+      "id": "human-review",
+      "type": "file",
+      "file": "05_Dashboard/Human Review Gates.md",
+      "x": 0,
+      "y": 190,
+      "width": 280,
+      "height": 120
+    },
+    {
+      "id": "high-risk",
+      "type": "file",
+      "file": "05_Dashboard/High Risk Boundaries.md",
+      "x": 420,
+      "y": 190,
+      "width": 280,
+      "height": 120
+    },
+    {
+      "id": "density-wiki-0",
+      "type": "text",
+      "text": "agent-engineering-wiki",
+      "x": -700,
+      "y": 390,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-1",
+      "type": "text",
+      "text": "airdrop-agent-wiki",
+      "x": -340,
+      "y": 390,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-2",
+      "type": "text",
+      "text": "coding-agent-wiki",
+      "x": 20,
+      "y": 390,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-3",
+      "type": "text",
+      "text": "content-agent-wiki",
+      "x": 380,
+      "y": 390,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-4",
+      "type": "text",
+      "text": "customs-agent-wiki",
+      "x": -700,
+      "y": 550,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-5",
+      "type": "text",
+      "text": "ecommerce-agent-wiki",
+      "x": -340,
+      "y": 550,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-6",
+      "type": "text",
+      "text": "finance-agent-wiki",
+      "x": 20,
+      "y": 550,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-7",
+      "type": "text",
+      "text": "health-agent-wiki",
+      "x": 380,
+      "y": 550,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-8",
+      "type": "text",
+      "text": "legal-agent-wiki",
+      "x": -700,
+      "y": 710,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-9",
+      "type": "text",
+      "text": "nodeops-agent-wiki",
+      "x": -340,
+      "y": 710,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-10",
+      "type": "text",
+      "text": "research-agent-wiki",
+      "x": 20,
+      "y": 710,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "density-wiki-11",
+      "type": "text",
+      "text": "security-agent-wiki",
+      "x": 380,
+      "y": 710,
+      "width": 260,
+      "height": 110
+    }
+  ],
+  "edges": [
+    {
+      "id": "density-current",
+      "fromNode": "density",
+      "toNode": "current-facts"
+    },
+    {
+      "id": "density-human",
+      "fromNode": "density",
+      "toNode": "human-review"
+    },
+    {
+      "id": "density-risk",
+      "fromNode": "density",
+      "toNode": "high-risk"
+    },
+    {
+      "id": "density-edge-0",
+      "fromNode": "density",
+      "toNode": "density-wiki-0"
+    },
+    {
+      "id": "density-edge-1",
+      "fromNode": "density",
+      "toNode": "density-wiki-1"
+    },
+    {
+      "id": "density-edge-2",
+      "fromNode": "density",
+      "toNode": "density-wiki-2"
+    },
+    {
+      "id": "density-edge-3",
+      "fromNode": "density",
+      "toNode": "density-wiki-3"
+    },
+    {
+      "id": "density-edge-4",
+      "fromNode": "density",
+      "toNode": "density-wiki-4"
+    },
+    {
+      "id": "density-edge-5",
+      "fromNode": "density",
+      "toNode": "density-wiki-5"
+    },
+    {
+      "id": "density-edge-6",
+      "fromNode": "density",
+      "toNode": "density-wiki-6"
+    },
+    {
+      "id": "density-edge-7",
+      "fromNode": "density",
+      "toNode": "density-wiki-7"
+    },
+    {
+      "id": "density-edge-8",
+      "fromNode": "density",
+      "toNode": "density-wiki-8"
+    },
+    {
+      "id": "density-edge-9",
+      "fromNode": "density",
+      "toNode": "density-wiki-9"
+    },
+    {
+      "id": "density-edge-10",
+      "fromNode": "density",
+      "toNode": "density-wiki-10"
+    },
+    {
+      "id": "density-edge-11",
+      "fromNode": "density",
+      "toNode": "density-wiki-11"
+    }
+  ]
+}

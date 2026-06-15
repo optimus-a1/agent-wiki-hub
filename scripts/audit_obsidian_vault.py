@@ -14,7 +14,9 @@ REQUIRED = [
     "00_System/README.md", "01_Raw/README.md", "02_Knowledge/README.md", "03_Skills/README.md",
     "04_Output/README.md", "05_Dashboard/Wiki Status.md", "05_Dashboard/Source Review Status.md",
     "05_Dashboard/Acceptance Status.md", "05_Dashboard/Needs Source Update.md", "05_Dashboard/Human Gates.md",
-    "05_Dashboard/Knowledge Graph Status.md", "99_Archive/README.md",
+    "05_Dashboard/Knowledge Graph Status.md", "05_Dashboard/Knowledge Density.md",
+    "05_Dashboard/Current Fact Gates.md", "05_Dashboard/Human Review Gates.md",
+    "05_Dashboard/High Risk Boundaries.md", "99_Archive/README.md",
 ]
 
 def rel(path: Path) -> str:

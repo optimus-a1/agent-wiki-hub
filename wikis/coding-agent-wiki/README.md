@@ -1,3 +1,20 @@
+## Knowledge Density Expansion v2.1
+
+Generated on 2026-06-15 from model-synthesized stable knowledge.
+
+- Scope: long-lived concepts, rules, workflows, cases, prompts, and evals.
+- Boundary: no current facts, no authoritative source claims, no evidence auto-verification.
+- High-risk/current claims still require source review and human confirmation.
+
+| Area | Added |
+| --- | ---: |
+| concepts | 10 |
+| rules | 8 |
+| workflows | 8 |
+| cases | 5 |
+| prompts | 4 |
+| eval tests | 10 |
+
 # Coding Agent Wiki
 
 ## Stable Knowledge Expansion (2026-06-01)

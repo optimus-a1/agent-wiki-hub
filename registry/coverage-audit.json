@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-15",
   "passed": true,
   "topics": [
     {
@@ -31,8 +31,8 @@
         },
         {
           "passed": true,
-          "term": "流动性",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "liquidity",
+          "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md"
         }
       ],
       "missing_groups": []
@@ -76,23 +76,23 @@
       "groups": [
         {
           "passed": true,
-          "term": "仓位",
-          "path": "wikis/finance-agent-wiki/concepts/financial-analysis.md"
+          "term": "position",
+          "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md"
         },
         {
           "passed": true,
-          "term": "回撤",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "drawdown",
+          "path": "wikis/finance-agent-wiki/cases/case-leverage-drawdown-risk.md"
         },
         {
           "passed": true,
-          "term": "杠杆",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "leverage",
+          "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md"
         },
         {
           "passed": true,
-          "term": "流动性",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "liquidity",
+          "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md"
         },
         {
           "passed": true,
@@ -116,13 +116,13 @@
         },
         {
           "passed": true,
-          "term": "手续费",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "fees",
+          "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md"
         },
         {
           "passed": true,
-          "term": "滑点",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "slippage",
+          "path": "wikis/finance-agent-wiki/cases/case-missing-slippage-and-fees.md"
         },
         {
           "passed": true,
@@ -131,8 +131,8 @@
         },
         {
           "passed": true,
-          "term": "过拟合",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "overfitting",
+          "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md"
         }
       ],
       "missing_groups": []
@@ -146,8 +146,8 @@
       "groups": [
         {
           "passed": true,
-          "term": "模拟盘",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "paper trading",
+          "path": "wikis/finance-agent-wiki/cases/case-paper-trading-first.md"
         },
         {
           "passed": true,
@@ -166,8 +166,8 @@
         },
         {
           "passed": true,
-          "term": "权限",
-          "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md"
+          "term": "permission",
+          "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md"
         }
       ],
       "missing_groups": []
@@ -227,7 +227,7 @@
         {
           "passed": true,
           "term": "Certificate of Conformity",
-          "path": "wikis/customs-agent-wiki/concepts/document-types.md"
+          "path": "wikis/customs-agent-wiki/concepts/certificate-of-conformity-review.md"
         }
       ],
       "missing_groups": []
@@ -257,7 +257,7 @@
         {
           "passed": true,
           "term": "currency",
-          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+          "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md"
         },
         {
           "passed": true,
@@ -277,7 +277,7 @@
         {
           "passed": true,
           "term": "OCR",
-          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+          "path": "wikis/customs-agent-wiki/cases/case-hidden-ocr-uncertainty.md"
         },
         {
           "passed": true,
@@ -287,12 +287,12 @@
         {
           "passed": true,
           "term": "evidence",
-          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+          "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md"
         },
         {
           "passed": true,
-          "term": "置信度",
-          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+          "term": "confidence",
+          "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md"
         }
       ],
       "missing_groups": []
@@ -312,12 +312,12 @@
         {
           "passed": true,
           "term": "risk_level",
-          "path": "wikis/customs-agent-wiki/cases/common-failures.md"
+          "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md"
         },
         {
           "passed": true,
-          "term": "review_suggestion",
-          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+          "term": "manual review",
+          "path": "wikis/customs-agent-wiki/cases/case-manual-review-escalation.md"
         }
       ],
       "missing_groups": []
@@ -332,12 +332,12 @@
         {
           "passed": true,
           "term": "amount",
-          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+          "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md"
         },
         {
           "passed": true,
           "term": "currency",
-          "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md"
+          "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md"
         },
         {
           "passed": true,
@@ -376,13 +376,13 @@
       "groups": [
         {
           "passed": true,
-          "term": "需求澄清",
-          "path": "wikis/coding-agent-wiki/workflows/implementation-lifecycle.md"
+          "term": "requirement clarification",
+          "path": "wikis/coding-agent-wiki/concepts/requirement-clarification.md"
         },
         {
           "passed": true,
-          "term": "最小实现",
-          "path": "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml"
+          "term": "minimal implementation",
+          "path": "wikis/coding-agent-wiki/concepts/minimal-implementation.md"
         },
         {
           "passed": true,
@@ -416,8 +416,8 @@
         },
         {
           "passed": true,
-          "term": "回归",
-          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+          "term": "regression",
+          "path": "wikis/coding-agent-wiki/cases/case-minimal-fix-success.md"
         }
       ],
       "missing_groups": []
@@ -466,13 +466,13 @@
       "groups": [
         {
           "passed": true,
-          "term": "密钥",
-          "path": "wikis/coding-agent-wiki/cases/sample-bug-fix-review.md"
+          "term": "secret",
+          "path": "wikis/coding-agent-wiki/cases/case-minimal-fix-success.md"
         },
         {
           "passed": true,
-          "term": "权限",
-          "path": "wikis/coding-agent-wiki/rules/security-development.md"
+          "term": "permission",
+          "path": "wikis/coding-agent-wiki/cases/case-minimal-fix-success.md"
         },
         {
           "passed": true,
@@ -537,7 +537,7 @@
         {
           "passed": true,
           "term": "Model",
-          "path": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md"
+          "path": "wikis/agent-engineering-wiki/cases/case-rag-citation-gap.md"
         },
         {
           "passed": true,
@@ -557,7 +557,7 @@
         {
           "passed": true,
           "term": "Memory",
-          "path": "wikis/agent-engineering-wiki/concepts/agent-architecture.md"
+          "path": "wikis/agent-engineering-wiki/cases/case-rag-citation-gap.md"
         },
         {
           "passed": true,
@@ -567,7 +567,7 @@
         {
           "passed": true,
           "term": "Safety",
-          "path": "wikis/agent-engineering-wiki/cases/sample-tool-overreach.md"
+          "path": "wikis/agent-engineering-wiki/cases/case-rag-citation-gap.md"
         }
       ],
       "missing_groups": []
@@ -581,8 +581,8 @@
       "groups": [
         {
           "passed": true,
-          "term": "切块",
-          "path": "wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md"
+          "term": "chunk",
+          "path": "wikis/agent-engineering-wiki/cases/case-rag-citation-gap.md"
         },
         {
           "passed": true,
@@ -601,8 +601,8 @@
         },
         {
           "passed": true,
-          "term": "引用",
-          "path": "wikis/agent-engineering-wiki/cases/sample-rag-source-grounding.md"
+          "term": "citation",
+          "path": "wikis/agent-engineering-wiki/cases/case-rag-citation-gap.md"
         },
         {
           "passed": true,
@@ -727,17 +727,17 @@
         {
           "passed": true,
           "term": "attribute",
-          "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog.md"
+          "path": "wikis/ecommerce-agent-wiki/concepts/attribute-normalization.md"
         },
         {
           "passed": true,
           "term": "inventory",
-          "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog.md"
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         },
         {
           "passed": true,
-          "term": "价格",
-          "path": "wikis/ecommerce-agent-wiki/cases/common-failures.md"
+          "term": "price",
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         }
       ],
       "missing_groups": []
@@ -761,8 +761,8 @@
         },
         {
           "passed": true,
-          "term": "退款",
-          "path": "wikis/ecommerce-agent-wiki/workflows/customer-service-returns.md"
+          "term": "refund",
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         },
         {
           "passed": true,
@@ -786,18 +786,18 @@
       "groups": [
         {
           "passed": true,
-          "term": "推荐",
-          "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog.md"
+          "term": "recommend",
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         },
         {
           "passed": true,
           "term": "need",
-          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         },
         {
           "passed": true,
-          "term": "约束",
-          "path": "wikis/ecommerce-agent-wiki/README.md"
+          "term": "constraint",
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         },
         {
           "passed": true,
@@ -826,13 +826,13 @@
         },
         {
           "passed": true,
-          "term": "隐私",
-          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+          "term": "privacy",
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         },
         {
           "passed": true,
-          "term": "消费者",
-          "path": "wikis/ecommerce-agent-wiki/cases/sample-return-request.md"
+          "term": "consumer",
+          "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md"
         },
         {
           "passed": true,
@@ -872,7 +872,7 @@
         {
           "passed": true,
           "term": "backup",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
@@ -897,12 +897,12 @@
         {
           "passed": true,
           "term": "production",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
           "term": "backup",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
@@ -911,8 +911,8 @@
         },
         {
           "passed": true,
-          "term": "回滚",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+          "term": "rollback",
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
@@ -937,7 +937,7 @@
         {
           "passed": true,
           "term": "symptom",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
@@ -947,12 +947,12 @@
         {
           "passed": true,
           "term": "resource",
-          "path": "wikis/nodeops-agent-wiki/concepts/service-reliability-signals.md"
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
-          "term": "网络",
-          "path": "wikis/nodeops-agent-wiki/rules/operational-risk-control.md"
+          "term": "network",
+          "path": "wikis/nodeops-agent-wiki/concepts/network-port-diagnosis.md"
         },
         {
           "passed": true,
@@ -961,8 +961,8 @@
         },
         {
           "passed": true,
-          "term": "回滚",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md"
+          "term": "rollback",
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         }
       ],
       "missing_groups": []
@@ -977,7 +977,7 @@
         {
           "passed": true,
           "term": "destructive",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
@@ -987,7 +987,7 @@
         {
           "passed": true,
           "term": "backup",
-          "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md"
+          "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md"
         },
         {
           "passed": true,
@@ -1021,8 +1021,8 @@
         },
         {
           "passed": true,
-          "term": "融资",
-          "path": "wikis/airdrop-agent-wiki/concepts/project-risk-model.md"
+          "term": "funding",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
@@ -1061,13 +1061,13 @@
         },
         {
           "passed": true,
-          "term": "钓鱼",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "term": "phishing",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
-          "term": "权限",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "term": "permission",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
@@ -1087,22 +1087,22 @@
         {
           "passed": true,
           "term": "Sybil",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "path": "wikis/airdrop-agent-wiki/cases/case-sybil-evasion-request.md"
         },
         {
           "passed": true,
-          "term": "刷量",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "term": "spam",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
-          "term": "假身份",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "term": "fake identity",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
-          "term": "绕平台规则",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "term": "bypass",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         }
       ],
       "missing_groups": []
@@ -1121,18 +1121,18 @@
         },
         {
           "passed": true,
-          "term": "快照",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "term": "snapshot",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
           "term": "eligibility",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
-          "term": "任务规则",
-          "path": "wikis/airdrop-agent-wiki/cases/sample-wallet-signature-review.md"
+          "term": "task rules",
+          "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md"
         },
         {
           "passed": true,
@@ -1166,8 +1166,8 @@
         },
         {
           "passed": true,
-          "term": "长帖",
-          "path": "wikis/content-agent-wiki/manifest.yaml"
+          "term": "long",
+          "path": "wikis/content-agent-wiki/cases/case-overlong-summary.md"
         },
         {
           "passed": true,
@@ -1242,7 +1242,7 @@
         {
           "passed": true,
           "term": "tags",
-          "path": "wikis/content-agent-wiki/workflows/research-brief-to-post.md"
+          "path": "wikis/content-agent-wiki/cases/case-good-editorial-review.md"
         },
         {
           "passed": true,
@@ -1271,8 +1271,8 @@
         },
         {
           "passed": true,
-          "term": "主体",
-          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+          "term": "parties",
+          "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md"
         },
         {
           "passed": true,
@@ -1301,13 +1301,13 @@
       "groups": [
         {
           "passed": true,
-          "term": "最终法律意见",
-          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+          "term": "final legal opinion",
+          "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md"
         },
         {
           "passed": true,
-          "term": "律师",
-          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+          "term": "lawyer",
+          "path": "wikis/legal-agent-wiki/cases/case-lawyer-review-escalation.md"
         },
         {
           "passed": true,
@@ -1326,18 +1326,18 @@
       "groups": [
         {
           "passed": true,
-          "term": "司法辖区",
-          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+          "term": "jurisdiction",
+          "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md"
         },
         {
           "passed": true,
-          "term": "法律条文",
-          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+          "term": "statutes",
+          "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md"
         },
         {
           "passed": true,
-          "term": "监管",
-          "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md"
+          "term": "regulations",
+          "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md"
         },
         {
           "passed": true,
@@ -1396,8 +1396,8 @@
         },
         {
           "passed": true,
-          "term": "诊断",
-          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+          "term": "diagnosis",
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
@@ -1422,22 +1422,22 @@
         {
           "passed": true,
           "term": "triage",
-          "path": "wikis/health-agent-wiki/workflows/health-education-triage.md"
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
-          "term": "红旗",
-          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+          "term": "red flag",
+          "path": "wikis/health-agent-wiki/cases/case-red-flag-escalation.md"
         },
         {
           "passed": true,
           "term": "emergency",
-          "path": "wikis/health-agent-wiki/evals/health-agent-evals.yaml"
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
-          "term": "不确定",
-          "path": "wikis/health-agent-wiki/cases/common-failures.md"
+          "term": "uncertainty",
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
@@ -1457,7 +1457,7 @@
         {
           "passed": true,
           "term": "lab",
-          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
@@ -1491,8 +1491,8 @@
       "groups": [
         {
           "passed": true,
-          "term": "指南",
-          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+          "term": "guideline",
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
@@ -1501,13 +1501,13 @@
         },
         {
           "passed": true,
-          "term": "剂量",
-          "path": "wikis/health-agent-wiki/cases/sample-lab-report-explanation.md"
+          "term": "dosage",
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
           "term": "contraindication",
-          "path": "wikis/health-agent-wiki/sources/source-notes.md"
+          "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md"
         },
         {
           "passed": true,
@@ -1532,7 +1532,7 @@
         {
           "passed": true,
           "term": "traceability",
-          "path": "wikis/research-agent-wiki/rules/core-rules.md"
+          "path": "wikis/research-agent-wiki/concepts/citation-traceability.md"
         },
         {
           "passed": true,
@@ -1567,7 +1567,7 @@
         {
           "passed": true,
           "term": "claim",
-          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
+          "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md"
         },
         {
           "passed": true,
@@ -1577,12 +1577,12 @@
         {
           "passed": true,
           "term": "limitation",
-          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
+          "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md"
         },
         {
           "passed": true,
           "term": "reproduc",
-          "path": "wikis/research-agent-wiki/cases/sample-benchmark-claim-review.md"
+          "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md"
         }
       ],
       "missing_groups": []
@@ -1596,8 +1596,8 @@
       "groups": [
         {
           "passed": true,
-          "term": "最新",
-          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+          "term": "latest",
+          "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md"
         },
         {
           "passed": true,
@@ -1616,13 +1616,13 @@
         },
         {
           "passed": true,
-          "term": "仓库",
-          "path": "wikis/research-agent-wiki/cases/sample-paper-summary.md"
+          "term": "repository",
+          "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md"
         },
         {
           "passed": true,
           "term": "license",
-          "path": "wikis/research-agent-wiki/sources/source-notes.md"
+          "path": "wikis/research-agent-wiki/evals/stable-knowledge-evals.yaml"
         }
       ],
       "missing_groups": []
@@ -1647,7 +1647,7 @@
         {
           "passed": true,
           "term": "review",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         }
       ],
       "missing_groups": []
@@ -1662,7 +1662,7 @@
         {
           "passed": true,
           "term": "exploit",
-          "path": "wikis/security-agent-wiki/concepts/security-control-model.md"
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
@@ -1671,23 +1671,23 @@
         },
         {
           "passed": true,
-          "term": "绕过",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "term": "bypass",
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
-          "term": "凭据",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "term": "credential",
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
-          "term": "持久化",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "term": "persistence",
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
-          "term": "规避",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "term": "evasion",
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         }
       ],
       "missing_groups": []
@@ -1722,7 +1722,7 @@
         {
           "passed": true,
           "term": "control",
-          "path": "wikis/security-agent-wiki/concepts/security-control-model.md"
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
@@ -1742,7 +1742,7 @@
         {
           "passed": true,
           "term": "CVE",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
@@ -1751,18 +1751,18 @@
         },
         {
           "passed": true,
-          "term": "补丁",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "term": "patch",
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
-          "term": "检测",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "term": "detection",
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,
-          "term": "依赖",
-          "path": "wikis/security-agent-wiki/cases/sample-login-review.md"
+          "term": "dependency",
+          "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md"
         },
         {
           "passed": true,

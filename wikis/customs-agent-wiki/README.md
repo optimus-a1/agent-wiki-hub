@@ -1,3 +1,20 @@
+## Knowledge Density Expansion v2.1
+
+Generated on 2026-06-15 from model-synthesized stable knowledge.
+
+- Scope: long-lived concepts, rules, workflows, cases, prompts, and evals.
+- Boundary: no current facts, no authoritative source claims, no evidence auto-verification.
+- High-risk/current claims still require source review and human confirmation.
+
+| Area | Added |
+| --- | ---: |
+| concepts | 10 |
+| rules | 8 |
+| workflows | 6 |
+| cases | 6 |
+| prompts | 4 |
+| eval tests | 10 |
+
 # Customs Document Agent Wiki
 
 外贸单证、报关报检字段抽取、差异比对、人工复核知识库。政策与监管条件必须实时更新。

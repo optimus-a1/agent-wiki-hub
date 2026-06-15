@@ -15,8 +15,8 @@ JSON_OUT = ROOT / "registry" / "page-metadata-audit.json"
 
 KNOWLEDGE_DIRS = {"concepts", "rules", "workflows", "cases", "tools", "prompts"}
 EXEMPT_NAMES = {"README.md", "AGENTS.md", "update-log.md", "source-notes.md"}
-REQUIRED_FIELDS = ["title", "status", "last_updated", "risk_level"]
-VALID_STATUS = {"draft", "stable", "needs-source-update"}
+REQUIRED_FIELDS = ["title", "status", "risk_level"]
+VALID_STATUS = {"draft", "stable", "needs-source-update", "stable-general-knowledge"}
 VALID_RISK_LEVELS = {"low", "medium", "high"}
 
 
@@ -37,6 +37,7 @@ def parse_manifest(path: Path) -> dict[str, str]:
 
 
 def parse_front_matter(text: str) -> tuple[dict[str, str], bool, str]:
+    text = text.lstrip("\ufeff")
     lines = text.splitlines()
     if not lines or lines[0].strip() != "---":
         return {}, False, "missing opening ---"
@@ -108,8 +109,16 @@ def audit_page(path: Path) -> dict:
         issues.append(f"invalid status {fields['status']!r}")
     if fields.get("risk_level") and fields["risk_level"] not in VALID_RISK_LEVELS:
         issues.append(f"invalid risk_level {fields['risk_level']!r}")
+    date_value = fields.get("last_updated") or fields.get("generated_on")
+    if not date_value:
+        issues.append("missing last_updated or generated_on")
+    elif not valid_date(date_value):
+        issues.append(f"invalid last_updated/generated_on {date_value!r}")
+
     if fields.get("last_updated") and not valid_date(fields["last_updated"]):
         issues.append(f"invalid last_updated {fields['last_updated']!r}")
+    if fields.get("generated_on") and not valid_date(fields["generated_on"]):
+        issues.append(f"invalid generated_on {fields['generated_on']!r}")
 
     title = fields.get("title", "")
     h1 = first_h1(body)

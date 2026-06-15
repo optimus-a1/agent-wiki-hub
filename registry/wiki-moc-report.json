@@ -1,0 +1,150 @@
+{
+  "generated": "2026-06-16",
+  "passed": true,
+  "records": [
+    {
+      "wiki": "agent-engineering-wiki",
+      "path": "wikis/agent-engineering-wiki/MOC.md",
+      "counts": {
+        "concepts": 17,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 8,
+        "prompts": 7,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "path": "wikis/airdrop-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 9,
+        "cases": 8,
+        "prompts": 5,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "path": "wikis/coding-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 12,
+        "rules": 13,
+        "workflows": 13,
+        "cases": 8,
+        "prompts": 5,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "path": "wikis/content-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 9,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 5,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "path": "wikis/customs-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 10,
+        "cases": 9,
+        "prompts": 5,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "path": "wikis/ecommerce-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 4,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "path": "wikis/finance-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 16,
+        "rules": 14,
+        "workflows": 13,
+        "cases": 9,
+        "prompts": 5,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "path": "wikis/health-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 7,
+        "rules": 7,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "path": "wikis/legal-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 7,
+        "rules": 8,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "path": "wikis/nodeops-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 14,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 9,
+        "prompts": 5,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "path": "wikis/research-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 12,
+        "rules": 11,
+        "workflows": 9,
+        "cases": 8,
+        "prompts": 5,
+        "evals": 3
+      }
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "path": "wikis/security-agent-wiki/MOC.md",
+      "counts": {
+        "concepts": 12,
+        "rules": 14,
+        "workflows": 12,
+        "cases": 9,
+        "prompts": 5,
+        "evals": 3
+      }
+    }
+  ]
+}

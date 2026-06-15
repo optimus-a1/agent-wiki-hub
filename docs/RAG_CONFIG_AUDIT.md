@@ -1,6 +1,6 @@
 # RAG Config Audit
 
-Generated: 2026-06-03
+Generated: 2026-06-15
 
 - Passed: True
 - Warning: chromadb missing; keyword fallback remains available

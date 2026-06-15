@@ -1,27 +1,27 @@
 # Link Audit
 
-Generated: 2026-06-03
+Generated: 2026-06-16
 
 ## Summary
 
-- Internal references checked: 3751
-- Passed: 3751
+- Internal references checked: 5265
+- Passed: 5265
 - Failed: 0
 
 ## Counts By Type
 
 | Type | References |
 | --- | ---: |
-| code_reference | 750 |
-| markdown_link | 1711 |
-| path_reference | 1290 |
+| code_reference | 1170 |
+| markdown_link | 2316 |
+| path_reference | 1779 |
 
 ## Counts By Target Kind
 
 | Kind | References |
 | --- | ---: |
 | directory | 623 |
-| file | 3128 |
+| file | 4642 |
 
 ## Failed References
 

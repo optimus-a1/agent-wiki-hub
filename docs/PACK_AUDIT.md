@@ -1,11 +1,11 @@
 # Pack Integrity Audit
 
-Generated: 2026-06-03
+Generated: 2026-06-16
 
 ## Summary
 
-- Checks: 615
-- Passed: 615
+- Checks: 644
+- Passed: 644
 - Failed: 0
 
 ## Failed Checks

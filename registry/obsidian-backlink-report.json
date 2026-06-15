@@ -1,0 +1,24 @@
+{
+  "generated": "2026-06-16",
+  "passed": true,
+  "updated_mocs": [
+    "obsidian-vault/02_Knowledge/MOCs/Agent Engineering Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Airdrop Research Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Coding Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Content Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Customs Document Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Defensive Security Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Ecommerce Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Finance Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Health Education Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Legal Information Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/NodeOps Agent Wiki MOC.md",
+    "obsidian-vault/02_Knowledge/MOCs/Research Agent Wiki MOC.md"
+  ],
+  "dashboards": [
+    "obsidian-vault/05_Dashboard/Knowledge Density.md",
+    "obsidian-vault/05_Dashboard/Current Fact Gates.md",
+    "obsidian-vault/05_Dashboard/High Risk Boundaries.md",
+    "obsidian-vault/05_Dashboard/Human Review Gates.md"
+  ]
+}

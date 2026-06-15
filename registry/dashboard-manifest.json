@@ -1,11 +1,15 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "passed": true,
   "files": [
     "dashboard-summary.json",
     "wiki-status.json",
     "source-review-status.json",
     "acceptance-status.json",
-    "packs.json"
+    "packs.json",
+    "knowledge-density.json",
+    "high-risk-boundaries.json",
+    "current-fact-gates.json",
+    "wiki-moc-status.json"
   ]
 }

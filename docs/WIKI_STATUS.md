@@ -1,30 +1,30 @@
 # Agent Wiki Hub Status
 
-Generated: 2026-06-03
+Generated: 2026-06-16
 
 ## Summary
 
 - Wikis: 12
-- Knowledge files in required directories: 207
-- Eval tests: 137
+- Knowledge files in required directories: 608
+- Eval tests: 247
 - Needs-source-update topics: 35
 
 ## Wiki Matrix
 
 | Wiki | Domain | Risk | Freshness | Cases | Evals | Source topics | Pack |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |
-| agent-engineering-wiki | ai_agent_engineering | medium | medium | 3 | 14 | 3 | 25296 bytes |
-| airdrop-agent-wiki | web3_research | high | high | 2 | 10 | 3 | 15650 bytes |
-| coding-agent-wiki | software_engineering | medium | medium | 3 | 14 | 4 | 23689 bytes |
-| content-agent-wiki | content_operations | low | medium | 2 | 10 | 3 | 14182 bytes |
-| customs-agent-wiki | customs_trade_documents | medium | high | 3 | 15 | 4 | 20047 bytes |
-| ecommerce-agent-wiki | ecommerce | medium | high | 2 | 10 | 3 | 15468 bytes |
-| finance-agent-wiki | finance | high | high | 3 | 14 | 4 | 28046 bytes |
-| health-agent-wiki | health_education | high | high | 2 | 10 | 2 | 13202 bytes |
-| legal-agent-wiki | legal_information | high | high | 2 | 10 | 2 | 13044 bytes |
-| nodeops-agent-wiki | operations | high | medium | 3 | 10 | 3 | 21351 bytes |
-| research-agent-wiki | research | medium | high | 3 | 10 | 2 | 18629 bytes |
-| security-agent-wiki | defensive_security | high | high | 3 | 10 | 2 | 20900 bytes |
+| agent-engineering-wiki | ai_agent_engineering | medium | medium | 8 | 24 | 3 | 95466 bytes |
+| airdrop-agent-wiki | web3_research | high | high | 8 | 20 | 3 | 77056 bytes |
+| coding-agent-wiki | software_engineering | medium | medium | 8 | 24 | 4 | 85690 bytes |
+| content-agent-wiki | content_operations | low | medium | 6 | 18 | 3 | 61942 bytes |
+| customs-agent-wiki | customs_trade_documents | medium | high | 9 | 25 | 4 | 82026 bytes |
+| ecommerce-agent-wiki | ecommerce | medium | high | 6 | 18 | 3 | 62528 bytes |
+| finance-agent-wiki | finance | high | high | 9 | 26 | 4 | 101347 bytes |
+| health-agent-wiki | health_education | high | high | 6 | 16 | 2 | 53314 bytes |
+| legal-agent-wiki | legal_information | high | high | 6 | 16 | 2 | 55410 bytes |
+| nodeops-agent-wiki | operations | high | medium | 9 | 20 | 3 | 90658 bytes |
+| research-agent-wiki | research | medium | high | 8 | 20 | 2 | 77138 bytes |
+| security-agent-wiki | defensive_security | high | high | 9 | 20 | 2 | 89030 bytes |
 
 ## Needs Source Update Topics
 

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "wikis": [
     {
       "id": "agent-engineering-wiki",
@@ -7,23 +7,23 @@
       "risk_level": "medium",
       "freshness_requirement": "medium",
       "content_counts": {
-        "concepts": 5,
-        "rules": 4,
-        "workflows": 4,
-        "cases": 3,
+        "concepts": 17,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 8,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 7,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 14,
+      "eval_tests": 24,
       "source_update_topics": [
         "current Codex Skill format, plugin behavior and tool capabilities",
         "current RAG frameworks, embedding models, vector databases and rerankers",
         "current eval harnesses, model APIs and MCP/tool schemas"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 25296
+      "pack_size_bytes": 95466
     },
     {
       "id": "airdrop-agent-wiki",
@@ -31,23 +31,23 @@
       "risk_level": "high",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 2,
-        "rules": 2,
-        "workflows": 3,
-        "cases": 2,
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 9,
+        "cases": 8,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 20,
       "source_update_topics": [
         "current project status, official links, task rules, snapshot and eligibility",
         "current token launch, TGE, funding, exchange listing and airdrop allocation",
         "current contract addresses, wallet warnings, scam reports and signing risks"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 15650
+      "pack_size_bytes": 77056
     },
     {
       "id": "coding-agent-wiki",
@@ -55,16 +55,16 @@
       "risk_level": "medium",
       "freshness_requirement": "medium",
       "content_counts": {
-        "concepts": 2,
-        "rules": 5,
-        "workflows": 5,
-        "cases": 3,
+        "concepts": 12,
+        "rules": 13,
+        "workflows": 13,
+        "cases": 8,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 14,
+      "eval_tests": 24,
       "source_update_topics": [
         "current framework, library, CLI and API parameters",
         "current cloud platform build, deploy, runtime and pricing behavior",
@@ -72,7 +72,7 @@
         "current OpenAI, Codex, GitHub or Vercel product behavior"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 23689
+      "pack_size_bytes": 85690
     },
     {
       "id": "content-agent-wiki",
@@ -80,23 +80,23 @@
       "risk_level": "low",
       "freshness_requirement": "medium",
       "content_counts": {
-        "concepts": 1,
-        "rules": 2,
-        "workflows": 3,
-        "cases": 2,
+        "concepts": 9,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 18,
       "source_update_topics": [
         "current news, statistics, public quotes and social media claims",
         "current publishing platform rules, format limits and content policies",
         "current image, chart, dataset and quote licensing"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 14182
+      "pack_size_bytes": 61942
     },
     {
       "id": "customs-agent-wiki",
@@ -104,16 +104,16 @@
       "risk_level": "medium",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 2,
-        "rules": 2,
-        "workflows": 4,
-        "cases": 3,
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 10,
+        "cases": 9,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 15,
+      "eval_tests": 25,
       "source_update_topics": [
         "latest HS codes, customs supervision conditions and declaration elements",
         "latest import/export policy, inspection and quarantine requirements",
@@ -121,7 +121,7 @@
         "exchange rates, tariff rates, tax rates and destination-specific fees"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 20047
+      "pack_size_bytes": 82026
     },
     {
       "id": "ecommerce-agent-wiki",
@@ -129,23 +129,23 @@
       "risk_level": "medium",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 2,
-        "rules": 2,
-        "workflows": 3,
-        "cases": 2,
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 4,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 18,
       "source_update_topics": [
         "current product price, stock, promotion, shipping fee and delivery ETA",
         "current marketplace policy, return window, category restrictions and consumer protection rules",
         "current product certification, recall, safety notice and warranty terms"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 15468
+      "pack_size_bytes": 62528
     },
     {
       "id": "finance-agent-wiki",
@@ -153,16 +153,16 @@
       "risk_level": "high",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 4,
-        "rules": 4,
-        "workflows": 5,
-        "cases": 3,
+        "concepts": 16,
+        "rules": 14,
+        "workflows": 13,
+        "cases": 9,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 14,
+      "eval_tests": 26,
       "source_update_topics": [
         "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
         "latest financial statements, filings, restatements and audit opinions",
@@ -170,7 +170,7 @@
         "current legal, regulatory or suitability requirements for financial products"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 28046
+      "pack_size_bytes": 101347
     },
     {
       "id": "health-agent-wiki",
@@ -178,22 +178,22 @@
       "risk_level": "high",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 1,
-        "rules": 2,
-        "workflows": 2,
-        "cases": 2,
+        "concepts": 7,
+        "rules": 7,
+        "workflows": 6,
+        "cases": 6,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 4,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 16,
       "source_update_topics": [
         "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
         "current public health guidance, screening recommendations and nutrition/exercise guidelines"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 13202
+      "pack_size_bytes": 53314
     },
     {
       "id": "legal-agent-wiki",
@@ -201,22 +201,22 @@
       "risk_level": "high",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 1,
-        "rules": 2,
-        "workflows": 2,
-        "cases": 2,
+        "concepts": 7,
+        "rules": 8,
+        "workflows": 6,
+        "cases": 6,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 4,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 16,
       "source_update_topics": [
         "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
         "current platform agreements, data processing terms and consumer protection rules"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 13044
+      "pack_size_bytes": 55410
     },
     {
       "id": "nodeops-agent-wiki",
@@ -224,23 +224,23 @@
       "risk_level": "high",
       "freshness_requirement": "medium",
       "content_counts": {
-        "concepts": 2,
-        "rules": 4,
-        "workflows": 4,
-        "cases": 3,
+        "concepts": 14,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 9,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 20,
       "source_update_topics": [
         "current OS package, Docker, systemd and kernel behavior",
         "current cloud provider limits, firewall behavior, billing and incident status",
         "current blockchain node client versions, network parameters and upgrade requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 21351
+      "pack_size_bytes": 90658
     },
     {
       "id": "research-agent-wiki",
@@ -248,22 +248,22 @@
       "risk_level": "medium",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 2,
-        "rules": 3,
-        "workflows": 3,
-        "cases": 3,
+        "concepts": 12,
+        "rules": 11,
+        "workflows": 9,
+        "cases": 8,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 20,
       "source_update_topics": [
         "latest papers, preprints, revisions, citations and benchmark leaderboards",
         "current dataset availability, license, model weights and code repository status"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 18629
+      "pack_size_bytes": 77138
     },
     {
       "id": "security-agent-wiki",
@@ -271,22 +271,22 @@
       "risk_level": "high",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 2,
-        "rules": 4,
-        "workflows": 4,
-        "cases": 3,
+        "concepts": 12,
+        "rules": 14,
+        "workflows": 12,
+        "cases": 9,
         "tools": 1,
-        "prompts": 1,
-        "evals": 2,
+        "prompts": 5,
+        "evals": 3,
         "sources": 2
       },
-      "eval_tests": 10,
+      "eval_tests": 20,
       "source_update_topics": [
         "current CVEs, vendor advisories, patches, dependency versions and exploit status",
         "current security tool rules, detection signatures, cloud defaults and compliance requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 20900
+      "pack_size_bytes": 89030
     }
   ]
 }
