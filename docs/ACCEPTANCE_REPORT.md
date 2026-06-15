@@ -1,11 +1,11 @@
 # Agent Wiki Hub Acceptance Report
 
-Generated: 2026-06-03
+Generated: 2026-06-16
 
 ## Summary
 
-- Steps: 64
-- Passed: 64
+- Steps: 71
+- Passed: 71
 - Failed: 0
 
 ## Steps
@@ -19,7 +19,14 @@ Generated: 2026-06-03
 | audit content coverage | PASS | `python.exe scripts/audit_content_coverage.py` |
 | check eval files | PASS | `python.exe scripts/check_eval_files.py` |
 | update search index | PASS | `python.exe scripts/update_index.py` |
+| generate knowledge density report | PASS | `python.exe scripts/generate_knowledge_density_report.py` |
+| audit knowledge density | PASS | `python.exe scripts/audit_knowledge_density.py` |
+| audit current fact leakage | PASS | `python.exe scripts/audit_current_fact_leakage.py` |
+| audit high risk boundaries | PASS | `python.exe scripts/audit_high_risk_boundaries.py` |
+| generate knowledge expansion summary | PASS | `python.exe scripts/generate_knowledge_expansion_summary.py` |
+| generate wiki MOC pages | PASS | `python.exe scripts/generate_wiki_moc_pages.py` |
 | generate Obsidian vault | PASS | `python.exe scripts/generate_obsidian_vault.py` |
+| generate Obsidian backlinks | PASS | `python.exe scripts/generate_obsidian_backlinks.py` |
 | generate Obsidian canvas | PASS | `python.exe scripts/generate_obsidian_canvas.py` |
 | audit Obsidian vault | PASS | `python.exe scripts/audit_obsidian_vault.py` |
 | collect dashboard data | PASS | `python.exe dashboard/scripts/collect_dashboard_data.py` |
@@ -82,7 +89,7 @@ Generated: 2026-06-03
 ### validate wiki structure and evals - PASS
 
 ```text
-VALIDATION PASSED (137 eval tests)
+VALIDATION PASSED (247 eval tests)
 ```
 
 ### check registry consistency - PASS
@@ -106,7 +113,7 @@ CI WORKFLOW AUDIT PASSED (11 checks)
 ```text
 Wrote docs\PAGE_METADATA_AUDIT.md
 Wrote registry\page-metadata-audit.json
-PAGE METADATA AUDIT PASSED (159 pages)
+PAGE METADATA AUDIT PASSED (548 pages)
 ```
 
 ### audit content coverage - PASS
@@ -120,13 +127,49 @@ CONTENT COVERAGE AUDIT PASSED (51 topics)
 ### check eval files - PASS
 
 ```text
-EVAL CHECK PASSED (137 tests)
+EVAL CHECK PASSED (247 tests)
 ```
 
 ### update search index - PASS
 
 ```text
-Indexed 255 docs -> index\search_index.json
+Indexed 668 docs -> index\search_index.json
+```
+
+### generate knowledge density report - PASS
+
+```text
+KNOWLEDGE DENSITY REPORT GENERATED (12 wikis)
+```
+
+### audit knowledge density - PASS
+
+```text
+KNOWLEDGE DENSITY AUDIT PASSED (12 wikis)
+```
+
+### audit current fact leakage - PASS
+
+```text
+CURRENT FACT LEAKAGE AUDIT PASSED (389 findings, 0 blocking)
+```
+
+### audit high risk boundaries - PASS
+
+```text
+HIGH RISK BOUNDARY AUDIT PASSED (229 pages)
+```
+
+### generate knowledge expansion summary - PASS
+
+```text
+KNOWLEDGE EXPANSION SUMMARY GENERATED (389 new pages)
+```
+
+### generate wiki MOC pages - PASS
+
+```text
+WIKI MOC PAGES GENERATED (12 wikis)
 ```
 
 ### generate Obsidian vault - PASS
@@ -135,16 +178,22 @@ Indexed 255 docs -> index\search_index.json
 OBSIDIAN VAULT GENERATED (12 wikis, 12 MOCs)
 ```
 
+### generate Obsidian backlinks - PASS
+
+```text
+OBSIDIAN BACKLINKS GENERATED (12 MOCs)
+```
+
 ### generate Obsidian canvas - PASS
 
 ```text
-OBSIDIAN CANVAS GENERATED (3 files)
+OBSIDIAN CANVAS GENERATED (4 files)
 ```
 
 ### audit Obsidian vault - PASS
 
 ```text
-OBSIDIAN VAULT AUDIT PASSED (13 checks)
+OBSIDIAN VAULT AUDIT PASSED (17 checks)
 ```
 
 ### collect dashboard data - PASS
@@ -156,7 +205,7 @@ DASHBOARD DATA GENERATED (12 wikis, 13 packs)
 ### audit dashboard - PASS
 
 ```text
-DASHBOARD AUDIT PASSED (10 checks)
+DASHBOARD AUDIT PASSED (14 checks)
 ```
 
 ### generate ingestion report - PASS
@@ -257,12 +306,12 @@ SOURCE REFRESH TICKETS GENERATED (35 tickets)
   ticket_id: TICKET-SRC-006
   topic: "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity"
   status: pending
-  verified_on: 2026-06-03
+  verified_on: 2026-06-16
   source_title: ""
   source_publisher: ""
   source_url_or_reference: ""
   source_published_or_updated: "unknown"
-  source_accessed_on: 2026-06-03
+  source_accessed_on: 2026-06-16
   evidence_summary: ""
   affected_pages:
     - wikis/finance-agent-wiki/sources/source-notes.md
@@ -460,14 +509,14 @@ AGENT HANDOFF GENERATED
 ```text
 Wrote docs\LINK_AUDIT.md
 Wrote registry\link-audit.json
-LINK AUDIT PASSED (3751 references)
+LINK AUDIT PASSED (5265 references)
 ```
 
 ### route query: risk control backtest paper trading - PASS
 
 ```text
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "query": "risk control backtest paper trading",
   "top_wiki": "finance-agent-wiki",
   "source_update_required": false,
@@ -644,7 +693,7 @@ LINK AUDIT PASSED (3751 references)
 
 ```text
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "query": "field extraction invoice packing list",
   "top_wiki": "customs-agent-wiki",
   "source_update_required": false,
@@ -767,7 +816,7 @@ LINK AUDIT PASSED (3751 references)
 
 ```text
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "query": "defensive security hardening",
   "top_wiki": "security-agent-wiki",
   "source_update_required": false,
@@ -839,64 +888,64 @@ LINK AUDIT PASSED (3751 references)
 ### search finance-agent-wiki: risk control - PASS
 
 ```text
+[14] wikis/finance-agent-wiki/MOC.md :: finance-agent-wiki MOC
+    --- title: "finance-agent-wiki MOC" wiki: "finance-agent-wiki" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: f...
 [11] wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md :: Portfolio And Risk Metrics
     --- title: Portfolio And Risk Metrics status: stable last_updated: 2026-06-01 risk_level: high --- # Portfolio And Risk Metrics ## Purpose Define stable portfolio and risk measurement concepts for educational research, s...
-[5] wikis/finance-agent-wiki/rules/risk-control.md :: Finance Risk Control Rules
-    --- title: Finance Risk Control Rules status: stable last_updated: 2026-05-27 risk_level: high --- # Finance Risk Control Rules ## Purpose 任何金融 Agent 都必须先做风险控制，再做收益分析。 ## Non-negotiable rules 1. 默认只做教育、研究、模拟盘和风险检查。 2. 不输...
-[5] wikis/finance-agent-wiki/update-log.md :: Update Log — Finance Agent Wiki
-    # Update Log — Finance Agent Wiki ## 2026-06-01 - Added stable high-density knowledge pages for portfolio risk metrics, model risk and backtest hygiene, portfolio review workflow, and overfitting detection. - Updated REA...
-[3] wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md :: Portfolio Review Workflow
-    --- title: Portfolio Review Workflow status: stable last_updated: 2026-06-01 risk_level: high --- # Portfolio Review Workflow ## Purpose Offer a stable review workflow for simulated or educational portfolio analysis. ## ...
-[2] wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md :: Sample Backtest Risk Review
-    --- title: Sample Backtest Risk Review status: stable last_updated: 2026-05-27 risk_level: high --- # Sample Backtest Risk Review ## Purpose 提供一个可复用的回测审查样例，帮助 Agent 判断回测报告是否满足数据、成本、风控和上线边界要求。 ## When to use 用于审查用户提供的策略回测...
-[2] wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md :: Model Risk And Backtest Hygiene
-    --- title: Model Risk And Backtest Hygiene status: stable last_updated: 2026-06-01 risk_level: high --- # Model Risk And Backtest Hygiene ## Purpose Provide stable rules for preventing misleading financial models and ove...
-[1] wikis/finance-agent-wiki/AGENTS.md :: AGENTS.md — Finance Agent Wiki
-    # AGENTS.md — Finance Agent Wiki ## Trigger Use this wiki when the task involves: 金融, 投资, 财报, 估值, 市场数据, 回测, 风控, 交易系统, 资金费率, 套利. ## Reading order 1. `manifest.yaml` 2. `README.md` 3. `rules/` 4. `workflows/` 5. `cases/` 6...
-[1] wikis/finance-agent-wiki/cases/sample-overfitting-detection.md :: Sample Overfitting Detection
-    --- title: Sample Overfitting Detection status: stable last_updated: 2026-06-01 risk_level: high --- # Sample Overfitting Detection ## Purpose Show how a finance agent should respond to a suspiciously strong backtest wit...
+[10] wikis/finance-agent-wiki/cases/case-leverage-drawdown-risk.md :: Case Leverage Drawdown Risk
+    --- title: "Case Leverage Drawdown Risk" wiki: "finance-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_rev...
+[10] wikis/finance-agent-wiki/cases/case-liquidity-exit-risk.md :: Case Liquidity Exit Risk
+    --- title: "Case Liquidity Exit Risk" wiki: "finance-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review...
+[10] wikis/finance-agent-wiki/concepts/portfolio-concentration-risk.md :: Portfolio Concentration Risk
+    --- title: "Portfolio Concentration Risk" wiki: "finance-agent-wiki" type: concept status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human...
+[10] wikis/finance-agent-wiki/concepts/risk-of-ruin.md :: Risk Of Ruin
+    --- title: "Risk Of Ruin" wiki: "finance-agent-wiki" type: concept status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: true ri...
+[10] wikis/finance-agent-wiki/evals/stable-knowledge-evals.yaml :: stable-knowledge-evals
+    wiki: finance-agent-wiki updated: 2026-06-15 tests: - id: finance-agent-stable-001 question: "How should an agent use Ohlcv Interpretation while respecting Educational Only Output?" expected_wiki: finance-agent-wiki expe...
+[10] wikis/finance-agent-wiki/prompts/finance-risk-review-prompt.md :: Finance Risk Review Prompt
+    --- title: "Finance Risk Review Prompt" wiki: "finance-agent-wiki" type: prompt status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_re...
 ```
 
 ### search customs-agent-wiki: field extraction - PASS
 
 ```text
+[20] wikis/customs-agent-wiki/prompts/field-extraction-review-prompt.md :: Field Extraction Review Prompt
+    --- title: "Field Extraction Review Prompt" wiki: "customs-agent-wiki" type: prompt status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_huma...
+[11] wikis/customs-agent-wiki/concepts/contract-field-alignment.md :: Contract Field Alignment
+    --- title: "Contract Field Alignment" wiki: "customs-agent-wiki" type: concept status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_rev...
+[11] wikis/customs-agent-wiki/concepts/ocr-field-confidence.md :: OCR Field Confidence
+    --- title: "OCR Field Confidence" wiki: "customs-agent-wiki" type: concept status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review:...
+[11] wikis/customs-agent-wiki/rules/field-provenance-required.md :: Field Provenance Required
+    --- title: "Field Provenance Required" wiki: "customs-agent-wiki" type: rule status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_revie...
+[8] wikis/customs-agent-wiki/evals/stable-knowledge-evals.yaml :: stable-knowledge-evals
+    wiki: customs-agent-wiki updated: 2026-06-15 tests: - id: customs-agent-stable-001 question: "How should an agent use Commercial Invoice Structure while respecting Do Not Invent Missing Values?" expected_wiki: customs-ag...
+[8] wikis/customs-agent-wiki/MOC.md :: customs-agent-wiki MOC
+    --- title: "customs-agent-wiki MOC" wiki: "customs-agent-wiki" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: f...
 [4] wikis/customs-agent-wiki/rules/field-extraction-rules.md :: Customs Field Extraction Rules
     --- title: Customs Field Extraction Rules status: stable last_updated: 2026-05-27 risk_level: medium --- # Customs Field Extraction Rules ## Core fields - shipper / seller / exporter -> 发货人/卖方/出口商 - consignee / buyer / i...
 [3] wikis/customs-agent-wiki/update-log.md :: Update Log — Customs Document Agent Wiki
     # Update Log — Customs Document Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample invoice extraction and document difference cases with expected JSON/table...
-[2] wikis/customs-agent-wiki/cases/sample-invoice-extraction.md :: Sample Invoice Extraction
-    --- title: Sample Invoice Extraction status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Invoice Extraction ## Purpose 提供一个合成商业发票字段抽取样例，展示英文表头到标准 JSON 的映射方式。 ## When to use 用于训练或测试 OCR/文本解析到结构化 JSON 的...
-[1] wikis/customs-agent-wiki/cases/sample-document-diff.md :: Sample Document Difference Table
-    --- title: Sample Document Difference Table status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Document Difference Table ## Purpose 提供合同、发票和装箱单差异比对样例，展示风险等级和人工复核建议。 ## When to use 用于测试单证差异表输出、金额币种校验、...
-[1] wikis/customs-agent-wiki/concepts/document-types.md :: Trade Document Types
-    --- title: Trade Document Types status: stable last_updated: 2026-05-27 risk_level: medium --- # Trade Document Types ## Common documents - Contract / Sales Contract: 买卖双方、合同号、签署日期、货物、数量、价格、贸易术语、付款方式、交货条件。 - Commercial I...
-[1] wikis/customs-agent-wiki/sources/source-notes.md :: Source Notes — Customs Document Agent Wiki
-    # Source Notes — Customs Document Agent Wiki ## Policy 本文件记录需要外部来源、实时核验或权威确认的主题。 ## Needs source update - topic: latest HS codes, customs supervision conditions and declaration elements status: needs-source-update sugges...
-[1] wikis/customs-agent-wiki/workflows/difference-comparison.md :: Document Difference Comparison Workflow
-    --- title: Document Difference Comparison Workflow status: stable last_updated: 2026-05-27 risk_level: medium --- # Document Difference Comparison Workflow ## Purpose 比较多份单证之间的关键字段一致性，输出差异表、风险等级和人工复核建议。 ## When to use 用于...
-[1] wikis/customs-agent-wiki/workflows/document-checking.md :: Customs Document Checking Workflow
-    --- title: Customs Document Checking Workflow status: stable last_updated: 2026-05-26 risk_level: medium --- # Customs Document Checking Workflow ## Workflow 1. Identify document types. 2. Extract fields into normalized ...
 ```
 
 ### search finance-agent-wiki: paper trading real money - PASS
 
 ```text
-[4] wikis/finance-agent-wiki/workflows/paper-trading-system.md :: Paper Trading System Workflow
-    --- title: Paper Trading System Workflow status: stable last_updated: 2026-05-26 risk_level: high --- # Paper Trading System Workflow ## Purpose 设计模拟盘系统，验证数据、风控、执行流程和日志，而不是直接投入真实资金。 ## Components - market data adapter - ...
-[3] wikis/finance-agent-wiki/cases/sample-overfitting-detection.md :: Sample Overfitting Detection
-    --- title: Sample Overfitting Detection status: stable last_updated: 2026-06-01 risk_level: high --- # Sample Overfitting Detection ## Purpose Show how a finance agent should respond to a suspiciously strong backtest wit...
-[3] wikis/finance-agent-wiki/update-log.md :: Update Log — Finance Agent Wiki
-    # Update Log — Finance Agent Wiki ## 2026-06-01 - Added stable high-density knowledge pages for portfolio risk metrics, model risk and backtest hygiene, portfolio review workflow, and overfitting detection. - Updated REA...
-[2] wikis/finance-agent-wiki/rules/trading-system-boundaries.md :: Trading System Boundaries
-    --- title: Trading System Boundaries status: stable last_updated: 2026-05-27 risk_level: high --- # Trading System Boundaries ## Purpose 约束金融 Agent 在交易系统设计中的权限、输出和安全边界。 ## When to use 用于模拟盘、回测平台、风险引擎、交易日志、告警、权限控制和人工审批流程设...
-[2] wikis/finance-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log
-    # Source Refresh Log Wiki: finance-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into t...
-[1] wikis/finance-agent-wiki/concepts/portfolio-and-risk-metrics.md :: Portfolio And Risk Metrics
-    --- title: Portfolio And Risk Metrics status: stable last_updated: 2026-06-01 risk_level: high --- # Portfolio And Risk Metrics ## Purpose Define stable portfolio and risk measurement concepts for educational research, s...
-[1] wikis/finance-agent-wiki/README.md :: Finance Agent Wiki
-    # Finance Agent Wiki ## Stable Knowledge Expansion (2026-06-01) Added stable, non-current finance knowledge: - `concepts/portfolio-and-risk-metrics.md`: portfolio exposure, drawdown, liquidity, correlation, and risk-adju...
-[1] wikis/finance-agent-wiki/sources/source-notes.md :: Source Notes — Finance Agent Wiki
-    # Source Notes — Finance Agent Wiki ## Policy 本文件记录需要外部来源、实时核验或权威确认的主题。 ## Needs source update - topic: current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity status: needs-source-update s...
+[19] wikis/finance-agent-wiki/cases/case-paper-trading-first.md :: Case Paper Trading First
+    --- title: "Case Paper Trading First" wiki: "finance-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review...
+[19] wikis/finance-agent-wiki/prompts/paper-trading-gate-prompt.md :: Paper Trading Gate Prompt
+    --- title: "Paper Trading Gate Prompt" wiki: "finance-agent-wiki" type: prompt status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_rev...
+[19] wikis/finance-agent-wiki/rules/human-confirmation-for-real-money.md :: Human Confirmation For Real Money
+    --- title: "Human Confirmation For Real Money" wiki: "finance-agent-wiki" type: rule status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_hum...
+[19] wikis/finance-agent-wiki/rules/paper-trading-default.md :: Paper Trading Default
+    --- title: "Paper Trading Default" wiki: "finance-agent-wiki" type: rule status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: t...
+[19] wikis/finance-agent-wiki/workflows/paper-trading-readiness-workflow.md :: Paper Trading Readiness Workflow
+    --- title: "Paper Trading Readiness Workflow" wiki: "finance-agent-wiki" type: workflow status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_...
+[14] wikis/finance-agent-wiki/MOC.md :: finance-agent-wiki MOC
+    --- title: "finance-agent-wiki MOC" wiki: "finance-agent-wiki" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: f...
+[10] wikis/finance-agent-wiki/evals/stable-knowledge-evals.yaml :: stable-knowledge-evals
+    wiki: finance-agent-wiki updated: 2026-06-15 tests: - id: finance-agent-stable-001 question: "How should an agent use Ohlcv Interpretation while respecting Educational Only Output?" expected_wiki: finance-agent-wiki expe...
+[10] wikis/finance-agent-wiki/rules/trading-system-permission-control.md :: Trading System Permission Control
+    --- title: "Trading System Permission Control" wiki: "finance-agent-wiki" type: rule status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_hum...
 ```
 
 ### search customs-agent-wiki: INV-EXAMPLE-001 evidence confidence - PASS
@@ -904,20 +953,20 @@ LINK AUDIT PASSED (3751 references)
 ```text
 [15] wikis/customs-agent-wiki/cases/sample-invoice-extraction.md :: Sample Invoice Extraction
     --- title: Sample Invoice Extraction status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Invoice Extraction ## Purpose 提供一个合成商业发票字段抽取样例，展示英文表头到标准 JSON 的映射方式。 ## When to use 用于训练或测试 OCR/文本解析到结构化 JSON 的...
+[13] wikis/customs-agent-wiki/concepts/ocr-field-confidence.md :: OCR Field Confidence
+    --- title: "OCR Field Confidence" wiki: "customs-agent-wiki" type: concept status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review:...
 [7] wikis/customs-agent-wiki/rules/field-extraction-rules.md :: Customs Field Extraction Rules
     --- title: Customs Field Extraction Rules status: stable last_updated: 2026-05-27 risk_level: medium --- # Customs Field Extraction Rules ## Core fields - shipper / seller / exporter -> 发货人/卖方/出口商 - consignee / buyer / i...
 [5] wikis/customs-agent-wiki/evals/customs-agent-evals.yaml :: customs-agent-evals
     wiki: customs-agent-wiki updated: 2026-05-27 tests: - id: customs-extract-001 question: "从发票中抽取 invoice no、currency、total amount。" expected_behavior: "输出标准 JSON，并保留 evidence。" - id: customs-compare-001 question: "合同和发票金额...
 [5] wikis/customs-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log
     # Source Refresh Log Wiki: customs-agent-wiki Risk level: medium Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into...
-[3] wikis/customs-agent-wiki/workflows/ocr-to-json.md :: OCR to Structured JSON Workflow
-    --- title: OCR to Structured JSON Workflow status: stable last_updated: 2026-05-27 risk_level: medium --- # OCR to Structured JSON Workflow ## Purpose 把扫描件、图片或 PDF 文本解析为可比对的结构化 JSON，同时保留证据和置信度。 ## When to use 用于合同、商业发票、装...
-[2] wikis/customs-agent-wiki/cases/sample-document-diff.md :: Sample Document Difference Table
-    --- title: Sample Document Difference Table status: stable last_updated: 2026-05-27 risk_level: medium --- # Sample Document Difference Table ## Purpose 提供合同、发票和装箱单差异比对样例，展示风险等级和人工复核建议。 ## When to use 用于测试单证差异表输出、金额币种校验、...
-[2] wikis/customs-agent-wiki/update-log.md :: Update Log — Customs Document Agent Wiki
-    # Update Log — Customs Document Agent Wiki ## 2026-05-27 - Added source refresh log template for authoritative source verification. - Added sample invoice extraction and document difference cases with expected JSON/table...
-[2] wikis/customs-agent-wiki/workflows/document-checking.md :: Customs Document Checking Workflow
-    --- title: Customs Document Checking Workflow status: stable last_updated: 2026-05-26 risk_level: medium --- # Customs Document Checking Workflow ## Workflow 1. Identify document types. 2. Extract fields into normalized ...
+[4] wikis/customs-agent-wiki/cases/case-currency-mismatch.md :: Case Currency Mismatch
+    --- title: "Case Currency Mismatch" wiki: "customs-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: ...
+[4] wikis/customs-agent-wiki/cases/case-hidden-ocr-uncertainty.md :: Case Hidden OCR Uncertainty
+    --- title: "Case Hidden OCR Uncertainty" wiki: "customs-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_rev...
+[4] wikis/customs-agent-wiki/cases/case-invented-missing-value.md :: Case Invented Missing Value
+    --- title: "Case Invented Missing Value" wiki: "customs-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_rev...
 ```
 
 ### search agent-engineering-wiki: needs-source-update topics - PASS
@@ -937,25 +986,29 @@ LINK AUDIT PASSED (3751 references)
     id: agent-engineering-wiki name: Agent Engineering Wiki version: 0.1.0 language: zh-CN domain: ai_agent_engineering risk_level: medium freshness_requirement: medium description: "Agent 架构、RAG、知识包、Codex Skills、评测与安全边界知识库。...
 [1] wikis/agent-engineering-wiki/prompts/default-agent.md :: Default Agent Prompt
     --- title: Default Agent Prompt status: stable last_updated: 2026-05-26 risk_level: medium --- # Default Agent Prompt 你是 `Agent Engineering Wiki`。处理任务时必须： 1. 先读取本知识库的 `manifest.yaml`、`AGENTS.md`、`rules/`。 2. 使用稳定知识回答稳定问题...
-[1] wikis/agent-engineering-wiki/README.md :: Agent Engineering Wiki
-    # Agent Engineering Wiki ## Stable Knowledge Expansion (2026-06-01) Added stable, non-current agent engineering knowledge: - `concepts/agent-memory-and-context.md`: working memory, long-term memory, retrieval-backed memo...
+[1] wikis/agent-engineering-wiki/README.md :: Knowledge Density Expansion v2.1
+    ## Knowledge Density Expansion v2.1 Generated on 2026-06-15 from model-synthesized stable knowledge. - Scope: long-lived concepts, rules, workflows, cases, prompts, and evals. - Boundary: no current facts, no authoritati...
 ```
 
 ### search security-agent-wiki: bypass login Authorization header - PASS
 
 ```text
+[12] wikis/security-agent-wiki/evals/stable-knowledge-evals.yaml :: stable-knowledge-evals
+    wiki: security-agent-wiki updated: 2026-06-15 tests: - id: security-agent-stable-001 question: "How should an agent use Least Privilege while respecting Defensive Only Boundary?" expected_wiki: security-agent-wiki expect...
+[11] wikis/security-agent-wiki/rules/authorization-required.md :: Authorization Required
+    --- title: "Authorization Required" wiki: "security-agent-wiki" type: rule status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review:...
 [9] wikis/security-agent-wiki/cases/sample-login-review.md :: Sample Defensive Login Review
     --- title: Sample Defensive Login Review status: stable last_updated: 2026-05-27 risk_level: high --- # Sample Defensive Login Review ## Purpose 提供一个合成登录接口防御性审查样例，验证 Agent 是否输出修复建议而非攻击步骤。 ## When to use 用于代码安全审查、上线前检查、权限...
-[2] wikis/security-agent-wiki/update-log.md :: Update Log — Defensive Security Agent Wiki
-    # Update Log — Defensive Security Agent Wiki ## 2026-06-01 - Added stable high-density knowledge pages for security controls, secret handling, defensive triage, and secret exposure review. - Updated README and manifest t...
-[2] wikis/security-agent-wiki/workflows/defensive-review-triage.md :: Defensive Review Triage
-    --- title: Defensive Review Triage status: stable last_updated: 2026-06-01 risk_level: high --- # Defensive Review Triage ## Purpose Provide a stable workflow for triaging defensive security findings without enabling mis...
-[1] wikis/security-agent-wiki/README.md :: Defensive Security Agent Wiki
-    # Defensive Security Agent Wiki ## Stable Knowledge Expansion (2026-06-01) Added stable, non-current defensive security knowledge: - `concepts/security-control-model.md`: preventive, detective, corrective controls, least...
-[1] wikis/security-agent-wiki/sources/source-refresh-log.md :: Source Refresh Log
-    # Source Refresh Log Wiki: security-agent-wiki Risk level: high Freshness requirement: high Template initialized: 2026-05-27 ## Purpose Record authoritative source verification work before current facts are written into ...
-[1] wikis/security-agent-wiki/workflows/security-review-checklist.md :: Defensive Security Review Checklist
-    --- title: Defensive Security Review Checklist status: stable last_updated: 2026-05-26 risk_level: high --- # Defensive Security Review Checklist ## Checklist - Secrets are not committed. - Environment variables are docu...
+[2] wikis/security-agent-wiki/cases/case-committing-secrets.md :: Case Committing Secrets
+    --- title: "Case Committing Secrets" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review...
+[2] wikis/security-agent-wiki/cases/case-exploit-request-refusal.md :: Case Exploit Request Refusal
+    --- title: "Case Exploit Request Refusal" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_r...
+[2] wikis/security-agent-wiki/cases/case-log-redaction-success.md :: Case Log Redaction Success
+    --- title: "Case Log Redaction Success" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_rev...
+[2] wikis/security-agent-wiki/cases/case-patch-without-review.md :: Case Patch Without Review
+    --- title: "Case Patch Without Review" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_revi...
+[2] wikis/security-agent-wiki/cases/case-running-unknown-script.md :: Case Running Unknown Script
+    --- title: "Case Running Unknown Script" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_re...
 ```
 
 ### pack wikis - PASS
@@ -981,7 +1034,7 @@ packed packs\agent-wiki-hub-all.zip
 ```text
 Wrote docs\PACK_AUDIT.md
 Wrote registry\pack-audit.json
-PACK INTEGRITY PASSED (615 checks)
+PACK INTEGRITY PASSED (644 checks)
 ```
 
 ### generate release notes - PASS
@@ -1023,5 +1076,5 @@ packed packs\agent-wiki-hub-all.zip
 ```text
 Wrote docs\PACK_AUDIT.md
 Wrote registry\pack-audit.json
-PACK INTEGRITY PASSED (615 checks)
+PACK INTEGRITY PASSED (644 checks)
 ```

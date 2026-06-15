@@ -4,10 +4,28 @@
 
 Agent Wiki Hub is a reusable Agent Knowledge Pack repository. `wikis/` remains the agent execution source of truth; v2 adds a generated Obsidian vault, local dashboard, RAG scaffold, controlled crawler scaffold, multimodal ingestion scaffold, source-review queueing, and safety audits.
 
+## Agent Wiki Hub v2.1
+
+v2.1 expands the hub from a complete framework into a high-density stable knowledge base. The added pages are model-synthesized stable domain knowledge: they are not authoritative sources, do not contain current facts, and do not change source-review evidence state.
+
+New local capabilities:
+
+- Knowledge density reports and audits for every wiki.
+- Stable concepts, rules, workflows, cases, prompts, and evals across all 12 wikis.
+- Wiki root `MOC.md` pages plus enhanced Obsidian MOCs and density dashboards.
+- Dashboard JSON for knowledge density, high-risk boundaries, current-fact gates, and MOC status.
+- RAG fallback metadata for `current_fact`, `source_status`, `generated_by`, `risk_level`, and `human_gate_required`.
+
+High-risk or changing claims still require Source Review and human gates. This includes finance, legal, health, security, node operations, customs, airdrop/Web3, platform policies, current laws, current software versions, prices, fees, project status, and live vulnerability status.
+
 ## Quick Start
 
 ```bash
 python scripts/run_acceptance.py
+python scripts/generate_knowledge_density_report.py
+python scripts/audit_knowledge_density.py
+python scripts/audit_current_fact_leakage.py
+python scripts/audit_high_risk_boundaries.py
 python scripts/generate_obsidian_vault.py
 python scripts/generate_obsidian_canvas.py
 python dashboard/scripts/collect_dashboard_data.py
@@ -79,6 +97,13 @@ python scripts/audit_crawler_outputs.py
 python scripts/audit_knowledge_promotion.py
 python scripts/audit_rag_config.py
 python scripts/audit_secret_leaks.py
+python scripts/generate_knowledge_density_report.py
+python scripts/audit_knowledge_density.py
+python scripts/audit_current_fact_leakage.py
+python scripts/audit_high_risk_boundaries.py
+python scripts/generate_knowledge_expansion_summary.py
+python scripts/generate_wiki_moc_pages.py
+python scripts/generate_obsidian_backlinks.py
 python scripts/run_acceptance.py
 ```
 

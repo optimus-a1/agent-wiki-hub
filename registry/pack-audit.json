@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "passed": true,
   "checks": [
     {
@@ -20,7 +20,7 @@
     {
       "check_id": "agent-engineering-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "26 entries"
+      "evidence": "67 entries"
     },
     {
       "check_id": "agent-engineering-wiki:safe_member_names",
@@ -100,7 +100,7 @@
     {
       "check_id": "airdrop-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "19 entries"
+      "evidence": "55 entries"
     },
     {
       "check_id": "airdrop-agent-wiki:safe_member_names",
@@ -180,7 +180,7 @@
     {
       "check_id": "coding-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "25 entries"
+      "evidence": "62 entries"
     },
     {
       "check_id": "coding-agent-wiki:safe_member_names",
@@ -260,7 +260,7 @@
     {
       "check_id": "content-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "18 entries"
+      "evidence": "47 entries"
     },
     {
       "check_id": "content-agent-wiki:safe_member_names",
@@ -340,7 +340,7 @@
     {
       "check_id": "customs-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "21 entries"
+      "evidence": "57 entries"
     },
     {
       "check_id": "customs-agent-wiki:safe_member_names",
@@ -420,7 +420,7 @@
     {
       "check_id": "ecommerce-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "19 entries"
+      "evidence": "47 entries"
     },
     {
       "check_id": "ecommerce-agent-wiki:safe_member_names",
@@ -500,7 +500,7 @@
     {
       "check_id": "finance-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "26 entries"
+      "evidence": "68 entries"
     },
     {
       "check_id": "finance-agent-wiki:safe_member_names",
@@ -580,7 +580,7 @@
     {
       "check_id": "health-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "17 entries"
+      "evidence": "41 entries"
     },
     {
       "check_id": "health-agent-wiki:safe_member_names",
@@ -660,7 +660,7 @@
     {
       "check_id": "legal-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "17 entries"
+      "evidence": "42 entries"
     },
     {
       "check_id": "legal-agent-wiki:safe_member_names",
@@ -740,7 +740,7 @@
     {
       "check_id": "nodeops-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "23 entries"
+      "evidence": "63 entries"
     },
     {
       "check_id": "nodeops-agent-wiki:safe_member_names",
@@ -820,7 +820,7 @@
     {
       "check_id": "research-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "21 entries"
+      "evidence": "56 entries"
     },
     {
       "check_id": "research-agent-wiki:safe_member_names",
@@ -900,7 +900,7 @@
     {
       "check_id": "security-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "23 entries"
+      "evidence": "63 entries"
     },
     {
       "check_id": "security-agent-wiki:safe_member_names",
@@ -980,7 +980,7 @@
     {
       "check_id": "all:zip_not_empty",
       "passed": true,
-      "evidence": "531 entries"
+      "evidence": "973 entries"
     },
     {
       "check_id": "all:safe_member_names",
@@ -1773,6 +1773,11 @@
       "evidence": "registry/crawler-sources.json"
     },
     {
+      "check_id": "all:includes:registry/current-fact-leakage-audit.json",
+      "passed": true,
+      "evidence": "registry/current-fact-leakage-audit.json"
+    },
+    {
       "check_id": "all:includes:registry/dashboard-audit.json",
       "passed": true,
       "evidence": "registry/dashboard-audit.json"
@@ -1781,6 +1786,11 @@
       "check_id": "all:includes:registry/dashboard-manifest.json",
       "passed": true,
       "evidence": "registry/dashboard-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/high-risk-boundary-audit.json",
+      "passed": true,
+      "evidence": "registry/high-risk-boundary-audit.json"
     },
     {
       "check_id": "all:includes:registry/hub-navigation.json",
@@ -1796,6 +1806,26 @@
       "check_id": "all:includes:registry/ingestion-pipeline-manifest.json",
       "passed": true,
       "evidence": "registry/ingestion-pipeline-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/knowledge-density-audit.json",
+      "passed": true,
+      "evidence": "registry/knowledge-density-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/knowledge-density-expansion-manifest.json",
+      "passed": true,
+      "evidence": "registry/knowledge-density-expansion-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/knowledge-density-report.json",
+      "passed": true,
+      "evidence": "registry/knowledge-density-report.json"
+    },
+    {
+      "check_id": "all:includes:registry/knowledge-expansion-summary.json",
+      "passed": true,
+      "evidence": "registry/knowledge-expansion-summary.json"
     },
     {
       "check_id": "all:includes:registry/knowledge-promotion-audit.json",
@@ -1816,6 +1846,11 @@
       "check_id": "all:includes:registry/link-audit.json",
       "passed": true,
       "evidence": "registry/link-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/obsidian-backlink-report.json",
+      "passed": true,
+      "evidence": "registry/obsidian-backlink-report.json"
     },
     {
       "check_id": "all:includes:registry/obsidian-canvas-manifest.json",
@@ -2383,6 +2418,11 @@
       "evidence": "registry/source-update-queue.json"
     },
     {
+      "check_id": "all:includes:registry/wiki-moc-report.json",
+      "passed": true,
+      "evidence": "registry/wiki-moc-report.json"
+    },
+    {
       "check_id": "all:includes:registry/wiki-registry.yaml",
       "passed": true,
       "evidence": "registry/wiki-registry.yaml"
@@ -2408,14 +2448,29 @@
       "evidence": "scripts/audit_crawler_outputs.py"
     },
     {
+      "check_id": "all:includes:scripts/audit_current_fact_leakage.py",
+      "passed": true,
+      "evidence": "scripts/audit_current_fact_leakage.py"
+    },
+    {
       "check_id": "all:includes:scripts/audit_dashboard.py",
       "passed": true,
       "evidence": "scripts/audit_dashboard.py"
     },
     {
+      "check_id": "all:includes:scripts/audit_high_risk_boundaries.py",
+      "passed": true,
+      "evidence": "scripts/audit_high_risk_boundaries.py"
+    },
+    {
       "check_id": "all:includes:scripts/audit_ingestion_pipeline.py",
       "passed": true,
       "evidence": "scripts/audit_ingestion_pipeline.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_knowledge_density.py",
+      "passed": true,
+      "evidence": "scripts/audit_knowledge_density.py"
     },
     {
       "check_id": "all:includes:scripts/audit_knowledge_promotion.py",
@@ -2506,6 +2561,21 @@
       "check_id": "all:includes:scripts/generate_hub_navigation.py",
       "passed": true,
       "evidence": "scripts/generate_hub_navigation.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_knowledge_density_report.py",
+      "passed": true,
+      "evidence": "scripts/generate_knowledge_density_report.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_knowledge_expansion_summary.py",
+      "passed": true,
+      "evidence": "scripts/generate_knowledge_expansion_summary.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_obsidian_backlinks.py",
+      "passed": true,
+      "evidence": "scripts/generate_obsidian_backlinks.py"
     },
     {
       "check_id": "all:includes:scripts/generate_obsidian_canvas.py",
@@ -2613,9 +2683,19 @@
       "evidence": "scripts/generate_source_reviewer_queue.py"
     },
     {
+      "check_id": "all:includes:scripts/generate_v2_1_knowledge_density.py",
+      "passed": true,
+      "evidence": "scripts/generate_v2_1_knowledge_density.py"
+    },
+    {
       "check_id": "all:includes:scripts/generate_v2_scaffold.py",
       "passed": true,
       "evidence": "scripts/generate_v2_scaffold.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_wiki_moc_pages.py",
+      "passed": true,
+      "evidence": "scripts/generate_wiki_moc_pages.py"
     },
     {
       "check_id": "all:includes:scripts/import_source_evidence_packet.py",
@@ -2758,6 +2838,11 @@
       "evidence": "docs/CRAWLER_SOURCE_POLICY.md"
     },
     {
+      "check_id": "all:includes:docs/CURRENT_FACT_LEAKAGE_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/CURRENT_FACT_LEAKAGE_AUDIT.md"
+    },
+    {
       "check_id": "all:includes:docs/DASHBOARD_AUDIT.md",
       "passed": true,
       "evidence": "docs/DASHBOARD_AUDIT.md"
@@ -2766,6 +2851,16 @@
       "check_id": "all:includes:docs/DASHBOARD_USAGE.md",
       "passed": true,
       "evidence": "docs/DASHBOARD_USAGE.md"
+    },
+    {
+      "check_id": "all:includes:docs/HIGH_RISK_BOUNDARY_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/HIGH_RISK_BOUNDARY_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/HIGH_RISK_DOMAIN_BOUNDARIES.md",
+      "passed": true,
+      "evidence": "docs/HIGH_RISK_DOMAIN_BOUNDARIES.md"
     },
     {
       "check_id": "all:includes:docs/HUB_NAVIGATION.md",
@@ -2781,6 +2876,26 @@
       "check_id": "all:includes:docs/INGESTION_PIPELINE_AUDIT.md",
       "passed": true,
       "evidence": "docs/INGESTION_PIPELINE_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_DENSITY_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_DENSITY_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_DENSITY_GENERATION.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_DENSITY_GENERATION.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_DENSITY_REPORT.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_DENSITY_REPORT.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_EXPANSION_SUMMARY.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_EXPANSION_SUMMARY.md"
     },
     {
       "check_id": "all:includes:docs/KNOWLEDGE_INGESTION_REVIEW_FLOW.md",
@@ -2813,9 +2928,19 @@
       "evidence": "docs/LOCAL_USAGE_GUIDE.md"
     },
     {
+      "check_id": "all:includes:docs/MODEL_SYNTHESIZED_KNOWLEDGE_BOUNDARY.md",
+      "passed": true,
+      "evidence": "docs/MODEL_SYNTHESIZED_KNOWLEDGE_BOUNDARY.md"
+    },
+    {
       "check_id": "all:includes:docs/MULTIMODAL_PROCESSING_GUIDE.md",
       "passed": true,
       "evidence": "docs/MULTIMODAL_PROCESSING_GUIDE.md"
+    },
+    {
+      "check_id": "all:includes:docs/OBSIDIAN_BACKLINK_REPORT.md",
+      "passed": true,
+      "evidence": "docs/OBSIDIAN_BACKLINK_REPORT.md"
     },
     {
       "check_id": "all:includes:docs/OBSIDIAN_CANVAS_GUIDE.md",
@@ -3048,14 +3173,34 @@
       "evidence": "docs/SOURCE_UPDATE_QUEUE.md"
     },
     {
+      "check_id": "all:includes:docs/STABLE_KNOWLEDGE_POLICY.md",
+      "passed": true,
+      "evidence": "docs/STABLE_KNOWLEDGE_POLICY.md"
+    },
+    {
+      "check_id": "all:includes:docs/UPGRADE_V2_1_KNOWLEDGE_DENSITY.md",
+      "passed": true,
+      "evidence": "docs/UPGRADE_V2_1_KNOWLEDGE_DENSITY.md"
+    },
+    {
       "check_id": "all:includes:docs/UPGRADE_V2_OBSIDIAN_RAG_AUTONOMOUS.md",
       "passed": true,
       "evidence": "docs/UPGRADE_V2_OBSIDIAN_RAG_AUTONOMOUS.md"
     },
     {
+      "check_id": "all:includes:docs/UPGRADE_V2_OBSIDIAN_RAG_DASHBOARD.md",
+      "passed": true,
+      "evidence": "docs/UPGRADE_V2_OBSIDIAN_RAG_DASHBOARD.md"
+    },
+    {
       "check_id": "all:includes:docs/VALIDATION_RESULT.txt",
       "passed": true,
       "evidence": "docs/VALIDATION_RESULT.txt"
+    },
+    {
+      "check_id": "all:includes:docs/WIKI_MOC_REPORT.md",
+      "passed": true,
+      "evidence": "docs/WIKI_MOC_REPORT.md"
     },
     {
       "check_id": "all:includes:docs/WIKI_STATUS.md",

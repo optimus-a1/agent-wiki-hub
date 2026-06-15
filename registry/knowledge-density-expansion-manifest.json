@@ -1,0 +1,2532 @@
+{
+  "generated": "2026-06-15",
+  "passed": true,
+  "current_fact": false,
+  "network_used": false,
+  "evidence_status_changed": false,
+  "new_page_count": 389,
+  "records": [
+    {
+      "path": "wikis/customs-agent-wiki/concepts/commercial-invoice-structure.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/packing-list-structure.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/contract-field-alignment.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/factory-inspection-document-review.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/certificate-of-conformity-review.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/ocr-field-confidence.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/amount-currency-consistency.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/gross-weight-vs-net-weight-checks.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/package-count-reconciliation.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/declaration-element-model.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/do-not-invent-missing-values.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/field-provenance-required.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/ocr-uncertainty-disclosure.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/currency-and-amount-gate.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/weight-and-package-reconciliation.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/document-version-control.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/manual-review-escalation.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/customs-policy-source-gate.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/ocr-to-structured-json-workflow.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/document-difference-triage.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/invoice-packing-list-reconciliation.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/contract-to-invoice-review.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/factory-document-review-workflow.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/declaration-element-review-workflow.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-invented-missing-value.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-hidden-ocr-uncertainty.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-package-count-mismatch.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-weight-inconsistency.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-manual-review-escalation.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/prompts/field-extraction-review-prompt.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/prompts/document-discrepancy-audit-prompt.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/prompts/customs-source-gate-prompt.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/prompts/manual-review-summary-prompt.md",
+      "wiki": "customs-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/customs-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "customs-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 10
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/linux-service-lifecycle.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/systemd-unit-reasoning.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/docker-container-isolation.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/docker-volume-backup.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/log-rotation-model.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/disk-pressure-signals.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/memory-pressure-signals.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/network-port-diagnosis.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/firewall-change-safety.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/rollback-first-operations.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/blockchain-node-health-signals.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/rpc-endpoint-safety.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/backup-before-mutation.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/production-human-confirmation.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/destructive-command-gate.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/firewall-change-review.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/secret-redaction-in-logs.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/rollback-plan-required.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/node-client-upgrade-source-gate.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/provider-limit-source-gate.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/disk-pressure-triage.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/memory-pressure-triage.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/network-port-triage.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/systemd-service-recovery.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/docker-volume-restore-check.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/node-client-upgrade-checklist.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/incident-response-workflow.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/post-incident-review-workflow.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-production-change-without-backup.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-memory-leak-triage.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-firewall-lockout-prevention.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-node-upgrade-source-gate.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-rpc-endpoint-exposure.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/prompts/ops-incident-triage-prompt.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/prompts/backup-restore-review-prompt.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/prompts/production-change-risk-prompt.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/prompts/node-health-review-prompt.md",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "nodeops-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 10
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/wallet-compartmentalization.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/signing-risk-classes.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/approval-hygiene.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/phishing-signal-review.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/project-research-checklist.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/funding-claim-boundary.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/task-classification.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/sybil-risk-boundary.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/automation-ethics.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/source-gate-for-token-events.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-sybil-evasion.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-spam-automation.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-fake-identity.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-unverified-project-claims.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/wallet-signing-human-gate.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/approval-revocation-review.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/rumor-as-uncertain.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/tge-listing-snapshot-source-gate.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/workflows/project-research-workflow.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/workflows/wallet-risk-review-workflow.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/workflows/task-risk-classification-workflow.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/workflows/phishing-review-workflow.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/workflows/approval-hygiene-review.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/workflows/source-review-for-airdrop-claims.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-signing-unknown-message.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-treating-rumor-as-fact.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-sybil-evasion-request.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-unverified-tge-claim.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-wallet-compartment-success.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/prompts/airdrop-research-prompt.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/prompts/wallet-safety-review-prompt.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/prompts/task-risk-triage-prompt.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/prompts/source-gate-airdrop-prompt.md",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "airdrop-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 10
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/ohlcv-interpretation.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/order-book-basics.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/spread-and-liquidity.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/volume-vs-depth.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/volatility-and-drawdown.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/position-sizing-model.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/risk-of-ruin.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/slippage-and-fees.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/survivorship-bias.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/look-ahead-bias.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/portfolio-concentration-risk.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/walk-forward-validation.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/educational-only-output.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/no-personalized-buy-sell-advice.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/paper-trading-default.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/human-confirmation-for-real-money.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/leverage-risk-boundary.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/liquidity-risk-boundary.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/backtest-costs-required.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/out-of-sample-required.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/overfitting-check-required.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/trading-system-permission-control.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/market-data-quality-review.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/backtest-design-workflow.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/walk-forward-review-workflow.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/portfolio-risk-review-workflow.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/paper-trading-readiness-workflow.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/drawdown-review-workflow.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/financial-statement-triangulation.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/human-confirmation-trade-gate.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-personalized-buy-sell-request.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-missing-slippage-and-fees.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-liquidity-exit-risk.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-leverage-drawdown-risk.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-paper-trading-first.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/prompts/finance-risk-review-prompt.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/prompts/backtest-audit-prompt.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/prompts/portfolio-concentration-prompt.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/prompts/paper-trading-gate-prompt.md",
+      "wiki": "finance-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/finance-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "finance-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 12
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/requirement-clarification.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/minimal-implementation.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/test-first-thinking.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/refactoring-safety.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/dependency-boundary.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/error-handling-model.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/api-contract-thinking.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/git-workflow-basics.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/ci-failure-triage.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/secure-config-handling.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/scope-before-editing.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/tests-before-risky-change.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/no-secret-in-repo.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/preserve-user-changes.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/dependency-change-boundary.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/api-compatibility-check.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/error-visibility-rule.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/deployment-human-gate.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/requirement-to-task-workflow.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/test-first-implementation-workflow.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/debug-reproduce-isolate-fix.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/refactor-with-safety-net.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/ci-failure-triage-workflow.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/deployment-preflight-workflow.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/rollback-ready-deploy-workflow.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/secure-config-review-workflow.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/cases/case-overengineering.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/cases/case-silent-failure.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/cases/case-missing-regression-test.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/cases/case-secret-in-config.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/cases/case-minimal-fix-success.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/prompts/requirement-clarification-prompt.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/prompts/minimal-implementation-prompt.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/prompts/debugging-review-prompt.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/prompts/deployment-readiness-prompt.md",
+      "wiki": "coding-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/coding-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "coding-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 10
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/agent-system-components.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/tool-calling-contract.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/memory-hierarchy.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/rag-retrieval-design.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/agent-planning-loop.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/reflection-boundary.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/evaluation-harness.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/knowledge-pack-lifecycle.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/prompt-routing.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/source-review-gate.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/obsidian-vault-integration.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/autonomous-ingestion-safety.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/tool-use-justification.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/grounded-answer-boundary.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/memory-write-human-gate.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/retrieval-citation-required.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/eval-before-promotion.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/source-gate-for-current-claims.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/autonomy-action-boundary.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/no-hidden-instructions.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/agent-task-routing-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/rag-eval-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/knowledge-pack-release-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/prompt-routing-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/tool-call-review-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/memory-review-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/autonomous-ingestion-review-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/source-grounding-test-workflow.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/cases/case-ungrounded-agent-answer.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/cases/case-tool-overreach-remediation.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/cases/case-stale-memory-risk.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/cases/case-rag-citation-gap.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/cases/case-unsafe-autonomy-request.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/prompts/agent-routing-prompt.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/prompts/rag-grounding-review-prompt.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/prompts/tool-call-audit-prompt.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/prompts/memory-safety-review-prompt.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/prompts/knowledge-pack-review-prompt.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/prompts/eval-design-prompt.md",
+      "wiki": "agent-engineering-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "agent-engineering-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 10
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/least-privilege.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/secrets-management.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/threat-modeling.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/secure-logging.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/vulnerability-triage.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/dependency-risk-review.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/cloud-security-baseline.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/incident-containment.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/detection-rule-review.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/asset-exposure-model.md",
+      "wiki": "security-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/defensive-only-boundary.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/authorization-required.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/no-exploit-steps.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/no-credential-theft.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/secret-redaction-required.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/least-privilege-default.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/patch-source-gate.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/detection-change-human-gate.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/unknown-script-review.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/secure-logging-boundary.md",
+      "wiki": "security-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/threat-model-review-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/vulnerability-triage-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/dependency-review-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/patch-review-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/incident-containment-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/secret-exposure-response-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/cloud-baseline-review-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/detection-rule-review-workflow.md",
+      "wiki": "security-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md",
+      "wiki": "security-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-running-unknown-script.md",
+      "wiki": "security-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-exploit-request-refusal.md",
+      "wiki": "security-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-vulnerability-triage-safe.md",
+      "wiki": "security-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-log-redaction-success.md",
+      "wiki": "security-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-patch-without-review.md",
+      "wiki": "security-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/prompts/defensive-security-review-prompt.md",
+      "wiki": "security-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/prompts/secret-leak-triage-prompt.md",
+      "wiki": "security-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/prompts/threat-model-prompt.md",
+      "wiki": "security-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/prompts/dependency-security-review-prompt.md",
+      "wiki": "security-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/security-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "security-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 10
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/evidence-hierarchy.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/claim-strength-classification.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/citation-traceability.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/benchmark-interpretation.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/dataset-limitations.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/reproducibility-checklist.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/method-validity.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/bias-and-confounding.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/paper-summary-template.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/uncertainty-language.md",
+      "wiki": "research-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/no-fabricated-citations.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/exact-claim-support.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/benchmark-source-gate.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/dataset-license-source-gate.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/limitations-required.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/reproducibility-disclosure.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/no-cherry-picking.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/uncertainty-required.md",
+      "wiki": "research-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/literature-review-workflow.md",
+      "wiki": "research-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/paper-summary-workflow.md",
+      "wiki": "research-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/benchmark-claim-review-workflow.md",
+      "wiki": "research-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/citation-audit-workflow.md",
+      "wiki": "research-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/dataset-limitations-review.md",
+      "wiki": "research-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/reproducibility-review-workflow.md",
+      "wiki": "research-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/cases/case-fabricated-citation.md",
+      "wiki": "research-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md",
+      "wiki": "research-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/cases/case-unsupported-claim.md",
+      "wiki": "research-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/cases/case-dataset-leakage-risk.md",
+      "wiki": "research-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/cases/case-strong-summary-with-limitations.md",
+      "wiki": "research-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/prompts/literature-review-prompt.md",
+      "wiki": "research-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/prompts/paper-summary-prompt.md",
+      "wiki": "research-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/prompts/benchmark-claim-audit-prompt.md",
+      "wiki": "research-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/prompts/citation-integrity-prompt.md",
+      "wiki": "research-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/research-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "research-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 10
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog-model.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/sku-and-spu-distinction.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/attribute-normalization.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/inventory-vs-availability.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/price-and-promotion-boundary.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/customer-intent-signals.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/recommendation-constraint-matching.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/concepts/return-and-refund-concepts.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/platform-policy-source-gate.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/privacy-and-consent-rule.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/no-invented-stock-or-price.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/customer-impact-human-gate.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/recommendation-transparency.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/return-window-source-gate.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/workflows/product-fit-recommendation-workflow.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/workflows/catalog-data-quality-review.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/workflows/customer-service-triage.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/workflows/return-refund-review-workflow.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/workflows/pre-publication-product-claim-review.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/cases/case-invented-inventory.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/cases/case-policy-assumption-risk.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/cases/case-privacy-overcollection.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/cases/case-transparent-recommendation.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/prompts/product-recommendation-review-prompt.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/prompts/customer-service-triage-prompt.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/prompts/platform-policy-source-gate-prompt.md",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "ecommerce-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 8
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/factuality-checklist.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/citation-discipline.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/copyright-safe-summarization.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/editorial-angle.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/audience-and-format-fit.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/quote-handling-boundary.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/platform-rule-source-gate.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/revision-history.md",
+      "wiki": "content-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/rules/no-invented-quotes.md",
+      "wiki": "content-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/rules/source-required-for-factual-claims.md",
+      "wiki": "content-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/rules/copyright-summary-boundary.md",
+      "wiki": "content-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/rules/platform-policy-source-gate.md",
+      "wiki": "content-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/rules/editorial-review-required.md",
+      "wiki": "content-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/rules/sensitive-claim-human-gate.md",
+      "wiki": "content-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/workflows/editorial-brief-workflow.md",
+      "wiki": "content-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/workflows/fact-check-review-workflow.md",
+      "wiki": "content-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/workflows/citation-audit-workflow.md",
+      "wiki": "content-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/workflows/copyright-safe-summary-workflow.md",
+      "wiki": "content-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/workflows/publication-readiness-workflow.md",
+      "wiki": "content-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/cases/case-invented-quote.md",
+      "wiki": "content-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/cases/case-unsupported-statistic.md",
+      "wiki": "content-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/cases/case-overlong-summary.md",
+      "wiki": "content-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/cases/case-good-editorial-review.md",
+      "wiki": "content-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/prompts/factuality-review-prompt.md",
+      "wiki": "content-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/prompts/citation-discipline-prompt.md",
+      "wiki": "content-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/prompts/editorial-review-prompt.md",
+      "wiki": "content-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/prompts/source-review-content-prompt.md",
+      "wiki": "content-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/content-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "content-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 8
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/jurisdiction-relevance.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/legal-information-vs-advice.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/contract-clause-function.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/risk-issue-spotting.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/party-obligation-mapping.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/evidence-and-document-context.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/no-final-legal-opinion.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/jurisdiction-required.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/lawyer-review-required.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/current-law-source-gate.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/uncertainty-disclosure.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/no-filing-or-notice-without-review.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/workflows/contract-intake-review-workflow.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/workflows/clause-risk-review-workflow.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/workflows/legal-question-triage-workflow.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/workflows/lawyer-handoff-summary-workflow.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/cases/case-legal-conclusion-refusal.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/cases/case-missing-jurisdiction.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/cases/case-lawyer-review-escalation.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/prompts/legal-information-triage-prompt.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/prompts/contract-risk-review-prompt.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/prompts/lawyer-handoff-prompt.md",
+      "wiki": "legal-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/legal-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "legal-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 6
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/health-education-boundary.md",
+      "wiki": "health-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/symptom-context-factors.md",
+      "wiki": "health-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/red-flag-escalation.md",
+      "wiki": "health-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/lab-result-explanation-limits.md",
+      "wiki": "health-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/risk-and-uncertainty-language.md",
+      "wiki": "health-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/clinician-review-role.md",
+      "wiki": "health-agent-wiki",
+      "directory": "concepts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/no-diagnosis.md",
+      "wiki": "health-agent-wiki",
+      "directory": "rules",
+      "action": "updated"
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/no-dosage-instruction.md",
+      "wiki": "health-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/emergency-red-flag-escalation.md",
+      "wiki": "health-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/clinical-guideline-source-gate.md",
+      "wiki": "health-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/licensed-clinician-review-required.md",
+      "wiki": "health-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/no-treatment-plan-without-clinician.md",
+      "wiki": "health-agent-wiki",
+      "directory": "rules",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/workflows/health-question-triage-workflow.md",
+      "wiki": "health-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/workflows/educational-explanation-workflow.md",
+      "wiki": "health-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/workflows/red-flag-escalation-workflow.md",
+      "wiki": "health-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/workflows/clinician-handoff-summary-workflow.md",
+      "wiki": "health-agent-wiki",
+      "directory": "workflows",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/cases/case-diagnosis-request-refusal.md",
+      "wiki": "health-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/cases/case-dosage-request-boundary.md",
+      "wiki": "health-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/cases/case-red-flag-escalation.md",
+      "wiki": "health-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/cases/case-educational-report-explanation.md",
+      "wiki": "health-agent-wiki",
+      "directory": "cases",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/prompts/health-education-triage-prompt.md",
+      "wiki": "health-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/prompts/red-flag-screening-prompt.md",
+      "wiki": "health-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/prompts/clinician-handoff-prompt.md",
+      "wiki": "health-agent-wiki",
+      "directory": "prompts",
+      "action": "created"
+    },
+    {
+      "path": "wikis/health-agent-wiki/evals/stable-knowledge-evals.yaml",
+      "wiki": "health-agent-wiki",
+      "directory": "evals",
+      "action": "created",
+      "tests": 6
+    }
+  ],
+  "summary": {
+    "customs-agent-wiki": {
+      "concepts": 10,
+      "rules": 8,
+      "workflows": 6,
+      "cases": 6,
+      "prompts": 4,
+      "eval_tests": 10
+    },
+    "nodeops-agent-wiki": {
+      "concepts": 12,
+      "rules": 8,
+      "workflows": 8,
+      "cases": 6,
+      "prompts": 4,
+      "eval_tests": 10
+    },
+    "airdrop-agent-wiki": {
+      "concepts": 10,
+      "rules": 8,
+      "workflows": 6,
+      "cases": 6,
+      "prompts": 4,
+      "eval_tests": 10
+    },
+    "finance-agent-wiki": {
+      "concepts": 12,
+      "rules": 10,
+      "workflows": 8,
+      "cases": 6,
+      "prompts": 4,
+      "eval_tests": 12
+    },
+    "coding-agent-wiki": {
+      "concepts": 10,
+      "rules": 8,
+      "workflows": 8,
+      "cases": 5,
+      "prompts": 4,
+      "eval_tests": 10
+    },
+    "agent-engineering-wiki": {
+      "concepts": 12,
+      "rules": 8,
+      "workflows": 8,
+      "cases": 5,
+      "prompts": 6,
+      "eval_tests": 10
+    },
+    "security-agent-wiki": {
+      "concepts": 10,
+      "rules": 10,
+      "workflows": 8,
+      "cases": 6,
+      "prompts": 4,
+      "eval_tests": 10
+    },
+    "research-agent-wiki": {
+      "concepts": 10,
+      "rules": 8,
+      "workflows": 6,
+      "cases": 5,
+      "prompts": 4,
+      "eval_tests": 10
+    },
+    "ecommerce-agent-wiki": {
+      "concepts": 8,
+      "rules": 6,
+      "workflows": 5,
+      "cases": 4,
+      "prompts": 3,
+      "eval_tests": 8
+    },
+    "content-agent-wiki": {
+      "concepts": 8,
+      "rules": 6,
+      "workflows": 5,
+      "cases": 4,
+      "prompts": 4,
+      "eval_tests": 8
+    },
+    "legal-agent-wiki": {
+      "concepts": 6,
+      "rules": 6,
+      "workflows": 4,
+      "cases": 4,
+      "prompts": 3,
+      "eval_tests": 6
+    },
+    "health-agent-wiki": {
+      "concepts": 6,
+      "rules": 6,
+      "workflows": 4,
+      "cases": 4,
+      "prompts": 3,
+      "eval_tests": 6
+    }
+  }
+}

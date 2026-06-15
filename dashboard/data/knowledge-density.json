@@ -1,0 +1,203 @@
+{
+  "generated": "2026-06-16",
+  "passed": true,
+  "wiki_count": 12,
+  "groups": {
+    "high-density": 7,
+    "medium-density": 5
+  },
+  "records": [
+    {
+      "wiki": "agent-engineering-wiki",
+      "priority": "",
+      "domain": "ai_agent_engineering",
+      "risk_level": "medium",
+      "counts": {
+        "concepts": 17,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 8,
+        "prompts": 7
+      },
+      "eval_tests": 24,
+      "generated_stable_pages": 39,
+      "knowledge_density_group": "high-density"
+    },
+    {
+      "wiki": "airdrop-agent-wiki",
+      "priority": "",
+      "domain": "web3_research",
+      "risk_level": "high",
+      "counts": {
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 9,
+        "cases": 8,
+        "prompts": 5
+      },
+      "eval_tests": 20,
+      "generated_stable_pages": 34,
+      "knowledge_density_group": "medium-density"
+    },
+    {
+      "wiki": "coding-agent-wiki",
+      "priority": "",
+      "domain": "software_engineering",
+      "risk_level": "medium",
+      "counts": {
+        "concepts": 12,
+        "rules": 13,
+        "workflows": 13,
+        "cases": 8,
+        "prompts": 5
+      },
+      "eval_tests": 24,
+      "generated_stable_pages": 35,
+      "knowledge_density_group": "high-density"
+    },
+    {
+      "wiki": "content-agent-wiki",
+      "priority": "",
+      "domain": "content_operations",
+      "risk_level": "low",
+      "counts": {
+        "concepts": 9,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 5
+      },
+      "eval_tests": 18,
+      "generated_stable_pages": 27,
+      "knowledge_density_group": "medium-density"
+    },
+    {
+      "wiki": "customs-agent-wiki",
+      "priority": "",
+      "domain": "customs_trade_documents",
+      "risk_level": "medium",
+      "counts": {
+        "concepts": 12,
+        "rules": 10,
+        "workflows": 10,
+        "cases": 9,
+        "prompts": 5
+      },
+      "eval_tests": 25,
+      "generated_stable_pages": 34,
+      "knowledge_density_group": "high-density"
+    },
+    {
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "",
+      "domain": "ecommerce",
+      "risk_level": "medium",
+      "counts": {
+        "concepts": 10,
+        "rules": 8,
+        "workflows": 8,
+        "cases": 6,
+        "prompts": 4
+      },
+      "eval_tests": 18,
+      "generated_stable_pages": 26,
+      "knowledge_density_group": "medium-density"
+    },
+    {
+      "wiki": "finance-agent-wiki",
+      "priority": "",
+      "domain": "finance",
+      "risk_level": "high",
+      "counts": {
+        "concepts": 16,
+        "rules": 14,
+        "workflows": 13,
+        "cases": 9,
+        "prompts": 5
+      },
+      "eval_tests": 26,
+      "generated_stable_pages": 40,
+      "knowledge_density_group": "high-density"
+    },
+    {
+      "wiki": "health-agent-wiki",
+      "priority": "",
+      "domain": "health_education",
+      "risk_level": "high",
+      "counts": {
+        "concepts": 7,
+        "rules": 7,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4
+      },
+      "eval_tests": 16,
+      "generated_stable_pages": 22,
+      "knowledge_density_group": "medium-density"
+    },
+    {
+      "wiki": "legal-agent-wiki",
+      "priority": "",
+      "domain": "legal_information",
+      "risk_level": "high",
+      "counts": {
+        "concepts": 7,
+        "rules": 8,
+        "workflows": 6,
+        "cases": 6,
+        "prompts": 4
+      },
+      "eval_tests": 16,
+      "generated_stable_pages": 23,
+      "knowledge_density_group": "medium-density"
+    },
+    {
+      "wiki": "nodeops-agent-wiki",
+      "priority": "",
+      "domain": "operations",
+      "risk_level": "high",
+      "counts": {
+        "concepts": 14,
+        "rules": 12,
+        "workflows": 12,
+        "cases": 9,
+        "prompts": 5
+      },
+      "eval_tests": 20,
+      "generated_stable_pages": 38,
+      "knowledge_density_group": "high-density"
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "priority": "",
+      "domain": "research",
+      "risk_level": "medium",
+      "counts": {
+        "concepts": 12,
+        "rules": 11,
+        "workflows": 9,
+        "cases": 8,
+        "prompts": 5
+      },
+      "eval_tests": 20,
+      "generated_stable_pages": 33,
+      "knowledge_density_group": "high-density"
+    },
+    {
+      "wiki": "security-agent-wiki",
+      "priority": "",
+      "domain": "defensive_security",
+      "risk_level": "high",
+      "counts": {
+        "concepts": 12,
+        "rules": 14,
+        "workflows": 12,
+        "cases": 9,
+        "prompts": 5
+      },
+      "eval_tests": 20,
+      "generated_stable_pages": 38,
+      "knowledge_density_group": "high-density"
+    }
+  ]
+}

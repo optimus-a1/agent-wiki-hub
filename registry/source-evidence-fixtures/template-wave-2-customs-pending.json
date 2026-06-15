@@ -1,6 +1,6 @@
 {
   "packet_id": "template-wave-2-customs-pending",
-  "created_on": "2026-06-03",
+  "created_on": "2026-06-16",
   "created_by": "fixture-generator",
   "description": "Customs pending template.",
   "dry_run_only": true,

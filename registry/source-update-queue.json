@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "topics": [
     {
       "wiki": "airdrop-agent-wiki",
@@ -14,7 +14,7 @@
         "wallet security warning"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -32,7 +32,7 @@
         "official announcement channel"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -50,7 +50,7 @@
         "primary funding disclosure"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -68,7 +68,7 @@
         "broker or custodian fee schedule"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -86,7 +86,7 @@
         "official product documents"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -104,7 +104,7 @@
         "timestamped raw dataset"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -122,7 +122,7 @@
         "audited annual or interim report"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -140,7 +140,7 @@
         "professional clinical guideline"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -158,7 +158,7 @@
         "licensed clinician review"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -176,7 +176,7 @@
         "counsel-approved template"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -194,7 +194,7 @@
         "licensed lawyer review"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -212,7 +212,7 @@
         "package registry advisory"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -230,7 +230,7 @@
         "compliance authority or auditor guidance"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 8
@@ -248,7 +248,7 @@
         "destination country authority"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -266,7 +266,7 @@
         "licensed customs broker review"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -284,7 +284,7 @@
         "official trade compliance bulletin"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -302,7 +302,7 @@
         "manually reviewed sample set"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -320,7 +320,7 @@
         "merchant service agreement"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -338,7 +338,7 @@
         "warranty document"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -356,7 +356,7 @@
         "carrier tracking system"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -374,7 +374,7 @@
         "release notes"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 7
@@ -392,7 +392,7 @@
         "node logs and version output"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 7
@@ -410,7 +410,7 @@
         "account console"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 7
@@ -428,7 +428,7 @@
         "model card"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -446,7 +446,7 @@
         "official benchmark leaderboard"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
@@ -464,7 +464,7 @@
         "local plugin manifest"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -482,7 +482,7 @@
         "benchmark report with date"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -500,7 +500,7 @@
         "repository release notes"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -518,7 +518,7 @@
         "repository or API docs"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -536,7 +536,7 @@
         "project deployment logs"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -554,7 +554,7 @@
         "vendor bulletin"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -572,7 +572,7 @@
         "source repository"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -590,7 +590,7 @@
         "source terms of use"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 5
@@ -608,7 +608,7 @@
         "dated reputable reporting"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 5
@@ -626,7 +626,7 @@
         "account dashboard notices"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 7,
+      "age_days": 20,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 5

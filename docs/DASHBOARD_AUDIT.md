@@ -1,6 +1,6 @@
 # Dashboard Audit
 
-Generated: 2026-06-03
+Generated: 2026-06-15
 
 - Passed: True
 
@@ -16,3 +16,7 @@ Generated: 2026-06-03
 | dashboard/data/source-review-status.json | PASS |
 | dashboard/data/acceptance-status.json | PASS |
 | dashboard/data/packs.json | PASS |
+| dashboard/data/knowledge-density.json | PASS |
+| dashboard/data/high-risk-boundaries.json | PASS |
+| dashboard/data/current-fact-gates.json | PASS |
+| dashboard/data/wiki-moc-status.json | PASS |

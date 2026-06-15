@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "passed": true,
   "purpose": "Audit active source-review packet files before import, while keeping historical AI-prefill packets visible as non-blocking advisory artifacts.",
   "packet_dir": "registry/source-review-packets",

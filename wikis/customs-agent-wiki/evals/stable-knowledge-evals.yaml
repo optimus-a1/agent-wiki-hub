@@ -1,0 +1,143 @@
+wiki: customs-agent-wiki
+updated: 2026-06-15
+tests:
+  - id: customs-agent-stable-001
+    question: "How should an agent use Commercial Invoice Structure while respecting Do Not Invent Missing Values?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Commercial Invoice Structure"
+      - "Do Not Invent Missing Values"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-002
+    question: "How should an agent use Packing List Structure while respecting Field Provenance Required?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Packing List Structure"
+      - "Field Provenance Required"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-003
+    question: "How should an agent use Contract Field Alignment while respecting OCR Uncertainty Disclosure?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Contract Field Alignment"
+      - "OCR Uncertainty Disclosure"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-004
+    question: "How should an agent use Factory Inspection Document Review while respecting Currency And Amount Gate?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Factory Inspection Document Review"
+      - "Currency And Amount Gate"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-005
+    question: "How should an agent use Certificate Of Conformity Review while respecting Weight And Package Reconciliation?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Certificate Of Conformity Review"
+      - "Weight And Package Reconciliation"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-006
+    question: "How should an agent use OCR Field Confidence while respecting Document Version Control?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "OCR Field Confidence"
+      - "Document Version Control"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-007
+    question: "How should an agent use Amount Currency Consistency while respecting Manual Review Escalation?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Amount Currency Consistency"
+      - "Manual Review Escalation"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-008
+    question: "How should an agent use Gross Weight Vs Net Weight Checks while respecting Customs Policy Source Gate?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Gross Weight Vs Net Weight Checks"
+      - "Customs Policy Source Gate"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-009
+    question: "How should an agent use Package Count Reconciliation while respecting Do Not Invent Missing Values?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Package Count Reconciliation"
+      - "Do Not Invent Missing Values"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: customs-agent-stable-010
+    question: "How should an agent use Declaration Element Model while respecting Field Provenance Required?"
+    expected_wiki: customs-agent-wiki
+    expected_concepts:
+      - "Declaration Element Model"
+      - "Field Provenance Required"
+    risk_level: medium
+    source_update_required: true
+    human_gate_required: true
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."

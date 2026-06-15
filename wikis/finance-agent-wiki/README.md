@@ -1,3 +1,20 @@
+## Knowledge Density Expansion v2.1
+
+Generated on 2026-06-15 from model-synthesized stable knowledge.
+
+- Scope: long-lived concepts, rules, workflows, cases, prompts, and evals.
+- Boundary: no current facts, no authoritative source claims, no evidence auto-verification.
+- High-risk/current claims still require source review and human confirmation.
+
+| Area | Added |
+| --- | ---: |
+| concepts | 12 |
+| rules | 10 |
+| workflows | 8 |
+| cases | 6 |
+| prompts | 4 |
+| eval tests | 12 |
+
 # Finance Agent Wiki
 
 ## Stable Knowledge Expansion (2026-06-01)

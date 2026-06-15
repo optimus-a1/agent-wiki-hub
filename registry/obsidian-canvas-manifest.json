@@ -1,10 +1,11 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-15",
   "passed": true,
   "canvas_files": [
     "obsidian-vault/05_Dashboard/Agent Wiki Hub.canvas",
     "obsidian-vault/05_Dashboard/Source Review Waves.canvas",
-    "obsidian-vault/05_Dashboard/Wiki Knowledge Map.canvas"
+    "obsidian-vault/05_Dashboard/Wiki Knowledge Map.canvas",
+    "obsidian-vault/05_Dashboard/Knowledge Density Map.canvas"
   ],
   "wiki_count": 12
 }

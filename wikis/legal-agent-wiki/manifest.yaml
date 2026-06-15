@@ -27,3 +27,16 @@ safety:
   require_human_confirmation_for_high_risk: true
   no_secret_storage: true
   no_autonomous_high_risk_execution: true
+knowledge_density_v2_1:
+  stable_only: true
+  generated_on: 2026-06-15
+  source_status: model-synthesized-stable
+  current_fact: false
+  evidence_status_changed: false
+  added_counts:
+    concepts: 6
+    rules: 6
+    workflows: 4
+    cases: 4
+    prompts: 3
+    eval_tests: 6

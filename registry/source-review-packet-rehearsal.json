@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "passed": true,
   "purpose": "Rehearse source-review packet imports with importer dry-run and no post-check writes. Existing imported evidence is acceptable in post-import repositories.",
   "packet_count": 2,

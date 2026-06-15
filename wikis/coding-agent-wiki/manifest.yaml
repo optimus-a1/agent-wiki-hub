@@ -40,3 +40,16 @@ knowledge_expansion:
     cases:
       - cases/sample-minimal-change.md
   scope_note: "Stable software engineering principles only; no current API, dependency, platform, or product behavior."
+knowledge_density_v2_1:
+  stable_only: true
+  generated_on: 2026-06-15
+  source_status: model-synthesized-stable
+  current_fact: false
+  evidence_status_changed: false
+  added_counts:
+    concepts: 10
+    rules: 8
+    workflows: 8
+    cases: 5
+    prompts: 4
+    eval_tests: 10

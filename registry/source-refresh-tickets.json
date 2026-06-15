@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "passed": true,
   "playbook": "registry/source-refresh-playbook.json",
   "ticket_count": 35,

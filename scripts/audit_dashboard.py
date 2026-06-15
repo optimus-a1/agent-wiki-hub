@@ -7,7 +7,12 @@ from pathlib import Path
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
-REQUIRED = ["dashboard/README.md", "dashboard/package.json", "dashboard/index.html", "dashboard/src/main.js", "dashboard/src/styles.css", "dashboard/data/dashboard-summary.json", "dashboard/data/wiki-status.json", "dashboard/data/source-review-status.json", "dashboard/data/acceptance-status.json", "dashboard/data/packs.json"]
+REQUIRED = [
+    "dashboard/README.md", "dashboard/package.json", "dashboard/index.html", "dashboard/src/main.js", "dashboard/src/styles.css",
+    "dashboard/data/dashboard-summary.json", "dashboard/data/wiki-status.json", "dashboard/data/source-review-status.json",
+    "dashboard/data/acceptance-status.json", "dashboard/data/packs.json", "dashboard/data/knowledge-density.json",
+    "dashboard/data/high-risk-boundaries.json", "dashboard/data/current-fact-gates.json", "dashboard/data/wiki-moc-status.json",
+]
 DOCS = ROOT / "docs"
 REGISTRY = ROOT / "registry"
 

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "wiki_count": 12,
   "reports": {
     "acceptance": "docs/ACCEPTANCE_REPORT.md",
@@ -52,20 +52,37 @@
         "wikis/agent-engineering-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/agent-engineering-wiki/rules/autonomy-action-boundary.md",
         "wikis/agent-engineering-wiki/rules/core-rules.md",
+        "wikis/agent-engineering-wiki/rules/eval-before-promotion.md",
+        "wikis/agent-engineering-wiki/rules/grounded-answer-boundary.md",
         "wikis/agent-engineering-wiki/rules/knowledge-pack-quality.md",
+        "wikis/agent-engineering-wiki/rules/memory-write-human-gate.md",
+        "wikis/agent-engineering-wiki/rules/no-hidden-instructions.md",
         "wikis/agent-engineering-wiki/rules/rag-quality.md",
-        "wikis/agent-engineering-wiki/rules/tool-use-and-grounding.md"
+        "wikis/agent-engineering-wiki/rules/retrieval-citation-required.md",
+        "wikis/agent-engineering-wiki/rules/source-gate-for-current-claims.md",
+        "wikis/agent-engineering-wiki/rules/tool-use-and-grounding.md",
+        "wikis/agent-engineering-wiki/rules/tool-use-justification.md"
       ],
       "workflows": [
         "wikis/agent-engineering-wiki/workflows/agent-eval-loop.md",
+        "wikis/agent-engineering-wiki/workflows/agent-task-routing-workflow.md",
+        "wikis/agent-engineering-wiki/workflows/autonomous-ingestion-review-workflow.md",
         "wikis/agent-engineering-wiki/workflows/build-new-wiki.md",
         "wikis/agent-engineering-wiki/workflows/eval-design.md",
-        "wikis/agent-engineering-wiki/workflows/main-workflow.md"
+        "wikis/agent-engineering-wiki/workflows/knowledge-pack-release-workflow.md",
+        "wikis/agent-engineering-wiki/workflows/main-workflow.md",
+        "wikis/agent-engineering-wiki/workflows/memory-review-workflow.md",
+        "wikis/agent-engineering-wiki/workflows/prompt-routing-workflow.md",
+        "wikis/agent-engineering-wiki/workflows/rag-eval-workflow.md",
+        "wikis/agent-engineering-wiki/workflows/source-grounding-test-workflow.md",
+        "wikis/agent-engineering-wiki/workflows/tool-call-review-workflow.md"
       ],
       "evals": [
         "wikis/agent-engineering-wiki/evals/agent-engineering-evals.yaml",
-        "wikis/agent-engineering-wiki/evals/smoke-tests.yaml"
+        "wikis/agent-engineering-wiki/evals/smoke-tests.yaml",
+        "wikis/agent-engineering-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/agent-engineering-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/agent-engineering-wiki/sources/source-refresh-log.md",
@@ -93,17 +110,32 @@
         "wikis/airdrop-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/airdrop-agent-wiki/rules/approval-revocation-review.md",
         "wikis/airdrop-agent-wiki/rules/core-rules.md",
-        "wikis/airdrop-agent-wiki/rules/safety-and-compliance.md"
+        "wikis/airdrop-agent-wiki/rules/no-fake-identity.md",
+        "wikis/airdrop-agent-wiki/rules/no-spam-automation.md",
+        "wikis/airdrop-agent-wiki/rules/no-sybil-evasion.md",
+        "wikis/airdrop-agent-wiki/rules/no-unverified-project-claims.md",
+        "wikis/airdrop-agent-wiki/rules/rumor-as-uncertain.md",
+        "wikis/airdrop-agent-wiki/rules/safety-and-compliance.md",
+        "wikis/airdrop-agent-wiki/rules/tge-listing-snapshot-source-gate.md",
+        "wikis/airdrop-agent-wiki/rules/wallet-signing-human-gate.md"
       ],
       "workflows": [
+        "wikis/airdrop-agent-wiki/workflows/approval-hygiene-review.md",
         "wikis/airdrop-agent-wiki/workflows/main-workflow.md",
+        "wikis/airdrop-agent-wiki/workflows/phishing-review-workflow.md",
+        "wikis/airdrop-agent-wiki/workflows/project-research-workflow.md",
         "wikis/airdrop-agent-wiki/workflows/project-research.md",
+        "wikis/airdrop-agent-wiki/workflows/source-review-for-airdrop-claims.md",
+        "wikis/airdrop-agent-wiki/workflows/task-risk-classification-workflow.md",
+        "wikis/airdrop-agent-wiki/workflows/wallet-risk-review-workflow.md",
         "wikis/airdrop-agent-wiki/workflows/wallet-safety-screening.md"
       ],
       "evals": [
         "wikis/airdrop-agent-wiki/evals/airdrop-agent-evals.yaml",
-        "wikis/airdrop-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/airdrop-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/airdrop-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/airdrop-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/airdrop-agent-wiki/sources/source-refresh-log.md",
@@ -133,22 +165,39 @@
         "wikis/coding-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/coding-agent-wiki/rules/api-compatibility-check.md",
         "wikis/coding-agent-wiki/rules/change-safety-and-review.md",
         "wikis/coding-agent-wiki/rules/codex-usage.md",
         "wikis/coding-agent-wiki/rules/core-rules.md",
+        "wikis/coding-agent-wiki/rules/dependency-change-boundary.md",
+        "wikis/coding-agent-wiki/rules/deployment-human-gate.md",
+        "wikis/coding-agent-wiki/rules/error-visibility-rule.md",
+        "wikis/coding-agent-wiki/rules/no-secret-in-repo.md",
+        "wikis/coding-agent-wiki/rules/preserve-user-changes.md",
+        "wikis/coding-agent-wiki/rules/scope-before-editing.md",
         "wikis/coding-agent-wiki/rules/security-development.md",
-        "wikis/coding-agent-wiki/rules/software-engineering.md"
+        "wikis/coding-agent-wiki/rules/software-engineering.md",
+        "wikis/coding-agent-wiki/rules/tests-before-risky-change.md"
       ],
       "workflows": [
         "wikis/coding-agent-wiki/workflows/bug-fix-loop.md",
+        "wikis/coding-agent-wiki/workflows/ci-failure-triage-workflow.md",
+        "wikis/coding-agent-wiki/workflows/debug-reproduce-isolate-fix.md",
         "wikis/coding-agent-wiki/workflows/debugging-and-regression-workflow.md",
+        "wikis/coding-agent-wiki/workflows/deployment-preflight-workflow.md",
         "wikis/coding-agent-wiki/workflows/deployment-workflow.md",
         "wikis/coding-agent-wiki/workflows/implementation-lifecycle.md",
-        "wikis/coding-agent-wiki/workflows/main-workflow.md"
+        "wikis/coding-agent-wiki/workflows/main-workflow.md",
+        "wikis/coding-agent-wiki/workflows/refactor-with-safety-net.md",
+        "wikis/coding-agent-wiki/workflows/requirement-to-task-workflow.md",
+        "wikis/coding-agent-wiki/workflows/rollback-ready-deploy-workflow.md",
+        "wikis/coding-agent-wiki/workflows/secure-config-review-workflow.md",
+        "wikis/coding-agent-wiki/workflows/test-first-implementation-workflow.md"
       ],
       "evals": [
         "wikis/coding-agent-wiki/evals/coding-agent-evals.yaml",
-        "wikis/coding-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/coding-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/coding-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/coding-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/coding-agent-wiki/sources/source-refresh-log.md",
@@ -177,17 +226,29 @@
         "wikis/content-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/content-agent-wiki/rules/copyright-summary-boundary.md",
         "wikis/content-agent-wiki/rules/core-rules.md",
-        "wikis/content-agent-wiki/rules/editorial-quality.md"
+        "wikis/content-agent-wiki/rules/editorial-quality.md",
+        "wikis/content-agent-wiki/rules/editorial-review-required.md",
+        "wikis/content-agent-wiki/rules/no-invented-quotes.md",
+        "wikis/content-agent-wiki/rules/platform-policy-source-gate.md",
+        "wikis/content-agent-wiki/rules/sensitive-claim-human-gate.md",
+        "wikis/content-agent-wiki/rules/source-required-for-factual-claims.md"
       ],
       "workflows": [
+        "wikis/content-agent-wiki/workflows/citation-audit-workflow.md",
         "wikis/content-agent-wiki/workflows/content-production.md",
+        "wikis/content-agent-wiki/workflows/copyright-safe-summary-workflow.md",
+        "wikis/content-agent-wiki/workflows/editorial-brief-workflow.md",
+        "wikis/content-agent-wiki/workflows/fact-check-review-workflow.md",
         "wikis/content-agent-wiki/workflows/main-workflow.md",
+        "wikis/content-agent-wiki/workflows/publication-readiness-workflow.md",
         "wikis/content-agent-wiki/workflows/research-brief-to-post.md"
       ],
       "evals": [
         "wikis/content-agent-wiki/evals/content-agent-evals.yaml",
-        "wikis/content-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/content-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/content-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/content-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/content-agent-wiki/sources/source-refresh-log.md",
@@ -218,17 +279,32 @@
       ],
       "core_rules": [
         "wikis/customs-agent-wiki/rules/core-rules.md",
-        "wikis/customs-agent-wiki/rules/field-extraction-rules.md"
+        "wikis/customs-agent-wiki/rules/currency-and-amount-gate.md",
+        "wikis/customs-agent-wiki/rules/customs-policy-source-gate.md",
+        "wikis/customs-agent-wiki/rules/do-not-invent-missing-values.md",
+        "wikis/customs-agent-wiki/rules/document-version-control.md",
+        "wikis/customs-agent-wiki/rules/field-extraction-rules.md",
+        "wikis/customs-agent-wiki/rules/field-provenance-required.md",
+        "wikis/customs-agent-wiki/rules/manual-review-escalation.md",
+        "wikis/customs-agent-wiki/rules/ocr-uncertainty-disclosure.md",
+        "wikis/customs-agent-wiki/rules/weight-and-package-reconciliation.md"
       ],
       "workflows": [
+        "wikis/customs-agent-wiki/workflows/contract-to-invoice-review.md",
+        "wikis/customs-agent-wiki/workflows/declaration-element-review-workflow.md",
         "wikis/customs-agent-wiki/workflows/difference-comparison.md",
         "wikis/customs-agent-wiki/workflows/document-checking.md",
+        "wikis/customs-agent-wiki/workflows/document-difference-triage.md",
+        "wikis/customs-agent-wiki/workflows/factory-document-review-workflow.md",
+        "wikis/customs-agent-wiki/workflows/invoice-packing-list-reconciliation.md",
         "wikis/customs-agent-wiki/workflows/main-workflow.md",
-        "wikis/customs-agent-wiki/workflows/ocr-to-json.md"
+        "wikis/customs-agent-wiki/workflows/ocr-to-json.md",
+        "wikis/customs-agent-wiki/workflows/ocr-to-structured-json-workflow.md"
       ],
       "evals": [
         "wikis/customs-agent-wiki/evals/customs-agent-evals.yaml",
-        "wikis/customs-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/customs-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/customs-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
@@ -259,16 +335,28 @@
       ],
       "core_rules": [
         "wikis/ecommerce-agent-wiki/rules/core-rules.md",
-        "wikis/ecommerce-agent-wiki/rules/order-customer-safety.md"
+        "wikis/ecommerce-agent-wiki/rules/customer-impact-human-gate.md",
+        "wikis/ecommerce-agent-wiki/rules/no-invented-stock-or-price.md",
+        "wikis/ecommerce-agent-wiki/rules/order-customer-safety.md",
+        "wikis/ecommerce-agent-wiki/rules/platform-policy-source-gate.md",
+        "wikis/ecommerce-agent-wiki/rules/privacy-and-consent-rule.md",
+        "wikis/ecommerce-agent-wiki/rules/recommendation-transparency.md",
+        "wikis/ecommerce-agent-wiki/rules/return-window-source-gate.md"
       ],
       "workflows": [
+        "wikis/ecommerce-agent-wiki/workflows/catalog-data-quality-review.md",
         "wikis/ecommerce-agent-wiki/workflows/customer-service-returns.md",
+        "wikis/ecommerce-agent-wiki/workflows/customer-service-triage.md",
         "wikis/ecommerce-agent-wiki/workflows/main-workflow.md",
-        "wikis/ecommerce-agent-wiki/workflows/product-recommendation.md"
+        "wikis/ecommerce-agent-wiki/workflows/pre-publication-product-claim-review.md",
+        "wikis/ecommerce-agent-wiki/workflows/product-fit-recommendation-workflow.md",
+        "wikis/ecommerce-agent-wiki/workflows/product-recommendation.md",
+        "wikis/ecommerce-agent-wiki/workflows/return-refund-review-workflow.md"
       ],
       "evals": [
         "wikis/ecommerce-agent-wiki/evals/ecommerce-agent-evals.yaml",
-        "wikis/ecommerce-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/ecommerce-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/ecommerce-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
@@ -299,21 +387,40 @@
         "wikis/finance-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/finance-agent-wiki/rules/backtest-costs-required.md",
         "wikis/finance-agent-wiki/rules/core-rules.md",
+        "wikis/finance-agent-wiki/rules/educational-only-output.md",
+        "wikis/finance-agent-wiki/rules/human-confirmation-for-real-money.md",
+        "wikis/finance-agent-wiki/rules/leverage-risk-boundary.md",
+        "wikis/finance-agent-wiki/rules/liquidity-risk-boundary.md",
         "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
+        "wikis/finance-agent-wiki/rules/no-personalized-buy-sell-advice.md",
+        "wikis/finance-agent-wiki/rules/out-of-sample-required.md",
+        "wikis/finance-agent-wiki/rules/overfitting-check-required.md",
+        "wikis/finance-agent-wiki/rules/paper-trading-default.md",
         "wikis/finance-agent-wiki/rules/risk-control.md",
-        "wikis/finance-agent-wiki/rules/trading-system-boundaries.md"
+        "wikis/finance-agent-wiki/rules/trading-system-boundaries.md",
+        "wikis/finance-agent-wiki/rules/trading-system-permission-control.md"
       ],
       "workflows": [
+        "wikis/finance-agent-wiki/workflows/backtest-design-workflow.md",
         "wikis/finance-agent-wiki/workflows/backtesting-workflow.md",
+        "wikis/finance-agent-wiki/workflows/drawdown-review-workflow.md",
+        "wikis/finance-agent-wiki/workflows/financial-statement-triangulation.md",
+        "wikis/finance-agent-wiki/workflows/human-confirmation-trade-gate.md",
         "wikis/finance-agent-wiki/workflows/main-workflow.md",
+        "wikis/finance-agent-wiki/workflows/market-data-quality-review.md",
+        "wikis/finance-agent-wiki/workflows/paper-trading-readiness-workflow.md",
         "wikis/finance-agent-wiki/workflows/paper-trading-system.md",
         "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
-        "wikis/finance-agent-wiki/workflows/research-to-decision.md"
+        "wikis/finance-agent-wiki/workflows/portfolio-risk-review-workflow.md",
+        "wikis/finance-agent-wiki/workflows/research-to-decision.md",
+        "wikis/finance-agent-wiki/workflows/walk-forward-review-workflow.md"
       ],
       "evals": [
         "wikis/finance-agent-wiki/evals/finance-agent-evals.yaml",
-        "wikis/finance-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/finance-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/finance-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/finance-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/finance-agent-wiki/sources/source-refresh-log.md",
@@ -340,16 +447,26 @@
         "wikis/health-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/health-agent-wiki/rules/clinical-guideline-source-gate.md",
         "wikis/health-agent-wiki/rules/core-rules.md",
-        "wikis/health-agent-wiki/rules/no-diagnosis.md"
+        "wikis/health-agent-wiki/rules/emergency-red-flag-escalation.md",
+        "wikis/health-agent-wiki/rules/licensed-clinician-review-required.md",
+        "wikis/health-agent-wiki/rules/no-diagnosis.md",
+        "wikis/health-agent-wiki/rules/no-dosage-instruction.md",
+        "wikis/health-agent-wiki/rules/no-treatment-plan-without-clinician.md"
       ],
       "workflows": [
+        "wikis/health-agent-wiki/workflows/clinician-handoff-summary-workflow.md",
+        "wikis/health-agent-wiki/workflows/educational-explanation-workflow.md",
         "wikis/health-agent-wiki/workflows/health-education-triage.md",
-        "wikis/health-agent-wiki/workflows/main-workflow.md"
+        "wikis/health-agent-wiki/workflows/health-question-triage-workflow.md",
+        "wikis/health-agent-wiki/workflows/main-workflow.md",
+        "wikis/health-agent-wiki/workflows/red-flag-escalation-workflow.md"
       ],
       "evals": [
         "wikis/health-agent-wiki/evals/health-agent-evals.yaml",
-        "wikis/health-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/health-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/health-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/health-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/health-agent-wiki/sources/source-refresh-log.md",
@@ -377,15 +494,26 @@
       ],
       "core_rules": [
         "wikis/legal-agent-wiki/rules/core-rules.md",
-        "wikis/legal-agent-wiki/rules/no-legal-advice.md"
+        "wikis/legal-agent-wiki/rules/current-law-source-gate.md",
+        "wikis/legal-agent-wiki/rules/jurisdiction-required.md",
+        "wikis/legal-agent-wiki/rules/lawyer-review-required.md",
+        "wikis/legal-agent-wiki/rules/no-filing-or-notice-without-review.md",
+        "wikis/legal-agent-wiki/rules/no-final-legal-opinion.md",
+        "wikis/legal-agent-wiki/rules/no-legal-advice.md",
+        "wikis/legal-agent-wiki/rules/uncertainty-disclosure.md"
       ],
       "workflows": [
+        "wikis/legal-agent-wiki/workflows/clause-risk-review-workflow.md",
+        "wikis/legal-agent-wiki/workflows/contract-intake-review-workflow.md",
         "wikis/legal-agent-wiki/workflows/contract-review-checklist.md",
+        "wikis/legal-agent-wiki/workflows/lawyer-handoff-summary-workflow.md",
+        "wikis/legal-agent-wiki/workflows/legal-question-triage-workflow.md",
         "wikis/legal-agent-wiki/workflows/main-workflow.md"
       ],
       "evals": [
         "wikis/legal-agent-wiki/evals/legal-agent-evals.yaml",
-        "wikis/legal-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/legal-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/legal-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/legal-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/legal-agent-wiki/sources/source-refresh-log.md",
@@ -415,20 +543,37 @@
         "wikis/nodeops-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/nodeops-agent-wiki/rules/backup-before-mutation.md",
         "wikis/nodeops-agent-wiki/rules/backup-restore-and-change-safety.md",
         "wikis/nodeops-agent-wiki/rules/core-rules.md",
+        "wikis/nodeops-agent-wiki/rules/destructive-command-gate.md",
+        "wikis/nodeops-agent-wiki/rules/firewall-change-review.md",
+        "wikis/nodeops-agent-wiki/rules/node-client-upgrade-source-gate.md",
         "wikis/nodeops-agent-wiki/rules/operational-risk-control.md",
-        "wikis/nodeops-agent-wiki/rules/production-safety.md"
+        "wikis/nodeops-agent-wiki/rules/production-human-confirmation.md",
+        "wikis/nodeops-agent-wiki/rules/production-safety.md",
+        "wikis/nodeops-agent-wiki/rules/provider-limit-source-gate.md",
+        "wikis/nodeops-agent-wiki/rules/rollback-plan-required.md",
+        "wikis/nodeops-agent-wiki/rules/secret-redaction-in-logs.md"
       ],
       "workflows": [
         "wikis/nodeops-agent-wiki/workflows/change-management.md",
+        "wikis/nodeops-agent-wiki/workflows/disk-pressure-triage.md",
+        "wikis/nodeops-agent-wiki/workflows/docker-volume-restore-check.md",
+        "wikis/nodeops-agent-wiki/workflows/incident-response-workflow.md",
         "wikis/nodeops-agent-wiki/workflows/incident-response.md",
         "wikis/nodeops-agent-wiki/workflows/incident-triage-runbook.md",
-        "wikis/nodeops-agent-wiki/workflows/main-workflow.md"
+        "wikis/nodeops-agent-wiki/workflows/main-workflow.md",
+        "wikis/nodeops-agent-wiki/workflows/memory-pressure-triage.md",
+        "wikis/nodeops-agent-wiki/workflows/network-port-triage.md",
+        "wikis/nodeops-agent-wiki/workflows/node-client-upgrade-checklist.md",
+        "wikis/nodeops-agent-wiki/workflows/post-incident-review-workflow.md",
+        "wikis/nodeops-agent-wiki/workflows/systemd-service-recovery.md"
       ],
       "evals": [
         "wikis/nodeops-agent-wiki/evals/nodeops-agent-evals.yaml",
-        "wikis/nodeops-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/nodeops-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/nodeops-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
@@ -456,18 +601,33 @@
         "wikis/research-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/research-agent-wiki/rules/benchmark-source-gate.md",
         "wikis/research-agent-wiki/rules/core-rules.md",
+        "wikis/research-agent-wiki/rules/dataset-license-source-gate.md",
+        "wikis/research-agent-wiki/rules/exact-claim-support.md",
+        "wikis/research-agent-wiki/rules/limitations-required.md",
+        "wikis/research-agent-wiki/rules/no-cherry-picking.md",
+        "wikis/research-agent-wiki/rules/no-fabricated-citations.md",
         "wikis/research-agent-wiki/rules/reproducibility-and-citation-integrity.md",
-        "wikis/research-agent-wiki/rules/source-grounding.md"
+        "wikis/research-agent-wiki/rules/reproducibility-disclosure.md",
+        "wikis/research-agent-wiki/rules/source-grounding.md",
+        "wikis/research-agent-wiki/rules/uncertainty-required.md"
       ],
       "workflows": [
+        "wikis/research-agent-wiki/workflows/benchmark-claim-review-workflow.md",
+        "wikis/research-agent-wiki/workflows/citation-audit-workflow.md",
+        "wikis/research-agent-wiki/workflows/dataset-limitations-review.md",
+        "wikis/research-agent-wiki/workflows/literature-review-workflow.md",
         "wikis/research-agent-wiki/workflows/literature-review.md",
         "wikis/research-agent-wiki/workflows/main-workflow.md",
+        "wikis/research-agent-wiki/workflows/paper-summary-workflow.md",
+        "wikis/research-agent-wiki/workflows/reproducibility-review-workflow.md",
         "wikis/research-agent-wiki/workflows/systematic-literature-review.md"
       ],
       "evals": [
         "wikis/research-agent-wiki/evals/research-agent-evals.yaml",
-        "wikis/research-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/research-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/research-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
@@ -495,20 +655,39 @@
         "wikis/security-agent-wiki/AGENTS.md"
       ],
       "core_rules": [
+        "wikis/security-agent-wiki/rules/authorization-required.md",
         "wikis/security-agent-wiki/rules/core-rules.md",
         "wikis/security-agent-wiki/rules/defensive-boundary.md",
+        "wikis/security-agent-wiki/rules/defensive-only-boundary.md",
         "wikis/security-agent-wiki/rules/defensive-only.md",
-        "wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md"
+        "wikis/security-agent-wiki/rules/detection-change-human-gate.md",
+        "wikis/security-agent-wiki/rules/least-privilege-default.md",
+        "wikis/security-agent-wiki/rules/no-credential-theft.md",
+        "wikis/security-agent-wiki/rules/no-exploit-steps.md",
+        "wikis/security-agent-wiki/rules/patch-source-gate.md",
+        "wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md",
+        "wikis/security-agent-wiki/rules/secret-redaction-required.md",
+        "wikis/security-agent-wiki/rules/secure-logging-boundary.md",
+        "wikis/security-agent-wiki/rules/unknown-script-review.md"
       ],
       "workflows": [
+        "wikis/security-agent-wiki/workflows/cloud-baseline-review-workflow.md",
         "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
+        "wikis/security-agent-wiki/workflows/dependency-review-workflow.md",
+        "wikis/security-agent-wiki/workflows/detection-rule-review-workflow.md",
+        "wikis/security-agent-wiki/workflows/incident-containment-workflow.md",
         "wikis/security-agent-wiki/workflows/main-workflow.md",
+        "wikis/security-agent-wiki/workflows/patch-review-workflow.md",
+        "wikis/security-agent-wiki/workflows/secret-exposure-response-workflow.md",
         "wikis/security-agent-wiki/workflows/security-review-checklist.md",
-        "wikis/security-agent-wiki/workflows/threat-model-review.md"
+        "wikis/security-agent-wiki/workflows/threat-model-review-workflow.md",
+        "wikis/security-agent-wiki/workflows/threat-model-review.md",
+        "wikis/security-agent-wiki/workflows/vulnerability-triage-workflow.md"
       ],
       "evals": [
         "wikis/security-agent-wiki/evals/security-agent-evals.yaml",
-        "wikis/security-agent-wiki/evals/smoke-tests.yaml"
+        "wikis/security-agent-wiki/evals/smoke-tests.yaml",
+        "wikis/security-agent-wiki/evals/stable-knowledge-evals.yaml"
       ],
       "source_notes": "wikis/security-agent-wiki/sources/source-notes.md",
       "source_refresh_log": "wikis/security-agent-wiki/sources/source-refresh-log.md",

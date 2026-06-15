@@ -9,7 +9,7 @@ tags:
   - agent-wiki
   - prompts
 generated_by: scripts/generate_obsidian_vault.py
-generated_on: 2026-06-03
+generated_on: 2026-06-15
 ---
 
 
@@ -20,3 +20,7 @@ Generated index for `security-agent-wiki/prompts`.
 | Page | Source path |
 | --- | --- |
 | Default Agent Prompt | `wikis/security-agent-wiki/prompts/default-agent.md` |
+| Defensive Security Review Prompt | `wikis/security-agent-wiki/prompts/defensive-security-review-prompt.md` |
+| Dependency Security Review Prompt | `wikis/security-agent-wiki/prompts/dependency-security-review-prompt.md` |
+| Secret Leak Triage Prompt | `wikis/security-agent-wiki/prompts/secret-leak-triage-prompt.md` |
+| Threat Model Prompt | `wikis/security-agent-wiki/prompts/threat-model-prompt.md` |

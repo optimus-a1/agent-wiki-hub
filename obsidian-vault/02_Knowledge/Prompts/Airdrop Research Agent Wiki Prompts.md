@@ -9,7 +9,7 @@ tags:
   - agent-wiki
   - prompts
 generated_by: scripts/generate_obsidian_vault.py
-generated_on: 2026-06-03
+generated_on: 2026-06-15
 ---
 
 
@@ -19,4 +19,8 @@ Generated index for `airdrop-agent-wiki/prompts`.
 
 | Page | Source path |
 | --- | --- |
+| Airdrop Research Prompt | `wikis/airdrop-agent-wiki/prompts/airdrop-research-prompt.md` |
 | Default Agent Prompt | `wikis/airdrop-agent-wiki/prompts/default-agent.md` |
+| Source Gate Airdrop Prompt | `wikis/airdrop-agent-wiki/prompts/source-gate-airdrop-prompt.md` |
+| Task Risk Triage Prompt | `wikis/airdrop-agent-wiki/prompts/task-risk-triage-prompt.md` |
+| Wallet Safety Review Prompt | `wikis/airdrop-agent-wiki/prompts/wallet-safety-review-prompt.md` |

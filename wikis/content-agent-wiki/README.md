@@ -1,3 +1,20 @@
+## Knowledge Density Expansion v2.1
+
+Generated on 2026-06-15 from model-synthesized stable knowledge.
+
+- Scope: long-lived concepts, rules, workflows, cases, prompts, and evals.
+- Boundary: no current facts, no authoritative source claims, no evidence auto-verification.
+- High-risk/current claims still require source review and human confirmation.
+
+| Area | Added |
+| --- | ---: |
+| concepts | 8 |
+| rules | 6 |
+| workflows | 5 |
+| cases | 4 |
+| prompts | 4 |
+| eval tests | 8 |
+
 # Content Agent Wiki
 
 研究简报、日报、文章、短帖、长帖、标题和发布检查知识库。

@@ -40,3 +40,16 @@ knowledge_expansion:
     cases:
       - cases/sample-overfitting-detection.md
   scope_note: "Stable finance education and simulation principles only; no current prices, regulations, platform rules, or personalized advice."
+knowledge_density_v2_1:
+  stable_only: true
+  generated_on: 2026-06-15
+  source_status: model-synthesized-stable
+  current_fact: false
+  evidence_status_changed: false
+  added_counts:
+    concepts: 12
+    rules: 10
+    workflows: 8
+    cases: 6
+    prompts: 4
+    eval_tests: 12

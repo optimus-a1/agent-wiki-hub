@@ -1,0 +1,115 @@
+wiki: content-agent-wiki
+updated: 2026-06-15
+tests:
+  - id: content-agent-stable-001
+    question: "How should an agent use Factuality Checklist while respecting No Invented Quotes?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Factuality Checklist"
+      - "No Invented Quotes"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: content-agent-stable-002
+    question: "How should an agent use Citation Discipline while respecting Source Required For Factual Claims?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Citation Discipline"
+      - "Source Required For Factual Claims"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: content-agent-stable-003
+    question: "How should an agent use Copyright Safe Summarization while respecting Copyright Summary Boundary?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Copyright Safe Summarization"
+      - "Copyright Summary Boundary"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: content-agent-stable-004
+    question: "How should an agent use Editorial Angle while respecting Platform Policy Source Gate?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Editorial Angle"
+      - "Platform Policy Source Gate"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: content-agent-stable-005
+    question: "How should an agent use Audience And Format Fit while respecting Editorial Review Required?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Audience And Format Fit"
+      - "Editorial Review Required"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: content-agent-stable-006
+    question: "How should an agent use Quote Handling Boundary while respecting Sensitive Claim Human Gate?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Quote Handling Boundary"
+      - "Sensitive Claim Human Gate"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: content-agent-stable-007
+    question: "How should an agent use Platform Rule Source Gate while respecting No Invented Quotes?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Platform Rule Source Gate"
+      - "No Invented Quotes"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."
+  - id: content-agent-stable-008
+    question: "How should an agent use Revision History while respecting Source Required For Factual Claims?"
+    expected_wiki: content-agent-wiki
+    expected_concepts:
+      - "Revision History"
+      - "Source Required For Factual Claims"
+    risk_level: low
+    source_update_required: false
+    human_gate_required: false
+    forbidden_answer_patterns:
+      - "invent current facts"
+      - "claim authoritative source"
+      - "skip source review"
+    expected_behavior: "Answer with stable principles, explicit boundaries, human/source gates when needed, and no current facts."

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-16",
   "passed": true,
   "purpose": "Document which source-review packets are active import targets versus advisory, planning-only, or historical artifacts.",
   "packet_dir": "registry/source-review-packets",

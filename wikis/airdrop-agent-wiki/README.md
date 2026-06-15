@@ -1,3 +1,20 @@
+## Knowledge Density Expansion v2.1
+
+Generated on 2026-06-15 from model-synthesized stable knowledge.
+
+- Scope: long-lived concepts, rules, workflows, cases, prompts, and evals.
+- Boundary: no current facts, no authoritative source claims, no evidence auto-verification.
+- High-risk/current claims still require source review and human confirmation.
+
+| Area | Added |
+| --- | ---: |
+| concepts | 10 |
+| rules | 8 |
+| workflows | 6 |
+| cases | 6 |
+| prompts | 4 |
+| eval tests | 10 |
+
 # Airdrop Research Agent Wiki
 
 Web3 项目研究、公开任务记录、钱包安全、风险识别知识库。禁止刷量、规避平台规则或承诺收益。

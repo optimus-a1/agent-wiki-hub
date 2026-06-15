@@ -1,6 +1,7 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-15",
   "passed": true,
   "mode": "obsidian-index",
-  "chunk_count": 111
+  "chunk_count": 115,
+  "index": "rag/obsidian-index.jsonl"
 }

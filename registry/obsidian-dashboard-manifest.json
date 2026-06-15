@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03",
+  "generated": "2026-06-15",
   "passed": true,
   "dashboards": [
     "obsidian-vault/05_Dashboard/Wiki Status.md",
@@ -7,6 +7,10 @@
     "obsidian-vault/05_Dashboard/Acceptance Status.md",
     "obsidian-vault/05_Dashboard/Needs Source Update.md",
     "obsidian-vault/05_Dashboard/Human Gates.md",
-    "obsidian-vault/05_Dashboard/Knowledge Graph Status.md"
+    "obsidian-vault/05_Dashboard/Knowledge Graph Status.md",
+    "obsidian-vault/05_Dashboard/Knowledge Density.md",
+    "obsidian-vault/05_Dashboard/Current Fact Gates.md",
+    "obsidian-vault/05_Dashboard/Human Review Gates.md",
+    "obsidian-vault/05_Dashboard/High Risk Boundaries.md"
   ]
 }

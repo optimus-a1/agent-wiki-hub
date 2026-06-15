@@ -10,7 +10,7 @@ tags:
   - ecommerce
   - source-review
 generated_by: scripts/generate_obsidian_vault.py
-generated_on: 2026-06-03
+generated_on: 2026-06-15
 ---
 
 
@@ -20,7 +20,7 @@ generated_on: 2026-06-03
 - Source: `wikis/ecommerce-agent-wiki`
 - Risk: `medium`
 - Freshness: `high`
-- Related dashboards: [[Wiki Status]], [[Source Review Status]], [[Acceptance Status]], [[Human Gates]]
+- Related dashboards: [[Wiki Status]], [[Knowledge Density]], [[Current Fact Gates]], [[Human Review Gates]], [[High Risk Boundaries]], [[Source Review Status]], [[Acceptance Status]], [[Human Gates]]
 
 ## Knowledge Indexes
 - [[Ecommerce Agent Wiki Concepts]]
@@ -31,6 +31,21 @@ generated_on: 2026-06-03
 - [[Ecommerce Agent Wiki Tools]]
 - [[Ecommerce Agent Wiki Sources]]
 
+## v2.1 Knowledge Graph
+- [[Knowledge Density]]
+- [[Current Fact Gates]]
+- [[Human Review Gates]]
+- [[High Risk Boundaries]]
+
 ## Source Review
 - [[Source Review Status]]
 - [[Needs Source Update]]
+
+## v2.1 Backlinks
+
+- [[Knowledge Density]]
+- [[Current Fact Gates]]
+- [[Human Review Gates]]
+- [[High Risk Boundaries]]
+- [[Wiki Status]]
+- [[Source Review Status]]

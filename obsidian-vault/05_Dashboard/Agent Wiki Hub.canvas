@@ -179,6 +179,24 @@
       "y": 900,
       "width": 260,
       "height": 110
+    },
+    {
+      "id": "system-7",
+      "type": "text",
+      "text": "Knowledge Density",
+      "x": 820,
+      "y": 1050,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "system-8",
+      "type": "text",
+      "text": "Current Fact Gates",
+      "x": 820,
+      "y": 1200,
+      "width": 260,
+      "height": 110
     }
   ],
   "edges": [
@@ -276,6 +294,16 @@
       "id": "system-edge-6",
       "fromNode": "wiki-status",
       "toNode": "system-6"
+    },
+    {
+      "id": "system-edge-7",
+      "fromNode": "wiki-status",
+      "toNode": "system-7"
+    },
+    {
+      "id": "system-edge-8",
+      "fromNode": "wiki-status",
+      "toNode": "system-8"
     }
   ]
 }
