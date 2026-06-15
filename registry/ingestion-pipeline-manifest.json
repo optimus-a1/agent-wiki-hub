@@ -1,0 +1,11 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "warnings": [
+    "OCR dependency optional and not required",
+    "Whisper dependency optional and not required",
+    "No Raw inputs may be present"
+  ],
+  "raw_root": "obsidian-vault/01_Raw",
+  "candidate_root": "obsidian-vault/02_Knowledge/Candidates"
+}

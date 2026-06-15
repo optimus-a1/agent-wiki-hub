@@ -1,5 +1,16 @@
 # NodeOps Agent Wiki
 
+## Stable Knowledge Expansion (2026-06-01)
+
+Added stable, non-current operations knowledge:
+
+- `concepts/service-reliability-signals.md`: availability, latency, error rate, saturation, throughput, logs, metrics, traces, and alert quality.
+- `rules/backup-restore-and-change-safety.md`: backup validity, restore planning, destructive-operation gates, and rollback safety.
+- `workflows/incident-triage-runbook.md`: impact-first incident triage, evidence capture, mitigation, communication, and review.
+- `cases/sample-disk-pressure-incident.md`: safe handling of storage pressure without automatic deletion.
+
+Expansion boundary: stable operations principles only. No current provider, OS, node, chain, service version, or live infrastructure facts are included.
+
 Linux、Docker、systemd、监控、日志、备份、故障排查和节点运维知识库。
 
 ## When to use

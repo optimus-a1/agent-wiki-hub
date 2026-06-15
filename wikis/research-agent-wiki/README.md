@@ -1,5 +1,16 @@
 # Research Agent Wiki
 
+## Stable Knowledge Expansion (2026-06-01)
+
+Added stable, non-current research knowledge:
+
+- `concepts/evidence-quality-and-bias.md`: validity, bias, confounding, evidence strength, and uncertainty.
+- `rules/reproducibility-and-citation-integrity.md`: citation support, reproducibility details, benchmark claim requirements, and unknown fields.
+- `workflows/systematic-literature-review.md`: review questions, search strategy, screening, extraction, appraisal, and synthesis.
+- `cases/sample-benchmark-claim-review.md`: safe benchmark claim review without inventing rankings or results.
+
+Expansion boundary: stable research methodology only. No current papers, rankings, benchmark results, dataset versions, or literature coverage claims are included.
+
 论文阅读、综述、实验复现、引用管理和研究评测知识库。
 
 ## When to use

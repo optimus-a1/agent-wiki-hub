@@ -1,5 +1,16 @@
 # Finance Agent Wiki
 
+## Stable Knowledge Expansion (2026-06-01)
+
+Added stable, non-current finance knowledge:
+
+- `concepts/portfolio-and-risk-metrics.md`: portfolio exposure, drawdown, liquidity, correlation, and risk-adjusted interpretation.
+- `rules/model-risk-and-backtest-hygiene.md`: lookahead, survivorship, overfitting, costs, capacity, and model governance.
+- `workflows/portfolio-review-workflow.md`: simulation-first portfolio review with exposure tables and human confirmation points.
+- `cases/sample-overfitting-detection.md`: safe review of suspicious backtests without live trading recommendations.
+
+Expansion boundary: educational and simulated finance principles only. No current prices, regulations, platform rules, broker terms, or personalized investment advice are included.
+
 金融研究、财务分析、市场数据、回测、风控与模拟交易系统知识库。默认用于教育、研究和模拟，不输出个人化投资建议。
 
 ## When to use

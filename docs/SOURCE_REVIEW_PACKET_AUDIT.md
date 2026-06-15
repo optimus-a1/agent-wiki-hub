@@ -1,6 +1,6 @@
 # Source Review Packet Audit
 
-Generated: 2026-05-31
+Generated: 2026-06-03
 
 ## Purpose
 
@@ -10,9 +10,9 @@ Audit active source-review packet files before import, while keeping historical 
 
 - Passed: yes
 - Active packet files: 2
-- Discovered packet files: 8
-- Advisory packet files: 6
-- Planning-only packet files: 4
+- Discovered packet files: 10
+- Advisory packet files: 8
+- Planning-only packet files: 6
 - Historical/prefill packet files: 2
 - Entries: 26
 - Advisory entries: 176
@@ -27,6 +27,8 @@ Audit active source-review packet files before import, while keeping historical 
 
 | Packet | Scope | Result | Entries | Pending | Final | Human-Gated | Issues | Warnings |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| [source-review-session-auto-pending.json](../registry/source-review-packets/source-review-session-auto-pending.json) | planning-only-pending-packet | PASS | 0 | 0 | 0 | 0 | 0 | 0 |
+| [source-review-session-auto-pending.jsonl](../registry/source-review-packets/source-review-session-auto-pending.jsonl) | planning-only-pending-packet | PASS | 0 | 0 | 0 | 0 | 0 | 0 |
 | [source-review-session-wave-1-ai-prefill.json](../registry/source-review-packets/source-review-session-wave-1-ai-prefill.json) | advisory-ai-prefill | ADVISORY | 66 | 0 | 66 | 66 | 68 | 0 |
 | [source-review-session-wave-1-ai-prefill.jsonl](../registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl) | advisory-ai-prefill | ADVISORY | 66 | 0 | 66 | 66 | 68 | 0 |
 | [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json) | active-import-packet | PASS | 13 | 13 | 0 | 13 | 0 | 0 |
@@ -46,6 +48,8 @@ No active packet issues found.
 
 ## Advisory Packet Observations
 
+- `registry/source-review-packets/source-review-session-auto-pending.json`: Auto-pending packets are source-review planning artifacts and do not block acceptance. No issues found.
+- `registry/source-review-packets/source-review-session-auto-pending.jsonl`: Auto-pending packets are source-review planning artifacts and do not block acceptance. No issues found.
 - `registry/source-review-packets/source-review-session-wave-1-ai-prefill.json`: AI-prefill packets are historical source-assistance artifacts, not active import packets. Observation: duplicate ticket ids: TICKET-SRC-001, TICKET-SRC-002, TICKET-SRC-003, TICKET-SRC-004, TICKET-SRC-005, TICKET-SRC-006, TICKET-SRC-007, TICKET-SRC-008, TICKET-SRC-009, TICKET-SRC-010, TICKET-SRC-011, TICKET-SRC-012, TICKET-SRC-013
 - `registry/source-review-packets/source-review-session-wave-1-ai-prefill.json`: AI-prefill packets are historical source-assistance artifacts, not active import packets. Observation: TICKET-SRC-004: human-gated ticket requires human_reviewer before final status
 - `registry/source-review-packets/source-review-session-wave-1-ai-prefill.json`: AI-prefill packets are historical source-assistance artifacts, not active import packets. Observation: TICKET-SRC-004: human-gated ticket requires human_reviewer before final status
@@ -207,10 +211,10 @@ No packet warnings found.
 | --- | --- | --- |
 | ticket registry available | PASS | registry/source-refresh-tickets.json |
 | packet directory available | PASS | registry/source-review-packets |
-| packet files discovered | PASS | 8 discovered packet files |
+| packet files discovered | PASS | 10 discovered packet files |
 | active packet files discovered | PASS | 2 active packet files |
 | active packet files passed | PASS | 2/2 active packets passed |
-| advisory packets do not block acceptance | PASS | 6 advisory packet files, 136 advisory issues |
+| advisory packets do not block acceptance | PASS | 8 advisory packet files, 136 advisory issues |
 
 ## Safety Boundary
 

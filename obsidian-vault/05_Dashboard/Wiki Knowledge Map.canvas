@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "graph",
+      "type": "file",
+      "file": "05_Dashboard/Knowledge Graph Status.md",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 120
+    },
+    {
+      "id": "moc-0",
+      "type": "text",
+      "text": "agent-engineering-wiki MOC",
+      "x": -700,
+      "y": 170,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-1",
+      "type": "text",
+      "text": "airdrop-agent-wiki MOC",
+      "x": -280,
+      "y": 170,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-2",
+      "type": "text",
+      "text": "coding-agent-wiki MOC",
+      "x": 140,
+      "y": 170,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-3",
+      "type": "text",
+      "text": "content-agent-wiki MOC",
+      "x": -700,
+      "y": 340,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-4",
+      "type": "text",
+      "text": "customs-agent-wiki MOC",
+      "x": -280,
+      "y": 340,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-5",
+      "type": "text",
+      "text": "ecommerce-agent-wiki MOC",
+      "x": 140,
+      "y": 340,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-6",
+      "type": "text",
+      "text": "finance-agent-wiki MOC",
+      "x": -700,
+      "y": 510,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-7",
+      "type": "text",
+      "text": "health-agent-wiki MOC",
+      "x": -280,
+      "y": 510,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-8",
+      "type": "text",
+      "text": "legal-agent-wiki MOC",
+      "x": 140,
+      "y": 510,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-9",
+      "type": "text",
+      "text": "nodeops-agent-wiki MOC",
+      "x": -700,
+      "y": 680,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-10",
+      "type": "text",
+      "text": "research-agent-wiki MOC",
+      "x": -280,
+      "y": 680,
+      "width": 260,
+      "height": 110
+    },
+    {
+      "id": "moc-11",
+      "type": "text",
+      "text": "security-agent-wiki MOC",
+      "x": 140,
+      "y": 680,
+      "width": 260,
+      "height": 110
+    }
+  ],
+  "edges": [
+    {
+      "id": "moc-edge-0",
+      "fromNode": "graph",
+      "toNode": "moc-0"
+    },
+    {
+      "id": "moc-edge-1",
+      "fromNode": "graph",
+      "toNode": "moc-1"
+    },
+    {
+      "id": "moc-edge-2",
+      "fromNode": "graph",
+      "toNode": "moc-2"
+    },
+    {
+      "id": "moc-edge-3",
+      "fromNode": "graph",
+      "toNode": "moc-3"
+    },
+    {
+      "id": "moc-edge-4",
+      "fromNode": "graph",
+      "toNode": "moc-4"
+    },
+    {
+      "id": "moc-edge-5",
+      "fromNode": "graph",
+      "toNode": "moc-5"
+    },
+    {
+      "id": "moc-edge-6",
+      "fromNode": "graph",
+      "toNode": "moc-6"
+    },
+    {
+      "id": "moc-edge-7",
+      "fromNode": "graph",
+      "toNode": "moc-7"
+    },
+    {
+      "id": "moc-edge-8",
+      "fromNode": "graph",
+      "toNode": "moc-8"
+    },
+    {
+      "id": "moc-edge-9",
+      "fromNode": "graph",
+      "toNode": "moc-9"
+    },
+    {
+      "id": "moc-edge-10",
+      "fromNode": "graph",
+      "toNode": "moc-10"
+    },
+    {
+      "id": "moc-edge-11",
+      "fromNode": "graph",
+      "toNode": "moc-11"
+    }
+  ]
+}

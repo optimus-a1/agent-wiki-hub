@@ -1,5 +1,16 @@
 # Agent Engineering Wiki
 
+## Stable Knowledge Expansion (2026-06-01)
+
+Added stable, non-current agent engineering knowledge:
+
+- `concepts/agent-memory-and-context.md`: working memory, long-term memory, retrieval-backed memory, handoff, and stale-memory risk.
+- `rules/tool-use-and-grounding.md`: evidence grounding, tool selection, source support boundaries, and action gates.
+- `workflows/agent-eval-loop.md`: golden questions, behavior tests, source-grounding tests, and regression loops.
+- `cases/sample-tool-overreach.md`: safe handling of requests that tempt unnecessary or unsafe tool execution.
+
+Expansion boundary: stable agent design principles only. No current model, tool schema, platform capability, or API parameter facts are included.
+
 Agent 架构、RAG、知识包、Codex Skills、评测与安全边界知识库。
 
 ## When to use

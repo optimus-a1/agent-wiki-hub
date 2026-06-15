@@ -17,6 +17,15 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Node / dashboard
+node_modules/
+dashboard/node_modules/
+
+# RAG local database
+rag/chroma/
+*.sqlite
+*.sqlite3
+
 # Local backups and extracted bundles
 *.backup/
 *.bak
@@ -27,3 +36,7 @@ Thumbs.db
 source_review_work_orders_ai_verified_2026-05-28/
 source-review-packets-extra-backup/
 source-review-packets-backup/
+
+# Optional generated raw private media
+obsidian-vault/01_Raw/Audio/
+obsidian-vault/01_Raw/Video/

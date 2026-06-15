@@ -1,6 +1,6 @@
 # Source Review Session Plan
 
-Generated: 2026-05-31
+Generated: 2026-06-03
 
 ## Purpose
 
@@ -75,8 +75,8 @@ Use this only as a template. Replace every placeholder before a real import.
 
 ```json
 {
-  "packet_id": "source-review-session-2026-05-31",
-  "created_on": "2026-05-31",
+  "packet_id": "source-review-session-2026-06-03",
+  "created_on": "2026-06-03",
   "created_by": "<human reviewer or source-refresh agent>",
   "dry_run_first": true,
   "entries": [
@@ -87,7 +87,7 @@ Use this only as a template. Replace every placeholder before a real import.
       "source_publisher": "<official publisher or authority>",
       "source_url_or_reference": "<URL or local reference>",
       "source_published_or_updated": "YYYY-MM-DD | unknown",
-      "source_accessed_on": "2026-05-31",
+      "source_accessed_on": "2026-06-03",
       "verified_on": "",
       "evidence_summary": "<what the source supports and does not support>",
       "affected_pages": [],
@@ -103,7 +103,7 @@ Use this only as a template. Replace every placeholder before a real import.
       "source_publisher": "<official publisher or authority>",
       "source_url_or_reference": "<URL or local reference>",
       "source_published_or_updated": "YYYY-MM-DD | unknown",
-      "source_accessed_on": "2026-05-31",
+      "source_accessed_on": "2026-06-03",
       "verified_on": "",
       "evidence_summary": "<what the source supports and does not support>",
       "affected_pages": [],
@@ -119,7 +119,7 @@ Use this only as a template. Replace every placeholder before a real import.
       "source_publisher": "<official publisher or authority>",
       "source_url_or_reference": "<URL or local reference>",
       "source_published_or_updated": "YYYY-MM-DD | unknown",
-      "source_accessed_on": "2026-05-31",
+      "source_accessed_on": "2026-06-03",
       "verified_on": "",
       "evidence_summary": "<what the source supports and does not support>",
       "affected_pages": [],
@@ -135,7 +135,7 @@ Use this only as a template. Replace every placeholder before a real import.
       "source_publisher": "<official publisher or authority>",
       "source_url_or_reference": "<URL or local reference>",
       "source_published_or_updated": "YYYY-MM-DD | unknown",
-      "source_accessed_on": "2026-05-31",
+      "source_accessed_on": "2026-06-03",
       "verified_on": "",
       "evidence_summary": "<what the source supports and does not support>",
       "affected_pages": [],
@@ -151,7 +151,7 @@ Use this only as a template. Replace every placeholder before a real import.
       "source_publisher": "<official publisher or authority>",
       "source_url_or_reference": "<URL or local reference>",
       "source_published_or_updated": "YYYY-MM-DD | unknown",
-      "source_accessed_on": "2026-05-31",
+      "source_accessed_on": "2026-06-03",
       "verified_on": "",
       "evidence_summary": "<what the source supports and does not support>",
       "affected_pages": [],

@@ -27,3 +27,16 @@ safety:
   require_human_confirmation_for_high_risk: true
   no_secret_storage: true
   no_autonomous_high_risk_execution: true
+knowledge_expansion:
+  stable_only: true
+  last_expanded: 2026-06-01
+  added_pages:
+    concepts:
+      - concepts/portfolio-and-risk-metrics.md
+    rules:
+      - rules/model-risk-and-backtest-hygiene.md
+    workflows:
+      - workflows/portfolio-review-workflow.md
+    cases:
+      - cases/sample-overfitting-detection.md
+  scope_note: "Stable finance education and simulation principles only; no current prices, regulations, platform rules, or personalized advice."

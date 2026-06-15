@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "passed": true,
   "purpose": "Rehearse source-review packet imports with importer dry-run and no post-check writes. Existing imported evidence is acceptable in post-import repositories.",
   "packet_count": 2,
@@ -7,7 +7,7 @@
   "passed_dry_run_count": 2,
   "failed_dry_run_count": 0,
   "entry_count_from_audit": 26,
-  "advisory_packet_count_from_audit": 6,
+  "advisory_packet_count_from_audit": 8,
   "human_gated_entry_count_from_audit": 26,
   "results": [
     {

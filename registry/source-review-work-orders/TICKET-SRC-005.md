@@ -1,6 +1,6 @@
 # Source Review Work Order: TICKET-SRC-005
 
-Generated: 2026-05-31
+Generated: 2026-06-03
 
 ## Scope
 
@@ -52,7 +52,7 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
   "source_publisher": "<official publisher or authority>",
   "source_url_or_reference": "<URL or local reference>",
   "source_published_or_updated": "YYYY-MM-DD | unknown",
-  "source_accessed_on": "2026-05-31",
+  "source_accessed_on": "2026-06-03",
   "verified_on": "",
   "evidence_summary": "<what the source supports and does not support>",
   "affected_pages": [],

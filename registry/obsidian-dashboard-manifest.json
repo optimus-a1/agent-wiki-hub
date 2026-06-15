@@ -1,0 +1,12 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "dashboards": [
+    "obsidian-vault/05_Dashboard/Wiki Status.md",
+    "obsidian-vault/05_Dashboard/Source Review Status.md",
+    "obsidian-vault/05_Dashboard/Acceptance Status.md",
+    "obsidian-vault/05_Dashboard/Needs Source Update.md",
+    "obsidian-vault/05_Dashboard/Human Gates.md",
+    "obsidian-vault/05_Dashboard/Knowledge Graph Status.md"
+  ]
+}

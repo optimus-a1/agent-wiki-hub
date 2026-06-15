@@ -1,5 +1,10 @@
 # Update Log — NodeOps Agent Wiki
 
+## 2026-06-01
+
+- Added stable high-density knowledge pages for service reliability signals, backup and restore safety, incident triage, and disk pressure incidents.
+- Updated README and manifest to register the stable-only expansion boundary.
+
 ## 2026-05-27
 
 - Added source refresh log template for authoritative source verification.

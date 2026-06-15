@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "wikis": [
     {
       "id": "agent-engineering-wiki",
@@ -7,10 +7,10 @@
       "risk_level": "medium",
       "freshness_requirement": "medium",
       "content_counts": {
-        "concepts": 4,
-        "rules": 3,
-        "workflows": 3,
-        "cases": 2,
+        "concepts": 5,
+        "rules": 4,
+        "workflows": 4,
+        "cases": 3,
         "tools": 1,
         "prompts": 1,
         "evals": 2,
@@ -23,7 +23,7 @@
         "current eval harnesses, model APIs and MCP/tool schemas"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 19544
+      "pack_size_bytes": 25296
     },
     {
       "id": "airdrop-agent-wiki",
@@ -55,10 +55,10 @@
       "risk_level": "medium",
       "freshness_requirement": "medium",
       "content_counts": {
-        "concepts": 1,
-        "rules": 4,
-        "workflows": 4,
-        "cases": 2,
+        "concepts": 2,
+        "rules": 5,
+        "workflows": 5,
+        "cases": 3,
         "tools": 1,
         "prompts": 1,
         "evals": 2,
@@ -72,7 +72,7 @@
         "current OpenAI, Codex, GitHub or Vercel product behavior"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 17988
+      "pack_size_bytes": 23689
     },
     {
       "id": "content-agent-wiki",
@@ -153,10 +153,10 @@
       "risk_level": "high",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 3,
-        "rules": 3,
-        "workflows": 4,
-        "cases": 2,
+        "concepts": 4,
+        "rules": 4,
+        "workflows": 5,
+        "cases": 3,
         "tools": 1,
         "prompts": 1,
         "evals": 2,
@@ -170,7 +170,7 @@
         "current legal, regulatory or suitability requirements for financial products"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 21590
+      "pack_size_bytes": 28046
     },
     {
       "id": "health-agent-wiki",
@@ -224,10 +224,10 @@
       "risk_level": "high",
       "freshness_requirement": "medium",
       "content_counts": {
-        "concepts": 1,
-        "rules": 3,
-        "workflows": 3,
-        "cases": 2,
+        "concepts": 2,
+        "rules": 4,
+        "workflows": 4,
+        "cases": 3,
         "tools": 1,
         "prompts": 1,
         "evals": 2,
@@ -240,7 +240,7 @@
         "current blockchain node client versions, network parameters and upgrade requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 15359
+      "pack_size_bytes": 21351
     },
     {
       "id": "research-agent-wiki",
@@ -248,10 +248,10 @@
       "risk_level": "medium",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 1,
-        "rules": 2,
-        "workflows": 2,
-        "cases": 2,
+        "concepts": 2,
+        "rules": 3,
+        "workflows": 3,
+        "cases": 3,
         "tools": 1,
         "prompts": 1,
         "evals": 2,
@@ -263,7 +263,7 @@
         "current dataset availability, license, model weights and code repository status"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 12932
+      "pack_size_bytes": 18629
     },
     {
       "id": "security-agent-wiki",
@@ -271,10 +271,10 @@
       "risk_level": "high",
       "freshness_requirement": "high",
       "content_counts": {
-        "concepts": 1,
-        "rules": 3,
-        "workflows": 3,
-        "cases": 2,
+        "concepts": 2,
+        "rules": 4,
+        "workflows": 4,
+        "cases": 3,
         "tools": 1,
         "prompts": 1,
         "evals": 2,
@@ -286,7 +286,7 @@
         "current security tool rules, detection signatures, cloud defaults and compliance requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 15163
+      "pack_size_bytes": 20900
     }
   ]
 }

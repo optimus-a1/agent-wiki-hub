@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "current": {
-    "generated": "2026-05-31",
+    "generated": "2026-06-03",
     "metrics": {
       "wiki_count": 12,
-      "knowledge_files": 183,
+      "knowledge_files": 207,
       "eval_tests": 137,
       "source_update_topics": 35,
       "source_refresh_tasks": 35,
       "source_refresh_logs": 12,
       "package_count": 13,
-      "package_bytes": 1041917,
+      "package_bytes": 1169314,
       "audit_gates": 9,
       "audit_failures": 0
     },
@@ -29,7 +29,309 @@
         "domain": "ai_agent_engineering",
         "risk_level": "medium",
         "freshness_requirement": "medium",
-        "knowledge_files": 18,
+        "knowledge_files": 22,
+        "eval_tests": 14,
+        "source_update_topics": 3,
+        "source_refresh_tasks": 3,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 25296
+      },
+      {
+        "id": "airdrop-agent-wiki",
+        "domain": "web3_research",
+        "risk_level": "high",
+        "freshness_requirement": "high",
+        "knowledge_files": 15,
+        "eval_tests": 10,
+        "source_update_topics": 3,
+        "source_refresh_tasks": 3,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 15650
+      },
+      {
+        "id": "coding-agent-wiki",
+        "domain": "software_engineering",
+        "risk_level": "medium",
+        "freshness_requirement": "medium",
+        "knowledge_files": 21,
+        "eval_tests": 14,
+        "source_update_topics": 4,
+        "source_refresh_tasks": 4,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 23689
+      },
+      {
+        "id": "content-agent-wiki",
+        "domain": "content_operations",
+        "risk_level": "low",
+        "freshness_requirement": "medium",
+        "knowledge_files": 14,
+        "eval_tests": 10,
+        "source_update_topics": 3,
+        "source_refresh_tasks": 3,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 14182
+      },
+      {
+        "id": "customs-agent-wiki",
+        "domain": "customs_trade_documents",
+        "risk_level": "medium",
+        "freshness_requirement": "high",
+        "knowledge_files": 17,
+        "eval_tests": 15,
+        "source_update_topics": 4,
+        "source_refresh_tasks": 4,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 20047
+      },
+      {
+        "id": "ecommerce-agent-wiki",
+        "domain": "ecommerce",
+        "risk_level": "medium",
+        "freshness_requirement": "high",
+        "knowledge_files": 15,
+        "eval_tests": 10,
+        "source_update_topics": 3,
+        "source_refresh_tasks": 3,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 15468
+      },
+      {
+        "id": "finance-agent-wiki",
+        "domain": "finance",
+        "risk_level": "high",
+        "freshness_requirement": "high",
+        "knowledge_files": 22,
+        "eval_tests": 14,
+        "source_update_topics": 4,
+        "source_refresh_tasks": 4,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 28046
+      },
+      {
+        "id": "health-agent-wiki",
+        "domain": "health_education",
+        "risk_level": "high",
+        "freshness_requirement": "high",
+        "knowledge_files": 13,
+        "eval_tests": 10,
+        "source_update_topics": 2,
+        "source_refresh_tasks": 2,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 13202
+      },
+      {
+        "id": "legal-agent-wiki",
+        "domain": "legal_information",
+        "risk_level": "high",
+        "freshness_requirement": "high",
+        "knowledge_files": 13,
+        "eval_tests": 10,
+        "source_update_topics": 2,
+        "source_refresh_tasks": 2,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 13044
+      },
+      {
+        "id": "nodeops-agent-wiki",
+        "domain": "operations",
+        "risk_level": "high",
+        "freshness_requirement": "medium",
+        "knowledge_files": 19,
+        "eval_tests": 10,
+        "source_update_topics": 3,
+        "source_refresh_tasks": 3,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 21351
+      },
+      {
+        "id": "research-agent-wiki",
+        "domain": "research",
+        "risk_level": "medium",
+        "freshness_requirement": "high",
+        "knowledge_files": 17,
+        "eval_tests": 10,
+        "source_update_topics": 2,
+        "source_refresh_tasks": 2,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 18629
+      },
+      {
+        "id": "security-agent-wiki",
+        "domain": "defensive_security",
+        "risk_level": "high",
+        "freshness_requirement": "high",
+        "knowledge_files": 19,
+        "eval_tests": 10,
+        "source_update_topics": 2,
+        "source_refresh_tasks": 2,
+        "source_refresh_log_ready": true,
+        "pack_size_bytes": 20900
+      }
+    ],
+    "packages": [
+      {
+        "name": "agent-engineering-wiki.zip",
+        "path": "packs/agent-engineering-wiki.zip",
+        "size_bytes": 25389
+      },
+      {
+        "name": "agent-wiki-hub-all.zip",
+        "path": "packs/agent-wiki-hub-all.zip",
+        "size_bytes": 939717
+      },
+      {
+        "name": "airdrop-agent-wiki.zip",
+        "path": "packs/airdrop-agent-wiki.zip",
+        "size_bytes": 15650
+      },
+      {
+        "name": "coding-agent-wiki.zip",
+        "path": "packs/coding-agent-wiki.zip",
+        "size_bytes": 23689
+      },
+      {
+        "name": "content-agent-wiki.zip",
+        "path": "packs/content-agent-wiki.zip",
+        "size_bytes": 14182
+      },
+      {
+        "name": "customs-agent-wiki.zip",
+        "path": "packs/customs-agent-wiki.zip",
+        "size_bytes": 20047
+      },
+      {
+        "name": "ecommerce-agent-wiki.zip",
+        "path": "packs/ecommerce-agent-wiki.zip",
+        "size_bytes": 15468
+      },
+      {
+        "name": "finance-agent-wiki.zip",
+        "path": "packs/finance-agent-wiki.zip",
+        "size_bytes": 28046
+      },
+      {
+        "name": "health-agent-wiki.zip",
+        "path": "packs/health-agent-wiki.zip",
+        "size_bytes": 13202
+      },
+      {
+        "name": "legal-agent-wiki.zip",
+        "path": "packs/legal-agent-wiki.zip",
+        "size_bytes": 13044
+      },
+      {
+        "name": "nodeops-agent-wiki.zip",
+        "path": "packs/nodeops-agent-wiki.zip",
+        "size_bytes": 21351
+      },
+      {
+        "name": "research-agent-wiki.zip",
+        "path": "packs/research-agent-wiki.zip",
+        "size_bytes": 18629
+      },
+      {
+        "name": "security-agent-wiki.zip",
+        "path": "packs/security-agent-wiki.zip",
+        "size_bytes": 20900
+      }
+    ],
+    "audits": [
+      {
+        "name": "acceptance",
+        "passed": true,
+        "passed_count": 48,
+        "total": 48,
+        "failed_count": 0
+      },
+      {
+        "name": "ci",
+        "passed": true,
+        "passed_count": 11,
+        "total": 11,
+        "failed_count": 0
+      },
+      {
+        "name": "registry",
+        "passed": true,
+        "passed_count": 234,
+        "total": 234,
+        "failed_count": 0
+      },
+      {
+        "name": "metadata",
+        "passed": true,
+        "passed_count": 0,
+        "total": 0,
+        "failed_count": 0
+      },
+      {
+        "name": "coverage",
+        "passed": true,
+        "passed_count": 0,
+        "total": 0,
+        "failed_count": 0
+      },
+      {
+        "name": "links",
+        "passed": true,
+        "passed_count": 0,
+        "total": 0,
+        "failed_count": 0
+      },
+      {
+        "name": "packs",
+        "passed": true,
+        "passed_count": 615,
+        "total": 615,
+        "failed_count": 0
+      },
+      {
+        "name": "safety",
+        "passed": true,
+        "passed_count": 79,
+        "total": 79,
+        "failed_count": 0
+      },
+      {
+        "name": "source_refresh_logs",
+        "passed": true,
+        "passed_count": 12,
+        "total": 12,
+        "failed_count": 0
+      }
+    ]
+  },
+  "previous": {
+    "generated": "2026-06-01",
+    "metrics": {
+      "wiki_count": 12,
+      "knowledge_files": 207,
+      "eval_tests": 137,
+      "source_update_topics": 35,
+      "source_refresh_tasks": 35,
+      "source_refresh_logs": 12,
+      "package_count": 13,
+      "package_bytes": 1114783,
+      "audit_gates": 9,
+      "audit_failures": 0
+    },
+    "risk_counts": {
+      "high": 6,
+      "low": 1,
+      "medium": 5
+    },
+    "freshness_counts": {
+      "high": 8,
+      "medium": 4
+    },
+    "wikis": [
+      {
+        "id": "agent-engineering-wiki",
+        "domain": "ai_agent_engineering",
+        "risk_level": "medium",
+        "freshness_requirement": "medium",
+        "knowledge_files": 22,
         "eval_tests": 14,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
@@ -53,7 +355,7 @@
         "domain": "software_engineering",
         "risk_level": "medium",
         "freshness_requirement": "medium",
-        "knowledge_files": 17,
+        "knowledge_files": 21,
         "eval_tests": 14,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
@@ -101,7 +403,7 @@
         "domain": "finance",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 18,
+        "knowledge_files": 22,
         "eval_tests": 14,
         "source_update_topics": 4,
         "source_refresh_tasks": 4,
@@ -137,7 +439,7 @@
         "domain": "operations",
         "risk_level": "high",
         "freshness_requirement": "medium",
-        "knowledge_files": 15,
+        "knowledge_files": 19,
         "eval_tests": 10,
         "source_update_topics": 3,
         "source_refresh_tasks": 3,
@@ -149,7 +451,7 @@
         "domain": "research",
         "risk_level": "medium",
         "freshness_requirement": "high",
-        "knowledge_files": 13,
+        "knowledge_files": 17,
         "eval_tests": 10,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
@@ -161,7 +463,7 @@
         "domain": "defensive_security",
         "risk_level": "high",
         "freshness_requirement": "high",
-        "knowledge_files": 15,
+        "knowledge_files": 19,
         "eval_tests": 10,
         "source_update_topics": 2,
         "source_refresh_tasks": 2,
@@ -173,12 +475,12 @@
       {
         "name": "agent-engineering-wiki.zip",
         "path": "packs/agent-engineering-wiki.zip",
-        "size_bytes": 19544
+        "size_bytes": 25296
       },
       {
         "name": "agent-wiki-hub-all.zip",
         "path": "packs/agent-wiki-hub-all.zip",
-        "size_bytes": 847748
+        "size_bytes": 885279
       },
       {
         "name": "airdrop-agent-wiki.zip",
@@ -188,7 +490,7 @@
       {
         "name": "coding-agent-wiki.zip",
         "path": "packs/coding-agent-wiki.zip",
-        "size_bytes": 17988
+        "size_bytes": 23689
       },
       {
         "name": "content-agent-wiki.zip",
@@ -208,7 +510,7 @@
       {
         "name": "finance-agent-wiki.zip",
         "path": "packs/finance-agent-wiki.zip",
-        "size_bytes": 21590
+        "size_bytes": 28046
       },
       {
         "name": "health-agent-wiki.zip",
@@ -223,17 +525,17 @@
       {
         "name": "nodeops-agent-wiki.zip",
         "path": "packs/nodeops-agent-wiki.zip",
-        "size_bytes": 15359
+        "size_bytes": 21351
       },
       {
         "name": "research-agent-wiki.zip",
         "path": "packs/research-agent-wiki.zip",
-        "size_bytes": 12932
+        "size_bytes": 18629
       },
       {
         "name": "security-agent-wiki.zip",
         "path": "packs/security-agent-wiki.zip",
-        "size_bytes": 15163
+        "size_bytes": 20900
       }
     ],
     "audits": [
@@ -302,308 +604,6 @@
       }
     ]
   },
-  "previous": {
-    "generated": "2026-05-31",
-    "metrics": {
-      "wiki_count": 12,
-      "knowledge_files": 183,
-      "eval_tests": 137,
-      "source_update_topics": 35,
-      "source_refresh_tasks": 35,
-      "source_refresh_logs": 12,
-      "package_count": 13,
-      "package_bytes": 1102774,
-      "audit_gates": 9,
-      "audit_failures": 0
-    },
-    "risk_counts": {
-      "high": 6,
-      "low": 1,
-      "medium": 5
-    },
-    "freshness_counts": {
-      "high": 8,
-      "medium": 4
-    },
-    "wikis": [
-      {
-        "id": "agent-engineering-wiki",
-        "domain": "ai_agent_engineering",
-        "risk_level": "medium",
-        "freshness_requirement": "medium",
-        "knowledge_files": 18,
-        "eval_tests": 14,
-        "source_update_topics": 3,
-        "source_refresh_tasks": 3,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 19544
-      },
-      {
-        "id": "airdrop-agent-wiki",
-        "domain": "web3_research",
-        "risk_level": "high",
-        "freshness_requirement": "high",
-        "knowledge_files": 15,
-        "eval_tests": 10,
-        "source_update_topics": 3,
-        "source_refresh_tasks": 3,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 15650
-      },
-      {
-        "id": "coding-agent-wiki",
-        "domain": "software_engineering",
-        "risk_level": "medium",
-        "freshness_requirement": "medium",
-        "knowledge_files": 17,
-        "eval_tests": 14,
-        "source_update_topics": 4,
-        "source_refresh_tasks": 4,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 17988
-      },
-      {
-        "id": "content-agent-wiki",
-        "domain": "content_operations",
-        "risk_level": "low",
-        "freshness_requirement": "medium",
-        "knowledge_files": 14,
-        "eval_tests": 10,
-        "source_update_topics": 3,
-        "source_refresh_tasks": 3,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 14182
-      },
-      {
-        "id": "customs-agent-wiki",
-        "domain": "customs_trade_documents",
-        "risk_level": "medium",
-        "freshness_requirement": "high",
-        "knowledge_files": 17,
-        "eval_tests": 15,
-        "source_update_topics": 4,
-        "source_refresh_tasks": 4,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 20047
-      },
-      {
-        "id": "ecommerce-agent-wiki",
-        "domain": "ecommerce",
-        "risk_level": "medium",
-        "freshness_requirement": "high",
-        "knowledge_files": 15,
-        "eval_tests": 10,
-        "source_update_topics": 3,
-        "source_refresh_tasks": 3,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 15468
-      },
-      {
-        "id": "finance-agent-wiki",
-        "domain": "finance",
-        "risk_level": "high",
-        "freshness_requirement": "high",
-        "knowledge_files": 18,
-        "eval_tests": 14,
-        "source_update_topics": 4,
-        "source_refresh_tasks": 4,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 21590
-      },
-      {
-        "id": "health-agent-wiki",
-        "domain": "health_education",
-        "risk_level": "high",
-        "freshness_requirement": "high",
-        "knowledge_files": 13,
-        "eval_tests": 10,
-        "source_update_topics": 2,
-        "source_refresh_tasks": 2,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 13202
-      },
-      {
-        "id": "legal-agent-wiki",
-        "domain": "legal_information",
-        "risk_level": "high",
-        "freshness_requirement": "high",
-        "knowledge_files": 13,
-        "eval_tests": 10,
-        "source_update_topics": 2,
-        "source_refresh_tasks": 2,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 13044
-      },
-      {
-        "id": "nodeops-agent-wiki",
-        "domain": "operations",
-        "risk_level": "high",
-        "freshness_requirement": "medium",
-        "knowledge_files": 15,
-        "eval_tests": 10,
-        "source_update_topics": 3,
-        "source_refresh_tasks": 3,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 15359
-      },
-      {
-        "id": "research-agent-wiki",
-        "domain": "research",
-        "risk_level": "medium",
-        "freshness_requirement": "high",
-        "knowledge_files": 13,
-        "eval_tests": 10,
-        "source_update_topics": 2,
-        "source_refresh_tasks": 2,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 12932
-      },
-      {
-        "id": "security-agent-wiki",
-        "domain": "defensive_security",
-        "risk_level": "high",
-        "freshness_requirement": "high",
-        "knowledge_files": 15,
-        "eval_tests": 10,
-        "source_update_topics": 2,
-        "source_refresh_tasks": 2,
-        "source_refresh_log_ready": true,
-        "pack_size_bytes": 15163
-      }
-    ],
-    "packages": [
-      {
-        "name": "agent-engineering-wiki.zip",
-        "path": "packs/agent-engineering-wiki.zip",
-        "size_bytes": 19544
-      },
-      {
-        "name": "agent-wiki-hub-all.zip",
-        "path": "packs/agent-wiki-hub-all.zip",
-        "size_bytes": 908605
-      },
-      {
-        "name": "airdrop-agent-wiki.zip",
-        "path": "packs/airdrop-agent-wiki.zip",
-        "size_bytes": 15650
-      },
-      {
-        "name": "coding-agent-wiki.zip",
-        "path": "packs/coding-agent-wiki.zip",
-        "size_bytes": 17988
-      },
-      {
-        "name": "content-agent-wiki.zip",
-        "path": "packs/content-agent-wiki.zip",
-        "size_bytes": 14182
-      },
-      {
-        "name": "customs-agent-wiki.zip",
-        "path": "packs/customs-agent-wiki.zip",
-        "size_bytes": 20047
-      },
-      {
-        "name": "ecommerce-agent-wiki.zip",
-        "path": "packs/ecommerce-agent-wiki.zip",
-        "size_bytes": 15468
-      },
-      {
-        "name": "finance-agent-wiki.zip",
-        "path": "packs/finance-agent-wiki.zip",
-        "size_bytes": 21590
-      },
-      {
-        "name": "health-agent-wiki.zip",
-        "path": "packs/health-agent-wiki.zip",
-        "size_bytes": 13202
-      },
-      {
-        "name": "legal-agent-wiki.zip",
-        "path": "packs/legal-agent-wiki.zip",
-        "size_bytes": 13044
-      },
-      {
-        "name": "nodeops-agent-wiki.zip",
-        "path": "packs/nodeops-agent-wiki.zip",
-        "size_bytes": 15359
-      },
-      {
-        "name": "research-agent-wiki.zip",
-        "path": "packs/research-agent-wiki.zip",
-        "size_bytes": 12932
-      },
-      {
-        "name": "security-agent-wiki.zip",
-        "path": "packs/security-agent-wiki.zip",
-        "size_bytes": 15163
-      }
-    ],
-    "audits": [
-      {
-        "name": "acceptance",
-        "passed": true,
-        "passed_count": 48,
-        "total": 48,
-        "failed_count": 0
-      },
-      {
-        "name": "ci",
-        "passed": true,
-        "passed_count": 11,
-        "total": 11,
-        "failed_count": 0
-      },
-      {
-        "name": "registry",
-        "passed": true,
-        "passed_count": 234,
-        "total": 234,
-        "failed_count": 0
-      },
-      {
-        "name": "metadata",
-        "passed": true,
-        "passed_count": 0,
-        "total": 0,
-        "failed_count": 0
-      },
-      {
-        "name": "coverage",
-        "passed": true,
-        "passed_count": 0,
-        "total": 0,
-        "failed_count": 0
-      },
-      {
-        "name": "links",
-        "passed": true,
-        "passed_count": 0,
-        "total": 0,
-        "failed_count": 0
-      },
-      {
-        "name": "packs",
-        "passed": true,
-        "passed_count": 563,
-        "total": 563,
-        "failed_count": 0
-      },
-      {
-        "name": "safety",
-        "passed": true,
-        "passed_count": 79,
-        "total": 79,
-        "failed_count": 0
-      },
-      {
-        "name": "source_refresh_logs",
-        "passed": true,
-        "passed_count": 12,
-        "total": 12,
-        "failed_count": 0
-      }
-    ]
-  },
   "deltas": {
     "has_previous": true,
     "metrics": {
@@ -614,7 +614,7 @@
       "source_refresh_tasks": 0,
       "source_refresh_logs": 0,
       "package_count": 0,
-      "package_bytes": -60857,
+      "package_bytes": 54531,
       "audit_gates": 0,
       "audit_failures": 0
     },
@@ -625,7 +625,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 0
+        "pack_size_bytes": 5752
       },
       {
         "id": "airdrop-agent-wiki",
@@ -641,7 +641,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 0
+        "pack_size_bytes": 5701
       },
       {
         "id": "content-agent-wiki",
@@ -673,7 +673,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 0
+        "pack_size_bytes": 6456
       },
       {
         "id": "health-agent-wiki",
@@ -697,7 +697,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 0
+        "pack_size_bytes": 5992
       },
       {
         "id": "research-agent-wiki",
@@ -705,7 +705,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 0
+        "pack_size_bytes": 5697
       },
       {
         "id": "security-agent-wiki",
@@ -713,7 +713,7 @@
         "eval_tests": 0,
         "source_update_topics": 0,
         "source_refresh_tasks": 0,
-        "pack_size_bytes": 0
+        "pack_size_bytes": 5737
       }
     ]
   }

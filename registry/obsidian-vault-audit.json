@@ -1,0 +1,59 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "checks": [
+    {
+      "path": "00_System/README.md",
+      "passed": true
+    },
+    {
+      "path": "01_Raw/README.md",
+      "passed": true
+    },
+    {
+      "path": "02_Knowledge/README.md",
+      "passed": true
+    },
+    {
+      "path": "03_Skills/README.md",
+      "passed": true
+    },
+    {
+      "path": "04_Output/README.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Wiki Status.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Source Review Status.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Acceptance Status.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Needs Source Update.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Human Gates.md",
+      "passed": true
+    },
+    {
+      "path": "05_Dashboard/Knowledge Graph Status.md",
+      "passed": true
+    },
+    {
+      "path": "99_Archive/README.md",
+      "passed": true
+    },
+    {
+      "path": "02_Knowledge/MOCs",
+      "passed": true
+    }
+  ],
+  "moc_count": 12
+}

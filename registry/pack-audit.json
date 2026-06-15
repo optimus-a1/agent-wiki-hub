@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "passed": true,
   "checks": [
     {
@@ -20,7 +20,7 @@
     {
       "check_id": "agent-engineering-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "22 entries"
+      "evidence": "26 entries"
     },
     {
       "check_id": "agent-engineering-wiki:safe_member_names",
@@ -180,7 +180,7 @@
     {
       "check_id": "coding-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "21 entries"
+      "evidence": "25 entries"
     },
     {
       "check_id": "coding-agent-wiki:safe_member_names",
@@ -500,7 +500,7 @@
     {
       "check_id": "finance-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "22 entries"
+      "evidence": "26 entries"
     },
     {
       "check_id": "finance-agent-wiki:safe_member_names",
@@ -740,7 +740,7 @@
     {
       "check_id": "nodeops-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "19 entries"
+      "evidence": "23 entries"
     },
     {
       "check_id": "nodeops-agent-wiki:safe_member_names",
@@ -820,7 +820,7 @@
     {
       "check_id": "research-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "17 entries"
+      "evidence": "21 entries"
     },
     {
       "check_id": "research-agent-wiki:safe_member_names",
@@ -900,7 +900,7 @@
     {
       "check_id": "security-agent-wiki:zip_not_empty",
       "passed": true,
-      "evidence": "19 entries"
+      "evidence": "23 entries"
     },
     {
       "check_id": "security-agent-wiki:safe_member_names",
@@ -980,7 +980,7 @@
     {
       "check_id": "all:zip_not_empty",
       "passed": true,
-      "evidence": "445 entries"
+      "evidence": "531 entries"
     },
     {
       "check_id": "all:safe_member_names",
@@ -1738,6 +1738,11 @@
       "evidence": "registry/agent-routing-cards.json"
     },
     {
+      "check_id": "all:includes:registry/candidate-knowledge-report.json",
+      "passed": true,
+      "evidence": "registry/candidate-knowledge-report.json"
+    },
+    {
       "check_id": "all:includes:registry/change-summary.json",
       "passed": true,
       "evidence": "registry/change-summary.json"
@@ -1753,9 +1758,59 @@
       "evidence": "registry/coverage-audit.json"
     },
     {
+      "check_id": "all:includes:registry/crawl-report.json",
+      "passed": true,
+      "evidence": "registry/crawl-report.json"
+    },
+    {
+      "check_id": "all:includes:registry/crawler-output-audit.json",
+      "passed": true,
+      "evidence": "registry/crawler-output-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/crawler-sources.json",
+      "passed": true,
+      "evidence": "registry/crawler-sources.json"
+    },
+    {
+      "check_id": "all:includes:registry/dashboard-audit.json",
+      "passed": true,
+      "evidence": "registry/dashboard-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/dashboard-manifest.json",
+      "passed": true,
+      "evidence": "registry/dashboard-manifest.json"
+    },
+    {
       "check_id": "all:includes:registry/hub-navigation.json",
       "passed": true,
       "evidence": "registry/hub-navigation.json"
+    },
+    {
+      "check_id": "all:includes:registry/ingestion-pipeline-audit.json",
+      "passed": true,
+      "evidence": "registry/ingestion-pipeline-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/ingestion-pipeline-manifest.json",
+      "passed": true,
+      "evidence": "registry/ingestion-pipeline-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/knowledge-promotion-audit.json",
+      "passed": true,
+      "evidence": "registry/knowledge-promotion-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/knowledge-promotion-report.json",
+      "passed": true,
+      "evidence": "registry/knowledge-promotion-report.json"
+    },
+    {
+      "check_id": "all:includes:registry/knowledge-review-queue.json",
+      "passed": true,
+      "evidence": "registry/knowledge-review-queue.json"
     },
     {
       "check_id": "all:includes:registry/link-audit.json",
@@ -1763,9 +1818,39 @@
       "evidence": "registry/link-audit.json"
     },
     {
+      "check_id": "all:includes:registry/obsidian-canvas-manifest.json",
+      "passed": true,
+      "evidence": "registry/obsidian-canvas-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/obsidian-dashboard-manifest.json",
+      "passed": true,
+      "evidence": "registry/obsidian-dashboard-manifest.json"
+    },
+    {
+      "check_id": "all:includes:registry/obsidian-vault-audit.json",
+      "passed": true,
+      "evidence": "registry/obsidian-vault-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/obsidian-vault-manifest.json",
+      "passed": true,
+      "evidence": "registry/obsidian-vault-manifest.json"
+    },
+    {
       "check_id": "all:includes:registry/page-metadata-audit.json",
       "passed": true,
       "evidence": "registry/page-metadata-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/rag-config-audit.json",
+      "passed": true,
+      "evidence": "registry/rag-config-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/rag-index-manifest.json",
+      "passed": true,
+      "evidence": "registry/rag-index-manifest.json"
     },
     {
       "check_id": "all:includes:registry/registry-consistency.json",
@@ -1781,6 +1866,11 @@
       "check_id": "all:includes:registry/safety-audit.json",
       "passed": true,
       "evidence": "registry/safety-audit.json"
+    },
+    {
+      "check_id": "all:includes:registry/secret-leak-audit.json",
+      "passed": true,
+      "evidence": "registry/secret-leak-audit.json"
     },
     {
       "check_id": "all:includes:registry/source-evidence-fixtures/invalid-duplicate-ticket.json",
@@ -1891,6 +1981,16 @@
       "check_id": "all:includes:registry/source-review-packet-rehearsal.json",
       "passed": true,
       "evidence": "registry/source-review-packet-rehearsal.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-auto-pending.json",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-auto-pending.json"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "passed": true,
+      "evidence": "registry/source-review-packets/source-review-session-auto-pending.jsonl"
     },
     {
       "check_id": "all:includes:registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
@@ -2303,9 +2403,34 @@
       "evidence": "scripts/audit_content_coverage.py"
     },
     {
+      "check_id": "all:includes:scripts/audit_crawler_outputs.py",
+      "passed": true,
+      "evidence": "scripts/audit_crawler_outputs.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_dashboard.py",
+      "passed": true,
+      "evidence": "scripts/audit_dashboard.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_ingestion_pipeline.py",
+      "passed": true,
+      "evidence": "scripts/audit_ingestion_pipeline.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_knowledge_promotion.py",
+      "passed": true,
+      "evidence": "scripts/audit_knowledge_promotion.py"
+    },
+    {
       "check_id": "all:includes:scripts/audit_links.py",
       "passed": true,
       "evidence": "scripts/audit_links.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_obsidian_vault.py",
+      "passed": true,
+      "evidence": "scripts/audit_obsidian_vault.py"
     },
     {
       "check_id": "all:includes:scripts/audit_pack_integrity.py",
@@ -2318,9 +2443,19 @@
       "evidence": "scripts/audit_page_metadata.py"
     },
     {
+      "check_id": "all:includes:scripts/audit_rag_config.py",
+      "passed": true,
+      "evidence": "scripts/audit_rag_config.py"
+    },
+    {
       "check_id": "all:includes:scripts/audit_safety_boundaries.py",
       "passed": true,
       "evidence": "scripts/audit_safety_boundaries.py"
+    },
+    {
+      "check_id": "all:includes:scripts/audit_secret_leaks.py",
+      "passed": true,
+      "evidence": "scripts/audit_secret_leaks.py"
     },
     {
       "check_id": "all:includes:scripts/audit_source_evidence_quality.py",
@@ -2348,6 +2483,11 @@
       "evidence": "scripts/check_registry_consistency.py"
     },
     {
+      "check_id": "all:includes:scripts/classify_candidate_knowledge.py",
+      "passed": true,
+      "evidence": "scripts/classify_candidate_knowledge.py"
+    },
+    {
       "check_id": "all:includes:scripts/generate_agent_handoff.py",
       "passed": true,
       "evidence": "scripts/generate_agent_handoff.py"
@@ -2366,6 +2506,16 @@
       "check_id": "all:includes:scripts/generate_hub_navigation.py",
       "passed": true,
       "evidence": "scripts/generate_hub_navigation.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_obsidian_canvas.py",
+      "passed": true,
+      "evidence": "scripts/generate_obsidian_canvas.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_obsidian_vault.py",
+      "passed": true,
+      "evidence": "scripts/generate_obsidian_vault.py"
     },
     {
       "check_id": "all:includes:scripts/generate_release_notes.py",
@@ -2406,6 +2556,11 @@
       "check_id": "all:includes:scripts/generate_source_review_final_status.py",
       "passed": true,
       "evidence": "scripts/generate_source_review_final_status.py"
+    },
+    {
+      "check_id": "all:includes:scripts/generate_source_review_from_candidates.py",
+      "passed": true,
+      "evidence": "scripts/generate_source_review_from_candidates.py"
     },
     {
       "check_id": "all:includes:scripts/generate_source_review_packet_bundle.py",
@@ -2458,6 +2613,11 @@
       "evidence": "scripts/generate_source_reviewer_queue.py"
     },
     {
+      "check_id": "all:includes:scripts/generate_v2_scaffold.py",
+      "passed": true,
+      "evidence": "scripts/generate_v2_scaffold.py"
+    },
+    {
       "check_id": "all:includes:scripts/import_source_evidence_packet.py",
       "passed": true,
       "evidence": "scripts/import_source_evidence_packet.py"
@@ -2471,6 +2631,11 @@
       "check_id": "all:includes:scripts/pack_wikis.py",
       "passed": true,
       "evidence": "scripts/pack_wikis.py"
+    },
+    {
+      "check_id": "all:includes:scripts/promote_stable_knowledge.py",
+      "passed": true,
+      "evidence": "scripts/promote_stable_knowledge.py"
     },
     {
       "check_id": "all:includes:scripts/record_source_evidence.py",
@@ -2533,6 +2698,21 @@
       "evidence": "docs/AGENT_ROUTING_CARDS.md"
     },
     {
+      "check_id": "all:includes:docs/AUTO_SOURCE_REVIEW_QUEUE.md",
+      "passed": true,
+      "evidence": "docs/AUTO_SOURCE_REVIEW_QUEUE.md"
+    },
+    {
+      "check_id": "all:includes:docs/AUTONOMOUS_KNOWLEDGE_INGESTION.md",
+      "passed": true,
+      "evidence": "docs/AUTONOMOUS_KNOWLEDGE_INGESTION.md"
+    },
+    {
+      "check_id": "all:includes:docs/CANDIDATE_KNOWLEDGE_REPORT.md",
+      "passed": true,
+      "evidence": "docs/CANDIDATE_KNOWLEDGE_REPORT.md"
+    },
+    {
       "check_id": "all:includes:docs/CHANGE_SUMMARY.md",
       "passed": true,
       "evidence": "docs/CHANGE_SUMMARY.md"
@@ -2553,9 +2733,39 @@
       "evidence": "docs/CODEX_USAGE.md"
     },
     {
+      "check_id": "all:includes:docs/CONTROLLED_CRAWLER.md",
+      "passed": true,
+      "evidence": "docs/CONTROLLED_CRAWLER.md"
+    },
+    {
       "check_id": "all:includes:docs/COVERAGE_AUDIT.md",
       "passed": true,
       "evidence": "docs/COVERAGE_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/CRAWL_REPORT.md",
+      "passed": true,
+      "evidence": "docs/CRAWL_REPORT.md"
+    },
+    {
+      "check_id": "all:includes:docs/CRAWLER_OUTPUT_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/CRAWLER_OUTPUT_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/CRAWLER_SOURCE_POLICY.md",
+      "passed": true,
+      "evidence": "docs/CRAWLER_SOURCE_POLICY.md"
+    },
+    {
+      "check_id": "all:includes:docs/DASHBOARD_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/DASHBOARD_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/DASHBOARD_USAGE.md",
+      "passed": true,
+      "evidence": "docs/DASHBOARD_USAGE.md"
     },
     {
       "check_id": "all:includes:docs/HUB_NAVIGATION.md",
@@ -2563,14 +2773,99 @@
       "evidence": "docs/HUB_NAVIGATION.md"
     },
     {
+      "check_id": "all:includes:docs/INGESTION_PIPELINE.md",
+      "passed": true,
+      "evidence": "docs/INGESTION_PIPELINE.md"
+    },
+    {
+      "check_id": "all:includes:docs/INGESTION_PIPELINE_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/INGESTION_PIPELINE_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_INGESTION_REVIEW_FLOW.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_INGESTION_REVIEW_FLOW.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_PROMOTION_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_PROMOTION_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_PROMOTION_POLICY.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_PROMOTION_POLICY.md"
+    },
+    {
+      "check_id": "all:includes:docs/KNOWLEDGE_PROMOTION_REPORT.md",
+      "passed": true,
+      "evidence": "docs/KNOWLEDGE_PROMOTION_REPORT.md"
+    },
+    {
       "check_id": "all:includes:docs/LINK_AUDIT.md",
       "passed": true,
       "evidence": "docs/LINK_AUDIT.md"
     },
     {
+      "check_id": "all:includes:docs/LOCAL_USAGE_GUIDE.md",
+      "passed": true,
+      "evidence": "docs/LOCAL_USAGE_GUIDE.md"
+    },
+    {
+      "check_id": "all:includes:docs/MULTIMODAL_PROCESSING_GUIDE.md",
+      "passed": true,
+      "evidence": "docs/MULTIMODAL_PROCESSING_GUIDE.md"
+    },
+    {
+      "check_id": "all:includes:docs/OBSIDIAN_CANVAS_GUIDE.md",
+      "passed": true,
+      "evidence": "docs/OBSIDIAN_CANVAS_GUIDE.md"
+    },
+    {
+      "check_id": "all:includes:docs/OBSIDIAN_DASHBOARD_GUIDE.md",
+      "passed": true,
+      "evidence": "docs/OBSIDIAN_DASHBOARD_GUIDE.md"
+    },
+    {
+      "check_id": "all:includes:docs/OBSIDIAN_INTEGRATION.md",
+      "passed": true,
+      "evidence": "docs/OBSIDIAN_INTEGRATION.md"
+    },
+    {
+      "check_id": "all:includes:docs/OBSIDIAN_USAGE.md",
+      "passed": true,
+      "evidence": "docs/OBSIDIAN_USAGE.md"
+    },
+    {
+      "check_id": "all:includes:docs/OBSIDIAN_VAULT_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/OBSIDIAN_VAULT_AUDIT.md"
+    },
+    {
       "check_id": "all:includes:docs/PAGE_METADATA_AUDIT.md",
       "passed": true,
       "evidence": "docs/PAGE_METADATA_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/RAG_CONFIG_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/RAG_CONFIG_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/RAG_INTEGRATION.md",
+      "passed": true,
+      "evidence": "docs/RAG_INTEGRATION.md"
+    },
+    {
+      "check_id": "all:includes:docs/RAG_USAGE.md",
+      "passed": true,
+      "evidence": "docs/RAG_USAGE.md"
+    },
+    {
+      "check_id": "all:includes:docs/RAW_TO_KNOWLEDGE_WORKFLOW.md",
+      "passed": true,
+      "evidence": "docs/RAW_TO_KNOWLEDGE_WORKFLOW.md"
     },
     {
       "check_id": "all:includes:docs/REGISTRY_CONSISTENCY.md",
@@ -2591,6 +2886,11 @@
       "check_id": "all:includes:docs/SAFETY_AUDIT.md",
       "passed": true,
       "evidence": "docs/SAFETY_AUDIT.md"
+    },
+    {
+      "check_id": "all:includes:docs/SECRET_LEAK_AUDIT.md",
+      "passed": true,
+      "evidence": "docs/SECRET_LEAK_AUDIT.md"
     },
     {
       "check_id": "all:includes:docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md",
@@ -2748,6 +3048,11 @@
       "evidence": "docs/SOURCE_UPDATE_QUEUE.md"
     },
     {
+      "check_id": "all:includes:docs/UPGRADE_V2_OBSIDIAN_RAG_AUTONOMOUS.md",
+      "passed": true,
+      "evidence": "docs/UPGRADE_V2_OBSIDIAN_RAG_AUTONOMOUS.md"
+    },
+    {
       "check_id": "all:includes:docs/VALIDATION_RESULT.txt",
       "passed": true,
       "evidence": "docs/VALIDATION_RESULT.txt"
@@ -2761,6 +3066,11 @@
       "check_id": "all:includes:codex-skills/agent-wiki-builder/SKILL.md",
       "passed": true,
       "evidence": "codex-skills/agent-wiki-builder/SKILL.md"
+    },
+    {
+      "check_id": "all:includes:.github/workflows/knowledge-ingestion.yml",
+      "passed": true,
+      "evidence": ".github/workflows/knowledge-ingestion.yml"
     },
     {
       "check_id": "all:includes:.github/workflows/wiki-acceptance.yml",

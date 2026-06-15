@@ -110,6 +110,12 @@ def packet_scope(path: Path) -> tuple[bool, str, str]:
             "advisory-ai-prefill",
             "AI-prefill packets are historical source-assistance artifacts, not active import packets.",
         )
+    if "auto-pending" in name:
+        return (
+            False,
+            "planning-only-pending-packet",
+            "Auto-pending packets are source-review planning artifacts and do not block acceptance.",
+        )
     metadata = packet_metadata(path)
     if metadata.get("planning_only") or metadata.get("no_current_fact_write"):
         return (

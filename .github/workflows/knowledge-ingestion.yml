@@ -1,0 +1,43 @@
+name: Knowledge Ingestion
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ingestion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Generate local-first v2 layers
+        run: |
+          python scripts/generate_obsidian_vault.py
+          python scripts/generate_obsidian_canvas.py
+          python dashboard/scripts/collect_dashboard_data.py
+          python ingestion/generate_ingestion_report.py
+          python crawler/generate_crawl_report.py
+          python scripts/classify_candidate_knowledge.py --dry-run
+          python scripts/promote_stable_knowledge.py --dry-run
+          python scripts/generate_source_review_from_candidates.py --dry-run
+      - name: Audit and acceptance
+        run: |
+          python scripts/audit_secret_leaks.py
+          python scripts/run_acceptance.py
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: Automated knowledge ingestion update
+          title: Automated knowledge ingestion update
+          body: |
+            Automated knowledge ingestion update.
+
+            Includes collected source reports, promoted stable notes if eligible, pending review items, audit status, acceptance status, and source review warnings.
+          branch: automation/knowledge-ingestion

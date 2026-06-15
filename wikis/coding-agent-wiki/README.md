@@ -1,5 +1,16 @@
 # Coding Agent Wiki
 
+## Stable Knowledge Expansion (2026-06-01)
+
+Added stable, non-current coding knowledge:
+
+- `concepts/codebase-orientation.md`: repository orientation, entry points, conventions, tests, and dependency boundaries.
+- `rules/change-safety-and-review.md`: scoped edits, review priorities, secret safety, compatibility, and rollback thinking.
+- `workflows/debugging-and-regression-workflow.md`: reproduction, isolation, regression tests, and fix verification.
+- `cases/sample-minimal-change.md`: focused defect repair without unnecessary refactors.
+
+Expansion boundary: stable software engineering principles only. No current API behavior, dependency versions, platform pricing, or vendor-specific rules are included.
+
 编程、Debug、测试、部署、代码审查和 Codex 协作知识库。
 
 ## When to use

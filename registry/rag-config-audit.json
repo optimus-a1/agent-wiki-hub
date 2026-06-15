@@ -1,0 +1,45 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "warnings": [
+    "chromadb missing; keyword fallback remains available"
+  ],
+  "checks": [
+    {
+      "path": "rag/README.md",
+      "passed": true
+    },
+    {
+      "path": "rag/rag_config.yaml",
+      "passed": true
+    },
+    {
+      "path": "rag/requirements-rag.txt",
+      "passed": true
+    },
+    {
+      "path": "rag/index_wikis.py",
+      "passed": true
+    },
+    {
+      "path": "rag/index_obsidian.py",
+      "passed": true
+    },
+    {
+      "path": "rag/build_chroma_index.py",
+      "passed": true
+    },
+    {
+      "path": "rag/inspect_chroma_index.py",
+      "passed": true
+    },
+    {
+      "path": "rag/search_knowledge.py",
+      "passed": true
+    },
+    {
+      "path": ".gitignore rag/chroma/",
+      "passed": true
+    }
+  ]
+}

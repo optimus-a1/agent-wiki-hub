@@ -1,0 +1,46 @@
+{
+  "generated": "2026-06-03",
+  "passed": true,
+  "checks": [
+    {
+      "path": "dashboard/README.md",
+      "passed": true
+    },
+    {
+      "path": "dashboard/package.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/index.html",
+      "passed": true
+    },
+    {
+      "path": "dashboard/src/main.js",
+      "passed": true
+    },
+    {
+      "path": "dashboard/src/styles.css",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/dashboard-summary.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/wiki-status.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/source-review-status.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/acceptance-status.json",
+      "passed": true
+    },
+    {
+      "path": "dashboard/data/packs.json",
+      "passed": true
+    }
+  ]
+}

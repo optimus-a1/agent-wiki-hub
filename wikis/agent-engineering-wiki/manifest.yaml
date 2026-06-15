@@ -27,3 +27,16 @@ safety:
   require_human_confirmation_for_high_risk: true
   no_secret_storage: true
   no_autonomous_high_risk_execution: true
+knowledge_expansion:
+  stable_only: true
+  last_expanded: 2026-06-01
+  added_pages:
+    concepts:
+      - concepts/agent-memory-and-context.md
+    rules:
+      - rules/tool-use-and-grounding.md
+    workflows:
+      - workflows/agent-eval-loop.md
+    cases:
+      - cases/sample-tool-overreach.md
+  scope_note: "Stable agent design, grounding, memory, and eval principles only; no current model, tool, or platform facts."

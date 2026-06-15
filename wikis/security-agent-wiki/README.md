@@ -1,5 +1,16 @@
 # Defensive Security Agent Wiki
 
+## Stable Knowledge Expansion (2026-06-01)
+
+Added stable, non-current defensive security knowledge:
+
+- `concepts/security-control-model.md`: preventive, detective, corrective controls, least privilege, defense in depth, and risk acceptance.
+- `rules/secret-handling-and-log-redaction.md`: secret classification, redaction, placeholders, history checks, and release blocking.
+- `workflows/defensive-review-triage.md`: authorized triage, safe evidence, defensive remediation, and residual risk.
+- `cases/sample-secret-exposure-review.md`: safe reporting of suspected secrets without revealing values.
+
+Expansion boundary: defensive security principles only. No exploit steps, bypass instructions, current vulnerabilities, signatures, patches, or vendor policies are included.
+
 防御性安全审查、配置检查、代码安全与上线前清单知识库。禁止攻击、绕过、盗取或利用步骤。
 
 ## When to use

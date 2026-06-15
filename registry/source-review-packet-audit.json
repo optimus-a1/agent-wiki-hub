@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-31",
+  "generated": "2026-06-03",
   "passed": true,
   "purpose": "Audit active source-review packet files before import, while keeping historical AI-prefill packets visible as non-blocking advisory artifacts.",
   "packet_dir": "registry/source-review-packets",
   "packet_count": 2,
-  "discovered_packet_count": 8,
-  "advisory_packet_count": 6,
-  "planning_packet_count": 4,
+  "discovered_packet_count": 10,
+  "advisory_packet_count": 8,
+  "planning_packet_count": 6,
   "historical_packet_count": 2,
   "entry_count": 26,
   "discovered_entry_count": 202,
@@ -29,6 +29,36 @@
     "security-agent-wiki": 4
   },
   "packets": [
+    {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "blocking": false,
+      "classification": "planning-only-pending-packet",
+      "non_blocking_reason": "Auto-pending packets are source-review planning artifacts and do not block acceptance.",
+      "passed": true,
+      "blocking_passed": true,
+      "entry_count": 0,
+      "final_entry_count": 0,
+      "pending_entry_count": 0,
+      "human_gated_entry_count": 0,
+      "issues": [],
+      "warnings": [],
+      "entries": []
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "blocking": false,
+      "classification": "planning-only-pending-packet",
+      "non_blocking_reason": "Auto-pending packets are source-review planning artifacts and do not block acceptance.",
+      "passed": true,
+      "blocking_passed": true,
+      "entry_count": 0,
+      "final_entry_count": 0,
+      "pending_entry_count": 0,
+      "human_gated_entry_count": 0,
+      "issues": [],
+      "warnings": [],
+      "entries": []
+    },
     {
       "path": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "blocking": false,
@@ -3334,6 +3364,36 @@
   ],
   "advisory_packets": [
     {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "blocking": false,
+      "classification": "planning-only-pending-packet",
+      "non_blocking_reason": "Auto-pending packets are source-review planning artifacts and do not block acceptance.",
+      "passed": true,
+      "blocking_passed": true,
+      "entry_count": 0,
+      "final_entry_count": 0,
+      "pending_entry_count": 0,
+      "human_gated_entry_count": 0,
+      "issues": [],
+      "warnings": [],
+      "entries": []
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "blocking": false,
+      "classification": "planning-only-pending-packet",
+      "non_blocking_reason": "Auto-pending packets are source-review planning artifacts and do not block acceptance.",
+      "passed": true,
+      "blocking_passed": true,
+      "entry_count": 0,
+      "final_entry_count": 0,
+      "pending_entry_count": 0,
+      "human_gated_entry_count": 0,
+      "issues": [],
+      "warnings": [],
+      "entries": []
+    },
+    {
       "path": "registry/source-review-packets/source-review-session-wave-1-ai-prefill.json",
       "blocking": false,
       "classification": "advisory-ai-prefill",
@@ -5947,6 +6007,36 @@
     }
   ],
   "planning_packets": [
+    {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.json",
+      "blocking": false,
+      "classification": "planning-only-pending-packet",
+      "non_blocking_reason": "Auto-pending packets are source-review planning artifacts and do not block acceptance.",
+      "passed": true,
+      "blocking_passed": true,
+      "entry_count": 0,
+      "final_entry_count": 0,
+      "pending_entry_count": 0,
+      "human_gated_entry_count": 0,
+      "issues": [],
+      "warnings": [],
+      "entries": []
+    },
+    {
+      "path": "registry/source-review-packets/source-review-session-auto-pending.jsonl",
+      "blocking": false,
+      "classification": "planning-only-pending-packet",
+      "non_blocking_reason": "Auto-pending packets are source-review planning artifacts and do not block acceptance.",
+      "passed": true,
+      "blocking_passed": true,
+      "entry_count": 0,
+      "final_entry_count": 0,
+      "pending_entry_count": 0,
+      "human_gated_entry_count": 0,
+      "issues": [],
+      "warnings": [],
+      "entries": []
+    },
     {
       "path": "registry/source-review-packets/source-review-session-wave-2-pending.json",
       "blocking": false,
@@ -8576,7 +8666,7 @@
     {
       "check": "packet files discovered",
       "passed": true,
-      "detail": "8 discovered packet files"
+      "detail": "10 discovered packet files"
     },
     {
       "check": "active packet files discovered",
@@ -8591,7 +8681,7 @@
     {
       "check": "advisory packets do not block acceptance",
       "passed": true,
-      "detail": "6 advisory packet files, 136 advisory issues"
+      "detail": "8 advisory packet files, 136 advisory issues"
     }
   ],
   "reports": {
