@@ -1,92 +1,11 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "finding_count": 389,
   "blocking_count": 0,
   "findings": [
     {
-      "path": "wikis/agent-engineering-wiki/concepts/agent-planning-loop.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/agent-system-components.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/autonomous-ingestion-safety.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/evaluation-harness.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/knowledge-pack-lifecycle.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/agent-engineering-wiki/concepts/memory-hierarchy.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/obsidian-vault-integration.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/prompt-routing.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/rag-retrieval-design.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/concepts/reflection-boundary.md",
       "findings": [
         {
           "pattern": "current version",
@@ -104,6 +23,60 @@
       ]
     },
     {
+      "path": "wikis/agent-engineering-wiki/concepts/autonomous-ingestion-safety.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/knowledge-pack-lifecycle.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/prompt-routing.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/obsidian-vault-integration.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/agent-system-components.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/rag-retrieval-design.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/agent-engineering-wiki/concepts/tool-calling-contract.md",
       "findings": [
         {
@@ -113,7 +86,25 @@
       ]
     },
     {
-      "path": "wikis/agent-engineering-wiki/rules/autonomy-action-boundary.md",
+      "path": "wikis/agent-engineering-wiki/concepts/evaluation-harness.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/reflection-boundary.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/concepts/agent-planning-loop.md",
       "findings": [
         {
           "pattern": "current version",
@@ -131,16 +122,7 @@
       ]
     },
     {
-      "path": "wikis/agent-engineering-wiki/rules/grounded-answer-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/rules/memory-write-human-gate.md",
+      "path": "wikis/agent-engineering-wiki/rules/source-gate-for-current-claims.md",
       "findings": [
         {
           "pattern": "current version",
@@ -158,16 +140,7 @@
       ]
     },
     {
-      "path": "wikis/agent-engineering-wiki/rules/retrieval-citation-required.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/rules/source-gate-for-current-claims.md",
+      "path": "wikis/agent-engineering-wiki/rules/memory-write-human-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -185,43 +158,34 @@
       ]
     },
     {
+      "path": "wikis/agent-engineering-wiki/rules/grounded-answer-boundary.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/autonomy-action-boundary.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/rules/retrieval-citation-required.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/agent-engineering-wiki/workflows/agent-task-routing-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/workflows/autonomous-ingestion-review-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/workflows/knowledge-pack-release-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/workflows/memory-review-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/workflows/prompt-routing-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -239,6 +203,15 @@
       ]
     },
     {
+      "path": "wikis/agent-engineering-wiki/workflows/prompt-routing-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/agent-engineering-wiki/workflows/source-grounding-test-workflow.md",
       "findings": [
         {
@@ -248,7 +221,52 @@
       ]
     },
     {
+      "path": "wikis/agent-engineering-wiki/workflows/memory-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/knowledge-pack-release-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/workflows/autonomous-ingestion-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/agent-engineering-wiki/workflows/tool-call-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/cases/case-ungrounded-agent-answer.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/agent-engineering-wiki/cases/case-tool-overreach-remediation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -275,52 +293,7 @@
       ]
     },
     {
-      "path": "wikis/agent-engineering-wiki/cases/case-tool-overreach-remediation.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/cases/case-ungrounded-agent-answer.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/agent-engineering-wiki/cases/case-unsafe-autonomy-request.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/prompts/agent-routing-prompt.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/prompts/eval-design-prompt.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/agent-engineering-wiki/prompts/knowledge-pack-review-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -338,15 +311,6 @@
       ]
     },
     {
-      "path": "wikis/agent-engineering-wiki/prompts/rag-grounding-review-prompt.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/agent-engineering-wiki/prompts/tool-call-audit-prompt.md",
       "findings": [
         {
@@ -356,7 +320,7 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/concepts/approval-hygiene.md",
+      "path": "wikis/agent-engineering-wiki/prompts/agent-routing-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -365,7 +329,7 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/concepts/automation-ethics.md",
+      "path": "wikis/agent-engineering-wiki/prompts/rag-grounding-review-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -374,7 +338,7 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/concepts/funding-claim-boundary.md",
+      "path": "wikis/agent-engineering-wiki/prompts/knowledge-pack-review-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -383,16 +347,7 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/concepts/phishing-signal-review.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/project-research-checklist.md",
+      "path": "wikis/agent-engineering-wiki/prompts/eval-design-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -410,25 +365,7 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/concepts/source-gate-for-token-events.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/sybil-risk-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/task-classification.md",
+      "path": "wikis/airdrop-agent-wiki/concepts/funding-claim-boundary.md",
       "findings": [
         {
           "pattern": "current version",
@@ -446,25 +383,70 @@
       ]
     },
     {
+      "path": "wikis/airdrop-agent-wiki/concepts/task-classification.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/sybil-risk-boundary.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/approval-hygiene.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/source-gate-for-token-events.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/project-research-checklist.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/automation-ethics.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/phishing-signal-review.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/airdrop-agent-wiki/rules/approval-revocation-review.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/rules/no-fake-identity.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/rules/no-spam-automation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -482,25 +464,25 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/rules/no-unverified-project-claims.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/rules/rumor-as-uncertain.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/airdrop-agent-wiki/rules/tge-listing-snapshot-source-gate.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-fake-identity.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-unverified-project-claims.md",
       "findings": [
         {
           "pattern": "current version",
@@ -518,7 +500,16 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/workflows/approval-hygiene-review.md",
+      "path": "wikis/airdrop-agent-wiki/rules/rumor-as-uncertain.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-spam-automation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -545,6 +536,15 @@
       ]
     },
     {
+      "path": "wikis/airdrop-agent-wiki/workflows/wallet-risk-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/airdrop-agent-wiki/workflows/source-review-for-airdrop-claims.md",
       "findings": [
         {
@@ -563,52 +563,7 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/workflows/wallet-risk-review-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-signing-unknown-message.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-sybil-evasion-request.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-treating-rumor-as-fact.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-unverified-tge-claim.md",
+      "path": "wikis/airdrop-agent-wiki/workflows/approval-hygiene-review.md",
       "findings": [
         {
           "pattern": "current version",
@@ -626,7 +581,7 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/prompts/airdrop-research-prompt.md",
+      "path": "wikis/airdrop-agent-wiki/cases/case-sybil-evasion-request.md",
       "findings": [
         {
           "pattern": "current version",
@@ -635,7 +590,34 @@
       ]
     },
     {
-      "path": "wikis/airdrop-agent-wiki/prompts/source-gate-airdrop-prompt.md",
+      "path": "wikis/airdrop-agent-wiki/cases/case-signing-unknown-message.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-unverified-tge-claim.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-treating-rumor-as-fact.md",
       "findings": [
         {
           "pattern": "current version",
@@ -662,7 +644,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/concepts/api-contract-thinking.md",
+      "path": "wikis/airdrop-agent-wiki/prompts/airdrop-research-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -671,7 +653,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/concepts/ci-failure-triage.md",
+      "path": "wikis/airdrop-agent-wiki/prompts/source-gate-airdrop-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -689,7 +671,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/concepts/error-handling-model.md",
+      "path": "wikis/coding-agent-wiki/concepts/secure-config-handling.md",
       "findings": [
         {
           "pattern": "current version",
@@ -698,7 +680,16 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/concepts/git-workflow-basics.md",
+      "path": "wikis/coding-agent-wiki/concepts/api-contract-thinking.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/coding-agent-wiki/concepts/ci-failure-triage.md",
       "findings": [
         {
           "pattern": "current version",
@@ -725,16 +716,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/concepts/requirement-clarification.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/concepts/secure-config-handling.md",
+      "path": "wikis/coding-agent-wiki/concepts/git-workflow-basics.md",
       "findings": [
         {
           "pattern": "current version",
@@ -752,7 +734,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/rules/api-compatibility-check.md",
+      "path": "wikis/coding-agent-wiki/concepts/requirement-clarification.md",
       "findings": [
         {
           "pattern": "current version",
@@ -761,43 +743,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/rules/dependency-change-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/rules/deployment-human-gate.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/rules/error-visibility-rule.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/rules/no-secret-in-repo.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/rules/preserve-user-changes.md",
+      "path": "wikis/coding-agent-wiki/concepts/error-handling-model.md",
       "findings": [
         {
           "pattern": "current version",
@@ -815,6 +761,51 @@
       ]
     },
     {
+      "path": "wikis/coding-agent-wiki/rules/dependency-change-boundary.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/no-secret-in-repo.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/error-visibility-rule.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/api-compatibility-check.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/coding-agent-wiki/rules/preserve-user-changes.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/coding-agent-wiki/rules/tests-before-risky-change.md",
       "findings": [
         {
@@ -824,34 +815,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/workflows/ci-failure-triage-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/workflows/debug-reproduce-isolate-fix.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/workflows/deployment-preflight-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/coding-agent-wiki/workflows/refactor-with-safety-net.md",
+      "path": "wikis/coding-agent-wiki/rules/deployment-human-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -878,6 +842,15 @@
       ]
     },
     {
+      "path": "wikis/coding-agent-wiki/workflows/debug-reproduce-isolate-fix.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/coding-agent-wiki/workflows/secure-config-review-workflow.md",
       "findings": [
         {
@@ -887,7 +860,34 @@
       ]
     },
     {
+      "path": "wikis/coding-agent-wiki/workflows/ci-failure-triage-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/coding-agent-wiki/workflows/test-first-implementation-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/deployment-preflight-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/coding-agent-wiki/workflows/refactor-with-safety-net.md",
       "findings": [
         {
           "pattern": "current version",
@@ -914,7 +914,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/cases/case-overengineering.md",
+      "path": "wikis/coding-agent-wiki/cases/case-secret-in-config.md",
       "findings": [
         {
           "pattern": "current version",
@@ -923,7 +923,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/cases/case-secret-in-config.md",
+      "path": "wikis/coding-agent-wiki/cases/case-overengineering.md",
       "findings": [
         {
           "pattern": "current version",
@@ -941,7 +941,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/prompts/debugging-review-prompt.md",
+      "path": "wikis/coding-agent-wiki/prompts/minimal-implementation-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -959,7 +959,7 @@
       ]
     },
     {
-      "path": "wikis/coding-agent-wiki/prompts/minimal-implementation-prompt.md",
+      "path": "wikis/coding-agent-wiki/prompts/debugging-review-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -977,7 +977,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/concepts/audience-and-format-fit.md",
+      "path": "wikis/content-agent-wiki/concepts/copyright-safe-summarization.md",
       "findings": [
         {
           "pattern": "current version",
@@ -995,7 +995,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/concepts/copyright-safe-summarization.md",
+      "path": "wikis/content-agent-wiki/concepts/editorial-angle.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1004,7 +1004,16 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/concepts/editorial-angle.md",
+      "path": "wikis/content-agent-wiki/concepts/revision-history.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/content-agent-wiki/concepts/audience-and-format-fit.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1040,25 +1049,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/concepts/revision-history.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/content-agent-wiki/rules/copyright-summary-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/content-agent-wiki/rules/editorial-review-required.md",
+      "path": "wikis/content-agent-wiki/rules/source-required-for-factual-claims.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1076,7 +1067,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/rules/platform-policy-source-gate.md",
+      "path": "wikis/content-agent-wiki/rules/editorial-review-required.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1094,7 +1085,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/rules/source-required-for-factual-claims.md",
+      "path": "wikis/content-agent-wiki/rules/copyright-summary-boundary.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1103,7 +1094,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/workflows/citation-audit-workflow.md",
+      "path": "wikis/content-agent-wiki/rules/platform-policy-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1121,6 +1112,15 @@
       ]
     },
     {
+      "path": "wikis/content-agent-wiki/workflows/fact-check-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/content-agent-wiki/workflows/editorial-brief-workflow.md",
       "findings": [
         {
@@ -1130,7 +1130,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/workflows/fact-check-review-workflow.md",
+      "path": "wikis/content-agent-wiki/workflows/citation-audit-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1148,7 +1148,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/cases/case-good-editorial-review.md",
+      "path": "wikis/content-agent-wiki/cases/case-unsupported-statistic.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1157,7 +1157,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/cases/case-invented-quote.md",
+      "path": "wikis/content-agent-wiki/cases/case-good-editorial-review.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1175,7 +1175,16 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/cases/case-unsupported-statistic.md",
+      "path": "wikis/content-agent-wiki/cases/case-invented-quote.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/content-agent-wiki/prompts/source-review-content-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1211,34 +1220,7 @@
       ]
     },
     {
-      "path": "wikis/content-agent-wiki/prompts/source-review-content-prompt.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/amount-currency-consistency.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/certificate-of-conformity-review.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/commercial-invoice-structure.md",
+      "path": "wikis/customs-agent-wiki/concepts/ocr-field-confidence.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1256,6 +1238,24 @@
       ]
     },
     {
+      "path": "wikis/customs-agent-wiki/concepts/package-count-reconciliation.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/certificate-of-conformity-review.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/customs-agent-wiki/concepts/declaration-element-model.md",
       "findings": [
         {
@@ -1265,34 +1265,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/concepts/factory-inspection-document-review.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/gross-weight-vs-net-weight-checks.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/ocr-field-confidence.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/package-count-reconciliation.md",
+      "path": "wikis/customs-agent-wiki/concepts/amount-currency-consistency.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1310,7 +1283,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/currency-and-amount-gate.md",
+      "path": "wikis/customs-agent-wiki/concepts/gross-weight-vs-net-weight-checks.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1319,7 +1292,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/customs-policy-source-gate.md",
+      "path": "wikis/customs-agent-wiki/concepts/factory-inspection-document-review.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1328,7 +1301,16 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/do-not-invent-missing-values.md",
+      "path": "wikis/customs-agent-wiki/concepts/commercial-invoice-structure.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/ocr-uncertainty-disclosure.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1355,6 +1337,24 @@
       ]
     },
     {
+      "path": "wikis/customs-agent-wiki/rules/currency-and-amount-gate.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/customs-agent-wiki/rules/do-not-invent-missing-values.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/customs-agent-wiki/rules/manual-review-escalation.md",
       "findings": [
         {
@@ -1364,7 +1364,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/ocr-uncertainty-disclosure.md",
+      "path": "wikis/customs-agent-wiki/rules/customs-policy-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1382,7 +1382,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/workflows/contract-to-invoice-review.md",
+      "path": "wikis/customs-agent-wiki/workflows/factory-document-review-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1400,7 +1400,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/workflows/document-difference-triage.md",
+      "path": "wikis/customs-agent-wiki/workflows/contract-to-invoice-review.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1409,7 +1409,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/workflows/factory-document-review-workflow.md",
+      "path": "wikis/customs-agent-wiki/workflows/document-difference-triage.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1436,15 +1436,6 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/customs-agent-wiki/cases/case-hidden-ocr-uncertainty.md",
       "findings": [
         {
@@ -1463,7 +1454,7 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/cases/case-manual-review-escalation.md",
+      "path": "wikis/customs-agent-wiki/cases/case-weight-inconsistency.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1481,7 +1472,16 @@
       ]
     },
     {
-      "path": "wikis/customs-agent-wiki/cases/case-weight-inconsistency.md",
+      "path": "wikis/customs-agent-wiki/cases/case-manual-review-escalation.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-currency-mismatch.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1526,43 +1526,7 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/concepts/attribute-normalization.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/ecommerce-agent-wiki/concepts/customer-intent-signals.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/ecommerce-agent-wiki/concepts/inventory-vs-availability.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/ecommerce-agent-wiki/concepts/price-and-promotion-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog-model.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1580,7 +1544,7 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/concepts/return-and-refund-concepts.md",
+      "path": "wikis/ecommerce-agent-wiki/concepts/attribute-normalization.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1598,7 +1562,7 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/rules/customer-impact-human-gate.md",
+      "path": "wikis/ecommerce-agent-wiki/concepts/product-catalog-model.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1607,7 +1571,7 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/rules/no-invented-stock-or-price.md",
+      "path": "wikis/ecommerce-agent-wiki/concepts/inventory-vs-availability.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1616,7 +1580,7 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/rules/platform-policy-source-gate.md",
+      "path": "wikis/ecommerce-agent-wiki/concepts/customer-intent-signals.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1625,7 +1589,7 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/rules/privacy-and-consent-rule.md",
+      "path": "wikis/ecommerce-agent-wiki/concepts/return-and-refund-concepts.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1652,7 +1616,34 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/workflows/catalog-data-quality-review.md",
+      "path": "wikis/ecommerce-agent-wiki/rules/customer-impact-human-gate.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/platform-policy-source-gate.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/privacy-and-consent-rule.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/rules/no-invented-stock-or-price.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1662,6 +1653,15 @@
     },
     {
       "path": "wikis/ecommerce-agent-wiki/workflows/customer-service-triage.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/ecommerce-agent-wiki/workflows/catalog-data-quality-review.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1706,15 +1706,6 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/cases/case-policy-assumption-risk.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/ecommerce-agent-wiki/cases/case-privacy-overcollection.md",
       "findings": [
         {
@@ -1733,7 +1724,7 @@
       ]
     },
     {
-      "path": "wikis/ecommerce-agent-wiki/prompts/customer-service-triage-prompt.md",
+      "path": "wikis/ecommerce-agent-wiki/cases/case-policy-assumption-risk.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1760,7 +1751,16 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/look-ahead-bias.md",
+      "path": "wikis/ecommerce-agent-wiki/prompts/customer-service-triage-prompt.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/portfolio-concentration-risk.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1773,7 +1773,7 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/ohlcv-interpretation.md",
+      "path": "wikis/finance-agent-wiki/concepts/walk-forward-validation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1799,7 +1799,33 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/portfolio-concentration-risk.md",
+      "path": "wikis/finance-agent-wiki/concepts/volume-vs-depth.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/volatility-and-drawdown.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/spread-and-liquidity.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1838,7 +1864,7 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/slippage-and-fees.md",
+      "path": "wikis/finance-agent-wiki/concepts/ohlcv-interpretation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1851,7 +1877,20 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/spread-and-liquidity.md",
+      "path": "wikis/finance-agent-wiki/concepts/look-ahead-bias.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/concepts/slippage-and-fees.md",
       "findings": [
         {
           "pattern": "current version",
@@ -1877,124 +1916,7 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/volatility-and-drawdown.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/concepts/volume-vs-depth.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/concepts/walk-forward-validation.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/backtest-costs-required.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/educational-only-output.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/human-confirmation-for-real-money.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/leverage-risk-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/finance-agent-wiki/rules/liquidity-risk-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/no-personalized-buy-sell-advice.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/out-of-sample-required.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2020,19 +1942,6 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/paper-trading-default.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/finance-agent-wiki/rules/trading-system-permission-control.md",
       "findings": [
         {
@@ -2046,7 +1955,7 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/workflows/backtest-design-workflow.md",
+      "path": "wikis/finance-agent-wiki/rules/no-personalized-buy-sell-advice.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2059,7 +1968,124 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/workflows/drawdown-review-workflow.md",
+      "path": "wikis/finance-agent-wiki/rules/paper-trading-default.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/leverage-risk-boundary.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/human-confirmation-for-real-money.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/educational-only-output.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/backtest-costs-required.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/out-of-sample-required.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/paper-trading-readiness-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/market-data-quality-review.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/portfolio-risk-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/backtest-design-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2098,45 +2124,6 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/workflows/market-data-quality-review.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/workflows/paper-trading-readiness-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/workflows/portfolio-risk-review-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/finance-agent-wiki/workflows/walk-forward-review-workflow.md",
       "findings": [
         {
@@ -2150,7 +2137,7 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md",
+      "path": "wikis/finance-agent-wiki/workflows/drawdown-review-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2176,20 +2163,7 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/cases/case-liquidity-exit-risk.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/finance-agent-wiki/cases/case-missing-slippage-and-fees.md",
+      "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2215,7 +2189,46 @@
       ]
     },
     {
+      "path": "wikis/finance-agent-wiki/cases/case-liquidity-exit-risk.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/finance-agent-wiki/cases/case-personalized-buy-sell-request.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-missing-slippage-and-fees.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        },
+        {
+          "pattern": "live market",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/finance-agent-wiki/prompts/paper-trading-gate-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2254,19 +2267,6 @@
       ]
     },
     {
-      "path": "wikis/finance-agent-wiki/prompts/paper-trading-gate-prompt.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        },
-        {
-          "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/finance-agent-wiki/prompts/portfolio-concentration-prompt.md",
       "findings": [
         {
@@ -2275,33 +2275,6 @@
         },
         {
           "pattern": "live market",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/health-agent-wiki/concepts/clinician-review-role.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/health-agent-wiki/concepts/health-education-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/health-agent-wiki/concepts/lab-result-explanation-limits.md",
-      "findings": [
-        {
-          "pattern": "current version",
           "gated": true
         }
       ]
@@ -2334,7 +2307,7 @@
       ]
     },
     {
-      "path": "wikis/health-agent-wiki/rules/clinical-guideline-source-gate.md",
+      "path": "wikis/health-agent-wiki/concepts/clinician-review-role.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2343,7 +2316,7 @@
       ]
     },
     {
-      "path": "wikis/health-agent-wiki/rules/emergency-red-flag-escalation.md",
+      "path": "wikis/health-agent-wiki/concepts/lab-result-explanation-limits.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2352,16 +2325,7 @@
       ]
     },
     {
-      "path": "wikis/health-agent-wiki/rules/licensed-clinician-review-required.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/health-agent-wiki/rules/no-dosage-instruction.md",
+      "path": "wikis/health-agent-wiki/concepts/health-education-boundary.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2379,7 +2343,34 @@
       ]
     },
     {
-      "path": "wikis/health-agent-wiki/workflows/clinician-handoff-summary-workflow.md",
+      "path": "wikis/health-agent-wiki/rules/emergency-red-flag-escalation.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/no-dosage-instruction.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/licensed-clinician-review-required.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/clinical-guideline-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2406,6 +2397,15 @@
       ]
     },
     {
+      "path": "wikis/health-agent-wiki/workflows/clinician-handoff-summary-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/health-agent-wiki/workflows/red-flag-escalation-workflow.md",
       "findings": [
         {
@@ -2424,7 +2424,7 @@
       ]
     },
     {
-      "path": "wikis/health-agent-wiki/cases/case-dosage-request-boundary.md",
+      "path": "wikis/health-agent-wiki/cases/case-red-flag-escalation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2442,7 +2442,7 @@
       ]
     },
     {
-      "path": "wikis/health-agent-wiki/cases/case-red-flag-escalation.md",
+      "path": "wikis/health-agent-wiki/cases/case-dosage-request-boundary.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2478,34 +2478,7 @@
       ]
     },
     {
-      "path": "wikis/legal-agent-wiki/concepts/contract-clause-function.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/legal-agent-wiki/concepts/evidence-and-document-context.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/legal-agent-wiki/concepts/jurisdiction-relevance.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/legal-agent-wiki/concepts/legal-information-vs-advice.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2523,7 +2496,34 @@
       ]
     },
     {
+      "path": "wikis/legal-agent-wiki/concepts/jurisdiction-relevance.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/contract-clause-function.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/legal-agent-wiki/concepts/risk-issue-spotting.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/legal-information-vs-advice.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2540,15 +2540,6 @@
         },
         {
           "pattern": "current law",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/legal-agent-wiki/rules/jurisdiction-required.md",
-      "findings": [
-        {
-          "pattern": "current version",
           "gated": true
         }
       ]
@@ -2572,7 +2563,7 @@
       ]
     },
     {
-      "path": "wikis/legal-agent-wiki/rules/no-final-legal-opinion.md",
+      "path": "wikis/legal-agent-wiki/rules/jurisdiction-required.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2590,7 +2581,7 @@
       ]
     },
     {
-      "path": "wikis/legal-agent-wiki/workflows/clause-risk-review-workflow.md",
+      "path": "wikis/legal-agent-wiki/rules/no-final-legal-opinion.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2608,7 +2599,7 @@
       ]
     },
     {
-      "path": "wikis/legal-agent-wiki/workflows/lawyer-handoff-summary-workflow.md",
+      "path": "wikis/legal-agent-wiki/workflows/clause-risk-review-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2626,25 +2617,7 @@
       ]
     },
     {
-      "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/legal-agent-wiki/cases/case-lawyer-review-escalation.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/legal-agent-wiki/cases/case-legal-conclusion-refusal.md",
+      "path": "wikis/legal-agent-wiki/workflows/lawyer-handoff-summary-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2662,7 +2635,7 @@
       ]
     },
     {
-      "path": "wikis/legal-agent-wiki/prompts/contract-risk-review-prompt.md",
+      "path": "wikis/legal-agent-wiki/cases/case-lawyer-review-escalation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2671,7 +2644,25 @@
       ]
     },
     {
-      "path": "wikis/legal-agent-wiki/prompts/lawyer-handoff-prompt.md",
+      "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/legal-agent-wiki/cases/case-legal-conclusion-refusal.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/legal-agent-wiki/prompts/contract-risk-review-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2689,43 +2680,7 @@
       ]
     },
     {
-      "path": "wikis/nodeops-agent-wiki/concepts/blockchain-node-health-signals.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/disk-pressure-signals.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/docker-container-isolation.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/docker-volume-backup.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/firewall-change-safety.md",
+      "path": "wikis/legal-agent-wiki/prompts/lawyer-handoff-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2752,6 +2707,24 @@
       ]
     },
     {
+      "path": "wikis/nodeops-agent-wiki/concepts/docker-container-isolation.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/blockchain-node-health-signals.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/nodeops-agent-wiki/concepts/memory-pressure-signals.md",
       "findings": [
         {
@@ -2761,25 +2734,7 @@
       ]
     },
     {
-      "path": "wikis/nodeops-agent-wiki/concepts/network-port-diagnosis.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/rollback-first-operations.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/rpc-endpoint-safety.md",
+      "path": "wikis/nodeops-agent-wiki/concepts/firewall-change-safety.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2797,7 +2752,43 @@
       ]
     },
     {
-      "path": "wikis/nodeops-agent-wiki/rules/backup-before-mutation.md",
+      "path": "wikis/nodeops-agent-wiki/concepts/network-port-diagnosis.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/disk-pressure-signals.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/rpc-endpoint-safety.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/rollback-first-operations.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/docker-volume-backup.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2807,24 +2798,6 @@
     },
     {
       "path": "wikis/nodeops-agent-wiki/rules/destructive-command-gate.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/rules/firewall-change-review.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/rules/node-client-upgrade-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2860,7 +2833,70 @@
       ]
     },
     {
+      "path": "wikis/nodeops-agent-wiki/rules/firewall-change-review.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/backup-before-mutation.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/node-client-upgrade-source-gate.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/nodeops-agent-wiki/rules/secret-redaction-in-logs.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/incident-response-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/node-client-upgrade-checklist.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/memory-pressure-triage.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/post-incident-review-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2887,43 +2923,7 @@
       ]
     },
     {
-      "path": "wikis/nodeops-agent-wiki/workflows/incident-response-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/workflows/memory-pressure-triage.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/nodeops-agent-wiki/workflows/network-port-triage.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/workflows/node-client-upgrade-checklist.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/workflows/post-incident-review-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2941,25 +2941,16 @@
       ]
     },
     {
-      "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/cases/case-firewall-lockout-prevention.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/nodeops-agent-wiki/cases/case-memory-leak-triage.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-rpc-endpoint-exposure.md",
       "findings": [
         {
           "pattern": "current version",
@@ -2977,6 +2968,15 @@
       ]
     },
     {
+      "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/nodeops-agent-wiki/cases/case-production-change-without-backup.md",
       "findings": [
         {
@@ -2986,7 +2986,16 @@
       ]
     },
     {
-      "path": "wikis/nodeops-agent-wiki/cases/case-rpc-endpoint-exposure.md",
+      "path": "wikis/nodeops-agent-wiki/cases/case-firewall-lockout-prevention.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/prompts/production-change-risk-prompt.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3022,34 +3031,7 @@
       ]
     },
     {
-      "path": "wikis/nodeops-agent-wiki/prompts/production-change-risk-prompt.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/research-agent-wiki/concepts/benchmark-interpretation.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/research-agent-wiki/concepts/bias-and-confounding.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/research-agent-wiki/concepts/citation-traceability.md",
+      "path": "wikis/research-agent-wiki/concepts/method-validity.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3067,7 +3049,16 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/concepts/dataset-limitations.md",
+      "path": "wikis/research-agent-wiki/concepts/uncertainty-language.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/research-agent-wiki/concepts/bias-and-confounding.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3085,7 +3076,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/concepts/method-validity.md",
+      "path": "wikis/research-agent-wiki/concepts/dataset-limitations.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3094,7 +3085,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/concepts/paper-summary-template.md",
+      "path": "wikis/research-agent-wiki/concepts/citation-traceability.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3112,7 +3103,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/concepts/uncertainty-language.md",
+      "path": "wikis/research-agent-wiki/concepts/paper-summary-template.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3121,16 +3112,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/rules/benchmark-source-gate.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/research-agent-wiki/rules/dataset-license-source-gate.md",
+      "path": "wikis/research-agent-wiki/concepts/benchmark-interpretation.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3148,24 +3130,6 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/rules/limitations-required.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/research-agent-wiki/rules/no-cherry-picking.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/research-agent-wiki/rules/no-fabricated-citations.md",
       "findings": [
         {
@@ -3175,7 +3139,16 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/rules/reproducibility-disclosure.md",
+      "path": "wikis/research-agent-wiki/rules/limitations-required.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/research-agent-wiki/rules/benchmark-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3193,7 +3166,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/workflows/benchmark-claim-review-workflow.md",
+      "path": "wikis/research-agent-wiki/rules/dataset-license-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3202,7 +3175,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/workflows/citation-audit-workflow.md",
+      "path": "wikis/research-agent-wiki/rules/reproducibility-disclosure.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3211,7 +3184,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/workflows/dataset-limitations-review.md",
+      "path": "wikis/research-agent-wiki/rules/no-cherry-picking.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3229,7 +3202,34 @@
       ]
     },
     {
+      "path": "wikis/research-agent-wiki/workflows/dataset-limitations-review.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/research-agent-wiki/workflows/paper-summary-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/citation-audit-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/research-agent-wiki/workflows/benchmark-claim-review-workflow.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3247,16 +3247,7 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/research-agent-wiki/cases/case-dataset-leakage-risk.md",
+      "path": "wikis/research-agent-wiki/cases/case-strong-summary-with-limitations.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3274,15 +3265,6 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/cases/case-strong-summary-with-limitations.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/research-agent-wiki/cases/case-unsupported-claim.md",
       "findings": [
         {
@@ -3292,7 +3274,16 @@
       ]
     },
     {
-      "path": "wikis/research-agent-wiki/prompts/benchmark-claim-audit-prompt.md",
+      "path": "wikis/research-agent-wiki/cases/case-dataset-leakage-risk.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/research-agent-wiki/cases/case-benchmark-cherry-picking.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3319,7 +3310,61 @@
       ]
     },
     {
+      "path": "wikis/research-agent-wiki/prompts/benchmark-claim-audit-prompt.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/research-agent-wiki/prompts/paper-summary-prompt.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/secure-logging.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/detection-rule-review.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/secrets-management.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/vulnerability-triage.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/dependency-risk-review.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3346,16 +3391,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/concepts/dependency-risk-review.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/concepts/detection-rule-review.md",
+      "path": "wikis/security-agent-wiki/concepts/threat-modeling.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3382,7 +3418,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/concepts/secrets-management.md",
+      "path": "wikis/security-agent-wiki/rules/no-exploit-steps.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3391,25 +3427,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/concepts/secure-logging.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/concepts/threat-modeling.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/concepts/vulnerability-triage.md",
+      "path": "wikis/security-agent-wiki/rules/patch-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3427,25 +3445,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/rules/defensive-only-boundary.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/rules/detection-change-human-gate.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/rules/least-privilege-default.md",
+      "path": "wikis/security-agent-wiki/rules/unknown-script-review.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3455,24 +3455,6 @@
     },
     {
       "path": "wikis/security-agent-wiki/rules/no-credential-theft.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/rules/no-exploit-steps.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/rules/patch-source-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3499,7 +3481,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/rules/unknown-script-review.md",
+      "path": "wikis/security-agent-wiki/rules/detection-change-human-gate.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3508,7 +3490,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/workflows/cloud-baseline-review-workflow.md",
+      "path": "wikis/security-agent-wiki/rules/least-privilege-default.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3517,16 +3499,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/workflows/dependency-review-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/workflows/detection-rule-review-workflow.md",
+      "path": "wikis/security-agent-wiki/rules/defensive-only-boundary.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3553,6 +3526,42 @@
       ]
     },
     {
+      "path": "wikis/security-agent-wiki/workflows/detection-rule-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/vulnerability-triage-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/cloud-baseline-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/workflows/dependency-review-workflow.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
       "path": "wikis/security-agent-wiki/workflows/secret-exposure-response-workflow.md",
       "findings": [
         {
@@ -3571,15 +3580,6 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/workflows/vulnerability-triage-workflow.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
       "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md",
       "findings": [
         {
@@ -3589,7 +3589,16 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/cases/case-exploit-request-refusal.md",
+      "path": "wikis/security-agent-wiki/cases/case-vulnerability-triage-safe.md",
+      "findings": [
+        {
+          "pattern": "current version",
+          "gated": true
+        }
+      ]
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-running-unknown-script.md",
       "findings": [
         {
           "pattern": "current version",
@@ -3616,16 +3625,7 @@
       ]
     },
     {
-      "path": "wikis/security-agent-wiki/cases/case-running-unknown-script.md",
-      "findings": [
-        {
-          "pattern": "current version",
-          "gated": true
-        }
-      ]
-    },
-    {
-      "path": "wikis/security-agent-wiki/cases/case-vulnerability-triage-safe.md",
+      "path": "wikis/security-agent-wiki/cases/case-exploit-request-refusal.md",
       "findings": [
         {
           "pattern": "current version",

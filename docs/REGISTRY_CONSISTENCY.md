@@ -1,6 +1,6 @@
 # Registry Consistency Report
 
-Generated: 2026-06-15
+Generated: 2026-06-30
 
 ## Summary
 
@@ -12,7 +12,7 @@ Generated: 2026-06-15
 
 | Check | Result | Evidence |
 | --- | --- | --- |
-| registry_exists | PASS | registry\wiki-registry.yaml |
+| registry_exists | PASS | registry/wiki-registry.yaml |
 | registry_version | PASS | 0.1.0 |
 | registry_updated | PASS | 2026-05-27 |
 | registry_records | PASS | 12 records |

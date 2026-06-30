@@ -1,6 +1,6 @@
 # Knowledge Density Report
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 | Wiki | Group | Concepts | Rules | Workflows | Cases | Prompts | Eval Tests | Generated Stable Pages |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |

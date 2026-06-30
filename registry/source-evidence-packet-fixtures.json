@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "fixture_dir": "registry/source-evidence-fixtures",
   "fixture_count": 8,
@@ -102,8 +102,8 @@
       "actual_pass": true,
       "passed": true,
       "returncode": 0,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/valid-pending-single.json --dry-run --no-post-checks --allow-duplicate",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/valid-pending-single.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
     },
     {
       "fixture": "valid-still-needs-source-update-dry-run-only.json",
@@ -112,8 +112,8 @@
       "actual_pass": true,
       "passed": true,
       "returncode": 0,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/valid-still-needs-source-update-dry-run-only.json --dry-run --no-post-checks --allow-duplicate",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/valid-still-needs-source-update-dry-run-only.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
     },
     {
       "fixture": "template-wave-1-p0-pending.json",
@@ -122,8 +122,8 @@
       "actual_pass": true,
       "passed": true,
       "returncode": 0,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/template-wave-1-p0-pending.json --dry-run --no-post-checks --allow-duplicate",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (4 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/template-wave-1-p0-pending.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (4 entries)"
     },
     {
       "fixture": "template-wave-2-customs-pending.json",
@@ -132,8 +132,8 @@
       "actual_pass": true,
       "passed": true,
       "returncode": 0,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/template-wave-2-customs-pending.json --dry-run --no-post-checks --allow-duplicate",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (4 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/template-wave-2-customs-pending.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (4 entries)"
     },
     {
       "fixture": "invalid-duplicate-ticket.json",
@@ -142,8 +142,8 @@
       "actual_pass": false,
       "passed": true,
       "returncode": 1,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-duplicate-ticket.json --dry-run --no-post-checks",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (2 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-duplicate-ticket.json --dry-run --no-post-checks",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (2 entries)"
     },
     {
       "fixture": "invalid-missing-human-reviewer.json",
@@ -152,8 +152,8 @@
       "actual_pass": false,
       "passed": true,
       "returncode": 1,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-missing-human-reviewer.json --dry-run --no-post-checks --allow-duplicate",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-missing-human-reviewer.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
     },
     {
       "fixture": "invalid-placeholder-source.json",
@@ -162,8 +162,8 @@
       "actual_pass": false,
       "passed": true,
       "returncode": 1,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-placeholder-source.json --dry-run --no-post-checks --allow-duplicate",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-placeholder-source.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
     },
     {
       "fixture": "invalid-secret-marker.json",
@@ -172,8 +172,8 @@
       "actual_pass": false,
       "passed": true,
       "returncode": 1,
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-secret-marker.json --dry-run --no-post-checks --allow-duplicate",
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-evidence-fixtures/invalid-secret-marker.json --dry-run --no-post-checks --allow-duplicate",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (1 entries)"
     }
   ],
   "checks": [

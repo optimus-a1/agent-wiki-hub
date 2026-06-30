@@ -1,6 +1,6 @@
 # Source Review Packet Classification
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Purpose
 
@@ -22,8 +22,8 @@ Document which source-review packets are active import targets versus advisory, 
 | [source-review-session-auto-pending.jsonl](../registry/source-review-packets/source-review-session-auto-pending.jsonl) | planning-only-pending-packet | non-blocking | no | 0 | Pending template packet for future source review; it contains placeholders and must not certify current facts. |
 | [source-review-session-wave-1-ai-prefill.json](../registry/source-review-packets/source-review-session-wave-1-ai-prefill.json) | advisory-prefill-artifact | non-blocking | no | 66 | Historical AI-prefill/source-assistance artifact; retained for traceability, not an active import target. |
 | [source-review-session-wave-1-ai-prefill.jsonl](../registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl) | advisory-prefill-artifact | non-blocking | no | 66 | Historical AI-prefill/source-assistance artifact; retained for traceability, not an active import target. |
-| [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json) | active-import-packet | blocking | yes | 13 | Current active packet; participates in strict packet audit and rehearsal. |
-| [source-review-session-wave-1-pending.jsonl](../registry/source-review-packets/source-review-session-wave-1-pending.jsonl) | active-import-packet | blocking | yes | 13 | Current active packet; participates in strict packet audit and rehearsal. |
+| [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json) | active-import-packet | blocking | yes | 22 | Current active packet; participates in strict packet audit and rehearsal. |
+| [source-review-session-wave-1-pending.jsonl](../registry/source-review-packets/source-review-session-wave-1-pending.jsonl) | active-import-packet | blocking | yes | 22 | Current active packet; participates in strict packet audit and rehearsal. |
 | [source-review-session-wave-2-pending.json](../registry/source-review-packets/source-review-session-wave-2-pending.json) | planning-only-pending-packet | non-blocking | no | 12 | Pending template packet for future source review; it contains placeholders and must not certify current facts. |
 | [source-review-session-wave-2-pending.jsonl](../registry/source-review-packets/source-review-session-wave-2-pending.jsonl) | planning-only-pending-packet | non-blocking | no | 12 | Pending template packet for future source review; it contains placeholders and must not certify current facts. |
 | [source-review-session-wave-3-pending.json](../registry/source-review-packets/source-review-session-wave-3-pending.json) | planning-only-pending-packet | non-blocking | no | 10 | Pending template packet for future source review; it contains placeholders and must not certify current facts. |

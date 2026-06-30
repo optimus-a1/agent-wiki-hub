@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "checks": [
     {
@@ -980,7 +980,7 @@
     {
       "check_id": "all:zip_not_empty",
       "passed": true,
-      "evidence": "973 entries"
+      "evidence": "982 entries"
     },
     {
       "check_id": "all:safe_member_names",
@@ -2143,11 +2143,6 @@
       "evidence": "registry/source-review-wave-3-plan.json"
     },
     {
-      "check_id": "all:includes:registry/source-review-work-orders/manifest.json",
-      "passed": true,
-      "evidence": "registry/source-review-work-orders/manifest.json"
-    },
-    {
       "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-001.md",
       "passed": true,
       "evidence": "registry/source-review-work-orders/TICKET-SRC-001.md"
@@ -2213,9 +2208,54 @@
       "evidence": "registry/source-review-work-orders/TICKET-SRC-013.md"
     },
     {
-      "check_id": "all:includes:registry/source-review-work-orders-filled/manifest-ai-prefill.json",
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-014.md",
       "passed": true,
-      "evidence": "registry/source-review-work-orders-filled/manifest-ai-prefill.json"
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-014.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-015.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-015.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-016.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-016.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-017.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-017.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-018.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-018.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-019.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-019.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-020.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-020.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-021.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-021.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-022.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-022.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/manifest.json"
     },
     {
       "check_id": "all:includes:registry/source-review-work-orders-filled/TICKET-SRC-001.md",
@@ -2283,9 +2323,9 @@
       "evidence": "registry/source-review-work-orders-filled/TICKET-SRC-013.md"
     },
     {
-      "check_id": "all:includes:registry/source-review-work-orders-wave-2/manifest.json",
+      "check_id": "all:includes:registry/source-review-work-orders-filled/manifest-ai-prefill.json",
       "passed": true,
-      "evidence": "registry/source-review-work-orders-wave-2/manifest.json"
+      "evidence": "registry/source-review-work-orders-filled/manifest-ai-prefill.json"
     },
     {
       "check_id": "all:includes:registry/source-review-work-orders-wave-2/TICKET-SRC-014.md",
@@ -2348,9 +2388,9 @@
       "evidence": "registry/source-review-work-orders-wave-2/TICKET-SRC-025.md"
     },
     {
-      "check_id": "all:includes:registry/source-review-work-orders-wave-3/manifest.json",
+      "check_id": "all:includes:registry/source-review-work-orders-wave-2/manifest.json",
       "passed": true,
-      "evidence": "registry/source-review-work-orders-wave-3/manifest.json"
+      "evidence": "registry/source-review-work-orders-wave-2/manifest.json"
     },
     {
       "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-026.md",
@@ -2401,6 +2441,11 @@
       "check_id": "all:includes:registry/source-review-work-orders-wave-3/TICKET-SRC-035.md",
       "passed": true,
       "evidence": "registry/source-review-work-orders-wave-3/TICKET-SRC-035.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders-wave-3/manifest.json",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders-wave-3/manifest.json"
     },
     {
       "check_id": "all:includes:registry/source-review-work-orders.json",
@@ -2778,14 +2823,14 @@
       "evidence": "docs/AGENT_ROUTING_CARDS.md"
     },
     {
-      "check_id": "all:includes:docs/AUTO_SOURCE_REVIEW_QUEUE.md",
-      "passed": true,
-      "evidence": "docs/AUTO_SOURCE_REVIEW_QUEUE.md"
-    },
-    {
       "check_id": "all:includes:docs/AUTONOMOUS_KNOWLEDGE_INGESTION.md",
       "passed": true,
       "evidence": "docs/AUTONOMOUS_KNOWLEDGE_INGESTION.md"
+    },
+    {
+      "check_id": "all:includes:docs/AUTO_SOURCE_REVIEW_QUEUE.md",
+      "passed": true,
+      "evidence": "docs/AUTO_SOURCE_REVIEW_QUEUE.md"
     },
     {
       "check_id": "all:includes:docs/CANDIDATE_KNOWLEDGE_REPORT.md",
@@ -2823,11 +2868,6 @@
       "evidence": "docs/COVERAGE_AUDIT.md"
     },
     {
-      "check_id": "all:includes:docs/CRAWL_REPORT.md",
-      "passed": true,
-      "evidence": "docs/CRAWL_REPORT.md"
-    },
-    {
       "check_id": "all:includes:docs/CRAWLER_OUTPUT_AUDIT.md",
       "passed": true,
       "evidence": "docs/CRAWLER_OUTPUT_AUDIT.md"
@@ -2836,6 +2876,11 @@
       "check_id": "all:includes:docs/CRAWLER_SOURCE_POLICY.md",
       "passed": true,
       "evidence": "docs/CRAWLER_SOURCE_POLICY.md"
+    },
+    {
+      "check_id": "all:includes:docs/CRAWL_REPORT.md",
+      "passed": true,
+      "evidence": "docs/CRAWL_REPORT.md"
     },
     {
       "check_id": "all:includes:docs/CURRENT_FACT_LEAKAGE_AUDIT.md",
@@ -3068,6 +3113,11 @@
       "evidence": "docs/SOURCE_REFRESH_WAVE_RUNNER.md"
     },
     {
+      "check_id": "all:includes:docs/SOURCE_REVIEWER_QUEUE.md",
+      "passed": true,
+      "evidence": "docs/SOURCE_REVIEWER_QUEUE.md"
+    },
+    {
       "check_id": "all:includes:docs/SOURCE_REVIEW_FINAL_STATUS.md",
       "passed": true,
       "evidence": "docs/SOURCE_REVIEW_FINAL_STATUS.md"
@@ -3161,11 +3211,6 @@
       "check_id": "all:includes:docs/SOURCE_REVIEW_WORK_ORDERS_AI_VERIFIED.md",
       "passed": true,
       "evidence": "docs/SOURCE_REVIEW_WORK_ORDERS_AI_VERIFIED.md"
-    },
-    {
-      "check_id": "all:includes:docs/SOURCE_REVIEWER_QUEUE.md",
-      "passed": true,
-      "evidence": "docs/SOURCE_REVIEWER_QUEUE.md"
     },
     {
       "check_id": "all:includes:docs/SOURCE_UPDATE_QUEUE.md",

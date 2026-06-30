@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "wikis": [
     {
       "id": "agent-engineering-wiki",
@@ -72,7 +72,7 @@
         "current OpenAI, Codex, GitHub or Vercel product behavior"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 85690
+      "pack_size_bytes": 85689
     },
     {
       "id": "content-agent-wiki",
@@ -96,7 +96,7 @@
         "current image, chart, dataset and quote licensing"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 61942
+      "pack_size_bytes": 61941
     },
     {
       "id": "customs-agent-wiki",
@@ -145,7 +145,7 @@
         "current product certification, recall, safety notice and warranty terms"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 62528
+      "pack_size_bytes": 62527
     },
     {
       "id": "finance-agent-wiki",
@@ -170,7 +170,7 @@
         "current legal, regulatory or suitability requirements for financial products"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 101347
+      "pack_size_bytes": 101346
     },
     {
       "id": "health-agent-wiki",
@@ -193,7 +193,7 @@
         "current public health guidance, screening recommendations and nutrition/exercise guidelines"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 53314
+      "pack_size_bytes": 53313
     },
     {
       "id": "legal-agent-wiki",
@@ -216,7 +216,7 @@
         "current platform agreements, data processing terms and consumer protection rules"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 55410
+      "pack_size_bytes": 55409
     },
     {
       "id": "nodeops-agent-wiki",
@@ -240,7 +240,7 @@
         "current blockchain node client versions, network parameters and upgrade requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 90658
+      "pack_size_bytes": 90657
     },
     {
       "id": "research-agent-wiki",
@@ -263,7 +263,7 @@
         "current dataset availability, license, model weights and code repository status"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 77138
+      "pack_size_bytes": 77137
     },
     {
       "id": "security-agent-wiki",
@@ -286,7 +286,7 @@
         "current security tool rules, detection signatures, cloud defaults and compliance requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 89030
+      "pack_size_bytes": 89029
     }
   ]
 }

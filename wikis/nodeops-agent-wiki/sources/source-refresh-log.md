@@ -20,6 +20,8 @@ Record authoritative source verification work before current facts are written i
 
 ## Refresh Tasks
 
+- [ ] SRC-024 | wave: wave-2 | priority: 7 | human_confirmation: yes | topic: current blockchain node client versions, network parameters and upgrade requirements
+- [ ] SRC-025 | wave: wave-2 | priority: 7 | human_confirmation: yes | topic: current cloud provider limits, firewall behavior, billing and incident status
 - [ ] SRC-021 | wave: wave-2 | priority: 7 | human_confirmation: yes | topic: current OS package, Docker, systemd and kernel behavior
 - [ ] SRC-022 | wave: wave-2 | priority: 7 | human_confirmation: yes | topic: current blockchain node client versions, network parameters and upgrade requirements
 - [ ] SRC-023 | wave: wave-2 | priority: 7 | human_confirmation: yes | topic: current cloud provider limits, firewall behavior, billing and incident status

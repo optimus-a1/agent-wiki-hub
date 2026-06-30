@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "handoff_ready": true,
   "missing_required": [],
@@ -17,17 +17,17 @@
     "source_evidence_quality_warning_count": 0,
     "source_reviewer_queue_open_count": 35,
     "source_reviewer_queue_human_gate_count": 16,
-    "source_review_session_selected_count": 13,
+    "source_review_session_selected_count": 22,
     "source_review_session_human_gate_count": 13,
-    "source_review_packet_bundle_entry_count": 13,
+    "source_review_packet_bundle_entry_count": 22,
     "source_review_packet_bundle_human_gate_count": 13,
     "source_review_packet_audit_packet_count": 2,
     "source_review_packet_audit_issue_count": 0,
     "source_review_packet_rehearsal_dry_run_count": 2,
     "source_review_packet_rehearsal_passed_count": 2,
-    "source_review_ready_for_collection_count": 13,
-    "source_review_queued_not_in_session_count": 22,
-    "source_review_work_order_count": 13,
+    "source_review_ready_for_collection_count": 22,
+    "source_review_queued_not_in_session_count": 13,
+    "source_review_work_order_count": 22,
     "source_review_work_order_human_gate_count": 13,
     "acceptance_passed": true
   },
@@ -210,28 +210,28 @@
           "ticket_id": "TICKET-SRC-014",
           "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
           "risk_level": "medium",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-015",
           "topic": "latest HS codes, customs supervision conditions and declaration elements",
           "risk_level": "medium",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-016",
           "topic": "latest import/export policy, inspection and quarantine requirements",
           "risk_level": "medium",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-017",
           "topic": "latest platform OCR model parameters and document template behavior",
           "risk_level": "medium",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "human_confirmation_required": false
         }
       ]

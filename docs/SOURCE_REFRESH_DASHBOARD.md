@@ -1,6 +1,6 @@
 # Source Refresh Dashboard
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Summary
 
@@ -11,12 +11,12 @@ Generated: 2026-06-16
 - Source-refresh tasks: 35
 - Source-refresh tickets: 35
 - Source reviewer queue: 35 open reviews, 16 human gates
-- Source review session plan: 13 selected reviews, 13 human gates
-- Source review packet bundle: 13 pending entries
+- Source review session plan: 22 selected reviews, 13 human gates
+- Source review packet bundle: 22 pending entries
 - Source review packet audit: 2 packets, 0 issues
 - Source review packet rehearsal: 2/2 dry-runs passed
-- Source review readiness matrix: 13 ready, 22 queued
-- Source review work orders: 13 work orders, 13 human gates
+- Source review readiness matrix: 22 ready, 13 queued
+- Source review work orders: 22 work orders, 13 human gates
 - Open tickets: 35
 - Verified tickets: 0
 - Evidence entries: 13
@@ -78,8 +78,8 @@ Generated: 2026-06-16
 
 | Wave | Tickets | Open | Finalized | Verified | Human Confirmation |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| wave-1 | 13 | 13 | 0 | 0 | 13 |
-| wave-2 | 12 | 12 | 0 | 0 | 3 |
+| wave-1 | 22 | 22 | 0 | 0 | 13 |
+| wave-2 | 3 | 3 | 0 | 0 | 3 |
 | wave-3 | 10 | 10 | 0 | 0 | 0 |
 
 ## Wiki Progress
@@ -103,18 +103,18 @@ Generated: 2026-06-16
 
 | Ticket | Wave | Wiki | Priority | Topic | Log |
 | --- | --- | --- | ---: | --- | --- |
-| TICKET-SRC-001 | wave-1 | airdrop-agent-wiki | 8 | current contract addresses, wallet warnings, scam reports and signing risks | [source-refresh-log.md](../wikis/airdrop-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-002 | wave-1 | airdrop-agent-wiki | 8 | current project status, official links, task rules, snapshot and eligibility | [source-refresh-log.md](../wikis/airdrop-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-003 | wave-1 | airdrop-agent-wiki | 8 | current token launch, TGE, funding, exchange listing and airdrop allocation | [source-refresh-log.md](../wikis/airdrop-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-004 | wave-1 | finance-agent-wiki | 8 | current fees, funding rates, margin rules, tax rules and trading API parameters | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-005 | wave-1 | finance-agent-wiki | 8 | current legal, regulatory or suitability requirements for financial products | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-006 | wave-1 | finance-agent-wiki | 8 | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-007 | wave-1 | finance-agent-wiki | 8 | latest financial statements, filings, restatements and audit opinions | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-008 | wave-1 | health-agent-wiki | 8 | current clinical guidelines, drug labels, dosage, contraindications and safety warnings | [source-refresh-log.md](../wikis/health-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-009 | wave-1 | health-agent-wiki | 8 | current public health guidance, screening recommendations and nutrition/exercise guidelines | [source-refresh-log.md](../wikis/health-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-010 | wave-1 | legal-agent-wiki | 8 | current platform agreements, data processing terms and consumer protection rules | [source-refresh-log.md](../wikis/legal-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-011 | wave-1 | legal-agent-wiki | 8 | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements | [source-refresh-log.md](../wikis/legal-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-012 | wave-1 | security-agent-wiki | 8 | current CVEs, vendor advisories, patches, dependency versions and exploit status | [source-refresh-log.md](../wikis/security-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-001 | wave-1 | airdrop-agent-wiki | 9 | current contract addresses, wallet warnings, scam reports and signing risks | [source-refresh-log.md](../wikis/airdrop-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-002 | wave-1 | airdrop-agent-wiki | 9 | current project status, official links, task rules, snapshot and eligibility | [source-refresh-log.md](../wikis/airdrop-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-003 | wave-1 | airdrop-agent-wiki | 9 | current token launch, TGE, funding, exchange listing and airdrop allocation | [source-refresh-log.md](../wikis/airdrop-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-004 | wave-1 | finance-agent-wiki | 9 | current fees, funding rates, margin rules, tax rules and trading API parameters | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-005 | wave-1 | finance-agent-wiki | 9 | current legal, regulatory or suitability requirements for financial products | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-006 | wave-1 | finance-agent-wiki | 9 | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-007 | wave-1 | finance-agent-wiki | 9 | latest financial statements, filings, restatements and audit opinions | [source-refresh-log.md](../wikis/finance-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-008 | wave-1 | health-agent-wiki | 9 | current clinical guidelines, drug labels, dosage, contraindications and safety warnings | [source-refresh-log.md](../wikis/health-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-009 | wave-1 | health-agent-wiki | 9 | current public health guidance, screening recommendations and nutrition/exercise guidelines | [source-refresh-log.md](../wikis/health-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-010 | wave-1 | legal-agent-wiki | 9 | current platform agreements, data processing terms and consumer protection rules | [source-refresh-log.md](../wikis/legal-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-011 | wave-1 | legal-agent-wiki | 9 | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements | [source-refresh-log.md](../wikis/legal-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-012 | wave-1 | security-agent-wiki | 9 | current CVEs, vendor advisories, patches, dependency versions and exploit status | [source-refresh-log.md](../wikis/security-agent-wiki/sources/source-refresh-log.md) |
 
 ## Next Actions
 

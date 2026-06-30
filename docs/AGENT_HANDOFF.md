@@ -1,6 +1,6 @@
 # Agent Handoff
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Purpose
 
@@ -20,16 +20,16 @@ Give the next agent a safe, source-aware entry point for continuing Agent Wiki H
 - Evidence quality warnings: 0
 - Source reviewer queue: 35 open reviews
 - Source reviewer human gates: 16
-- Source review session: 13 selected reviews
+- Source review session: 22 selected reviews
 - Source review session human gates: 13
-- Source review packet bundle: 13 pending entries
+- Source review packet bundle: 22 pending entries
 - Source review packet human gates: 13
 - Source review packet audit: 2 packets
 - Source review packet audit issues: 0
 - Source review packet rehearsal: 2/2 dry-runs passed
-- Source review ready for collection: 13
-- Source review queued outside session: 22
-- Source review work orders: 13
+- Source review ready for collection: 22
+- Source review queued outside session: 13
+- Source review work orders: 22
 - Source review work order human gates: 13
 
 ## First Reads

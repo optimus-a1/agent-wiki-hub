@@ -1,6 +1,6 @@
 # Source Refresh Tickets
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Purpose
 
@@ -24,31 +24,31 @@ These tickets turn source-refresh tasks into executable verification work. They 
 
 | Ticket | Wave | Wiki | Priority | Category | Human confirmation | Topic |
 | --- | --- | --- | ---: | --- | --- | --- |
-| TICKET-SRC-001 | wave-1 | airdrop-agent-wiki | 8 | web3_project_status | yes | current contract addresses, wallet warnings, scam reports and signing risks |
-| TICKET-SRC-002 | wave-1 | airdrop-agent-wiki | 8 | policy_or_regulation | yes | current project status, official links, task rules, snapshot and eligibility |
-| TICKET-SRC-003 | wave-1 | airdrop-agent-wiki | 8 | web3_project_status | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
-| TICKET-SRC-004 | wave-1 | finance-agent-wiki | 8 | market_or_platform_data | yes | current fees, funding rates, margin rules, tax rules and trading API parameters |
-| TICKET-SRC-005 | wave-1 | finance-agent-wiki | 8 | policy_or_regulation | yes | current legal, regulatory or suitability requirements for financial products |
-| TICKET-SRC-006 | wave-1 | finance-agent-wiki | 8 | market_or_platform_data | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
-| TICKET-SRC-007 | wave-1 | finance-agent-wiki | 8 | general_current_fact | yes | latest financial statements, filings, restatements and audit opinions |
-| TICKET-SRC-008 | wave-1 | health-agent-wiki | 8 | medical_guidance | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
-| TICKET-SRC-009 | wave-1 | health-agent-wiki | 8 | medical_guidance | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
-| TICKET-SRC-010 | wave-1 | legal-agent-wiki | 8 | policy_or_regulation | yes | current platform agreements, data processing terms and consumer protection rules |
-| TICKET-SRC-011 | wave-1 | legal-agent-wiki | 8 | policy_or_regulation | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
-| TICKET-SRC-012 | wave-1 | security-agent-wiki | 8 | security_advisory | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
-| TICKET-SRC-013 | wave-1 | security-agent-wiki | 8 | policy_or_regulation | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| TICKET-SRC-014 | wave-2 | customs-agent-wiki | 7 | market_or_platform_data | no | exchange rates, tariff rates, tax rates and destination-specific fees |
-| TICKET-SRC-015 | wave-2 | customs-agent-wiki | 7 | general_current_fact | no | latest HS codes, customs supervision conditions and declaration elements |
-| TICKET-SRC-016 | wave-2 | customs-agent-wiki | 7 | policy_or_regulation | no | latest import/export policy, inspection and quarantine requirements |
-| TICKET-SRC-017 | wave-2 | customs-agent-wiki | 7 | technical_docs | no | latest platform OCR model parameters and document template behavior |
-| TICKET-SRC-018 | wave-2 | ecommerce-agent-wiki | 7 | policy_or_regulation | no | current marketplace policy, return window, category restrictions and consumer protection rules |
-| TICKET-SRC-019 | wave-2 | ecommerce-agent-wiki | 7 | general_current_fact | no | current product certification, recall, safety notice and warranty terms |
-| TICKET-SRC-020 | wave-2 | ecommerce-agent-wiki | 7 | market_or_platform_data | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| TICKET-SRC-021 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
-| TICKET-SRC-022 | wave-2 | nodeops-agent-wiki | 7 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| TICKET-SRC-023 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
-| TICKET-SRC-024 | wave-2 | research-agent-wiki | 7 | technical_docs | no | current dataset availability, license, model weights and code repository status |
-| TICKET-SRC-025 | wave-2 | research-agent-wiki | 7 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| TICKET-SRC-001 | wave-1 | airdrop-agent-wiki | 9 | web3_project_status | yes | current contract addresses, wallet warnings, scam reports and signing risks |
+| TICKET-SRC-002 | wave-1 | airdrop-agent-wiki | 9 | policy_or_regulation | yes | current project status, official links, task rules, snapshot and eligibility |
+| TICKET-SRC-003 | wave-1 | airdrop-agent-wiki | 9 | web3_project_status | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
+| TICKET-SRC-004 | wave-1 | finance-agent-wiki | 9 | market_or_platform_data | yes | current fees, funding rates, margin rules, tax rules and trading API parameters |
+| TICKET-SRC-005 | wave-1 | finance-agent-wiki | 9 | policy_or_regulation | yes | current legal, regulatory or suitability requirements for financial products |
+| TICKET-SRC-006 | wave-1 | finance-agent-wiki | 9 | market_or_platform_data | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
+| TICKET-SRC-007 | wave-1 | finance-agent-wiki | 9 | general_current_fact | yes | latest financial statements, filings, restatements and audit opinions |
+| TICKET-SRC-008 | wave-1 | health-agent-wiki | 9 | medical_guidance | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
+| TICKET-SRC-009 | wave-1 | health-agent-wiki | 9 | medical_guidance | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
+| TICKET-SRC-010 | wave-1 | legal-agent-wiki | 9 | policy_or_regulation | yes | current platform agreements, data processing terms and consumer protection rules |
+| TICKET-SRC-011 | wave-1 | legal-agent-wiki | 9 | policy_or_regulation | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
+| TICKET-SRC-012 | wave-1 | security-agent-wiki | 9 | security_advisory | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
+| TICKET-SRC-013 | wave-1 | security-agent-wiki | 9 | policy_or_regulation | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
+| TICKET-SRC-014 | wave-1 | customs-agent-wiki | 8 | market_or_platform_data | no | exchange rates, tariff rates, tax rates and destination-specific fees |
+| TICKET-SRC-015 | wave-1 | customs-agent-wiki | 8 | general_current_fact | no | latest HS codes, customs supervision conditions and declaration elements |
+| TICKET-SRC-016 | wave-1 | customs-agent-wiki | 8 | policy_or_regulation | no | latest import/export policy, inspection and quarantine requirements |
+| TICKET-SRC-017 | wave-1 | customs-agent-wiki | 8 | technical_docs | no | latest platform OCR model parameters and document template behavior |
+| TICKET-SRC-018 | wave-1 | ecommerce-agent-wiki | 8 | policy_or_regulation | no | current marketplace policy, return window, category restrictions and consumer protection rules |
+| TICKET-SRC-019 | wave-1 | ecommerce-agent-wiki | 8 | general_current_fact | no | current product certification, recall, safety notice and warranty terms |
+| TICKET-SRC-020 | wave-1 | ecommerce-agent-wiki | 8 | market_or_platform_data | no | current product price, stock, promotion, shipping fee and delivery ETA |
+| TICKET-SRC-021 | wave-1 | research-agent-wiki | 8 | technical_docs | no | current dataset availability, license, model weights and code repository status |
+| TICKET-SRC-022 | wave-1 | research-agent-wiki | 8 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| TICKET-SRC-023 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
+| TICKET-SRC-024 | wave-2 | nodeops-agent-wiki | 7 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| TICKET-SRC-025 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | TICKET-SRC-026 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current Codex Skill format, plugin behavior and tool capabilities |
 | TICKET-SRC-027 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current RAG frameworks, embedding models, vector databases and rerankers |
 | TICKET-SRC-028 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current eval harnesses, model APIs and MCP/tool schemas |
@@ -991,14 +991,12 @@ Evidence template:
 }
 ```
 
-### wave-2
-
 #### TICKET-SRC-014 - customs-agent-wiki
 
 - Status: `open_pending_source_refresh`
 - Topic: exchange rates, tariff rates, tax rates and destination-specific fees
 - Category: `market_or_platform_data`
-- Target window: refresh after wave-1 before operational rollout
+- Target window: refresh first; do not use for current-fact answers until verified
 - Human confirmation required: no
 
 Required reading:
@@ -1067,7 +1065,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: latest HS codes, customs supervision conditions and declaration elements
 - Category: `general_current_fact`
-- Target window: refresh after wave-1 before operational rollout
+- Target window: refresh first; do not use for current-fact answers until verified
 - Human confirmation required: no
 
 Required reading:
@@ -1136,7 +1134,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: latest import/export policy, inspection and quarantine requirements
 - Category: `policy_or_regulation`
-- Target window: refresh after wave-1 before operational rollout
+- Target window: refresh first; do not use for current-fact answers until verified
 - Human confirmation required: no
 
 Required reading:
@@ -1205,7 +1203,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: latest platform OCR model parameters and document template behavior
 - Category: `technical_docs`
-- Target window: refresh after wave-1 before operational rollout
+- Target window: refresh first; do not use for current-fact answers until verified
 - Human confirmation required: no
 
 Required reading:
@@ -1274,7 +1272,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current marketplace policy, return window, category restrictions and consumer protection rules
 - Category: `policy_or_regulation`
-- Target window: refresh after wave-1 before operational rollout
+- Target window: refresh first; do not use for current-fact answers until verified
 - Human confirmation required: no
 
 Required reading:
@@ -1343,7 +1341,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current product certification, recall, safety notice and warranty terms
 - Category: `general_current_fact`
-- Target window: refresh after wave-1 before operational rollout
+- Target window: refresh first; do not use for current-fact answers until verified
 - Human confirmation required: no
 
 Required reading:
@@ -1412,7 +1410,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current product price, stock, promotion, shipping fee and delivery ETA
 - Category: `market_or_platform_data`
-- Target window: refresh after wave-1 before operational rollout
+- Target window: refresh first; do not use for current-fact answers until verified
 - Human confirmation required: no
 
 Required reading:
@@ -1476,7 +1474,147 @@ Evidence template:
 }
 ```
 
-#### TICKET-SRC-021 - nodeops-agent-wiki
+#### TICKET-SRC-021 - research-agent-wiki
+
+- Status: `open_pending_source_refresh`
+- Topic: current dataset availability, license, model weights and code repository status
+- Category: `technical_docs`
+- Target window: refresh first; do not use for current-fact answers until verified
+- Human confirmation required: no
+
+Required reading:
+
+- [AGENTS.md](../wikis/research-agent-wiki/AGENTS.md)
+- [manifest.yaml](../wikis/research-agent-wiki/manifest.yaml)
+- [README.md](../wikis/research-agent-wiki/README.md)
+- [rules](../wikis/research-agent-wiki/rules/)
+- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
+
+Source policy:
+
+- [ ] Prefer official, primary, dated sources.
+- [ ] Start from suggested source types: official dataset page, repository release notes, model card.
+- [ ] Do not use unsourced summaries as the only authority.
+- [ ] Record publication/update date and access date.
+
+Safety checks:
+
+- [ ] Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.
+- [ ] Keep source traceability, limitations, and uncertainty visible.
+- [ ] Mark newest papers, datasets, leaderboards, and repositories as source-gated.
+
+Acceptance criteria:
+
+- [ ] No current fact is written without a dated source note.
+- [ ] No API key, private key, cookie, credential, or private account data is recorded.
+- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
+- [ ] The relevant update-log.md records the change.
+
+Content targets:
+
+- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
+- [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md)
+- [update-log.md](../wikis/research-agent-wiki/update-log.md)
+- `docs/SOURCE_UPDATE_QUEUE.md`
+- `registry/source-update-queue.json`
+
+Evidence template:
+
+```json
+{
+  "task_id": "SRC-021",
+  "ticket_id": "TICKET-SRC-021",
+  "topic": "current dataset availability, license, model weights and code repository status",
+  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+  "verified_on": "YYYY-MM-DD",
+  "source_title": "<source title>",
+  "source_publisher": "<official publisher or authority>",
+  "source_url_or_reference": "<URL or local reference>",
+  "source_published_or_updated": "YYYY-MM-DD | unknown",
+  "source_accessed_on": "YYYY-MM-DD",
+  "evidence_summary": "<what the source supports and what it does not support>",
+  "affected_pages": [
+    "wikis/research-agent-wiki/sources/source-notes.md"
+  ],
+  "confidence": "low | medium | high",
+  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+  "human_reviewer": "<required for high-risk tickets>",
+  "follow_up": "<next action or none>"
+}
+```
+
+#### TICKET-SRC-022 - research-agent-wiki
+
+- Status: `open_pending_source_refresh`
+- Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
+- Category: `general_current_fact`
+- Target window: refresh first; do not use for current-fact answers until verified
+- Human confirmation required: no
+
+Required reading:
+
+- [AGENTS.md](../wikis/research-agent-wiki/AGENTS.md)
+- [manifest.yaml](../wikis/research-agent-wiki/manifest.yaml)
+- [README.md](../wikis/research-agent-wiki/README.md)
+- [rules](../wikis/research-agent-wiki/rules/)
+- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
+
+Source policy:
+
+- [ ] Prefer official, primary, dated sources.
+- [ ] Start from suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.
+- [ ] Do not use unsourced summaries as the only authority.
+- [ ] Record publication/update date and access date.
+
+Safety checks:
+
+- [ ] Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.
+- [ ] Keep source traceability, limitations, and uncertainty visible.
+- [ ] Mark newest papers, datasets, leaderboards, and repositories as source-gated.
+
+Acceptance criteria:
+
+- [ ] No current fact is written without a dated source note.
+- [ ] No API key, private key, cookie, credential, or private account data is recorded.
+- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
+- [ ] The relevant update-log.md records the change.
+
+Content targets:
+
+- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
+- [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md)
+- [update-log.md](../wikis/research-agent-wiki/update-log.md)
+- `docs/SOURCE_UPDATE_QUEUE.md`
+- `registry/source-update-queue.json`
+
+Evidence template:
+
+```json
+{
+  "task_id": "SRC-022",
+  "ticket_id": "TICKET-SRC-022",
+  "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+  "verified_on": "YYYY-MM-DD",
+  "source_title": "<source title>",
+  "source_publisher": "<official publisher or authority>",
+  "source_url_or_reference": "<URL or local reference>",
+  "source_published_or_updated": "YYYY-MM-DD | unknown",
+  "source_accessed_on": "YYYY-MM-DD",
+  "evidence_summary": "<what the source supports and what it does not support>",
+  "affected_pages": [
+    "wikis/research-agent-wiki/sources/source-notes.md"
+  ],
+  "confidence": "low | medium | high",
+  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+  "human_reviewer": "<required for high-risk tickets>",
+  "follow_up": "<next action or none>"
+}
+```
+
+### wave-2
+
+#### TICKET-SRC-023 - nodeops-agent-wiki
 
 - Status: `open_pending_source_refresh`
 - Topic: current OS package, Docker, systemd and kernel behavior
@@ -1525,8 +1663,8 @@ Evidence template:
 
 ```json
 {
-  "task_id": "SRC-021",
-  "ticket_id": "TICKET-SRC-021",
+  "task_id": "SRC-023",
+  "ticket_id": "TICKET-SRC-023",
   "topic": "current OS package, Docker, systemd and kernel behavior",
   "status": "pending | verified | unchanged | still-needs-source-update | rejected",
   "verified_on": "YYYY-MM-DD",
@@ -1546,7 +1684,7 @@ Evidence template:
 }
 ```
 
-#### TICKET-SRC-022 - nodeops-agent-wiki
+#### TICKET-SRC-024 - nodeops-agent-wiki
 
 - Status: `open_pending_source_refresh`
 - Topic: current blockchain node client versions, network parameters and upgrade requirements
@@ -1595,8 +1733,8 @@ Evidence template:
 
 ```json
 {
-  "task_id": "SRC-022",
-  "ticket_id": "TICKET-SRC-022",
+  "task_id": "SRC-024",
+  "ticket_id": "TICKET-SRC-024",
   "topic": "current blockchain node client versions, network parameters and upgrade requirements",
   "status": "pending | verified | unchanged | still-needs-source-update | rejected",
   "verified_on": "YYYY-MM-DD",
@@ -1616,7 +1754,7 @@ Evidence template:
 }
 ```
 
-#### TICKET-SRC-023 - nodeops-agent-wiki
+#### TICKET-SRC-025 - nodeops-agent-wiki
 
 - Status: `open_pending_source_refresh`
 - Topic: current cloud provider limits, firewall behavior, billing and incident status
@@ -1665,8 +1803,8 @@ Evidence template:
 
 ```json
 {
-  "task_id": "SRC-023",
-  "ticket_id": "TICKET-SRC-023",
+  "task_id": "SRC-025",
+  "ticket_id": "TICKET-SRC-025",
   "topic": "current cloud provider limits, firewall behavior, billing and incident status",
   "status": "pending | verified | unchanged | still-needs-source-update | rejected",
   "verified_on": "YYYY-MM-DD",
@@ -1678,144 +1816,6 @@ Evidence template:
   "evidence_summary": "<what the source supports and what it does not support>",
   "affected_pages": [
     "wikis/nodeops-agent-wiki/sources/source-notes.md"
-  ],
-  "confidence": "low | medium | high",
-  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
-  "human_reviewer": "<required for high-risk tickets>",
-  "follow_up": "<next action or none>"
-}
-```
-
-#### TICKET-SRC-024 - research-agent-wiki
-
-- Status: `open_pending_source_refresh`
-- Topic: current dataset availability, license, model weights and code repository status
-- Category: `technical_docs`
-- Target window: refresh after wave-1 before operational rollout
-- Human confirmation required: no
-
-Required reading:
-
-- [AGENTS.md](../wikis/research-agent-wiki/AGENTS.md)
-- [manifest.yaml](../wikis/research-agent-wiki/manifest.yaml)
-- [README.md](../wikis/research-agent-wiki/README.md)
-- [rules](../wikis/research-agent-wiki/rules/)
-- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
-
-Source policy:
-
-- [ ] Prefer official, primary, dated sources.
-- [ ] Start from suggested source types: official dataset page, repository release notes, model card.
-- [ ] Do not use unsourced summaries as the only authority.
-- [ ] Record publication/update date and access date.
-
-Safety checks:
-
-- [ ] Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.
-- [ ] Keep source traceability, limitations, and uncertainty visible.
-- [ ] Mark newest papers, datasets, leaderboards, and repositories as source-gated.
-
-Acceptance criteria:
-
-- [ ] No current fact is written without a dated source note.
-- [ ] No API key, private key, cookie, credential, or private account data is recorded.
-- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
-- [ ] The relevant update-log.md records the change.
-
-Content targets:
-
-- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
-- [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md)
-- [update-log.md](../wikis/research-agent-wiki/update-log.md)
-- `docs/SOURCE_UPDATE_QUEUE.md`
-- `registry/source-update-queue.json`
-
-Evidence template:
-
-```json
-{
-  "task_id": "SRC-024",
-  "ticket_id": "TICKET-SRC-024",
-  "topic": "current dataset availability, license, model weights and code repository status",
-  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
-  "verified_on": "YYYY-MM-DD",
-  "source_title": "<source title>",
-  "source_publisher": "<official publisher or authority>",
-  "source_url_or_reference": "<URL or local reference>",
-  "source_published_or_updated": "YYYY-MM-DD | unknown",
-  "source_accessed_on": "YYYY-MM-DD",
-  "evidence_summary": "<what the source supports and what it does not support>",
-  "affected_pages": [
-    "wikis/research-agent-wiki/sources/source-notes.md"
-  ],
-  "confidence": "low | medium | high",
-  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
-  "human_reviewer": "<required for high-risk tickets>",
-  "follow_up": "<next action or none>"
-}
-```
-
-#### TICKET-SRC-025 - research-agent-wiki
-
-- Status: `open_pending_source_refresh`
-- Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
-- Category: `general_current_fact`
-- Target window: refresh after wave-1 before operational rollout
-- Human confirmation required: no
-
-Required reading:
-
-- [AGENTS.md](../wikis/research-agent-wiki/AGENTS.md)
-- [manifest.yaml](../wikis/research-agent-wiki/manifest.yaml)
-- [README.md](../wikis/research-agent-wiki/README.md)
-- [rules](../wikis/research-agent-wiki/rules/)
-- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
-
-Source policy:
-
-- [ ] Prefer official, primary, dated sources.
-- [ ] Start from suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.
-- [ ] Do not use unsourced summaries as the only authority.
-- [ ] Record publication/update date and access date.
-
-Safety checks:
-
-- [ ] Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.
-- [ ] Keep source traceability, limitations, and uncertainty visible.
-- [ ] Mark newest papers, datasets, leaderboards, and repositories as source-gated.
-
-Acceptance criteria:
-
-- [ ] No current fact is written without a dated source note.
-- [ ] No API key, private key, cookie, credential, or private account data is recorded.
-- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
-- [ ] The relevant update-log.md records the change.
-
-Content targets:
-
-- [source-notes.md](../wikis/research-agent-wiki/sources/source-notes.md)
-- [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md)
-- [update-log.md](../wikis/research-agent-wiki/update-log.md)
-- `docs/SOURCE_UPDATE_QUEUE.md`
-- `registry/source-update-queue.json`
-
-Evidence template:
-
-```json
-{
-  "task_id": "SRC-025",
-  "ticket_id": "TICKET-SRC-025",
-  "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
-  "verified_on": "YYYY-MM-DD",
-  "source_title": "<source title>",
-  "source_publisher": "<official publisher or authority>",
-  "source_url_or_reference": "<URL or local reference>",
-  "source_published_or_updated": "YYYY-MM-DD | unknown",
-  "source_accessed_on": "YYYY-MM-DD",
-  "evidence_summary": "<what the source supports and what it does not support>",
-  "affected_pages": [
-    "wikis/research-agent-wiki/sources/source-notes.md"
   ],
   "confidence": "low | medium | high",
   "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",

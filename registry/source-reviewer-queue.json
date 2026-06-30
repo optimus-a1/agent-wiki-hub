@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "purpose": "Assign source-refresh tickets to generic reviewer roles while preserving human confirmation and current-fact gates.",
   "passed": true,
   "current_fact_ready": false,
@@ -152,9 +152,9 @@
         "nodeops-agent-wiki"
       ],
       "ticket_ids": [
-        "TICKET-SRC-021",
-        "TICKET-SRC-022",
-        "TICKET-SRC-023"
+        "TICKET-SRC-023",
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
       ]
     },
     {
@@ -167,8 +167,8 @@
         "research-agent-wiki"
       ],
       "ticket_ids": [
-        "TICKET-SRC-024",
-        "TICKET-SRC-025"
+        "TICKET-SRC-021",
+        "TICKET-SRC-022"
       ]
     },
     {
@@ -232,8 +232,8 @@
         "health-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-008",
-        "REVIEW-SRC-009"
+        "REVIEW-SRC-015",
+        "REVIEW-SRC-016"
       ],
       "ticket_ids": [
         "TICKET-SRC-008",
@@ -268,10 +268,10 @@
         "customs-agent-wiki": 4
       },
       "review_ids": [
-        "REVIEW-SRC-014",
-        "REVIEW-SRC-015",
-        "REVIEW-SRC-016",
-        "REVIEW-SRC-017"
+        "REVIEW-SRC-005",
+        "REVIEW-SRC-006",
+        "REVIEW-SRC-007",
+        "REVIEW-SRC-008"
       ],
       "ticket_ids": [
         "TICKET-SRC-014",
@@ -289,8 +289,8 @@
         "security-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-012",
-        "REVIEW-SRC-013"
+        "REVIEW-SRC-019",
+        "REVIEW-SRC-020"
       ],
       "ticket_ids": [
         "TICKET-SRC-012",
@@ -306,9 +306,9 @@
         "ecommerce-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-018",
-        "REVIEW-SRC-019",
-        "REVIEW-SRC-020"
+        "REVIEW-SRC-012",
+        "REVIEW-SRC-013",
+        "REVIEW-SRC-014"
       ],
       "ticket_ids": [
         "TICKET-SRC-018",
@@ -346,8 +346,8 @@
         "legal-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-010",
-        "REVIEW-SRC-011"
+        "REVIEW-SRC-017",
+        "REVIEW-SRC-018"
       ],
       "ticket_ids": [
         "TICKET-SRC-010",
@@ -363,14 +363,14 @@
         "nodeops-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-021",
-        "REVIEW-SRC-022",
-        "REVIEW-SRC-023"
+        "REVIEW-SRC-023",
+        "REVIEW-SRC-024",
+        "REVIEW-SRC-025"
       ],
       "ticket_ids": [
-        "TICKET-SRC-021",
-        "TICKET-SRC-022",
-        "TICKET-SRC-023"
+        "TICKET-SRC-023",
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
       ]
     },
     {
@@ -382,12 +382,12 @@
         "research-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-024",
-        "REVIEW-SRC-025"
+        "REVIEW-SRC-021",
+        "REVIEW-SRC-022"
       ],
       "ticket_ids": [
-        "TICKET-SRC-024",
-        "TICKET-SRC-025"
+        "TICKET-SRC-021",
+        "TICKET-SRC-022"
       ]
     },
     {
@@ -420,9 +420,9 @@
         "airdrop-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-005",
-        "REVIEW-SRC-006",
-        "REVIEW-SRC-007"
+        "REVIEW-SRC-009",
+        "REVIEW-SRC-010",
+        "REVIEW-SRC-011"
       ],
       "ticket_ids": [
         "TICKET-SRC-001",
@@ -434,14 +434,17 @@
   "queues_by_wave": [
     {
       "wave": "wave-1",
-      "review_count": 13,
+      "review_count": 22,
       "high_risk_count": 13,
       "human_review_gate_count": 13,
       "wikis": {
         "airdrop-agent-wiki": 3,
+        "customs-agent-wiki": 4,
+        "ecommerce-agent-wiki": 3,
         "finance-agent-wiki": 4,
         "health-agent-wiki": 2,
         "legal-agent-wiki": 2,
+        "research-agent-wiki": 2,
         "security-agent-wiki": 2
       },
       "review_ids": [
@@ -457,36 +460,7 @@
         "REVIEW-SRC-010",
         "REVIEW-SRC-011",
         "REVIEW-SRC-012",
-        "REVIEW-SRC-013"
-      ],
-      "ticket_ids": [
-        "TICKET-SRC-004",
-        "TICKET-SRC-005",
-        "TICKET-SRC-006",
-        "TICKET-SRC-007",
-        "TICKET-SRC-001",
-        "TICKET-SRC-002",
-        "TICKET-SRC-003",
-        "TICKET-SRC-008",
-        "TICKET-SRC-009",
-        "TICKET-SRC-010",
-        "TICKET-SRC-011",
-        "TICKET-SRC-012",
-        "TICKET-SRC-013"
-      ]
-    },
-    {
-      "wave": "wave-2",
-      "review_count": 12,
-      "high_risk_count": 3,
-      "human_review_gate_count": 3,
-      "wikis": {
-        "customs-agent-wiki": 4,
-        "ecommerce-agent-wiki": 3,
-        "nodeops-agent-wiki": 3,
-        "research-agent-wiki": 2
-      },
-      "review_ids": [
+        "REVIEW-SRC-013",
         "REVIEW-SRC-014",
         "REVIEW-SRC-015",
         "REVIEW-SRC-016",
@@ -495,21 +469,47 @@
         "REVIEW-SRC-019",
         "REVIEW-SRC-020",
         "REVIEW-SRC-021",
-        "REVIEW-SRC-022",
+        "REVIEW-SRC-022"
+      ],
+      "ticket_ids": [
+        "TICKET-SRC-004",
+        "TICKET-SRC-005",
+        "TICKET-SRC-006",
+        "TICKET-SRC-007",
+        "TICKET-SRC-014",
+        "TICKET-SRC-015",
+        "TICKET-SRC-016",
+        "TICKET-SRC-017",
+        "TICKET-SRC-001",
+        "TICKET-SRC-002",
+        "TICKET-SRC-003",
+        "TICKET-SRC-018",
+        "TICKET-SRC-019",
+        "TICKET-SRC-020",
+        "TICKET-SRC-008",
+        "TICKET-SRC-009",
+        "TICKET-SRC-010",
+        "TICKET-SRC-011",
+        "TICKET-SRC-012",
+        "TICKET-SRC-013",
+        "TICKET-SRC-021",
+        "TICKET-SRC-022"
+      ]
+    },
+    {
+      "wave": "wave-2",
+      "review_count": 3,
+      "high_risk_count": 3,
+      "human_review_gate_count": 3,
+      "wikis": {
+        "nodeops-agent-wiki": 3
+      },
+      "review_ids": [
         "REVIEW-SRC-023",
         "REVIEW-SRC-024",
         "REVIEW-SRC-025"
       ],
       "ticket_ids": [
-        "TICKET-SRC-014",
-        "TICKET-SRC-015",
-        "TICKET-SRC-016",
-        "TICKET-SRC-017",
-        "TICKET-SRC-018",
-        "TICKET-SRC-019",
-        "TICKET-SRC-020",
-        "TICKET-SRC-021",
-        "TICKET-SRC-022",
         "TICKET-SRC-023",
         "TICKET-SRC-024",
         "TICKET-SRC-025"
@@ -568,10 +568,10 @@
         "REVIEW-SRC-002",
         "REVIEW-SRC-003",
         "REVIEW-SRC-004",
-        "REVIEW-SRC-014",
-        "REVIEW-SRC-015",
-        "REVIEW-SRC-016",
-        "REVIEW-SRC-017",
+        "REVIEW-SRC-005",
+        "REVIEW-SRC-006",
+        "REVIEW-SRC-007",
+        "REVIEW-SRC-008",
         "REVIEW-SRC-026",
         "REVIEW-SRC-027",
         "REVIEW-SRC-028",
@@ -610,15 +610,15 @@
         "nodeops-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-005",
-        "REVIEW-SRC-006",
-        "REVIEW-SRC-007",
-        "REVIEW-SRC-018",
-        "REVIEW-SRC-019",
-        "REVIEW-SRC-020",
-        "REVIEW-SRC-021",
-        "REVIEW-SRC-022",
+        "REVIEW-SRC-009",
+        "REVIEW-SRC-010",
+        "REVIEW-SRC-011",
+        "REVIEW-SRC-012",
+        "REVIEW-SRC-013",
+        "REVIEW-SRC-014",
         "REVIEW-SRC-023",
+        "REVIEW-SRC-024",
+        "REVIEW-SRC-025",
         "REVIEW-SRC-033",
         "REVIEW-SRC-034",
         "REVIEW-SRC-035"
@@ -630,9 +630,9 @@
         "TICKET-SRC-018",
         "TICKET-SRC-019",
         "TICKET-SRC-020",
-        "TICKET-SRC-021",
-        "TICKET-SRC-022",
         "TICKET-SRC-023",
+        "TICKET-SRC-024",
+        "TICKET-SRC-025",
         "TICKET-SRC-033",
         "TICKET-SRC-034",
         "TICKET-SRC-035"
@@ -650,14 +650,14 @@
         "security-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-008",
-        "REVIEW-SRC-009",
-        "REVIEW-SRC-010",
-        "REVIEW-SRC-011",
-        "REVIEW-SRC-012",
-        "REVIEW-SRC-013",
-        "REVIEW-SRC-024",
-        "REVIEW-SRC-025"
+        "REVIEW-SRC-015",
+        "REVIEW-SRC-016",
+        "REVIEW-SRC-017",
+        "REVIEW-SRC-018",
+        "REVIEW-SRC-019",
+        "REVIEW-SRC-020",
+        "REVIEW-SRC-021",
+        "REVIEW-SRC-022"
       ],
       "ticket_ids": [
         "TICKET-SRC-008",
@@ -666,8 +666,8 @@
         "TICKET-SRC-011",
         "TICKET-SRC-012",
         "TICKET-SRC-013",
-        "TICKET-SRC-024",
-        "TICKET-SRC-025"
+        "TICKET-SRC-021",
+        "TICKET-SRC-022"
       ]
     }
   ],
@@ -700,9 +700,9 @@
         "airdrop-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-005",
-        "REVIEW-SRC-006",
-        "REVIEW-SRC-007"
+        "REVIEW-SRC-009",
+        "REVIEW-SRC-010",
+        "REVIEW-SRC-011"
       ],
       "ticket_ids": [
         "TICKET-SRC-001",
@@ -759,10 +759,10 @@
         "customs-agent-wiki": 4
       },
       "review_ids": [
-        "REVIEW-SRC-014",
-        "REVIEW-SRC-015",
-        "REVIEW-SRC-016",
-        "REVIEW-SRC-017"
+        "REVIEW-SRC-005",
+        "REVIEW-SRC-006",
+        "REVIEW-SRC-007",
+        "REVIEW-SRC-008"
       ],
       "ticket_ids": [
         "TICKET-SRC-014",
@@ -780,9 +780,9 @@
         "ecommerce-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-018",
-        "REVIEW-SRC-019",
-        "REVIEW-SRC-020"
+        "REVIEW-SRC-012",
+        "REVIEW-SRC-013",
+        "REVIEW-SRC-014"
       ],
       "ticket_ids": [
         "TICKET-SRC-018",
@@ -820,8 +820,8 @@
         "health-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-008",
-        "REVIEW-SRC-009"
+        "REVIEW-SRC-015",
+        "REVIEW-SRC-016"
       ],
       "ticket_ids": [
         "TICKET-SRC-008",
@@ -837,8 +837,8 @@
         "legal-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-010",
-        "REVIEW-SRC-011"
+        "REVIEW-SRC-017",
+        "REVIEW-SRC-018"
       ],
       "ticket_ids": [
         "TICKET-SRC-010",
@@ -854,14 +854,14 @@
         "nodeops-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-021",
-        "REVIEW-SRC-022",
-        "REVIEW-SRC-023"
+        "REVIEW-SRC-023",
+        "REVIEW-SRC-024",
+        "REVIEW-SRC-025"
       ],
       "ticket_ids": [
-        "TICKET-SRC-021",
-        "TICKET-SRC-022",
-        "TICKET-SRC-023"
+        "TICKET-SRC-023",
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
       ]
     },
     {
@@ -873,12 +873,12 @@
         "research-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-024",
-        "REVIEW-SRC-025"
+        "REVIEW-SRC-021",
+        "REVIEW-SRC-022"
       ],
       "ticket_ids": [
-        "TICKET-SRC-024",
-        "TICKET-SRC-025"
+        "TICKET-SRC-021",
+        "TICKET-SRC-022"
       ]
     },
     {
@@ -890,8 +890,8 @@
         "security-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-012",
-        "REVIEW-SRC-013"
+        "REVIEW-SRC-019",
+        "REVIEW-SRC-020"
       ],
       "ticket_ids": [
         "TICKET-SRC-012",
@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-005",
+      "review_id": "REVIEW-SRC-009",
       "ticket_id": "TICKET-SRC-001",
       "task_id": "SRC-001",
       "wiki": "airdrop-agent-wiki",
@@ -1131,7 +1131,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-006",
+      "review_id": "REVIEW-SRC-010",
       "ticket_id": "TICKET-SRC-002",
       "task_id": "SRC-002",
       "wiki": "airdrop-agent-wiki",
@@ -1177,7 +1177,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-007",
+      "review_id": "REVIEW-SRC-011",
       "ticket_id": "TICKET-SRC-003",
       "task_id": "SRC-003",
       "wiki": "airdrop-agent-wiki",
@@ -1223,7 +1223,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-008",
+      "review_id": "REVIEW-SRC-015",
       "ticket_id": "TICKET-SRC-008",
       "task_id": "SRC-008",
       "wiki": "health-agent-wiki",
@@ -1269,7 +1269,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-009",
+      "review_id": "REVIEW-SRC-016",
       "ticket_id": "TICKET-SRC-009",
       "task_id": "SRC-009",
       "wiki": "health-agent-wiki",
@@ -1315,7 +1315,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-010",
+      "review_id": "REVIEW-SRC-017",
       "ticket_id": "TICKET-SRC-010",
       "task_id": "SRC-010",
       "wiki": "legal-agent-wiki",
@@ -1361,7 +1361,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-011",
+      "review_id": "REVIEW-SRC-018",
       "ticket_id": "TICKET-SRC-011",
       "task_id": "SRC-011",
       "wiki": "legal-agent-wiki",
@@ -1407,7 +1407,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-012",
+      "review_id": "REVIEW-SRC-019",
       "ticket_id": "TICKET-SRC-012",
       "task_id": "SRC-012",
       "wiki": "security-agent-wiki",
@@ -1453,7 +1453,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-013",
+      "review_id": "REVIEW-SRC-020",
       "ticket_id": "TICKET-SRC-013",
       "task_id": "SRC-013",
       "wiki": "security-agent-wiki",
@@ -1499,9 +1499,9 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-021",
-      "ticket_id": "TICKET-SRC-021",
-      "task_id": "SRC-021",
+      "review_id": "REVIEW-SRC-023",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -1531,8 +1531,8 @@
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -1545,9 +1545,9 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-022",
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "review_id": "REVIEW-SRC-024",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -1577,8 +1577,8 @@
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -1591,9 +1591,9 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-023",
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
+      "review_id": "REVIEW-SRC-025",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -1623,8 +1623,8 @@
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -1824,6 +1824,182 @@
     },
     {
       "review_id": "REVIEW-SRC-005",
+      "ticket_id": "TICKET-SRC-014",
+      "task_id": "SRC-014",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "customs-document-reviewer",
+      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "central bank or official exchange source",
+        "customs tariff system",
+        "destination country authority"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-006",
+      "ticket_id": "TICKET-SRC-015",
+      "task_id": "SRC-015",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest HS codes, customs supervision conditions and declaration elements",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "customs-document-reviewer",
+      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "customs authority website",
+        "official tariff database",
+        "licensed customs broker review"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-007",
+      "ticket_id": "TICKET-SRC-016",
+      "task_id": "SRC-016",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "latest import/export policy, inspection and quarantine requirements",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "customs-document-reviewer",
+      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "customs and inspection authority announcement",
+        "destination country regulator",
+        "official trade compliance bulletin"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-008",
+      "ticket_id": "TICKET-SRC-017",
+      "task_id": "SRC-017",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "latest platform OCR model parameters and document template behavior",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "customs-document-reviewer",
+      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "OCR vendor documentation",
+        "internal extraction benchmark",
+        "manually reviewed sample set"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-009",
       "ticket_id": "TICKET-SRC-001",
       "task_id": "SRC-001",
       "wiki": "airdrop-agent-wiki",
@@ -1869,7 +2045,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-006",
+      "review_id": "REVIEW-SRC-010",
       "ticket_id": "TICKET-SRC-002",
       "task_id": "SRC-002",
       "wiki": "airdrop-agent-wiki",
@@ -1915,7 +2091,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-007",
+      "review_id": "REVIEW-SRC-011",
       "ticket_id": "TICKET-SRC-003",
       "task_id": "SRC-003",
       "wiki": "airdrop-agent-wiki",
@@ -1961,7 +2137,139 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-008",
+      "review_id": "REVIEW-SRC-012",
+      "ticket_id": "TICKET-SRC-018",
+      "task_id": "SRC-018",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "reviewer_role_description": "Checks product, pricing, customer-service, returns, privacy, ads, and marketplace-policy evidence.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "official marketplace policy center",
+        "consumer protection authority",
+        "merchant service agreement"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-013",
+      "ticket_id": "TICKET-SRC-019",
+      "task_id": "SRC-019",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "current product certification, recall, safety notice and warranty terms",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "reviewer_role_description": "Checks product, pricing, customer-service, returns, privacy, ads, and marketplace-policy evidence.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "brand official website",
+        "regulator recall database",
+        "warranty document"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-014",
+      "ticket_id": "TICKET-SRC-020",
+      "task_id": "SRC-020",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "reviewer_role_description": "Checks product, pricing, customer-service, returns, privacy, ads, and marketplace-policy evidence.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "platform product page",
+        "merchant backend",
+        "carrier tracking system"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-015",
       "ticket_id": "TICKET-SRC-008",
       "task_id": "SRC-008",
       "wiki": "health-agent-wiki",
@@ -2007,7 +2315,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-009",
+      "review_id": "REVIEW-SRC-016",
       "ticket_id": "TICKET-SRC-009",
       "task_id": "SRC-009",
       "wiki": "health-agent-wiki",
@@ -2053,7 +2361,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-010",
+      "review_id": "REVIEW-SRC-017",
       "ticket_id": "TICKET-SRC-010",
       "task_id": "SRC-010",
       "wiki": "legal-agent-wiki",
@@ -2099,7 +2407,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-011",
+      "review_id": "REVIEW-SRC-018",
       "ticket_id": "TICKET-SRC-011",
       "task_id": "SRC-011",
       "wiki": "legal-agent-wiki",
@@ -2145,7 +2453,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-012",
+      "review_id": "REVIEW-SRC-019",
       "ticket_id": "TICKET-SRC-012",
       "task_id": "SRC-012",
       "wiki": "security-agent-wiki",
@@ -2191,7 +2499,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-013",
+      "review_id": "REVIEW-SRC-020",
       "ticket_id": "TICKET-SRC-013",
       "task_id": "SRC-013",
       "wiki": "security-agent-wiki",
@@ -2237,317 +2545,97 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-014",
-      "ticket_id": "TICKET-SRC-014",
-      "task_id": "SRC-014",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "market_or_platform_data",
-      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "customs-document-reviewer",
-      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "central bank or official exchange source",
-        "customs tariff system",
-        "destination country authority"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-015",
-      "ticket_id": "TICKET-SRC-015",
-      "task_id": "SRC-015",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest HS codes, customs supervision conditions and declaration elements",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "customs-document-reviewer",
-      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "customs authority website",
-        "official tariff database",
-        "licensed customs broker review"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-016",
-      "ticket_id": "TICKET-SRC-016",
-      "task_id": "SRC-016",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "policy_or_regulation",
-      "topic": "latest import/export policy, inspection and quarantine requirements",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "customs-document-reviewer",
-      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "customs and inspection authority announcement",
-        "destination country regulator",
-        "official trade compliance bulletin"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-017",
-      "ticket_id": "TICKET-SRC-017",
-      "task_id": "SRC-017",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "technical_docs",
-      "topic": "latest platform OCR model parameters and document template behavior",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "customs-document-reviewer",
-      "reviewer_role_description": "Checks trade-document, field-mapping, OCR, discrepancy, and customs-policy evidence while preserving manual review gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "OCR vendor documentation",
-        "internal extraction benchmark",
-        "manually reviewed sample set"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-018",
-      "ticket_id": "TICKET-SRC-018",
-      "task_id": "SRC-018",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "policy_or_regulation",
-      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "ecommerce-policy-reviewer",
-      "reviewer_role_description": "Checks product, pricing, customer-service, returns, privacy, ads, and marketplace-policy evidence.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "official marketplace policy center",
-        "consumer protection authority",
-        "merchant service agreement"
-      ],
-      "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-019",
-      "ticket_id": "TICKET-SRC-019",
-      "task_id": "SRC-019",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "current product certification, recall, safety notice and warranty terms",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "ecommerce-policy-reviewer",
-      "reviewer_role_description": "Checks product, pricing, customer-service, returns, privacy, ads, and marketplace-policy evidence.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "brand official website",
-        "regulator recall database",
-        "warranty document"
-      ],
-      "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-020",
-      "ticket_id": "TICKET-SRC-020",
-      "task_id": "SRC-020",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "market_or_platform_data",
-      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "ecommerce-policy-reviewer",
-      "reviewer_role_description": "Checks product, pricing, customer-service, returns, privacy, ads, and marketplace-policy evidence.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "platform product page",
-        "merchant backend",
-        "carrier tracking system"
-      ],
-      "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
       "review_id": "REVIEW-SRC-021",
       "ticket_id": "TICKET-SRC-021",
       "task_id": "SRC-021",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "current dataset availability, license, model weights and code repository status",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "research-methods-reviewer",
+      "reviewer_role_description": "Checks papers, datasets, benchmarks, citations, and reproducibility evidence.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "official dataset page",
+        "repository release notes",
+        "model card"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-022",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "research-methods-reviewer",
+      "reviewer_role_description": "Checks papers, datasets, benchmarks, citations, and reproducibility evidence.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": false,
+      "human_review_gate": false,
+      "suggested_sources": [
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-023",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -2577,8 +2665,8 @@
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -2591,9 +2679,9 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-022",
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "review_id": "REVIEW-SRC-024",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -2623,8 +2711,8 @@
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -2637,9 +2725,9 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-023",
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
+      "review_id": "REVIEW-SRC-025",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -2669,8 +2757,8 @@
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -2680,94 +2768,6 @@
         "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
         "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
         "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-024",
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "technical_docs",
-      "topic": "current dataset availability, license, model weights and code repository status",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "research-methods-reviewer",
-      "reviewer_role_description": "Checks papers, datasets, benchmarks, citations, and reproducibility evidence.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "official dataset page",
-        "repository release notes",
-        "model card"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-025",
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "research-methods-reviewer",
-      "reviewer_role_description": "Checks papers, datasets, benchmarks, citations, and reproducibility evidence.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": false,
-      "human_review_gate": false,
-      "suggested_sources": [
-        "publisher page",
-        "arXiv or conference page",
-        "official benchmark leaderboard"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass."
       ]
     },
     {

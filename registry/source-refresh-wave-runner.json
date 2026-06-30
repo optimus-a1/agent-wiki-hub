@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "missing_required": [],
   "purpose": "Plan source-refresh execution waves without certifying current facts.",
@@ -11,8 +11,8 @@
   "evidence_entry_count": 13,
   "evidence_issue_count": 0,
   "wave_counts": {
-    "wave-1": 13,
-    "wave-2": 12,
+    "wave-1": 22,
+    "wave-2": 3,
     "wave-3": 10
   },
   "priority_counts": {
@@ -46,7 +46,7 @@
       "category": "market_or_platform_data",
       "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official exchange documentation",
@@ -77,7 +77,7 @@
       "category": "policy_or_regulation",
       "topic": "current legal, regulatory or suitability requirements for financial products",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "regulator website",
@@ -108,7 +108,7 @@
       "category": "market_or_platform_data",
       "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "primary exchange or market data vendor",
@@ -139,7 +139,7 @@
       "category": "general_current_fact",
       "topic": "latest financial statements, filings, restatements and audit opinions",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "company investor relations",
@@ -160,6 +160,130 @@
       "human_review_gate": true
     },
     {
+      "ticket_id": "TICKET-SRC-014",
+      "task_id": "SRC-014",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "central bank or official exchange source",
+        "customs tariff system",
+        "destination country authority"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-015",
+      "task_id": "SRC-015",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest HS codes, customs supervision conditions and declaration elements",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "customs authority website",
+        "official tariff database",
+        "licensed customs broker review"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-016",
+      "task_id": "SRC-016",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "latest import/export policy, inspection and quarantine requirements",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "customs and inspection authority announcement",
+        "destination country regulator",
+        "official trade compliance bulletin"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-017",
+      "task_id": "SRC-017",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "latest platform OCR model parameters and document template behavior",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "OCR vendor documentation",
+        "internal extraction benchmark",
+        "manually reviewed sample set"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
       "ticket_id": "TICKET-SRC-001",
       "task_id": "SRC-001",
       "wiki": "airdrop-agent-wiki",
@@ -170,7 +294,7 @@
       "category": "web3_project_status",
       "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official contract registry",
@@ -201,7 +325,7 @@
       "category": "policy_or_regulation",
       "topic": "current project status, official links, task rules, snapshot and eligibility",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official website",
@@ -232,7 +356,7 @@
       "category": "web3_project_status",
       "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "project announcement",
@@ -253,6 +377,99 @@
       "human_review_gate": true
     },
     {
+      "ticket_id": "TICKET-SRC-018",
+      "task_id": "SRC-018",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "official marketplace policy center",
+        "consumer protection authority",
+        "merchant service agreement"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-019",
+      "task_id": "SRC-019",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "current product certification, recall, safety notice and warranty terms",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "brand official website",
+        "regulator recall database",
+        "warranty document"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-020",
+      "task_id": "SRC-020",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "platform product page",
+        "merchant backend",
+        "carrier tracking system"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
       "ticket_id": "TICKET-SRC-008",
       "task_id": "SRC-008",
       "wiki": "health-agent-wiki",
@@ -263,7 +480,7 @@
       "category": "medical_guidance",
       "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official health authority",
@@ -294,7 +511,7 @@
       "category": "medical_guidance",
       "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "public health authority",
@@ -325,7 +542,7 @@
       "category": "policy_or_regulation",
       "topic": "current platform agreements, data processing terms and consumer protection rules",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official platform terms",
@@ -356,7 +573,7 @@
       "category": "policy_or_regulation",
       "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official legal database",
@@ -387,7 +604,7 @@
       "category": "security_advisory",
       "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "vendor security advisory",
@@ -418,7 +635,7 @@
       "category": "policy_or_regulation",
       "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official tool documentation",
@@ -439,225 +656,70 @@
       "human_review_gate": true
     },
     {
-      "ticket_id": "TICKET-SRC-014",
-      "task_id": "SRC-014",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "market_or_platform_data",
-      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "central bank or official exchange source",
-        "customs tariff system",
-        "destination country authority"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-015",
-      "task_id": "SRC-015",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest HS codes, customs supervision conditions and declaration elements",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "customs authority website",
-        "official tariff database",
-        "licensed customs broker review"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-016",
-      "task_id": "SRC-016",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "policy_or_regulation",
-      "topic": "latest import/export policy, inspection and quarantine requirements",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "customs and inspection authority announcement",
-        "destination country regulator",
-        "official trade compliance bulletin"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-017",
-      "task_id": "SRC-017",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
       "risk_level": "medium",
       "freshness": "high",
       "category": "technical_docs",
-      "topic": "latest platform OCR model parameters and document template behavior",
+      "topic": "current dataset availability, license, model weights and code repository status",
       "status": "open_pending_source_refresh",
-      "priority_score": 7,
+      "priority_score": 8,
       "human_confirmation_required": false,
       "suggested_sources": [
-        "OCR vendor documentation",
-        "internal extraction benchmark",
-        "manually reviewed sample set"
+        "official dataset page",
+        "repository release notes",
+        "model card"
       ],
       "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
       ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
       "human_review_gate": false
     },
     {
-      "ticket_id": "TICKET-SRC-018",
-      "task_id": "SRC-018",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "policy_or_regulation",
-      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "official marketplace policy center",
-        "consumer protection authority",
-        "merchant service agreement"
-      ],
-      "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-019",
-      "task_id": "SRC-019",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
       "risk_level": "medium",
       "freshness": "high",
       "category": "general_current_fact",
-      "topic": "current product certification, recall, safety notice and warranty terms",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
       "status": "open_pending_source_refresh",
-      "priority_score": 7,
+      "priority_score": 8,
       "human_confirmation_required": false,
       "suggested_sources": [
-        "brand official website",
-        "regulator recall database",
-        "warranty document"
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
       ],
       "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
       ],
-      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
       "human_review_gate": false
     },
     {
-      "ticket_id": "TICKET-SRC-020",
-      "task_id": "SRC-020",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "market_or_platform_data",
-      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "platform product page",
-        "merchant backend",
-        "carrier tracking system"
-      ],
-      "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-021",
-      "task_id": "SRC-021",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -682,13 +744,13 @@
       ],
       "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "human_review_gate": true
     },
     {
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -713,13 +775,13 @@
       ],
       "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "human_review_gate": true
     },
     {
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -744,71 +806,9 @@
       ],
       "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "human_review_gate": true
-    },
-    {
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "technical_docs",
-      "topic": "current dataset availability, license, model weights and code repository status",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "official dataset page",
-        "repository release notes",
-        "model card"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "publisher page",
-        "arXiv or conference page",
-        "official benchmark leaderboard"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
       "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "human_review_gate": true
     },
     {
       "ticket_id": "TICKET-SRC-026",
@@ -1133,7 +1133,7 @@
       "category": "market_or_platform_data",
       "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official exchange documentation",
@@ -1164,7 +1164,7 @@
       "category": "policy_or_regulation",
       "topic": "current legal, regulatory or suitability requirements for financial products",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "regulator website",
@@ -1195,7 +1195,7 @@
       "category": "market_or_platform_data",
       "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "primary exchange or market data vendor",
@@ -1226,7 +1226,7 @@
       "category": "general_current_fact",
       "topic": "latest financial statements, filings, restatements and audit opinions",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "company investor relations",
@@ -1247,6 +1247,130 @@
       "human_review_gate": true
     },
     {
+      "ticket_id": "TICKET-SRC-014",
+      "task_id": "SRC-014",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "central bank or official exchange source",
+        "customs tariff system",
+        "destination country authority"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-015",
+      "task_id": "SRC-015",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest HS codes, customs supervision conditions and declaration elements",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "customs authority website",
+        "official tariff database",
+        "licensed customs broker review"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-016",
+      "task_id": "SRC-016",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "latest import/export policy, inspection and quarantine requirements",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "customs and inspection authority announcement",
+        "destination country regulator",
+        "official trade compliance bulletin"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-017",
+      "task_id": "SRC-017",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "latest platform OCR model parameters and document template behavior",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "OCR vendor documentation",
+        "internal extraction benchmark",
+        "manually reviewed sample set"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
       "ticket_id": "TICKET-SRC-001",
       "task_id": "SRC-001",
       "wiki": "airdrop-agent-wiki",
@@ -1257,7 +1381,7 @@
       "category": "web3_project_status",
       "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official contract registry",
@@ -1288,7 +1412,7 @@
       "category": "policy_or_regulation",
       "topic": "current project status, official links, task rules, snapshot and eligibility",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official website",
@@ -1319,7 +1443,7 @@
       "category": "web3_project_status",
       "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "project announcement",
@@ -1340,6 +1464,99 @@
       "human_review_gate": true
     },
     {
+      "ticket_id": "TICKET-SRC-018",
+      "task_id": "SRC-018",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "official marketplace policy center",
+        "consumer protection authority",
+        "merchant service agreement"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-019",
+      "task_id": "SRC-019",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "current product certification, recall, safety notice and warranty terms",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "brand official website",
+        "regulator recall database",
+        "warranty document"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-020",
+      "task_id": "SRC-020",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+      "status": "open_pending_source_refresh",
+      "priority_score": 8,
+      "human_confirmation_required": false,
+      "suggested_sources": [
+        "platform product page",
+        "merchant backend",
+        "carrier tracking system"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "human_review_gate": false
+    },
+    {
       "ticket_id": "TICKET-SRC-008",
       "task_id": "SRC-008",
       "wiki": "health-agent-wiki",
@@ -1350,7 +1567,7 @@
       "category": "medical_guidance",
       "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official health authority",
@@ -1381,7 +1598,7 @@
       "category": "medical_guidance",
       "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "public health authority",
@@ -1412,7 +1629,7 @@
       "category": "policy_or_regulation",
       "topic": "current platform agreements, data processing terms and consumer protection rules",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official platform terms",
@@ -1443,7 +1660,7 @@
       "category": "policy_or_regulation",
       "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official legal database",
@@ -1474,7 +1691,7 @@
       "category": "security_advisory",
       "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "vendor security advisory",
@@ -1505,7 +1722,7 @@
       "category": "policy_or_regulation",
       "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
       "status": "pending",
-      "priority_score": 8,
+      "priority_score": 9,
       "human_confirmation_required": true,
       "suggested_sources": [
         "official tool documentation",
@@ -1526,225 +1743,70 @@
       "human_review_gate": true
     },
     {
-      "ticket_id": "TICKET-SRC-014",
-      "task_id": "SRC-014",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "market_or_platform_data",
-      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "central bank or official exchange source",
-        "customs tariff system",
-        "destination country authority"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-015",
-      "task_id": "SRC-015",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest HS codes, customs supervision conditions and declaration elements",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "customs authority website",
-        "official tariff database",
-        "licensed customs broker review"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-016",
-      "task_id": "SRC-016",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "policy_or_regulation",
-      "topic": "latest import/export policy, inspection and quarantine requirements",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "customs and inspection authority announcement",
-        "destination country regulator",
-        "official trade compliance bulletin"
-      ],
-      "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-017",
-      "task_id": "SRC-017",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
       "risk_level": "medium",
       "freshness": "high",
       "category": "technical_docs",
-      "topic": "latest platform OCR model parameters and document template behavior",
+      "topic": "current dataset availability, license, model weights and code repository status",
       "status": "open_pending_source_refresh",
-      "priority_score": 7,
+      "priority_score": 8,
       "human_confirmation_required": false,
       "suggested_sources": [
-        "OCR vendor documentation",
-        "internal extraction benchmark",
-        "manually reviewed sample set"
+        "official dataset page",
+        "repository release notes",
+        "model card"
       ],
       "required_reading": [
-        "wikis/customs-agent-wiki/AGENTS.md",
-        "wikis/customs-agent-wiki/manifest.yaml",
-        "wikis/customs-agent-wiki/README.md",
-        "wikis/customs-agent-wiki/rules/",
-        "wikis/customs-agent-wiki/sources/source-notes.md"
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
       ],
-      "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
       "human_review_gate": false
     },
     {
-      "ticket_id": "TICKET-SRC-018",
-      "task_id": "SRC-018",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "policy_or_regulation",
-      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "official marketplace policy center",
-        "consumer protection authority",
-        "merchant service agreement"
-      ],
-      "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-019",
-      "task_id": "SRC-019",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
       "risk_level": "medium",
       "freshness": "high",
       "category": "general_current_fact",
-      "topic": "current product certification, recall, safety notice and warranty terms",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
       "status": "open_pending_source_refresh",
-      "priority_score": 7,
+      "priority_score": 8,
       "human_confirmation_required": false,
       "suggested_sources": [
-        "brand official website",
-        "regulator recall database",
-        "warranty document"
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
       ],
       "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
       ],
-      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
       "human_review_gate": false
     },
     {
-      "ticket_id": "TICKET-SRC-020",
-      "task_id": "SRC-020",
-      "wiki": "ecommerce-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "market_or_platform_data",
-      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "platform product page",
-        "merchant backend",
-        "carrier tracking system"
-      ],
-      "required_reading": [
-        "wikis/ecommerce-agent-wiki/AGENTS.md",
-        "wikis/ecommerce-agent-wiki/manifest.yaml",
-        "wikis/ecommerce-agent-wiki/README.md",
-        "wikis/ecommerce-agent-wiki/rules/",
-        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-021",
-      "task_id": "SRC-021",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -1769,13 +1831,13 @@
       ],
       "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "human_review_gate": true
     },
     {
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -1800,13 +1862,13 @@
       ],
       "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "human_review_gate": true
     },
     {
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -1831,71 +1893,9 @@
       ],
       "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "human_review_gate": true
-    },
-    {
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "technical_docs",
-      "topic": "current dataset availability, license, model weights and code repository status",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "official dataset page",
-        "repository release notes",
-        "model card"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-      "status": "open_pending_source_refresh",
-      "priority_score": 7,
-      "human_confirmation_required": false,
-      "suggested_sources": [
-        "publisher page",
-        "arXiv or conference page",
-        "official benchmark leaderboard"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
       "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "human_review_gate": false
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "human_review_gate": true
     },
     {
       "ticket_id": "TICKET-SRC-026",
@@ -2220,13 +2220,16 @@
       "batch_id": "batch-wave-1",
       "title": "wave-1 refresh batch",
       "description": "Execute these tickets in wave order; keep current facts gated until evidence is recorded.",
-      "ticket_count": 13,
+      "ticket_count": 22,
       "human_confirmation_count": 13,
       "wikis": {
         "airdrop-agent-wiki": 3,
+        "customs-agent-wiki": 4,
+        "ecommerce-agent-wiki": 3,
         "finance-agent-wiki": 4,
         "health-agent-wiki": 2,
         "legal-agent-wiki": 2,
+        "research-agent-wiki": 2,
         "security-agent-wiki": 2
       },
       "tickets": [
@@ -2241,7 +2244,7 @@
           "category": "market_or_platform_data",
           "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official exchange documentation",
@@ -2272,7 +2275,7 @@
           "category": "policy_or_regulation",
           "topic": "current legal, regulatory or suitability requirements for financial products",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "regulator website",
@@ -2303,7 +2306,7 @@
           "category": "market_or_platform_data",
           "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "primary exchange or market data vendor",
@@ -2334,7 +2337,7 @@
           "category": "general_current_fact",
           "topic": "latest financial statements, filings, restatements and audit opinions",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "company investor relations",
@@ -2355,6 +2358,130 @@
           "human_review_gate": true
         },
         {
+          "ticket_id": "TICKET-SRC-014",
+          "task_id": "SRC-014",
+          "wiki": "customs-agent-wiki",
+          "priority": "P0",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "market_or_platform_data",
+          "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "central bank or official exchange source",
+            "customs tariff system",
+            "destination country authority"
+          ],
+          "required_reading": [
+            "wikis/customs-agent-wiki/AGENTS.md",
+            "wikis/customs-agent-wiki/manifest.yaml",
+            "wikis/customs-agent-wiki/README.md",
+            "wikis/customs-agent-wiki/rules/",
+            "wikis/customs-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
+          "ticket_id": "TICKET-SRC-015",
+          "task_id": "SRC-015",
+          "wiki": "customs-agent-wiki",
+          "priority": "P0",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "general_current_fact",
+          "topic": "latest HS codes, customs supervision conditions and declaration elements",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "customs authority website",
+            "official tariff database",
+            "licensed customs broker review"
+          ],
+          "required_reading": [
+            "wikis/customs-agent-wiki/AGENTS.md",
+            "wikis/customs-agent-wiki/manifest.yaml",
+            "wikis/customs-agent-wiki/README.md",
+            "wikis/customs-agent-wiki/rules/",
+            "wikis/customs-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
+          "ticket_id": "TICKET-SRC-016",
+          "task_id": "SRC-016",
+          "wiki": "customs-agent-wiki",
+          "priority": "P0",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "policy_or_regulation",
+          "topic": "latest import/export policy, inspection and quarantine requirements",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "customs and inspection authority announcement",
+            "destination country regulator",
+            "official trade compliance bulletin"
+          ],
+          "required_reading": [
+            "wikis/customs-agent-wiki/AGENTS.md",
+            "wikis/customs-agent-wiki/manifest.yaml",
+            "wikis/customs-agent-wiki/README.md",
+            "wikis/customs-agent-wiki/rules/",
+            "wikis/customs-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
+          "ticket_id": "TICKET-SRC-017",
+          "task_id": "SRC-017",
+          "wiki": "customs-agent-wiki",
+          "priority": "P0",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "technical_docs",
+          "topic": "latest platform OCR model parameters and document template behavior",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "OCR vendor documentation",
+            "internal extraction benchmark",
+            "manually reviewed sample set"
+          ],
+          "required_reading": [
+            "wikis/customs-agent-wiki/AGENTS.md",
+            "wikis/customs-agent-wiki/manifest.yaml",
+            "wikis/customs-agent-wiki/README.md",
+            "wikis/customs-agent-wiki/rules/",
+            "wikis/customs-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
           "ticket_id": "TICKET-SRC-001",
           "task_id": "SRC-001",
           "wiki": "airdrop-agent-wiki",
@@ -2365,7 +2492,7 @@
           "category": "web3_project_status",
           "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official contract registry",
@@ -2396,7 +2523,7 @@
           "category": "policy_or_regulation",
           "topic": "current project status, official links, task rules, snapshot and eligibility",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official website",
@@ -2427,7 +2554,7 @@
           "category": "web3_project_status",
           "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "project announcement",
@@ -2448,6 +2575,99 @@
           "human_review_gate": true
         },
         {
+          "ticket_id": "TICKET-SRC-018",
+          "task_id": "SRC-018",
+          "wiki": "ecommerce-agent-wiki",
+          "priority": "P1",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "policy_or_regulation",
+          "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "official marketplace policy center",
+            "consumer protection authority",
+            "merchant service agreement"
+          ],
+          "required_reading": [
+            "wikis/ecommerce-agent-wiki/AGENTS.md",
+            "wikis/ecommerce-agent-wiki/manifest.yaml",
+            "wikis/ecommerce-agent-wiki/README.md",
+            "wikis/ecommerce-agent-wiki/rules/",
+            "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
+          "ticket_id": "TICKET-SRC-019",
+          "task_id": "SRC-019",
+          "wiki": "ecommerce-agent-wiki",
+          "priority": "P1",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "general_current_fact",
+          "topic": "current product certification, recall, safety notice and warranty terms",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "brand official website",
+            "regulator recall database",
+            "warranty document"
+          ],
+          "required_reading": [
+            "wikis/ecommerce-agent-wiki/AGENTS.md",
+            "wikis/ecommerce-agent-wiki/manifest.yaml",
+            "wikis/ecommerce-agent-wiki/README.md",
+            "wikis/ecommerce-agent-wiki/rules/",
+            "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
+          "ticket_id": "TICKET-SRC-020",
+          "task_id": "SRC-020",
+          "wiki": "ecommerce-agent-wiki",
+          "priority": "P1",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "market_or_platform_data",
+          "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "platform product page",
+            "merchant backend",
+            "carrier tracking system"
+          ],
+          "required_reading": [
+            "wikis/ecommerce-agent-wiki/AGENTS.md",
+            "wikis/ecommerce-agent-wiki/manifest.yaml",
+            "wikis/ecommerce-agent-wiki/README.md",
+            "wikis/ecommerce-agent-wiki/rules/",
+            "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
           "ticket_id": "TICKET-SRC-008",
           "task_id": "SRC-008",
           "wiki": "health-agent-wiki",
@@ -2458,7 +2678,7 @@
           "category": "medical_guidance",
           "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official health authority",
@@ -2489,7 +2709,7 @@
           "category": "medical_guidance",
           "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "public health authority",
@@ -2520,7 +2740,7 @@
           "category": "policy_or_regulation",
           "topic": "current platform agreements, data processing terms and consumer protection rules",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official platform terms",
@@ -2551,7 +2771,7 @@
           "category": "policy_or_regulation",
           "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official legal database",
@@ -2582,7 +2802,7 @@
           "category": "security_advisory",
           "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "vendor security advisory",
@@ -2613,7 +2833,7 @@
           "category": "policy_or_regulation",
           "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official tool documentation",
@@ -2632,6 +2852,68 @@
           "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status pending --dry-run",
           "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
+        },
+        {
+          "ticket_id": "TICKET-SRC-021",
+          "task_id": "SRC-021",
+          "wiki": "research-agent-wiki",
+          "priority": "P2",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "technical_docs",
+          "topic": "current dataset availability, license, model weights and code repository status",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "official dataset page",
+            "repository release notes",
+            "model card"
+          ],
+          "required_reading": [
+            "wikis/research-agent-wiki/AGENTS.md",
+            "wikis/research-agent-wiki/manifest.yaml",
+            "wikis/research-agent-wiki/README.md",
+            "wikis/research-agent-wiki/rules/",
+            "wikis/research-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
+        },
+        {
+          "ticket_id": "TICKET-SRC-022",
+          "task_id": "SRC-022",
+          "wiki": "research-agent-wiki",
+          "priority": "P2",
+          "wave": "wave-1",
+          "risk_level": "medium",
+          "freshness": "high",
+          "category": "general_current_fact",
+          "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+          "status": "open_pending_source_refresh",
+          "priority_score": 8,
+          "human_confirmation_required": false,
+          "suggested_sources": [
+            "publisher page",
+            "arXiv or conference page",
+            "official benchmark leaderboard"
+          ],
+          "required_reading": [
+            "wikis/research-agent-wiki/AGENTS.md",
+            "wikis/research-agent-wiki/manifest.yaml",
+            "wikis/research-agent-wiki/README.md",
+            "wikis/research-agent-wiki/rules/",
+            "wikis/research-agent-wiki/sources/source-notes.md"
+          ],
+          "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+          "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "human_review_gate": false
         }
       ]
     },
@@ -2639,235 +2921,15 @@
       "batch_id": "batch-wave-2",
       "title": "wave-2 refresh batch",
       "description": "Execute these tickets in wave order; keep current facts gated until evidence is recorded.",
-      "ticket_count": 12,
+      "ticket_count": 3,
       "human_confirmation_count": 3,
       "wikis": {
-        "customs-agent-wiki": 4,
-        "ecommerce-agent-wiki": 3,
-        "nodeops-agent-wiki": 3,
-        "research-agent-wiki": 2
+        "nodeops-agent-wiki": 3
       },
       "tickets": [
         {
-          "ticket_id": "TICKET-SRC-014",
-          "task_id": "SRC-014",
-          "wiki": "customs-agent-wiki",
-          "priority": "P0",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "market_or_platform_data",
-          "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "central bank or official exchange source",
-            "customs tariff system",
-            "destination country authority"
-          ],
-          "required_reading": [
-            "wikis/customs-agent-wiki/AGENTS.md",
-            "wikis/customs-agent-wiki/manifest.yaml",
-            "wikis/customs-agent-wiki/README.md",
-            "wikis/customs-agent-wiki/rules/",
-            "wikis/customs-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-015",
-          "task_id": "SRC-015",
-          "wiki": "customs-agent-wiki",
-          "priority": "P0",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "general_current_fact",
-          "topic": "latest HS codes, customs supervision conditions and declaration elements",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "customs authority website",
-            "official tariff database",
-            "licensed customs broker review"
-          ],
-          "required_reading": [
-            "wikis/customs-agent-wiki/AGENTS.md",
-            "wikis/customs-agent-wiki/manifest.yaml",
-            "wikis/customs-agent-wiki/README.md",
-            "wikis/customs-agent-wiki/rules/",
-            "wikis/customs-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-016",
-          "task_id": "SRC-016",
-          "wiki": "customs-agent-wiki",
-          "priority": "P0",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "policy_or_regulation",
-          "topic": "latest import/export policy, inspection and quarantine requirements",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "customs and inspection authority announcement",
-            "destination country regulator",
-            "official trade compliance bulletin"
-          ],
-          "required_reading": [
-            "wikis/customs-agent-wiki/AGENTS.md",
-            "wikis/customs-agent-wiki/manifest.yaml",
-            "wikis/customs-agent-wiki/README.md",
-            "wikis/customs-agent-wiki/rules/",
-            "wikis/customs-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-017",
-          "task_id": "SRC-017",
-          "wiki": "customs-agent-wiki",
-          "priority": "P0",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "technical_docs",
-          "topic": "latest platform OCR model parameters and document template behavior",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "OCR vendor documentation",
-            "internal extraction benchmark",
-            "manually reviewed sample set"
-          ],
-          "required_reading": [
-            "wikis/customs-agent-wiki/AGENTS.md",
-            "wikis/customs-agent-wiki/manifest.yaml",
-            "wikis/customs-agent-wiki/README.md",
-            "wikis/customs-agent-wiki/rules/",
-            "wikis/customs-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/customs-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-018",
-          "task_id": "SRC-018",
-          "wiki": "ecommerce-agent-wiki",
-          "priority": "P1",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "policy_or_regulation",
-          "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "official marketplace policy center",
-            "consumer protection authority",
-            "merchant service agreement"
-          ],
-          "required_reading": [
-            "wikis/ecommerce-agent-wiki/AGENTS.md",
-            "wikis/ecommerce-agent-wiki/manifest.yaml",
-            "wikis/ecommerce-agent-wiki/README.md",
-            "wikis/ecommerce-agent-wiki/rules/",
-            "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-019",
-          "task_id": "SRC-019",
-          "wiki": "ecommerce-agent-wiki",
-          "priority": "P1",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "general_current_fact",
-          "topic": "current product certification, recall, safety notice and warranty terms",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "brand official website",
-            "regulator recall database",
-            "warranty document"
-          ],
-          "required_reading": [
-            "wikis/ecommerce-agent-wiki/AGENTS.md",
-            "wikis/ecommerce-agent-wiki/manifest.yaml",
-            "wikis/ecommerce-agent-wiki/README.md",
-            "wikis/ecommerce-agent-wiki/rules/",
-            "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-020",
-          "task_id": "SRC-020",
-          "wiki": "ecommerce-agent-wiki",
-          "priority": "P1",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "market_or_platform_data",
-          "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "platform product page",
-            "merchant backend",
-            "carrier tracking system"
-          ],
-          "required_reading": [
-            "wikis/ecommerce-agent-wiki/AGENTS.md",
-            "wikis/ecommerce-agent-wiki/manifest.yaml",
-            "wikis/ecommerce-agent-wiki/README.md",
-            "wikis/ecommerce-agent-wiki/rules/",
-            "wikis/ecommerce-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-021",
-          "task_id": "SRC-021",
+          "ticket_id": "TICKET-SRC-023",
+          "task_id": "SRC-023",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -2892,13 +2954,13 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-022",
-          "task_id": "SRC-022",
+          "ticket_id": "TICKET-SRC-024",
+          "task_id": "SRC-024",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -2923,13 +2985,13 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-023",
-          "task_id": "SRC-023",
+          "ticket_id": "TICKET-SRC-025",
+          "task_id": "SRC-025",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -2954,71 +3016,9 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-          "human_review_gate": true
-        },
-        {
-          "ticket_id": "TICKET-SRC-024",
-          "task_id": "SRC-024",
-          "wiki": "research-agent-wiki",
-          "priority": "P2",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "technical_docs",
-          "topic": "current dataset availability, license, model weights and code repository status",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "official dataset page",
-            "repository release notes",
-            "model card"
-          ],
-          "required_reading": [
-            "wikis/research-agent-wiki/AGENTS.md",
-            "wikis/research-agent-wiki/manifest.yaml",
-            "wikis/research-agent-wiki/README.md",
-            "wikis/research-agent-wiki/rules/",
-            "wikis/research-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
-        },
-        {
-          "ticket_id": "TICKET-SRC-025",
-          "task_id": "SRC-025",
-          "wiki": "research-agent-wiki",
-          "priority": "P2",
-          "wave": "wave-2",
-          "risk_level": "medium",
-          "freshness": "high",
-          "category": "general_current_fact",
-          "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-          "status": "open_pending_source_refresh",
-          "priority_score": 7,
-          "human_confirmation_required": false,
-          "suggested_sources": [
-            "publisher page",
-            "arXiv or conference page",
-            "official benchmark leaderboard"
-          ],
-          "required_reading": [
-            "wikis/research-agent-wiki/AGENTS.md",
-            "wikis/research-agent-wiki/manifest.yaml",
-            "wikis/research-agent-wiki/README.md",
-            "wikis/research-agent-wiki/rules/",
-            "wikis/research-agent-wiki/sources/source-notes.md"
-          ],
-          "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-          "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
           "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-          "human_review_gate": false
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "human_review_gate": true
         }
       ]
     },
@@ -3370,7 +3370,7 @@
           "category": "market_or_platform_data",
           "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official exchange documentation",
@@ -3401,7 +3401,7 @@
           "category": "policy_or_regulation",
           "topic": "current legal, regulatory or suitability requirements for financial products",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "regulator website",
@@ -3432,7 +3432,7 @@
           "category": "market_or_platform_data",
           "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "primary exchange or market data vendor",
@@ -3463,7 +3463,7 @@
           "category": "general_current_fact",
           "topic": "latest financial statements, filings, restatements and audit opinions",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "company investor relations",
@@ -3488,13 +3488,13 @@
           "task_id": "SRC-014",
           "wiki": "customs-agent-wiki",
           "priority": "P0",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "market_or_platform_data",
           "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "central bank or official exchange source",
@@ -3519,13 +3519,13 @@
           "task_id": "SRC-015",
           "wiki": "customs-agent-wiki",
           "priority": "P0",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "general_current_fact",
           "topic": "latest HS codes, customs supervision conditions and declaration elements",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "customs authority website",
@@ -3550,13 +3550,13 @@
           "task_id": "SRC-016",
           "wiki": "customs-agent-wiki",
           "priority": "P0",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "policy_or_regulation",
           "topic": "latest import/export policy, inspection and quarantine requirements",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "customs and inspection authority announcement",
@@ -3581,13 +3581,13 @@
           "task_id": "SRC-017",
           "wiki": "customs-agent-wiki",
           "priority": "P0",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "technical_docs",
           "topic": "latest platform OCR model parameters and document template behavior",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "OCR vendor documentation",
@@ -3850,7 +3850,7 @@
           "category": "web3_project_status",
           "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official contract registry",
@@ -3881,7 +3881,7 @@
           "category": "policy_or_regulation",
           "topic": "current project status, official links, task rules, snapshot and eligibility",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official website",
@@ -3912,7 +3912,7 @@
           "category": "web3_project_status",
           "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "project announcement",
@@ -3937,13 +3937,13 @@
           "task_id": "SRC-018",
           "wiki": "ecommerce-agent-wiki",
           "priority": "P1",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "policy_or_regulation",
           "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "official marketplace policy center",
@@ -3968,13 +3968,13 @@
           "task_id": "SRC-019",
           "wiki": "ecommerce-agent-wiki",
           "priority": "P1",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "general_current_fact",
           "topic": "current product certification, recall, safety notice and warranty terms",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "brand official website",
@@ -3999,13 +3999,13 @@
           "task_id": "SRC-020",
           "wiki": "ecommerce-agent-wiki",
           "priority": "P1",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "market_or_platform_data",
           "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "platform product page",
@@ -4026,8 +4026,8 @@
           "human_review_gate": false
         },
         {
-          "ticket_id": "TICKET-SRC-021",
-          "task_id": "SRC-021",
+          "ticket_id": "TICKET-SRC-023",
+          "task_id": "SRC-023",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -4052,13 +4052,13 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-022",
-          "task_id": "SRC-022",
+          "ticket_id": "TICKET-SRC-024",
+          "task_id": "SRC-024",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -4083,13 +4083,13 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-023",
-          "task_id": "SRC-023",
+          "ticket_id": "TICKET-SRC-025",
+          "task_id": "SRC-025",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -4114,8 +4114,8 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         },
         {
@@ -4237,7 +4237,7 @@
           "category": "medical_guidance",
           "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official health authority",
@@ -4268,7 +4268,7 @@
           "category": "medical_guidance",
           "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "public health authority",
@@ -4299,7 +4299,7 @@
           "category": "policy_or_regulation",
           "topic": "current platform agreements, data processing terms and consumer protection rules",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official platform terms",
@@ -4330,7 +4330,7 @@
           "category": "policy_or_regulation",
           "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official legal database",
@@ -4361,7 +4361,7 @@
           "category": "security_advisory",
           "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "vendor security advisory",
@@ -4392,7 +4392,7 @@
           "category": "policy_or_regulation",
           "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official tool documentation",
@@ -4413,17 +4413,17 @@
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-024",
-          "task_id": "SRC-024",
+          "ticket_id": "TICKET-SRC-021",
+          "task_id": "SRC-021",
           "wiki": "research-agent-wiki",
           "priority": "P2",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "technical_docs",
           "topic": "current dataset availability, license, model weights and code repository status",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "official dataset page",
@@ -4439,22 +4439,22 @@
           ],
           "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
           "human_review_gate": false
         },
         {
-          "ticket_id": "TICKET-SRC-025",
-          "task_id": "SRC-025",
+          "ticket_id": "TICKET-SRC-022",
+          "task_id": "SRC-022",
           "wiki": "research-agent-wiki",
           "priority": "P2",
-          "wave": "wave-2",
+          "wave": "wave-1",
           "risk_level": "medium",
           "freshness": "high",
           "category": "general_current_fact",
           "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
           "status": "open_pending_source_refresh",
-          "priority_score": 7,
+          "priority_score": 8,
           "human_confirmation_required": false,
           "suggested_sources": [
             "publisher page",
@@ -4470,8 +4470,8 @@
           ],
           "log_path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/research-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
           "human_review_gate": false
         }
       ]
@@ -4502,7 +4502,7 @@
           "category": "market_or_platform_data",
           "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official exchange documentation",
@@ -4533,7 +4533,7 @@
           "category": "policy_or_regulation",
           "topic": "current legal, regulatory or suitability requirements for financial products",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "regulator website",
@@ -4564,7 +4564,7 @@
           "category": "market_or_platform_data",
           "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "primary exchange or market data vendor",
@@ -4595,7 +4595,7 @@
           "category": "general_current_fact",
           "topic": "latest financial statements, filings, restatements and audit opinions",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "company investor relations",
@@ -4626,7 +4626,7 @@
           "category": "web3_project_status",
           "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official contract registry",
@@ -4657,7 +4657,7 @@
           "category": "policy_or_regulation",
           "topic": "current project status, official links, task rules, snapshot and eligibility",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official website",
@@ -4688,7 +4688,7 @@
           "category": "web3_project_status",
           "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "project announcement",
@@ -4719,7 +4719,7 @@
           "category": "medical_guidance",
           "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official health authority",
@@ -4750,7 +4750,7 @@
           "category": "medical_guidance",
           "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "public health authority",
@@ -4781,7 +4781,7 @@
           "category": "policy_or_regulation",
           "topic": "current platform agreements, data processing terms and consumer protection rules",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official platform terms",
@@ -4812,7 +4812,7 @@
           "category": "policy_or_regulation",
           "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official legal database",
@@ -4843,7 +4843,7 @@
           "category": "security_advisory",
           "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "vendor security advisory",
@@ -4874,7 +4874,7 @@
           "category": "policy_or_regulation",
           "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
           "status": "pending",
-          "priority_score": 8,
+          "priority_score": 9,
           "human_confirmation_required": true,
           "suggested_sources": [
             "official tool documentation",
@@ -4895,8 +4895,8 @@
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-021",
-          "task_id": "SRC-021",
+          "ticket_id": "TICKET-SRC-023",
+          "task_id": "SRC-023",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -4921,13 +4921,13 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-022",
-          "task_id": "SRC-022",
+          "ticket_id": "TICKET-SRC-024",
+          "task_id": "SRC-024",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -4952,13 +4952,13 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         },
         {
-          "ticket_id": "TICKET-SRC-023",
-          "task_id": "SRC-023",
+          "ticket_id": "TICKET-SRC-025",
+          "task_id": "SRC-025",
           "wiki": "nodeops-agent-wiki",
           "priority": "P1",
           "wave": "wave-2",
@@ -4983,8 +4983,8 @@
           ],
           "log_path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
           "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+          "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
+          "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
           "human_review_gate": true
         }
       ]
