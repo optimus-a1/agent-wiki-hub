@@ -1,6 +1,6 @@
 # Change Summary
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Summary
 
@@ -13,7 +13,7 @@ Generated: 2026-06-16
 | source_refresh_tasks | 35 | 0 |
 | source_refresh_logs | 12 | 0 |
 | package_count | 13 | 0 |
-| package_bytes | 2.55 MB | -568 |
+| package_bytes | 2.56 MB | +7760 |
 | audit_gates | 9 | 0 |
 | audit_failures | 0 | 0 |
 
@@ -27,7 +27,7 @@ Generated: 2026-06-16
 | metadata | PASS | 0 | 0 |
 | coverage | PASS | 0 | 0 |
 | links | PASS | 0 | 0 |
-| packs | PASS | 644 | 644 |
+| packs | PASS | 653 | 653 |
 | safety | PASS | 79 | 79 |
 | source_refresh_logs | PASS | 12 | 12 |
 
@@ -52,19 +52,19 @@ Generated: 2026-06-16
 
 | Package | Size |
 | --- | ---: |
-| `packs/agent-engineering-wiki.zip` | 93.2 KB |
-| `packs/agent-wiki-hub-all.zip` | 1.66 MB |
-| `packs/airdrop-agent-wiki.zip` | 75.2 KB |
-| `packs/coding-agent-wiki.zip` | 83.7 KB |
-| `packs/content-agent-wiki.zip` | 60.5 KB |
-| `packs/customs-agent-wiki.zip` | 80.1 KB |
-| `packs/ecommerce-agent-wiki.zip` | 61.1 KB |
-| `packs/finance-agent-wiki.zip` | 99.0 KB |
-| `packs/health-agent-wiki.zip` | 52.1 KB |
-| `packs/legal-agent-wiki.zip` | 54.1 KB |
-| `packs/nodeops-agent-wiki.zip` | 88.5 KB |
-| `packs/research-agent-wiki.zip` | 75.3 KB |
-| `packs/security-agent-wiki.zip` | 86.9 KB |
+| `packs/agent-engineering-wiki.zip` | 92.5 KB |
+| `packs/agent-wiki-hub-all.zip` | 1.68 MB |
+| `packs/airdrop-agent-wiki.zip` | 74.7 KB |
+| `packs/coding-agent-wiki.zip` | 83.1 KB |
+| `packs/content-agent-wiki.zip` | 60.1 KB |
+| `packs/customs-agent-wiki.zip` | 79.5 KB |
+| `packs/ecommerce-agent-wiki.zip` | 60.6 KB |
+| `packs/finance-agent-wiki.zip` | 98.3 KB |
+| `packs/health-agent-wiki.zip` | 51.7 KB |
+| `packs/legal-agent-wiki.zip` | 53.7 KB |
+| `packs/nodeops-agent-wiki.zip` | 87.9 KB |
+| `packs/research-agent-wiki.zip` | 74.8 KB |
+| `packs/security-agent-wiki.zip` | 86.3 KB |
 
 ## Interpretation
 

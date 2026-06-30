@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "purpose": "Show per-ticket readiness across reviewer assignment, session selection, packet coverage, packet audit, rehearsal, and completion state.",
   "current_fact_ready": false,
@@ -7,20 +7,20 @@
   "open_ticket_count": 35,
   "finalized_ticket_count": 0,
   "verified_ticket_count": 0,
-  "ready_for_source_collection_count": 13,
-  "queued_not_in_current_session_count": 22,
-  "selected_review_count": 13,
+  "ready_for_source_collection_count": 22,
+  "queued_not_in_current_session_count": 13,
+  "selected_review_count": 22,
   "selected_finalized_count": 0,
   "selected_verified_count": 0,
   "post_import_completed": false,
   "source_review_phase": "pre-import-or-in-progress",
-  "packet_entry_ticket_count": 13,
+  "packet_entry_ticket_count": 22,
   "packet_audit_issue_count": 0,
   "packet_rehearsal_failed_count": 0,
   "evidence_entry_count": 13,
   "stage_counts": {
-    "queued-not-in-current-session": 22,
-    "ready-for-source-collection": 13
+    "queued-not-in-current-session": 13,
+    "ready-for-source-collection": 22
   },
   "wiki_stage_counts": {
     "agent-engineering-wiki": {
@@ -36,10 +36,10 @@
       "queued-not-in-current-session": 3
     },
     "customs-agent-wiki": {
-      "queued-not-in-current-session": 4
+      "ready-for-source-collection": 4
     },
     "ecommerce-agent-wiki": {
-      "queued-not-in-current-session": 3
+      "ready-for-source-collection": 3
     },
     "finance-agent-wiki": {
       "ready-for-source-collection": 4
@@ -54,7 +54,7 @@
       "queued-not-in-current-session": 3
     },
     "research-agent-wiki": {
-      "queued-not-in-current-session": 2
+      "ready-for-source-collection": 2
     },
     "security-agent-wiki": {
       "ready-for-source-collection": 2
@@ -62,16 +62,132 @@
   },
   "wave_stage_counts": {
     "wave-1": {
-      "ready-for-source-collection": 13
+      "ready-for-source-collection": 22
     },
     "wave-2": {
-      "queued-not-in-current-session": 12
+      "queued-not-in-current-session": 3
     },
     "wave-3": {
       "queued-not-in-current-session": 10
     }
   },
   "rows": [
+    {
+      "ticket_id": "TICKET-SRC-014",
+      "task_id": "SRC-014",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+      "status": "open_pending_source_refresh",
+      "finalized": false,
+      "verified": false,
+      "has_reviewer_card": true,
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "readiness_stage": "ready-for-source-collection"
+    },
+    {
+      "ticket_id": "TICKET-SRC-015",
+      "task_id": "SRC-015",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest HS codes, customs supervision conditions and declaration elements",
+      "status": "open_pending_source_refresh",
+      "finalized": false,
+      "verified": false,
+      "has_reviewer_card": true,
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "readiness_stage": "ready-for-source-collection"
+    },
+    {
+      "ticket_id": "TICKET-SRC-016",
+      "task_id": "SRC-016",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "latest import/export policy, inspection and quarantine requirements",
+      "status": "open_pending_source_refresh",
+      "finalized": false,
+      "verified": false,
+      "has_reviewer_card": true,
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "readiness_stage": "ready-for-source-collection"
+    },
+    {
+      "ticket_id": "TICKET-SRC-017",
+      "task_id": "SRC-017",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "latest platform OCR model parameters and document template behavior",
+      "status": "open_pending_source_refresh",
+      "finalized": false,
+      "verified": false,
+      "has_reviewer_card": true,
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "readiness_stage": "ready-for-source-collection"
+    },
     {
       "ticket_id": "TICKET-SRC-004",
       "task_id": "SRC-004",
@@ -187,110 +303,6 @@
       "evidence_log": "wikis/finance-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/finance-agent-wiki/sources/source-notes.md",
       "readiness_stage": "ready-for-source-collection"
-    },
-    {
-      "ticket_id": "TICKET-SRC-014",
-      "task_id": "SRC-014",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "market_or_platform_data",
-      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
-      "status": "open_pending_source_refresh",
-      "finalized": false,
-      "verified": false,
-      "has_reviewer_card": true,
-      "reviewer_role": "customs-document-reviewer",
-      "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
-    },
-    {
-      "ticket_id": "TICKET-SRC-015",
-      "task_id": "SRC-015",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest HS codes, customs supervision conditions and declaration elements",
-      "status": "open_pending_source_refresh",
-      "finalized": false,
-      "verified": false,
-      "has_reviewer_card": true,
-      "reviewer_role": "customs-document-reviewer",
-      "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
-    },
-    {
-      "ticket_id": "TICKET-SRC-016",
-      "task_id": "SRC-016",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "policy_or_regulation",
-      "topic": "latest import/export policy, inspection and quarantine requirements",
-      "status": "open_pending_source_refresh",
-      "finalized": false,
-      "verified": false,
-      "has_reviewer_card": true,
-      "reviewer_role": "customs-document-reviewer",
-      "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
-    },
-    {
-      "ticket_id": "TICKET-SRC-017",
-      "task_id": "SRC-017",
-      "wiki": "customs-agent-wiki",
-      "priority": "P0",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "technical_docs",
-      "topic": "latest platform OCR model parameters and document template behavior",
-      "status": "open_pending_source_refresh",
-      "finalized": false,
-      "verified": false,
-      "has_reviewer_card": true,
-      "reviewer_role": "customs-document-reviewer",
-      "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
-      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
     },
     {
       "ticket_id": "TICKET-SRC-026",
@@ -566,7 +578,7 @@
       "task_id": "SRC-018",
       "wiki": "ecommerce-agent-wiki",
       "priority": "P1",
-      "wave": "wave-2",
+      "wave": "wave-1",
       "risk_level": "medium",
       "freshness": "high",
       "category": "policy_or_regulation",
@@ -577,22 +589,25 @@
       "has_reviewer_card": true,
       "reviewer_role": "ecommerce-policy-reviewer",
       "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
       "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
+      "readiness_stage": "ready-for-source-collection"
     },
     {
       "ticket_id": "TICKET-SRC-019",
       "task_id": "SRC-019",
       "wiki": "ecommerce-agent-wiki",
       "priority": "P1",
-      "wave": "wave-2",
+      "wave": "wave-1",
       "risk_level": "medium",
       "freshness": "high",
       "category": "general_current_fact",
@@ -603,22 +618,25 @@
       "has_reviewer_card": true,
       "reviewer_role": "ecommerce-policy-reviewer",
       "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
       "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
+      "readiness_stage": "ready-for-source-collection"
     },
     {
       "ticket_id": "TICKET-SRC-020",
       "task_id": "SRC-020",
       "wiki": "ecommerce-agent-wiki",
       "priority": "P1",
-      "wave": "wave-2",
+      "wave": "wave-1",
       "risk_level": "medium",
       "freshness": "high",
       "category": "market_or_platform_data",
@@ -629,19 +647,22 @@
       "has_reviewer_card": true,
       "reviewer_role": "ecommerce-policy-reviewer",
       "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
       "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
+      "readiness_stage": "ready-for-source-collection"
     },
     {
-      "ticket_id": "TICKET-SRC-021",
-      "task_id": "SRC-021",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -666,8 +687,8 @@
       "readiness_stage": "queued-not-in-current-session"
     },
     {
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -692,8 +713,8 @@
       "readiness_stage": "queued-not-in-current-session"
     },
     {
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
       "wave": "wave-2",
@@ -912,6 +933,64 @@
       "readiness_stage": "ready-for-source-collection"
     },
     {
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "current dataset availability, license, model weights and code repository status",
+      "status": "open_pending_source_refresh",
+      "finalized": false,
+      "verified": false,
+      "has_reviewer_card": true,
+      "reviewer_role": "research-methods-reviewer",
+      "human_review_gate": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
+      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+      "readiness_stage": "ready-for-source-collection"
+    },
+    {
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+      "status": "open_pending_source_refresh",
+      "finalized": false,
+      "verified": false,
+      "has_reviewer_card": true,
+      "reviewer_role": "research-methods-reviewer",
+      "human_review_gate": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
+      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+      "readiness_stage": "ready-for-source-collection"
+    },
+    {
       "ticket_id": "TICKET-SRC-012",
       "task_id": "SRC-012",
       "wiki": "security-agent-wiki",
@@ -968,58 +1047,6 @@
       "evidence_log": "wikis/security-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/security-agent-wiki/sources/source-notes.md",
       "readiness_stage": "ready-for-source-collection"
-    },
-    {
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "technical_docs",
-      "topic": "current dataset availability, license, model weights and code repository status",
-      "status": "open_pending_source_refresh",
-      "finalized": false,
-      "verified": false,
-      "has_reviewer_card": true,
-      "reviewer_role": "research-methods-reviewer",
-      "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
-      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
-    },
-    {
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
-      "wiki": "research-agent-wiki",
-      "priority": "P2",
-      "wave": "wave-2",
-      "risk_level": "medium",
-      "freshness": "high",
-      "category": "general_current_fact",
-      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-      "status": "open_pending_source_refresh",
-      "finalized": false,
-      "verified": false,
-      "has_reviewer_card": true,
-      "reviewer_role": "research-methods-reviewer",
-      "human_review_gate": false,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
-      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
     }
   ],
   "checks": [
@@ -1041,7 +1068,7 @@
     {
       "check": "selected reviews have packet entries",
       "passed": true,
-      "detail": "13/13 selected rows have packet entries"
+      "detail": "22/22 selected rows have packet entries"
     },
     {
       "check": "packet audit passed",

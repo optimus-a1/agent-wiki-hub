@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "purpose": "Document which source-review packets are active import targets versus advisory, planning-only, or historical artifacts.",
   "packet_dir": "registry/source-review-packets",
@@ -55,7 +55,7 @@
       "classification": "active-import-packet",
       "acceptance_role": "blocking",
       "strict_audit": true,
-      "entry_count": 13,
+      "entry_count": 22,
       "packet_id": "source-review-session-wave-1-pending",
       "planning_only": false,
       "rationale": "Current active packet; participates in strict packet audit and rehearsal."
@@ -65,7 +65,7 @@
       "classification": "active-import-packet",
       "acceptance_role": "blocking",
       "strict_audit": true,
-      "entry_count": 13,
+      "entry_count": 22,
       "packet_id": "source-review-session-wave-1-pending",
       "planning_only": false,
       "rationale": "Current active packet; participates in strict packet audit and rehearsal."

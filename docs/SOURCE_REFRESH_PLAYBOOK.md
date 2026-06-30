@@ -1,6 +1,6 @@
 # Source Refresh Playbook
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Purpose
 
@@ -15,39 +15,39 @@ This playbook turns `needs-source-update` topics into source verification tasks.
 
 | Wave | Tasks | Meaning |
 | --- | ---: | --- |
-| wave-1 | 13 | Highest risk or freshness pressure; refresh first. |
-| wave-2 | 12 | Important operational topics; refresh after wave-1. |
+| wave-1 | 22 | Highest risk or freshness pressure; refresh first. |
+| wave-2 | 3 | Important operational topics; refresh after wave-1. |
 | wave-3 | 10 | Medium cadence topics; batch refresh is acceptable. |
 
 ## Task List
 
 | Task | Wave | Wiki | Priority | Category | Human confirmation | Topic |
 | --- | --- | --- | ---: | --- | --- | --- |
-| SRC-001 | wave-1 | airdrop-agent-wiki | 8 | web3_project_status | yes | current contract addresses, wallet warnings, scam reports and signing risks |
-| SRC-002 | wave-1 | airdrop-agent-wiki | 8 | policy_or_regulation | yes | current project status, official links, task rules, snapshot and eligibility |
-| SRC-003 | wave-1 | airdrop-agent-wiki | 8 | web3_project_status | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
-| SRC-004 | wave-1 | finance-agent-wiki | 8 | market_or_platform_data | yes | current fees, funding rates, margin rules, tax rules and trading API parameters |
-| SRC-005 | wave-1 | finance-agent-wiki | 8 | policy_or_regulation | yes | current legal, regulatory or suitability requirements for financial products |
-| SRC-006 | wave-1 | finance-agent-wiki | 8 | market_or_platform_data | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
-| SRC-007 | wave-1 | finance-agent-wiki | 8 | general_current_fact | yes | latest financial statements, filings, restatements and audit opinions |
-| SRC-008 | wave-1 | health-agent-wiki | 8 | medical_guidance | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
-| SRC-009 | wave-1 | health-agent-wiki | 8 | medical_guidance | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
-| SRC-010 | wave-1 | legal-agent-wiki | 8 | policy_or_regulation | yes | current platform agreements, data processing terms and consumer protection rules |
-| SRC-011 | wave-1 | legal-agent-wiki | 8 | policy_or_regulation | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
-| SRC-012 | wave-1 | security-agent-wiki | 8 | security_advisory | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
-| SRC-013 | wave-1 | security-agent-wiki | 8 | policy_or_regulation | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| SRC-014 | wave-2 | customs-agent-wiki | 7 | market_or_platform_data | no | exchange rates, tariff rates, tax rates and destination-specific fees |
-| SRC-015 | wave-2 | customs-agent-wiki | 7 | general_current_fact | no | latest HS codes, customs supervision conditions and declaration elements |
-| SRC-016 | wave-2 | customs-agent-wiki | 7 | policy_or_regulation | no | latest import/export policy, inspection and quarantine requirements |
-| SRC-017 | wave-2 | customs-agent-wiki | 7 | technical_docs | no | latest platform OCR model parameters and document template behavior |
-| SRC-018 | wave-2 | ecommerce-agent-wiki | 7 | policy_or_regulation | no | current marketplace policy, return window, category restrictions and consumer protection rules |
-| SRC-019 | wave-2 | ecommerce-agent-wiki | 7 | general_current_fact | no | current product certification, recall, safety notice and warranty terms |
-| SRC-020 | wave-2 | ecommerce-agent-wiki | 7 | market_or_platform_data | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| SRC-021 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
-| SRC-022 | wave-2 | nodeops-agent-wiki | 7 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| SRC-023 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
-| SRC-024 | wave-2 | research-agent-wiki | 7 | technical_docs | no | current dataset availability, license, model weights and code repository status |
-| SRC-025 | wave-2 | research-agent-wiki | 7 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| SRC-001 | wave-1 | airdrop-agent-wiki | 9 | web3_project_status | yes | current contract addresses, wallet warnings, scam reports and signing risks |
+| SRC-002 | wave-1 | airdrop-agent-wiki | 9 | policy_or_regulation | yes | current project status, official links, task rules, snapshot and eligibility |
+| SRC-003 | wave-1 | airdrop-agent-wiki | 9 | web3_project_status | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
+| SRC-004 | wave-1 | finance-agent-wiki | 9 | market_or_platform_data | yes | current fees, funding rates, margin rules, tax rules and trading API parameters |
+| SRC-005 | wave-1 | finance-agent-wiki | 9 | policy_or_regulation | yes | current legal, regulatory or suitability requirements for financial products |
+| SRC-006 | wave-1 | finance-agent-wiki | 9 | market_or_platform_data | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
+| SRC-007 | wave-1 | finance-agent-wiki | 9 | general_current_fact | yes | latest financial statements, filings, restatements and audit opinions |
+| SRC-008 | wave-1 | health-agent-wiki | 9 | medical_guidance | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
+| SRC-009 | wave-1 | health-agent-wiki | 9 | medical_guidance | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
+| SRC-010 | wave-1 | legal-agent-wiki | 9 | policy_or_regulation | yes | current platform agreements, data processing terms and consumer protection rules |
+| SRC-011 | wave-1 | legal-agent-wiki | 9 | policy_or_regulation | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
+| SRC-012 | wave-1 | security-agent-wiki | 9 | security_advisory | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
+| SRC-013 | wave-1 | security-agent-wiki | 9 | policy_or_regulation | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
+| SRC-014 | wave-1 | customs-agent-wiki | 8 | market_or_platform_data | no | exchange rates, tariff rates, tax rates and destination-specific fees |
+| SRC-015 | wave-1 | customs-agent-wiki | 8 | general_current_fact | no | latest HS codes, customs supervision conditions and declaration elements |
+| SRC-016 | wave-1 | customs-agent-wiki | 8 | policy_or_regulation | no | latest import/export policy, inspection and quarantine requirements |
+| SRC-017 | wave-1 | customs-agent-wiki | 8 | technical_docs | no | latest platform OCR model parameters and document template behavior |
+| SRC-018 | wave-1 | ecommerce-agent-wiki | 8 | policy_or_regulation | no | current marketplace policy, return window, category restrictions and consumer protection rules |
+| SRC-019 | wave-1 | ecommerce-agent-wiki | 8 | general_current_fact | no | current product certification, recall, safety notice and warranty terms |
+| SRC-020 | wave-1 | ecommerce-agent-wiki | 8 | market_or_platform_data | no | current product price, stock, promotion, shipping fee and delivery ETA |
+| SRC-021 | wave-1 | research-agent-wiki | 8 | technical_docs | no | current dataset availability, license, model weights and code repository status |
+| SRC-022 | wave-1 | research-agent-wiki | 8 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| SRC-023 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
+| SRC-024 | wave-2 | nodeops-agent-wiki | 7 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| SRC-025 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | SRC-026 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current Codex Skill format, plugin behavior and tool capabilities |
 | SRC-027 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current RAG frameworks, embedding models, vector databases and rerankers |
 | SRC-028 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current eval harnesses, model APIs and MCP/tool schemas |
@@ -388,8 +388,6 @@ Acceptance criteria:
 - The relevant update-log.md records the change.
 - No exploit, persistence, evasion, credential theft, or offensive procedure is introduced.
 
-### wave-2
-
 #### SRC-014 - customs-agent-wiki
 
 - Topic: exchange rates, tariff rates, tax rates and destination-specific fees
@@ -551,7 +549,55 @@ Acceptance criteria:
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
 
-#### SRC-021 - nodeops-agent-wiki
+#### SRC-021 - research-agent-wiki
+
+- Topic: current dataset availability, license, model weights and code repository status
+- Category: technical_docs
+- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
+- Suggested sources: official dataset page, repository release notes, model card
+- Human confirmation required: no
+
+Verification steps:
+- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
+- Start with suggested source types: official dataset page, repository release notes, model card.
+- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
+- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
+- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
+- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
+- Run validation, source queue generation, search index update, and acceptance checks after edits.
+
+Acceptance criteria:
+- No current fact is written without a dated source note.
+- No API key, private key, cookie, credential, or private account data is recorded.
+- Any remaining uncertainty is explicitly marked needs-source-update.
+- The relevant update-log.md records the change.
+
+#### SRC-022 - research-agent-wiki
+
+- Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
+- Category: general_current_fact
+- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
+- Suggested sources: publisher page, arXiv or conference page, official benchmark leaderboard
+- Human confirmation required: no
+
+Verification steps:
+- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
+- Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.
+- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
+- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
+- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
+- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
+- Run validation, source queue generation, search index update, and acceptance checks after edits.
+
+Acceptance criteria:
+- No current fact is written without a dated source note.
+- No API key, private key, cookie, credential, or private account data is recorded.
+- Any remaining uncertainty is explicitly marked needs-source-update.
+- The relevant update-log.md records the change.
+
+### wave-2
+
+#### SRC-023 - nodeops-agent-wiki
 
 - Topic: current OS package, Docker, systemd and kernel behavior
 - Category: general_current_fact
@@ -575,7 +621,7 @@ Acceptance criteria:
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
 
-#### SRC-022 - nodeops-agent-wiki
+#### SRC-024 - nodeops-agent-wiki
 
 - Topic: current blockchain node client versions, network parameters and upgrade requirements
 - Category: technical_docs
@@ -599,7 +645,7 @@ Acceptance criteria:
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
 
-#### SRC-023 - nodeops-agent-wiki
+#### SRC-025 - nodeops-agent-wiki
 
 - Topic: current cloud provider limits, firewall behavior, billing and incident status
 - Category: general_current_fact
@@ -611,52 +657,6 @@ Verification steps:
 - Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
 - Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.
 - Start with suggested source types: cloud provider documentation, status page, account console.
-- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
-- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
-- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
-- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
-- Run validation, source queue generation, search index update, and acceptance checks after edits.
-
-Acceptance criteria:
-- No current fact is written without a dated source note.
-- No API key, private key, cookie, credential, or private account data is recorded.
-- Any remaining uncertainty is explicitly marked needs-source-update.
-- The relevant update-log.md records the change.
-
-#### SRC-024 - research-agent-wiki
-
-- Topic: current dataset availability, license, model weights and code repository status
-- Category: technical_docs
-- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
-- Suggested sources: official dataset page, repository release notes, model card
-- Human confirmation required: no
-
-Verification steps:
-- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
-- Start with suggested source types: official dataset page, repository release notes, model card.
-- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
-- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
-- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
-- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
-- Run validation, source queue generation, search index update, and acceptance checks after edits.
-
-Acceptance criteria:
-- No current fact is written without a dated source note.
-- No API key, private key, cookie, credential, or private account data is recorded.
-- Any remaining uncertainty is explicitly marked needs-source-update.
-- The relevant update-log.md records the change.
-
-#### SRC-025 - research-agent-wiki
-
-- Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
-- Category: general_current_fact
-- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
-- Suggested sources: publisher page, arXiv or conference page, official benchmark leaderboard
-- Human confirmation required: no
-
-Verification steps:
-- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
-- Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.
 - Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
 - Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
 - Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "topics": [
     {
       "wiki": "airdrop-agent-wiki",
@@ -14,10 +14,10 @@
         "wallet security warning"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "airdrop-agent-wiki",
@@ -32,10 +32,10 @@
         "official announcement channel"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "airdrop-agent-wiki",
@@ -50,10 +50,10 @@
         "primary funding disclosure"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "finance-agent-wiki",
@@ -68,10 +68,10 @@
         "broker or custodian fee schedule"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "finance-agent-wiki",
@@ -86,10 +86,10 @@
         "official product documents"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "finance-agent-wiki",
@@ -104,10 +104,10 @@
         "timestamped raw dataset"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "finance-agent-wiki",
@@ -122,10 +122,10 @@
         "audited annual or interim report"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "health-agent-wiki",
@@ -140,10 +140,10 @@
         "professional clinical guideline"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "health-agent-wiki",
@@ -158,10 +158,10 @@
         "licensed clinician review"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "legal-agent-wiki",
@@ -176,10 +176,10 @@
         "counsel-approved template"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "legal-agent-wiki",
@@ -194,10 +194,10 @@
         "licensed lawyer review"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "security-agent-wiki",
@@ -212,10 +212,10 @@
         "package registry advisory"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "security-agent-wiki",
@@ -230,10 +230,10 @@
         "compliance authority or auditor guidance"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 8
+      "is_stale": true,
+      "priority_score": 9
     },
     {
       "wiki": "customs-agent-wiki",
@@ -248,10 +248,10 @@
         "destination country authority"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
+      "is_stale": true,
+      "priority_score": 8
     },
     {
       "wiki": "customs-agent-wiki",
@@ -266,10 +266,10 @@
         "licensed customs broker review"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
+      "is_stale": true,
+      "priority_score": 8
     },
     {
       "wiki": "customs-agent-wiki",
@@ -284,10 +284,10 @@
         "official trade compliance bulletin"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
+      "is_stale": true,
+      "priority_score": 8
     },
     {
       "wiki": "customs-agent-wiki",
@@ -302,10 +302,10 @@
         "manually reviewed sample set"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
+      "is_stale": true,
+      "priority_score": 8
     },
     {
       "wiki": "ecommerce-agent-wiki",
@@ -320,10 +320,10 @@
         "merchant service agreement"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
+      "is_stale": true,
+      "priority_score": 8
     },
     {
       "wiki": "ecommerce-agent-wiki",
@@ -338,10 +338,10 @@
         "warranty document"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
+      "is_stale": true,
+      "priority_score": 8
     },
     {
       "wiki": "ecommerce-agent-wiki",
@@ -356,10 +356,46 @@
         "carrier tracking system"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
+      "is_stale": true,
+      "priority_score": 8
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "current dataset availability, license, model weights and code repository status",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "official dataset page",
+        "repository release notes",
+        "model card"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 34,
+      "review_window_days": 30,
+      "is_stale": true,
+      "priority_score": 8
+    },
+    {
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+      "status": "needs-source-update",
+      "suggested_sources": [
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
+      ],
+      "last_checked": "2026-05-27",
+      "age_days": 34,
+      "review_window_days": 30,
+      "is_stale": true,
+      "priority_score": 8
     },
     {
       "wiki": "nodeops-agent-wiki",
@@ -374,7 +410,7 @@
         "release notes"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 7
@@ -392,7 +428,7 @@
         "node logs and version output"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 7
@@ -410,44 +446,8 @@
         "account console"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
-      "is_stale": false,
-      "priority_score": 7
-    },
-    {
-      "wiki": "research-agent-wiki",
-      "domain": "research",
-      "risk_level": "medium",
-      "freshness_requirement": "high",
-      "topic": "current dataset availability, license, model weights and code repository status",
-      "status": "needs-source-update",
-      "suggested_sources": [
-        "official dataset page",
-        "repository release notes",
-        "model card"
-      ],
-      "last_checked": "2026-05-27",
-      "age_days": 20,
-      "review_window_days": 30,
-      "is_stale": false,
-      "priority_score": 7
-    },
-    {
-      "wiki": "research-agent-wiki",
-      "domain": "research",
-      "risk_level": "medium",
-      "freshness_requirement": "high",
-      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-      "status": "needs-source-update",
-      "suggested_sources": [
-        "publisher page",
-        "arXiv or conference page",
-        "official benchmark leaderboard"
-      ],
-      "last_checked": "2026-05-27",
-      "age_days": 20,
-      "review_window_days": 30,
       "is_stale": false,
       "priority_score": 7
     },
@@ -464,7 +464,7 @@
         "local plugin manifest"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -482,7 +482,7 @@
         "benchmark report with date"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -500,7 +500,7 @@
         "repository release notes"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -518,7 +518,7 @@
         "repository or API docs"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -536,7 +536,7 @@
         "project deployment logs"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -554,7 +554,7 @@
         "vendor bulletin"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -572,7 +572,7 @@
         "source repository"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 6
@@ -590,7 +590,7 @@
         "source terms of use"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 5
@@ -608,7 +608,7 @@
         "dated reputable reporting"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 5
@@ -626,7 +626,7 @@
         "account dashboard notices"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 20,
+      "age_days": 34,
       "review_window_days": 90,
       "is_stale": false,
       "priority_score": 5

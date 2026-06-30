@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-15",
+  "generated": "2026-06-30",
   "passed": true,
   "checks": [
     {
       "check_id": "registry_exists",
       "description": "Registry file exists.",
       "passed": true,
-      "evidence": "registry\\wiki-registry.yaml"
+      "evidence": "registry/wiki-registry.yaml"
     },
     {
       "check_id": "registry_version",

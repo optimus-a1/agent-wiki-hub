@@ -1,6 +1,6 @@
 # Source Review Packet Rehearsal
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Rehearse source-review packet imports with importer dry-run and no post-check wr
 - Dry runs: 2
 - Passed dry runs: 2
 - Failed dry runs: 0
-- Entries from audit: 26
+- Entries from audit: 44
 - Advisory packets from audit: 8
 - Human-gated entries from audit: 26
 
@@ -21,8 +21,8 @@ Rehearse source-review packet imports with importer dry-run and no post-check wr
 
 | Packet | Result | Command |
 | --- | --- | --- |
-| [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json) | PASS | `python.exe scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks --allow-duplicate` |
-| [source-review-session-wave-1-pending.jsonl](../registry/source-review-packets/source-review-session-wave-1-pending.jsonl) | PASS | `python.exe scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks --allow-duplicate` |
+| [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json) | PASS | `python scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks --allow-duplicate` |
+| [source-review-session-wave-1-pending.jsonl](../registry/source-review-packets/source-review-session-wave-1-pending.jsonl) | PASS | `python scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks --allow-duplicate` |
 
 ## Failed Output
 

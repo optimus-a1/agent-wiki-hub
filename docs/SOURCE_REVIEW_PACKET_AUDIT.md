@@ -1,6 +1,6 @@
 # Source Review Packet Audit
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Purpose
 
@@ -14,9 +14,9 @@ Audit active source-review packet files before import, while keeping historical 
 - Advisory packet files: 8
 - Planning-only packet files: 6
 - Historical/prefill packet files: 2
-- Entries: 26
+- Entries: 44
 - Advisory entries: 176
-- Pending entries: 26
+- Pending entries: 44
 - Final entries: 0
 - Human-gated entries: 26
 - Issues: 0
@@ -31,8 +31,8 @@ Audit active source-review packet files before import, while keeping historical 
 | [source-review-session-auto-pending.jsonl](../registry/source-review-packets/source-review-session-auto-pending.jsonl) | planning-only-pending-packet | PASS | 0 | 0 | 0 | 0 | 0 | 0 |
 | [source-review-session-wave-1-ai-prefill.json](../registry/source-review-packets/source-review-session-wave-1-ai-prefill.json) | advisory-ai-prefill | ADVISORY | 66 | 0 | 66 | 66 | 68 | 0 |
 | [source-review-session-wave-1-ai-prefill.jsonl](../registry/source-review-packets/source-review-session-wave-1-ai-prefill.jsonl) | advisory-ai-prefill | ADVISORY | 66 | 0 | 66 | 66 | 68 | 0 |
-| [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json) | active-import-packet | PASS | 13 | 13 | 0 | 13 | 0 | 0 |
-| [source-review-session-wave-1-pending.jsonl](../registry/source-review-packets/source-review-session-wave-1-pending.jsonl) | active-import-packet | PASS | 13 | 13 | 0 | 13 | 0 | 0 |
+| [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json) | active-import-packet | PASS | 22 | 22 | 0 | 13 | 0 | 0 |
+| [source-review-session-wave-1-pending.jsonl](../registry/source-review-packets/source-review-session-wave-1-pending.jsonl) | active-import-packet | PASS | 22 | 22 | 0 | 13 | 0 | 0 |
 | [source-review-session-wave-2-pending.json](../registry/source-review-packets/source-review-session-wave-2-pending.json) | planning-only-pending-packet | PASS | 12 | 12 | 0 | 3 | 0 | 0 |
 | [source-review-session-wave-2-pending.jsonl](../registry/source-review-packets/source-review-session-wave-2-pending.jsonl) | planning-only-pending-packet | PASS | 12 | 12 | 0 | 3 | 0 | 0 |
 | [source-review-session-wave-3-pending.json](../registry/source-review-packets/source-review-session-wave-3-pending.json) | planning-only-pending-packet | PASS | 10 | 10 | 0 | 0 | 0 | 0 |
@@ -40,7 +40,7 @@ Audit active source-review packet files before import, while keeping historical 
 
 ## Status Counts
 
-- pending: 26
+- pending: 44
 
 ## Issues
 

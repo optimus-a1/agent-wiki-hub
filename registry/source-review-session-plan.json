@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-16",
-  "session_id": "source-review-session-2026-06-16",
+  "generated": "2026-06-30",
+  "session_id": "source-review-session-2026-06-30",
   "purpose": "Turn reviewer-queue cards into a concrete source-review session plan without fetching or certifying external facts.",
   "passed": true,
   "current_fact_ready": false,
   "open_review_count": 35,
-  "selected_review_count": 13,
+  "selected_review_count": 22,
   "selected_human_review_gate_count": 13,
   "selected_high_risk_count": 13,
   "selected_filters": {
@@ -33,6 +33,21 @@
       ]
     },
     {
+      "reviewer_role": "customs-document-reviewer",
+      "review_count": 4,
+      "human_review_gate_count": 0,
+      "high_risk_count": 0,
+      "wikis": {
+        "customs-agent-wiki": 4
+      },
+      "ticket_ids": [
+        "TICKET-SRC-014",
+        "TICKET-SRC-015",
+        "TICKET-SRC-016",
+        "TICKET-SRC-017"
+      ]
+    },
+    {
       "reviewer_role": "defensive-security-reviewer",
       "review_count": 2,
       "human_review_gate_count": 2,
@@ -43,6 +58,20 @@
       "ticket_ids": [
         "TICKET-SRC-012",
         "TICKET-SRC-013"
+      ]
+    },
+    {
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "review_count": 3,
+      "human_review_gate_count": 0,
+      "high_risk_count": 0,
+      "wikis": {
+        "ecommerce-agent-wiki": 3
+      },
+      "ticket_ids": [
+        "TICKET-SRC-018",
+        "TICKET-SRC-019",
+        "TICKET-SRC-020"
       ]
     },
     {
@@ -74,6 +103,19 @@
       ]
     },
     {
+      "reviewer_role": "research-methods-reviewer",
+      "review_count": 2,
+      "human_review_gate_count": 0,
+      "high_risk_count": 0,
+      "wikis": {
+        "research-agent-wiki": 2
+      },
+      "ticket_ids": [
+        "TICKET-SRC-021",
+        "TICKET-SRC-022"
+      ]
+    },
+    {
       "reviewer_role": "web3-wallet-safety-reviewer",
       "review_count": 3,
       "human_review_gate_count": 3,
@@ -90,18 +132,21 @@
   ],
   "wiki_counts": {
     "airdrop-agent-wiki": 3,
+    "customs-agent-wiki": 4,
+    "ecommerce-agent-wiki": 3,
     "finance-agent-wiki": 4,
     "health-agent-wiki": 2,
     "legal-agent-wiki": 2,
+    "research-agent-wiki": 2,
     "security-agent-wiki": 2
   },
   "priority_counts": {
-    "P0": 4,
-    "P1": 3,
-    "P2": 6
+    "P0": 8,
+    "P1": 6,
+    "P2": 8
   },
   "wave_counts": {
-    "wave-1": 13
+    "wave-1": 22
   },
   "selected_reviews": [
     {
@@ -230,6 +275,130 @@
     },
     {
       "review_id": "REVIEW-SRC-005",
+      "ticket_id": "TICKET-SRC-014",
+      "task_id": "SRC-014",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "central bank or official exchange source",
+        "customs tariff system",
+        "destination country authority"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-006",
+      "ticket_id": "TICKET-SRC-015",
+      "task_id": "SRC-015",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest HS codes, customs supervision conditions and declaration elements",
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "customs authority website",
+        "official tariff database",
+        "licensed customs broker review"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-007",
+      "ticket_id": "TICKET-SRC-016",
+      "task_id": "SRC-016",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "latest import/export policy, inspection and quarantine requirements",
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "customs and inspection authority announcement",
+        "destination country regulator",
+        "official trade compliance bulletin"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-008",
+      "ticket_id": "TICKET-SRC-017",
+      "task_id": "SRC-017",
+      "wiki": "customs-agent-wiki",
+      "priority": "P0",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "latest platform OCR model parameters and document template behavior",
+      "reviewer_role": "customs-document-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "OCR vendor documentation",
+        "internal extraction benchmark",
+        "manually reviewed sample set"
+      ],
+      "required_reading": [
+        "wikis/customs-agent-wiki/AGENTS.md",
+        "wikis/customs-agent-wiki/manifest.yaml",
+        "wikis/customs-agent-wiki/README.md",
+        "wikis/customs-agent-wiki/rules/",
+        "wikis/customs-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/customs-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/customs-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/template-wave-2-customs-pending.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-009",
       "ticket_id": "TICKET-SRC-001",
       "task_id": "SRC-001",
       "wiki": "airdrop-agent-wiki",
@@ -260,7 +429,7 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-001 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-006",
+      "review_id": "REVIEW-SRC-010",
       "ticket_id": "TICKET-SRC-002",
       "task_id": "SRC-002",
       "wiki": "airdrop-agent-wiki",
@@ -291,7 +460,7 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-002 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-007",
+      "review_id": "REVIEW-SRC-011",
       "ticket_id": "TICKET-SRC-003",
       "task_id": "SRC-003",
       "wiki": "airdrop-agent-wiki",
@@ -322,7 +491,100 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-003 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-008",
+      "review_id": "REVIEW-SRC-012",
+      "ticket_id": "TICKET-SRC-018",
+      "task_id": "SRC-018",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "policy_or_regulation",
+      "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "official marketplace policy center",
+        "consumer protection authority",
+        "merchant service agreement"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-013",
+      "ticket_id": "TICKET-SRC-019",
+      "task_id": "SRC-019",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "current product certification, recall, safety notice and warranty terms",
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "brand official website",
+        "regulator recall database",
+        "warranty document"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-014",
+      "ticket_id": "TICKET-SRC-020",
+      "task_id": "SRC-020",
+      "wiki": "ecommerce-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "market_or_platform_data",
+      "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
+      "reviewer_role": "ecommerce-policy-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "platform product page",
+        "merchant backend",
+        "carrier tracking system"
+      ],
+      "required_reading": [
+        "wikis/ecommerce-agent-wiki/AGENTS.md",
+        "wikis/ecommerce-agent-wiki/manifest.yaml",
+        "wikis/ecommerce-agent-wiki/README.md",
+        "wikis/ecommerce-agent-wiki/rules/",
+        "wikis/ecommerce-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/ecommerce-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/ecommerce-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-015",
       "ticket_id": "TICKET-SRC-008",
       "task_id": "SRC-008",
       "wiki": "health-agent-wiki",
@@ -353,7 +615,7 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-008 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-009",
+      "review_id": "REVIEW-SRC-016",
       "ticket_id": "TICKET-SRC-009",
       "task_id": "SRC-009",
       "wiki": "health-agent-wiki",
@@ -384,7 +646,7 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-009 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-012",
+      "review_id": "REVIEW-SRC-019",
       "ticket_id": "TICKET-SRC-012",
       "task_id": "SRC-012",
       "wiki": "security-agent-wiki",
@@ -415,7 +677,7 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-012 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-013",
+      "review_id": "REVIEW-SRC-020",
       "ticket_id": "TICKET-SRC-013",
       "task_id": "SRC-013",
       "wiki": "security-agent-wiki",
@@ -446,7 +708,7 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-010",
+      "review_id": "REVIEW-SRC-017",
       "ticket_id": "TICKET-SRC-010",
       "task_id": "SRC-010",
       "wiki": "legal-agent-wiki",
@@ -477,7 +739,7 @@
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-010 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
     },
     {
-      "review_id": "REVIEW-SRC-011",
+      "review_id": "REVIEW-SRC-018",
       "ticket_id": "TICKET-SRC-011",
       "task_id": "SRC-011",
       "wiki": "legal-agent-wiki",
@@ -506,11 +768,73 @@
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
       "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-011 --status pending --dry-run",
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-011 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-021",
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "technical_docs",
+      "topic": "current dataset availability, license, model weights and code repository status",
+      "reviewer_role": "research-methods-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "official dataset page",
+        "repository release notes",
+        "model card"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
+    },
+    {
+      "review_id": "REVIEW-SRC-022",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "research-agent-wiki",
+      "priority": "P2",
+      "wave": "wave-1",
+      "risk_level": "medium",
+      "freshness": "high",
+      "category": "general_current_fact",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+      "reviewer_role": "research-methods-reviewer",
+      "human_review_gate": false,
+      "suggested_sources": [
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\""
     }
   ],
   "packet_template": {
-    "packet_id": "source-review-session-2026-06-16",
-    "created_on": "2026-06-16",
+    "packet_id": "source-review-session-2026-06-30",
+    "created_on": "2026-06-30",
     "created_by": "<human reviewer or source-refresh agent>",
     "dry_run_first": true,
     "entries": [
@@ -521,7 +845,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -537,7 +861,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -553,7 +877,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -569,7 +893,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -579,13 +903,77 @@
         "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
       },
       {
+        "ticket_id": "TICKET-SRC-014",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
+        "ticket_id": "TICKET-SRC-015",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
+        "ticket_id": "TICKET-SRC-016",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
+        "ticket_id": "TICKET-SRC-017",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
         "ticket_id": "TICKET-SRC-001",
         "status": "pending",
         "source_title": "<source title>",
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -601,7 +989,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -617,7 +1005,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -627,13 +1015,61 @@
         "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
       },
       {
+        "ticket_id": "TICKET-SRC-018",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
+        "ticket_id": "TICKET-SRC-019",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
+        "ticket_id": "TICKET-SRC-020",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
         "ticket_id": "TICKET-SRC-008",
         "status": "pending",
         "source_title": "<source title>",
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -649,7 +1085,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -665,7 +1101,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -681,7 +1117,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -697,7 +1133,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -713,13 +1149,45 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-16",
+        "source_accessed_on": "2026-06-30",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
         "confidence": "low",
         "remaining_uncertainty": "<remaining uncertainty>",
         "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
+        "ticket_id": "TICKET-SRC-021",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      {
+        "ticket_id": "TICKET-SRC-022",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-06-30",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "",
         "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
       }
     ]
@@ -792,7 +1260,7 @@
     {
       "check": "selected reviews available",
       "passed": true,
-      "detail": "13 selected from 35 open reviews"
+      "detail": "22 selected from 35 open reviews"
     },
     {
       "check": "selected reviews have reviewer roles and commands",

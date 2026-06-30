@@ -1,12 +1,12 @@
 # Source Refresh Log Status
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Summary
 
 - Wikis: 12
 - Created logs: 0
-- Updated logs: 0
+- Updated logs: 2
 - Update logs changed: 0
 - Passed: yes
 
@@ -23,8 +23,8 @@ Generated: 2026-06-16
 | finance-agent-wiki | 4 | False | False | True | `wikis/finance-agent-wiki/sources/source-refresh-log.md` |
 | health-agent-wiki | 2 | False | False | True | `wikis/health-agent-wiki/sources/source-refresh-log.md` |
 | legal-agent-wiki | 2 | False | False | True | `wikis/legal-agent-wiki/sources/source-refresh-log.md` |
-| nodeops-agent-wiki | 3 | False | False | True | `wikis/nodeops-agent-wiki/sources/source-refresh-log.md` |
-| research-agent-wiki | 2 | False | False | True | `wikis/research-agent-wiki/sources/source-refresh-log.md` |
+| nodeops-agent-wiki | 3 | False | True | True | `wikis/nodeops-agent-wiki/sources/source-refresh-log.md` |
+| research-agent-wiki | 2 | False | True | True | `wikis/research-agent-wiki/sources/source-refresh-log.md` |
 | security-agent-wiki | 2 | False | False | True | `wikis/security-agent-wiki/sources/source-refresh-log.md` |
 
 ## Usage Notes

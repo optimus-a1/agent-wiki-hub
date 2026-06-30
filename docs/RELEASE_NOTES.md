@@ -1,6 +1,6 @@
 # Agent Wiki Hub Release Notes
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Summary
 
@@ -17,17 +17,17 @@ Generated: 2026-06-16
 - Source reviewer queue available: yes
 - Source reviewer human gates: 16
 - Source review session plan available: yes
-- Source review session selected reviews: 13
+- Source review session selected reviews: 22
 - Source review session human gates: 13
 - Source review readiness matrix available: yes
-- Source review ready for collection: 13
-- Source review queued outside session: 22
+- Source review ready for collection: 22
+- Source review queued outside session: 13
 - Source review work orders available: yes
-- Source review work orders: 13
+- Source review work orders: 22
 - Source review work order human gates: 13
 - Source review post-import completed: no
 - Source review packet bundle available: yes
-- Source review packet entries: 13
+- Source review packet entries: 22
 - Source review packet human gates: 13
 - Source review packet audit passed: yes
 - Source review packet audit packets: 2
@@ -61,7 +61,7 @@ Generated: 2026-06-16
 | metadata | PASS | 0 | 0 |
 | coverage | PASS | 0 | 0 |
 | links | PASS | 0 | 0 |
-| packs | PASS | 644 | 644 |
+| packs | PASS | 653 | 653 |
 | safety | PASS | 79 | 79 |
 | source_refresh_logs | PASS | 12 | 12 |
 | routing_cards | PASS | 0 | 0 |
@@ -89,19 +89,19 @@ No release warnings.
 
 | Package | Size | SHA-256 |
 | --- | ---: | --- |
-| `packs/agent-engineering-wiki.zip` | 93.2 KB | `2441da31689c25d0...` |
+| `packs/agent-engineering-wiki.zip` | 92.5 KB | `a6ddf8915c10ddac...` |
 | `packs/agent-wiki-hub-all.zip` | external final artifact | Self-referential package; compute final size and checksum after packing release-manifest.json. |
-| `packs/airdrop-agent-wiki.zip` | 75.2 KB | `c0c03f46e84a050c...` |
-| `packs/coding-agent-wiki.zip` | 83.7 KB | `09bd000462ebf43f...` |
-| `packs/content-agent-wiki.zip` | 60.5 KB | `df2703dde7fa2552...` |
-| `packs/customs-agent-wiki.zip` | 80.1 KB | `662df3dec6112950...` |
-| `packs/ecommerce-agent-wiki.zip` | 61.1 KB | `795ad1cc2df298c8...` |
-| `packs/finance-agent-wiki.zip` | 99.0 KB | `cd9fa3594504e3f2...` |
-| `packs/health-agent-wiki.zip` | 52.1 KB | `e00049873bec093b...` |
-| `packs/legal-agent-wiki.zip` | 54.1 KB | `503e07a2317fe83a...` |
-| `packs/nodeops-agent-wiki.zip` | 88.5 KB | `ef518377042aca7a...` |
-| `packs/research-agent-wiki.zip` | 75.3 KB | `30201a568815c33d...` |
-| `packs/security-agent-wiki.zip` | 86.9 KB | `3362762a67820f2f...` |
+| `packs/airdrop-agent-wiki.zip` | 74.7 KB | `e16c2074795b8789...` |
+| `packs/coding-agent-wiki.zip` | 83.1 KB | `1188f39f52b1b0e7...` |
+| `packs/content-agent-wiki.zip` | 60.1 KB | `8cab8af83fd7285e...` |
+| `packs/customs-agent-wiki.zip` | 79.5 KB | `1ba37f8ba67d2ade...` |
+| `packs/ecommerce-agent-wiki.zip` | 60.6 KB | `e3af19cf5f30120d...` |
+| `packs/finance-agent-wiki.zip` | 98.3 KB | `08525ccc6727217c...` |
+| `packs/health-agent-wiki.zip` | 51.7 KB | `78ca4bf363bb09b4...` |
+| `packs/legal-agent-wiki.zip` | 53.7 KB | `12f11b92b5ec4965...` |
+| `packs/nodeops-agent-wiki.zip` | 87.9 KB | `d58e64ca14e3e88e...` |
+| `packs/research-agent-wiki.zip` | 74.8 KB | `360ff7e83512cc54...` |
+| `packs/security-agent-wiki.zip` | 86.3 KB | `90d578500b7bc91b...` |
 
 ## Wiki Coverage
 
@@ -122,16 +122,16 @@ Source refresh playbook tasks: 35
 
 | Wiki | Priority | Topic |
 | --- | ---: | --- |
-| airdrop-agent-wiki | 8 | current contract addresses, wallet warnings, scam reports and signing risks |
-| airdrop-agent-wiki | 8 | current project status, official links, task rules, snapshot and eligibility |
-| airdrop-agent-wiki | 8 | current token launch, TGE, funding, exchange listing and airdrop allocation |
-| finance-agent-wiki | 8 | current fees, funding rates, margin rules, tax rules and trading API parameters |
-| finance-agent-wiki | 8 | current legal, regulatory or suitability requirements for financial products |
-| finance-agent-wiki | 8 | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
-| finance-agent-wiki | 8 | latest financial statements, filings, restatements and audit opinions |
-| health-agent-wiki | 8 | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
-| health-agent-wiki | 8 | current public health guidance, screening recommendations and nutrition/exercise guidelines |
-| legal-agent-wiki | 8 | current platform agreements, data processing terms and consumer protection rules |
+| airdrop-agent-wiki | 9 | current contract addresses, wallet warnings, scam reports and signing risks |
+| airdrop-agent-wiki | 9 | current project status, official links, task rules, snapshot and eligibility |
+| airdrop-agent-wiki | 9 | current token launch, TGE, funding, exchange listing and airdrop allocation |
+| finance-agent-wiki | 9 | current fees, funding rates, margin rules, tax rules and trading API parameters |
+| finance-agent-wiki | 9 | current legal, regulatory or suitability requirements for financial products |
+| finance-agent-wiki | 9 | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
+| finance-agent-wiki | 9 | latest financial statements, filings, restatements and audit opinions |
+| health-agent-wiki | 9 | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
+| health-agent-wiki | 9 | current public health guidance, screening recommendations and nutrition/exercise guidelines |
+| legal-agent-wiki | 9 | current platform agreements, data processing terms and consumer protection rules |
 
 ## Safety Notes
 

@@ -1,27 +1,27 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "purpose": "Rehearse source-review packet imports with importer dry-run and no post-check writes. Existing imported evidence is acceptable in post-import repositories.",
   "packet_count": 2,
   "dry_run_count": 2,
   "passed_dry_run_count": 2,
   "failed_dry_run_count": 0,
-  "entry_count_from_audit": 26,
+  "entry_count_from_audit": 44,
   "advisory_packet_count_from_audit": 8,
   "human_gated_entry_count_from_audit": 26,
   "results": [
     {
       "packet": "registry/source-review-packets/source-review-session-wave-1-pending.json",
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks --allow-duplicate",
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks --allow-duplicate",
       "returncode": 0,
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (13 entries)",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (22 entries)",
       "passed": true
     },
     {
       "packet": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
-      "command": "python.exe scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks --allow-duplicate",
+      "command": "python scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks --allow-duplicate",
       "returncode": 0,
-      "output": "Wrote docs\\SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry\\source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (13 entries)",
+      "output": "Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md\nWrote registry/source-evidence-packet-importer.json\nSOURCE EVIDENCE PACKET DRY RUN (22 entries)",
       "passed": true
     }
   ],

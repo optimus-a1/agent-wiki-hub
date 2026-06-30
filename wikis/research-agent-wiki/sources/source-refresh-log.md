@@ -20,6 +20,8 @@ Record authoritative source verification work before current facts are written i
 
 ## Refresh Tasks
 
+- [ ] SRC-021 | wave: wave-1 | priority: 8 | human_confirmation: no | topic: current dataset availability, license, model weights and code repository status
+- [ ] SRC-022 | wave: wave-1 | priority: 8 | human_confirmation: no | topic: latest papers, preprints, revisions, citations and benchmark leaderboards
 - [ ] SRC-024 | wave: wave-2 | priority: 7 | human_confirmation: no | topic: current dataset availability, license, model weights and code repository status
 - [ ] SRC-025 | wave: wave-2 | priority: 7 | human_confirmation: no | topic: latest papers, preprints, revisions, citations and benchmark leaderboards
 

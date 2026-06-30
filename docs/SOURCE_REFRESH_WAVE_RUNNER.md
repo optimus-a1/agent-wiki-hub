@@ -1,6 +1,6 @@
 # Source Refresh Wave Runner
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Purpose
 
@@ -34,22 +34,22 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-005` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current legal, regulatory or suitability requirements for financial products |
 | `TICKET-SRC-006` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
 | `TICKET-SRC-007` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | latest financial statements, filings, restatements and audit opinions |
+| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
+| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
+| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest import/export policy, inspection and quarantine requirements |
+| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest platform OCR model parameters and document template behavior |
 | `TICKET-SRC-001` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current contract addresses, wallet warnings, scam reports and signing risks |
 | `TICKET-SRC-002` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current project status, official links, task rules, snapshot and eligibility |
 | `TICKET-SRC-003` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
+| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
+| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
+| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
 | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current platform agreements, data processing terms and consumer protection rules |
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
-| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
-| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest import/export policy, inspection and quarantine requirements |
-| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest platform OCR model parameters and document template behavior |
-| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
-| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product certification, recall, safety notice and warranty terms |
-| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
 | +15 more | - | - | - | - | - | - |
 
 ## Batch Views
@@ -57,7 +57,7 @@ Plan source-refresh execution waves without certifying current facts.
 ### batch-wave-1
 
 - Title: wave-1 refresh batch
-- Tickets: 13
+- Tickets: 22
 - Human confirmation gates: 13
 - Description: Execute these tickets in wave order; keep current facts gated until evidence is recorded.
 
@@ -67,37 +67,37 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-005` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current legal, regulatory or suitability requirements for financial products |
 | `TICKET-SRC-006` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
 | `TICKET-SRC-007` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | latest financial statements, filings, restatements and audit opinions |
+| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
+| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
+| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest import/export policy, inspection and quarantine requirements |
+| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest platform OCR model parameters and document template behavior |
 | `TICKET-SRC-001` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current contract addresses, wallet warnings, scam reports and signing risks |
 | `TICKET-SRC-002` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current project status, official links, task rules, snapshot and eligibility |
 | `TICKET-SRC-003` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
+| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
+| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
+| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
 | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current platform agreements, data processing terms and consumer protection rules |
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
+| `TICKET-SRC-021` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
+| `TICKET-SRC-022` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
 
 ### batch-wave-2
 
 - Title: wave-2 refresh batch
-- Tickets: 12
+- Tickets: 3
 - Human confirmation gates: 3
 - Description: Execute these tickets in wave order; keep current facts gated until evidence is recorded.
 
 | Ticket | Wiki | Priority | Wave | Risk | Human Review | Topic |
 | --- | --- | --- | --- | --- | --- | --- |
-| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
-| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
-| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest import/export policy, inspection and quarantine requirements |
-| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest platform OCR model parameters and document template behavior |
-| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
-| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product certification, recall, safety notice and warranty terms |
-| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
-| `TICKET-SRC-024` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-2 | medium | no | current dataset availability, license, model weights and code repository status |
-| `TICKET-SRC-025` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-2 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 
 ### batch-wave-3
 
@@ -132,10 +132,10 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-005` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current legal, regulatory or suitability requirements for financial products |
 | `TICKET-SRC-006` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
 | `TICKET-SRC-007` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | latest financial statements, filings, restatements and audit opinions |
-| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
-| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
-| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest import/export policy, inspection and quarantine requirements |
-| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest platform OCR model parameters and document template behavior |
+| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
+| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
+| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest import/export policy, inspection and quarantine requirements |
+| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest platform OCR model parameters and document template behavior |
 | `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
 | `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
 | `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
@@ -156,12 +156,12 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-001` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current contract addresses, wallet warnings, scam reports and signing risks |
 | `TICKET-SRC-002` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current project status, official links, task rules, snapshot and eligibility |
 | `TICKET-SRC-003` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
-| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
-| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product certification, recall, safety notice and warranty terms |
-| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
+| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
+| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
+| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | `TICKET-SRC-033` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current image, chart, dataset and quote licensing |
 | `TICKET-SRC-034` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current news, statistics, public quotes and social media claims |
 | `TICKET-SRC-035` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current publishing platform rules, format limits and content policies |
@@ -181,8 +181,8 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-024` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-2 | medium | no | current dataset availability, license, model weights and code repository status |
-| `TICKET-SRC-025` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-2 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| `TICKET-SRC-021` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
+| `TICKET-SRC-022` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
 
 ### batch-human-confirmation
 
@@ -206,9 +206,9 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 
 ## Selected Queue
 
@@ -220,27 +220,27 @@ No filters supplied; selected queue equals the full recommended open-ticket queu
 | `TICKET-SRC-005` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current legal, regulatory or suitability requirements for financial products |
 | `TICKET-SRC-006` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity |
 | `TICKET-SRC-007` | [finance-agent-wiki](../wikis/finance-agent-wiki) | P0 | wave-1 | high | yes | latest financial statements, filings, restatements and audit opinions |
+| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
+| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
+| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest import/export policy, inspection and quarantine requirements |
+| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest platform OCR model parameters and document template behavior |
 | `TICKET-SRC-001` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current contract addresses, wallet warnings, scam reports and signing risks |
 | `TICKET-SRC-002` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current project status, official links, task rules, snapshot and eligibility |
 | `TICKET-SRC-003` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
+| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
+| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
+| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
 | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current platform agreements, data processing terms and consumer protection rules |
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-014` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | exchange rates, tariff rates, tax rates and destination-specific fees |
-| `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
-| `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest import/export policy, inspection and quarantine requirements |
-| `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-2 | medium | no | latest platform OCR model parameters and document template behavior |
-| `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
-| `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product certification, recall, safety notice and warranty terms |
-| `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-2 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
-| `TICKET-SRC-024` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-2 | medium | no | current dataset availability, license, model weights and code repository status |
-| `TICKET-SRC-025` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-2 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| `TICKET-SRC-021` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
+| `TICKET-SRC-022` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
 | `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
 | `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
@@ -330,6 +330,82 @@ Record command template:
 python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-007 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
 ```
 
+### TICKET-SRC-014
+
+- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
+- Topic: exchange rates, tariff rates, tax rates and destination-specific fees
+- Suggested sources: central bank or official exchange source, customs tariff system, destination country authority
+- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+```
+
+### TICKET-SRC-015
+
+- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
+- Topic: latest HS codes, customs supervision conditions and declaration elements
+- Suggested sources: customs authority website, official tariff database, licensed customs broker review
+- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+```
+
+### TICKET-SRC-016
+
+- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
+- Topic: latest import/export policy, inspection and quarantine requirements
+- Suggested sources: customs and inspection authority announcement, destination country regulator, official trade compliance bulletin
+- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+```
+
+### TICKET-SRC-017
+
+- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
+- Topic: latest platform OCR model parameters and document template behavior
+- Suggested sources: OCR vendor documentation, internal extraction benchmark, manually reviewed sample set
+- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+```
+
 ### TICKET-SRC-001
 
 - Wiki: [airdrop-agent-wiki](../wikis/airdrop-agent-wiki)
@@ -385,6 +461,63 @@ Record command template:
 
 ```bash
 python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-003 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
+```
+
+### TICKET-SRC-018
+
+- Wiki: [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki)
+- Topic: current marketplace policy, return window, category restrictions and consumer protection rules
+- Suggested sources: official marketplace policy center, consumer protection authority, merchant service agreement
+- Source log: [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+```
+
+### TICKET-SRC-019
+
+- Wiki: [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki)
+- Topic: current product certification, recall, safety notice and warranty terms
+- Suggested sources: brand official website, regulator recall database, warranty document
+- Source log: [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+```
+
+### TICKET-SRC-020
+
+- Wiki: [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki)
+- Topic: current product price, stock, promotion, shipping fee and delivery ETA
+- Suggested sources: platform product page, merchant backend, carrier tracking system
+- Source log: [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
 ```
 
 ### TICKET-SRC-008
@@ -499,139 +632,6 @@ Record command template:
 
 ```bash
 python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
-```
-
-### TICKET-SRC-014
-
-- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
-- Topic: exchange rates, tariff rates, tax rates and destination-specific fees
-- Suggested sources: central bank or official exchange source, customs tariff system, destination country authority
-- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-014 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
-```
-
-### TICKET-SRC-015
-
-- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
-- Topic: latest HS codes, customs supervision conditions and declaration elements
-- Suggested sources: customs authority website, official tariff database, licensed customs broker review
-- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-015 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
-```
-
-### TICKET-SRC-016
-
-- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
-- Topic: latest import/export policy, inspection and quarantine requirements
-- Suggested sources: customs and inspection authority announcement, destination country regulator, official trade compliance bulletin
-- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-016 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
-```
-
-### TICKET-SRC-017
-
-- Wiki: [customs-agent-wiki](../wikis/customs-agent-wiki)
-- Topic: latest platform OCR model parameters and document template behavior
-- Suggested sources: OCR vendor documentation, internal extraction benchmark, manually reviewed sample set
-- Source log: [source-refresh-log.md](../wikis/customs-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-017 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
-```
-
-### TICKET-SRC-018
-
-- Wiki: [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki)
-- Topic: current marketplace policy, return window, category restrictions and consumer protection rules
-- Suggested sources: official marketplace policy center, consumer protection authority, merchant service agreement
-- Source log: [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-018 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
-```
-
-### TICKET-SRC-019
-
-- Wiki: [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki)
-- Topic: current product certification, recall, safety notice and warranty terms
-- Suggested sources: brand official website, regulator recall database, warranty document
-- Source log: [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
-```
-
-### TICKET-SRC-020
-
-- Wiki: [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki)
-- Topic: current product price, stock, promotion, shipping fee and delivery ETA
-- Suggested sources: platform product page, merchant backend, carrier tracking system
-- Source log: [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
 ```
 
 ## Post-Update Commands

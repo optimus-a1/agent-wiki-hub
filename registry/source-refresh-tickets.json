@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "passed": true,
   "playbook": "registry/source-refresh-playbook.json",
   "ticket_count": 35,
   "wave_counts": {
-    "wave-1": 13,
-    "wave-2": 12,
+    "wave-1": 22,
+    "wave-2": 3,
     "wave-3": 10
   },
   "wiki_counts": {
@@ -43,7 +43,7 @@
       "domain": "web3_research",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "web3_project_status",
       "topic": "current contract addresses, wallet warnings, scam reports and signing risks",
       "source_policy": [
@@ -153,7 +153,7 @@
       "domain": "web3_research",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "policy_or_regulation",
       "topic": "current project status, official links, task rules, snapshot and eligibility",
       "source_policy": [
@@ -263,7 +263,7 @@
       "domain": "web3_research",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "web3_project_status",
       "topic": "current token launch, TGE, funding, exchange listing and airdrop allocation",
       "source_policy": [
@@ -373,7 +373,7 @@
       "domain": "finance",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "market_or_platform_data",
       "topic": "current fees, funding rates, margin rules, tax rules and trading API parameters",
       "source_policy": [
@@ -484,7 +484,7 @@
       "domain": "finance",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "policy_or_regulation",
       "topic": "current legal, regulatory or suitability requirements for financial products",
       "source_policy": [
@@ -595,7 +595,7 @@
       "domain": "finance",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "market_or_platform_data",
       "topic": "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity",
       "source_policy": [
@@ -706,7 +706,7 @@
       "domain": "finance",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "general_current_fact",
       "topic": "latest financial statements, filings, restatements and audit opinions",
       "source_policy": [
@@ -817,7 +817,7 @@
       "domain": "health_education",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "medical_guidance",
       "topic": "current clinical guidelines, drug labels, dosage, contraindications and safety warnings",
       "source_policy": [
@@ -927,7 +927,7 @@
       "domain": "health_education",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "medical_guidance",
       "topic": "current public health guidance, screening recommendations and nutrition/exercise guidelines",
       "source_policy": [
@@ -1037,7 +1037,7 @@
       "domain": "legal_information",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "policy_or_regulation",
       "topic": "current platform agreements, data processing terms and consumer protection rules",
       "source_policy": [
@@ -1147,7 +1147,7 @@
       "domain": "legal_information",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "policy_or_regulation",
       "topic": "current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements",
       "source_policy": [
@@ -1257,7 +1257,7 @@
       "domain": "defensive_security",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "security_advisory",
       "topic": "current CVEs, vendor advisories, patches, dependency versions and exploit status",
       "source_policy": [
@@ -1367,7 +1367,7 @@
       "domain": "defensive_security",
       "risk_level": "high",
       "freshness_requirement": "high",
-      "priority_score": 8,
+      "priority_score": 9,
       "category": "policy_or_regulation",
       "topic": "current security tool rules, detection signatures, cloud defaults and compliance requirements",
       "source_policy": [
@@ -1471,13 +1471,13 @@
       "ticket_id": "TICKET-SRC-014",
       "task_id": "SRC-014",
       "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
       "wiki": "customs-agent-wiki",
       "domain": "customs_trade_documents",
       "risk_level": "medium",
       "freshness_requirement": "high",
-      "priority_score": 7,
+      "priority_score": 8,
       "category": "market_or_platform_data",
       "topic": "exchange rates, tariff rates, tax rates and destination-specific fees",
       "source_policy": [
@@ -1578,13 +1578,13 @@
       "ticket_id": "TICKET-SRC-015",
       "task_id": "SRC-015",
       "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
       "wiki": "customs-agent-wiki",
       "domain": "customs_trade_documents",
       "risk_level": "medium",
       "freshness_requirement": "high",
-      "priority_score": 7,
+      "priority_score": 8,
       "category": "general_current_fact",
       "topic": "latest HS codes, customs supervision conditions and declaration elements",
       "source_policy": [
@@ -1685,13 +1685,13 @@
       "ticket_id": "TICKET-SRC-016",
       "task_id": "SRC-016",
       "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
       "wiki": "customs-agent-wiki",
       "domain": "customs_trade_documents",
       "risk_level": "medium",
       "freshness_requirement": "high",
-      "priority_score": 7,
+      "priority_score": 8,
       "category": "policy_or_regulation",
       "topic": "latest import/export policy, inspection and quarantine requirements",
       "source_policy": [
@@ -1792,13 +1792,13 @@
       "ticket_id": "TICKET-SRC-017",
       "task_id": "SRC-017",
       "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
       "wiki": "customs-agent-wiki",
       "domain": "customs_trade_documents",
       "risk_level": "medium",
       "freshness_requirement": "high",
-      "priority_score": 7,
+      "priority_score": 8,
       "category": "technical_docs",
       "topic": "latest platform OCR model parameters and document template behavior",
       "source_policy": [
@@ -1899,13 +1899,13 @@
       "ticket_id": "TICKET-SRC-018",
       "task_id": "SRC-018",
       "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
       "wiki": "ecommerce-agent-wiki",
       "domain": "ecommerce",
       "risk_level": "medium",
       "freshness_requirement": "high",
-      "priority_score": 7,
+      "priority_score": 8,
       "category": "policy_or_regulation",
       "topic": "current marketplace policy, return window, category restrictions and consumer protection rules",
       "source_policy": [
@@ -2006,13 +2006,13 @@
       "ticket_id": "TICKET-SRC-019",
       "task_id": "SRC-019",
       "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
       "wiki": "ecommerce-agent-wiki",
       "domain": "ecommerce",
       "risk_level": "medium",
       "freshness_requirement": "high",
-      "priority_score": 7,
+      "priority_score": 8,
       "category": "general_current_fact",
       "topic": "current product certification, recall, safety notice and warranty terms",
       "source_policy": [
@@ -2113,13 +2113,13 @@
       "ticket_id": "TICKET-SRC-020",
       "task_id": "SRC-020",
       "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
       "wiki": "ecommerce-agent-wiki",
       "domain": "ecommerce",
       "risk_level": "medium",
       "freshness_requirement": "high",
-      "priority_score": 7,
+      "priority_score": 8,
       "category": "market_or_platform_data",
       "topic": "current product price, stock, promotion, shipping fee and delivery ETA",
       "source_policy": [
@@ -2220,6 +2220,220 @@
       "ticket_id": "TICKET-SRC-021",
       "task_id": "SRC-021",
       "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "technical_docs",
+      "topic": "current dataset availability, license, model weights and code repository status",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: official dataset page, repository release notes, model card.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "official dataset page",
+        "repository release notes",
+        "model card"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/research-agent-wiki/sources/source-notes.md",
+        "wikis/research-agent-wiki/sources/source-refresh-log.md",
+        "wikis/research-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: official dataset page, repository release notes, model card.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.",
+        "Keep source traceability, limitations, and uncertainty visible.",
+        "Mark newest papers, datasets, leaderboards, and repositories as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-021",
+        "ticket_id": "TICKET-SRC-021",
+        "topic": "current dataset availability, license, model weights and code repository status",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/research-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "status": "open_pending_source_refresh",
+      "wave": "wave-1",
+      "target_window": "refresh first; do not use for current-fact answers until verified",
+      "wiki": "research-agent-wiki",
+      "domain": "research",
+      "risk_level": "medium",
+      "freshness_requirement": "high",
+      "priority_score": 8,
+      "category": "general_current_fact",
+      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+      "source_policy": [
+        "Prefer official, primary, dated sources.",
+        "Start from suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
+        "Do not use unsourced summaries as the only authority.",
+        "Record publication/update date and access date."
+      ],
+      "suggested_sources": [
+        "publisher page",
+        "arXiv or conference page",
+        "official benchmark leaderboard"
+      ],
+      "required_reading": [
+        "wikis/research-agent-wiki/AGENTS.md",
+        "wikis/research-agent-wiki/manifest.yaml",
+        "wikis/research-agent-wiki/README.md",
+        "wikis/research-agent-wiki/rules/",
+        "wikis/research-agent-wiki/sources/source-notes.md"
+      ],
+      "content_targets": [
+        "wikis/research-agent-wiki/sources/source-notes.md",
+        "wikis/research-agent-wiki/sources/source-refresh-log.md",
+        "wikis/research-agent-wiki/update-log.md",
+        "docs/SOURCE_UPDATE_QUEUE.md",
+        "registry/source-update-queue.json"
+      ],
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "safety_checks": [
+        "Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.",
+        "Keep source traceability, limitations, and uncertainty visible.",
+        "Mark newest papers, datasets, leaderboards, and repositories as source-gated."
+      ],
+      "evidence_fields": [
+        "task_id",
+        "ticket_id",
+        "topic",
+        "status",
+        "verified_on",
+        "source_title",
+        "source_publisher",
+        "source_url_or_reference",
+        "source_published_or_updated",
+        "source_accessed_on",
+        "evidence_summary",
+        "affected_pages",
+        "confidence",
+        "remaining_uncertainty",
+        "human_reviewer",
+        "follow_up"
+      ],
+      "evidence_template": {
+        "task_id": "SRC-022",
+        "ticket_id": "TICKET-SRC-022",
+        "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
+        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+        "verified_on": "YYYY-MM-DD",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "YYYY-MM-DD",
+        "evidence_summary": "<what the source supports and what it does not support>",
+        "affected_pages": [
+          "wikis/research-agent-wiki/sources/source-notes.md"
+        ],
+        "confidence": "low | medium | high",
+        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+        "human_reviewer": "<required for high-risk tickets>",
+        "follow_up": "<next action or none>"
+      },
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ],
+      "human_confirmation_required": false
+    },
+    {
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
+      "status": "open_pending_source_refresh",
       "wave": "wave-2",
       "target_window": "refresh after wave-1 before operational rollout",
       "wiki": "nodeops-agent-wiki",
@@ -2295,8 +2509,8 @@
         "follow_up"
       ],
       "evidence_template": {
-        "task_id": "SRC-021",
-        "ticket_id": "TICKET-SRC-021",
+        "task_id": "SRC-023",
+        "ticket_id": "TICKET-SRC-023",
         "topic": "current OS package, Docker, systemd and kernel behavior",
         "status": "pending | verified | unchanged | still-needs-source-update | rejected",
         "verified_on": "YYYY-MM-DD",
@@ -2326,8 +2540,8 @@
       "human_confirmation_required": true
     },
     {
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "status": "open_pending_source_refresh",
       "wave": "wave-2",
       "target_window": "refresh after wave-1 before operational rollout",
@@ -2404,8 +2618,8 @@
         "follow_up"
       ],
       "evidence_template": {
-        "task_id": "SRC-022",
-        "ticket_id": "TICKET-SRC-022",
+        "task_id": "SRC-024",
+        "ticket_id": "TICKET-SRC-024",
         "topic": "current blockchain node client versions, network parameters and upgrade requirements",
         "status": "pending | verified | unchanged | still-needs-source-update | rejected",
         "verified_on": "YYYY-MM-DD",
@@ -2435,8 +2649,8 @@
       "human_confirmation_required": true
     },
     {
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "status": "open_pending_source_refresh",
       "wave": "wave-2",
       "target_window": "refresh after wave-1 before operational rollout",
@@ -2513,8 +2727,8 @@
         "follow_up"
       ],
       "evidence_template": {
-        "task_id": "SRC-023",
-        "ticket_id": "TICKET-SRC-023",
+        "task_id": "SRC-025",
+        "ticket_id": "TICKET-SRC-025",
         "topic": "current cloud provider limits, firewall behavior, billing and incident status",
         "status": "pending | verified | unchanged | still-needs-source-update | rejected",
         "verified_on": "YYYY-MM-DD",
@@ -2542,220 +2756,6 @@
         "python3 scripts/run_acceptance.py"
       ],
       "human_confirmation_required": true
-    },
-    {
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
-      "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
-      "wiki": "research-agent-wiki",
-      "domain": "research",
-      "risk_level": "medium",
-      "freshness_requirement": "high",
-      "priority_score": 7,
-      "category": "technical_docs",
-      "topic": "current dataset availability, license, model weights and code repository status",
-      "source_policy": [
-        "Prefer official, primary, dated sources.",
-        "Start from suggested source types: official dataset page, repository release notes, model card.",
-        "Do not use unsourced summaries as the only authority.",
-        "Record publication/update date and access date."
-      ],
-      "suggested_sources": [
-        "official dataset page",
-        "repository release notes",
-        "model card"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "content_targets": [
-        "wikis/research-agent-wiki/sources/source-notes.md",
-        "wikis/research-agent-wiki/sources/source-refresh-log.md",
-        "wikis/research-agent-wiki/update-log.md",
-        "docs/SOURCE_UPDATE_QUEUE.md",
-        "registry/source-update-queue.json"
-      ],
-      "verification_steps": [
-        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
-        "Start with suggested source types: official dataset page, repository release notes, model card.",
-        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
-        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
-        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
-        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
-        "Run validation, source queue generation, search index update, and acceptance checks after edits."
-      ],
-      "acceptance_criteria": [
-        "No current fact is written without a dated source note.",
-        "No API key, private key, cookie, credential, or private account data is recorded.",
-        "Any remaining uncertainty is explicitly marked needs-source-update.",
-        "The relevant update-log.md records the change."
-      ],
-      "safety_checks": [
-        "Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.",
-        "Keep source traceability, limitations, and uncertainty visible.",
-        "Mark newest papers, datasets, leaderboards, and repositories as source-gated."
-      ],
-      "evidence_fields": [
-        "task_id",
-        "ticket_id",
-        "topic",
-        "status",
-        "verified_on",
-        "source_title",
-        "source_publisher",
-        "source_url_or_reference",
-        "source_published_or_updated",
-        "source_accessed_on",
-        "evidence_summary",
-        "affected_pages",
-        "confidence",
-        "remaining_uncertainty",
-        "human_reviewer",
-        "follow_up"
-      ],
-      "evidence_template": {
-        "task_id": "SRC-024",
-        "ticket_id": "TICKET-SRC-024",
-        "topic": "current dataset availability, license, model weights and code repository status",
-        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
-        "verified_on": "YYYY-MM-DD",
-        "source_title": "<source title>",
-        "source_publisher": "<official publisher or authority>",
-        "source_url_or_reference": "<URL or local reference>",
-        "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "YYYY-MM-DD",
-        "evidence_summary": "<what the source supports and what it does not support>",
-        "affected_pages": [
-          "wikis/research-agent-wiki/sources/source-notes.md"
-        ],
-        "confidence": "low | medium | high",
-        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
-        "human_reviewer": "<required for high-risk tickets>",
-        "follow_up": "<next action or none>"
-      },
-      "post_update_commands": [
-        "python3 scripts/list_source_updates.py",
-        "python3 scripts/generate_source_refresh_playbook.py",
-        "python3 scripts/generate_source_refresh_tickets.py",
-        "python3 scripts/generate_source_refresh_logs.py",
-        "python3 scripts/audit_source_refresh_completion.py",
-        "python3 scripts/update_index.py",
-        "python3 scripts/run_acceptance.py"
-      ],
-      "human_confirmation_required": false
-    },
-    {
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
-      "status": "open_pending_source_refresh",
-      "wave": "wave-2",
-      "target_window": "refresh after wave-1 before operational rollout",
-      "wiki": "research-agent-wiki",
-      "domain": "research",
-      "risk_level": "medium",
-      "freshness_requirement": "high",
-      "priority_score": 7,
-      "category": "general_current_fact",
-      "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-      "source_policy": [
-        "Prefer official, primary, dated sources.",
-        "Start from suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
-        "Do not use unsourced summaries as the only authority.",
-        "Record publication/update date and access date."
-      ],
-      "suggested_sources": [
-        "publisher page",
-        "arXiv or conference page",
-        "official benchmark leaderboard"
-      ],
-      "required_reading": [
-        "wikis/research-agent-wiki/AGENTS.md",
-        "wikis/research-agent-wiki/manifest.yaml",
-        "wikis/research-agent-wiki/README.md",
-        "wikis/research-agent-wiki/rules/",
-        "wikis/research-agent-wiki/sources/source-notes.md"
-      ],
-      "content_targets": [
-        "wikis/research-agent-wiki/sources/source-notes.md",
-        "wikis/research-agent-wiki/sources/source-refresh-log.md",
-        "wikis/research-agent-wiki/update-log.md",
-        "docs/SOURCE_UPDATE_QUEUE.md",
-        "registry/source-update-queue.json"
-      ],
-      "verification_steps": [
-        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
-        "Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.",
-        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
-        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
-        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
-        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
-        "Run validation, source queue generation, search index update, and acceptance checks after edits."
-      ],
-      "acceptance_criteria": [
-        "No current fact is written without a dated source note.",
-        "No API key, private key, cookie, credential, or private account data is recorded.",
-        "Any remaining uncertainty is explicitly marked needs-source-update.",
-        "The relevant update-log.md records the change."
-      ],
-      "safety_checks": [
-        "Do not fabricate citations, abstracts, datasets, benchmark results, or model claims.",
-        "Keep source traceability, limitations, and uncertainty visible.",
-        "Mark newest papers, datasets, leaderboards, and repositories as source-gated."
-      ],
-      "evidence_fields": [
-        "task_id",
-        "ticket_id",
-        "topic",
-        "status",
-        "verified_on",
-        "source_title",
-        "source_publisher",
-        "source_url_or_reference",
-        "source_published_or_updated",
-        "source_accessed_on",
-        "evidence_summary",
-        "affected_pages",
-        "confidence",
-        "remaining_uncertainty",
-        "human_reviewer",
-        "follow_up"
-      ],
-      "evidence_template": {
-        "task_id": "SRC-025",
-        "ticket_id": "TICKET-SRC-025",
-        "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
-        "status": "pending | verified | unchanged | still-needs-source-update | rejected",
-        "verified_on": "YYYY-MM-DD",
-        "source_title": "<source title>",
-        "source_publisher": "<official publisher or authority>",
-        "source_url_or_reference": "<URL or local reference>",
-        "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "YYYY-MM-DD",
-        "evidence_summary": "<what the source supports and what it does not support>",
-        "affected_pages": [
-          "wikis/research-agent-wiki/sources/source-notes.md"
-        ],
-        "confidence": "low | medium | high",
-        "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
-        "human_reviewer": "<required for high-risk tickets>",
-        "follow_up": "<next action or none>"
-      },
-      "post_update_commands": [
-        "python3 scripts/list_source_updates.py",
-        "python3 scripts/generate_source_refresh_playbook.py",
-        "python3 scripts/generate_source_refresh_tickets.py",
-        "python3 scripts/generate_source_refresh_logs.py",
-        "python3 scripts/audit_source_refresh_completion.py",
-        "python3 scripts/update_index.py",
-        "python3 scripts/run_acceptance.py"
-      ],
-      "human_confirmation_required": false
     },
     {
       "ticket_id": "TICKET-SRC-026",

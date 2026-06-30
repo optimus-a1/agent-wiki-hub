@@ -1,6 +1,6 @@
 # Agent Wiki Hub Acceptance Report
 
-Generated: 2026-06-16
+Generated: 2026-06-30
 
 ## Summary
 
@@ -12,77 +12,77 @@ Generated: 2026-06-16
 
 | Step | Result | Command |
 | --- | --- | --- |
-| validate wiki structure and evals | PASS | `python.exe scripts/validate_wiki.py` |
-| check registry consistency | PASS | `python.exe scripts/check_registry_consistency.py` |
-| audit CI workflow | PASS | `python.exe scripts/audit_ci_workflow.py` |
-| audit page metadata | PASS | `python.exe scripts/audit_page_metadata.py` |
-| audit content coverage | PASS | `python.exe scripts/audit_content_coverage.py` |
-| check eval files | PASS | `python.exe scripts/check_eval_files.py` |
-| update search index | PASS | `python.exe scripts/update_index.py` |
-| generate knowledge density report | PASS | `python.exe scripts/generate_knowledge_density_report.py` |
-| audit knowledge density | PASS | `python.exe scripts/audit_knowledge_density.py` |
-| audit current fact leakage | PASS | `python.exe scripts/audit_current_fact_leakage.py` |
-| audit high risk boundaries | PASS | `python.exe scripts/audit_high_risk_boundaries.py` |
-| generate knowledge expansion summary | PASS | `python.exe scripts/generate_knowledge_expansion_summary.py` |
-| generate wiki MOC pages | PASS | `python.exe scripts/generate_wiki_moc_pages.py` |
-| generate Obsidian vault | PASS | `python.exe scripts/generate_obsidian_vault.py` |
-| generate Obsidian backlinks | PASS | `python.exe scripts/generate_obsidian_backlinks.py` |
-| generate Obsidian canvas | PASS | `python.exe scripts/generate_obsidian_canvas.py` |
-| audit Obsidian vault | PASS | `python.exe scripts/audit_obsidian_vault.py` |
-| collect dashboard data | PASS | `python.exe dashboard/scripts/collect_dashboard_data.py` |
-| audit dashboard | PASS | `python.exe scripts/audit_dashboard.py` |
-| generate ingestion report | PASS | `python.exe ingestion/generate_ingestion_report.py` |
-| audit ingestion pipeline | PASS | `python.exe scripts/audit_ingestion_pipeline.py` |
-| generate crawl report | PASS | `python.exe crawler/generate_crawl_report.py` |
-| classify candidate knowledge dry-run | PASS | `python.exe scripts/classify_candidate_knowledge.py --dry-run` |
-| promote stable knowledge dry-run | PASS | `python.exe scripts/promote_stable_knowledge.py --dry-run` |
-| generate source review from candidates dry-run | PASS | `python.exe scripts/generate_source_review_from_candidates.py --dry-run` |
-| audit crawler outputs | PASS | `python.exe scripts/audit_crawler_outputs.py` |
-| audit knowledge promotion | PASS | `python.exe scripts/audit_knowledge_promotion.py` |
-| audit RAG config | PASS | `python.exe scripts/audit_rag_config.py` |
-| audit secret leaks | PASS | `python.exe scripts/audit_secret_leaks.py` |
-| report wiki status | PASS | `python.exe scripts/report_wiki_status.py` |
-| list source updates | PASS | `python.exe scripts/list_source_updates.py` |
-| generate source refresh playbook | PASS | `python.exe scripts/generate_source_refresh_playbook.py` |
-| generate source refresh tickets | PASS | `python.exe scripts/generate_source_refresh_tickets.py` |
-| dry-run source evidence recorder | PASS | `python.exe scripts/record_source_evidence.py --ticket-id TICKET-SRC-006 --status pending --dry-run --allow-duplicate` |
-| generate source evidence packet importer | PASS | `python.exe scripts/import_source_evidence_packet.py` |
-| generate source evidence packet fixtures | PASS | `python.exe scripts/generate_source_evidence_packet_fixtures.py` |
-| generate source refresh logs | PASS | `python.exe scripts/generate_source_refresh_logs.py` |
-| audit source refresh completion | PASS | `python.exe scripts/audit_source_refresh_completion.py` |
-| audit source evidence quality | PASS | `python.exe scripts/audit_source_evidence_quality.py` |
-| audit safety boundaries | PASS | `python.exe scripts/audit_safety_boundaries.py` |
-| generate source refresh wave runner | PASS | `python.exe scripts/generate_source_refresh_wave_runner.py` |
-| generate source reviewer queue | PASS | `python.exe scripts/generate_source_reviewer_queue.py` |
-| generate source review session plan | PASS | `python.exe scripts/generate_source_review_session_plan.py` |
-| generate source review packet bundle | PASS | `python.exe scripts/generate_source_review_packet_bundle.py` |
-| generate source review packet classification | PASS | `python.exe scripts/generate_source_review_packet_classification.py` |
-| audit source review packets | PASS | `python.exe scripts/audit_source_review_packets.py` |
-| rehearse source review packet imports | PASS | `python.exe scripts/rehearse_source_review_packet_imports.py` |
-| generate source review readiness matrix | PASS | `python.exe scripts/generate_source_review_readiness_matrix.py` |
-| generate source review work orders | PASS | `python.exe scripts/generate_source_review_work_orders.py` |
-| dry-run source review packet bundle | PASS | `python.exe scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks --allow-duplicate` |
-| generate source refresh dashboard | PASS | `python.exe scripts/generate_source_refresh_dashboard.py` |
-| pack wikis for navigation | PASS | `python.exe scripts/pack_wikis.py` |
-| generate hub navigation | PASS | `python.exe scripts/generate_hub_navigation.py` |
-| generate agent routing cards | PASS | `python.exe scripts/generate_agent_routing_cards.py` |
-| generate agent handoff | PASS | `python.exe scripts/generate_agent_handoff.py` |
-| audit links | PASS | `python.exe scripts/audit_links.py` |
-| route query: risk control backtest paper trading | PASS | `python.exe scripts/route_wiki.py --query risk control backtest paper trading --json` |
-| route query: field extraction invoice packing list | PASS | `python.exe scripts/route_wiki.py --query field extraction invoice packing list --json` |
-| route query: defensive security hardening | PASS | `python.exe scripts/route_wiki.py --query defensive security hardening --json` |
-| search finance-agent-wiki: risk control | PASS | `python.exe scripts/search_wiki.py --query risk control --wiki finance-agent-wiki` |
-| search customs-agent-wiki: field extraction | PASS | `python.exe scripts/search_wiki.py --query field extraction --wiki customs-agent-wiki` |
-| search finance-agent-wiki: paper trading real money | PASS | `python.exe scripts/search_wiki.py --query paper trading real money --wiki finance-agent-wiki` |
-| search customs-agent-wiki: INV-EXAMPLE-001 evidence confidence | PASS | `python.exe scripts/search_wiki.py --query INV-EXAMPLE-001 evidence confidence --wiki customs-agent-wiki` |
-| search agent-engineering-wiki: needs-source-update topics | PASS | `python.exe scripts/search_wiki.py --query needs-source-update topics --wiki agent-engineering-wiki` |
-| search security-agent-wiki: bypass login Authorization header | PASS | `python.exe scripts/search_wiki.py --query bypass login Authorization header --wiki security-agent-wiki` |
-| pack wikis | PASS | `python.exe scripts/pack_wikis.py` |
-| audit pack integrity | PASS | `python.exe scripts/audit_pack_integrity.py` |
-| generate release notes | PASS | `python.exe scripts/generate_release_notes.py` |
-| generate change summary | PASS | `python.exe scripts/generate_change_summary.py` |
-| pack wikis with acceptance report | PASS | `python.exe scripts/pack_wikis.py` |
-| audit final package integrity | PASS | `python.exe scripts/audit_pack_integrity.py` |
+| validate wiki structure and evals | PASS | `python scripts/validate_wiki.py` |
+| check registry consistency | PASS | `python scripts/check_registry_consistency.py` |
+| audit CI workflow | PASS | `python scripts/audit_ci_workflow.py` |
+| audit page metadata | PASS | `python scripts/audit_page_metadata.py` |
+| audit content coverage | PASS | `python scripts/audit_content_coverage.py` |
+| check eval files | PASS | `python scripts/check_eval_files.py` |
+| update search index | PASS | `python scripts/update_index.py` |
+| generate knowledge density report | PASS | `python scripts/generate_knowledge_density_report.py` |
+| audit knowledge density | PASS | `python scripts/audit_knowledge_density.py` |
+| audit current fact leakage | PASS | `python scripts/audit_current_fact_leakage.py` |
+| audit high risk boundaries | PASS | `python scripts/audit_high_risk_boundaries.py` |
+| generate knowledge expansion summary | PASS | `python scripts/generate_knowledge_expansion_summary.py` |
+| generate wiki MOC pages | PASS | `python scripts/generate_wiki_moc_pages.py` |
+| generate Obsidian vault | PASS | `python scripts/generate_obsidian_vault.py` |
+| generate Obsidian backlinks | PASS | `python scripts/generate_obsidian_backlinks.py` |
+| generate Obsidian canvas | PASS | `python scripts/generate_obsidian_canvas.py` |
+| audit Obsidian vault | PASS | `python scripts/audit_obsidian_vault.py` |
+| collect dashboard data | PASS | `python dashboard/scripts/collect_dashboard_data.py` |
+| audit dashboard | PASS | `python scripts/audit_dashboard.py` |
+| generate ingestion report | PASS | `python ingestion/generate_ingestion_report.py` |
+| audit ingestion pipeline | PASS | `python scripts/audit_ingestion_pipeline.py` |
+| generate crawl report | PASS | `python crawler/generate_crawl_report.py` |
+| classify candidate knowledge dry-run | PASS | `python scripts/classify_candidate_knowledge.py --dry-run` |
+| promote stable knowledge dry-run | PASS | `python scripts/promote_stable_knowledge.py --dry-run` |
+| generate source review from candidates dry-run | PASS | `python scripts/generate_source_review_from_candidates.py --dry-run` |
+| audit crawler outputs | PASS | `python scripts/audit_crawler_outputs.py` |
+| audit knowledge promotion | PASS | `python scripts/audit_knowledge_promotion.py` |
+| audit RAG config | PASS | `python scripts/audit_rag_config.py` |
+| audit secret leaks | PASS | `python scripts/audit_secret_leaks.py` |
+| report wiki status | PASS | `python scripts/report_wiki_status.py` |
+| list source updates | PASS | `python scripts/list_source_updates.py` |
+| generate source refresh playbook | PASS | `python scripts/generate_source_refresh_playbook.py` |
+| generate source refresh tickets | PASS | `python scripts/generate_source_refresh_tickets.py` |
+| dry-run source evidence recorder | PASS | `python scripts/record_source_evidence.py --ticket-id TICKET-SRC-006 --status pending --dry-run --allow-duplicate` |
+| generate source evidence packet importer | PASS | `python scripts/import_source_evidence_packet.py` |
+| generate source evidence packet fixtures | PASS | `python scripts/generate_source_evidence_packet_fixtures.py` |
+| generate source refresh logs | PASS | `python scripts/generate_source_refresh_logs.py` |
+| audit source refresh completion | PASS | `python scripts/audit_source_refresh_completion.py` |
+| audit source evidence quality | PASS | `python scripts/audit_source_evidence_quality.py` |
+| audit safety boundaries | PASS | `python scripts/audit_safety_boundaries.py` |
+| generate source refresh wave runner | PASS | `python scripts/generate_source_refresh_wave_runner.py` |
+| generate source reviewer queue | PASS | `python scripts/generate_source_reviewer_queue.py` |
+| generate source review session plan | PASS | `python scripts/generate_source_review_session_plan.py` |
+| generate source review packet bundle | PASS | `python scripts/generate_source_review_packet_bundle.py` |
+| generate source review packet classification | PASS | `python scripts/generate_source_review_packet_classification.py` |
+| audit source review packets | PASS | `python scripts/audit_source_review_packets.py` |
+| rehearse source review packet imports | PASS | `python scripts/rehearse_source_review_packet_imports.py` |
+| generate source review readiness matrix | PASS | `python scripts/generate_source_review_readiness_matrix.py` |
+| generate source review work orders | PASS | `python scripts/generate_source_review_work_orders.py` |
+| dry-run source review packet bundle | PASS | `python scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks --allow-duplicate` |
+| generate source refresh dashboard | PASS | `python scripts/generate_source_refresh_dashboard.py` |
+| pack wikis for navigation | PASS | `python scripts/pack_wikis.py` |
+| generate hub navigation | PASS | `python scripts/generate_hub_navigation.py` |
+| generate agent routing cards | PASS | `python scripts/generate_agent_routing_cards.py` |
+| generate agent handoff | PASS | `python scripts/generate_agent_handoff.py` |
+| audit links | PASS | `python scripts/audit_links.py` |
+| route query: risk control backtest paper trading | PASS | `python scripts/route_wiki.py --query risk control backtest paper trading --json` |
+| route query: field extraction invoice packing list | PASS | `python scripts/route_wiki.py --query field extraction invoice packing list --json` |
+| route query: defensive security hardening | PASS | `python scripts/route_wiki.py --query defensive security hardening --json` |
+| search finance-agent-wiki: risk control | PASS | `python scripts/search_wiki.py --query risk control --wiki finance-agent-wiki` |
+| search customs-agent-wiki: field extraction | PASS | `python scripts/search_wiki.py --query field extraction --wiki customs-agent-wiki` |
+| search finance-agent-wiki: paper trading real money | PASS | `python scripts/search_wiki.py --query paper trading real money --wiki finance-agent-wiki` |
+| search customs-agent-wiki: INV-EXAMPLE-001 evidence confidence | PASS | `python scripts/search_wiki.py --query INV-EXAMPLE-001 evidence confidence --wiki customs-agent-wiki` |
+| search agent-engineering-wiki: needs-source-update topics | PASS | `python scripts/search_wiki.py --query needs-source-update topics --wiki agent-engineering-wiki` |
+| search security-agent-wiki: bypass login Authorization header | PASS | `python scripts/search_wiki.py --query bypass login Authorization header --wiki security-agent-wiki` |
+| pack wikis | PASS | `python scripts/pack_wikis.py` |
+| audit pack integrity | PASS | `python scripts/audit_pack_integrity.py` |
+| generate release notes | PASS | `python scripts/generate_release_notes.py` |
+| generate change summary | PASS | `python scripts/generate_change_summary.py` |
+| pack wikis with acceptance report | PASS | `python scripts/pack_wikis.py` |
+| audit final package integrity | PASS | `python scripts/audit_pack_integrity.py` |
 
 ## Command Output
 
@@ -95,32 +95,32 @@ VALIDATION PASSED (247 eval tests)
 ### check registry consistency - PASS
 
 ```text
-Wrote docs\REGISTRY_CONSISTENCY.md
-Wrote registry\registry-consistency.json
+Wrote docs/REGISTRY_CONSISTENCY.md
+Wrote registry/registry-consistency.json
 REGISTRY CONSISTENCY PASSED (234 checks)
 ```
 
 ### audit CI workflow - PASS
 
 ```text
-Wrote docs\CI_AUDIT.md
-Wrote registry\ci-audit.json
+Wrote docs/CI_AUDIT.md
+Wrote registry/ci-audit.json
 CI WORKFLOW AUDIT PASSED (11 checks)
 ```
 
 ### audit page metadata - PASS
 
 ```text
-Wrote docs\PAGE_METADATA_AUDIT.md
-Wrote registry\page-metadata-audit.json
+Wrote docs/PAGE_METADATA_AUDIT.md
+Wrote registry/page-metadata-audit.json
 PAGE METADATA AUDIT PASSED (548 pages)
 ```
 
 ### audit content coverage - PASS
 
 ```text
-Wrote docs\COVERAGE_AUDIT.md
-Wrote registry\coverage-audit.json
+Wrote docs/COVERAGE_AUDIT.md
+Wrote registry/coverage-audit.json
 CONTENT COVERAGE AUDIT PASSED (51 topics)
 ```
 
@@ -133,7 +133,7 @@ EVAL CHECK PASSED (247 tests)
 ### update search index - PASS
 
 ```text
-Indexed 668 docs -> index\search_index.json
+Indexed 668 docs -> index/search_index.json
 ```
 
 ### generate knowledge density report - PASS
@@ -265,37 +265,37 @@ RAG CONFIG AUDIT PASSED (1 warnings)
 ### audit secret leaks - PASS
 
 ```text
-SECRET LEAK AUDIT PASSED (2 findings, 0 blocking)
+SECRET LEAK AUDIT PASSED (0 findings, 0 blocking)
 ```
 
 ### report wiki status - PASS
 
 ```text
-Wrote docs\WIKI_STATUS.md
-Wrote registry\wiki-status.json
+Wrote docs/WIKI_STATUS.md
+Wrote registry/wiki-status.json
 ```
 
 ### list source updates - PASS
 
 ```text
-Wrote docs\SOURCE_UPDATE_QUEUE.md
-Wrote registry\source-update-queue.json
+Wrote docs/SOURCE_UPDATE_QUEUE.md
+Wrote registry/source-update-queue.json
 Queued 35 source-update topics
 ```
 
 ### generate source refresh playbook - PASS
 
 ```text
-Wrote docs\SOURCE_REFRESH_PLAYBOOK.md
-Wrote registry\source-refresh-playbook.json
+Wrote docs/SOURCE_REFRESH_PLAYBOOK.md
+Wrote registry/source-refresh-playbook.json
 SOURCE REFRESH PLAYBOOK GENERATED (35 tasks)
 ```
 
 ### generate source refresh tickets - PASS
 
 ```text
-Wrote docs\SOURCE_REFRESH_TICKETS.md
-Wrote registry\source-refresh-tickets.json
+Wrote docs/SOURCE_REFRESH_TICKETS.md
+Wrote registry/source-refresh-tickets.json
 SOURCE REFRESH TICKETS GENERATED (35 tickets)
 ```
 
@@ -306,12 +306,12 @@ SOURCE REFRESH TICKETS GENERATED (35 tickets)
   ticket_id: TICKET-SRC-006
   topic: "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity"
   status: pending
-  verified_on: 2026-06-16
+  verified_on: 2026-06-30
   source_title: ""
   source_publisher: ""
   source_url_or_reference: ""
   source_published_or_updated: "unknown"
-  source_accessed_on: 2026-06-16
+  source_accessed_on: 2026-06-30
   evidence_summary: ""
   affected_pages:
     - wikis/finance-agent-wiki/sources/source-notes.md
@@ -324,16 +324,16 @@ SOURCE REFRESH TICKETS GENERATED (35 tickets)
 ### generate source evidence packet importer - PASS
 
 ```text
-Wrote docs\SOURCE_EVIDENCE_PACKET_IMPORTER.md
-Wrote registry\source-evidence-packet-importer.json
+Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md
+Wrote registry/source-evidence-packet-importer.json
 SOURCE EVIDENCE PACKET IMPORTER READY (no packet supplied)
 ```
 
 ### generate source evidence packet fixtures - PASS
 
 ```text
-Wrote docs\SOURCE_EVIDENCE_PACKET_FIXTURES.md
-Wrote registry\source-evidence-packet-fixtures.json
+Wrote docs/SOURCE_EVIDENCE_PACKET_FIXTURES.md
+Wrote registry/source-evidence-packet-fixtures.json
 Wrote 8 fixtures to registry/source-evidence-fixtures
 SOURCE EVIDENCE PACKET FIXTURES GENERATED
 ```
@@ -341,182 +341,182 @@ SOURCE EVIDENCE PACKET FIXTURES GENERATED
 ### generate source refresh logs - PASS
 
 ```text
-Wrote docs\SOURCE_REFRESH_LOG_STATUS.md
-Wrote registry\source-refresh-log-status.json
+Wrote docs/SOURCE_REFRESH_LOG_STATUS.md
+Wrote registry/source-refresh-log-status.json
 SOURCE REFRESH LOGS READY (12 wikis)
 ```
 
 ### audit source refresh completion - PASS
 
 ```text
-Wrote docs\SOURCE_REFRESH_COMPLETION_AUDIT.md
-Wrote registry\source-refresh-completion-audit.json
+Wrote docs/SOURCE_REFRESH_COMPLETION_AUDIT.md
+Wrote registry/source-refresh-completion-audit.json
 SOURCE REFRESH COMPLETION AUDIT PASSED (35 open, 0 verified)
 ```
 
 ### audit source evidence quality - PASS
 
 ```text
-Wrote docs\SOURCE_EVIDENCE_QUALITY_AUDIT.md
-Wrote registry\source-evidence-quality-audit.json
+Wrote docs/SOURCE_EVIDENCE_QUALITY_AUDIT.md
+Wrote registry/source-evidence-quality-audit.json
 SOURCE EVIDENCE QUALITY AUDIT PASSED (13 entries, 0 issues)
 ```
 
 ### audit safety boundaries - PASS
 
 ```text
-Wrote docs\SAFETY_AUDIT.md
-Wrote registry\safety-audit.json
+Wrote docs/SAFETY_AUDIT.md
+Wrote registry/safety-audit.json
 SAFETY AUDIT PASSED (75 required checks)
 ```
 
 ### generate source refresh wave runner - PASS
 
 ```text
-Wrote docs\SOURCE_REFRESH_WAVE_RUNNER.md
-Wrote registry\source-refresh-wave-runner.json
+Wrote docs/SOURCE_REFRESH_WAVE_RUNNER.md
+Wrote registry/source-refresh-wave-runner.json
 SOURCE REFRESH WAVE RUNNER GENERATED (35 open, 35 selected)
 ```
 
 ### generate source reviewer queue - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEWER_QUEUE.md
-Wrote registry\source-reviewer-queue.json
+Wrote docs/SOURCE_REVIEWER_QUEUE.md
+Wrote registry/source-reviewer-queue.json
 SOURCE REVIEWER QUEUE GENERATED (35 open, 16 human gates)
 ```
 
 ### generate source review session plan - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEW_SESSION_PLAN.md
-Wrote registry\source-review-session-plan.json
-SOURCE REVIEW SESSION PLAN GENERATED (13 selected, 13 human gates)
+Wrote docs/SOURCE_REVIEW_SESSION_PLAN.md
+Wrote registry/source-review-session-plan.json
+SOURCE REVIEW SESSION PLAN GENERATED (22 selected, 13 human gates)
 ```
 
 ### generate source review packet bundle - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEW_PACKET_BUNDLE.md
-Wrote registry\source-review-packet-bundle.json
+Wrote docs/SOURCE_REVIEW_PACKET_BUNDLE.md
+Wrote registry/source-review-packet-bundle.json
 Wrote registry/source-review-packets/source-review-session-wave-1-pending.json
 Wrote registry/source-review-packets/source-review-session-wave-1-pending.jsonl
 Wrote registry/source-review-packets/source-review-session-wave-1-pending-checklist.md
-SOURCE REVIEW PACKET BUNDLE GENERATED (13 entries, 13 human gates)
+SOURCE REVIEW PACKET BUNDLE GENERATED (22 entries, 13 human gates)
 ```
 
 ### generate source review packet classification - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEW_PACKET_CLASSIFICATION.md
-Wrote registry\source-review-packet-classification.json
+Wrote docs/SOURCE_REVIEW_PACKET_CLASSIFICATION.md
+Wrote registry/source-review-packet-classification.json
 SOURCE REVIEW PACKET CLASSIFICATION PASSED (10 packets)
 ```
 
 ### audit source review packets - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEW_PACKET_AUDIT.md
-Wrote registry\source-review-packet-audit.json
-SOURCE REVIEW PACKET AUDIT PASSED (2 packets, 26 entries)
+Wrote docs/SOURCE_REVIEW_PACKET_AUDIT.md
+Wrote registry/source-review-packet-audit.json
+SOURCE REVIEW PACKET AUDIT PASSED (2 packets, 44 entries)
 ```
 
 ### rehearse source review packet imports - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEW_PACKET_REHEARSAL.md
-Wrote registry\source-review-packet-rehearsal.json
+Wrote docs/SOURCE_REVIEW_PACKET_REHEARSAL.md
+Wrote registry/source-review-packet-rehearsal.json
 SOURCE REVIEW PACKET REHEARSAL PASSED (2/2 dry-runs passed)
 ```
 
 ### generate source review readiness matrix - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEW_READINESS_MATRIX.md
-Wrote registry\source-review-readiness-matrix.json
-SOURCE REVIEW READINESS MATRIX PASSED (13 ready, 22 queued)
+Wrote docs/SOURCE_REVIEW_READINESS_MATRIX.md
+Wrote registry/source-review-readiness-matrix.json
+SOURCE REVIEW READINESS MATRIX PASSED (22 ready, 13 queued)
 ```
 
 ### generate source review work orders - PASS
 
 ```text
-Wrote docs\SOURCE_REVIEW_WORK_ORDERS.md
-Wrote registry\source-review-work-orders.json
-Wrote registry\source-review-work-orders\manifest.json
-SOURCE REVIEW WORK ORDERS GENERATED (13 work orders, 13 human gates)
+Wrote docs/SOURCE_REVIEW_WORK_ORDERS.md
+Wrote registry/source-review-work-orders.json
+Wrote registry/source-review-work-orders/manifest.json
+SOURCE REVIEW WORK ORDERS GENERATED (22 work orders, 13 human gates)
 ```
 
 ### dry-run source review packet bundle - PASS
 
 ```text
-Wrote docs\SOURCE_EVIDENCE_PACKET_IMPORTER.md
-Wrote registry\source-evidence-packet-importer.json
-SOURCE EVIDENCE PACKET DRY RUN (13 entries)
+Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md
+Wrote registry/source-evidence-packet-importer.json
+SOURCE EVIDENCE PACKET DRY RUN (22 entries)
 ```
 
 ### generate source refresh dashboard - PASS
 
 ```text
-Wrote docs\SOURCE_REFRESH_DASHBOARD.md
-Wrote registry\source-refresh-dashboard.json
+Wrote docs/SOURCE_REFRESH_DASHBOARD.md
+Wrote registry/source-refresh-dashboard.json
 SOURCE REFRESH DASHBOARD GENERATED (35 open, 0 verified)
 ```
 
 ### pack wikis for navigation - PASS
 
 ```text
-packed packs\agent-engineering-wiki.zip
-packed packs\airdrop-agent-wiki.zip
-packed packs\coding-agent-wiki.zip
-packed packs\content-agent-wiki.zip
-packed packs\customs-agent-wiki.zip
-packed packs\ecommerce-agent-wiki.zip
-packed packs\finance-agent-wiki.zip
-packed packs\health-agent-wiki.zip
-packed packs\legal-agent-wiki.zip
-packed packs\nodeops-agent-wiki.zip
-packed packs\research-agent-wiki.zip
-packed packs\security-agent-wiki.zip
-packed packs\agent-wiki-hub-all.zip
+packed packs/agent-engineering-wiki.zip
+packed packs/airdrop-agent-wiki.zip
+packed packs/coding-agent-wiki.zip
+packed packs/content-agent-wiki.zip
+packed packs/customs-agent-wiki.zip
+packed packs/ecommerce-agent-wiki.zip
+packed packs/finance-agent-wiki.zip
+packed packs/health-agent-wiki.zip
+packed packs/legal-agent-wiki.zip
+packed packs/nodeops-agent-wiki.zip
+packed packs/research-agent-wiki.zip
+packed packs/security-agent-wiki.zip
+packed packs/agent-wiki-hub-all.zip
 ```
 
 ### generate hub navigation - PASS
 
 ```text
-Wrote docs\HUB_NAVIGATION.md
-Wrote registry\hub-navigation.json
+Wrote docs/HUB_NAVIGATION.md
+Wrote registry/hub-navigation.json
 HUB NAVIGATION GENERATED (12 wikis)
 ```
 
 ### generate agent routing cards - PASS
 
 ```text
-Wrote docs\AGENT_ROUTING_CARDS.md
-Wrote registry\agent-routing-cards.json
+Wrote docs/AGENT_ROUTING_CARDS.md
+Wrote registry/agent-routing-cards.json
 AGENT ROUTING CARDS GENERATED (12 cards)
 ```
 
 ### generate agent handoff - PASS
 
 ```text
-Wrote docs\AGENT_HANDOFF.md
-Wrote registry\agent-handoff.json
+Wrote docs/AGENT_HANDOFF.md
+Wrote registry/agent-handoff.json
 AGENT HANDOFF GENERATED
 ```
 
 ### audit links - PASS
 
 ```text
-Wrote docs\LINK_AUDIT.md
-Wrote registry\link-audit.json
-LINK AUDIT PASSED (5265 references)
+Wrote docs/LINK_AUDIT.md
+Wrote registry/link-audit.json
+LINK AUDIT PASSED (5338 references)
 ```
 
 ### route query: risk control backtest paper trading - PASS
 
 ```text
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "query": "risk control backtest paper trading",
   "top_wiki": "finance-agent-wiki",
   "source_update_required": false,
@@ -693,7 +693,7 @@ LINK AUDIT PASSED (5265 references)
 
 ```text
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "query": "field extraction invoice packing list",
   "top_wiki": "customs-agent-wiki",
   "source_update_required": false,
@@ -816,7 +816,7 @@ LINK AUDIT PASSED (5265 references)
 
 ```text
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-30",
   "query": "defensive security hardening",
   "top_wiki": "security-agent-wiki",
   "source_update_required": false,
@@ -917,10 +917,10 @@ LINK AUDIT PASSED (5265 references)
     --- title: "OCR Field Confidence" wiki: "customs-agent-wiki" type: concept status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review:...
 [11] wikis/customs-agent-wiki/rules/field-provenance-required.md :: Field Provenance Required
     --- title: "Field Provenance Required" wiki: "customs-agent-wiki" type: rule status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_revie...
-[8] wikis/customs-agent-wiki/evals/stable-knowledge-evals.yaml :: stable-knowledge-evals
-    wiki: customs-agent-wiki updated: 2026-06-15 tests: - id: customs-agent-stable-001 question: "How should an agent use Commercial Invoice Structure while respecting Do Not Invent Missing Values?" expected_wiki: customs-ag...
 [8] wikis/customs-agent-wiki/MOC.md :: customs-agent-wiki MOC
     --- title: "customs-agent-wiki MOC" wiki: "customs-agent-wiki" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: f...
+[8] wikis/customs-agent-wiki/evals/stable-knowledge-evals.yaml :: stable-knowledge-evals
+    wiki: customs-agent-wiki updated: 2026-06-15 tests: - id: customs-agent-stable-001 question: "How should an agent use Commercial Invoice Structure while respecting Do Not Invent Missing Values?" expected_wiki: customs-ag...
 [4] wikis/customs-agent-wiki/rules/field-extraction-rules.md :: Customs Field Extraction Rules
     --- title: Customs Field Extraction Rules status: stable last_updated: 2026-05-27 risk_level: medium --- # Customs Field Extraction Rules ## Core fields - shipper / seller / exporter -> 发货人/卖方/出口商 - consignee / buyer / i...
 [3] wikis/customs-agent-wiki/update-log.md :: Update Log — Customs Document Agent Wiki
@@ -978,6 +978,8 @@ LINK AUDIT PASSED (5265 references)
     wiki: agent-engineering-wiki updated: 2026-05-27 tests: - id: agent-arch-001 question: "Agent 由什么组成？" expected_behavior: "说明模型、工具、知识、工作流、记忆、评测和安全边界。" - id: rag-quality-001 question: "如何评测 RAG？" expected_behavior: "覆盖召回、准...
 [3] wikis/agent-engineering-wiki/sources/source-notes.md :: Source Notes — Agent Engineering Wiki
     # Source Notes — Agent Engineering Wiki ## Policy 本文件记录需要外部来源、实时核验或权威确认的主题。 ## Needs source update - topic: current Codex Skill format, plugin behavior and tool capabilities status: needs-source-update suggested_sources:...
+[1] wikis/agent-engineering-wiki/README.md :: Knowledge Density Expansion v2.1
+    ## Knowledge Density Expansion v2.1 Generated on 2026-06-15 from model-synthesized stable knowledge. - Scope: long-lived concepts, rules, workflows, cases, prompts, and evals. - Boundary: no current facts, no authoritati...
 [1] wikis/agent-engineering-wiki/concepts/rag-knowledge-pack.md :: RAG and Knowledge Pack Foundations
     --- title: RAG and Knowledge Pack Foundations status: stable last_updated: 2026-05-27 risk_level: medium --- # RAG and Knowledge Pack Foundations ## Purpose 定义可被 Agent、RAG 系统和人类共同使用的知识包标准。 ## When to use 用于设计知识库、RAG 管线、检...
 [1] wikis/agent-engineering-wiki/evals/smoke-tests.yaml :: smoke-tests
@@ -986,8 +988,6 @@ LINK AUDIT PASSED (5265 references)
     id: agent-engineering-wiki name: Agent Engineering Wiki version: 0.1.0 language: zh-CN domain: ai_agent_engineering risk_level: medium freshness_requirement: medium description: "Agent 架构、RAG、知识包、Codex Skills、评测与安全边界知识库。...
 [1] wikis/agent-engineering-wiki/prompts/default-agent.md :: Default Agent Prompt
     --- title: Default Agent Prompt status: stable last_updated: 2026-05-26 risk_level: medium --- # Default Agent Prompt 你是 `Agent Engineering Wiki`。处理任务时必须： 1. 先读取本知识库的 `manifest.yaml`、`AGENTS.md`、`rules/`。 2. 使用稳定知识回答稳定问题...
-[1] wikis/agent-engineering-wiki/README.md :: Knowledge Density Expansion v2.1
-    ## Knowledge Density Expansion v2.1 Generated on 2026-06-15 from model-synthesized stable knowledge. - Scope: long-lived concepts, rules, workflows, cases, prompts, and evals. - Boundary: no current facts, no authoritati...
 ```
 
 ### search security-agent-wiki: bypass login Authorization header - PASS
@@ -999,6 +999,8 @@ LINK AUDIT PASSED (5265 references)
     --- title: "Authorization Required" wiki: "security-agent-wiki" type: rule status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review:...
 [9] wikis/security-agent-wiki/cases/sample-login-review.md :: Sample Defensive Login Review
     --- title: Sample Defensive Login Review status: stable last_updated: 2026-05-27 risk_level: high --- # Sample Defensive Login Review ## Purpose 提供一个合成登录接口防御性审查样例，验证 Agent 是否输出修复建议而非攻击步骤。 ## When to use 用于代码安全审查、上线前检查、权限...
+[2] wikis/security-agent-wiki/MOC.md :: security-agent-wiki MOC
+    --- title: "security-agent-wiki MOC" wiki: "security-agent-wiki" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review:...
 [2] wikis/security-agent-wiki/cases/case-committing-secrets.md :: Case Committing Secrets
     --- title: "Case Committing Secrets" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review...
 [2] wikis/security-agent-wiki/cases/case-exploit-request-refusal.md :: Case Exploit Request Refusal
@@ -1007,74 +1009,72 @@ LINK AUDIT PASSED (5265 references)
     --- title: "Case Log Redaction Success" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_rev...
 [2] wikis/security-agent-wiki/cases/case-patch-without-review.md :: Case Patch Without Review
     --- title: "Case Patch Without Review" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_revi...
-[2] wikis/security-agent-wiki/cases/case-running-unknown-script.md :: Case Running Unknown Script
-    --- title: "Case Running Unknown Script" wiki: "security-agent-wiki" type: case status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_re...
 ```
 
 ### pack wikis - PASS
 
 ```text
-packed packs\agent-engineering-wiki.zip
-packed packs\airdrop-agent-wiki.zip
-packed packs\coding-agent-wiki.zip
-packed packs\content-agent-wiki.zip
-packed packs\customs-agent-wiki.zip
-packed packs\ecommerce-agent-wiki.zip
-packed packs\finance-agent-wiki.zip
-packed packs\health-agent-wiki.zip
-packed packs\legal-agent-wiki.zip
-packed packs\nodeops-agent-wiki.zip
-packed packs\research-agent-wiki.zip
-packed packs\security-agent-wiki.zip
-packed packs\agent-wiki-hub-all.zip
+packed packs/agent-engineering-wiki.zip
+packed packs/airdrop-agent-wiki.zip
+packed packs/coding-agent-wiki.zip
+packed packs/content-agent-wiki.zip
+packed packs/customs-agent-wiki.zip
+packed packs/ecommerce-agent-wiki.zip
+packed packs/finance-agent-wiki.zip
+packed packs/health-agent-wiki.zip
+packed packs/legal-agent-wiki.zip
+packed packs/nodeops-agent-wiki.zip
+packed packs/research-agent-wiki.zip
+packed packs/security-agent-wiki.zip
+packed packs/agent-wiki-hub-all.zip
 ```
 
 ### audit pack integrity - PASS
 
 ```text
-Wrote docs\PACK_AUDIT.md
-Wrote registry\pack-audit.json
-PACK INTEGRITY PASSED (644 checks)
+Wrote docs/PACK_AUDIT.md
+Wrote registry/pack-audit.json
+PACK INTEGRITY PASSED (653 checks)
 ```
 
 ### generate release notes - PASS
 
 ```text
-Wrote docs\RELEASE_NOTES.md
-Wrote registry\release-manifest.json
+Wrote docs/RELEASE_NOTES.md
+Wrote registry/release-manifest.json
 RELEASE NOTES GENERATED (12 wikis, 13 packages)
 ```
 
 ### generate change summary - PASS
 
 ```text
-Wrote docs\CHANGE_SUMMARY.md
-Wrote registry\change-summary.json
+Wrote docs/CHANGE_SUMMARY.md
+Wrote registry/change-summary.json
 CHANGE SUMMARY GENERATED (12 wikis)
 ```
 
 ### pack wikis with acceptance report - PASS
 
 ```text
-packed packs\agent-engineering-wiki.zip
-packed packs\airdrop-agent-wiki.zip
-packed packs\coding-agent-wiki.zip
-packed packs\content-agent-wiki.zip
-packed packs\customs-agent-wiki.zip
-packed packs\ecommerce-agent-wiki.zip
-packed packs\finance-agent-wiki.zip
-packed packs\health-agent-wiki.zip
-packed packs\legal-agent-wiki.zip
-packed packs\nodeops-agent-wiki.zip
-packed packs\research-agent-wiki.zip
-packed packs\security-agent-wiki.zip
-packed packs\agent-wiki-hub-all.zip
+packed packs/agent-engineering-wiki.zip
+packed packs/airdrop-agent-wiki.zip
+packed packs/coding-agent-wiki.zip
+packed packs/content-agent-wiki.zip
+packed packs/customs-agent-wiki.zip
+packed packs/ecommerce-agent-wiki.zip
+packed packs/finance-agent-wiki.zip
+packed packs/health-agent-wiki.zip
+packed packs/legal-agent-wiki.zip
+packed packs/nodeops-agent-wiki.zip
+packed packs/research-agent-wiki.zip
+packed packs/security-agent-wiki.zip
+packed packs/agent-wiki-hub-all.zip
 ```
 
 ### audit final package integrity - PASS
 
 ```text
-Wrote docs\PACK_AUDIT.md
-Wrote registry\pack-audit.json
-PACK INTEGRITY PASSED (644 checks)
+Wrote docs/PACK_AUDIT.md
+Wrote registry/pack-audit.json
+PACK INTEGRITY PASSED (653 checks)
 ```
