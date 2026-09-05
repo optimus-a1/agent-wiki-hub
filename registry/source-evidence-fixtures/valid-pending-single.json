@@ -1,6 +1,6 @@
 {
   "packet_id": "valid-pending-single",
-  "created_on": "2026-06-30",
+  "created_on": "2026-09-05",
   "created_by": "fixture-generator",
   "description": "Minimal pending dry-run packet.",
   "dry_run_only": true,

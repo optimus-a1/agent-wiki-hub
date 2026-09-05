@@ -1,6 +1,6 @@
 # Agent Wiki Hub Acceptance Report
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Summary
 
@@ -306,12 +306,12 @@ SOURCE REFRESH TICKETS GENERATED (35 tickets)
   ticket_id: TICKET-SRC-006
   topic: "current market prices, OHLCV feeds, order book snapshots, spread, volume and liquidity"
   status: pending
-  verified_on: 2026-06-30
+  verified_on: 2026-09-05
   source_title: ""
   source_publisher: ""
   source_url_or_reference: ""
   source_published_or_updated: "unknown"
-  source_accessed_on: 2026-06-30
+  source_accessed_on: 2026-09-05
   evidence_summary: ""
   affected_pages:
     - wikis/finance-agent-wiki/sources/source-notes.md
@@ -391,7 +391,7 @@ SOURCE REVIEWER QUEUE GENERATED (35 open, 16 human gates)
 ```text
 Wrote docs/SOURCE_REVIEW_SESSION_PLAN.md
 Wrote registry/source-review-session-plan.json
-SOURCE REVIEW SESSION PLAN GENERATED (22 selected, 13 human gates)
+SOURCE REVIEW SESSION PLAN GENERATED (25 selected, 16 human gates)
 ```
 
 ### generate source review packet bundle - PASS
@@ -402,7 +402,7 @@ Wrote registry/source-review-packet-bundle.json
 Wrote registry/source-review-packets/source-review-session-wave-1-pending.json
 Wrote registry/source-review-packets/source-review-session-wave-1-pending.jsonl
 Wrote registry/source-review-packets/source-review-session-wave-1-pending-checklist.md
-SOURCE REVIEW PACKET BUNDLE GENERATED (22 entries, 13 human gates)
+SOURCE REVIEW PACKET BUNDLE GENERATED (25 entries, 16 human gates)
 ```
 
 ### generate source review packet classification - PASS
@@ -418,7 +418,7 @@ SOURCE REVIEW PACKET CLASSIFICATION PASSED (10 packets)
 ```text
 Wrote docs/SOURCE_REVIEW_PACKET_AUDIT.md
 Wrote registry/source-review-packet-audit.json
-SOURCE REVIEW PACKET AUDIT PASSED (2 packets, 44 entries)
+SOURCE REVIEW PACKET AUDIT PASSED (2 packets, 50 entries)
 ```
 
 ### rehearse source review packet imports - PASS
@@ -434,7 +434,7 @@ SOURCE REVIEW PACKET REHEARSAL PASSED (2/2 dry-runs passed)
 ```text
 Wrote docs/SOURCE_REVIEW_READINESS_MATRIX.md
 Wrote registry/source-review-readiness-matrix.json
-SOURCE REVIEW READINESS MATRIX PASSED (22 ready, 13 queued)
+SOURCE REVIEW READINESS MATRIX PASSED (25 ready, 10 queued)
 ```
 
 ### generate source review work orders - PASS
@@ -443,7 +443,7 @@ SOURCE REVIEW READINESS MATRIX PASSED (22 ready, 13 queued)
 Wrote docs/SOURCE_REVIEW_WORK_ORDERS.md
 Wrote registry/source-review-work-orders.json
 Wrote registry/source-review-work-orders/manifest.json
-SOURCE REVIEW WORK ORDERS GENERATED (22 work orders, 13 human gates)
+SOURCE REVIEW WORK ORDERS GENERATED (25 work orders, 16 human gates)
 ```
 
 ### dry-run source review packet bundle - PASS
@@ -451,7 +451,7 @@ SOURCE REVIEW WORK ORDERS GENERATED (22 work orders, 13 human gates)
 ```text
 Wrote docs/SOURCE_EVIDENCE_PACKET_IMPORTER.md
 Wrote registry/source-evidence-packet-importer.json
-SOURCE EVIDENCE PACKET DRY RUN (22 entries)
+SOURCE EVIDENCE PACKET DRY RUN (25 entries)
 ```
 
 ### generate source refresh dashboard - PASS
@@ -509,14 +509,14 @@ AGENT HANDOFF GENERATED
 ```text
 Wrote docs/LINK_AUDIT.md
 Wrote registry/link-audit.json
-LINK AUDIT PASSED (5338 references)
+LINK AUDIT PASSED (5469 references)
 ```
 
 ### route query: risk control backtest paper trading - PASS
 
 ```text
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "query": "risk control backtest paper trading",
   "top_wiki": "finance-agent-wiki",
   "source_update_required": false,
@@ -693,7 +693,7 @@ LINK AUDIT PASSED (5338 references)
 
 ```text
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "query": "field extraction invoice packing list",
   "top_wiki": "customs-agent-wiki",
   "source_update_required": false,
@@ -816,7 +816,7 @@ LINK AUDIT PASSED (5338 references)
 
 ```text
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "query": "defensive security hardening",
   "top_wiki": "security-agent-wiki",
   "source_update_required": false,
@@ -1034,7 +1034,7 @@ packed packs/agent-wiki-hub-all.zip
 ```text
 Wrote docs/PACK_AUDIT.md
 Wrote registry/pack-audit.json
-PACK INTEGRITY PASSED (653 checks)
+PACK INTEGRITY PASSED (656 checks)
 ```
 
 ### generate release notes - PASS
@@ -1076,5 +1076,5 @@ packed packs/agent-wiki-hub-all.zip
 ```text
 Wrote docs/PACK_AUDIT.md
 Wrote registry/pack-audit.json
-PACK INTEGRITY PASSED (653 checks)
+PACK INTEGRITY PASSED (656 checks)
 ```

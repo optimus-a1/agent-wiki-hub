@@ -1,6 +1,6 @@
 # Source Refresh Wave Runner
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Purpose
 
@@ -44,12 +44,12 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
 | `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
 | `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
+| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current platform agreements, data processing terms and consumer protection rules |
-| `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
-| `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
-| `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
 | +15 more | - | - | - | - | - | - |
 
 ## Batch Views
@@ -57,8 +57,8 @@ Plan source-refresh execution waves without certifying current facts.
 ### batch-wave-1
 
 - Title: wave-1 refresh batch
-- Tickets: 22
-- Human confirmation gates: 13
+- Tickets: 25
+- Human confirmation gates: 16
 - Description: Execute these tickets in wave order; keep current facts gated until evidence is recorded.
 
 | Ticket | Wiki | Priority | Wave | Risk | Human Review | Topic |
@@ -77,44 +77,44 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
 | `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
 | `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
+| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current platform agreements, data processing terms and consumer protection rules |
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-021` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
-| `TICKET-SRC-022` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| `TICKET-SRC-024` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
+| `TICKET-SRC-025` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
 
 ### batch-wave-2
 
 - Title: wave-2 refresh batch
-- Tickets: 3
-- Human confirmation gates: 3
-- Description: Execute these tickets in wave order; keep current facts gated until evidence is recorded.
-
-| Ticket | Wiki | Priority | Wave | Risk | Human Review | Topic |
-| --- | --- | --- | --- | --- | --- | --- |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
-
-### batch-wave-3
-
-- Title: wave-3 refresh batch
-- Tickets: 10
+- Tickets: 7
 - Human confirmation gates: 0
 - Description: Execute these tickets in wave order; keep current facts gated until evidence is recorded.
 
 | Ticket | Wiki | Priority | Wave | Risk | Human Review | Topic |
 | --- | --- | --- | --- | --- | --- | --- |
-| `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
-| `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
-| `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
-| `TICKET-SRC-029` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current OpenAI, Codex, GitHub or Vercel product behavior |
-| `TICKET-SRC-030` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current cloud platform build, deploy, runtime and pricing behavior |
-| `TICKET-SRC-031` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current dependency vulnerabilities and security advisories |
-| `TICKET-SRC-032` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current framework, library, CLI and API parameters |
+| `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
+| `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
+| `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
+| `TICKET-SRC-029` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current OpenAI, Codex, GitHub or Vercel product behavior |
+| `TICKET-SRC-030` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current cloud platform build, deploy, runtime and pricing behavior |
+| `TICKET-SRC-031` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current dependency vulnerabilities and security advisories |
+| `TICKET-SRC-032` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current framework, library, CLI and API parameters |
+
+### batch-wave-3
+
+- Title: wave-3 refresh batch
+- Tickets: 3
+- Human confirmation gates: 0
+- Description: Execute these tickets in wave order; keep current facts gated until evidence is recorded.
+
+| Ticket | Wiki | Priority | Wave | Risk | Human Review | Topic |
+| --- | --- | --- | --- | --- | --- | --- |
 | `TICKET-SRC-033` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current image, chart, dataset and quote licensing |
 | `TICKET-SRC-034` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current news, statistics, public quotes and social media claims |
 | `TICKET-SRC-035` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current publishing platform rules, format limits and content policies |
@@ -136,13 +136,13 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-015` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest HS codes, customs supervision conditions and declaration elements |
 | `TICKET-SRC-016` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest import/export policy, inspection and quarantine requirements |
 | `TICKET-SRC-017` | [customs-agent-wiki](../wikis/customs-agent-wiki) | P0 | wave-1 | medium | no | latest platform OCR model parameters and document template behavior |
-| `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
-| `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
-| `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
-| `TICKET-SRC-029` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current OpenAI, Codex, GitHub or Vercel product behavior |
-| `TICKET-SRC-030` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current cloud platform build, deploy, runtime and pricing behavior |
-| `TICKET-SRC-031` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current dependency vulnerabilities and security advisories |
-| `TICKET-SRC-032` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current framework, library, CLI and API parameters |
+| `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
+| `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
+| `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
+| `TICKET-SRC-029` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current OpenAI, Codex, GitHub or Vercel product behavior |
+| `TICKET-SRC-030` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current cloud platform build, deploy, runtime and pricing behavior |
+| `TICKET-SRC-031` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current dependency vulnerabilities and security advisories |
+| `TICKET-SRC-032` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current framework, library, CLI and API parameters |
 
 ### batch-p1
 
@@ -159,9 +159,9 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
 | `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
 | `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
+| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | `TICKET-SRC-033` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current image, chart, dataset and quote licensing |
 | `TICKET-SRC-034` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current news, statistics, public quotes and social media claims |
 | `TICKET-SRC-035` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current publishing platform rules, format limits and content policies |
@@ -181,8 +181,8 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-021` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
-| `TICKET-SRC-022` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| `TICKET-SRC-024` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
+| `TICKET-SRC-025` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
 
 ### batch-human-confirmation
 
@@ -200,15 +200,15 @@ Plan source-refresh execution waves without certifying current facts.
 | `TICKET-SRC-001` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current contract addresses, wallet warnings, scam reports and signing risks |
 | `TICKET-SRC-002` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current project status, official links, task rules, snapshot and eligibility |
 | `TICKET-SRC-003` | [airdrop-agent-wiki](../wikis/airdrop-agent-wiki) | P1 | wave-1 | high | yes | current token launch, TGE, funding, exchange listing and airdrop allocation |
+| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current platform agreements, data processing terms and consumer protection rules |
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 
 ## Selected Queue
 
@@ -230,24 +230,24 @@ No filters supplied; selected queue equals the full recommended open-ticket queu
 | `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current marketplace policy, return window, category restrictions and consumer protection rules |
 | `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product certification, recall, safety notice and warranty terms |
 | `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | current product price, stock, promotion, shipping fee and delivery ETA |
+| `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current OS package, Docker, systemd and kernel behavior |
+| `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
 | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current platform agreements, data processing terms and consumer protection rules |
 | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
 | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements |
-| `TICKET-SRC-021` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
-| `TICKET-SRC-022` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
-| `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current OS package, Docker, systemd and kernel behavior |
-| `TICKET-SRC-024` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| `TICKET-SRC-025` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-2 | high | yes | current cloud provider limits, firewall behavior, billing and incident status |
-| `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
-| `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
-| `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-3 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
-| `TICKET-SRC-029` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current OpenAI, Codex, GitHub or Vercel product behavior |
-| `TICKET-SRC-030` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current cloud platform build, deploy, runtime and pricing behavior |
-| `TICKET-SRC-031` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current dependency vulnerabilities and security advisories |
-| `TICKET-SRC-032` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-3 | medium | no | current framework, library, CLI and API parameters |
+| `TICKET-SRC-024` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | current dataset availability, license, model weights and code repository status |
+| `TICKET-SRC-025` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| `TICKET-SRC-026` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current Codex Skill format, plugin behavior and tool capabilities |
+| `TICKET-SRC-027` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current RAG frameworks, embedding models, vector databases and rerankers |
+| `TICKET-SRC-028` | [agent-engineering-wiki](../wikis/agent-engineering-wiki) | P0 | wave-2 | medium | no | current eval harnesses, model APIs and MCP/tool schemas |
+| `TICKET-SRC-029` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current OpenAI, Codex, GitHub or Vercel product behavior |
+| `TICKET-SRC-030` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current cloud platform build, deploy, runtime and pricing behavior |
+| `TICKET-SRC-031` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current dependency vulnerabilities and security advisories |
+| `TICKET-SRC-032` | [coding-agent-wiki](../wikis/coding-agent-wiki) | P0 | wave-2 | medium | no | current framework, library, CLI and API parameters |
 | `TICKET-SRC-033` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current image, chart, dataset and quote licensing |
 | `TICKET-SRC-034` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current news, statistics, public quotes and social media claims |
 | `TICKET-SRC-035` | [content-agent-wiki](../wikis/content-agent-wiki) | P1 | wave-3 | low | no | current publishing platform rules, format limits and content policies |
@@ -520,6 +520,63 @@ Record command template:
 python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
 ```
 
+### TICKET-SRC-021
+
+- Wiki: [nodeops-agent-wiki](../wikis/nodeops-agent-wiki)
+- Topic: current OS package, Docker, systemd and kernel behavior
+- Suggested sources: official documentation, local version output, release notes
+- Source log: [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
+```
+
+### TICKET-SRC-022
+
+- Wiki: [nodeops-agent-wiki](../wikis/nodeops-agent-wiki)
+- Topic: current blockchain node client versions, network parameters and upgrade requirements
+- Suggested sources: official client release notes, chain foundation announcement, node logs and version output
+- Source log: [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
+```
+
+### TICKET-SRC-023
+
+- Wiki: [nodeops-agent-wiki](../wikis/nodeops-agent-wiki)
+- Topic: current cloud provider limits, firewall behavior, billing and incident status
+- Suggested sources: cloud provider documentation, status page, account console
+- Source log: [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
+
+Dry-run evidence template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run
+```
+
+Record command template:
+
+```bash
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
+```
+
 ### TICKET-SRC-008
 
 - Wiki: [health-agent-wiki](../wikis/health-agent-wiki)
@@ -575,63 +632,6 @@ Record command template:
 
 ```bash
 python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-010 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
-```
-
-### TICKET-SRC-011
-
-- Wiki: [legal-agent-wiki](../wikis/legal-agent-wiki)
-- Topic: current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements
-- Suggested sources: official legal database, regulator website, licensed lawyer review
-- Source log: [source-refresh-log.md](../wikis/legal-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-011 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-011 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
-```
-
-### TICKET-SRC-012
-
-- Wiki: [security-agent-wiki](../wikis/security-agent-wiki)
-- Topic: current CVEs, vendor advisories, patches, dependency versions and exploit status
-- Suggested sources: vendor security advisory, official CVE record, package registry advisory
-- Source log: [source-refresh-log.md](../wikis/security-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-012 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-012 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
-```
-
-### TICKET-SRC-013
-
-- Wiki: [security-agent-wiki](../wikis/security-agent-wiki)
-- Topic: current security tool rules, detection signatures, cloud defaults and compliance requirements
-- Suggested sources: official tool documentation, cloud provider security docs, compliance authority or auditor guidance
-- Source log: [source-refresh-log.md](../wikis/security-agent-wiki/sources/source-refresh-log.md)
-
-Dry-run evidence template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status pending --dry-run
-```
-
-Record command template:
-
-```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
 ```
 
 ## Post-Update Commands

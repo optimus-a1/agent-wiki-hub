@@ -1,6 +1,6 @@
 # Source Review Work Orders
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Purpose
 
@@ -11,12 +11,12 @@ Convert ready source-review tickets into offline work orders for human or connec
 - Passed: yes
 - Current-fact ready: no
 - Source-review tickets: 35
-- Ready for source collection: 22
+- Ready for source collection: 25
 - Selected finalized tickets: 0
 - Selected verified tickets: 0
 - Source review phase: pre-import-or-in-progress
-- Work orders: 22
-- Human review gates: 13
+- Work orders: 25
+- Human review gates: 16
 - Work order directory: [source-review-work-orders](../registry/source-review-work-orders)
 - Work order manifest: [manifest.json](../registry/source-review-work-orders/manifest.json)
 
@@ -38,12 +38,15 @@ Convert ready source-review tickets into offline work orders for human or connec
 | [WORKORDER-TICKET-SRC-018](../registry/source-review-work-orders/TICKET-SRC-018.md) | `TICKET-SRC-018` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | ecommerce-policy-reviewer | current marketplace policy, return window, category restrictions and consumer protection rules |
 | [WORKORDER-TICKET-SRC-019](../registry/source-review-work-orders/TICKET-SRC-019.md) | `TICKET-SRC-019` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | ecommerce-policy-reviewer | current product certification, recall, safety notice and warranty terms |
 | [WORKORDER-TICKET-SRC-020](../registry/source-review-work-orders/TICKET-SRC-020.md) | `TICKET-SRC-020` | [ecommerce-agent-wiki](../wikis/ecommerce-agent-wiki) | P1 | wave-1 | medium | no | ecommerce-policy-reviewer | current product price, stock, promotion, shipping fee and delivery ETA |
+| [WORKORDER-TICKET-SRC-021](../registry/source-review-work-orders/TICKET-SRC-021.md) | `TICKET-SRC-021` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | operations-change-reviewer | current OS package, Docker, systemd and kernel behavior |
+| [WORKORDER-TICKET-SRC-022](../registry/source-review-work-orders/TICKET-SRC-022.md) | `TICKET-SRC-022` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | operations-change-reviewer | current blockchain node client versions, network parameters and upgrade requirements |
+| [WORKORDER-TICKET-SRC-023](../registry/source-review-work-orders/TICKET-SRC-023.md) | `TICKET-SRC-023` | [nodeops-agent-wiki](../wikis/nodeops-agent-wiki) | P1 | wave-1 | high | yes | operations-change-reviewer | current cloud provider limits, firewall behavior, billing and incident status |
 | [WORKORDER-TICKET-SRC-008](../registry/source-review-work-orders/TICKET-SRC-008.md) | `TICKET-SRC-008` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | clinical-safety-reviewer | current clinical guidelines, drug labels, dosage, contraindications and safety warnings |
 | [WORKORDER-TICKET-SRC-009](../registry/source-review-work-orders/TICKET-SRC-009.md) | `TICKET-SRC-009` | [health-agent-wiki](../wikis/health-agent-wiki) | P2 | wave-1 | high | yes | clinical-safety-reviewer | current public health guidance, screening recommendations and nutrition/exercise guidelines |
 | [WORKORDER-TICKET-SRC-010](../registry/source-review-work-orders/TICKET-SRC-010.md) | `TICKET-SRC-010` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | legal-counsel-reviewer | current platform agreements, data processing terms and consumer protection rules |
 | [WORKORDER-TICKET-SRC-011](../registry/source-review-work-orders/TICKET-SRC-011.md) | `TICKET-SRC-011` | [legal-agent-wiki](../wikis/legal-agent-wiki) | P2 | wave-1 | high | yes | legal-counsel-reviewer | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements |
-| [WORKORDER-TICKET-SRC-021](../registry/source-review-work-orders/TICKET-SRC-021.md) | `TICKET-SRC-021` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | research-methods-reviewer | current dataset availability, license, model weights and code repository status |
-| [WORKORDER-TICKET-SRC-022](../registry/source-review-work-orders/TICKET-SRC-022.md) | `TICKET-SRC-022` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | research-methods-reviewer | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| [WORKORDER-TICKET-SRC-024](../registry/source-review-work-orders/TICKET-SRC-024.md) | `TICKET-SRC-024` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | research-methods-reviewer | current dataset availability, license, model weights and code repository status |
+| [WORKORDER-TICKET-SRC-025](../registry/source-review-work-orders/TICKET-SRC-025.md) | `TICKET-SRC-025` | [research-agent-wiki](../wikis/research-agent-wiki) | P2 | wave-1 | medium | no | research-methods-reviewer | latest papers, preprints, revisions, citations and benchmark leaderboards |
 | [WORKORDER-TICKET-SRC-012](../registry/source-review-work-orders/TICKET-SRC-012.md) | `TICKET-SRC-012` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | defensive-security-reviewer | current CVEs, vendor advisories, patches, dependency versions and exploit status |
 | [WORKORDER-TICKET-SRC-013](../registry/source-review-work-orders/TICKET-SRC-013.md) | `TICKET-SRC-013` | [security-agent-wiki](../wikis/security-agent-wiki) | P2 | wave-1 | high | yes | defensive-security-reviewer | current security tool rules, detection signatures, cloud defaults and compliance requirements |
 
@@ -55,6 +58,7 @@ Convert ready source-review tickets into offline work orders for human or connec
 - finance-agent-wiki: 4
 - health-agent-wiki: 2
 - legal-agent-wiki: 2
+- nodeops-agent-wiki: 3
 - research-agent-wiki: 2
 - security-agent-wiki: 2
 
@@ -66,6 +70,7 @@ Convert ready source-review tickets into offline work orders for human or connec
 - ecommerce-policy-reviewer: 3
 - finance-risk-reviewer: 4
 - legal-counsel-reviewer: 2
+- operations-change-reviewer: 3
 - research-methods-reviewer: 2
 - web3-wallet-safety-reviewer: 3
 
@@ -101,11 +106,11 @@ python3 scripts/run_acceptance.py
 | Check | Result | Detail |
 | --- | --- | --- |
 | required local review artifacts exist | PASS | all required artifacts present |
-| readiness matrix passed | PASS | 22 ready rows |
-| ready tickets have reviewer cards | PASS | 22/22 work orders |
-| ready tickets have packet entries | PASS | 22/22 work orders |
-| work order files written | PASS | 22 work order files plus manifest |
-| human gates preserved | PASS | 13 human-gated work orders |
+| readiness matrix passed | PASS | 25 ready rows |
+| ready tickets have reviewer cards | PASS | 25/25 work orders |
+| ready tickets have packet entries | PASS | 25/25 work orders |
+| work order files written | PASS | 25 work order files plus manifest |
+| human gates preserved | PASS | 16 human-gated work orders |
 | current facts remain gated | PASS | current_fact_ready=false while source tickets remain open |
 
 ## Safety Boundary

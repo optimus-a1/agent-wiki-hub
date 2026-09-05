@@ -1,6 +1,6 @@
 # Source Refresh Tickets
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Purpose
 
@@ -44,21 +44,21 @@ These tickets turn source-refresh tasks into executable verification work. They 
 | TICKET-SRC-018 | wave-1 | ecommerce-agent-wiki | 8 | policy_or_regulation | no | current marketplace policy, return window, category restrictions and consumer protection rules |
 | TICKET-SRC-019 | wave-1 | ecommerce-agent-wiki | 8 | general_current_fact | no | current product certification, recall, safety notice and warranty terms |
 | TICKET-SRC-020 | wave-1 | ecommerce-agent-wiki | 8 | market_or_platform_data | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| TICKET-SRC-021 | wave-1 | research-agent-wiki | 8 | technical_docs | no | current dataset availability, license, model weights and code repository status |
-| TICKET-SRC-022 | wave-1 | research-agent-wiki | 8 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
-| TICKET-SRC-023 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
-| TICKET-SRC-024 | wave-2 | nodeops-agent-wiki | 7 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| TICKET-SRC-025 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
-| TICKET-SRC-026 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current Codex Skill format, plugin behavior and tool capabilities |
-| TICKET-SRC-027 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current RAG frameworks, embedding models, vector databases and rerankers |
-| TICKET-SRC-028 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current eval harnesses, model APIs and MCP/tool schemas |
-| TICKET-SRC-029 | wave-3 | coding-agent-wiki | 6 | general_current_fact | no | current OpenAI, Codex, GitHub or Vercel product behavior |
-| TICKET-SRC-030 | wave-3 | coding-agent-wiki | 6 | general_current_fact | no | current cloud platform build, deploy, runtime and pricing behavior |
-| TICKET-SRC-031 | wave-3 | coding-agent-wiki | 6 | security_advisory | no | current dependency vulnerabilities and security advisories |
-| TICKET-SRC-032 | wave-3 | coding-agent-wiki | 6 | technical_docs | no | current framework, library, CLI and API parameters |
-| TICKET-SRC-033 | wave-3 | content-agent-wiki | 5 | general_current_fact | no | current image, chart, dataset and quote licensing |
-| TICKET-SRC-034 | wave-3 | content-agent-wiki | 5 | general_current_fact | no | current news, statistics, public quotes and social media claims |
-| TICKET-SRC-035 | wave-3 | content-agent-wiki | 5 | policy_or_regulation | no | current publishing platform rules, format limits and content policies |
+| TICKET-SRC-021 | wave-1 | nodeops-agent-wiki | 8 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
+| TICKET-SRC-022 | wave-1 | nodeops-agent-wiki | 8 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| TICKET-SRC-023 | wave-1 | nodeops-agent-wiki | 8 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
+| TICKET-SRC-024 | wave-1 | research-agent-wiki | 8 | technical_docs | no | current dataset availability, license, model weights and code repository status |
+| TICKET-SRC-025 | wave-1 | research-agent-wiki | 8 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| TICKET-SRC-026 | wave-2 | agent-engineering-wiki | 7 | technical_docs | no | current Codex Skill format, plugin behavior and tool capabilities |
+| TICKET-SRC-027 | wave-2 | agent-engineering-wiki | 7 | technical_docs | no | current RAG frameworks, embedding models, vector databases and rerankers |
+| TICKET-SRC-028 | wave-2 | agent-engineering-wiki | 7 | technical_docs | no | current eval harnesses, model APIs and MCP/tool schemas |
+| TICKET-SRC-029 | wave-2 | coding-agent-wiki | 7 | general_current_fact | no | current OpenAI, Codex, GitHub or Vercel product behavior |
+| TICKET-SRC-030 | wave-2 | coding-agent-wiki | 7 | general_current_fact | no | current cloud platform build, deploy, runtime and pricing behavior |
+| TICKET-SRC-031 | wave-2 | coding-agent-wiki | 7 | security_advisory | no | current dependency vulnerabilities and security advisories |
+| TICKET-SRC-032 | wave-2 | coding-agent-wiki | 7 | technical_docs | no | current framework, library, CLI and API parameters |
+| TICKET-SRC-033 | wave-3 | content-agent-wiki | 6 | general_current_fact | no | current image, chart, dataset and quote licensing |
+| TICKET-SRC-034 | wave-3 | content-agent-wiki | 6 | general_current_fact | no | current news, statistics, public quotes and social media claims |
+| TICKET-SRC-035 | wave-3 | content-agent-wiki | 6 | policy_or_regulation | no | current publishing platform rules, format limits and content policies |
 
 ## Tickets
 
@@ -1474,7 +1474,217 @@ Evidence template:
 }
 ```
 
-#### TICKET-SRC-021 - research-agent-wiki
+#### TICKET-SRC-021 - nodeops-agent-wiki
+
+- Status: `open_pending_source_refresh`
+- Topic: current OS package, Docker, systemd and kernel behavior
+- Category: `general_current_fact`
+- Target window: refresh first; do not use for current-fact answers until verified
+- Human confirmation required: yes
+
+Required reading:
+
+- [AGENTS.md](../wikis/nodeops-agent-wiki/AGENTS.md)
+- [manifest.yaml](../wikis/nodeops-agent-wiki/manifest.yaml)
+- [README.md](../wikis/nodeops-agent-wiki/README.md)
+- [rules](../wikis/nodeops-agent-wiki/rules/)
+- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
+
+Source policy:
+
+- [ ] Prefer official, primary, dated sources.
+- [ ] Start from suggested source types: official documentation, local version output, release notes.
+- [ ] Do not use unsourced summaries as the only authority.
+- [ ] Record publication/update date and access date.
+- [ ] Require human review before moving this ticket to verified.
+
+Safety checks:
+
+- [ ] Require backup, rollback, and human confirmation for production changes.
+- [ ] Do not record infrastructure secrets, node keys, mnemonics, or account tokens.
+- [ ] Keep destructive operations out of automated instructions.
+
+Acceptance criteria:
+
+- [ ] No current fact is written without a dated source note.
+- [ ] No API key, private key, cookie, credential, or private account data is recorded.
+- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
+- [ ] The relevant update-log.md records the change.
+
+Content targets:
+
+- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
+- [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
+- [update-log.md](../wikis/nodeops-agent-wiki/update-log.md)
+- `docs/SOURCE_UPDATE_QUEUE.md`
+- `registry/source-update-queue.json`
+
+Evidence template:
+
+```json
+{
+  "task_id": "SRC-021",
+  "ticket_id": "TICKET-SRC-021",
+  "topic": "current OS package, Docker, systemd and kernel behavior",
+  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+  "verified_on": "YYYY-MM-DD",
+  "source_title": "<source title>",
+  "source_publisher": "<official publisher or authority>",
+  "source_url_or_reference": "<URL or local reference>",
+  "source_published_or_updated": "YYYY-MM-DD | unknown",
+  "source_accessed_on": "YYYY-MM-DD",
+  "evidence_summary": "<what the source supports and what it does not support>",
+  "affected_pages": [
+    "wikis/nodeops-agent-wiki/sources/source-notes.md"
+  ],
+  "confidence": "low | medium | high",
+  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+  "human_reviewer": "<required for high-risk tickets>",
+  "follow_up": "<next action or none>"
+}
+```
+
+#### TICKET-SRC-022 - nodeops-agent-wiki
+
+- Status: `open_pending_source_refresh`
+- Topic: current blockchain node client versions, network parameters and upgrade requirements
+- Category: `technical_docs`
+- Target window: refresh first; do not use for current-fact answers until verified
+- Human confirmation required: yes
+
+Required reading:
+
+- [AGENTS.md](../wikis/nodeops-agent-wiki/AGENTS.md)
+- [manifest.yaml](../wikis/nodeops-agent-wiki/manifest.yaml)
+- [README.md](../wikis/nodeops-agent-wiki/README.md)
+- [rules](../wikis/nodeops-agent-wiki/rules/)
+- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
+
+Source policy:
+
+- [ ] Prefer official, primary, dated sources.
+- [ ] Start from suggested source types: official client release notes, chain foundation announcement, node logs and version output.
+- [ ] Do not use unsourced summaries as the only authority.
+- [ ] Record publication/update date and access date.
+- [ ] Require human review before moving this ticket to verified.
+
+Safety checks:
+
+- [ ] Require backup, rollback, and human confirmation for production changes.
+- [ ] Do not record infrastructure secrets, node keys, mnemonics, or account tokens.
+- [ ] Keep destructive operations out of automated instructions.
+
+Acceptance criteria:
+
+- [ ] No current fact is written without a dated source note.
+- [ ] No API key, private key, cookie, credential, or private account data is recorded.
+- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
+- [ ] The relevant update-log.md records the change.
+
+Content targets:
+
+- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
+- [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
+- [update-log.md](../wikis/nodeops-agent-wiki/update-log.md)
+- `docs/SOURCE_UPDATE_QUEUE.md`
+- `registry/source-update-queue.json`
+
+Evidence template:
+
+```json
+{
+  "task_id": "SRC-022",
+  "ticket_id": "TICKET-SRC-022",
+  "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+  "verified_on": "YYYY-MM-DD",
+  "source_title": "<source title>",
+  "source_publisher": "<official publisher or authority>",
+  "source_url_or_reference": "<URL or local reference>",
+  "source_published_or_updated": "YYYY-MM-DD | unknown",
+  "source_accessed_on": "YYYY-MM-DD",
+  "evidence_summary": "<what the source supports and what it does not support>",
+  "affected_pages": [
+    "wikis/nodeops-agent-wiki/sources/source-notes.md"
+  ],
+  "confidence": "low | medium | high",
+  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+  "human_reviewer": "<required for high-risk tickets>",
+  "follow_up": "<next action or none>"
+}
+```
+
+#### TICKET-SRC-023 - nodeops-agent-wiki
+
+- Status: `open_pending_source_refresh`
+- Topic: current cloud provider limits, firewall behavior, billing and incident status
+- Category: `general_current_fact`
+- Target window: refresh first; do not use for current-fact answers until verified
+- Human confirmation required: yes
+
+Required reading:
+
+- [AGENTS.md](../wikis/nodeops-agent-wiki/AGENTS.md)
+- [manifest.yaml](../wikis/nodeops-agent-wiki/manifest.yaml)
+- [README.md](../wikis/nodeops-agent-wiki/README.md)
+- [rules](../wikis/nodeops-agent-wiki/rules/)
+- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
+
+Source policy:
+
+- [ ] Prefer official, primary, dated sources.
+- [ ] Start from suggested source types: cloud provider documentation, status page, account console.
+- [ ] Do not use unsourced summaries as the only authority.
+- [ ] Record publication/update date and access date.
+- [ ] Require human review before moving this ticket to verified.
+
+Safety checks:
+
+- [ ] Require backup, rollback, and human confirmation for production changes.
+- [ ] Do not record infrastructure secrets, node keys, mnemonics, or account tokens.
+- [ ] Keep destructive operations out of automated instructions.
+
+Acceptance criteria:
+
+- [ ] No current fact is written without a dated source note.
+- [ ] No API key, private key, cookie, credential, or private account data is recorded.
+- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
+- [ ] The relevant update-log.md records the change.
+
+Content targets:
+
+- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
+- [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
+- [update-log.md](../wikis/nodeops-agent-wiki/update-log.md)
+- `docs/SOURCE_UPDATE_QUEUE.md`
+- `registry/source-update-queue.json`
+
+Evidence template:
+
+```json
+{
+  "task_id": "SRC-023",
+  "ticket_id": "TICKET-SRC-023",
+  "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
+  "verified_on": "YYYY-MM-DD",
+  "source_title": "<source title>",
+  "source_publisher": "<official publisher or authority>",
+  "source_url_or_reference": "<URL or local reference>",
+  "source_published_or_updated": "YYYY-MM-DD | unknown",
+  "source_accessed_on": "YYYY-MM-DD",
+  "evidence_summary": "<what the source supports and what it does not support>",
+  "affected_pages": [
+    "wikis/nodeops-agent-wiki/sources/source-notes.md"
+  ],
+  "confidence": "low | medium | high",
+  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
+  "human_reviewer": "<required for high-risk tickets>",
+  "follow_up": "<next action or none>"
+}
+```
+
+#### TICKET-SRC-024 - research-agent-wiki
 
 - Status: `open_pending_source_refresh`
 - Topic: current dataset availability, license, model weights and code repository status
@@ -1522,8 +1732,8 @@ Evidence template:
 
 ```json
 {
-  "task_id": "SRC-021",
-  "ticket_id": "TICKET-SRC-021",
+  "task_id": "SRC-024",
+  "ticket_id": "TICKET-SRC-024",
   "topic": "current dataset availability, license, model weights and code repository status",
   "status": "pending | verified | unchanged | still-needs-source-update | rejected",
   "verified_on": "YYYY-MM-DD",
@@ -1543,7 +1753,7 @@ Evidence template:
 }
 ```
 
-#### TICKET-SRC-022 - research-agent-wiki
+#### TICKET-SRC-025 - research-agent-wiki
 
 - Status: `open_pending_source_refresh`
 - Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
@@ -1591,8 +1801,8 @@ Evidence template:
 
 ```json
 {
-  "task_id": "SRC-022",
-  "ticket_id": "TICKET-SRC-022",
+  "task_id": "SRC-025",
+  "ticket_id": "TICKET-SRC-025",
   "topic": "latest papers, preprints, revisions, citations and benchmark leaderboards",
   "status": "pending | verified | unchanged | still-needs-source-update | rejected",
   "verified_on": "YYYY-MM-DD",
@@ -1614,224 +1824,12 @@ Evidence template:
 
 ### wave-2
 
-#### TICKET-SRC-023 - nodeops-agent-wiki
-
-- Status: `open_pending_source_refresh`
-- Topic: current OS package, Docker, systemd and kernel behavior
-- Category: `general_current_fact`
-- Target window: refresh after wave-1 before operational rollout
-- Human confirmation required: yes
-
-Required reading:
-
-- [AGENTS.md](../wikis/nodeops-agent-wiki/AGENTS.md)
-- [manifest.yaml](../wikis/nodeops-agent-wiki/manifest.yaml)
-- [README.md](../wikis/nodeops-agent-wiki/README.md)
-- [rules](../wikis/nodeops-agent-wiki/rules/)
-- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
-
-Source policy:
-
-- [ ] Prefer official, primary, dated sources.
-- [ ] Start from suggested source types: official documentation, local version output, release notes.
-- [ ] Do not use unsourced summaries as the only authority.
-- [ ] Record publication/update date and access date.
-- [ ] Require human review before moving this ticket to verified.
-
-Safety checks:
-
-- [ ] Require backup, rollback, and human confirmation for production changes.
-- [ ] Do not record infrastructure secrets, node keys, mnemonics, or account tokens.
-- [ ] Keep destructive operations out of automated instructions.
-
-Acceptance criteria:
-
-- [ ] No current fact is written without a dated source note.
-- [ ] No API key, private key, cookie, credential, or private account data is recorded.
-- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
-- [ ] The relevant update-log.md records the change.
-
-Content targets:
-
-- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
-- [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
-- [update-log.md](../wikis/nodeops-agent-wiki/update-log.md)
-- `docs/SOURCE_UPDATE_QUEUE.md`
-- `registry/source-update-queue.json`
-
-Evidence template:
-
-```json
-{
-  "task_id": "SRC-023",
-  "ticket_id": "TICKET-SRC-023",
-  "topic": "current OS package, Docker, systemd and kernel behavior",
-  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
-  "verified_on": "YYYY-MM-DD",
-  "source_title": "<source title>",
-  "source_publisher": "<official publisher or authority>",
-  "source_url_or_reference": "<URL or local reference>",
-  "source_published_or_updated": "YYYY-MM-DD | unknown",
-  "source_accessed_on": "YYYY-MM-DD",
-  "evidence_summary": "<what the source supports and what it does not support>",
-  "affected_pages": [
-    "wikis/nodeops-agent-wiki/sources/source-notes.md"
-  ],
-  "confidence": "low | medium | high",
-  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
-  "human_reviewer": "<required for high-risk tickets>",
-  "follow_up": "<next action or none>"
-}
-```
-
-#### TICKET-SRC-024 - nodeops-agent-wiki
-
-- Status: `open_pending_source_refresh`
-- Topic: current blockchain node client versions, network parameters and upgrade requirements
-- Category: `technical_docs`
-- Target window: refresh after wave-1 before operational rollout
-- Human confirmation required: yes
-
-Required reading:
-
-- [AGENTS.md](../wikis/nodeops-agent-wiki/AGENTS.md)
-- [manifest.yaml](../wikis/nodeops-agent-wiki/manifest.yaml)
-- [README.md](../wikis/nodeops-agent-wiki/README.md)
-- [rules](../wikis/nodeops-agent-wiki/rules/)
-- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
-
-Source policy:
-
-- [ ] Prefer official, primary, dated sources.
-- [ ] Start from suggested source types: official client release notes, chain foundation announcement, node logs and version output.
-- [ ] Do not use unsourced summaries as the only authority.
-- [ ] Record publication/update date and access date.
-- [ ] Require human review before moving this ticket to verified.
-
-Safety checks:
-
-- [ ] Require backup, rollback, and human confirmation for production changes.
-- [ ] Do not record infrastructure secrets, node keys, mnemonics, or account tokens.
-- [ ] Keep destructive operations out of automated instructions.
-
-Acceptance criteria:
-
-- [ ] No current fact is written without a dated source note.
-- [ ] No API key, private key, cookie, credential, or private account data is recorded.
-- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
-- [ ] The relevant update-log.md records the change.
-
-Content targets:
-
-- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
-- [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
-- [update-log.md](../wikis/nodeops-agent-wiki/update-log.md)
-- `docs/SOURCE_UPDATE_QUEUE.md`
-- `registry/source-update-queue.json`
-
-Evidence template:
-
-```json
-{
-  "task_id": "SRC-024",
-  "ticket_id": "TICKET-SRC-024",
-  "topic": "current blockchain node client versions, network parameters and upgrade requirements",
-  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
-  "verified_on": "YYYY-MM-DD",
-  "source_title": "<source title>",
-  "source_publisher": "<official publisher or authority>",
-  "source_url_or_reference": "<URL or local reference>",
-  "source_published_or_updated": "YYYY-MM-DD | unknown",
-  "source_accessed_on": "YYYY-MM-DD",
-  "evidence_summary": "<what the source supports and what it does not support>",
-  "affected_pages": [
-    "wikis/nodeops-agent-wiki/sources/source-notes.md"
-  ],
-  "confidence": "low | medium | high",
-  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
-  "human_reviewer": "<required for high-risk tickets>",
-  "follow_up": "<next action or none>"
-}
-```
-
-#### TICKET-SRC-025 - nodeops-agent-wiki
-
-- Status: `open_pending_source_refresh`
-- Topic: current cloud provider limits, firewall behavior, billing and incident status
-- Category: `general_current_fact`
-- Target window: refresh after wave-1 before operational rollout
-- Human confirmation required: yes
-
-Required reading:
-
-- [AGENTS.md](../wikis/nodeops-agent-wiki/AGENTS.md)
-- [manifest.yaml](../wikis/nodeops-agent-wiki/manifest.yaml)
-- [README.md](../wikis/nodeops-agent-wiki/README.md)
-- [rules](../wikis/nodeops-agent-wiki/rules/)
-- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
-
-Source policy:
-
-- [ ] Prefer official, primary, dated sources.
-- [ ] Start from suggested source types: cloud provider documentation, status page, account console.
-- [ ] Do not use unsourced summaries as the only authority.
-- [ ] Record publication/update date and access date.
-- [ ] Require human review before moving this ticket to verified.
-
-Safety checks:
-
-- [ ] Require backup, rollback, and human confirmation for production changes.
-- [ ] Do not record infrastructure secrets, node keys, mnemonics, or account tokens.
-- [ ] Keep destructive operations out of automated instructions.
-
-Acceptance criteria:
-
-- [ ] No current fact is written without a dated source note.
-- [ ] No API key, private key, cookie, credential, or private account data is recorded.
-- [ ] Any remaining uncertainty is explicitly marked needs-source-update.
-- [ ] The relevant update-log.md records the change.
-
-Content targets:
-
-- [source-notes.md](../wikis/nodeops-agent-wiki/sources/source-notes.md)
-- [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md)
-- [update-log.md](../wikis/nodeops-agent-wiki/update-log.md)
-- `docs/SOURCE_UPDATE_QUEUE.md`
-- `registry/source-update-queue.json`
-
-Evidence template:
-
-```json
-{
-  "task_id": "SRC-025",
-  "ticket_id": "TICKET-SRC-025",
-  "topic": "current cloud provider limits, firewall behavior, billing and incident status",
-  "status": "pending | verified | unchanged | still-needs-source-update | rejected",
-  "verified_on": "YYYY-MM-DD",
-  "source_title": "<source title>",
-  "source_publisher": "<official publisher or authority>",
-  "source_url_or_reference": "<URL or local reference>",
-  "source_published_or_updated": "YYYY-MM-DD | unknown",
-  "source_accessed_on": "YYYY-MM-DD",
-  "evidence_summary": "<what the source supports and what it does not support>",
-  "affected_pages": [
-    "wikis/nodeops-agent-wiki/sources/source-notes.md"
-  ],
-  "confidence": "low | medium | high",
-  "remaining_uncertainty": "<unknown, conflicting, stale, or out-of-scope facts>",
-  "human_reviewer": "<required for high-risk tickets>",
-  "follow_up": "<next action or none>"
-}
-```
-
-### wave-3
-
 #### TICKET-SRC-026 - agent-engineering-wiki
 
 - Status: `open_pending_source_refresh`
 - Topic: current Codex Skill format, plugin behavior and tool capabilities
 - Category: `technical_docs`
-- Target window: batch refresh is acceptable before broad reuse
+- Target window: refresh after wave-1 before operational rollout
 - Human confirmation required: no
 
 Required reading:
@@ -1900,7 +1898,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current RAG frameworks, embedding models, vector databases and rerankers
 - Category: `technical_docs`
-- Target window: batch refresh is acceptable before broad reuse
+- Target window: refresh after wave-1 before operational rollout
 - Human confirmation required: no
 
 Required reading:
@@ -1969,7 +1967,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current eval harnesses, model APIs and MCP/tool schemas
 - Category: `technical_docs`
-- Target window: batch refresh is acceptable before broad reuse
+- Target window: refresh after wave-1 before operational rollout
 - Human confirmation required: no
 
 Required reading:
@@ -2038,7 +2036,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current OpenAI, Codex, GitHub or Vercel product behavior
 - Category: `general_current_fact`
-- Target window: batch refresh is acceptable before broad reuse
+- Target window: refresh after wave-1 before operational rollout
 - Human confirmation required: no
 
 Required reading:
@@ -2107,7 +2105,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current cloud platform build, deploy, runtime and pricing behavior
 - Category: `general_current_fact`
-- Target window: batch refresh is acceptable before broad reuse
+- Target window: refresh after wave-1 before operational rollout
 - Human confirmation required: no
 
 Required reading:
@@ -2176,7 +2174,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current dependency vulnerabilities and security advisories
 - Category: `security_advisory`
-- Target window: batch refresh is acceptable before broad reuse
+- Target window: refresh after wave-1 before operational rollout
 - Human confirmation required: no
 
 Required reading:
@@ -2245,7 +2243,7 @@ Evidence template:
 - Status: `open_pending_source_refresh`
 - Topic: current framework, library, CLI and API parameters
 - Category: `technical_docs`
-- Target window: batch refresh is acceptable before broad reuse
+- Target window: refresh after wave-1 before operational rollout
 - Human confirmation required: no
 
 Required reading:
@@ -2308,6 +2306,8 @@ Evidence template:
   "follow_up": "<next action or none>"
 }
 ```
+
+### wave-3
 
 #### TICKET-SRC-033 - content-agent-wiki
 

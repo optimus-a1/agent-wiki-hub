@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "passed": true,
   "handoff_ready": true,
   "missing_required": [],
@@ -17,18 +17,18 @@
     "source_evidence_quality_warning_count": 0,
     "source_reviewer_queue_open_count": 35,
     "source_reviewer_queue_human_gate_count": 16,
-    "source_review_session_selected_count": 22,
-    "source_review_session_human_gate_count": 13,
-    "source_review_packet_bundle_entry_count": 22,
-    "source_review_packet_bundle_human_gate_count": 13,
+    "source_review_session_selected_count": 25,
+    "source_review_session_human_gate_count": 16,
+    "source_review_packet_bundle_entry_count": 25,
+    "source_review_packet_bundle_human_gate_count": 16,
     "source_review_packet_audit_packet_count": 2,
     "source_review_packet_audit_issue_count": 0,
     "source_review_packet_rehearsal_dry_run_count": 2,
     "source_review_packet_rehearsal_passed_count": 2,
-    "source_review_ready_for_collection_count": 22,
-    "source_review_queued_not_in_session_count": 13,
-    "source_review_work_order_count": 22,
-    "source_review_work_order_human_gate_count": 13,
+    "source_review_ready_for_collection_count": 25,
+    "source_review_queued_not_in_session_count": 10,
+    "source_review_work_order_count": 25,
+    "source_review_work_order_human_gate_count": 16,
     "acceptance_passed": true
   },
   "first_reads": [
@@ -147,21 +147,21 @@
           "ticket_id": "TICKET-SRC-026",
           "topic": "current Codex Skill format, plugin behavior and tool capabilities",
           "risk_level": "medium",
-          "wave": "wave-3",
+          "wave": "wave-2",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-027",
           "topic": "current RAG frameworks, embedding models, vector databases and rerankers",
           "risk_level": "medium",
-          "wave": "wave-3",
+          "wave": "wave-2",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-028",
           "topic": "current eval harnesses, model APIs and MCP/tool schemas",
           "risk_level": "medium",
-          "wave": "wave-3",
+          "wave": "wave-2",
           "human_confirmation_required": false
         }
       ]
@@ -175,28 +175,28 @@
           "ticket_id": "TICKET-SRC-029",
           "topic": "current OpenAI, Codex, GitHub or Vercel product behavior",
           "risk_level": "medium",
-          "wave": "wave-3",
+          "wave": "wave-2",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-030",
           "topic": "current cloud platform build, deploy, runtime and pricing behavior",
           "risk_level": "medium",
-          "wave": "wave-3",
+          "wave": "wave-2",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-031",
           "topic": "current dependency vulnerabilities and security advisories",
           "risk_level": "medium",
-          "wave": "wave-3",
+          "wave": "wave-2",
           "human_confirmation_required": false
         },
         {
           "ticket_id": "TICKET-SRC-032",
           "topic": "current framework, library, CLI and API parameters",
           "risk_level": "medium",
-          "wave": "wave-3",
+          "wave": "wave-2",
           "human_confirmation_required": false
         }
       ]

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "passed": true,
-  "work_order_count": 22,
-  "human_review_gate_count": 13,
+  "work_order_count": 25,
+  "human_review_gate_count": 16,
   "work_order_paths": [
     "registry/source-review-work-orders/TICKET-SRC-014.md",
     "registry/source-review-work-orders/TICKET-SRC-015.md",
@@ -18,12 +18,15 @@
     "registry/source-review-work-orders/TICKET-SRC-018.md",
     "registry/source-review-work-orders/TICKET-SRC-019.md",
     "registry/source-review-work-orders/TICKET-SRC-020.md",
+    "registry/source-review-work-orders/TICKET-SRC-021.md",
+    "registry/source-review-work-orders/TICKET-SRC-022.md",
+    "registry/source-review-work-orders/TICKET-SRC-023.md",
     "registry/source-review-work-orders/TICKET-SRC-008.md",
     "registry/source-review-work-orders/TICKET-SRC-009.md",
     "registry/source-review-work-orders/TICKET-SRC-010.md",
     "registry/source-review-work-orders/TICKET-SRC-011.md",
-    "registry/source-review-work-orders/TICKET-SRC-021.md",
-    "registry/source-review-work-orders/TICKET-SRC-022.md",
+    "registry/source-review-work-orders/TICKET-SRC-024.md",
+    "registry/source-review-work-orders/TICKET-SRC-025.md",
     "registry/source-review-work-orders/TICKET-SRC-012.md",
     "registry/source-review-work-orders/TICKET-SRC-013.md"
   ]

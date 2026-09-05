@@ -1,6 +1,6 @@
 # Source Review Packet Bundle
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Purpose
 
@@ -10,9 +10,9 @@ Provide offline-safe source evidence packet templates for the current source-rev
 
 - Passed: yes
 - Current-fact ready: no
-- Selected reviews: 22
-- Human review gates: 13
-- High-risk reviews: 13
+- Selected reviews: 25
+- Human review gates: 16
+- High-risk reviews: 16
 - JSON packet: [source-review-session-wave-1-pending.json](../registry/source-review-packets/source-review-session-wave-1-pending.json)
 - JSONL packet: [source-review-session-wave-1-pending.jsonl](../registry/source-review-packets/source-review-session-wave-1-pending.jsonl)
 - Checklist: [source-review-session-wave-1-pending-checklist.md](../registry/source-review-packets/source-review-session-wave-1-pending-checklist.md)
@@ -45,8 +45,8 @@ Replace placeholders with authoritative, dated evidence before any non-dry-run i
 | Check | Result | Detail |
 | --- | --- | --- |
 | source review session plan exists | PASS | registry/source-review-session-plan.json |
-| source review session plan passed | PASS | selected reviews: 22 |
-| packet entry count matches selected reviews | PASS | 22 packet entries for 22 selected reviews |
+| source review session plan passed | PASS | selected reviews: 25 |
+| packet entry count matches selected reviews | PASS | 25 packet entries for 25 selected reviews |
 | packet keeps entries pending | PASS | all generated entries use pending status |
 | packet contains no final statuses | PASS | generated bundle cannot mark evidence verified |
 | packet contains no detected secrets | PASS | secret scan over generated packet entries |

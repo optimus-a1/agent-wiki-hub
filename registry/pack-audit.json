@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "passed": true,
   "checks": [
     {
@@ -980,7 +980,7 @@
     {
       "check_id": "all:zip_not_empty",
       "passed": true,
-      "evidence": "982 entries"
+      "evidence": "985 entries"
     },
     {
       "check_id": "all:safe_member_names",
@@ -2251,6 +2251,21 @@
       "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-022.md",
       "passed": true,
       "evidence": "registry/source-review-work-orders/TICKET-SRC-022.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-023.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-023.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-024.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-024.md"
+    },
+    {
+      "check_id": "all:includes:registry/source-review-work-orders/TICKET-SRC-025.md",
+      "passed": true,
+      "evidence": "registry/source-review-work-orders/TICKET-SRC-025.md"
     },
     {
       "check_id": "all:includes:registry/source-review-work-orders/manifest.json",

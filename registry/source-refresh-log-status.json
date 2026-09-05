@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "wiki_count": 12,
   "created": 0,
-  "updated": 2,
+  "updated": 0,
   "update_logs_changed": 0,
   "passed": true,
   "logs": [
@@ -109,7 +109,7 @@
       "wiki": "nodeops-agent-wiki",
       "path": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "created": false,
-      "updated": true,
+      "updated": false,
       "update_log_changed": false,
       "task_count": 3,
       "missing_headings": [],
@@ -120,7 +120,7 @@
       "wiki": "research-agent-wiki",
       "path": "wikis/research-agent-wiki/sources/source-refresh-log.md",
       "created": false,
-      "updated": true,
+      "updated": false,
       "update_log_changed": false,
       "task_count": 2,
       "missing_headings": [],
