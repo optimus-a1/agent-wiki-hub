@@ -1,6 +1,6 @@
 # Source Review Packet Rehearsal
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Purpose
 
@@ -13,9 +13,9 @@ Rehearse source-review packet imports with importer dry-run and no post-check wr
 - Dry runs: 2
 - Passed dry runs: 2
 - Failed dry runs: 0
-- Entries from audit: 44
+- Entries from audit: 50
 - Advisory packets from audit: 8
-- Human-gated entries from audit: 26
+- Human-gated entries from audit: 32
 
 ## Results
 

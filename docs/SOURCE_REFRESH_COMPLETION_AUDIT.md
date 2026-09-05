@@ -1,6 +1,6 @@
 # Source Refresh Completion Audit
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Purpose
 
@@ -64,18 +64,18 @@ This audit checks whether source refresh tickets have matching refresh-log tasks
 | TICKET-SRC-018 | ecommerce-agent-wiki | wave-1 | current marketplace policy, return window, category restrictions and consumer protection rules | [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md) |
 | TICKET-SRC-019 | ecommerce-agent-wiki | wave-1 | current product certification, recall, safety notice and warranty terms | [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md) |
 | TICKET-SRC-020 | ecommerce-agent-wiki | wave-1 | current product price, stock, promotion, shipping fee and delivery ETA | [source-refresh-log.md](../wikis/ecommerce-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-021 | research-agent-wiki | wave-1 | current dataset availability, license, model weights and code repository status | [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-022 | research-agent-wiki | wave-1 | latest papers, preprints, revisions, citations and benchmark leaderboards | [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-023 | nodeops-agent-wiki | wave-2 | current OS package, Docker, systemd and kernel behavior | [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-024 | nodeops-agent-wiki | wave-2 | current blockchain node client versions, network parameters and upgrade requirements | [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-025 | nodeops-agent-wiki | wave-2 | current cloud provider limits, firewall behavior, billing and incident status | [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-026 | agent-engineering-wiki | wave-3 | current Codex Skill format, plugin behavior and tool capabilities | [source-refresh-log.md](../wikis/agent-engineering-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-027 | agent-engineering-wiki | wave-3 | current RAG frameworks, embedding models, vector databases and rerankers | [source-refresh-log.md](../wikis/agent-engineering-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-028 | agent-engineering-wiki | wave-3 | current eval harnesses, model APIs and MCP/tool schemas | [source-refresh-log.md](../wikis/agent-engineering-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-029 | coding-agent-wiki | wave-3 | current OpenAI, Codex, GitHub or Vercel product behavior | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-030 | coding-agent-wiki | wave-3 | current cloud platform build, deploy, runtime and pricing behavior | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-031 | coding-agent-wiki | wave-3 | current dependency vulnerabilities and security advisories | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
-| TICKET-SRC-032 | coding-agent-wiki | wave-3 | current framework, library, CLI and API parameters | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-021 | nodeops-agent-wiki | wave-1 | current OS package, Docker, systemd and kernel behavior | [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-022 | nodeops-agent-wiki | wave-1 | current blockchain node client versions, network parameters and upgrade requirements | [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-023 | nodeops-agent-wiki | wave-1 | current cloud provider limits, firewall behavior, billing and incident status | [source-refresh-log.md](../wikis/nodeops-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-024 | research-agent-wiki | wave-1 | current dataset availability, license, model weights and code repository status | [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-025 | research-agent-wiki | wave-1 | latest papers, preprints, revisions, citations and benchmark leaderboards | [source-refresh-log.md](../wikis/research-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-026 | agent-engineering-wiki | wave-2 | current Codex Skill format, plugin behavior and tool capabilities | [source-refresh-log.md](../wikis/agent-engineering-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-027 | agent-engineering-wiki | wave-2 | current RAG frameworks, embedding models, vector databases and rerankers | [source-refresh-log.md](../wikis/agent-engineering-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-028 | agent-engineering-wiki | wave-2 | current eval harnesses, model APIs and MCP/tool schemas | [source-refresh-log.md](../wikis/agent-engineering-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-029 | coding-agent-wiki | wave-2 | current OpenAI, Codex, GitHub or Vercel product behavior | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-030 | coding-agent-wiki | wave-2 | current cloud platform build, deploy, runtime and pricing behavior | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-031 | coding-agent-wiki | wave-2 | current dependency vulnerabilities and security advisories | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
+| TICKET-SRC-032 | coding-agent-wiki | wave-2 | current framework, library, CLI and API parameters | [source-refresh-log.md](../wikis/coding-agent-wiki/sources/source-refresh-log.md) |
 | TICKET-SRC-033 | content-agent-wiki | wave-3 | current image, chart, dataset and quote licensing | [source-refresh-log.md](../wikis/content-agent-wiki/sources/source-refresh-log.md) |
 | TICKET-SRC-034 | content-agent-wiki | wave-3 | current news, statistics, public quotes and social media claims | [source-refresh-log.md](../wikis/content-agent-wiki/sources/source-refresh-log.md) |
 | TICKET-SRC-035 | content-agent-wiki | wave-3 | current publishing platform rules, format limits and content policies | [source-refresh-log.md](../wikis/content-agent-wiki/sources/source-refresh-log.md) |

@@ -1,6 +1,6 @@
 {
   "packet_id": "invalid-duplicate-ticket",
-  "created_on": "2026-06-30",
+  "created_on": "2026-09-05",
   "created_by": "fixture-generator",
   "description": "Expected duplicate-ticket failure.",
   "dry_run_only": true,

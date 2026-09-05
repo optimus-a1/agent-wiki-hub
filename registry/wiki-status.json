@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "wikis": [
     {
       "id": "agent-engineering-wiki",
@@ -23,7 +23,7 @@
         "current eval harnesses, model APIs and MCP/tool schemas"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 95466
+      "pack_size_bytes": 94742
     },
     {
       "id": "airdrop-agent-wiki",
@@ -47,7 +47,7 @@
         "current contract addresses, wallet warnings, scam reports and signing risks"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 77056
+      "pack_size_bytes": 76467
     },
     {
       "id": "coding-agent-wiki",
@@ -72,7 +72,7 @@
         "current OpenAI, Codex, GitHub or Vercel product behavior"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 85689
+      "pack_size_bytes": 85048
     },
     {
       "id": "content-agent-wiki",
@@ -96,7 +96,7 @@
         "current image, chart, dataset and quote licensing"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 61941
+      "pack_size_bytes": 61499
     },
     {
       "id": "customs-agent-wiki",
@@ -121,7 +121,7 @@
         "exchange rates, tariff rates, tax rates and destination-specific fees"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 82026
+      "pack_size_bytes": 81439
     },
     {
       "id": "ecommerce-agent-wiki",
@@ -145,7 +145,7 @@
         "current product certification, recall, safety notice and warranty terms"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 62527
+      "pack_size_bytes": 62061
     },
     {
       "id": "finance-agent-wiki",
@@ -170,7 +170,7 @@
         "current legal, regulatory or suitability requirements for financial products"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 101346
+      "pack_size_bytes": 100631
     },
     {
       "id": "health-agent-wiki",
@@ -193,7 +193,7 @@
         "current public health guidance, screening recommendations and nutrition/exercise guidelines"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 53313
+      "pack_size_bytes": 52904
     },
     {
       "id": "legal-agent-wiki",
@@ -216,7 +216,7 @@
         "current platform agreements, data processing terms and consumer protection rules"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 55409
+      "pack_size_bytes": 55023
     },
     {
       "id": "nodeops-agent-wiki",
@@ -240,7 +240,7 @@
         "current blockchain node client versions, network parameters and upgrade requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 90657
+      "pack_size_bytes": 90030
     },
     {
       "id": "research-agent-wiki",
@@ -263,7 +263,7 @@
         "current dataset availability, license, model weights and code repository status"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 77137
+      "pack_size_bytes": 76553
     },
     {
       "id": "security-agent-wiki",
@@ -286,7 +286,7 @@
         "current security tool rules, detection signatures, cloud defaults and compliance requirements"
       ],
       "pack_exists": true,
-      "pack_size_bytes": 89029
+      "pack_size_bytes": 88351
     }
   ]
 }

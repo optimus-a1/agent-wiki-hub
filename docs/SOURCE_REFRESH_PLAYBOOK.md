@@ -1,6 +1,6 @@
 # Source Refresh Playbook
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Purpose
 
@@ -15,9 +15,9 @@ This playbook turns `needs-source-update` topics into source verification tasks.
 
 | Wave | Tasks | Meaning |
 | --- | ---: | --- |
-| wave-1 | 22 | Highest risk or freshness pressure; refresh first. |
-| wave-2 | 3 | Important operational topics; refresh after wave-1. |
-| wave-3 | 10 | Medium cadence topics; batch refresh is acceptable. |
+| wave-1 | 25 | Highest risk or freshness pressure; refresh first. |
+| wave-2 | 7 | Important operational topics; refresh after wave-1. |
+| wave-3 | 3 | Medium cadence topics; batch refresh is acceptable. |
 
 ## Task List
 
@@ -43,21 +43,21 @@ This playbook turns `needs-source-update` topics into source verification tasks.
 | SRC-018 | wave-1 | ecommerce-agent-wiki | 8 | policy_or_regulation | no | current marketplace policy, return window, category restrictions and consumer protection rules |
 | SRC-019 | wave-1 | ecommerce-agent-wiki | 8 | general_current_fact | no | current product certification, recall, safety notice and warranty terms |
 | SRC-020 | wave-1 | ecommerce-agent-wiki | 8 | market_or_platform_data | no | current product price, stock, promotion, shipping fee and delivery ETA |
-| SRC-021 | wave-1 | research-agent-wiki | 8 | technical_docs | no | current dataset availability, license, model weights and code repository status |
-| SRC-022 | wave-1 | research-agent-wiki | 8 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
-| SRC-023 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
-| SRC-024 | wave-2 | nodeops-agent-wiki | 7 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
-| SRC-025 | wave-2 | nodeops-agent-wiki | 7 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
-| SRC-026 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current Codex Skill format, plugin behavior and tool capabilities |
-| SRC-027 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current RAG frameworks, embedding models, vector databases and rerankers |
-| SRC-028 | wave-3 | agent-engineering-wiki | 6 | technical_docs | no | current eval harnesses, model APIs and MCP/tool schemas |
-| SRC-029 | wave-3 | coding-agent-wiki | 6 | general_current_fact | no | current OpenAI, Codex, GitHub or Vercel product behavior |
-| SRC-030 | wave-3 | coding-agent-wiki | 6 | general_current_fact | no | current cloud platform build, deploy, runtime and pricing behavior |
-| SRC-031 | wave-3 | coding-agent-wiki | 6 | security_advisory | no | current dependency vulnerabilities and security advisories |
-| SRC-032 | wave-3 | coding-agent-wiki | 6 | technical_docs | no | current framework, library, CLI and API parameters |
-| SRC-033 | wave-3 | content-agent-wiki | 5 | general_current_fact | no | current image, chart, dataset and quote licensing |
-| SRC-034 | wave-3 | content-agent-wiki | 5 | general_current_fact | no | current news, statistics, public quotes and social media claims |
-| SRC-035 | wave-3 | content-agent-wiki | 5 | policy_or_regulation | no | current publishing platform rules, format limits and content policies |
+| SRC-021 | wave-1 | nodeops-agent-wiki | 8 | general_current_fact | yes | current OS package, Docker, systemd and kernel behavior |
+| SRC-022 | wave-1 | nodeops-agent-wiki | 8 | technical_docs | yes | current blockchain node client versions, network parameters and upgrade requirements |
+| SRC-023 | wave-1 | nodeops-agent-wiki | 8 | general_current_fact | yes | current cloud provider limits, firewall behavior, billing and incident status |
+| SRC-024 | wave-1 | research-agent-wiki | 8 | technical_docs | no | current dataset availability, license, model weights and code repository status |
+| SRC-025 | wave-1 | research-agent-wiki | 8 | general_current_fact | no | latest papers, preprints, revisions, citations and benchmark leaderboards |
+| SRC-026 | wave-2 | agent-engineering-wiki | 7 | technical_docs | no | current Codex Skill format, plugin behavior and tool capabilities |
+| SRC-027 | wave-2 | agent-engineering-wiki | 7 | technical_docs | no | current RAG frameworks, embedding models, vector databases and rerankers |
+| SRC-028 | wave-2 | agent-engineering-wiki | 7 | technical_docs | no | current eval harnesses, model APIs and MCP/tool schemas |
+| SRC-029 | wave-2 | coding-agent-wiki | 7 | general_current_fact | no | current OpenAI, Codex, GitHub or Vercel product behavior |
+| SRC-030 | wave-2 | coding-agent-wiki | 7 | general_current_fact | no | current cloud platform build, deploy, runtime and pricing behavior |
+| SRC-031 | wave-2 | coding-agent-wiki | 7 | security_advisory | no | current dependency vulnerabilities and security advisories |
+| SRC-032 | wave-2 | coding-agent-wiki | 7 | technical_docs | no | current framework, library, CLI and API parameters |
+| SRC-033 | wave-3 | content-agent-wiki | 6 | general_current_fact | no | current image, chart, dataset and quote licensing |
+| SRC-034 | wave-3 | content-agent-wiki | 6 | general_current_fact | no | current news, statistics, public quotes and social media claims |
+| SRC-035 | wave-3 | content-agent-wiki | 6 | policy_or_regulation | no | current publishing platform rules, format limits and content policies |
 
 ## Wave Details
 
@@ -549,55 +549,7 @@ Acceptance criteria:
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
 
-#### SRC-021 - research-agent-wiki
-
-- Topic: current dataset availability, license, model weights and code repository status
-- Category: technical_docs
-- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
-- Suggested sources: official dataset page, repository release notes, model card
-- Human confirmation required: no
-
-Verification steps:
-- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
-- Start with suggested source types: official dataset page, repository release notes, model card.
-- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
-- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
-- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
-- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
-- Run validation, source queue generation, search index update, and acceptance checks after edits.
-
-Acceptance criteria:
-- No current fact is written without a dated source note.
-- No API key, private key, cookie, credential, or private account data is recorded.
-- Any remaining uncertainty is explicitly marked needs-source-update.
-- The relevant update-log.md records the change.
-
-#### SRC-022 - research-agent-wiki
-
-- Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
-- Category: general_current_fact
-- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
-- Suggested sources: publisher page, arXiv or conference page, official benchmark leaderboard
-- Human confirmation required: no
-
-Verification steps:
-- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
-- Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.
-- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
-- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
-- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
-- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
-- Run validation, source queue generation, search index update, and acceptance checks after edits.
-
-Acceptance criteria:
-- No current fact is written without a dated source note.
-- No API key, private key, cookie, credential, or private account data is recorded.
-- Any remaining uncertainty is explicitly marked needs-source-update.
-- The relevant update-log.md records the change.
-
-### wave-2
-
-#### SRC-023 - nodeops-agent-wiki
+#### SRC-021 - nodeops-agent-wiki
 
 - Topic: current OS package, Docker, systemd and kernel behavior
 - Category: general_current_fact
@@ -621,7 +573,7 @@ Acceptance criteria:
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
 
-#### SRC-024 - nodeops-agent-wiki
+#### SRC-022 - nodeops-agent-wiki
 
 - Topic: current blockchain node client versions, network parameters and upgrade requirements
 - Category: technical_docs
@@ -645,7 +597,7 @@ Acceptance criteria:
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
 
-#### SRC-025 - nodeops-agent-wiki
+#### SRC-023 - nodeops-agent-wiki
 
 - Topic: current cloud provider limits, firewall behavior, billing and incident status
 - Category: general_current_fact
@@ -669,7 +621,53 @@ Acceptance criteria:
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
 
-### wave-3
+#### SRC-024 - research-agent-wiki
+
+- Topic: current dataset availability, license, model weights and code repository status
+- Category: technical_docs
+- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
+- Suggested sources: official dataset page, repository release notes, model card
+- Human confirmation required: no
+
+Verification steps:
+- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
+- Start with suggested source types: official dataset page, repository release notes, model card.
+- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
+- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
+- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
+- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
+- Run validation, source queue generation, search index update, and acceptance checks after edits.
+
+Acceptance criteria:
+- No current fact is written without a dated source note.
+- No API key, private key, cookie, credential, or private account data is recorded.
+- Any remaining uncertainty is explicitly marked needs-source-update.
+- The relevant update-log.md records the change.
+
+#### SRC-025 - research-agent-wiki
+
+- Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
+- Category: general_current_fact
+- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
+- Suggested sources: publisher page, arXiv or conference page, official benchmark leaderboard
+- Human confirmation required: no
+
+Verification steps:
+- Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.
+- Start with suggested source types: publisher page, arXiv or conference page, official benchmark leaderboard.
+- Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.
+- Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.
+- Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.
+- Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.
+- Run validation, source queue generation, search index update, and acceptance checks after edits.
+
+Acceptance criteria:
+- No current fact is written without a dated source note.
+- No API key, private key, cookie, credential, or private account data is recorded.
+- Any remaining uncertainty is explicitly marked needs-source-update.
+- The relevant update-log.md records the change.
+
+### wave-2
 
 #### SRC-026 - agent-engineering-wiki
 
@@ -831,6 +829,8 @@ Acceptance criteria:
 - No API key, private key, cookie, credential, or private account data is recorded.
 - Any remaining uncertainty is explicitly marked needs-source-update.
 - The relevant update-log.md records the change.
+
+### wave-3
 
 #### SRC-033 - content-agent-wiki
 

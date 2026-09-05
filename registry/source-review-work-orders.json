@@ -1,16 +1,16 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "passed": true,
   "purpose": "Convert ready source-review tickets into offline work orders for human or connected source reviewers without fetching or certifying facts.",
   "current_fact_ready": false,
   "ticket_count": 35,
-  "ready_for_source_collection_count": 22,
+  "ready_for_source_collection_count": 25,
   "selected_finalized_count": 0,
   "selected_verified_count": 0,
   "post_import_completed": false,
   "source_review_phase": "pre-import-or-in-progress",
-  "work_order_count": 22,
-  "human_review_gate_count": 13,
+  "work_order_count": 25,
+  "human_review_gate_count": 16,
   "wiki_counts": {
     "airdrop-agent-wiki": 3,
     "customs-agent-wiki": 4,
@@ -18,6 +18,7 @@
     "finance-agent-wiki": 4,
     "health-agent-wiki": 2,
     "legal-agent-wiki": 2,
+    "nodeops-agent-wiki": 3,
     "research-agent-wiki": 2,
     "security-agent-wiki": 2
   },
@@ -28,16 +29,17 @@
     "ecommerce-policy-reviewer": 3,
     "finance-risk-reviewer": 4,
     "legal-counsel-reviewer": 2,
+    "operations-change-reviewer": 3,
     "research-methods-reviewer": 2,
     "web3-wallet-safety-reviewer": 3
   },
   "priority_counts": {
     "P0": 8,
-    "P1": 6,
+    "P1": 9,
     "P2": 8
   },
   "wave_counts": {
-    "wave-1": 22
+    "wave-1": 25
   },
   "work_order_dir": "registry/source-review-work-orders",
   "manifest": "registry/source-review-work-orders/manifest.json",
@@ -111,7 +113,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -174,7 +176,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -237,7 +239,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -300,7 +302,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -365,7 +367,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -430,7 +432,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -495,7 +497,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -560,7 +562,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -625,7 +627,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -690,7 +692,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -755,7 +757,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -818,7 +820,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -881,7 +883,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -944,7 +946,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -960,6 +962,201 @@
       ],
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-020 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
       "work_order_path": "registry/source-review-work-orders/TICKET-SRC-020.md"
+    },
+    {
+      "work_order_id": "WORKORDER-TICKET-SRC-021",
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "general_current_fact",
+      "topic": "current OS package, Docker, systemd and kernel behavior",
+      "readiness_stage": "ready-for-source-collection",
+      "reviewer_role": "operations-change-reviewer",
+      "human_review_gate": true,
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "suggested_sources": [
+        "official documentation",
+        "local version output",
+        "release notes"
+      ],
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ],
+      "packet_json": "registry/source-review-packets/source-review-session-wave-1-pending.json",
+      "packet_jsonl": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
+      "packet_checklist": "registry/source-review-packets/source-review-session-wave-1-pending-checklist.md",
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-021",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-09-05",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      "dry_run_commands": [
+        "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+        "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks",
+        "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks"
+      ],
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "work_order_path": "registry/source-review-work-orders/TICKET-SRC-021.md"
+    },
+    {
+      "work_order_id": "WORKORDER-TICKET-SRC-022",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "technical_docs",
+      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+      "readiness_stage": "ready-for-source-collection",
+      "reviewer_role": "operations-change-reviewer",
+      "human_review_gate": true,
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "suggested_sources": [
+        "official client release notes",
+        "chain foundation announcement",
+        "node logs and version output"
+      ],
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ],
+      "packet_json": "registry/source-review-packets/source-review-session-wave-1-pending.json",
+      "packet_jsonl": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
+      "packet_checklist": "registry/source-review-packets/source-review-session-wave-1-pending-checklist.md",
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-022",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-09-05",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      "dry_run_commands": [
+        "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+        "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks",
+        "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks"
+      ],
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "work_order_path": "registry/source-review-work-orders/TICKET-SRC-022.md"
+    },
+    {
+      "work_order_id": "WORKORDER-TICKET-SRC-023",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "general_current_fact",
+      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+      "readiness_stage": "ready-for-source-collection",
+      "reviewer_role": "operations-change-reviewer",
+      "human_review_gate": true,
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "suggested_sources": [
+        "cloud provider documentation",
+        "status page",
+        "account console"
+      ],
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ],
+      "packet_json": "registry/source-review-packets/source-review-session-wave-1-pending.json",
+      "packet_jsonl": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
+      "packet_checklist": "registry/source-review-packets/source-review-session-wave-1-pending-checklist.md",
+      "packet_entry_template": {
+        "ticket_id": "TICKET-SRC-023",
+        "status": "pending",
+        "source_title": "<source title>",
+        "source_publisher": "<official publisher or authority>",
+        "source_url_or_reference": "<URL or local reference>",
+        "source_published_or_updated": "YYYY-MM-DD | unknown",
+        "source_accessed_on": "2026-09-05",
+        "verified_on": "",
+        "evidence_summary": "<what the source supports and does not support>",
+        "affected_pages": [],
+        "confidence": "low",
+        "remaining_uncertainty": "<remaining uncertainty>",
+        "human_reviewer": "<reviewer>",
+        "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
+      },
+      "dry_run_commands": [
+        "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+        "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks",
+        "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks"
+      ],
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "work_order_path": "registry/source-review-work-orders/TICKET-SRC-023.md"
     },
     {
       "work_order_id": "WORKORDER-TICKET-SRC-008",
@@ -1009,7 +1206,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1074,7 +1271,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1139,7 +1336,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1204,7 +1401,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1222,9 +1419,9 @@
       "work_order_path": "registry/source-review-work-orders/TICKET-SRC-011.md"
     },
     {
-      "work_order_id": "WORKORDER-TICKET-SRC-021",
-      "ticket_id": "TICKET-SRC-021",
-      "task_id": "SRC-021",
+      "work_order_id": "WORKORDER-TICKET-SRC-024",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "research-agent-wiki",
       "priority": "P2",
       "wave": "wave-1",
@@ -1261,13 +1458,13 @@
       "packet_jsonl": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
       "packet_checklist": "registry/source-review-packets/source-review-session-wave-1-pending-checklist.md",
       "packet_entry_template": {
-        "ticket_id": "TICKET-SRC-021",
+        "ticket_id": "TICKET-SRC-024",
         "status": "pending",
         "source_title": "<source title>",
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1277,17 +1474,17 @@
         "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
       },
       "dry_run_commands": [
-        "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+        "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
         "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks",
         "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks"
       ],
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "work_order_path": "registry/source-review-work-orders/TICKET-SRC-021.md"
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "work_order_path": "registry/source-review-work-orders/TICKET-SRC-024.md"
     },
     {
-      "work_order_id": "WORKORDER-TICKET-SRC-022",
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "work_order_id": "WORKORDER-TICKET-SRC-025",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "research-agent-wiki",
       "priority": "P2",
       "wave": "wave-1",
@@ -1324,13 +1521,13 @@
       "packet_jsonl": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
       "packet_checklist": "registry/source-review-packets/source-review-session-wave-1-pending-checklist.md",
       "packet_entry_template": {
-        "ticket_id": "TICKET-SRC-022",
+        "ticket_id": "TICKET-SRC-025",
         "status": "pending",
         "source_title": "<source title>",
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1340,12 +1537,12 @@
         "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
       },
       "dry_run_commands": [
-        "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+        "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
         "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks",
         "python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks"
       ],
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
-      "work_order_path": "registry/source-review-work-orders/TICKET-SRC-022.md"
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "work_order_path": "registry/source-review-work-orders/TICKET-SRC-025.md"
     },
     {
       "work_order_id": "WORKORDER-TICKET-SRC-012",
@@ -1395,7 +1592,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1460,7 +1657,7 @@
         "source_publisher": "<official publisher or authority>",
         "source_url_or_reference": "<URL or local reference>",
         "source_published_or_updated": "YYYY-MM-DD | unknown",
-        "source_accessed_on": "2026-06-30",
+        "source_accessed_on": "2026-09-05",
         "verified_on": "",
         "evidence_summary": "<what the source supports and does not support>",
         "affected_pages": [],
@@ -1487,27 +1684,27 @@
     {
       "check": "readiness matrix passed",
       "passed": true,
-      "detail": "22 ready rows"
+      "detail": "25 ready rows"
     },
     {
       "check": "ready tickets have reviewer cards",
       "passed": true,
-      "detail": "22/22 work orders"
+      "detail": "25/25 work orders"
     },
     {
       "check": "ready tickets have packet entries",
       "passed": true,
-      "detail": "22/22 work orders"
+      "detail": "25/25 work orders"
     },
     {
       "check": "work order files written",
       "passed": true,
-      "detail": "22 work order files plus manifest"
+      "detail": "25 work order files plus manifest"
     },
     {
       "check": "human gates preserved",
       "passed": true,
-      "detail": "13 human-gated work orders"
+      "detail": "16 human-gated work orders"
     },
     {
       "check": "current facts remain gated",

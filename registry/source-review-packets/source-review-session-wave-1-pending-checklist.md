@@ -1,6 +1,6 @@
 # Source Review Packet Checklist
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Packet Files
 
@@ -34,6 +34,9 @@ python3 scripts/import_source_evidence_packet.py --packet registry/source-review
 | `TICKET-SRC-015` | customs-agent-wiki | customs-document-reviewer | no | latest HS codes, customs supervision conditions and declaration elements | customs authority website, official tariff database, licensed customs broker review |
 | `TICKET-SRC-016` | customs-agent-wiki | customs-document-reviewer | no | latest import/export policy, inspection and quarantine requirements | customs and inspection authority announcement, destination country regulator, official trade compliance bulletin |
 | `TICKET-SRC-017` | customs-agent-wiki | customs-document-reviewer | no | latest platform OCR model parameters and document template behavior | OCR vendor documentation, internal extraction benchmark, manually reviewed sample set |
+| `TICKET-SRC-021` | nodeops-agent-wiki | operations-change-reviewer | yes | current OS package, Docker, systemd and kernel behavior | official documentation, local version output, release notes |
+| `TICKET-SRC-022` | nodeops-agent-wiki | operations-change-reviewer | yes | current blockchain node client versions, network parameters and upgrade requirements | official client release notes, chain foundation announcement, node logs and version output |
+| `TICKET-SRC-023` | nodeops-agent-wiki | operations-change-reviewer | yes | current cloud provider limits, firewall behavior, billing and incident status | cloud provider documentation, status page, account console |
 | `TICKET-SRC-001` | airdrop-agent-wiki | web3-wallet-safety-reviewer | yes | current contract addresses, wallet warnings, scam reports and signing risks | official contract registry, block explorer, wallet security warning |
 | `TICKET-SRC-002` | airdrop-agent-wiki | web3-wallet-safety-reviewer | yes | current project status, official links, task rules, snapshot and eligibility | official website, official documentation, official announcement channel |
 | `TICKET-SRC-003` | airdrop-agent-wiki | web3-wallet-safety-reviewer | yes | current token launch, TGE, funding, exchange listing and airdrop allocation | project announcement, exchange official announcement, primary funding disclosure |
@@ -46,5 +49,5 @@ python3 scripts/import_source_evidence_packet.py --packet registry/source-review
 | `TICKET-SRC-013` | security-agent-wiki | defensive-security-reviewer | yes | current security tool rules, detection signatures, cloud defaults and compliance requirements | official tool documentation, cloud provider security docs, compliance authority or auditor guidance |
 | `TICKET-SRC-010` | legal-agent-wiki | legal-counsel-reviewer | yes | current platform agreements, data processing terms and consumer protection rules | official platform terms, regulator guidance, counsel-approved template |
 | `TICKET-SRC-011` | legal-agent-wiki | legal-counsel-reviewer | yes | current statutes, regulations, cases, regulatory guidance and jurisdiction-specific requirements | official legal database, regulator website, licensed lawyer review |
-| `TICKET-SRC-021` | research-agent-wiki | research-methods-reviewer | no | current dataset availability, license, model weights and code repository status | official dataset page, repository release notes, model card |
-| `TICKET-SRC-022` | research-agent-wiki | research-methods-reviewer | no | latest papers, preprints, revisions, citations and benchmark leaderboards | publisher page, arXiv or conference page, official benchmark leaderboard |
+| `TICKET-SRC-024` | research-agent-wiki | research-methods-reviewer | no | current dataset availability, license, model weights and code repository status | official dataset page, repository release notes, model card |
+| `TICKET-SRC-025` | research-agent-wiki | research-methods-reviewer | no | latest papers, preprints, revisions, citations and benchmark leaderboards | publisher page, arXiv or conference page, official benchmark leaderboard |

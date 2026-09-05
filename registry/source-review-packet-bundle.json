@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "packet_id": "source-review-session-wave-1-pending",
   "passed": true,
   "purpose": "Provide offline-safe source evidence packet templates for the current source-review session.",
   "current_fact_ready": false,
-  "selected_review_count": 22,
-  "selected_human_review_gate_count": 13,
-  "selected_high_risk_count": 13,
+  "selected_review_count": 25,
+  "selected_human_review_gate_count": 16,
+  "selected_high_risk_count": 16,
   "source_review_session_plan": "registry/source-review-session-plan.json",
   "packet_json": "registry/source-review-packets/source-review-session-wave-1-pending.json",
   "packet_jsonl": "registry/source-review-packets/source-review-session-wave-1-pending.jsonl",
@@ -37,12 +37,12 @@
     {
       "check": "source review session plan passed",
       "passed": true,
-      "detail": "selected reviews: 22"
+      "detail": "selected reviews: 25"
     },
     {
       "check": "packet entry count matches selected reviews",
       "passed": true,
-      "detail": "22 packet entries for 22 selected reviews"
+      "detail": "25 packet entries for 25 selected reviews"
     },
     {
       "check": "packet keeps entries pending",

@@ -1,12 +1,12 @@
-# Source Review Work Order: TICKET-SRC-021
+# Source Review Work Order: TICKET-SRC-023
 
 Generated: 2026-09-05
 
 ## Scope
 
-- Work order: `WORKORDER-TICKET-SRC-021`
-- Ticket: `TICKET-SRC-021`
-- Task: `SRC-021`
+- Work order: `WORKORDER-TICKET-SRC-023`
+- Ticket: `TICKET-SRC-023`
+- Task: `SRC-023`
 - Wiki: `nodeops-agent-wiki`
 - Priority: `P1`
 - Wave: `wave-1`
@@ -16,7 +16,7 @@ Generated: 2026-09-05
 - Readiness stage: `ready-for-source-collection`
 - Reviewer role: `operations-change-reviewer`
 - Human review gate: yes
-- Topic: current OS package, Docker, systemd and kernel behavior
+- Topic: current cloud provider limits, firewall behavior, billing and incident status
 
 ## Required Reading
 
@@ -28,9 +28,9 @@ Generated: 2026-09-05
 
 ## Source Targets
 
-- official documentation
-- local version output
-- release notes
+- cloud provider documentation
+- status page
+- account console
 
 ## Local Artifacts
 
@@ -46,7 +46,7 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 
 ```json
 {
-  "ticket_id": "TICKET-SRC-021",
+  "ticket_id": "TICKET-SRC-023",
   "status": "pending",
   "source_title": "<source title>",
   "source_publisher": "<official publisher or authority>",
@@ -89,10 +89,10 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 Run only dry-run imports until every placeholder is replaced.
 
 ```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
 ```
 
 ## Safety Boundary

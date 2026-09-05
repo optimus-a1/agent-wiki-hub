@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "passed": true,
   "purpose": "Show per-ticket readiness across reviewer assignment, session selection, packet coverage, packet audit, rehearsal, and completion state.",
   "current_fact_ready": false,
@@ -7,20 +7,20 @@
   "open_ticket_count": 35,
   "finalized_ticket_count": 0,
   "verified_ticket_count": 0,
-  "ready_for_source_collection_count": 22,
-  "queued_not_in_current_session_count": 13,
-  "selected_review_count": 22,
+  "ready_for_source_collection_count": 25,
+  "queued_not_in_current_session_count": 10,
+  "selected_review_count": 25,
   "selected_finalized_count": 0,
   "selected_verified_count": 0,
   "post_import_completed": false,
   "source_review_phase": "pre-import-or-in-progress",
-  "packet_entry_ticket_count": 22,
+  "packet_entry_ticket_count": 25,
   "packet_audit_issue_count": 0,
   "packet_rehearsal_failed_count": 0,
   "evidence_entry_count": 13,
   "stage_counts": {
-    "queued-not-in-current-session": 13,
-    "ready-for-source-collection": 22
+    "queued-not-in-current-session": 10,
+    "ready-for-source-collection": 25
   },
   "wiki_stage_counts": {
     "agent-engineering-wiki": {
@@ -51,7 +51,7 @@
       "ready-for-source-collection": 2
     },
     "nodeops-agent-wiki": {
-      "queued-not-in-current-session": 3
+      "ready-for-source-collection": 3
     },
     "research-agent-wiki": {
       "ready-for-source-collection": 2
@@ -62,13 +62,13 @@
   },
   "wave_stage_counts": {
     "wave-1": {
-      "ready-for-source-collection": 22
+      "ready-for-source-collection": 25
     },
     "wave-2": {
-      "queued-not-in-current-session": 3
+      "queued-not-in-current-session": 7
     },
     "wave-3": {
-      "queued-not-in-current-session": 10
+      "queued-not-in-current-session": 3
     }
   },
   "rows": [
@@ -309,7 +309,7 @@
       "task_id": "SRC-026",
       "wiki": "agent-engineering-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
@@ -335,7 +335,7 @@
       "task_id": "SRC-027",
       "wiki": "agent-engineering-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
@@ -361,7 +361,7 @@
       "task_id": "SRC-028",
       "wiki": "agent-engineering-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
@@ -387,7 +387,7 @@
       "task_id": "SRC-029",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "general_current_fact",
@@ -413,7 +413,7 @@
       "task_id": "SRC-030",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "general_current_fact",
@@ -439,7 +439,7 @@
       "task_id": "SRC-031",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "security_advisory",
@@ -465,7 +465,7 @@
       "task_id": "SRC-032",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
@@ -661,11 +661,11 @@
       "readiness_stage": "ready-for-source-collection"
     },
     {
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
-      "wave": "wave-2",
+      "wave": "wave-1",
       "risk_level": "high",
       "freshness": "medium",
       "category": "general_current_fact",
@@ -676,22 +676,25 @@
       "has_reviewer_card": true,
       "reviewer_role": "operations-change-reviewer",
       "human_review_gate": true,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
+      "readiness_stage": "ready-for-source-collection"
     },
     {
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
-      "wave": "wave-2",
+      "wave": "wave-1",
       "risk_level": "high",
       "freshness": "medium",
       "category": "technical_docs",
@@ -702,22 +705,25 @@
       "has_reviewer_card": true,
       "reviewer_role": "operations-change-reviewer",
       "human_review_gate": true,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
+      "readiness_stage": "ready-for-source-collection"
     },
     {
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
       "wiki": "nodeops-agent-wiki",
       "priority": "P1",
-      "wave": "wave-2",
+      "wave": "wave-1",
       "risk_level": "high",
       "freshness": "medium",
       "category": "general_current_fact",
@@ -728,15 +734,18 @@
       "has_reviewer_card": true,
       "reviewer_role": "operations-change-reviewer",
       "human_review_gate": true,
-      "selected_for_current_session": false,
-      "has_packet_entry": false,
-      "packet_entry_count": 0,
-      "packet_paths": [],
-      "packet_audit_passed": false,
-      "packet_rehearsal_passed": false,
+      "selected_for_current_session": true,
+      "has_packet_entry": true,
+      "packet_entry_count": 2,
+      "packet_paths": [
+        "registry/source-review-packets/source-review-session-wave-1-pending.json",
+        "registry/source-review-packets/source-review-session-wave-1-pending.jsonl"
+      ],
+      "packet_audit_passed": true,
+      "packet_rehearsal_passed": true,
       "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "readiness_stage": "queued-not-in-current-session"
+      "readiness_stage": "ready-for-source-collection"
     },
     {
       "ticket_id": "TICKET-SRC-033",
@@ -933,8 +942,8 @@
       "readiness_stage": "ready-for-source-collection"
     },
     {
-      "ticket_id": "TICKET-SRC-021",
-      "task_id": "SRC-021",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "research-agent-wiki",
       "priority": "P2",
       "wave": "wave-1",
@@ -962,8 +971,8 @@
       "readiness_stage": "ready-for-source-collection"
     },
     {
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "research-agent-wiki",
       "priority": "P2",
       "wave": "wave-1",
@@ -1068,7 +1077,7 @@
     {
       "check": "selected reviews have packet entries",
       "passed": true,
-      "detail": "22/22 selected rows have packet entries"
+      "detail": "25/25 selected rows have packet entries"
     },
     {
       "check": "packet audit passed",

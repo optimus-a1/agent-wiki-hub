@@ -1,6 +1,6 @@
 # Safety Boundary Audit
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Summary
 

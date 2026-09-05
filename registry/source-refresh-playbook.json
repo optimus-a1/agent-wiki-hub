@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "source_queue": "registry/source-update-queue.json",
   "task_count": 35,
   "wave_counts": {
-    "wave-1": 22,
-    "wave-2": 3,
-    "wave-3": 10
+    "wave-1": 25,
+    "wave-2": 7,
+    "wave-3": 3
   },
   "wiki_counts": {
     "agent-engineering-wiki": 3,
@@ -940,6 +940,141 @@
     {
       "task_id": "SRC-021",
       "wave": "wave-1",
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "priority_score": 8,
+      "category": "general_current_fact",
+      "topic": "current OS package, Docker, systemd and kernel behavior",
+      "status": "pending_source_refresh",
+      "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "suggested_sources": [
+        "official documentation",
+        "local version output",
+        "release notes"
+      ],
+      "last_checked": "2026-05-27",
+      "human_confirmation_required": true,
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official documentation, local version output, release notes.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ]
+    },
+    {
+      "task_id": "SRC-022",
+      "wave": "wave-1",
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "priority_score": 8,
+      "category": "technical_docs",
+      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+      "status": "pending_source_refresh",
+      "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "suggested_sources": [
+        "official client release notes",
+        "chain foundation announcement",
+        "node logs and version output"
+      ],
+      "last_checked": "2026-05-27",
+      "human_confirmation_required": true,
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: official client release notes, chain foundation announcement, node logs and version output.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ]
+    },
+    {
+      "task_id": "SRC-023",
+      "wave": "wave-1",
+      "wiki": "nodeops-agent-wiki",
+      "domain": "operations",
+      "risk_level": "high",
+      "freshness_requirement": "medium",
+      "priority_score": 8,
+      "category": "general_current_fact",
+      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+      "status": "pending_source_refresh",
+      "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "suggested_sources": [
+        "cloud provider documentation",
+        "status page",
+        "account console"
+      ],
+      "last_checked": "2026-05-27",
+      "human_confirmation_required": true,
+      "verification_steps": [
+        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
+        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
+        "Start with suggested source types: cloud provider documentation, status page, account console.",
+        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
+        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
+        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
+        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
+        "Run validation, source queue generation, search index update, and acceptance checks after edits."
+      ],
+      "acceptance_criteria": [
+        "No current fact is written without a dated source note.",
+        "No API key, private key, cookie, credential, or private account data is recorded.",
+        "Any remaining uncertainty is explicitly marked needs-source-update.",
+        "The relevant update-log.md records the change."
+      ],
+      "post_update_commands": [
+        "python3 scripts/list_source_updates.py",
+        "python3 scripts/generate_source_refresh_playbook.py",
+        "python3 scripts/generate_source_refresh_tickets.py",
+        "python3 scripts/generate_source_refresh_logs.py",
+        "python3 scripts/audit_source_refresh_completion.py",
+        "python3 scripts/update_index.py",
+        "python3 scripts/run_acceptance.py"
+      ]
+    },
+    {
+      "task_id": "SRC-024",
+      "wave": "wave-1",
       "wiki": "research-agent-wiki",
       "domain": "research",
       "risk_level": "medium",
@@ -982,7 +1117,7 @@
       ]
     },
     {
-      "task_id": "SRC-022",
+      "task_id": "SRC-025",
       "wave": "wave-1",
       "wiki": "research-agent-wiki",
       "domain": "research",
@@ -1026,148 +1161,13 @@
       ]
     },
     {
-      "task_id": "SRC-023",
-      "wave": "wave-2",
-      "wiki": "nodeops-agent-wiki",
-      "domain": "operations",
-      "risk_level": "high",
-      "freshness_requirement": "medium",
-      "priority_score": 7,
-      "category": "general_current_fact",
-      "topic": "current OS package, Docker, systemd and kernel behavior",
-      "status": "pending_source_refresh",
-      "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "suggested_sources": [
-        "official documentation",
-        "local version output",
-        "release notes"
-      ],
-      "last_checked": "2026-05-27",
-      "human_confirmation_required": true,
-      "verification_steps": [
-        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
-        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
-        "Start with suggested source types: official documentation, local version output, release notes.",
-        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
-        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
-        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
-        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
-        "Run validation, source queue generation, search index update, and acceptance checks after edits."
-      ],
-      "acceptance_criteria": [
-        "No current fact is written without a dated source note.",
-        "No API key, private key, cookie, credential, or private account data is recorded.",
-        "Any remaining uncertainty is explicitly marked needs-source-update.",
-        "The relevant update-log.md records the change."
-      ],
-      "post_update_commands": [
-        "python3 scripts/list_source_updates.py",
-        "python3 scripts/generate_source_refresh_playbook.py",
-        "python3 scripts/generate_source_refresh_tickets.py",
-        "python3 scripts/generate_source_refresh_logs.py",
-        "python3 scripts/audit_source_refresh_completion.py",
-        "python3 scripts/update_index.py",
-        "python3 scripts/run_acceptance.py"
-      ]
-    },
-    {
-      "task_id": "SRC-024",
-      "wave": "wave-2",
-      "wiki": "nodeops-agent-wiki",
-      "domain": "operations",
-      "risk_level": "high",
-      "freshness_requirement": "medium",
-      "priority_score": 7,
-      "category": "technical_docs",
-      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
-      "status": "pending_source_refresh",
-      "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "suggested_sources": [
-        "official client release notes",
-        "chain foundation announcement",
-        "node logs and version output"
-      ],
-      "last_checked": "2026-05-27",
-      "human_confirmation_required": true,
-      "verification_steps": [
-        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
-        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
-        "Start with suggested source types: official client release notes, chain foundation announcement, node logs and version output.",
-        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
-        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
-        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
-        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
-        "Run validation, source queue generation, search index update, and acceptance checks after edits."
-      ],
-      "acceptance_criteria": [
-        "No current fact is written without a dated source note.",
-        "No API key, private key, cookie, credential, or private account data is recorded.",
-        "Any remaining uncertainty is explicitly marked needs-source-update.",
-        "The relevant update-log.md records the change."
-      ],
-      "post_update_commands": [
-        "python3 scripts/list_source_updates.py",
-        "python3 scripts/generate_source_refresh_playbook.py",
-        "python3 scripts/generate_source_refresh_tickets.py",
-        "python3 scripts/generate_source_refresh_logs.py",
-        "python3 scripts/audit_source_refresh_completion.py",
-        "python3 scripts/update_index.py",
-        "python3 scripts/run_acceptance.py"
-      ]
-    },
-    {
-      "task_id": "SRC-025",
-      "wave": "wave-2",
-      "wiki": "nodeops-agent-wiki",
-      "domain": "operations",
-      "risk_level": "high",
-      "freshness_requirement": "medium",
-      "priority_score": 7,
-      "category": "general_current_fact",
-      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
-      "status": "pending_source_refresh",
-      "source_notes_path": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "suggested_sources": [
-        "cloud provider documentation",
-        "status page",
-        "account console"
-      ],
-      "last_checked": "2026-05-27",
-      "human_confirmation_required": true,
-      "verification_steps": [
-        "Read the wiki manifest, AGENTS.md, rules/, and sources/source-notes.md before updating content.",
-        "Because this is a high-risk wiki, read rules/ before workflows/ and require human confirmation before operational use.",
-        "Start with suggested source types: cloud provider documentation, status page, account console.",
-        "Collect at least one authoritative primary source; use two independent authoritative sources for high-risk claims when available.",
-        "Record source title, publisher, URL or local reference, access date, publication/update date, and any scope limits.",
-        "Compare the source against the existing wiki statement and identify whether the fact should be added, changed, or left as needs-source-update.",
-        "Update only the minimal relevant wiki pages and sources/source-notes.md; keep uncertainty and human confirmation points visible.",
-        "Run validation, source queue generation, search index update, and acceptance checks after edits."
-      ],
-      "acceptance_criteria": [
-        "No current fact is written without a dated source note.",
-        "No API key, private key, cookie, credential, or private account data is recorded.",
-        "Any remaining uncertainty is explicitly marked needs-source-update.",
-        "The relevant update-log.md records the change."
-      ],
-      "post_update_commands": [
-        "python3 scripts/list_source_updates.py",
-        "python3 scripts/generate_source_refresh_playbook.py",
-        "python3 scripts/generate_source_refresh_tickets.py",
-        "python3 scripts/generate_source_refresh_logs.py",
-        "python3 scripts/audit_source_refresh_completion.py",
-        "python3 scripts/update_index.py",
-        "python3 scripts/run_acceptance.py"
-      ]
-    },
-    {
       "task_id": "SRC-026",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "wiki": "agent-engineering-wiki",
       "domain": "ai_agent_engineering",
       "risk_level": "medium",
       "freshness_requirement": "medium",
-      "priority_score": 6,
+      "priority_score": 7,
       "category": "technical_docs",
       "topic": "current Codex Skill format, plugin behavior and tool capabilities",
       "status": "pending_source_refresh",
@@ -1206,12 +1206,12 @@
     },
     {
       "task_id": "SRC-027",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "wiki": "agent-engineering-wiki",
       "domain": "ai_agent_engineering",
       "risk_level": "medium",
       "freshness_requirement": "medium",
-      "priority_score": 6,
+      "priority_score": 7,
       "category": "technical_docs",
       "topic": "current RAG frameworks, embedding models, vector databases and rerankers",
       "status": "pending_source_refresh",
@@ -1250,12 +1250,12 @@
     },
     {
       "task_id": "SRC-028",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "wiki": "agent-engineering-wiki",
       "domain": "ai_agent_engineering",
       "risk_level": "medium",
       "freshness_requirement": "medium",
-      "priority_score": 6,
+      "priority_score": 7,
       "category": "technical_docs",
       "topic": "current eval harnesses, model APIs and MCP/tool schemas",
       "status": "pending_source_refresh",
@@ -1294,12 +1294,12 @@
     },
     {
       "task_id": "SRC-029",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "wiki": "coding-agent-wiki",
       "domain": "software_engineering",
       "risk_level": "medium",
       "freshness_requirement": "medium",
-      "priority_score": 6,
+      "priority_score": 7,
       "category": "general_current_fact",
       "topic": "current OpenAI, Codex, GitHub or Vercel product behavior",
       "status": "pending_source_refresh",
@@ -1338,12 +1338,12 @@
     },
     {
       "task_id": "SRC-030",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "wiki": "coding-agent-wiki",
       "domain": "software_engineering",
       "risk_level": "medium",
       "freshness_requirement": "medium",
-      "priority_score": 6,
+      "priority_score": 7,
       "category": "general_current_fact",
       "topic": "current cloud platform build, deploy, runtime and pricing behavior",
       "status": "pending_source_refresh",
@@ -1382,12 +1382,12 @@
     },
     {
       "task_id": "SRC-031",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "wiki": "coding-agent-wiki",
       "domain": "software_engineering",
       "risk_level": "medium",
       "freshness_requirement": "medium",
-      "priority_score": 6,
+      "priority_score": 7,
       "category": "security_advisory",
       "topic": "current dependency vulnerabilities and security advisories",
       "status": "pending_source_refresh",
@@ -1426,12 +1426,12 @@
     },
     {
       "task_id": "SRC-032",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "wiki": "coding-agent-wiki",
       "domain": "software_engineering",
       "risk_level": "medium",
       "freshness_requirement": "medium",
-      "priority_score": 6,
+      "priority_score": 7,
       "category": "technical_docs",
       "topic": "current framework, library, CLI and API parameters",
       "status": "pending_source_refresh",
@@ -1475,7 +1475,7 @@
       "domain": "content_operations",
       "risk_level": "low",
       "freshness_requirement": "medium",
-      "priority_score": 5,
+      "priority_score": 6,
       "category": "general_current_fact",
       "topic": "current image, chart, dataset and quote licensing",
       "status": "pending_source_refresh",
@@ -1519,7 +1519,7 @@
       "domain": "content_operations",
       "risk_level": "low",
       "freshness_requirement": "medium",
-      "priority_score": 5,
+      "priority_score": 6,
       "category": "general_current_fact",
       "topic": "current news, statistics, public quotes and social media claims",
       "status": "pending_source_refresh",
@@ -1563,7 +1563,7 @@
       "domain": "content_operations",
       "risk_level": "low",
       "freshness_requirement": "medium",
-      "priority_score": 5,
+      "priority_score": 6,
       "category": "policy_or_regulation",
       "topic": "current publishing platform rules, format limits and content policies",
       "status": "pending_source_refresh",

@@ -1,12 +1,12 @@
 # Source Update Queue
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Summary
 
 - Topics: 35
-- High-priority topics: 22
-- Stale or missing last_checked topics: 22
+- High-priority topics: 25
+- Stale or missing last_checked topics: 35
 
 ## Queue
 
@@ -32,21 +32,21 @@ Generated: 2026-06-30
 | 8 | ecommerce-agent-wiki | medium | high | current marketplace policy, return window, category restrictions and consumer protection rules | 2026-05-27 | official marketplace policy center, consumer protection authority, merchant service agreement |
 | 8 | ecommerce-agent-wiki | medium | high | current product certification, recall, safety notice and warranty terms | 2026-05-27 | brand official website, regulator recall database, warranty document |
 | 8 | ecommerce-agent-wiki | medium | high | current product price, stock, promotion, shipping fee and delivery ETA | 2026-05-27 | platform product page, merchant backend, carrier tracking system |
+| 8 | nodeops-agent-wiki | high | medium | current OS package, Docker, systemd and kernel behavior | 2026-05-27 | official documentation, local version output, release notes |
+| 8 | nodeops-agent-wiki | high | medium | current blockchain node client versions, network parameters and upgrade requirements | 2026-05-27 | official client release notes, chain foundation announcement, node logs and version output |
+| 8 | nodeops-agent-wiki | high | medium | current cloud provider limits, firewall behavior, billing and incident status | 2026-05-27 | cloud provider documentation, status page, account console |
 | 8 | research-agent-wiki | medium | high | current dataset availability, license, model weights and code repository status | 2026-05-27 | official dataset page, repository release notes, model card |
 | 8 | research-agent-wiki | medium | high | latest papers, preprints, revisions, citations and benchmark leaderboards | 2026-05-27 | publisher page, arXiv or conference page, official benchmark leaderboard |
-| 7 | nodeops-agent-wiki | high | medium | current OS package, Docker, systemd and kernel behavior | 2026-05-27 | official documentation, local version output, release notes |
-| 7 | nodeops-agent-wiki | high | medium | current blockchain node client versions, network parameters and upgrade requirements | 2026-05-27 | official client release notes, chain foundation announcement, node logs and version output |
-| 7 | nodeops-agent-wiki | high | medium | current cloud provider limits, firewall behavior, billing and incident status | 2026-05-27 | cloud provider documentation, status page, account console |
-| 6 | agent-engineering-wiki | medium | medium | current Codex Skill format, plugin behavior and tool capabilities | 2026-05-27 | official documentation, product changelog, local plugin manifest |
-| 6 | agent-engineering-wiki | medium | medium | current RAG frameworks, embedding models, vector databases and rerankers | 2026-05-27 | official documentation, release notes, benchmark report with date |
-| 6 | agent-engineering-wiki | medium | medium | current eval harnesses, model APIs and MCP/tool schemas | 2026-05-27 | official API documentation, tool schema, repository release notes |
-| 6 | coding-agent-wiki | medium | medium | current OpenAI, Codex, GitHub or Vercel product behavior | 2026-05-27 | official product documentation, changelog, repository or API docs |
-| 6 | coding-agent-wiki | medium | medium | current cloud platform build, deploy, runtime and pricing behavior | 2026-05-27 | official platform documentation, status page, project deployment logs |
-| 6 | coding-agent-wiki | medium | medium | current dependency vulnerabilities and security advisories | 2026-05-27 | official security advisory, package registry advisory, vendor bulletin |
-| 6 | coding-agent-wiki | medium | medium | current framework, library, CLI and API parameters | 2026-05-27 | official documentation, release notes, source repository |
-| 5 | content-agent-wiki | low | medium | current image, chart, dataset and quote licensing | 2026-05-27 | license document, rights holder page, source terms of use |
-| 5 | content-agent-wiki | low | medium | current news, statistics, public quotes and social media claims | 2026-05-27 | primary source, official data release, dated reputable reporting |
-| 5 | content-agent-wiki | low | medium | current publishing platform rules, format limits and content policies | 2026-05-27 | platform policy center, creator documentation, account dashboard notices |
+| 7 | agent-engineering-wiki | medium | medium | current Codex Skill format, plugin behavior and tool capabilities | 2026-05-27 | official documentation, product changelog, local plugin manifest |
+| 7 | agent-engineering-wiki | medium | medium | current RAG frameworks, embedding models, vector databases and rerankers | 2026-05-27 | official documentation, release notes, benchmark report with date |
+| 7 | agent-engineering-wiki | medium | medium | current eval harnesses, model APIs and MCP/tool schemas | 2026-05-27 | official API documentation, tool schema, repository release notes |
+| 7 | coding-agent-wiki | medium | medium | current OpenAI, Codex, GitHub or Vercel product behavior | 2026-05-27 | official product documentation, changelog, repository or API docs |
+| 7 | coding-agent-wiki | medium | medium | current cloud platform build, deploy, runtime and pricing behavior | 2026-05-27 | official platform documentation, status page, project deployment logs |
+| 7 | coding-agent-wiki | medium | medium | current dependency vulnerabilities and security advisories | 2026-05-27 | official security advisory, package registry advisory, vendor bulletin |
+| 7 | coding-agent-wiki | medium | medium | current framework, library, CLI and API parameters | 2026-05-27 | official documentation, release notes, source repository |
+| 6 | content-agent-wiki | low | medium | current image, chart, dataset and quote licensing | 2026-05-27 | license document, rights holder page, source terms of use |
+| 6 | content-agent-wiki | low | medium | current news, statistics, public quotes and social media claims | 2026-05-27 | primary source, official data release, dated reputable reporting |
+| 6 | content-agent-wiki | low | medium | current publishing platform rules, format limits and content policies | 2026-05-27 | platform policy center, creator documentation, account dashboard notices |
 
 ## Usage Notes
 

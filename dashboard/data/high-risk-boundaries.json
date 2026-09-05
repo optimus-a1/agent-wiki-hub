@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "passed": true,
   "wiki_checks": [
     {
@@ -47,39 +47,7 @@
   ],
   "checks": [
     {
-      "path": "wikis/airdrop-agent-wiki/concepts/signing-risk-classes.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/funding-claim-boundary.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/wallet-compartmentalization.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/task-classification.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/sybil-risk-boundary.md",
+      "path": "wikis/airdrop-agent-wiki/concepts/phishing-signal-review.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -95,7 +63,31 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/airdrop-agent-wiki/concepts/source-gate-for-token-events.md",
+      "path": "wikis/airdrop-agent-wiki/concepts/funding-claim-boundary.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/task-classification.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/signing-risk-classes.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/wallet-compartmentalization.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -111,39 +103,23 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/airdrop-agent-wiki/concepts/sybil-risk-boundary.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/concepts/source-gate-for-token-events.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/airdrop-agent-wiki/concepts/automation-ethics.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/concepts/phishing-signal-review.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/rules/approval-revocation-review.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/rules/no-sybil-evasion.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/rules/tge-listing-snapshot-source-gate.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -159,7 +135,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/airdrop-agent-wiki/rules/no-unverified-project-claims.md",
+      "path": "wikis/airdrop-agent-wiki/rules/no-sybil-evasion.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -168,6 +144,30 @@
     },
     {
       "path": "wikis/airdrop-agent-wiki/rules/wallet-signing-human-gate.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/no-unverified-project-claims.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/approval-revocation-review.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/rules/tge-listing-snapshot-source-gate.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -199,7 +199,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/airdrop-agent-wiki/workflows/project-research-workflow.md",
+      "path": "wikis/airdrop-agent-wiki/workflows/approval-hygiene-review.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -207,7 +207,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/airdrop-agent-wiki/workflows/wallet-risk-review-workflow.md",
+      "path": "wikis/airdrop-agent-wiki/workflows/project-research-workflow.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -231,15 +231,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/airdrop-agent-wiki/workflows/approval-hygiene-review.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-wallet-compartment-success.md",
+      "path": "wikis/airdrop-agent-wiki/workflows/wallet-risk-review-workflow.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -255,23 +247,15 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/airdrop-agent-wiki/cases/case-wallet-compartment-success.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/airdrop-agent-wiki/cases/case-signing-unknown-message.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/airdrop-agent-wiki/cases/case-unverified-tge-claim.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -287,7 +271,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/airdrop-agent-wiki/prompts/task-risk-triage-prompt.md",
+      "path": "wikis/airdrop-agent-wiki/cases/case-unverified-tge-claim.md",
+      "wiki": "airdrop-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/airdrop-agent-wiki/cases/case-phishing-domain-signal.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -303,14 +295,6 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/airdrop-agent-wiki/prompts/airdrop-research-prompt.md",
-      "wiki": "airdrop-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/airdrop-agent-wiki/prompts/source-gate-airdrop-prompt.md",
       "wiki": "airdrop-agent-wiki",
       "passed": true,
@@ -319,23 +303,23 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/concepts/ocr-field-confidence.md",
-      "wiki": "customs-agent-wiki",
+      "path": "wikis/airdrop-agent-wiki/prompts/task-risk-triage-prompt.md",
+      "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
       "has_source_gate": true,
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/concepts/contract-field-alignment.md",
-      "wiki": "customs-agent-wiki",
+      "path": "wikis/airdrop-agent-wiki/prompts/airdrop-research-prompt.md",
+      "wiki": "airdrop-agent-wiki",
       "passed": true,
       "has_human_gate": true,
       "has_source_gate": true,
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/concepts/package-count-reconciliation.md",
+      "path": "wikis/customs-agent-wiki/concepts/gross-weight-vs-net-weight-checks.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -351,31 +335,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/concepts/declaration-element-model.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/amount-currency-consistency.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/packing-list-structure.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/concepts/gross-weight-vs-net-weight-checks.md",
+      "path": "wikis/customs-agent-wiki/concepts/package-count-reconciliation.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -391,7 +351,47 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/customs-agent-wiki/concepts/ocr-field-confidence.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/amount-currency-consistency.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/contract-field-alignment.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/customs-agent-wiki/concepts/commercial-invoice-structure.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/packing-list-structure.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/concepts/declaration-element-model.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -407,7 +407,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/document-version-control.md",
+      "path": "wikis/customs-agent-wiki/rules/do-not-invent-missing-values.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -423,7 +423,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/currency-and-amount-gate.md",
+      "path": "wikis/customs-agent-wiki/rules/customs-policy-source-gate.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -431,7 +431,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/do-not-invent-missing-values.md",
+      "path": "wikis/customs-agent-wiki/rules/document-version-control.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -447,14 +447,6 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/customs-policy-source-gate.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/customs-agent-wiki/rules/weight-and-package-reconciliation.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
@@ -463,7 +455,23 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/workflows/factory-document-review-workflow.md",
+      "path": "wikis/customs-agent-wiki/rules/currency-and-amount-gate.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/ocr-to-structured-json-workflow.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/workflows/invoice-packing-list-reconciliation.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -495,55 +503,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/workflows/invoice-packing-list-reconciliation.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/workflows/ocr-to-structured-json-workflow.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/cases/case-hidden-ocr-uncertainty.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/cases/case-invented-missing-value.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/cases/case-weight-inconsistency.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/cases/case-package-count-mismatch.md",
-      "wiki": "customs-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/customs-agent-wiki/cases/case-manual-review-escalation.md",
+      "path": "wikis/customs-agent-wiki/workflows/factory-document-review-workflow.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -559,7 +519,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/prompts/customs-source-gate-prompt.md",
+      "path": "wikis/customs-agent-wiki/cases/case-hidden-ocr-uncertainty.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -567,7 +527,31 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/customs-agent-wiki/prompts/document-discrepancy-audit-prompt.md",
+      "path": "wikis/customs-agent-wiki/cases/case-weight-inconsistency.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-manual-review-escalation.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-invented-missing-value.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/customs-agent-wiki/cases/case-package-count-mismatch.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -583,6 +567,14 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/customs-agent-wiki/prompts/document-discrepancy-audit-prompt.md",
+      "wiki": "customs-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/customs-agent-wiki/prompts/manual-review-summary-prompt.md",
       "wiki": "customs-agent-wiki",
       "passed": true,
@@ -591,48 +583,8 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/portfolio-concentration-risk.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/concepts/walk-forward-validation.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/concepts/order-book-basics.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/concepts/volume-vs-depth.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/concepts/volatility-and-drawdown.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/concepts/spread-and-liquidity.md",
-      "wiki": "finance-agent-wiki",
+      "path": "wikis/customs-agent-wiki/prompts/customs-source-gate-prompt.md",
+      "wiki": "customs-agent-wiki",
       "passed": true,
       "has_human_gate": true,
       "has_source_gate": true,
@@ -655,6 +607,14 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/finance-agent-wiki/concepts/volume-vs-depth.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/finance-agent-wiki/concepts/ohlcv-interpretation.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
@@ -663,7 +623,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/look-ahead-bias.md",
+      "path": "wikis/finance-agent-wiki/concepts/order-book-basics.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -687,7 +647,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/liquidity-risk-boundary.md",
+      "path": "wikis/finance-agent-wiki/concepts/spread-and-liquidity.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -695,7 +655,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/overfitting-check-required.md",
+      "path": "wikis/finance-agent-wiki/concepts/walk-forward-validation.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -703,7 +663,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/trading-system-permission-control.md",
+      "path": "wikis/finance-agent-wiki/concepts/look-ahead-bias.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -711,7 +671,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/no-personalized-buy-sell-advice.md",
+      "path": "wikis/finance-agent-wiki/concepts/portfolio-concentration-risk.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -719,23 +679,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/paper-trading-default.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/leverage-risk-boundary.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/human-confirmation-for-real-money.md",
+      "path": "wikis/finance-agent-wiki/concepts/volatility-and-drawdown.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -751,6 +695,30 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/finance-agent-wiki/rules/overfitting-check-required.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/human-confirmation-for-real-money.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/no-personalized-buy-sell-advice.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/finance-agent-wiki/rules/backtest-costs-required.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
@@ -759,7 +727,39 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/finance-agent-wiki/rules/liquidity-risk-boundary.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/paper-trading-default.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/finance-agent-wiki/rules/out-of-sample-required.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/leverage-risk-boundary.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/trading-system-permission-control.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -783,31 +783,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/workflows/portfolio-risk-review-workflow.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/finance-agent-wiki/workflows/backtest-design-workflow.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/workflows/financial-statement-triangulation.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/workflows/human-confirmation-trade-gate.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -823,6 +799,22 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/finance-agent-wiki/workflows/human-confirmation-trade-gate.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/workflows/portfolio-risk-review-workflow.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/finance-agent-wiki/workflows/drawdown-review-workflow.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
@@ -831,15 +823,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/cases/case-leverage-drawdown-risk.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md",
+      "path": "wikis/finance-agent-wiki/workflows/financial-statement-triangulation.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -855,15 +839,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/cases/case-liquidity-exit-risk.md",
-      "wiki": "finance-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/finance-agent-wiki/cases/case-personalized-buy-sell-request.md",
+      "path": "wikis/finance-agent-wiki/cases/case-backtest-overfitting.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -879,7 +855,23 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/prompts/paper-trading-gate-prompt.md",
+      "path": "wikis/finance-agent-wiki/cases/case-leverage-drawdown-risk.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-personalized-buy-sell-request.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/case-liquidity-exit-risk.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -895,7 +887,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/finance-agent-wiki/prompts/finance-risk-review-prompt.md",
+      "path": "wikis/finance-agent-wiki/prompts/paper-trading-gate-prompt.md",
       "wiki": "finance-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -911,7 +903,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/health-agent-wiki/concepts/red-flag-escalation.md",
+      "path": "wikis/finance-agent-wiki/prompts/finance-risk-review-prompt.md",
+      "wiki": "finance-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/health-education-boundary.md",
       "wiki": "health-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -919,7 +919,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/health-agent-wiki/concepts/risk-and-uncertainty-language.md",
+      "path": "wikis/health-agent-wiki/concepts/lab-result-explanation-limits.md",
+      "wiki": "health-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/health-agent-wiki/concepts/red-flag-escalation.md",
       "wiki": "health-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -943,47 +951,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/health-agent-wiki/concepts/lab-result-explanation-limits.md",
-      "wiki": "health-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/health-agent-wiki/concepts/health-education-boundary.md",
-      "wiki": "health-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/health-agent-wiki/rules/no-treatment-plan-without-clinician.md",
-      "wiki": "health-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/health-agent-wiki/rules/emergency-red-flag-escalation.md",
-      "wiki": "health-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/health-agent-wiki/rules/no-dosage-instruction.md",
-      "wiki": "health-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/health-agent-wiki/rules/licensed-clinician-review-required.md",
+      "path": "wikis/health-agent-wiki/concepts/risk-and-uncertainty-language.md",
       "wiki": "health-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -999,7 +967,31 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/health-agent-wiki/workflows/educational-explanation-workflow.md",
+      "path": "wikis/health-agent-wiki/rules/no-treatment-plan-without-clinician.md",
+      "wiki": "health-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/licensed-clinician-review-required.md",
+      "wiki": "health-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/no-dosage-instruction.md",
+      "wiki": "health-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/health-agent-wiki/rules/emergency-red-flag-escalation.md",
       "wiki": "health-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1015,7 +1007,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/health-agent-wiki/workflows/clinician-handoff-summary-workflow.md",
+      "path": "wikis/health-agent-wiki/workflows/red-flag-escalation-workflow.md",
       "wiki": "health-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1023,7 +1015,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/health-agent-wiki/workflows/red-flag-escalation-workflow.md",
+      "path": "wikis/health-agent-wiki/workflows/educational-explanation-workflow.md",
+      "wiki": "health-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/health-agent-wiki/workflows/clinician-handoff-summary-workflow.md",
       "wiki": "health-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1087,7 +1087,31 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/legal-agent-wiki/concepts/contract-clause-function.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/legal-information-vs-advice.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/legal-agent-wiki/concepts/evidence-and-document-context.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/legal-agent-wiki/concepts/risk-issue-spotting.md",
       "wiki": "legal-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1111,55 +1135,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/legal-agent-wiki/concepts/contract-clause-function.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/legal-agent-wiki/concepts/risk-issue-spotting.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/legal-agent-wiki/concepts/legal-information-vs-advice.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/legal-agent-wiki/rules/current-law-source-gate.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/legal-agent-wiki/rules/lawyer-review-required.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/legal-agent-wiki/rules/no-filing-or-notice-without-review.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/legal-agent-wiki/rules/jurisdiction-required.md",
       "wiki": "legal-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1183,7 +1159,23 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/legal-agent-wiki/workflows/contract-intake-review-workflow.md",
+      "path": "wikis/legal-agent-wiki/rules/no-filing-or-notice-without-review.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/current-law-source-gate.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/legal-agent-wiki/rules/jurisdiction-required.md",
       "wiki": "legal-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1199,14 +1191,6 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/legal-agent-wiki/workflows/legal-question-triage-workflow.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/legal-agent-wiki/workflows/lawyer-handoff-summary-workflow.md",
       "wiki": "legal-agent-wiki",
       "passed": true,
@@ -1215,7 +1199,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/legal-agent-wiki/cases/case-missing-jurisdiction.md",
+      "path": "wikis/legal-agent-wiki/workflows/legal-question-triage-workflow.md",
       "wiki": "legal-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1223,15 +1207,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/legal-agent-wiki/cases/case-lawyer-review-escalation.md",
-      "wiki": "legal-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md",
+      "path": "wikis/legal-agent-wiki/workflows/contract-intake-review-workflow.md",
       "wiki": "legal-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1247,7 +1223,39 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/legal-agent-wiki/cases/case-missing-jurisdiction.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/legal-agent-wiki/cases/case-contract-risk-issue-spotting.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/legal-agent-wiki/cases/case-lawyer-review-escalation.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/legal-agent-wiki/prompts/contract-risk-review-prompt.md",
+      "wiki": "legal-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/legal-agent-wiki/prompts/lawyer-handoff-prompt.md",
       "wiki": "legal-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1263,8 +1271,64 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/legal-agent-wiki/prompts/lawyer-handoff-prompt.md",
-      "wiki": "legal-agent-wiki",
+      "path": "wikis/nodeops-agent-wiki/concepts/rpc-endpoint-safety.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/systemd-unit-reasoning.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/docker-container-isolation.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/memory-pressure-signals.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/rollback-first-operations.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/firewall-change-safety.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/disk-pressure-signals.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/concepts/docker-volume-backup.md",
+      "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
       "has_source_gate": true,
@@ -1287,39 +1351,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/concepts/docker-container-isolation.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/nodeops-agent-wiki/concepts/blockchain-node-health-signals.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/memory-pressure-signals.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/firewall-change-safety.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/systemd-unit-reasoning.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1335,39 +1367,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/concepts/disk-pressure-signals.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/rpc-endpoint-safety.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/rollback-first-operations.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/concepts/docker-volume-backup.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/rules/destructive-command-gate.md",
+      "path": "wikis/nodeops-agent-wiki/rules/rollback-plan-required.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1383,22 +1383,6 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/rules/provider-limit-source-gate.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/rules/rollback-plan-required.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/nodeops-agent-wiki/rules/firewall-change-review.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
@@ -1407,7 +1391,23 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/nodeops-agent-wiki/rules/destructive-command-gate.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/nodeops-agent-wiki/rules/backup-before-mutation.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/provider-limit-source-gate.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1431,7 +1431,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/workflows/incident-response-workflow.md",
+      "path": "wikis/nodeops-agent-wiki/workflows/systemd-service-recovery.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/memory-pressure-triage.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1447,7 +1455,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/workflows/memory-pressure-triage.md",
+      "path": "wikis/nodeops-agent-wiki/workflows/network-port-triage.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1479,7 +1487,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/workflows/network-port-triage.md",
+      "path": "wikis/nodeops-agent-wiki/workflows/incident-response-workflow.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1487,7 +1495,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/workflows/systemd-service-recovery.md",
+      "path": "wikis/nodeops-agent-wiki/cases/case-firewall-lockout-prevention.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1496,6 +1512,14 @@
     },
     {
       "path": "wikis/nodeops-agent-wiki/cases/case-memory-leak-triage.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/case-production-change-without-backup.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1519,30 +1543,6 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/cases/case-disk-pressure-safe-response.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/cases/case-production-change-without-backup.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/cases/case-firewall-lockout-prevention.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/nodeops-agent-wiki/prompts/production-change-risk-prompt.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
@@ -1559,6 +1559,14 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/nodeops-agent-wiki/prompts/ops-incident-triage-prompt.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/nodeops-agent-wiki/prompts/node-health-review-prompt.md",
       "wiki": "nodeops-agent-wiki",
       "passed": true,
@@ -1567,8 +1575,32 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/nodeops-agent-wiki/prompts/ops-incident-triage-prompt.md",
-      "wiki": "nodeops-agent-wiki",
+      "path": "wikis/security-agent-wiki/concepts/asset-exposure-model.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/dependency-risk-review.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/incident-containment.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/concepts/secrets-management.md",
+      "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
       "has_source_gate": true,
@@ -1591,31 +1623,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/concepts/secrets-management.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/concepts/vulnerability-triage.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/concepts/dependency-risk-review.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/concepts/asset-exposure-model.md",
+      "path": "wikis/security-agent-wiki/concepts/threat-modeling.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1631,22 +1639,6 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/concepts/threat-modeling.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/concepts/incident-containment.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/security-agent-wiki/concepts/least-privilege.md",
       "wiki": "security-agent-wiki",
       "passed": true,
@@ -1655,7 +1647,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/rules/no-exploit-steps.md",
+      "path": "wikis/security-agent-wiki/concepts/vulnerability-triage.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/least-privilege-default.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1671,7 +1671,31 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/security-agent-wiki/rules/no-exploit-steps.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/secret-redaction-required.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/security-agent-wiki/rules/authorization-required.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/secure-logging-boundary.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1695,15 +1719,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/rules/secret-redaction-required.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/rules/secure-logging-boundary.md",
+      "path": "wikis/security-agent-wiki/rules/defensive-only-boundary.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1719,23 +1735,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/rules/least-privilege-default.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/rules/defensive-only-boundary.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/workflows/incident-containment-workflow.md",
+      "path": "wikis/security-agent-wiki/workflows/threat-model-review-workflow.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1744,14 +1744,6 @@
     },
     {
       "path": "wikis/security-agent-wiki/workflows/patch-review-workflow.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/workflows/detection-rule-review-workflow.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1775,14 +1767,6 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/workflows/dependency-review-workflow.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
       "path": "wikis/security-agent-wiki/workflows/secret-exposure-response-workflow.md",
       "wiki": "security-agent-wiki",
       "passed": true,
@@ -1791,7 +1775,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/workflows/threat-model-review-workflow.md",
+      "path": "wikis/security-agent-wiki/workflows/detection-rule-review-workflow.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1799,7 +1783,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md",
+      "path": "wikis/security-agent-wiki/workflows/incident-containment-workflow.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1807,15 +1791,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/cases/case-vulnerability-triage-safe.md",
-      "wiki": "security-agent-wiki",
-      "passed": true,
-      "has_human_gate": true,
-      "has_source_gate": true,
-      "v2_1_generated": true
-    },
-    {
-      "path": "wikis/security-agent-wiki/cases/case-running-unknown-script.md",
+      "path": "wikis/security-agent-wiki/workflows/dependency-review-workflow.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1831,7 +1807,15 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/cases/case-patch-without-review.md",
+      "path": "wikis/security-agent-wiki/cases/case-vulnerability-triage-safe.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/cases/case-committing-secrets.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1847,7 +1831,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/prompts/defensive-security-review-prompt.md",
+      "path": "wikis/security-agent-wiki/cases/case-patch-without-review.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1855,7 +1839,7 @@
       "v2_1_generated": true
     },
     {
-      "path": "wikis/security-agent-wiki/prompts/dependency-security-review-prompt.md",
+      "path": "wikis/security-agent-wiki/cases/case-running-unknown-script.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1871,7 +1855,23 @@
       "v2_1_generated": true
     },
     {
+      "path": "wikis/security-agent-wiki/prompts/defensive-security-review-prompt.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
       "path": "wikis/security-agent-wiki/prompts/threat-model-prompt.md",
+      "wiki": "security-agent-wiki",
+      "passed": true,
+      "has_human_gate": true,
+      "has_source_gate": true,
+      "v2_1_generated": true
+    },
+    {
+      "path": "wikis/security-agent-wiki/prompts/dependency-security-review-prompt.md",
       "wiki": "security-agent-wiki",
       "passed": true,
       "has_human_gate": true,
@@ -1913,7 +1913,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/airdrop-agent-wiki/workflows/wallet-safety-screening.md",
+      "path": "wikis/airdrop-agent-wiki/workflows/project-research.md",
       "wiki": "airdrop-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -1921,7 +1921,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/airdrop-agent-wiki/workflows/project-research.md",
+      "path": "wikis/airdrop-agent-wiki/workflows/wallet-safety-screening.md",
       "wiki": "airdrop-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -1977,14 +1977,6 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/customs-agent-wiki/rules/core-rules.md",
-      "wiki": "customs-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
       "path": "wikis/customs-agent-wiki/rules/field-extraction-rules.md",
       "wiki": "customs-agent-wiki",
       "passed": false,
@@ -1993,15 +1985,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/customs-agent-wiki/workflows/difference-comparison.md",
-      "wiki": "customs-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
-      "path": "wikis/customs-agent-wiki/workflows/document-checking.md",
+      "path": "wikis/customs-agent-wiki/rules/core-rules.md",
       "wiki": "customs-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2025,7 +2009,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/customs-agent-wiki/cases/common-failures.md",
+      "path": "wikis/customs-agent-wiki/workflows/difference-comparison.md",
       "wiki": "customs-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2033,7 +2017,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md",
+      "path": "wikis/customs-agent-wiki/workflows/document-checking.md",
       "wiki": "customs-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2049,7 +2033,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/customs-agent-wiki/prompts/default-agent.md",
+      "path": "wikis/customs-agent-wiki/cases/sample-document-diff.md",
       "wiki": "customs-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2057,16 +2041,16 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/overview.md",
-      "wiki": "finance-agent-wiki",
+      "path": "wikis/customs-agent-wiki/cases/common-failures.md",
+      "wiki": "customs-agent-wiki",
       "passed": false,
       "has_human_gate": false,
       "has_source_gate": false,
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/concepts/financial-analysis.md",
-      "wiki": "finance-agent-wiki",
+      "path": "wikis/customs-agent-wiki/prompts/default-agent.md",
+      "wiki": "customs-agent-wiki",
       "passed": false,
       "has_human_gate": false,
       "has_source_gate": false,
@@ -2089,7 +2073,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/core-rules.md",
+      "path": "wikis/finance-agent-wiki/concepts/overview.md",
       "wiki": "finance-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2097,15 +2081,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
-      "wiki": "finance-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
-      "path": "wikis/finance-agent-wiki/rules/trading-system-boundaries.md",
+      "path": "wikis/finance-agent-wiki/concepts/financial-analysis.md",
       "wiki": "finance-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2121,7 +2097,23 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/workflows/research-to-decision.md",
+      "path": "wikis/finance-agent-wiki/rules/core-rules.md",
+      "wiki": "finance-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/trading-system-boundaries.md",
+      "wiki": "finance-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
+      "path": "wikis/finance-agent-wiki/rules/model-risk-and-backtest-hygiene.md",
       "wiki": "finance-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2137,7 +2129,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
+      "path": "wikis/finance-agent-wiki/workflows/backtesting-workflow.md",
       "wiki": "finance-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2145,7 +2137,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/workflows/backtesting-workflow.md",
+      "path": "wikis/finance-agent-wiki/workflows/portfolio-review-workflow.md",
       "wiki": "finance-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2161,7 +2153,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md",
+      "path": "wikis/finance-agent-wiki/workflows/research-to-decision.md",
       "wiki": "finance-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2170,6 +2162,14 @@
     },
     {
       "path": "wikis/finance-agent-wiki/cases/sample-overfitting-detection.md",
+      "wiki": "finance-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
+      "path": "wikis/finance-agent-wiki/cases/sample-backtest-risk-review.md",
       "wiki": "finance-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2217,7 +2217,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/health-agent-wiki/workflows/health-education-triage.md",
+      "path": "wikis/health-agent-wiki/workflows/main-workflow.md",
       "wiki": "health-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2225,7 +2225,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/health-agent-wiki/workflows/main-workflow.md",
+      "path": "wikis/health-agent-wiki/workflows/health-education-triage.md",
       "wiki": "health-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2265,7 +2265,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/legal-agent-wiki/rules/core-rules.md",
+      "path": "wikis/legal-agent-wiki/rules/no-legal-advice.md",
       "wiki": "legal-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2273,7 +2273,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/legal-agent-wiki/rules/no-legal-advice.md",
+      "path": "wikis/legal-agent-wiki/rules/core-rules.md",
       "wiki": "legal-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2297,7 +2297,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/legal-agent-wiki/cases/common-failures.md",
+      "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md",
       "wiki": "legal-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2305,7 +2305,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/legal-agent-wiki/cases/sample-contract-clause-review.md",
+      "path": "wikis/legal-agent-wiki/cases/common-failures.md",
       "wiki": "legal-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2321,14 +2321,6 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/nodeops-agent-wiki/concepts/overview.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
       "path": "wikis/nodeops-agent-wiki/concepts/service-reliability-signals.md",
       "wiki": "nodeops-agent-wiki",
       "passed": false,
@@ -2337,7 +2329,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/nodeops-agent-wiki/rules/core-rules.md",
+      "path": "wikis/nodeops-agent-wiki/concepts/overview.md",
       "wiki": "nodeops-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2346,6 +2338,14 @@
     },
     {
       "path": "wikis/nodeops-agent-wiki/rules/backup-restore-and-change-safety.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/rules/core-rules.md",
       "wiki": "nodeops-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2369,23 +2369,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/nodeops-agent-wiki/workflows/incident-triage-runbook.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
       "path": "wikis/nodeops-agent-wiki/workflows/incident-response.md",
-      "wiki": "nodeops-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
-      "path": "wikis/nodeops-agent-wiki/workflows/change-management.md",
       "wiki": "nodeops-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2401,7 +2385,15 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md",
+      "path": "wikis/nodeops-agent-wiki/workflows/change-management.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/workflows/incident-triage-runbook.md",
       "wiki": "nodeops-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2410,6 +2402,14 @@
     },
     {
       "path": "wikis/nodeops-agent-wiki/cases/sample-production-change-review.md",
+      "wiki": "nodeops-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
+      "path": "wikis/nodeops-agent-wiki/cases/sample-disk-pressure-incident.md",
       "wiki": "nodeops-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2433,14 +2433,6 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/security-agent-wiki/concepts/overview.md",
-      "wiki": "security-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
       "path": "wikis/security-agent-wiki/concepts/security-control-model.md",
       "wiki": "security-agent-wiki",
       "passed": false,
@@ -2449,7 +2441,15 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/security-agent-wiki/rules/defensive-boundary.md",
+      "path": "wikis/security-agent-wiki/concepts/overview.md",
+      "wiki": "security-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
+      "path": "wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md",
       "wiki": "security-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2473,15 +2473,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/security-agent-wiki/rules/secret-handling-and-log-redaction.md",
-      "wiki": "security-agent-wiki",
-      "passed": false,
-      "has_human_gate": false,
-      "has_source_gate": false,
-      "v2_1_generated": false
-    },
-    {
-      "path": "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
+      "path": "wikis/security-agent-wiki/rules/defensive-boundary.md",
       "wiki": "security-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2513,6 +2505,14 @@
       "v2_1_generated": false
     },
     {
+      "path": "wikis/security-agent-wiki/workflows/defensive-review-triage.md",
+      "wiki": "security-agent-wiki",
+      "passed": false,
+      "has_human_gate": false,
+      "has_source_gate": false,
+      "v2_1_generated": false
+    },
+    {
       "path": "wikis/security-agent-wiki/cases/sample-login-review.md",
       "wiki": "security-agent-wiki",
       "passed": false,
@@ -2521,7 +2521,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/security-agent-wiki/cases/common-failures.md",
+      "path": "wikis/security-agent-wiki/cases/sample-secret-exposure-review.md",
       "wiki": "security-agent-wiki",
       "passed": false,
       "has_human_gate": false,
@@ -2529,7 +2529,7 @@
       "v2_1_generated": false
     },
     {
-      "path": "wikis/security-agent-wiki/cases/sample-secret-exposure-review.md",
+      "path": "wikis/security-agent-wiki/cases/common-failures.md",
       "wiki": "security-agent-wiki",
       "passed": false,
       "has_human_gate": false,

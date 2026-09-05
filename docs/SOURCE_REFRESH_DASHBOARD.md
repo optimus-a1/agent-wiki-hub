@@ -1,6 +1,6 @@
 # Source Refresh Dashboard
 
-Generated: 2026-06-30
+Generated: 2026-09-05
 
 ## Summary
 
@@ -11,12 +11,12 @@ Generated: 2026-06-30
 - Source-refresh tasks: 35
 - Source-refresh tickets: 35
 - Source reviewer queue: 35 open reviews, 16 human gates
-- Source review session plan: 22 selected reviews, 13 human gates
-- Source review packet bundle: 22 pending entries
+- Source review session plan: 25 selected reviews, 16 human gates
+- Source review packet bundle: 25 pending entries
 - Source review packet audit: 2 packets, 0 issues
 - Source review packet rehearsal: 2/2 dry-runs passed
-- Source review readiness matrix: 22 ready, 13 queued
-- Source review work orders: 22 work orders, 13 human gates
+- Source review readiness matrix: 25 ready, 10 queued
+- Source review work orders: 25 work orders, 16 human gates
 - Open tickets: 35
 - Verified tickets: 0
 - Evidence entries: 13
@@ -78,9 +78,9 @@ Generated: 2026-06-30
 
 | Wave | Tickets | Open | Finalized | Verified | Human Confirmation |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| wave-1 | 22 | 22 | 0 | 0 | 13 |
-| wave-2 | 3 | 3 | 0 | 0 | 3 |
-| wave-3 | 10 | 10 | 0 | 0 | 0 |
+| wave-1 | 25 | 25 | 0 | 0 | 16 |
+| wave-2 | 7 | 7 | 0 | 0 | 0 |
+| wave-3 | 3 | 3 | 0 | 0 | 0 |
 
 ## Wiki Progress
 

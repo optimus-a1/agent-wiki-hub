@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-09-05",
   "purpose": "Assign source-refresh tickets to generic reviewer roles while preserving human confirmation and current-fact gates.",
   "passed": true,
   "current_fact_ready": false,
@@ -152,9 +152,9 @@
         "nodeops-agent-wiki"
       ],
       "ticket_ids": [
-        "TICKET-SRC-023",
-        "TICKET-SRC-024",
-        "TICKET-SRC-025"
+        "TICKET-SRC-021",
+        "TICKET-SRC-022",
+        "TICKET-SRC-023"
       ]
     },
     {
@@ -167,8 +167,8 @@
         "research-agent-wiki"
       ],
       "ticket_ids": [
-        "TICKET-SRC-021",
-        "TICKET-SRC-022"
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
       ]
     },
     {
@@ -232,8 +232,8 @@
         "health-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-015",
-        "REVIEW-SRC-016"
+        "REVIEW-SRC-018",
+        "REVIEW-SRC-019"
       ],
       "ticket_ids": [
         "TICKET-SRC-008",
@@ -289,8 +289,8 @@
         "security-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-019",
-        "REVIEW-SRC-020"
+        "REVIEW-SRC-022",
+        "REVIEW-SRC-023"
       ],
       "ticket_ids": [
         "TICKET-SRC-012",
@@ -346,8 +346,8 @@
         "legal-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-017",
-        "REVIEW-SRC-018"
+        "REVIEW-SRC-020",
+        "REVIEW-SRC-021"
       ],
       "ticket_ids": [
         "TICKET-SRC-010",
@@ -363,14 +363,14 @@
         "nodeops-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-023",
-        "REVIEW-SRC-024",
-        "REVIEW-SRC-025"
+        "REVIEW-SRC-015",
+        "REVIEW-SRC-016",
+        "REVIEW-SRC-017"
       ],
       "ticket_ids": [
-        "TICKET-SRC-023",
-        "TICKET-SRC-024",
-        "TICKET-SRC-025"
+        "TICKET-SRC-021",
+        "TICKET-SRC-022",
+        "TICKET-SRC-023"
       ]
     },
     {
@@ -382,12 +382,12 @@
         "research-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-021",
-        "REVIEW-SRC-022"
+        "REVIEW-SRC-024",
+        "REVIEW-SRC-025"
       ],
       "ticket_ids": [
-        "TICKET-SRC-021",
-        "TICKET-SRC-022"
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
       ]
     },
     {
@@ -434,9 +434,9 @@
   "queues_by_wave": [
     {
       "wave": "wave-1",
-      "review_count": 22,
-      "high_risk_count": 13,
-      "human_review_gate_count": 13,
+      "review_count": 25,
+      "high_risk_count": 16,
+      "human_review_gate_count": 16,
       "wikis": {
         "airdrop-agent-wiki": 3,
         "customs-agent-wiki": 4,
@@ -444,6 +444,7 @@
         "finance-agent-wiki": 4,
         "health-agent-wiki": 2,
         "legal-agent-wiki": 2,
+        "nodeops-agent-wiki": 3,
         "research-agent-wiki": 2,
         "security-agent-wiki": 2
       },
@@ -469,7 +470,10 @@
         "REVIEW-SRC-019",
         "REVIEW-SRC-020",
         "REVIEW-SRC-021",
-        "REVIEW-SRC-022"
+        "REVIEW-SRC-022",
+        "REVIEW-SRC-023",
+        "REVIEW-SRC-024",
+        "REVIEW-SRC-025"
       ],
       "ticket_ids": [
         "TICKET-SRC-004",
@@ -486,44 +490,27 @@
         "TICKET-SRC-018",
         "TICKET-SRC-019",
         "TICKET-SRC-020",
+        "TICKET-SRC-021",
+        "TICKET-SRC-022",
+        "TICKET-SRC-023",
         "TICKET-SRC-008",
         "TICKET-SRC-009",
         "TICKET-SRC-010",
         "TICKET-SRC-011",
         "TICKET-SRC-012",
         "TICKET-SRC-013",
-        "TICKET-SRC-021",
-        "TICKET-SRC-022"
-      ]
-    },
-    {
-      "wave": "wave-2",
-      "review_count": 3,
-      "high_risk_count": 3,
-      "human_review_gate_count": 3,
-      "wikis": {
-        "nodeops-agent-wiki": 3
-      },
-      "review_ids": [
-        "REVIEW-SRC-023",
-        "REVIEW-SRC-024",
-        "REVIEW-SRC-025"
-      ],
-      "ticket_ids": [
-        "TICKET-SRC-023",
         "TICKET-SRC-024",
         "TICKET-SRC-025"
       ]
     },
     {
-      "wave": "wave-3",
-      "review_count": 10,
+      "wave": "wave-2",
+      "review_count": 7,
       "high_risk_count": 0,
       "human_review_gate_count": 0,
       "wikis": {
         "agent-engineering-wiki": 3,
-        "coding-agent-wiki": 4,
-        "content-agent-wiki": 3
+        "coding-agent-wiki": 4
       },
       "review_ids": [
         "REVIEW-SRC-026",
@@ -532,10 +519,7 @@
         "REVIEW-SRC-029",
         "REVIEW-SRC-030",
         "REVIEW-SRC-031",
-        "REVIEW-SRC-032",
-        "REVIEW-SRC-033",
-        "REVIEW-SRC-034",
-        "REVIEW-SRC-035"
+        "REVIEW-SRC-032"
       ],
       "ticket_ids": [
         "TICKET-SRC-026",
@@ -544,7 +528,23 @@
         "TICKET-SRC-029",
         "TICKET-SRC-030",
         "TICKET-SRC-031",
-        "TICKET-SRC-032",
+        "TICKET-SRC-032"
+      ]
+    },
+    {
+      "wave": "wave-3",
+      "review_count": 3,
+      "high_risk_count": 0,
+      "human_review_gate_count": 0,
+      "wikis": {
+        "content-agent-wiki": 3
+      },
+      "review_ids": [
+        "REVIEW-SRC-033",
+        "REVIEW-SRC-034",
+        "REVIEW-SRC-035"
+      ],
+      "ticket_ids": [
         "TICKET-SRC-033",
         "TICKET-SRC-034",
         "TICKET-SRC-035"
@@ -616,9 +616,9 @@
         "REVIEW-SRC-012",
         "REVIEW-SRC-013",
         "REVIEW-SRC-014",
-        "REVIEW-SRC-023",
-        "REVIEW-SRC-024",
-        "REVIEW-SRC-025",
+        "REVIEW-SRC-015",
+        "REVIEW-SRC-016",
+        "REVIEW-SRC-017",
         "REVIEW-SRC-033",
         "REVIEW-SRC-034",
         "REVIEW-SRC-035"
@@ -630,9 +630,9 @@
         "TICKET-SRC-018",
         "TICKET-SRC-019",
         "TICKET-SRC-020",
+        "TICKET-SRC-021",
+        "TICKET-SRC-022",
         "TICKET-SRC-023",
-        "TICKET-SRC-024",
-        "TICKET-SRC-025",
         "TICKET-SRC-033",
         "TICKET-SRC-034",
         "TICKET-SRC-035"
@@ -650,14 +650,14 @@
         "security-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-015",
-        "REVIEW-SRC-016",
-        "REVIEW-SRC-017",
         "REVIEW-SRC-018",
         "REVIEW-SRC-019",
         "REVIEW-SRC-020",
         "REVIEW-SRC-021",
-        "REVIEW-SRC-022"
+        "REVIEW-SRC-022",
+        "REVIEW-SRC-023",
+        "REVIEW-SRC-024",
+        "REVIEW-SRC-025"
       ],
       "ticket_ids": [
         "TICKET-SRC-008",
@@ -666,8 +666,8 @@
         "TICKET-SRC-011",
         "TICKET-SRC-012",
         "TICKET-SRC-013",
-        "TICKET-SRC-021",
-        "TICKET-SRC-022"
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
       ]
     }
   ],
@@ -820,8 +820,8 @@
         "health-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-015",
-        "REVIEW-SRC-016"
+        "REVIEW-SRC-018",
+        "REVIEW-SRC-019"
       ],
       "ticket_ids": [
         "TICKET-SRC-008",
@@ -837,8 +837,8 @@
         "legal-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-017",
-        "REVIEW-SRC-018"
+        "REVIEW-SRC-020",
+        "REVIEW-SRC-021"
       ],
       "ticket_ids": [
         "TICKET-SRC-010",
@@ -854,14 +854,14 @@
         "nodeops-agent-wiki": 3
       },
       "review_ids": [
-        "REVIEW-SRC-023",
-        "REVIEW-SRC-024",
-        "REVIEW-SRC-025"
+        "REVIEW-SRC-015",
+        "REVIEW-SRC-016",
+        "REVIEW-SRC-017"
       ],
       "ticket_ids": [
-        "TICKET-SRC-023",
-        "TICKET-SRC-024",
-        "TICKET-SRC-025"
+        "TICKET-SRC-021",
+        "TICKET-SRC-022",
+        "TICKET-SRC-023"
       ]
     },
     {
@@ -873,12 +873,12 @@
         "research-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-021",
-        "REVIEW-SRC-022"
+        "REVIEW-SRC-024",
+        "REVIEW-SRC-025"
       ],
       "ticket_ids": [
-        "TICKET-SRC-021",
-        "TICKET-SRC-022"
+        "TICKET-SRC-024",
+        "TICKET-SRC-025"
       ]
     },
     {
@@ -890,8 +890,8 @@
         "security-agent-wiki": 2
       },
       "review_ids": [
-        "REVIEW-SRC-019",
-        "REVIEW-SRC-020"
+        "REVIEW-SRC-022",
+        "REVIEW-SRC-023"
       ],
       "ticket_ids": [
         "TICKET-SRC-012",
@@ -1224,6 +1224,144 @@
     },
     {
       "review_id": "REVIEW-SRC-015",
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "general_current_fact",
+      "topic": "current OS package, Docker, systemd and kernel behavior",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "operations-change-reviewer",
+      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": true,
+      "human_review_gate": true,
+      "suggested_sources": [
+        "official documentation",
+        "local version output",
+        "release notes"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-016",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "technical_docs",
+      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "operations-change-reviewer",
+      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": true,
+      "human_review_gate": true,
+      "suggested_sources": [
+        "official client release notes",
+        "chain foundation announcement",
+        "node logs and version output"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-017",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "general_current_fact",
+      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "operations-change-reviewer",
+      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": true,
+      "human_review_gate": true,
+      "suggested_sources": [
+        "cloud provider documentation",
+        "status page",
+        "account console"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-018",
       "ticket_id": "TICKET-SRC-008",
       "task_id": "SRC-008",
       "wiki": "health-agent-wiki",
@@ -1269,7 +1407,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-016",
+      "review_id": "REVIEW-SRC-019",
       "ticket_id": "TICKET-SRC-009",
       "task_id": "SRC-009",
       "wiki": "health-agent-wiki",
@@ -1315,7 +1453,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-017",
+      "review_id": "REVIEW-SRC-020",
       "ticket_id": "TICKET-SRC-010",
       "task_id": "SRC-010",
       "wiki": "legal-agent-wiki",
@@ -1361,7 +1499,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-018",
+      "review_id": "REVIEW-SRC-021",
       "ticket_id": "TICKET-SRC-011",
       "task_id": "SRC-011",
       "wiki": "legal-agent-wiki",
@@ -1407,7 +1545,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-019",
+      "review_id": "REVIEW-SRC-022",
       "ticket_id": "TICKET-SRC-012",
       "task_id": "SRC-012",
       "wiki": "security-agent-wiki",
@@ -1453,7 +1591,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-020",
+      "review_id": "REVIEW-SRC-023",
       "ticket_id": "TICKET-SRC-013",
       "task_id": "SRC-013",
       "wiki": "security-agent-wiki",
@@ -1487,144 +1625,6 @@
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
       "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status pending --dry-run",
       "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-013 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
-        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
-        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-023",
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
-      "wiki": "nodeops-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "high",
-      "freshness": "medium",
-      "category": "general_current_fact",
-      "topic": "current OS package, Docker, systemd and kernel behavior",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "operations-change-reviewer",
-      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": true,
-      "human_review_gate": true,
-      "suggested_sources": [
-        "official documentation",
-        "local version output",
-        "release notes"
-      ],
-      "required_reading": [
-        "wikis/nodeops-agent-wiki/AGENTS.md",
-        "wikis/nodeops-agent-wiki/manifest.yaml",
-        "wikis/nodeops-agent-wiki/README.md",
-        "wikis/nodeops-agent-wiki/rules/",
-        "wikis/nodeops-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
-        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
-        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-024",
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
-      "wiki": "nodeops-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "high",
-      "freshness": "medium",
-      "category": "technical_docs",
-      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "operations-change-reviewer",
-      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": true,
-      "human_review_gate": true,
-      "suggested_sources": [
-        "official client release notes",
-        "chain foundation announcement",
-        "node logs and version output"
-      ],
-      "required_reading": [
-        "wikis/nodeops-agent-wiki/AGENTS.md",
-        "wikis/nodeops-agent-wiki/manifest.yaml",
-        "wikis/nodeops-agent-wiki/README.md",
-        "wikis/nodeops-agent-wiki/rules/",
-        "wikis/nodeops-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
-        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
-        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-025",
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
-      "wiki": "nodeops-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "high",
-      "freshness": "medium",
-      "category": "general_current_fact",
-      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "operations-change-reviewer",
-      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": true,
-      "human_review_gate": true,
-      "suggested_sources": [
-        "cloud provider documentation",
-        "status page",
-        "account console"
-      ],
-      "required_reading": [
-        "wikis/nodeops-agent-wiki/AGENTS.md",
-        "wikis/nodeops-agent-wiki/manifest.yaml",
-        "wikis/nodeops-agent-wiki/README.md",
-        "wikis/nodeops-agent-wiki/rules/",
-        "wikis/nodeops-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -2270,6 +2270,144 @@
     },
     {
       "review_id": "REVIEW-SRC-015",
+      "ticket_id": "TICKET-SRC-021",
+      "task_id": "SRC-021",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "general_current_fact",
+      "topic": "current OS package, Docker, systemd and kernel behavior",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "operations-change-reviewer",
+      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": true,
+      "human_review_gate": true,
+      "suggested_sources": [
+        "official documentation",
+        "local version output",
+        "release notes"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-016",
+      "ticket_id": "TICKET-SRC-022",
+      "task_id": "SRC-022",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "technical_docs",
+      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "operations-change-reviewer",
+      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": true,
+      "human_review_gate": true,
+      "suggested_sources": [
+        "official client release notes",
+        "chain foundation announcement",
+        "node logs and version output"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-017",
+      "ticket_id": "TICKET-SRC-023",
+      "task_id": "SRC-023",
+      "wiki": "nodeops-agent-wiki",
+      "priority": "P1",
+      "wave": "wave-1",
+      "risk_level": "high",
+      "freshness": "medium",
+      "category": "general_current_fact",
+      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
+      "status": "open_pending_source_refresh",
+      "reviewer_role": "operations-change-reviewer",
+      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
+      "review_state": "unassigned_pending_source_refresh",
+      "source_collection_required": true,
+      "human_confirmation_required": true,
+      "human_review_gate": true,
+      "suggested_sources": [
+        "cloud provider documentation",
+        "status page",
+        "account console"
+      ],
+      "required_reading": [
+        "wikis/nodeops-agent-wiki/AGENTS.md",
+        "wikis/nodeops-agent-wiki/manifest.yaml",
+        "wikis/nodeops-agent-wiki/README.md",
+        "wikis/nodeops-agent-wiki/rules/",
+        "wikis/nodeops-agent-wiki/sources/source-notes.md"
+      ],
+      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
+      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
+      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
+      "review_checklist": [
+        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
+        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
+        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
+        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
+        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
+        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
+        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
+        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
+      ]
+    },
+    {
+      "review_id": "REVIEW-SRC-018",
       "ticket_id": "TICKET-SRC-008",
       "task_id": "SRC-008",
       "wiki": "health-agent-wiki",
@@ -2315,7 +2453,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-016",
+      "review_id": "REVIEW-SRC-019",
       "ticket_id": "TICKET-SRC-009",
       "task_id": "SRC-009",
       "wiki": "health-agent-wiki",
@@ -2361,7 +2499,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-017",
+      "review_id": "REVIEW-SRC-020",
       "ticket_id": "TICKET-SRC-010",
       "task_id": "SRC-010",
       "wiki": "legal-agent-wiki",
@@ -2407,7 +2545,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-018",
+      "review_id": "REVIEW-SRC-021",
       "ticket_id": "TICKET-SRC-011",
       "task_id": "SRC-011",
       "wiki": "legal-agent-wiki",
@@ -2453,7 +2591,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-019",
+      "review_id": "REVIEW-SRC-022",
       "ticket_id": "TICKET-SRC-012",
       "task_id": "SRC-012",
       "wiki": "security-agent-wiki",
@@ -2499,7 +2637,7 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-020",
+      "review_id": "REVIEW-SRC-023",
       "ticket_id": "TICKET-SRC-013",
       "task_id": "SRC-013",
       "wiki": "security-agent-wiki",
@@ -2545,9 +2683,9 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-021",
-      "ticket_id": "TICKET-SRC-021",
-      "task_id": "SRC-021",
+      "review_id": "REVIEW-SRC-024",
+      "ticket_id": "TICKET-SRC-024",
+      "task_id": "SRC-024",
       "wiki": "research-agent-wiki",
       "priority": "P2",
       "wave": "wave-1",
@@ -2577,8 +2715,8 @@
       "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-021 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -2589,9 +2727,9 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-022",
-      "ticket_id": "TICKET-SRC-022",
-      "task_id": "SRC-022",
+      "review_id": "REVIEW-SRC-025",
+      "ticket_id": "TICKET-SRC-025",
+      "task_id": "SRC-025",
       "wiki": "research-agent-wiki",
       "priority": "P2",
       "wave": "wave-1",
@@ -2621,8 +2759,8 @@
       "evidence_log": "wikis/research-agent-wiki/sources/source-refresh-log.md",
       "source_notes": "wikis/research-agent-wiki/sources/source-notes.md",
       "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-022 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
+      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
+      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\"",
       "review_checklist": [
         "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
         "Verify source authority, publication/update date, scope, and access date before recording evidence.",
@@ -2633,150 +2771,12 @@
       ]
     },
     {
-      "review_id": "REVIEW-SRC-023",
-      "ticket_id": "TICKET-SRC-023",
-      "task_id": "SRC-023",
-      "wiki": "nodeops-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "high",
-      "freshness": "medium",
-      "category": "general_current_fact",
-      "topic": "current OS package, Docker, systemd and kernel behavior",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "operations-change-reviewer",
-      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": true,
-      "human_review_gate": true,
-      "suggested_sources": [
-        "official documentation",
-        "local version output",
-        "release notes"
-      ],
-      "required_reading": [
-        "wikis/nodeops-agent-wiki/AGENTS.md",
-        "wikis/nodeops-agent-wiki/manifest.yaml",
-        "wikis/nodeops-agent-wiki/README.md",
-        "wikis/nodeops-agent-wiki/rules/",
-        "wikis/nodeops-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
-        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
-        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-024",
-      "ticket_id": "TICKET-SRC-024",
-      "task_id": "SRC-024",
-      "wiki": "nodeops-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "high",
-      "freshness": "medium",
-      "category": "technical_docs",
-      "topic": "current blockchain node client versions, network parameters and upgrade requirements",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "operations-change-reviewer",
-      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": true,
-      "human_review_gate": true,
-      "suggested_sources": [
-        "official client release notes",
-        "chain foundation announcement",
-        "node logs and version output"
-      ],
-      "required_reading": [
-        "wikis/nodeops-agent-wiki/AGENTS.md",
-        "wikis/nodeops-agent-wiki/manifest.yaml",
-        "wikis/nodeops-agent-wiki/README.md",
-        "wikis/nodeops-agent-wiki/rules/",
-        "wikis/nodeops-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-024 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
-        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
-        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
-      ]
-    },
-    {
-      "review_id": "REVIEW-SRC-025",
-      "ticket_id": "TICKET-SRC-025",
-      "task_id": "SRC-025",
-      "wiki": "nodeops-agent-wiki",
-      "priority": "P1",
-      "wave": "wave-2",
-      "risk_level": "high",
-      "freshness": "medium",
-      "category": "general_current_fact",
-      "topic": "current cloud provider limits, firewall behavior, billing and incident status",
-      "status": "open_pending_source_refresh",
-      "reviewer_role": "operations-change-reviewer",
-      "reviewer_role_description": "Checks infrastructure, deployment, install, monitoring, node, and destructive-operation evidence with rollback gates.",
-      "review_state": "unassigned_pending_source_refresh",
-      "source_collection_required": true,
-      "human_confirmation_required": true,
-      "human_review_gate": true,
-      "suggested_sources": [
-        "cloud provider documentation",
-        "status page",
-        "account console"
-      ],
-      "required_reading": [
-        "wikis/nodeops-agent-wiki/AGENTS.md",
-        "wikis/nodeops-agent-wiki/manifest.yaml",
-        "wikis/nodeops-agent-wiki/README.md",
-        "wikis/nodeops-agent-wiki/rules/",
-        "wikis/nodeops-agent-wiki/sources/source-notes.md"
-      ],
-      "evidence_log": "wikis/nodeops-agent-wiki/sources/source-refresh-log.md",
-      "source_notes": "wikis/nodeops-agent-wiki/sources/source-notes.md",
-      "packet_template_hint": "registry/source-evidence-fixtures/valid-pending-single.json",
-      "dry_run_command": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run",
-      "record_command_template": "python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title \"<source title>\" --source-publisher \"<publisher>\" --source-url-or-reference \"<url or local reference>\" --source-published-or-updated \"YYYY-MM-DD | unknown\" --evidence-summary \"<what the source supports and does not support>\" --confidence low --remaining-uncertainty \"<remaining uncertainty>\" --human-reviewer \"<reviewer>\"",
-      "review_checklist": [
-        "Read root AGENTS.md, target wiki AGENTS.md, manifest.yaml, README.md, rules/, and sources/source-notes.md.",
-        "Verify source authority, publication/update date, scope, and access date before recording evidence.",
-        "Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.",
-        "Prefer official, primary, dated sources and do not use summaries as the only authority.",
-        "Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.",
-        "Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.",
-        "Obtain explicit human confirmation before marking the ticket verified or unchanged.",
-        "Keep the high-risk domain boundary visible in the final note and require manual acceptance."
-      ]
-    },
-    {
       "review_id": "REVIEW-SRC-026",
       "ticket_id": "TICKET-SRC-026",
       "task_id": "SRC-026",
       "wiki": "agent-engineering-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
@@ -2820,7 +2820,7 @@
       "task_id": "SRC-027",
       "wiki": "agent-engineering-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
@@ -2864,7 +2864,7 @@
       "task_id": "SRC-028",
       "wiki": "agent-engineering-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
@@ -2908,7 +2908,7 @@
       "task_id": "SRC-029",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "general_current_fact",
@@ -2952,7 +2952,7 @@
       "task_id": "SRC-030",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "general_current_fact",
@@ -2996,7 +2996,7 @@
       "task_id": "SRC-031",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "security_advisory",
@@ -3040,7 +3040,7 @@
       "task_id": "SRC-032",
       "wiki": "coding-agent-wiki",
       "priority": "P0",
-      "wave": "wave-3",
+      "wave": "wave-2",
       "risk_level": "medium",
       "freshness": "medium",
       "category": "technical_docs",
