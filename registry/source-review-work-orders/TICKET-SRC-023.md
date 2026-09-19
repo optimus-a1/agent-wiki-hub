@@ -1,41 +1,41 @@
-# Source Review Work Order: TICKET-SRC-007
+# Source Review Work Order: TICKET-SRC-023
 
 Generated: 2026-09-19
 
 ## Scope
 
-- Work order: `WORKORDER-TICKET-SRC-007`
-- Ticket: `TICKET-SRC-007`
-- Task: `SRC-007`
-- Wiki: `finance-agent-wiki`
-- Priority: `P0`
+- Work order: `WORKORDER-TICKET-SRC-023`
+- Ticket: `TICKET-SRC-023`
+- Task: `SRC-023`
+- Wiki: `nodeops-agent-wiki`
+- Priority: `P1`
 - Wave: `wave-1`
 - Risk: `high`
-- Freshness: `high`
+- Freshness: `medium`
 - Category: `general_current_fact`
 - Readiness stage: `ready-for-source-collection`
-- Reviewer role: `finance-risk-reviewer`
+- Reviewer role: `operations-change-reviewer`
 - Human review gate: yes
-- Topic: latest financial statements, filings, restatements and audit opinions
+- Topic: current cloud provider limits, firewall behavior, billing and incident status
 
 ## Required Reading
 
-- `wikis/finance-agent-wiki/AGENTS.md`
-- `wikis/finance-agent-wiki/manifest.yaml`
-- `wikis/finance-agent-wiki/README.md`
-- `wikis/finance-agent-wiki/rules/`
-- `wikis/finance-agent-wiki/sources/source-notes.md`
+- `wikis/nodeops-agent-wiki/AGENTS.md`
+- `wikis/nodeops-agent-wiki/manifest.yaml`
+- `wikis/nodeops-agent-wiki/README.md`
+- `wikis/nodeops-agent-wiki/rules/`
+- `wikis/nodeops-agent-wiki/sources/source-notes.md`
 
 ## Source Targets
 
-- company investor relations
-- securities regulator filing system
-- audited annual or interim report
+- cloud provider documentation
+- status page
+- account console
 
 ## Local Artifacts
 
-- Source notes: `wikis/finance-agent-wiki/sources/source-notes.md`
-- Evidence log: `wikis/finance-agent-wiki/sources/source-refresh-log.md`
+- Source notes: `wikis/nodeops-agent-wiki/sources/source-notes.md`
+- Evidence log: `wikis/nodeops-agent-wiki/sources/source-refresh-log.md`
 - Packet JSON: `registry/source-review-packets/source-review-session-wave-1-pending.json`
 - Packet JSONL: `registry/source-review-packets/source-review-session-wave-1-pending.jsonl`
 - Packet checklist: `registry/source-review-packets/source-review-session-wave-1-pending-checklist.md`
@@ -46,7 +46,7 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 
 ```json
 {
-  "ticket_id": "TICKET-SRC-007",
+  "ticket_id": "TICKET-SRC-023",
   "status": "pending",
   "source_title": "<source title>",
   "source_publisher": "<official publisher or authority>",
@@ -89,10 +89,10 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 Run only dry-run imports until every placeholder is replaced.
 
 ```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-007 --status pending --dry-run
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-007 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
 ```
 
 ## Safety Boundary
