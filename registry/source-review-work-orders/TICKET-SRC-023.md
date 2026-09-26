@@ -1,41 +1,41 @@
-# Source Review Work Order: TICKET-SRC-019
+# Source Review Work Order: TICKET-SRC-023
 
 Generated: 2026-09-26
 
 ## Scope
 
-- Work order: `WORKORDER-TICKET-SRC-019`
-- Ticket: `TICKET-SRC-019`
-- Task: `SRC-019`
-- Wiki: `ecommerce-agent-wiki`
+- Work order: `WORKORDER-TICKET-SRC-023`
+- Ticket: `TICKET-SRC-023`
+- Task: `SRC-023`
+- Wiki: `nodeops-agent-wiki`
 - Priority: `P1`
 - Wave: `wave-1`
-- Risk: `medium`
-- Freshness: `high`
+- Risk: `high`
+- Freshness: `medium`
 - Category: `general_current_fact`
 - Readiness stage: `ready-for-source-collection`
-- Reviewer role: `ecommerce-policy-reviewer`
-- Human review gate: no
-- Topic: current product certification, recall, safety notice and warranty terms
+- Reviewer role: `operations-change-reviewer`
+- Human review gate: yes
+- Topic: current cloud provider limits, firewall behavior, billing and incident status
 
 ## Required Reading
 
-- `wikis/ecommerce-agent-wiki/AGENTS.md`
-- `wikis/ecommerce-agent-wiki/manifest.yaml`
-- `wikis/ecommerce-agent-wiki/README.md`
-- `wikis/ecommerce-agent-wiki/rules/`
-- `wikis/ecommerce-agent-wiki/sources/source-notes.md`
+- `wikis/nodeops-agent-wiki/AGENTS.md`
+- `wikis/nodeops-agent-wiki/manifest.yaml`
+- `wikis/nodeops-agent-wiki/README.md`
+- `wikis/nodeops-agent-wiki/rules/`
+- `wikis/nodeops-agent-wiki/sources/source-notes.md`
 
 ## Source Targets
 
-- brand official website
-- regulator recall database
-- warranty document
+- cloud provider documentation
+- status page
+- account console
 
 ## Local Artifacts
 
-- Source notes: `wikis/ecommerce-agent-wiki/sources/source-notes.md`
-- Evidence log: `wikis/ecommerce-agent-wiki/sources/source-refresh-log.md`
+- Source notes: `wikis/nodeops-agent-wiki/sources/source-notes.md`
+- Evidence log: `wikis/nodeops-agent-wiki/sources/source-refresh-log.md`
 - Packet JSON: `registry/source-review-packets/source-review-session-wave-1-pending.json`
 - Packet JSONL: `registry/source-review-packets/source-review-session-wave-1-pending.jsonl`
 - Packet checklist: `registry/source-review-packets/source-review-session-wave-1-pending-checklist.md`
@@ -46,7 +46,7 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 
 ```json
 {
-  "ticket_id": "TICKET-SRC-019",
+  "ticket_id": "TICKET-SRC-023",
   "status": "pending",
   "source_title": "<source title>",
   "source_publisher": "<official publisher or authority>",
@@ -58,7 +58,7 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
   "affected_pages": [],
   "confidence": "low",
   "remaining_uncertainty": "<remaining uncertainty>",
-  "human_reviewer": "",
+  "human_reviewer": "<reviewer>",
   "follow_up": "Keep needs-source-update unless the evidence is authoritative, dated, scoped, and reviewed."
 }
 ```
@@ -73,21 +73,26 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 - [ ] Replace every placeholder before any non-dry-run packet import.
 - [ ] Do not record API keys, private keys, cookies, seed phrases, credentials, bearer tokens, or private account data.
 - [ ] Do not write current facts into wiki pages until evidence logs, quality audit, completion audit, acceptance, and package checks pass.
+- [ ] Name a human reviewer before marking this ticket verified or unchanged.
+- [ ] Keep the relevant high-risk boundary visible in the evidence summary.
+- [ ] Do not use this work order as permission for autonomous finance, legal, medical, security, Web3, or production operations.
 - [ ] Verify source authority, publication/update date, scope, and access date before recording evidence.
 - [ ] Confirm the source supports the exact ticket topic; put unsupported parts in remaining uncertainty.
 - [ ] Prefer official, primary, dated sources and do not use summaries as the only authority.
 - [ ] Do not record API keys, private keys, cookies, seed phrases, credentials, or private account data.
 - [ ] Do not move current facts into stable wiki pages until ticket evidence, audits, and package checks pass.
+- [ ] Obtain explicit human confirmation before marking the ticket verified or unchanged.
+- [ ] Keep the high-risk domain boundary visible in the final note and require manual acceptance.
 
 ## Commands
 
 Run only dry-run imports until every placeholder is replaced.
 
 ```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status pending --dry-run
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-023 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>" --human-reviewer "<reviewer>"
 ```
 
 ## Safety Boundary

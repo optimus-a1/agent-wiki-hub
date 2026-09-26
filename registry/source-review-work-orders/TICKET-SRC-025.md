@@ -1,41 +1,41 @@
-# Source Review Work Order: TICKET-SRC-019
+# Source Review Work Order: TICKET-SRC-025
 
 Generated: 2026-09-26
 
 ## Scope
 
-- Work order: `WORKORDER-TICKET-SRC-019`
-- Ticket: `TICKET-SRC-019`
-- Task: `SRC-019`
-- Wiki: `ecommerce-agent-wiki`
-- Priority: `P1`
+- Work order: `WORKORDER-TICKET-SRC-025`
+- Ticket: `TICKET-SRC-025`
+- Task: `SRC-025`
+- Wiki: `research-agent-wiki`
+- Priority: `P2`
 - Wave: `wave-1`
 - Risk: `medium`
 - Freshness: `high`
 - Category: `general_current_fact`
 - Readiness stage: `ready-for-source-collection`
-- Reviewer role: `ecommerce-policy-reviewer`
+- Reviewer role: `research-methods-reviewer`
 - Human review gate: no
-- Topic: current product certification, recall, safety notice and warranty terms
+- Topic: latest papers, preprints, revisions, citations and benchmark leaderboards
 
 ## Required Reading
 
-- `wikis/ecommerce-agent-wiki/AGENTS.md`
-- `wikis/ecommerce-agent-wiki/manifest.yaml`
-- `wikis/ecommerce-agent-wiki/README.md`
-- `wikis/ecommerce-agent-wiki/rules/`
-- `wikis/ecommerce-agent-wiki/sources/source-notes.md`
+- `wikis/research-agent-wiki/AGENTS.md`
+- `wikis/research-agent-wiki/manifest.yaml`
+- `wikis/research-agent-wiki/README.md`
+- `wikis/research-agent-wiki/rules/`
+- `wikis/research-agent-wiki/sources/source-notes.md`
 
 ## Source Targets
 
-- brand official website
-- regulator recall database
-- warranty document
+- publisher page
+- arXiv or conference page
+- official benchmark leaderboard
 
 ## Local Artifacts
 
-- Source notes: `wikis/ecommerce-agent-wiki/sources/source-notes.md`
-- Evidence log: `wikis/ecommerce-agent-wiki/sources/source-refresh-log.md`
+- Source notes: `wikis/research-agent-wiki/sources/source-notes.md`
+- Evidence log: `wikis/research-agent-wiki/sources/source-refresh-log.md`
 - Packet JSON: `registry/source-review-packets/source-review-session-wave-1-pending.json`
 - Packet JSONL: `registry/source-review-packets/source-review-session-wave-1-pending.jsonl`
 - Packet checklist: `registry/source-review-packets/source-review-session-wave-1-pending-checklist.md`
@@ -46,7 +46,7 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 
 ```json
 {
-  "ticket_id": "TICKET-SRC-019",
+  "ticket_id": "TICKET-SRC-025",
   "status": "pending",
   "source_title": "<source title>",
   "source_publisher": "<official publisher or authority>",
@@ -84,10 +84,10 @@ Replace every placeholder before any real import. Leave `status` as `pending` un
 Run only dry-run imports until every placeholder is replaced.
 
 ```bash
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status pending --dry-run
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status pending --dry-run
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.json --dry-run --no-post-checks
 python3 scripts/import_source_evidence_packet.py --packet registry/source-review-packets/source-review-session-wave-1-pending.jsonl --dry-run --no-post-checks
-python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-019 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
+python3 scripts/record_source_evidence.py --ticket-id TICKET-SRC-025 --status still-needs-source-update --source-title "<source title>" --source-publisher "<publisher>" --source-url-or-reference "<url or local reference>" --source-published-or-updated "YYYY-MM-DD | unknown" --evidence-summary "<what the source supports and does not support>" --confidence low --remaining-uncertainty "<remaining uncertainty>"
 ```
 
 ## Safety Boundary
