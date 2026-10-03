@@ -129,7 +129,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -528,7 +528,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"agent-engineering-wiki MOC\" wiki: \"agent-engineering-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # agent-engineering-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Agent Architecture](concept"
+      "preview": "--- title: \"agent-engineering-wiki MOC\" wiki: \"agent-engineering-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # agent-engineering-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Agent Architecture](concept"
     },
     {
       "id": "35b50bc9944a",
@@ -24517,7 +24517,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -24847,7 +24847,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"airdrop-agent-wiki MOC\" wiki: \"airdrop-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # airdrop-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Approval Hygiene](concepts/approval-hyg"
+      "preview": "--- title: \"airdrop-agent-wiki MOC\" wiki: \"airdrop-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # airdrop-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Approval Hygiene](concepts/approval-hyg"
     },
     {
       "id": "94194068b4db",
@@ -44505,7 +44505,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -44858,7 +44858,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"coding-agent-wiki MOC\" wiki: \"coding-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # coding-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [API Contract Thinking](concepts/api-contra"
+      "preview": "--- title: \"coding-agent-wiki MOC\" wiki: \"coding-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # coding-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [API Contract Thinking](concepts/api-contra"
     },
     {
       "id": "972e4f4d72f5",
@@ -66495,7 +66495,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -66762,7 +66762,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"content-agent-wiki MOC\" wiki: \"content-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # content-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Audience And Format Fit](concepts/audie"
+      "preview": "--- title: \"content-agent-wiki MOC\" wiki: \"content-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # content-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Audience And Format Fit](concepts/audie"
     },
     {
       "id": "c7fc71bb71b6",
@@ -82265,7 +82265,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -82612,7 +82612,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"customs-agent-wiki MOC\" wiki: \"customs-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # customs-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Amount Currency Consistency](concepts/a"
+      "preview": "--- title: \"customs-agent-wiki MOC\" wiki: \"customs-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # customs-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Amount Currency Consistency](concepts/a"
     },
     {
       "id": "fd9236d4bfc6",
@@ -103562,7 +103562,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -103839,7 +103839,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"ecommerce-agent-wiki MOC\" wiki: \"ecommerce-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # ecommerce-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Attribute Normalization](concepts"
+      "preview": "--- title: \"ecommerce-agent-wiki MOC\" wiki: \"ecommerce-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # ecommerce-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Attribute Normalization](concepts"
     },
     {
       "id": "1102b1b4def0",
@@ -119549,7 +119549,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -119951,7 +119951,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"finance-agent-wiki MOC\" wiki: \"finance-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # finance-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Financial Analysis Foundations](concept"
+      "preview": "--- title: \"finance-agent-wiki MOC\" wiki: \"finance-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # finance-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Financial Analysis Foundations](concept"
     },
     {
       "id": "f9ca002b2a14",
@@ -146271,7 +146271,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -146515,7 +146515,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"health-agent-wiki MOC\" wiki: \"health-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # health-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Clinician Review Role](concepts/clinician-"
+      "preview": "--- title: \"health-agent-wiki MOC\" wiki: \"health-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # health-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Clinician Review Role](concepts/clinician-"
     },
     {
       "id": "311fbc695c4e",
@@ -159828,7 +159828,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -160074,7 +160074,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"legal-agent-wiki MOC\" wiki: \"legal-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # legal-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Contract Clause Function](concepts/contract-c"
+      "preview": "--- title: \"legal-agent-wiki MOC\" wiki: \"legal-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # legal-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Contract Clause Function](concepts/contract-c"
     },
     {
       "id": "b0a3659b889e",
@@ -173950,7 +173950,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -174333,7 +174333,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"nodeops-agent-wiki MOC\" wiki: \"nodeops-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # nodeops-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Blockchain Node Health Signals](concept"
+      "preview": "--- title: \"nodeops-agent-wiki MOC\" wiki: \"nodeops-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # nodeops-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Blockchain Node Health Signals](concept"
     },
     {
       "id": "6482c4d6d816",
@@ -192009,6 +192009,42 @@
         "refresh",
         "tasks",
         "-",
+        "src-024",
+        "wave",
+        "wave-2",
+        "priority",
+        "7",
+        "human_confirmation",
+        "yes",
+        "topic",
+        "current",
+        "blockchain",
+        "node",
+        "client",
+        "versions",
+        "network",
+        "parameters",
+        "upgrade",
+        "requirements",
+        "-",
+        "src-025",
+        "wave",
+        "wave-2",
+        "priority",
+        "7",
+        "human_confirmation",
+        "yes",
+        "topic",
+        "current",
+        "cloud",
+        "provider",
+        "limits",
+        "firewall",
+        "behavior",
+        "billing",
+        "incident",
+        "status",
+        "-",
         "src-021",
         "wave",
         "wave-2",
@@ -197100,7 +197136,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -197413,7 +197449,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"research-agent-wiki MOC\" wiki: \"research-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # research-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Benchmark Interpretation](concepts/b"
+      "preview": "--- title: \"research-agent-wiki MOC\" wiki: \"research-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # research-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Benchmark Interpretation](concepts/b"
     },
     {
       "id": "c5d267091efd",
@@ -212812,6 +212848,40 @@
         "refresh",
         "tasks",
         "-",
+        "src-021",
+        "wave",
+        "wave-1",
+        "priority",
+        "8",
+        "human_confirmation",
+        "no",
+        "topic",
+        "current",
+        "dataset",
+        "availability",
+        "license",
+        "model",
+        "weights",
+        "code",
+        "repository",
+        "status",
+        "-",
+        "src-022",
+        "wave",
+        "wave-1",
+        "priority",
+        "8",
+        "human_confirmation",
+        "no",
+        "topic",
+        "latest",
+        "papers",
+        "preprints",
+        "revisions",
+        "citations",
+        "benchmark",
+        "leaderboards",
+        "-",
         "src-024",
         "wave",
         "wave-2",
@@ -216419,7 +216489,7 @@
         "generated_by",
         "codex",
         "generated_on",
-        "2026-06-16",
+        "2026-06-30",
         "agent_use",
         "true",
         "tags",
@@ -216790,7 +216860,7 @@
         "evals",
         "stable-knowledge-evals.yaml"
       ],
-      "preview": "--- title: \"security-agent-wiki MOC\" wiki: \"security-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-16 agent_use: true tags: - agent-wiki - stable-knowledge --- # security-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Asset Exposure Model](concepts/asset"
+      "preview": "--- title: \"security-agent-wiki MOC\" wiki: \"security-agent-wiki\" type: moc status: stable-general-knowledge source_status: model-synthesized-stable current_fact: false requires_source_review: false requires_human_review: false risk_level: medium generated_by: codex generated_on: 2026-06-30 agent_use: true tags: - agent-wiki - stable-knowledge --- # security-agent-wiki MOC This root map links stable wiki pages. It does not certify current facts. ## Concepts - [Asset Exposure Model](concepts/asset"
     },
     {
       "id": "c4042ad46cae",
