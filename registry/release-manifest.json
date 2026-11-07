@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-11-07",
   "release_name": "Agent Wiki Hub Knowledge Pack Release",
   "ready_for_internal_release": true,
   "blocking_audits_passed": true,
@@ -25,18 +25,18 @@
   "source_reviewer_queue_available": true,
   "source_reviewer_queue_human_gate_count": 16,
   "source_review_session_plan_available": true,
-  "source_review_session_selected_count": 22,
-  "source_review_session_human_gate_count": 13,
+  "source_review_session_selected_count": 25,
+  "source_review_session_human_gate_count": 16,
   "source_review_readiness_matrix_available": true,
-  "source_review_readiness_ready_count": 22,
-  "source_review_readiness_queued_count": 13,
+  "source_review_readiness_ready_count": 25,
+  "source_review_readiness_queued_count": 10,
   "source_review_work_orders_available": true,
-  "source_review_work_order_count": 22,
-  "source_review_work_order_human_gate_count": 13,
+  "source_review_work_order_count": 25,
+  "source_review_work_order_human_gate_count": 16,
   "source_review_post_import_completed": false,
   "source_review_packet_bundle_available": true,
-  "source_review_packet_bundle_entry_count": 22,
-  "source_review_packet_bundle_human_gate_count": 13,
+  "source_review_packet_bundle_entry_count": 25,
+  "source_review_packet_bundle_human_gate_count": 16,
   "source_review_packet_audit_passed": true,
   "source_review_packet_audit_packet_count": 2,
   "source_review_packet_audit_issue_count": 0,
@@ -53,9 +53,9 @@
   "source_evidence_quality_passed": true,
   "source_refresh_dashboard_available": true,
   "source_refresh_wave_counts": {
-    "wave-1": 22,
-    "wave-2": 3,
-    "wave-3": 10
+    "wave-1": 25,
+    "wave-2": 7,
+    "wave-3": 3
   },
   "source_refresh_log_count": 12,
   "change_summary_available": true,
@@ -64,10 +64,9 @@
   "agent_handoff_available": true,
   "source_evidence_recorder_available": true,
   "source_update_priority_counts": {
-    "5": 3,
-    "6": 7,
-    "7": 3,
-    "8": 9,
+    "6": 3,
+    "7": 7,
+    "8": 12,
     "9": 13
   },
   "top_source_update_topics": [
@@ -84,7 +83,7 @@
         "wallet security warning"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -102,7 +101,7 @@
         "official announcement channel"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -120,7 +119,7 @@
         "primary funding disclosure"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -138,7 +137,7 @@
         "broker or custodian fee schedule"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -156,7 +155,7 @@
         "official product documents"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -174,7 +173,7 @@
         "timestamped raw dataset"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -192,7 +191,7 @@
         "audited annual or interim report"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -210,7 +209,7 @@
         "professional clinical guideline"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -228,7 +227,7 @@
         "licensed clinician review"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -246,7 +245,7 @@
         "counsel-approved template"
       ],
       "last_checked": "2026-05-27",
-      "age_days": 34,
+      "age_days": 164,
       "review_window_days": 30,
       "is_stale": true,
       "priority_score": 9
@@ -298,8 +297,8 @@
     {
       "name": "packs",
       "passed": true,
-      "total": 653,
-      "passed_count": 653,
+      "total": 656,
+      "passed_count": 656,
       "failed_count": 0
     },
     {
@@ -434,7 +433,7 @@
       "name": "agent-engineering-wiki.zip",
       "path": "packs/agent-engineering-wiki.zip",
       "size_bytes": 94742,
-      "sha256": "a6ddf8915c10ddac332dd80fb5a899cf52103cf342ccbcd1fe5cdacb0ec071c9"
+      "sha256": "7ab784acd053e0fd44fc5aedabc1a088b00746940f7b8d3aac933f8cf9eeb744"
     },
     {
       "name": "agent-wiki-hub-all.zip",
@@ -446,68 +445,68 @@
     {
       "name": "airdrop-agent-wiki.zip",
       "path": "packs/airdrop-agent-wiki.zip",
-      "size_bytes": 76467,
-      "sha256": "e16c2074795b8789cdfcf1da1cf5ba14cec19115fc3ad656b8390cccfc224e84"
+      "size_bytes": 76468,
+      "sha256": "65036e6a71487d23ae44da12fd679ef58d5188c9c2f7d5a374a0134aa1909a62"
     },
     {
       "name": "coding-agent-wiki.zip",
       "path": "packs/coding-agent-wiki.zip",
       "size_bytes": 85048,
-      "sha256": "1188f39f52b1b0e74d749ff821ca96c2ec60978d225af08e48771bfbc18ae2f2"
+      "sha256": "d8f723b856de8772caaa9da3cd672ef7aa2417c47e7f6faf7b98905d57e83cee"
     },
     {
       "name": "content-agent-wiki.zip",
       "path": "packs/content-agent-wiki.zip",
-      "size_bytes": 61499,
-      "sha256": "8cab8af83fd7285ef06f9aa4425977bb72b27ba7af932583722c126498ed3c63"
+      "size_bytes": 61500,
+      "sha256": "06d38a031bdf69315c5e359d04c1a7e5cfd6af75db7a35a6a37e30b367020997"
     },
     {
       "name": "customs-agent-wiki.zip",
       "path": "packs/customs-agent-wiki.zip",
       "size_bytes": 81439,
-      "sha256": "1ba37f8ba67d2adede515ad4af236f14fefd0e49cc07f5c06d3ab055c3a67000"
+      "sha256": "f6cd15c5c8536e83dbe8c4cd24d1301ec688903cbe4f18ae6d51cc66a6c591f5"
     },
     {
       "name": "ecommerce-agent-wiki.zip",
       "path": "packs/ecommerce-agent-wiki.zip",
       "size_bytes": 62061,
-      "sha256": "e3af19cf5f30120de1054c65a2dbbec4be74f3f346d3da3acc5b1f8eee208c56"
+      "sha256": "cc28a55458526ff5872bf390a8babca55f2ae7897c98b8ef33c112066daaf351"
     },
     {
       "name": "finance-agent-wiki.zip",
       "path": "packs/finance-agent-wiki.zip",
       "size_bytes": 100631,
-      "sha256": "08525ccc6727217c59763d90ebafa893e8f716b89f41dce00203164604a579c2"
+      "sha256": "96fe0ea26cfa6f41f4e354c21b5f797e6d1703eb74a8723d49be6f3f41469faf"
     },
     {
       "name": "health-agent-wiki.zip",
       "path": "packs/health-agent-wiki.zip",
       "size_bytes": 52904,
-      "sha256": "78ca4bf363bb09b4a478568878b765b191ff93055ab3cfdfe1a3b01bf6e5244d"
+      "sha256": "13dbdf972ea45a305348eaa24cefd23aa784e7026900d7db4280d3c082afe30c"
     },
     {
       "name": "legal-agent-wiki.zip",
       "path": "packs/legal-agent-wiki.zip",
       "size_bytes": 55023,
-      "sha256": "12f11b92b5ec49659bb5536099d9f606f3c7c024c86c1cc313909c490fc79629"
+      "sha256": "f26e29fdc71946b46e2eee088037fe8f784ca554684b876f1cb709506ad883a8"
     },
     {
       "name": "nodeops-agent-wiki.zip",
       "path": "packs/nodeops-agent-wiki.zip",
       "size_bytes": 90030,
-      "sha256": "d58e64ca14e3e88e65bcd6b716d94b9abbde92c80d3c3008f79e3a9acf9d8fee"
+      "sha256": "6ee9dbea86df89a2b6ccf3e7be668e9be387ceb673dc91ccc3e6ede6d8c755cd"
     },
     {
       "name": "research-agent-wiki.zip",
       "path": "packs/research-agent-wiki.zip",
       "size_bytes": 76553,
-      "sha256": "360ff7e83512cc540d67631149a8bf50bf79726413c2acd17049f60ba5443629"
+      "sha256": "642c058e279e9112dcd37c4fa63995f0e64ac4df6177beefb097c61055430829"
     },
     {
       "name": "security-agent-wiki.zip",
       "path": "packs/security-agent-wiki.zip",
       "size_bytes": 88351,
-      "sha256": "90d578500b7bc91bc0cc99a2dfd351177df81f968804d18aff69121bc66d4fe3"
+      "sha256": "e841b7587a2b73734505aeaedcb05598f079fc2e83b42c21dcde998166901e16"
     }
   ]
 }
