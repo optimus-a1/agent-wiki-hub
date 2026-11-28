@@ -1,6 +1,6 @@
 # Knowledge Density Audit
 
-Generated: 2026-06-30
+Generated: 2026-11-28
 
 - Passed: True
 
